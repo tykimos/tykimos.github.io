@@ -1,7 +1,7 @@
 # Site settings
 title: 김태영의 케라스 블로그
 motto: 케라스, 그 간결함에 빠지다
-email: tykim@inspace.re.kr
+email: adam.tykim@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Keras, deep learning, MLP, CNN, RNN, LSTM, 케라스, 딥러닝, 다층 퍼셉트론, 컨볼루션 신경망, 순환 신경망, 강좌, DL, RL, Relation Network
 baseurl: "/Keras" # the subpath of your site, e.g. /blog/
