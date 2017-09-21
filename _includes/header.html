@@ -1,0 +1,65 @@
+<header class="header">
+	<div class="header-container">
+		<div class="nav">
+			{% if page.path == "index.html" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/index.html" | prepend: site.baseurl }}">전체 글</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/index.html" | prepend: site.baseurl }}">전체 글</a>
+				</li>			
+			{% endif %}
+			{% if page.path == "lecture.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스 강좌</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스 강좌</a>
+				</li>			
+			{% endif %}
+				<li>
+					<a href="https://www.facebook.com/groups/KerasKorea/">@케라스 코리아</a>
+				</li>				
+			{% if page.path == "DeepBrickStudio.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/DeepBrickStudio" | prepend: site.baseurl }}">딥브릭 스튜디오</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/DeepBrickStudio" | prepend: site.baseurl }}">딥브릭 스튜디오</a>
+				</li>			
+			{% endif %}			
+			{% if page.path == "study.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/study" | prepend: site.baseurl }}">딥러닝 공부</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/study" | prepend: site.baseurl }}">딥러닝 공부</a>
+				</li>			
+			{% endif %}					
+			{% if page.path == "about.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/about" | prepend: site.baseurl }}">소개</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/about" | prepend: site.baseurl }}">소개</a>
+				</li>			
+			{% endif %}			
+		</div>
+		<div class="description"> {{ site.motto }} </div>			
+	</div>
+</header>
