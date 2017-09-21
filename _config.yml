@@ -1,26 +1,26 @@
 # Site settings
 title: 김태영의 케라스 블로그
 motto: 케라스, 그 간결함에 빠지다
-email: tykimo@me.com
+email: tykim@inspace.re.kr
 description: > # this means to ignore newlines until "baseurl:"
   Keras, deep learning, MLP, CNN, RNN, LSTM, 케라스, 딥러닝, 다층 퍼셉트론, 컨볼루션 신경망, 순환 신경망, 강좌, DL, RL, Relation Network
 baseurl: "/Keras" # the subpath of your site, e.g. /blog/
-url: "http://tykimos.github.io/Keras" # the base hostname & protocol for your site
+url: "http://tykimos.github.io" # the base hostname & protocol for your site
 tags: [Keras, deep learning, MLP, CNN, RNN, LSTM, 케라스, 딥러닝, 다층 퍼셉트론, 컨볼루션 신경망, 순환 신경망, 강좌, DL, RL, Relation Network]
 
 github_username: tykimos
 permalink: /:year/:month/:day/:title/
 # this is the url root of the view source link on the footer page.
-viewsourceroot: https://github.com/tykimos/Keras
+viewsourceroot: https://github.com/tykimos
 # this is the url root of the create page link on the footer page.
-newsourceroot: https://github.com/tykimos/Keras
+newsourceroot: https://github.com/tykimos
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
 #duoshuo_shortname: lixizhi
 #duoshuo_url: "http://lixizhi.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
 disqus_shortname: tykimos
-disqus_url: "http://tykimos.github.io/Keras/"
+disqus_url: "http://tykimos.github.io"
 #########################################
 
 author:
