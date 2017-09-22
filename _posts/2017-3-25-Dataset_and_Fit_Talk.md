@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-03-25 12:00:00
 categories: Keras
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_plot3.png
+image: http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_plot3.png
 ---
 딥러닝 모델을 학습시키려면 데이터셋이 필요합니다. 풀고자 하는 문제 및 만들고자 하는 모델에 따라 데이터셋 설계도 달라집니다. 데이터셋을 어떻게 구성하고 모델을 어떻게 검증할 지 알아보겠습니다.
 
@@ -19,19 +19,19 @@ image: http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_
 - 학생 3명 : 모델 3개
 - 올해 수능 문제 : 실제 데이터 (아직 보지 못한 데이터)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_3.png)
+![img](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_3.png)
 
 참고로 '학습'의 의미는 문제와 해답지를 같이 준 후 문제 푼 뒤 정답과 맞추어서 학습을 하라는 것이고, '평가'의 의미는 문제만 주고 풀게한 뒤 맞는 지 틀린 지 점수만 계산하는 것입니다. 이 과정에서는 학생이 풀이과정을 보지 않고 점수만 매기는 것과 동일하기 때문에 학습이 일어나지 않습니다.
 
 #### 경우 1
 올해 수능을 가장 볼 수 있는 학생을 고르는 가장 쉬운 방법은 무엇일까요? 바로 올해 수능 문제로 시험 쳐서 점수가 가장 높은 학생을 고르면 됩니다. 하지만 안타깝게도 올해 수능 문제를 수능 전에 알아낼 수 없습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_4.png)
+![img](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_4.png)
 
 #### 경우 2
 그럼 모의고사 5회분을 학습시킨 뒤 작년 수능 문제로 평가해서 가장 점수가 높은 학생을 고를까요? 작년 수능 문제로 점수가 높다고 해서 올해 수능도 점수가 높은지는 장담은 못하지만 그나마 해볼 수 있는 평가 방법입니다. 여기서 공정한 평가를 위해서 작년 수능 문제는 학생들에게 학습시키면 안 됩니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_5.png)
+![img](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_5.png)
 
 #### 경우 3
 학생들이 스스로 학습 상태를 확인하고 학습 방법을 바꾸거나 학습을 중단하는 시점을 정할 수 없을까요? 이를 위해서 검증셋이 필요합니다. 학습할 때는 모의고사 1회~4회만 사용하고, 모의고사 5회분을 검증셋으로 두어 학습할 때는 사용하지 않습니다. 이 방식은 두 가지 효과를 얻을 수 있습니다. 
@@ -39,11 +39,11 @@ image: http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_
 
     검증셋이 있다면 스스로 평가하면서 적절한 학습방법을 찾아볼 수 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_6.png)
+![img](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_6.png)
 
 두번째로 얼마정도 반복 학습이 좋을 지를 정하기 위해서 검증셋을 사용할 수 있습니다. 훈련셋을 몇 번 반복해서 학습할 것인가를 정하는 것이 에포크(epochs)라고 했습니다. 초기에는 에포크가 증가될수록 검증셋의 평가 결과도 좋아집니다. 아래 그래프에서 세로축이 100문항 중 틀린 개수이고, 가로축이 모의고사 풀이 반복횟수입니다. 앞서 설명했듯이 풀이를 반복할수록 훈련셋(모의고사 1회~4회)에서는 틀린 개수가 적어짐을 보실 수 있습니다. 
 
-![plot](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_plot2.png)
+![plot](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_plot2.png)
 
 이 상태는 아직 학습이 덜 된 상태 즉 학습을 더 하면 성능이 높아질 가능성이 있는 상태입니다. 이를 `언더피팅(underfitting)`이라고 합니다. 담임선생님 입장에서 학생들을 평생 반복 학습만 시킬 수 없으므로 (하교도 해야하고, 퇴근도 해야하고) 학생들의 학습 상태를 보면서 '아직 학습이 덜 되었으니 계속 반복하도록!' 또는 '충분히 학습했으니 그만해도 돼' 라는 판단을 내려야 합니다. 그 판단 기준이 무엇일까요? 에포크를 계속 증가시키다보면 더 이상 검증셋의 평가는 높아지지 않고 오버피팅이 되어 오히려 틀린 개수가 많아집니다. 이 시점이 적정 반복 횟수로 보고 학습을 중단합니다. 이를 `조기종료(early stopping)`이라고 합니다. 
 
@@ -51,7 +51,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_
     
 아래 그래프에서는 11번 반복했을 때 이 현상이 나타났습니다. 
 
-![plot](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_plot3.png)
+![plot](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_plot3.png)
 
 #### 경우 4
 
@@ -71,7 +71,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_
 
 다섯 번의 검증결과를 평균 내어 이 평균값으로 성능을 정의합니다. 검증결과의 분산도 의미가 있을 것 같습니다. 검증셋이 다르다고 해서 결과가 많이 차이나는 것보다 평균이 낮더라도 안정적인 결과를 내는 것이 더 좋은 모델일 수 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_7.png)
+![img](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_7.png)
 
 단 교차검증은 계산량이 많기 때문에 데이터수가 많지 않을 때 사용하며, 딥러닝 모델은 대량의 데이터를 사용하므로 잘 사용하지 않는다고 합니다. 
 
@@ -87,7 +87,7 @@ Q2) 교차검증 시에 검증셋을 바꿀 때 마다 학습된 상태를 초�
 
 A2) 맞습니다. 첫번째 검증 시 모의고사 5회를 사용하였고, 두번째 검증 시 모의고사 4회를 사용할 경우, 첫번째 검증 시에 모의고사 1회~4회를 학습한 상태이기 때문에 만약 초기화하지 않으면 두번째 검증 시에 이미 모의고사 4회를 학습한 상태에서 검증하기 때문에 공정한 평가라고 보기 힘듭니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-3-25-Dataset_and_Fit_Talk_8.png)
+![img](http://tykimos.github.io/warehouse/2017-3-25-Dataset_and_Fit_Talk_8.png)
 
 ---
 

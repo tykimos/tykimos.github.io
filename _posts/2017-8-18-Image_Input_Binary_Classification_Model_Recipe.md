@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-18 02:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_title_m.png
+image: http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_title_m.png
 ---
 영상을 입력해서 이진분류할 수 있는 모델들에 대해서 알아보겠습니다. 숫자 손글씨 데이터셋인 MNIST을 이용하여 홀수/짝수를 구분을 위한 데이터셋을 생성해보고,  다층퍼셉트론 및 컨볼루션 신경망 모델을 구성 및 학습 시켜보겠습니다. 이 모델은 임의의 영상으로부터 A와 B를 구분하는 문제나 양성과 음성을 구분하는 문제를 풀 수 있습니다. 아래 문제들에 활용 기대해봅니다.
 * 입력된 얼굴 사진에 남자인지 여자인지 구분
@@ -77,7 +77,7 @@ for i in range(plt_row*plt_col):
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_11_0.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_11_0.png)
 
 ---
 ### 레이어 준비
@@ -86,8 +86,8 @@ plt.show()
 
 |블록|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Dropout_1D_s.png)|Dropout|과적합을 방지하기 위해서 학습 시에 지정된 비율만큼 임의의 입력 뉴런(1차원)을 제외시킵니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Dropout_2D_s.png)|Dropout|과적합을 방지하기 위해서 학습 시에 지정된 비율만큼 임의의 입력 뉴런(2차원)을 제외시킵니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Dropout_1D_s.png)|Dropout|과적합을 방지하기 위해서 학습 시에 지정된 비율만큼 임의의 입력 뉴런(1차원)을 제외시킵니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Dropout_2D_s.png)|Dropout|과적합을 방지하기 위해서 학습 시에 지정된 비율만큼 임의의 입력 뉴런(2차원)을 제외시킵니다.|
 
 ---
 ### 모델 준비
@@ -102,7 +102,7 @@ plt.show()
     model.add(Dense(256, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_0m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_0m.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -115,7 +115,7 @@ plt.show()
     model.add(Dense(256, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_1m.png)
 
 #### 깊은 컨볼루션 신경망 모델
 
@@ -133,7 +133,7 @@ plt.show()
     model.add(Dropout(0.5))
     model.add(Dense(1, activation='sigmoid'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_2m.png)    
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_2m.png)    
 
 ---
 ### 전체 소스
@@ -272,7 +272,7 @@ plt.show()
 
 시험셋으로 예측한 결과 일부를 비교해봤습니다. 25개 샘플 중 9번째 샘플을 제외하고는 모두 맞췄습니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_16_4.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_16_4.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -408,7 +408,7 @@ plt.show()
 
 시험셋으로 예측한 결과 일부를 비교해봤습니다. '다층퍼셉트론 신경망 모델'과 마찬가지로 25개 샘플 중 9번째 샘플을 제외하고는 모두 맞췄습니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_18_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_18_3.png)
 
 #### 깊은 컨볼루션 신경망 모델
 
@@ -551,7 +551,7 @@ plt.show()
 
 시험셋으로 예측한 결과 일부를 비교해봤습니다. 이전 모델에선 틀렸던 9번째 샘플도 맞췄습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_20_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_20_3.png)
 
 ---
 
@@ -561,7 +561,7 @@ plt.show()
 
 |다층퍼셉트론 신경망 모델|컨볼루션 신경망 모델|깊은 컨볼루션 신경망 모델|
 |:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_16_2.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_18_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_20_1.png)
+|![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_16_2.png)|![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_18_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_output_20_1.png)
 
 ---
 
@@ -569,7 +569,7 @@ plt.show()
 
 영상를 입력하여 이진분류하는 다층퍼셉트론 신경망 모델, 컨볼루션 신경망 모델, 깊은 컨볼루션 신경망 모델을 살펴보고 그 성능을 확인 해봤습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_title_m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Binary_Classification_Model_Recipe_title_m.png)
 
 ---
 

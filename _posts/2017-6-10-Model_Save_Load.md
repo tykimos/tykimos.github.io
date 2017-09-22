@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-06-10 23:10:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-6-10-Model_Load_Save_1.png
+image: http://tykimos.github.io/warehouse/2017-6-10-Model_Load_Save_1.png
 ---
 몇시간 동안 (또는 며칠 동안) 딥러닝 모델을 학습 시킨 후 만족할만한 결과를 얻었다면, 실무에 바로 적용시키고 싶으실 겁니다. 이 때 떠오르는 의문 중 하나가 "딥러닝 모델을 사용하려면 매번 이렇게 몇시간 동안 학습시켜야 되는 거야?"입니다. 대답은 "아니오" 입니다. 딥러닝 모델을 학습시킨다는 의미는 딥러닝 모델이 가지고 있는 뉴런들의 가중치(weight)을 조정한다는 의미이고, 우리는 모델 구성과 가중치만 저장만 해놓으면, 필요할 때 저장한 모델 구성과 가중치를 불러와서 사용하면 됩니다. 간단한 딥러닝 모델의 구성 및 가중치를 저장 및 불러오는 방법에 대해서 알아보겠습니다.
 
@@ -102,7 +102,7 @@ for i in range(5):
 
 모듈을 분리하기 전에 실무에서의 딥러닝 시스템을 살펴보겠습니다. 도메인, 문제에 마다 다양한 구성이 있겠지만, 제가 생각하는 딥러닝 시스템 구성은 다음과 같습니다.
 
-![data](http://tykimos.github.com/Keras/warehouse/2017-6-10-Model_Load_Save_1.png)
+![data](http://tykimos.github.io/warehouse/2017-6-10-Model_Load_Save_1.png)
 
 우리가 만들고자 하는 전체 시스템을 목표 시스템이라고 했을 때, 크게 '학습 segment'와 '판정 segment'로 나누어집니다. '학습 segment'는 학습을 위해, 학습 데이터를 얻기 위한 '학습용 센싱 element', 센싱 데이터에서 학습에 적합한 형태로 전처리를 수행하는 '데이터셋 생성 element', 그리고 데이터셋으로 딥러닝 모델을 학습시키는 '딥러닝 모델 학습 element'으로 나누어집니다. '판정 segment'는 실무 환경에서 수집되는 센서인 '판정용 센싱 element'과 학습된 딥러닝 모델을 이용해서 센싱 데이터를 판정하는 '딥러닝 모델 판정 element'으로 나누어집니다. 앞서 본 코드에는 `딥러닝 모델 학습 element`와 `딥러닝 모델 판정 element`가 모두 포함되어 있습니다. 이 두가지 element를 분리해보겠습니다. 
 
@@ -209,7 +209,7 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 
 ![svg](output_12_0.svg)
 
-![svg](http://tykimos.github.com/Keras/warehouse/2017-6-10-Model_Load_Save_2.svg)
+![svg](http://tykimos.github.io/warehouse/2017-6-10-Model_Load_Save_2.svg)
 
 ---
 

@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-13 23:10:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_4m.png
+image: http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_4m.png
 ---
 수치를 입력해서 이진분류할 수 있는 모델들에 대해서 알아보겠습니다. 이진분류를 위한 데이터셋 생성을 해보고, 가장 간단한 퍼셉트론 모델부터 깊은 다층퍼셉트론 모델까지 구성 및 학습을 시켜보겠습니다.
 
@@ -44,7 +44,7 @@ plt.scatter(plot_x, plot_y, c=plot_color)
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_01.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_01.png)
 
 실제 데이터에서는 첫번째 인자와 두번째 인자사이의 상관관계가 있다면 그래프에서 패턴을 보실 수 있습니다. 우리는 임의의 값으로 데이터셋을 만들었으므로 예상대로 패턴을 찾을 수 없습니다. 이번에는 첫번째, 두번째, 세번째의 인자값을 이용하여 3차원으로 그래프를 확인해보겠습니다.
 
@@ -64,7 +64,7 @@ ax.scatter(plot_x, plot_y, plot_z, c=plot_color)
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_02.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_02.png)
 
 역시나 패턴을 찾아볼 수는 없습니다. 하지만 실제 데이터에서는 인자 간의 상관관계가 있을 경우 패턴을 확인할 수 있므으로 이와 같은 방식으로 모델을 설계하기 전에 데이터셋을 먼저 확인해보는 것은 권장해드립니다. 단, 훈련데이터셋에 과적합되는 것을 가정하고 있으므로 시험셋의 정확도는 무시하셔도 됩니다.
 
@@ -75,7 +75,7 @@ plt.show()
 
 |블록|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_sigmoid_s.png)|sigmoid|활성화 함수로 입력되는 값을 0과 1사이의 값으로 출력시킵니다. 출력값이 특정 임계값(예를 들어 0.5) 이상이면 양성, 이하이면 음성이라고 판별할 수 있기 때문에 이진분류 모델의 출력층에 주로 사용됩니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_sigmoid_s.png)|sigmoid|활성화 함수로 입력되는 값을 0과 1사이의 값으로 출력시킵니다. 출력값이 특정 임계값(예를 들어 0.5) 이상이면 양성, 이하이면 음성이라고 판별할 수 있기 때문에 이진분류 모델의 출력층에 주로 사용됩니다.|
 
 ---
 ### 모델 준비
@@ -95,7 +95,7 @@ Dense 레이어가 하나이고, 뉴런의 수도 하나인 가장 기본적인 
     model.add(Dense(1, input_dim=12))
     model.add(Activation('sigmoid'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_1m.png)
 
 #### 다층퍼셉트론 모델
 
@@ -105,7 +105,7 @@ Dense 레이어가 두 개인 다층퍼셉트론 모델입니다. 첫 번째 레
     model.add(Dense(64, input_dim=12, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_2m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_2m.png)
 
 #### 깊은 다층퍼셉트론 모델
 
@@ -116,7 +116,7 @@ Dense 레이어가 총 세 개인 다층퍼셉트론 모델입니다. 첫 번째
     model.add(Dense(64, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_3m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_3m.png)
 
 ---
 ### 전체 소스
@@ -341,7 +341,7 @@ print('loss_and_metrics : ' + str(loss_and_metrics))
 
 |퍼셉트론|다층퍼셉트론|깊은 다층퍼셉트론|
 |:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_03.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_04.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_05.png)|
+|![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_03.png)|![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_04.png)|![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_05.png)|
 
 ---
 
@@ -349,7 +349,7 @@ print('loss_and_metrics : ' + str(loss_and_metrics))
 
 수치를 입력하여 이진분류를 할 수 있는 위한 퍼셉트론, 다층퍼셉트론, 깊은 다층퍼셉트론 모델을 살펴보고, 그 성능을 확인 해봤습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_4m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Numerical_Input_Binary_Classification_Model_Recipe_4m.png)
 
 ---
 

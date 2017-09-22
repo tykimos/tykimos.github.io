@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-07-09 23:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-7-9-Training_Monitoring_1.png
+image: http://tykimos.github.io/warehouse/2017-7-9-Training_Monitoring_1.png
 ---
 케라스로 딥러닝 모델 개발할 때, 가장 많이 보게 되는 것이 fit 함수가 화면에 찍어주는 로그입니다. 이 로그에 포함된 수치들은 학습이 제대로 되고 있는 지, 학습을 그만할 지 등 판단하는 중요한 척도가 됩니다. 수치 자체도 큰 의미가 있지만 수치들이 에포코마다 바뀌는 변화 추이를 보는 것이 중요하기 때문에 그래프로 표시하여 보는 것이 더 직관적입니다. 본 절에서는 케라스에서 제공하는 기능을 이용하는 방법, 텐서보드와 연동하여 보는 방법, 콜백함수를 직접 만들어서 사용하는 방법에 대해서 알아보겠습니다.
 
@@ -158,7 +158,7 @@ plt.show()
     Epoch 1000/1000
     700/700 [==============================] - 0s - loss: 0.4392 - acc: 0.8486 - val_loss: 2.5807 - val_acc: 0.4867
 
-![png](http://tykimos.github.com/Keras/warehouse/2017-7-9-Training_Monitoring_output_7_2.png)
+![png](http://tykimos.github.io/warehouse/2017-7-9-Training_Monitoring_output_7_2.png)
 
 
 각 에포크에 대한 손실값, 정확도 추이를 보실 수가 있습니다. 검증셋의 손실값이 감소하다가 100번째 에포크에서 다시 증가되는 양상을 보입니다. 과적합(overfitting)이 발생했다고 보실 수가 있습니다. 이 경우 100번째 에포크만 학습시킨 모델이 1000번째 에포크까지 학습한 모델보다 실제 테스트에서 더 좋은 결과가 나올 수 있습니다.
@@ -269,7 +269,7 @@ TensorBoard 콜백함수 생성 시 logdir 인자로 지정한 로컬의 graph�
     
 웹 브라우저에 메시지에 표시된 주소를 입력하면 아래와 같이 텐서보드를 보실 수 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-7-9-Training_Monitoring_1.png)
+![img](http://tykimos.github.io/warehouse/2017-7-9-Training_Monitoring_1.png)
 
 ---
 
@@ -431,7 +431,7 @@ plt.show()
     Epoch 1/1
     700/700 [==============================] - 0s - loss: 0.4395 - acc: 0.8457 - val_loss: 2.5537 - val_acc: 0.4900
 
-![png](http://tykimos.github.com/Keras/warehouse/2017-7-9-Training_Monitoring_output_19_1.png)
+![png](http://tykimos.github.io/warehouse/2017-7-9-Training_Monitoring_output_19_1.png)
 
 학습 모니터링 결과는 첫번째 예제와 유사하게 나옴을 확인할 수 있습니다. 
 

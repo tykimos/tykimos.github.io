@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-19 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_4m.png
+image: http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_4m.png
 ---
 수치를 입력해서 다중클래스를 분류할 수 있는 모델들에 대해서 알아보겠습니다. 다중클래스 분류를 위한 데이터셋 생성을 해보고, 가장 간단한 퍼셉트론 신경망 모델부터 깊은 다층퍼셉트론 신경망 모델까지 구성 및 학습을 시켜보겠습니다.
 
@@ -44,7 +44,7 @@ plt.scatter(plot_x, plot_y, c=plot_color)
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_5_0.png)
+![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_5_0.png)
 
 실제 데이터에서는 첫번째 인자와 두번째 인자사이의 상관관계가 있다면 그래프에서 패턴을 보실 수 있습니다. 우리는 임의의 값으로 데이터셋을 만들었으므로 예상대로 패턴을 찾을 수 없습니다. 이번에는 첫번째, 두번째, 세번째의 인자값을 이용하여 3차원으로 그래프를 확인해보겠습니다.
 
@@ -64,7 +64,7 @@ ax.scatter(plot_x, plot_y, plot_z, c=plot_color)
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_8_0.png)
+![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_8_0.png)
 
 이진분류인 경우, 학습 시에는 0과 1로 값이 지정되며, 예측 시에는 0.0과 1.0 사이의 실수로 확률값이 출력됩니다. 하지만 다중클래스분류인 경우에는 클래스별로 확률값을 지정하기 위해서는 "one-hot 인코딩"을 사용합니다. 
 
@@ -87,7 +87,7 @@ y_test = to_categorical(y_test, num_classes=10) # one-hot 인코딩
 
 |블록|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_softmax_s.png)|softmax|활성화 함수로 입력되는 값을 클래스별로 확률 값이 나오도록 출력시킵니다. 이 확률값을 모두 더하면 1이 됩니다. 다중클래스 모델의 출력층에 주로 사용되며, 확률값이 가장 높은 클래스가 모델이 분류한 클래스입니다. 
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_softmax_s.png)|softmax|활성화 함수로 입력되는 값을 클래스별로 확률 값이 나오도록 출력시킵니다. 이 확률값을 모두 더하면 1이 됩니다. 다중클래스 모델의 출력층에 주로 사용되며, 확률값이 가장 높은 클래스가 모델이 분류한 클래스입니다. 
 
 ---
 ### 모델 준비
@@ -107,7 +107,7 @@ Dense 레이어가 하나이고, 뉴런의 수도 하나인 가장 기본적인 
     model.add(Dense(10, input_dim=12))
     model.add(Activation('softmax'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_1m.png)
 
 #### 다층퍼셉트론 신경망 모델
 
@@ -117,7 +117,7 @@ Dense 레이어가 두 개인 다층퍼셉트론 모델입니다. 첫 번째 레
     model.add(Dense(64, input_dim=12, activation='relu'))
     model.add(Dense(10, activation='softmax'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_2m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_2m.png)
 
 #### 깊은 다층퍼셉트론 신경망 모델
 
@@ -128,7 +128,7 @@ Dense 레이어가 총 세 개인 다층퍼셉트론 모델입니다. 첫 번째
     model.add(Dense(64, activation='relu'))
     model.add(Dense(10, activation='softmax'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_3m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_3m.png)
 
 ---
 ### 전체 소스
@@ -359,7 +359,7 @@ print('loss_and_metrics : ' + str(loss_and_metrics))
 
 |퍼셉트론 신경망 모델|다층퍼셉트론 신경망 모델|깊은 다층퍼셉트론 신경망 모델|
 |:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_18_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_20_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_22_1.png)|
+|![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_18_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_20_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_output_22_1.png)|
 
 ---
 
@@ -367,7 +367,7 @@ print('loss_and_metrics : ' + str(loss_and_metrics))
 
 수치를 입력하여 다중클래스 분류를 할 수 있는 퍼셉트론 신경망 모델, 다층퍼셉트론 신경망 모델, 깊은 다층퍼셉트론 신경망 모델을 살펴보고, 그 성능을 확인 해봤습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_4m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-19-Numerical_Input_Multiclass_Classification_Model_Recipe_4m.png)
 
 ---
 

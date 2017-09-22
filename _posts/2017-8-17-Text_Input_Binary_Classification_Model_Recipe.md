@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-17 02:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_total.png
+image: http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_total.png
 ---
 문장을 입력해서 이진분류하는 모델에 대해서 알아보겠습니다. 언어가 시계열적인 의미가 있으므로, 이 언어를 문자로 표현한 문장도 시계열적인 의미가 있습니다. 모델에 입력하기 위해서 문장을 시계열수치로 인코딩하는 방법과 여러가지 이진분류 모델을 구성해보고, 학습 결과를 살펴보겠습니다. 이 모델들은 문장 혹은 시계열수치로 양성/음성을 분류하거나 이벤트 발생 유무를 감지하는 문제를 풀 수 있습니다. 
 
@@ -25,7 +25,7 @@ from keras.datasets import imdb
 print(x_train)
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_img0.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_img0.png)
 
 총 25000개의 샘플이 있으며, 각 샘플은 영화 리뷰 한 건을 의미하며, 단어의 인덱스로 구성되어 있습니다. 'num_words=20000'으로 지정했기 때문에 빈도수가 20,000을 넘는 단어는 보이지가 않습니다. 훈련셋 25,000개를 다시 훈련셋 20,000개와 검증셋 5,000개로 분리합니다.
 
@@ -55,10 +55,10 @@ x_test = sequence.pad_sequences(x_test, maxlen=200)
 
 |블록|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Embedding_s.png)|Embedding|단어를 의미론적 기하공간에 매핑할 수 있도록 벡터화시킵니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Conv1D_s.png)|Conv1D|필터를 이용하여 지역적인 특징을 추출합니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_GlobalMaxPooling1D_s.png)|GlobalMaxPooling1D|여러 개의 벡터 정보 중 가장 큰 벡터를 골라서 반환합니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_MaxPooling1D_s.png)|MaxPooling1D|입력벡터에서 특정 구간마다 값을 골라 벡터를 구성한 후 반환합니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Embedding_s.png)|Embedding|단어를 의미론적 기하공간에 매핑할 수 있도록 벡터화시킵니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Conv1D_s.png)|Conv1D|필터를 이용하여 지역적인 특징을 추출합니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_GlobalMaxPooling1D_s.png)|GlobalMaxPooling1D|여러 개의 벡터 정보 중 가장 큰 벡터를 골라서 반환합니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_MaxPooling1D_s.png)|MaxPooling1D|입력벡터에서 특정 구간마다 값을 골라 벡터를 구성한 후 반환합니다.|
 
 ---
 ### 모델 준비
@@ -80,7 +80,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=200)
     model.add(Dense(256, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_1m.png)
 
 #### 순환 신경망 모델
 
@@ -91,7 +91,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=200)
     model.add(LSTM(128))
     model.add(Dense(1, activation='sigmoid'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_2m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_2m.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -110,7 +110,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=200)
     model.add(Dropout(0.2))
     model.add(Dense(1, activation='sigmoid'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_3m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_3m.png)
 
 #### 순환 컨볼루션 신경망 모델
 
@@ -128,7 +128,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=200)
     model.add(LSTM(128))
     model.add(Dense(1, activation='sigmoid'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_4m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_4m.png)
 
 순환 신경망 모델과 순환 컨볼루션 신경망 모델 구성에서 LSTM의 입력 비교하면 다음과 같습니다
 * 순환 신경망 모델 : LSTM에 입력되는 타임스텝은 Embedding 출력 타임스텝으로 200이고, 특징 크기는 Embedding에서 인코딩된 128입니다.
@@ -493,7 +493,7 @@ print(loss_and_metrics)
 
 |다층퍼셉트론 신경망 모델|순환 신경망 모델|컨볼루션 신경망 모델|순환 컨볼루션 신경망 모델
 |:-:|:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_15_2.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_17_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_19_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_21_1.png)|
+|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_15_2.png)|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_17_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_19_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_output_21_1.png)|
 
 ---
 
@@ -501,7 +501,7 @@ print(loss_and_metrics)
 
 문장을 입력하여 이진분류할 수 있는 여러가지 모델을 살펴보고, 그 성능을 비교해봤습니다. 시계열 데이터를 처리하기 위한 모델은 다층퍼셉트론 신경망 모델부터 컨볼루션 신경망, 순환 신경망 모델 등 다양하게 구성할 수 있습니다. 복잡한 모델일수록 정확도가 높은 것은 아니지만 여러 모델과 파라미터로 적절한 모델을 개발해야 합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_total.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Binary_Classification_Model_Recipe_total.png)
 
 ---
 

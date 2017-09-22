@@ -5,7 +5,7 @@ author: Taeyoung, Kim
 date:   2017-06-10 23:10:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_combination.png
+image: http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_combination.png
 ---
 본 강좌에서는 컨볼루션 신경망 모델의 성능을 높이기 위한 방법 중 하나인 데이터 부풀리기에 대해서 알아보겠습니다. 훈련셋이 부족하거나 훈련셋이 시험셋의 특성을 충분히 반영하지 못할 때 이 방법을 사용하면 모델의 성능을 크게 향상시킬 수 있습니다. 케라스에서는 데이터 부풀리기를 위한 함수를 제공하기 때문에 파라미터 셋팅만으로 간단히 데이터 부풀리기를 할 수 있습니다.
 
@@ -21,17 +21,17 @@ image: http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_
 [컨볼루션 신경망 모델 만들어보기](https://tykimos.github.io/Keras/2017/03/08/CNN_Getting_Started/) 강좌에서 사용하였던 원, 사각형, 삼각형 데이터셋을 예제로 살펴보겠습니다. 구성은 훈련셋과 시험셋으로 되어 있는 데, 아래 그림은 훈련셋입니다.
 
 #### 훈련셋
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_1.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_1.png)
 
 그리고 아래 그림은 시험셋입니다. 훈련셋과 시험셋은 모두 한사람(제가) 그린 것이라 거의 비슷합니다. 그래서 그런지 100% 정확도의 좋은 결과를 얻었나 봅니다.
 
 #### 시험셋
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_2.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_2.png)
 
 100% 정확도를 얻은 모델이니 원, 사각형, 삼각형을 그려주면 다 분류를 해보겠다며 지인에게 자랑을 해봅니다. 그래서 지인이 그려준 시험셋은 다음과 같습니다.
 
 #### 도전 시험셋
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_3.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_3.png)
 
 막상 시험셋을 받아보니 자신감이 없어지면서 여러가지 생각이 듭니다.
 
@@ -199,37 +199,37 @@ print(output)
 
 그럼 훈련셋 중 하나인 삼각형을 골라 데이터 부풀리기를 해보겠습니다. 원본이 되는 삼각형은 다음과 같습니다.
 
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_4.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_4.png)
 
 이 삼각형을 ImageDataGenerator 함수을 이용하여 각 파라미터별로 어떻게 부풀리기를 하는 지 살펴보겠습니다.
 
 #### rotation_range = 90
 지정된 각도 범위내에서 임의로 원본이미지를 회전시킵니다. 단위는 도이며, 정수형입니다. 예를 들어 90이라면 0도에서 90도 사이에 임의의 각도로 회전시킵니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_rotate.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_rotate.png)
                                    
 #### width_shift_range = 0.1
 지정된 수평방향 이동 범위내에서 임의로 원본이미지를 이동시킵니다. 수치는 전체 넓이의 비율(실수)로 나타냅니다. 예를 들어 0.1이고 전체 넓이가 100이면, 10픽셀 내외로 좌우 이동시킵니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_width_shift.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_width_shift.png)
 
 #### height_shift_range = 0.1
 지정된 수직방향 이동 범위내에서 임의로 원본이미지를 이동시킵니다. 수치는 전체 높이의 비율(실수)로 나타냅니다. 예를 들어 0.1이고 전체 높이가 100이면, 10픽셀 내외로 상하 이동시킵니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_height_shift.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_height_shift.png)
 
 #### shear_range = 0.5
 밀림 강도 범위내에서 임의로 원본이미지를 변형시킵니다. 수치는 시계반대방향으로 밀림 강도를 라디안으로 나타냅니다. 예를 들어 0.5이라면, 0.5 라이안내외로 시계반대방향으로 변형시킵니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_shear.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_shear.png)
 
 #### zoom_range = 0.3
 지정된 확대/축소 범위내에서 임의로 원본이미지를 확대/축소합니다. "1-수치"부터 "1+수치"사이 범위로 확대/축소를 합니다. 예를 들어 0.3이라면, 0.7배에서 1.3배 크기 변화를 시킵니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_zoom.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_zoom.png)
 
 #### horizontal_flip = True
 수평방향으로 뒤집기를 합니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_horizontal_flip.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_horizontal_flip.png)
 
 #### vertical_flip = True
 수직방향으로 뒤집기를 합니다.
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_vertical_flip.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_vertical_flip.png)
 
 아래 코드는 ImageDataGenerator함수를 이용하여 지정된 파라미터로 원본이미지에 대해 데이터 부풀리기를 수행한 후 그 결과를 특정 폴더에 저장하는 코드입니다. 여러 파라미터를 사용하였기 때문에 이를 혼합하여 데이터 부풀리기를 수행합니다. 즉 확대/축소도 하고 좌우 이동도 지정하였다면, 축소하면서 좌로 이동된 이미지도 생성됩니다.
 
@@ -268,7 +268,7 @@ for batch in train_datagen.flow(x, batch_size=1, save_to_dir='warehouse/preview'
 
 위 코드로 데이터 부풀리기가 수행된 결과 이미지는 다음과 같습니다. 지인이 만든 도전 시험셋 중 비슷한 것들도 보입니다.
 
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8-CNN_Data_Augmentation_5_combination.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_combination.png)
 
 ---
 

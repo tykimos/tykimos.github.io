@@ -5,7 +5,7 @@ author: Taeyoung, Kim
 date:   2017-03-08 23:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-3-8_CNN_Getting_Started_4.png
+image: http://tykimos.github.io/warehouse/2017-3-8_CNN_Getting_Started_4.png
 ---
 본 강좌에서는 간단한 컨볼루션 신경망 모델을 만들어봅니다. 늘 그렇듯이 다음과 같은 순서로 진행하겠습니다.
 
@@ -41,7 +41,7 @@ np.random.seed(3)
 
 손으로 그린 삼각형, 사각형, 원 이미지를 만들기 위해서는 여러가지 방법이 있을 수 있겠네요. 테블릿을 이용할 수도 있고, 종이에 그려서 사진으로 찍을 수도 있습니다. 저는 그림 그리는 툴을 이용해서 만들어봤습니다. 이미지 사이즈는 24 x 24 정도로 해봤습니다. 
 
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8_CNN_Getting_Started_1.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8_CNN_Getting_Started_1.png)
 
 모양별로 20개 정도를 만들어서 15개를 훈련에 사용하고, 5개를 테스트에 사용해보겠습니다. 이미지는 png나 jpg로 저장합니다. 실제로 데이터셋이 어떻게 구성되어 있는 지 모른 체 튜토리얼을 따라하거나 예제 코드를 실행시키다보면 결과는 잘 나오지만 막상 실제 문제에 적용할 때 막막해질 때가 있습니다. 간단한 예제로 직접 데이터셋을 만들어봄으로써 실제 문제에 접근할 때 시행착오를 줄이는 것이 중요합니다.
 
@@ -56,11 +56,11 @@ np.random.seed(3)
 |"|"|"|rectangle|
 |"|"|"|triangle|
 
-![data](http://tykimos.github.com/Keras/warehouse/2017-3-8_CNN_Getting_Started_2.png)
+![data](http://tykimos.github.io/warehouse/2017-3-8_CNN_Getting_Started_2.png)
 
 직접 그려보시는 것을 권장하시만 아래 링크에서 다운로드를 받으실 수 있습니다.
 
-[다운로드](http://tykimos.github.com/Keras/warehouse/2017-3-8_CNN_Getting_Started_handwriting_shape.zip)
+[다운로드](http://tykimos.github.io/warehouse/2017-3-8_CNN_Getting_Started_handwriting_shape.zip)
 
 ---
 
@@ -181,7 +181,7 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
     ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
 
 
-![model](http://tykimos.github.com/Keras/warehouse/2017-3-8_CNN_Getting_Started_3.svg)
+![model](http://tykimos.github.io/warehouse/2017-3-8_CNN_Getting_Started_3.svg)
 
 ---
 

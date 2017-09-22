@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-09 23:10:00
 categories: Study
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_4.png
+image: http://tykimos.github.io/warehouse/2017-8-9-DeepBrick_Talk_4.png
 ---
 딥러닝과 케라스를 공부하면서 느낀 점은 층을 쌓고 모델을 만들고 하는 과정들이 블록 쌓는 것과 비슷한 느낌을 많이 받았고, 실제로 딥러닝 모델을 설명할 때 블록 그림을 많이 이용하기도 했습니다. 그러다가 (실제 혹은 웹에서) 블록을 쌓으면 딥러닝 모델까지 자동으로 만들 수 있겠다는 생각이 들었습니다. 그래서 `딥브릭(DeepBrick)`이란 이름으로 프로젝트를 진행해볼까 합니다.
 
@@ -15,7 +15,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_4.png
 
 딥러닝 모델에서의 개념과 우리가 익숙한 블록 간이 연관성이 있다록 매칭하는 작업이 필요했습니다. 지금까지 정리된 컨셉은 다음 그림과 같습니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_1.png)
+![img](http://tykimos.github.io/warehouse/2017-8-9-DeepBrick_Talk_1.png)
 
 - 투명한 블록은 입출력을 나타냅니다. 2*2 블록은 이미지를 의미하고, 1*2는 두개 이상 값을 가지는 백터, 1*1는 한 개 값을 가지는 벡터입니다.
 - 흰 블록은 모델을 의미합니다. 현재 모델은 CNN, LSTM, FC 이렇게 3가지 구상해봤습니다. 만약 프로그램을 만든다면 이 블록을 우클릭하면 층, 파라미터를 설정하거나 스크립트가 열리는 식이겠죠?
@@ -34,7 +34,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_4.png
 - Softmax 블록 위에 출력 1D 투명 블록을 쌓아서 출력을 얻습니다. 
 - 이 출력은 one-hot 벡터입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_2.png)
+![img](http://tykimos.github.io/warehouse/2017-8-9-DeepBrick_Talk_2.png)
 
 이 모델에 해당하는 케라스 코드도 같이 작성해봤습니다.
 
@@ -65,7 +65,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc']
 
 블록으로 표시하기 위한 고민을 많이 해왔습니다. 처음에는 레고로 조립해서 사진으로 찍었었는데, 원하는 부품을 구하기도 힘들뿐더러 (정확히는 돈이 많이 듭니다) 찍어도 그리 예쁘지가 않았습니다. 그 다음에 고민한 것이 블록 생성 툴을 알아봤었는 데, 원하는 품질이 나오지 않아 구글 프리젠테이션으로 직접 그리게 되었습니다(아래 그림에서 왼쪽). 하나 하나 다 그려야 되서 손이 많이 가긴 했었는데, 나름 편해서 잘 쓰고 있었습니다. 그러다 좀 다양한 블록을 표현하고 싶은데 구글 프리젠테이션으론 더 이상 할 수 없다는 결론을 내리고 다시 툴을 찾기 시작했습니다. 그러다 "Mecabricks"와 "blender" 툴의 조합으로 아래 그림에서 오른쪽으로 표현할 수 있게 되었습니다. 상상 이상의 고퀄이라 부담스러울 정도긴 한데, 손으로 일일이 그리는 것 보단 100배 편해서 사용하기로 결정했습니다. 나중에 알아보니 레고 영화 제작할 때 사용한다고도 하더군요.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-9-DeepBrick_Talk_3.png)
 
 두 개 버전을 비교하면 좀 더 추상화가 되어 간단해졌고, 실사에 가깝게 되었습니다~ 블록 표시하는 것에 대해서는 갈때까지 간 것 같습니다.
 
@@ -75,7 +75,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc']
 
 저는 상상이되는 글, 그림, 코드, 생각 등을 좋아합니다. 이 이야기는 상당히 상상력이 자극되는 것 같습니다. 얼마나 다양한 유닛이 만들어질지, 얼마나 멋진 모델을 조립할 수 있을 지 궁금하네요. 이런 상상도 해봅니다. 어린이들이 딥러닝 블록을 조립한 뒤 학습을 시키면, 그 학습 결과가 가중치 블록에 저장됩니다. 그 가중치 블록을 로봇 등이 꼽기만 하면 동작이 될 수 있겠죠? 망상에 가까울려나요? 여러 사람들의 의견으로 좀 더 직관적이고 재미있는 아이디어가 많이 담긴 `딥브릭(DeepBrick) 이야기`가 되었으면 합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-9-DeepBrick_Talk_4.png)
+![img](http://tykimos.github.io/warehouse/2017-8-9-DeepBrick_Talk_4.png)
 
 ---
 

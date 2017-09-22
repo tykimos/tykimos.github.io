@@ -5,13 +5,13 @@ author: 김태영
 date:   2017-09-16 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_title.png
+image: http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_title.png
 ---
 딥러닝 개념을 아주 쉽고 제미있게, 직관적으로 설명한 하용호님의 '네 뇌에 딥러닝 인스톨' 자료를 공유합니다. 이 발표자료에는 케라스로 구현된 VGG16 모델을 이해하기 위한 여정이 시작되는 데요. 그 여정의 끝으로 딥브릭을 통해 뇌에 모델을 각인시킨 후 실습을 통해 손으로 익혀보겠습니다. 먼저 그 유명한 '네 뇌의 딥러닝 인스톨' 발표자료 입니다. (주의)'한 번 클릭하면 10분~15분동안 다른 일을 할 수가 없습니다.
 
 [발표자료 링크](https://www.slideshare.net/yongho/ss-79607172)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_01.png)
+![img](http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_01.png)
 
 여기서 딥브릭이 무엇인지 궁금하시다면, ['딥브릭(DeepBrick) 이야기'](https://tykimos.github.io/Keras/2017/08/09/DeepBrick_Talk/)
 
@@ -20,7 +20,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_title.
 
 딥러닝 모델이 수만가지가 있지만, 하용호님 발표자료엔 왜 VGG16 모델이 소개되었을까요? VGG16이 그렇게 간단한 모델도 아닌데 말이죠. 아래 사진으로 모두 설명이 가능할 것 같습니다. 참고로 이 사진으로 유재준님이 CVPR 2017 발표현장에서 찍은 사진입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_02.jpg)
+![img](http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_02.jpg)
 
 VGG16 모델은 영상 처리에 있어서는 빠질 수 없는 일꾼이죠. 지금 이 순간에도 아마 GPU 머신에 의해 계속 시달리고 있을 겁니다. 케라스에서도 VGG16 코드를 공식적으로 제공하고 있습니다. [VGG16 소스코드 보기](https://github.com/fchollet/keras/blob/master/keras/applications/vgg16.py)
 
@@ -88,15 +88,15 @@ VGG16 모델을 딥브릭으로 쌓아보겠습니다.
 
 |브릭|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Dataset_Vector_s.png)|Input data, Labels|1차원의 입력 데이터 및 라벨입니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Dataset2D_s.png)|2D Input data|2차원의 입력 데이터입니다.주로 영상 데이터를 의미하며 샘플수, 너비, 높이, 채널수로 구성됩니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Dense_s.png)|Dense|모든 입력 뉴런과 출력 뉴런을 연결하는 전결합층입니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Conv2D_s.png)|Conv2D|필터를 이용하여 영상 특징을 추출합니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_MaxPooling2D_s.png)|MaxPooling2D|영상에서의 사소한 변화가 특징 추출에 크게 영향을 미치지 않도록 합니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Flatten_s.png)|Flatten|2차원의 특징맵을 전결합층으로 전달하기 위해서 1차원 형식으로 바꿔줍니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_softmax_s.png)|softmax|활성화 함수로 입력되는 값을 클래스별로 확률 값이 나오도록 출력시킵니다. 이 확률값을 모두 더하면 1이 됩니다. 다중클래스 모델의 출력층에 주로 사용되며, 확률값이 가장 높은 클래스가 모델이 분류한 클래스입니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_Relu_s.png)|relu|활성화 함수로 주로 은닉층에 사용됩니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_relu_2D_s.png)|relu|활성화 함수로 주로 Conv2D 은닉층에 사용됩니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Dataset_Vector_s.png)|Input data, Labels|1차원의 입력 데이터 및 라벨입니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Dataset2D_s.png)|2D Input data|2차원의 입력 데이터입니다.주로 영상 데이터를 의미하며 샘플수, 너비, 높이, 채널수로 구성됩니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Dense_s.png)|Dense|모든 입력 뉴런과 출력 뉴런을 연결하는 전결합층입니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Conv2D_s.png)|Conv2D|필터를 이용하여 영상 특징을 추출합니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_MaxPooling2D_s.png)|MaxPooling2D|영상에서의 사소한 변화가 특징 추출에 크게 영향을 미치지 않도록 합니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Flatten_s.png)|Flatten|2차원의 특징맵을 전결합층으로 전달하기 위해서 1차원 형식으로 바꿔줍니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_softmax_s.png)|softmax|활성화 함수로 입력되는 값을 클래스별로 확률 값이 나오도록 출력시킵니다. 이 확률값을 모두 더하면 1이 됩니다. 다중클래스 모델의 출력층에 주로 사용되며, 확률값이 가장 높은 클래스가 모델이 분류한 클래스입니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_Relu_s.png)|relu|활성화 함수로 주로 은닉층에 사용됩니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_relu_2D_s.png)|relu|활성화 함수로 주로 Conv2D 은닉층에 사용됩니다.|
 
 #### Block 1
 
@@ -112,7 +112,7 @@ x = MaxPooling2D((2, 2), strides=(2, 2), name='block1_pool')(x)
 
 첫번째 블록을 딥브릭으로 표현하면 다음과 같습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_02m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_02m.png)
 
 #### Block 5
 
@@ -129,7 +129,7 @@ x = MaxPooling2D((2, 2), strides=(2, 2), name='block5_pool')(x)
 
 다섯번째 블록을 딥브릭으로 표현하면 다음과 같습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_03m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_03m.png)
 
 #### Top
 
@@ -145,13 +145,13 @@ x = Dense(classes, activation='softmax', name='predictions')(x)
 
 마지막 블록을 딥브릭으로 표현하면 다음과 같습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_04m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_04m.png)
 
 ####  전체
 
 VGG16 모델 전체을 딥브릭으로 표현하면 다음과 같습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-16-YonghoHa_Slide_01m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-16-YonghoHa_Slide_01m.png)
 
 ---
 ### 미리 학습된 VGG16  모델 사용하기
@@ -160,7 +160,7 @@ VGG16 모델은 층이 깊어 학습하는 데 오랜 시간이 걸립니다. �
 
 아래는 테스트 시에 사용할 이미지입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/elephant.jpg)
+![img](http://tykimos.github.io/warehouse/elephant.jpg)
 
 #### 텐서플로우로 백엔드 설정하기
 
@@ -181,7 +181,7 @@ keras.json 파일을 열어서 다음과 같이 수정합니다.
 
 #### 테스트 이미지 다운로드
 
-[이미지다운](http://tykimos.github.com/Keras/warehouse/elephant.jpg)
+[이미지다운](http://tykimos.github.io/warehouse/elephant.jpg)
 
 #### 전체 소스
 

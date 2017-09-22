@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-20 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_15_3.png
+image: http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_15_3.png
 ---
 영상을 입력해서 수치를 예측하는 모델들에 대해서 알아보겠습니다. 간단한 테스트를 위해 수치예측을 위한 영상 데이터셋 생성을 해보고, 다층퍼셉트론 및 컨볼루션 신경망 모델을 구성 및 학습 시켜보겠습니다. 이 모델은 고정된 지역에서 촬영된 영상으로부터 복잡도, 밀도 등을 수치화하는 문제를 풀 수 있습니다. 아래 문제들에 활용 기대해봅니다.
 * CCTV 등 촬영 영상으로부터 미세먼지 지수 예측
@@ -77,7 +77,7 @@ for i in range(plt_row*plt_col):
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_7_0.png)
+![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_7_0.png)
 
 R(Real)은 1인 값을 가진 픽셀 수를 의미합니다. 한 번 표시한 픽셀에 다시 표시가 될 수 있기 때문에 실제 픽셀 수와 조금 차이는 날 수 있습니다.
 
@@ -88,11 +88,11 @@ R(Real)은 1인 값을 가진 픽셀 수를 의미합니다. 한 번 표시한 �
 
 |블록|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Dataset2D_s.png)|2D Input data|2차원의 입력 데이터입니다. 주로 영상 데이터를 의미하며, 너비, 높이, 채널수로 구성됩니다.
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Conv2D_s.png)|Conv2D|필터를 이용하여 영상 특징을 추출하는 컨볼루션 레이어입니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_MaxPooling2D_s.png)|MaxPooling2D|영상에서 사소한 변화가 특징 추출에 크게 영향을 미치지 않도록 해주는 맥스풀링 레이어입니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Flatten_s.png)|Flatten|2차원의 특징맵을 전결합층으로 전달하기 위해서 1차원 형식으로 바꿔줍니다.
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_relu_2D_s.png)|relu|활성화 함수로 주로 Conv2D 은닉층에 사용됩니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Dataset2D_s.png)|2D Input data|2차원의 입력 데이터입니다. 주로 영상 데이터를 의미하며, 너비, 높이, 채널수로 구성됩니다.
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Conv2D_s.png)|Conv2D|필터를 이용하여 영상 특징을 추출하는 컨볼루션 레이어입니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_MaxPooling2D_s.png)|MaxPooling2D|영상에서 사소한 변화가 특징 추출에 크게 영향을 미치지 않도록 해주는 맥스풀링 레이어입니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Flatten_s.png)|Flatten|2차원의 특징맵을 전결합층으로 전달하기 위해서 1차원 형식으로 바꿔줍니다.
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_relu_2D_s.png)|relu|활성화 함수로 주로 Conv2D 은닉층에 사용됩니다.|
 
 ---
 ### 모델 준비
@@ -107,7 +107,7 @@ R(Real)은 1인 값을 가진 픽셀 수를 의미합니다. 한 번 표시한 �
     model.add(Dense(256))
     model.add(Dense(1))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_1m.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -120,7 +120,7 @@ R(Real)은 1인 값을 가진 픽셀 수를 의미합니다. 한 번 표시한 �
     model.add(Dense(256, activation='relu'))
     model.add(Dense(1))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_2m.png)    
+![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_2m.png)    
 
 ---
 ### 전체 소스
@@ -251,7 +251,7 @@ x_test_1d = x_test.reshape(x_test.shape[0], width*height)
 
 예측 결과 일부를 표시해봤습니다. R(Real)이 실제 값이고, P(Prediction)이 모델이 예측한 결과입니다. 출력층에 따로 활성화 함수를 지정하지 않았기 때문에 선형 함수가 사용되며, 정수가 아닌 실수로 예측됩니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_13_4.png)
+![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_13_4.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -369,7 +369,7 @@ plt.show()
 
 컨볼루션 신경망 모델이 예측한 결과 일부를 표시해봤습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_15_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_15_3.png)
 
 ---
 
@@ -379,7 +379,7 @@ plt.show()
 
 |다층퍼셉트론 신경망 모델|컨볼루션 신경망 모델|
 |:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_13_2.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_15_1.png)|
+|![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_13_2.png)|![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_output_15_1.png)|
 
 ---
 
@@ -387,7 +387,7 @@ plt.show()
 
 영상를 입력하여 수치예측을 할 수 있는 깊은 다층퍼셉트론 신경망 모델, 컨볼루션 신경망 모델을 살펴보고 그 성능을 확인 해봤습니다. 영상 입력이라고 해서 컨볼루션 신경망 모델이 항상 좋은 성능이 나오는 것이 아니라는 것도 알게되었습니다. 어떤 모델이 성능이 좋게 나올지는 테스트를 해봐야 겠지만, 워낙 모델을 다양하게 구성할 수 있고 여러 파라미터를 설정할 수 있으므로, 모델을 개발하기 전 데이터 특징을 분석하고 적절한 후보 모델들을 선정하는 것을 권장드립니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_title.png)
+![img](http://tykimos.github.io/warehouse/2017-8-20-Image_Input_Numerical_Prediction_Model_Recipe_title.png)
 
 ---
 

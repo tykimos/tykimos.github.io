@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-04-09 05:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_train_stateful_LSTM.png
+image: http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_train_stateful_LSTM.png
 ---
 앞서 살펴본 LSTM 레이어를 이용하여 몇가지 순환 신경망 모델을 만들어보고, 각 모델에 "나비야" 동요를 학습시켜보면서 자세히 살펴보겠습니다.
 
@@ -20,7 +20,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_train_s
 - 무엇보다 우리가 학습한 모델이 연주하는 곡을 들어볼 수 있기 때문입니다. 
 일단 쉬운 악보인 '나비야'를 준비했습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_2.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_2.png)
 
 음표 밑에 간단한 음표코드를 표시하였습니다. 알파벳은 음계를 나타내며, 숫자는 음의 길이를 나타냅니다.
 - c(도), d(레), e(미), f(파), g(솔), a(라), b(시)
@@ -140,7 +140,7 @@ print(dataset)
 - 다음에는 2~5번째 음표를 데이터로 6번째 음표를 라벨값으로 학습을 시킵니다.
 - 이후 한 음표씩 넘어가면서 노래 끝까지 학습시킵니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_5.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_5.png)
 
 ---
 ### 예측 과정
@@ -155,7 +155,7 @@ print(dataset)
 - 모델에 t2, t3, t4, t5를 입력하면 y2 출력이 나옵니다.
 - 이 과정을 y49 출력까지 반복합니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_6.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_6.png)
 
 #### 곡 전체 예측
 
@@ -166,7 +166,7 @@ print(dataset)
 - 예측값인 y1을 t5라고 가정하고, 모델에 t2, t3, t4(예측값), t5(예측값)을 입력하면 y2 출력이 나옵니다.
 - 이 과정을 y49 출력까지 반복합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_7.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_7.png)
 
 ---
 
@@ -183,7 +183,7 @@ model.add(Dense(one_hot_vec_size, activation='softmax'))
 
 "나비야" 악보를 이 모델을 학습할 경우 다음 그림과 같이 수행됩니다. 4개의 음표를 입력으로 받고, 그 다음 음표가 라벨값으로 지정됩니다. 이 과정을 곡이 마칠 때까지 반복하게 됩니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_train_MLP.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_train_MLP.png)
 
 전체 소스는 다음과 같습니다.
 
@@ -389,12 +389,12 @@ print("full song prediction : ", seq_out)
 
 한 스텝 예측 결과와 곡 전체 예측 결과를 악보로 그려보았습니다. 이 중 틀린 부분을 빨간색 박스로 표시해봤습니다. 총 50개 예측 중 4개가 틀려서 92%의 정확도가 나왔습니다. 중간에 틀린 부분이 생기면 곡 전체를 예측하는 데 있어서는 그리 좋은 성능이 나오지 않습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_MLP_song.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_MLP_song.png)
 
 위 악보로 연주한 곡은 아래 링크에서 다운로드 받으실 수 있습니다.
 
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-MLP_one_step_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-MLP_one_step_prediction.mp3)
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-MLP_full_song_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-MLP_full_song_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-MLP_one_step_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-MLP_one_step_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-MLP_full_song_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-MLP_full_song_prediction.mp3)
 
 ---
 
@@ -421,7 +421,7 @@ x_train = np.reshape(x_train, (50, 4, 1)) # 샘플 수, 타임스텝 수, 속성
 
 이 모델로 악보를 학습할 경우, 다층 퍼셉트론 모델과 동일하게 4개의 음표를 입력으로 받고, 그 다음 음표가 라벨값으로 지정됩니다. 이 과정을 곡이 마칠 때까지 반복하게 됩니다. 다층 퍼셉트론 모델과 차이점이 있다면, 다층 퍼셉트론 모델에서는 4개의 음표가 4개의 속성으로 입력되고, LSTM에서는 4개의 음표가 4개의 시퀀스 입력으로 들어갑니다. 여기서 속성은 1개입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_train_LSTM.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_train_LSTM.png)
 
 전체 소스는 다음과 같습니다.
 
@@ -578,12 +578,12 @@ print("full song prediction : ", seq_out)
 
 한 스텝 예측 결과와 곡 전체 예측 결과를 악보로 그려보았습니다. 이 중 틀린 부분을 빨간색 박스로 표시해봤습니다. 총 50개 예측 중 4개가 틀려서 92%의 정확도가 나왔습니다. 중간에 틀릭 부분이 생기면 곡 전체를 예측하는 데 있어서는 그리 좋은 성능이 나오지 않습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_LSTM_song.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_LSTM_song.png)
 
 위 악보로 연주한 곡은 아래 링크에서 다운로드 받으실 수 있습니다.
 
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateless_LSTM_one_step_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateless_LSTM_one_step_prediction.mp3)
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateless_LSTM_full_song_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateless_LSTM_full_song_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-Stateless_LSTM_one_step_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-Stateless_LSTM_one_step_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-Stateless_LSTM_full_song_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-Stateless_LSTM_full_song_prediction.mp3)
 
 ---
 
@@ -619,7 +619,7 @@ for epoch_idx in range(num_epochs):
 
 아래 그림은 이 모델로 악보를 학습할 경우를 나타낸 것입니다. 거의 기본 LSTM 모델과 동일하지만 학습된 상태가 다음 샘플 학습 시에 초기 상태로 입력되는 것을 보실 수 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_train_stateful_LSTM.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_train_stateful_LSTM.png)
 
 전체 소스는 다음과 같습니다.
 
@@ -787,12 +787,12 @@ print("full song prediction : ", seq_out)
 
 한 스텝 예측 결과와 곡 전체 예측 결과를 악보로 그려보았습니다. Stateful LSTM은 음표를 모두 맞추어서, 전체 곡 예측도 정확하게 했습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_Stateful_LSTM_song.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_Stateful_LSTM_song.png)
 
 위 악보로 연주한 곡은 아래 링크에서 다운로드 받으실 수 있습니다.
 
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f1_one_step_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f1_one_step_prediction.mp3)
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f1_full_song_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f1_full_song_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f1_one_step_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f1_one_step_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f1_full_song_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f1_full_song_prediction.mp3)
 
 ### 입력 속성이 여러 개인 모델 구성
 
@@ -816,7 +816,7 @@ model.add(Dense(one_hot_vec_size, activation='softmax'))
 
 아래 그림을 보시면 입력이 두 개로 나누어짐을 보실 수 있습니다. 이 방식은 'c8'이니 'd4'처럼 코드 자체를 학습하는 것이 아니라 음정과 음길이를 나누어서 학습하는 효과를 볼 수 있습니다. 사람이 악보를 읽을 때도 이 둘은 나누어서 인지를 하니 좀 더 사람에 가까운 학습이라고 보실 수 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_train_stateful_LSTM_features.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_train_stateful_LSTM_features.png)
 
 전체 소스는 다음과 같습니다.
 
@@ -998,12 +998,12 @@ print("full song prediction : ", seq_out)
 
 수행결과는 곡 전체를 정확하게 예측을 했습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_Stateful_LSTM_features_song.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_Stateful_LSTM_features_song.png)
 
 위 악보로 연주한 곡은 아래 링크에서 다운로드 받으실 수 있습니다.
 
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f2_one_step_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f2_one_step_prediction.mp3)
-* [http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f2_full_song_prediction.mp3](http://tykimos.github.com/Keras/warehouse/2017-4-9-Stateful_LSTM_f2_full_song_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f2_one_step_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f2_one_step_prediction.mp3)
+* [http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f2_full_song_prediction.mp3](http://tykimos.github.io/warehouse/2017-4-9-Stateful_LSTM_f2_full_song_prediction.mp3)
 
 ---
 
@@ -1011,7 +1011,7 @@ print("full song prediction : ", seq_out)
 
 익숙한 노래인 "나비야"를 가지고 순한 신경망 모델에 학습시켜봤습니다. 순항 신경망 모델 중 가장 많이 사용되는 LSTM 모델에 대해서 알아보고, 주요 인자들이 어떤 특성을 가지고 있는 지도 살펴보았습니다. 앞서 살펴본 4가지 모델에 대해서 학습 손실값을 그래프로 표시해봤습니다. 다층퍼셉트론 모델 > 기본 LSTM 모델 > 상태유지 LSTM 모델 (1개 속성) > 상태유지 LSTM 모델 (2개 속성) 순으로 더 빨리 학습되는 것을 확인할 수 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-4-9-RNN_Layer_Talk_loss_history.png)
+![img](http://tykimos.github.io/warehouse/2017-4-9-RNN_Layer_Talk_loss_history.png)
 
 ---
 

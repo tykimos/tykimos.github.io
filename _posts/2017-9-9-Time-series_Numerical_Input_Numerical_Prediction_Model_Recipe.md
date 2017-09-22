@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-09-09 01:10:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_front_total.png
+image: http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_front_total.png
 ---
 시계열 수치를 입력해서 다음 수치를 예측하는 모델들에 대해서 알아보겠습니다. 각 모델에 코사인(cosine) 데이터를 학습시킨 후, 처음 일부 데이터를 알려주면 이후 코사인 형태의 데이터 예측을 얼마나 잘 하는 지 테스트 하겠습니다.
 
@@ -32,7 +32,7 @@ plt.plot(plot_x, plot_y)
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_5_0.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_5_0.png)
 
 생성한 코사인 데이터를 모델에 학습시키기 위해서는 데이터와 라벨로 구성된 데이터셋으로 만들어야 합니다. 이전 수치들을 입력하여 다음 수치를 예측하는 문제이므로 데이터는 이전 수치들이 되고, 라벨은 다음 수치가 됩니다. 다른 예제들과는 달리 데이터와 라벨이 모두 같은 속성입니다. 아래 create_dataset() 함수는 시계열 수치를 입력받아 데이터셋을 생성합니다. 이 때 look_back 인자는 얼마만큼의 이전 수치를 데이터로 만들것인가를 결정합니다.
 
@@ -74,12 +74,12 @@ x_test, y_test = create_dataset(test, look_back)
 
 |블록|이름|설명|
 |:-:|:-:|:-|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_LSTM_s.png)|LSTM|Long-Short Term Memory unit의 약자로 순환 신경망 레이어 중 하나입니다.|
-|![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_Activation_tanh_s.png)|tanh|LSTM의 출력 활성화 함수로 사용됩니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_LSTM_s.png)|LSTM|Long-Short Term Memory unit의 약자로 순환 신경망 레이어 중 하나입니다.|
+|![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_Activation_tanh_s.png)|tanh|LSTM의 출력 활성화 함수로 사용됩니다.|
 
 아래 그림은 4개의 타임스텝을 가진 LSTM을 표시한 것입니다. 출력 활성화 함수로 tanh을 사용하였습니다. 그림에는 타임스텝에 따라 별도의 블록으로 형상화가 되어있지만, 내부적으론 모든 블록에서 같은 가중치를 사용하고 있습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/DeepBrick/Model_Recipe_Part_LSTM_Example_m.png)
+![img](http://tykimos.github.io/warehouse/DeepBrick/Model_Recipe_Part_LSTM_Example_m.png)
 
 ---
 ### 모델 준비
@@ -98,7 +98,7 @@ Dense 레이어가 4개인 다층퍼셉트론 모델입니다. 은닉층에 사�
         model.add(Dropout(0.3))
     model.add(Dense(1))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_1m.png)
 
 #### 순환신경망 모델
 
@@ -109,7 +109,7 @@ Dense 레이어가 4개인 다층퍼셉트론 모델입니다. 은닉층에 사�
     model.add(Dropout(0.3))
     model.add(Dense(1))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_2m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_2m.png)
 
 #### 상태유지 순환신경망 모델
 
@@ -120,7 +120,7 @@ Dense 레이어가 4개인 다층퍼셉트론 모델입니다. 은닉층에 사�
     model.add(Dropout(0.3))
     model.add(Dense(1))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_3m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_3m.png)
 
 #### 상태유지 스택 순환신경망 모델
 
@@ -134,7 +134,7 @@ Dense 레이어가 4개인 다층퍼셉트론 모델입니다. 은닉층에 사�
     model.add(Dropout(0.3))
     model.add(Dense(1))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_4m.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_4m.png)
 
 ---
 ### 전체 소스
@@ -256,7 +256,7 @@ plt.show()
     ('Validataion Score: ', 0.0045158491573399967)
     ('Test Score: ', 0.0045158491573399967)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_17_4.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_17_4.png)
 
 진폭은 조금 적게 나오지만 주기는 비슷하게 나오는 결과를 얻었습니다.
 
@@ -369,7 +369,7 @@ plt.show()
     ('Validataion Score: ', 7.4891158146783712e-05)
     ('Test Score: ', 7.4891158146783712e-05)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_19_3.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_19_3.png)
 
 초반에는 진폭과 주기가 비슷하게 가지만 후반부로 가면서 진폭도 커지고, 주기도 커지는 결과를 얻었습니다.
 
@@ -497,7 +497,7 @@ plt.show()
     ('Validataion Score: ', 0.00014291753732250791)
     ('Test Score: ', 0.00014291752412232128)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_21_3.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_21_3.png)
 
 코사인 곡선의 패턴은 나오지만 동일 에포크와 동일 셀 크기의 순환신경망 모델에 비해 좋지 않은 결과를 얻었습니다. 
 
@@ -628,7 +628,7 @@ plt.show()
     ('Validataion Score: ', 0.0018765704010765974)
     ('Test Score: ', 0.0018765704377772352)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_23_3.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_23_3.png)
 
 진폭과 주기가 거의 유사한 형태의 결과를 얻었습니다. 최대 진폭은 비슷하게 나오지만 낮은 진폭은 조금 더 높게 나오는 경향이 있네요.
 
@@ -640,8 +640,8 @@ plt.show()
 
 |다층퍼셉트론 모델|순환신경망 모델|상태유지 순환신경망 모델|상태유지 스택 순환신경망 모델|
 |:-:|:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_17_2.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_19_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_21_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_23_1.png)|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_17_4.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_19_3.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_21_3.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_23_3.png)|
+|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_17_2.png)|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_19_1.png)|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_21_1.png)|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_23_1.png)|
+|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_17_4.png)|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_19_3.png)|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_21_3.png)|![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_23_3.png)|
 
 ---
 
@@ -669,7 +669,7 @@ A3) 한 전문가가 세 종목을 보는 것이랑 세 명의 전문가가 종�
 
 시계열 수치를 입력해서 다음 수치를 예측하기 위한 여러가지 모델을 살펴보았습니다. 시계열 데이터를 다루기 위해서 기본 순환신경망, 상태유지 모드 설정, 순환신경망 레이어를 쌓아올리는 방법을 알아보고 모델의 결과를 비교해봤습니다. 다양한 형태의 순환신경망 모델을 구성할 수 있는 만큼, 다루고 있는 시계열 데이터에 적합한 모델을 찾기 위해서는 여러가지 모델로 테스트 해보시기를 권장합니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_total.png)
+![img](http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_total.png)
 
 본 장은 https://github.com/sachinruk의 예제를 기반으로 작성되었으며, 예제 코드 사용을 흔쾌히 허락해주신 데이터사이언티스트 Sachin Abeywardana 박사님 감사드립니다.
 

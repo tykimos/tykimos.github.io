@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-02-04 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-2-4_MLP_Getting_Started_lego.png
+image: http://tykimos.github.io/warehouse/2017-2-4_MLP_Getting_Started_lego.png
 ---
 케라스를 이용하여 간단한 다층 퍼셉트론 모델을 만들어보겠습니다. 다음과 같은 순서로 진행하겠습니다.
 
@@ -118,7 +118,7 @@ y_test = dataset[700:,8]
 
 이 구성을 블록으로 표시해봤습니다. 총 세 개의 Dense 레이어 블록으로 모델을 구성한 다음, 8개의 속성 값을 입력하면 1개의 출력값을 얻을 수 있는 구성입니다.
 
-![lego](http://tykimos.github.com/Keras/warehouse/2017-2-4_MLP_Getting_Started_lego.png)
+![lego](http://tykimos.github.io/warehouse/2017-2-4_MLP_Getting_Started_lego.png)
 
 ```python
 model = Sequential()
@@ -140,7 +140,7 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 
 ![svg](output_12_0.svg)
 
-![model](http://tykimos.github.com/Keras/warehouse/2017-2-4_MLP_Getting_Started_model.svg)
+![model](http://tykimos.github.io/warehouse/2017-2-4_MLP_Getting_Started_model.svg)
 
 ---
 

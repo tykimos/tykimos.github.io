@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-07-09 10:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-7-9-Early_Stopping_4.png
+image: http://tykimos.github.io/warehouse/2017-7-9-Early_Stopping_4.png
 ---
 앞서 ['학습과정과 데이터셋 이야기'](https://tykimos.github.io/Keras/2017/03/25/Dataset_and_Fit_Talk/)에서 과적합이라는 것을 살펴보았고, 이를 방지하기 위해 조기 종료하는 시점에 대해서 알아보았습니다. 본 절에서는 케라스에서 제공하는 기능을 이용하여 학습 중에 어떻게 조기 종료를 시킬 수 있는 지 알아보겠습니다.
 
@@ -105,7 +105,7 @@ acc_ax.legend(loc='lower left')
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-7-9-Early_Stopping_1.png)
+![img](http://tykimos.github.io/warehouse/2017-7-9-Early_Stopping_1.png)
 
 val_loss를 보면 에포크 횟수가 많아질 수록 감소하다가 150 에포크 근처에서 다시 증가됨을 알 수 있습니다. 이때 과적합이 발생한 것 입니다.
 
@@ -243,7 +243,7 @@ acc_ax.legend(loc='lower left')
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-7-9-Early_Stopping_2.png)
+![img](http://tykimos.github.io/warehouse/2017-7-9-Early_Stopping_2.png)
 
 ```python
 # 6. 모델 사용하기
@@ -360,7 +360,7 @@ acc_ax.legend(loc='lower left')
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-7-9-Early_Stopping_3.png)
+![img](http://tykimos.github.io/warehouse/2017-7-9-Early_Stopping_3.png)
 
 ```python
 # 6. 모델 사용하기
@@ -384,7 +384,7 @@ print('accuray : ' + str(loss_and_metrics[1]))
 
 본 절에서는 과적합되는 모델을 만들어보고, 조기종료 시키는 방법에 대해서 알아보았습니다. 케라스에서 제공하는 EarlyStopping 콜백함수를 조기종료에 사용해보았고, 설정 인자를 살펴보았습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-7-9-Early_Stopping_4.png)
+![img](http://tykimos.github.io/warehouse/2017-7-9-Early_Stopping_4.png)
 
 ---
 

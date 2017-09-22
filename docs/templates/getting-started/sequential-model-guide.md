@@ -86,7 +86,7 @@ final_model.add(merged)
 final_model.add(Dense(10, activation='softmax'))
 ```
 
-<img src="http://s3.amazonaws.com/keras.io/img/two_branches_sequential_model.png" alt="two branch Sequential" style="width: 400px;"/>
+<img src="http://s3.amazonaws.io.io/img/two_branches_sequential_model.png" alt="two branch Sequential" style="width: 400px;"/>
 
 Such a two-branch model can then be trained via e.g.:
 

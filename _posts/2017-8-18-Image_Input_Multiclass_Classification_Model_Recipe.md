@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-18 03:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_23_3.png
+image: http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_23_3.png
 ---
 영상을 입력해서 다중클래스를 분류할 수 있는 모델들에 대해서 알아보겠습니다. 숫자 손글씨 데이터셋인 MNIST을 이용하여 다층퍼셉트론 및 컨볼루션 신경망 모델을 구성하고 학습 시켜보겠습니다. 이 모델들은 아래 문제들에 활용 기대해봅니다.
 * 동양인 얼굴 사진으로 한국인, 일본인, 중국인 구분
@@ -72,7 +72,7 @@ for i in range(plt_row*plt_col):
 plt.show()
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_11_0.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_11_0.png)
 
 ---
 ### 레이어 준비
@@ -92,7 +92,7 @@ plt.show()
     model.add(Dense(256, activation='relu'))
     model.add(Dense(10, activation='softmax'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_0m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_0m.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -105,7 +105,7 @@ plt.show()
     model.add(Dense(256, activation='relu'))
     model.add(Dense(10, activation='softmax'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_1m.png)
 
 #### 깊은 컨볼루션 신경망 모델
 
@@ -123,7 +123,7 @@ plt.show()
     model.add(Dropout(0.5))
     model.add(Dense(10, activation='softmax'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_2m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_2m.png)
 
 ---
 ### 전체 소스
@@ -259,7 +259,7 @@ plt.show()
 
 시험셋을 입력하여 예측한 결과와 실제 결과가 차이나는 데이터만 표시해봤습니다. 분류하기 애매한 데이터도 많지만 모델이 잘못 예측한 경우도 많아 보입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_17_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_17_3.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -393,7 +393,7 @@ plt.show()
 
 시험셋을 입력하여 예측한 결과와 실제 결과가 차이나는 데이터만 표시해봤습니다. 점점 분류하기 애매한 데이터가 많이 보입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_20_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_20_3.png)
 
 #### 깊은 컨볼루션 신경망 모델
 
@@ -534,7 +534,7 @@ plt.show()
 
 시험셋으로 예측한 결과 일부를 비교해봤습니다. 사람이 봐도 애매한 데이터가 많이 보입니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_23_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_23_3.png)
 
 ---
 
@@ -544,7 +544,7 @@ plt.show()
 
 |다층퍼셉트론 신경망 모델|컨볼루션 신경망 모델|깊은 컨볼루션 신경망 모델|
 |:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_17_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_20_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_23_1.png)
+|![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_17_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_20_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_output_23_1.png)
 
 ---
 
@@ -552,7 +552,7 @@ plt.show()
 
 영상를 입력하여 다중클래스분류하는 다층퍼셉트론 신경망 모델, 컨볼루션 신경망 모델, 깊은 컨볼루션 신경망 모델을 살펴보고 그 성능을 확인 해봤습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_title.png)
+![img](http://tykimos.github.io/warehouse/2017-8-18-Image_Input_Multiclass_Classification_Model_Recipe_title.png)
 
 ---
 

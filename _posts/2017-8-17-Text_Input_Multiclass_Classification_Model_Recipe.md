@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-17 03:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_total.png
+image: http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_total.png
 ---
 문장을 입력해서 다중클래스를 분류하는 모델에 대해서 알아보겠습니다. 다중클래스 분류를 위한 데이터셋에 대해서 살펴보고 여러가지 다중클래스 분류 모델을 구성해보겠습니다. 이 모델들은 문장 혹은 시계열수치로 타입을 분류하는 문제를 풀 수 있습니다. 
 
@@ -60,7 +60,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=120)
     model.add(Dense(256, activation='relu'))
     model.add(Dense(46, activation='softmax'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_1m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_1m.png)
 
 #### 순환 신경망 모델
 
@@ -71,7 +71,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=120)
     model.add(LSTM(128))
     model.add(Dense(46, activation='softmax'))
     
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_2m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_2m.png)
 
 #### 컨볼루션 신경망 모델
 
@@ -90,7 +90,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=120)
     model.add(Dropout(0.2))
     model.add(Dense(46, activation='softmax'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_3m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_3m.png)
 
 #### 순환 컨볼루션 신경망 모델
 
@@ -108,7 +108,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=120)
     model.add(LSTM(128))
     model.add(Dense(46, activation='softmax'))
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_4m.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_4m.png)
 
 ---
 ### 전체 소스
@@ -525,7 +525,7 @@ print(loss_and_metrics)
 
 |다층퍼셉트론 신경망 모델|순환 신경망 모델|컨볼루션 신경망 모델|순환 컨볼루션 신경망 모델
 |:-:|:-:|:-:|:-:|
-|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_12_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_14_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_16_1.png)|![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_18_1.png)|
+|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_12_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_14_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_16_1.png)|![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_output_18_1.png)|
 
 ---
 
@@ -533,7 +533,7 @@ print(loss_and_metrics)
 
 문장을 입력하여 다중클래스를 분류할 수 있는 여러가지 모델을 살펴보고, 그 성능을 비교해봤습니다. 시계열 데이터를 처리하기 위한 모델은 다층퍼셉트론 신경망 모델부터 컨볼루션 신경망, 순환 신경망 모델 등 다양하게 구성할 수 있습니다. 이런 모델들이 발전되면 주고 받는 대화를 듣고 분위기를 구분하거나 의사 소견들을 보고 질병을 예측하는 모델이 될 수 있지 않을까요?
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_total.png)
+![img](http://tykimos.github.io/warehouse/2017-8-17-Text_Input_Multiclass_Classification_Model_Recipe_total.png)
 
 ---
 

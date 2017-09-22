@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-07 16:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_4.png
+image: http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_4.png
 ---
 윈도우에서 케라스 개발 환경을 구축해보겠습니다. 진행 순서는 다음과 같습니다.
 
@@ -26,23 +26,23 @@ image: http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windo
 
 https://repo.continuum.io/archive/에 접속하여 시스템환경에 맞는 버전을 선택하여 Anaconda3을 다운로드 받습니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_5.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_5.png)
 
 다운로드 받은 파일을 실행시켜 다음과 같이 Anaconda를 설치합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_16.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_16.png)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_22.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_22.png)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_17.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_17.png)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_1.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_1.png)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_21.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_21.png)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_3.png)
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_6.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_6.png)
 
 설치가 정상적으로 완료되지 않고 ‘Failed to create Anaconda menus’라는 메시지가 뜨는 경우,  제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에서 [시스템변수] 중 java와 관련된 환경변수가 있는지 확인합니다. 관련 변수가 있는 경우 해당 변수를 임시 저장해두었다가 일시적으로 삭제한 후 설치를 진행한다. 설치가 완료되면 해당 변수를 다시 생성합니다.
 
@@ -85,7 +85,7 @@ Windows키+ r을 눌러 cmd(명령 프롬프트)를 실행시킵니다. 이 때,
 c:\>_
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_13.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_13.png)
 
 실습을 위해 “Projects”라는 폴더를 생성한 뒤 이동합니다.
 
@@ -94,7 +94,7 @@ c:\>mkdir Projects
 c:\>cd Projects
 c:\Projects>_
 ```
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_8.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_8.png)
 
 “keras_talk”라는 이름으로 케라스 프로젝트 하나를 생성합니다.
 
@@ -103,7 +103,7 @@ c:\Projects>mkdir keras_talk
 c:\Projects>cd keras_talk
 c:\Projects\keras_talk>_
 ```
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_15.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_15.png)
 
 ---
 
@@ -121,7 +121,7 @@ c:\Projects\keras_talk>_
     c:\Projects\keras_talk>activate venv
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_14.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_14.png)
 
 ---
 
@@ -139,15 +139,15 @@ c:\Projects\keras_talk>_
     (venv) c:\Projects\keras_talk>jupyter notebook
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_18.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_18.png)
 
 정상적으로 실행되면 아래와 같이 웹 브라우저가 실행됩니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_12.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_12.png)
 
 다른 패키지를 설치하기 위해 명령 프롬프트 창에서 Control+C 를 입력하여 notebook을 종료시킵니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_7.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_7.png)
 
 ---
 
@@ -180,7 +180,7 @@ c:\Projects\keras_talk>_
     (venv) c:\Projects\keras_talk\keras>_
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_9.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_9.png)
 
 다음과 같이 명령어를 입력하여 케라스를 설치합니다.
 
@@ -204,11 +204,11 @@ c:\Projects\keras_talk>_
 
 아래 그림처럼 우측 상단에 있는 'New' 버튼을 클릭해서 예제 코드를 작성할 파이썬 파일을 생성합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_19.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_19.png)
 
 성공적으로 파인썬 파일이 생성되었다면, 아래 그림처럼 코드를 작성할 수 있는 페이지가 띄워집니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_2.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_2.png)
 
 녹색 박스로 표시된 영역에 아래 코드를 삽입한 뒤 'shift키 + enter키'를 눌러서 실행시킵니다.
 
@@ -297,7 +297,7 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 
 에러없이 다음과 같이 화면이 출력되면 정상적으로 작동되는 것입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_10.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_10.png)
 
 #### 딥러닝 모델 저장 기능 확인
 
@@ -312,7 +312,7 @@ model = load_model('mnist_mlp_model.h5')
 
 위 코드 실행 시 에러가 발생하지 않고, 로컬 디렉토리에 'mnist_mlp_model.h5' 파일이 생성되었으면 정상적으로 작동되는 것입니다. 지금까지 정상적으로 실행이 되었다면 상단 메뉴에서 'File > Save and Checkpoint'로 현재까지 테스트한 파일을 저장합니다. 
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_4.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_4.png)
 
 ---
 
@@ -359,7 +359,7 @@ model = load_model('mnist_mlp_model.h5')
 * graphviz-2.38.msi을 실행시켜 graphviz를 설치합니다.
 * 설치가 완료되면 제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에 다음과 같이 변수를 추가합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_11.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_11.png)
 
 * 환경 변수의 [시스템 변수] 중 Path 에 다음과 같이 경로를 추가합니다.
 
@@ -367,7 +367,7 @@ model = load_model('mnist_mlp_model.h5')
     C:\Program Files (x86)\Graphviz2.38\bin
 ```
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Windows_20.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_20.png)
 
 * 환경 변수를 저장한 후 jupyter notebook이 실행되고 있는 cmd 창을 종료하고 다시 시작합니다.
 * 다시 위 예제 코드를 실행시켜서 잘 그림과 같이 이미지가 잘 나오면 성공적으로 설치된 것입니다.

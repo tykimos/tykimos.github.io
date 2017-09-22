@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-06-10 23:10:00
 categories: Study
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_paper3.png
+image: http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_paper3.png
 ---
 Visual QA 문제에서 관계형 추론(relational reasoning)을 도출하고자 DeepMind가 제안한 신경망 모델인 `관계 네트워크(Relation Networks, 이하 RN)` 대해서 알아보고자 합니다. 이 모델은 [A simple neural network module for relational reasoning](https://arxiv.org/pdf/1706.01427.pdf)이란 논문에서 소개되었고, 컨볼루션 신경망에 RN를 추가하여 어떻게 객체와 그 관계에 대해 추론하는 지 설명되어 있습니다. 시각기반의 질의응답 문제에 대해 탁월한 성능을 보이고 있다고 합니다.
 
@@ -16,7 +16,7 @@ Visual QA 문제에서 관계형 추론(relational reasoning)을 도출하고자
 관계형 추론(Relational Reasoning)이란 객체와 객체 속성 간의 관계를 추론하는 능력입니다. 아래 그림을 보면 두가지 질문이 있는데, 특정 객체의 속성을 추론하는 것을 비관계형 질문이라고 하고, 객체 간의 관계에 대해서 추론하는 것을 관계형 질문이라고 합니다.
 
 (Ref, [arXiv:1706.01427](https://arxiv.org/abs/1706.01427))
-![paper](http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_paper1.png)
+![paper](http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_paper1.png)
 
 ---
 
@@ -25,7 +25,7 @@ Visual QA 문제에서 관계형 추론(relational reasoning)을 도출하고자
 DeepMind에서는 이러한 관계형 추론을 할 수 있는 RN을 개발하였습니다. RN은 간단하며, 다른 모델에 쉽게 붙일 수 있고, 유연한 관계형 추론에만 중점을 둘 수 있습니다. RN을 CNN과 LSTM과 결합하여 (본문에서는 RN-augmented architecture라고 표현) visual question answering 문제에 대해서 실험을 하였고, 좋은 결과(기존 모델은 76.6%, 사람이 92.6%, RN 모델 적용한 것이 95.5%)가 나왔다고 합니다. 
 
 (Ref, [arXiv:1706.01427](https://arxiv.org/abs/1706.01427))
-![paper](http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_paper2.png)
+![paper](http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_paper2.png)
 
 ---
 
@@ -34,7 +34,7 @@ DeepMind에서는 이러한 관계형 추론을 할 수 있는 RN을 개발하�
 RN 모델 자체는 객체 관계만 추론하기 때문에 이미지나 자연어에 대해서는 동작하지 않습니다. 그래서 CNN과 LSTM 등과의 모델에서의 출력을 입력받아 객체를 추출하고 각 객체간의 관계를 추론합니다. 즉 객체를 따로 지정할 필요도 없다고 합니다. 아래는 논문에서 사용한 모델 구성입니다.
 
 (Ref, [arXiv:1706.01427](https://arxiv.org/abs/1706.01427))
-![paper](http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_paper3.png)
+![paper](http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_paper3.png)
 
 입력되는 이미지의 픽셀에서 객체들을 추출하기 위해 CNN이 사용하였습니다. 4개의 컨볼루션 레이어를 통해 크기 d * d의 k개의 feature map이 생성됩니다. k는 최종 컨볼루션 레이어의 커널 수입니다. 총 셀의 개수는 d*d*k가 되는 데, 각 셀은 RN에 대한 객체로 간주되며, 객체는 배경, 특정 객체, 질감, 연결 등을 정보를 담고 있습니다. 이러한 객체 정보는 인코딩된 질문과 함께 RN 모델의 입력이 됩니다.
 
@@ -343,7 +343,7 @@ pred = Dense(1, activation='sigmoid')(rn)
 구성하는 과정이 조금 복잡할 수 있는데, 2017년 2월에 나왔던 아래 논문을 보면 RN에 대해서 좀 더 상세하게 설명되었습니다. 
 
 (Ref, [arXiv:1702.05068](https://arxiv.org/abs/1702.05068))
-![paper](http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_paper4.png)
+![paper](http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_paper4.png)
 
 #### 모델 조합
 
@@ -368,7 +368,7 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 
 아래 그림은 구성된 모델을 도식화 한 것입니다. 잘 확대해서 보시기 바랍니다. 
 
-![svg](http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_model.svg)
+![svg](http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_model.svg)
 
 #### 모델 학습하기
 
@@ -427,7 +427,7 @@ print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
 같은 시기에 DeepMind에서 [Visual Interaction Networks](https://arxiv.org/abs/1706.01433)이란 논문도 나왔습니다. 아래 그림을 보시면 6 프레임을 입력하여 200프레임을 예측한 결과인데, 상당히 잘 맞습니다. 
 
 (Ref, [DeepMind](https://deepmind.com/blog/neural-approach-relational-reasoning/))
-![gif](http://tykimos.github.com/Keras/warehouse/2017-6-17-Relation_Network_paper5.gif)
+![gif](http://tykimos.github.io/warehouse/2017-6-17-Relation_Network_paper5.gif)
 
 Visual Interaction Network는 시각적 모듈과 물리적 추론 모듈의 두 가지 메커니즘으로 구성되며, 시각적 장면 처리는 물론 미래에 어떤 일이 일어날 지 예측할 수있는 암묵적 시스템 규칙(예를 들어 물리 시스템)을 학습한다고 합니다. 현상만 잘 학습시키면, 딥러닝 기반의 물리 엔진이 만들어질 기세입니다. 다양한 활용 사례를 기대해봅니다.
 

@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-05-22 13:00:00
 categories: Keras
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_6.png
+image: http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_6.png
 ---
 이번에는 학습한 모델을 어떤 기준으로 평가를 해야되는 지를 알아보겠습니다. 모델을 평가한다고 하면 `정확도`라는 단어를 떠올리기 쉬운데, 문제에 따라 단순히 정확도로만 평가하기 힘든 경우가 있습니다. 조금 더 알아보면 민감도, 특이도, 재현율 등의 용어가 나오는데, 비전공자에게는 생소하게만 느껴집니다. 몇가지 문제와 모델을 정의하고 여기에 적합한 평가 기준이 무엇인지 알아보겠습니다. 용어는 생소하지만 그 의미를 알게되면 왜 이런 기준이 필요한 지 감이 오실겁니다. 보통 평가에 관련된 내용을 보면 표와 수식이 많은 편인데, 손가락만 있으면 계산할 수 있도록 간단한 예제를 통해 알아보겠습니다. 늘 그랬듯이 레고로 놀이해봅시다. 다만 이번에는 그림이 아닌 실사가 포함되어 있습니다.
 
@@ -19,11 +19,11 @@ image: http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segme
     
 어린아이들도 쉽게 풀 수 있는 문제입니다. 총 10개 중 홀수와 짝수는 몇 개 일까요?
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_classification_1.jpg)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_classification_1.jpg)
 
 홀수가 4개, 짝수가 6개 있습니다. 조금 더 눈썰미가 좋으신 분은 홀수가 녹색, 짝수가 노란색으로 되어 있는 지 알아차렸을겁니다. 색상은 쉽게 구분이 되도록 맞춘 것뿐이고 문제하고는 상관이 없으니 신경쓰지 않으셔도 됩니다. 우리가 평가할 모델이 여섯 개이고, 각 모델의 결과가 다음과 같다고 가정해봅시다.
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_classification_2.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_classification_2.png)
 
 어떤 모델의 결과가 가장 좋을까요? 정답은 A모델입니다. 홀수 블록과 짝수 블록을 정확하게 구분하고 있습니다. 그럼 다음으로 좋은 모델은 무엇일까요? 각 모델 결과의 특징을 보겠습니다.
 - B모델 : 모두 홀수로 분류
@@ -39,7 +39,7 @@ image: http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segme
 
     정확도를 평가하실 때는 클래스의 분포도 꼭 확인하시길 바랍니다.
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_classification_3.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_classification_3.png)
 
 D모델과 E모델은 같은 정확도를 가지고 있습니다만 만약 홀수 블록(양성)은 빠짐없이 모두 골라내길 원한다면 E모델이 더 적합합니다. 양성을 잘 골라낼 수 있는 능력을 평가하기에는 정확도가 아닌 다른 기준이 필요합니다. 바로 `민감도`입니다.
 
@@ -51,7 +51,7 @@ D모델과 E모델은 같은 정확도를 가지고 있습니다만 만약 홀�
 
 그럼 각 모델에 대해서 민감도를 계산해보겠습니다.
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_classification_4.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_classification_4.png)
 
 다시 D모델와 E모델을 보겠습니다. D모델은 홀수를 절반만 골랐으므로 50%이고, E모델은 홀수를 모두 골랐으므로 100%입니다. 정확도가 동일한 모델 중에 홀수를 잘 골라내는 모델을 선정하고 싶다면, 민감도가 높은 것을 선택하시면 됩니다. 주의깊게 봐야할 부분은 모두 홀수라고 판정하는 B모델도 민감도가 100%이기 때문입니다. 민감도만 가지고 모델을 선정할 수는 없겠죠? 우리는 음성을 음성이라고 판정을 잘 하길 원합니다. 이러한 기준을 `특이도`라고 합니다.
 
@@ -63,7 +63,7 @@ D모델과 E모델은 같은 정확도를 가지고 있습니다만 만약 홀�
 
 그럼 각 모델의 특이도를 계산해보겠습니다.
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_classification_5.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_classification_5.png)
 
 D모델과 E모델을 다시 보겠습니다. D모델은 E모델에 비해 민감도는 낮지만 특이도는 높습니다. 만약 음성을 음성이라고 잘 골라내는 모델이 필요하다면 D모델을 선정해야 합니다. 지금까지 본 모델을 표로 비교해보겠습니다.
 
@@ -93,7 +93,7 @@ F모델 결과를 보도록 하겠습니다. 총 10개 블록 중 홀수 2개, �
 
 F모델과 G모델이 주어진 블록에 대해 홀수라고 판정할 확률값을 이 오름차순으로 나열한 뒤 10% 단위로 표시된 칸에 배치를 해봤습니다.
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_classification_6.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_classification_6.png)
 
 먼저 F모델을 보겠습니다. 왼쪽의 첫번째 블록이 홀수 블록일 확률이 5%라고 가정해봅시다. 그래서 0.0과 0.1 사이 칸에 위치 시켰습니다. 0.5가 임계값이라고 한다면, 맞춘 홀수 블록은 0.5 임계값에서 오른쪽에 있는 2개이고, 맞춘 짝수 블록은 0.5 임계값 왼쪽에 있는 4개입니다. 이 0.5인 임계값을 조정하면 어떻게 될까요? 임계값이 0.0이라면, 모두 홀수 블록이라고 하는 것이므로, 맞춘 홀수 블록은 4개가 되고, 맞춘 짝수 블록은 0개가 됩니다. 따라서, 임계값을 조정하면 정확도, 민감도, 특이도가 바뀝니다. 10% 단위로 임계값를 변화시키면서 바뀌는 정확도, 민감도, 특이도를 표로 정리하면 다음과 같습니다.
 
@@ -145,7 +145,7 @@ plt.legend(loc='lower right')
 plt.show()
 ```
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_roc_1.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_roc_1.png)
 
 여기서 노란점선이 이상적인 모델을 표시한 것입니다. 임계값과 상관없이 민감도와 특이도가 100%일때를 말하고, AUC 값은 1입니다. 빨간점선은 기준선으로서 AUC 값이 0.5입니다. 개발한 모델을 사용하려면, 적어도 이 기준선보다는 상위에 있어야 되겠죠? 모델 F와 모델 G를 비교해보면, 모델 F가 모델 G보다 상위에 있음을 알 수 있습니다. AUC를 보더라도 모델 F가 면적이 더 넓습니다. sklearn 패키지는 ROC curve 및 AUC를 좀 더 쉽게 구할 수 있는 함수를 제공합니다. 임계값 변화에 따른 민감도, 특이도를 계산해서 입력할 필요없이, 클래스 값과 모델에서 나오는 클래스 확률 값을 그대로 입력하면, ROC curve를 그릴 수 있는 값과 AUC 값을 알려줍니다. sklearn 패키지를 이용한 소스코드는 다음과 같습니다.
 
@@ -179,7 +179,7 @@ plt.legend(loc='lower right')
 plt.show()
 ```
 
-![classification](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_roc_2.png)
+![classification](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_roc_2.png)
 
 ---
 
@@ -191,11 +191,11 @@ plt.show()
     
 첫번째 문제랑 비슷하지만 더 쉬운 문제죠? 아래 블록 중에 하나인 것은 몇 개 일까요?
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_object_detection_1.jpg)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_object_detection_1.jpg)
 
 정답은 4개 입니다. 앞 예제와 동일하게 색상은 쉽게 구분이 되도록 맞춘 것뿐이니 신경쓰지 않으셔도 됩니다. 우리가 평가할 모델이 여섯 개이고, 각 모델의 결과가 다음과 같다고 가정해봅시다.
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_object_detection_2.png)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_object_detection_2.png)
 
 어떤 모델의 결과가 가장 좋을까요? 정답은 A모델입니다. 하나인 블록을 모두 골랐습니다. 각 모델 결과도 살펴보겠습니다. 
 
@@ -215,7 +215,7 @@ A모델과 B모델 중 어느 것이 좋을까요? B모델도 전체 양성 5개
 
 그럼 각 모델에 대해서 정밀도를 계산해보겠습니다.
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_object_detection_3.png)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_object_detection_3.png)
 
 A모델은 5개 고른 것 중 실제 양성이 5개이므로 정밀도가 100%이고, B모델은 10개 고른 것 중 실제 양성이 5개이므로 정밀도는 50%가 됩니다. E모델은 A모델와 같이 정밀도가 100%이지만 E모델에서 양성을 모두 검출하지는 못했습니다. E모델보다 A모델이 더 좋은 성능을 가지고 있지만 정밀도만으로는 성능 차이를 나타낼 수 없습니다. 이를 나타내기 위해 `재현율`이라는 기준을 사용합니다.
 
@@ -227,7 +227,7 @@ A모델은 5개 고른 것 중 실제 양성이 5개이므로 정밀도가 100%�
 
 그럼 각 모델의 재현율을 계산해보겠습니다.
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_object_detection_4.png)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_object_detection_4.png)
 
 앞서 본 E모델의 재현율은 전체 양성 5개 중에 2개만 검출하였으므로 40%입니다. F모델도 전체 양성 5개 중 2개만 검출하였으므로 재현율은 똑같이 40%입니다만 하지만 정밀도에서 차이가 납니다. 두 개의 모델만 비교한다면 F모델이 E모델보다 더 좋은 성능을 가졌다고 볼 수 있습니다. 또 하나 짚고 넘어가야 할 것이 C모델입니다. 재현율은 양성을 얼마나 잘 검출하는가를 평가하는 것이기에 모두 양성이라고 하는 C모델인 경우에도 100% 재현율을 가지게 됩니다.
 
@@ -253,7 +253,7 @@ A모델은 5개 고른 것 중 실제 양성이 5개이므로 정밀도가 100%�
 
 앞서 언급한 것과 같이 각 블록을 판정할 때는 통상적으로 모델에서는 한개짜리 블록일 확률로 나오고, 이 확률값으로 판정을 하는데, 판정 기준을 `임계값(threshold)`이라고 불렀습니다. 지금까지 위에서 봤던 결과들은 모두 확률값을 임계값을 기준으로 판정을 한 것입니다. F모델과 동일하게 정밀도 40%, 재현율 40%을 가진 G모델이 있다고 가정해봅시다. F모델과 G모델의 판정결과 이전에 확률값을 오름차순으로 나열한 뒤 10% 단위로 표시된 칸에 배치를 해봤습니다.
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_object_detection_5.png)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_object_detection_5.png)
 
 F모델의 판정 기준인 임계값을 10% 단위로 변화시키면서 바뀌는 정밀도와 재현율을 표로 정리하면 다음과 같습니다.
 
@@ -299,7 +299,7 @@ plt.legend(loc='upper right')
 plt.show()
 ```
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_prg_1.png)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_prg_1.png)
 
 이러한 그래프를 하나의 수치로 나타낸 것이 `AP(Average Precision)`이라고 합니다. 이는 각 재현율에 해당하는 정밀도을 더해서 평균을 취한 것입니다. sklearn 패키지는 Precision-Recall Graph 및 AP를 좀 더 쉽게 구할 수 있는 함수를 제공합니다. 임계값 변화에 따른 정밀도, 재현율을 계산해서 입력할 필요없이, 클래스 값과 모델에서 나오는 클래스 확률 값을 그대로 입력하면 됩니다. sklearn 패키지를 이용한 소스코드는 다음과 같습니다.
 
@@ -331,7 +331,7 @@ plt.legend(loc='upper right')
 plt.show()
 ```
 
-![detection](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_prg_2.png)
+![detection](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_prg_2.png)
 
 F모델이 G모델보다 AP 수치가 높으므로 더 좋은 모델이라고 볼 수 있습니다.
 
@@ -345,7 +345,7 @@ F모델이 G모델보다 AP 수치가 높으므로 더 좋은 모델이라고 �
     
 역시 어린아이들도 쉽게 풀 수 있는 문제입니다. 실제로는 거의 Ground Truth처럼 만들겠지만, A~E모델처럼 다양한 결과가 나왔다고 가정해봅시다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_1.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_1.png)
 
 어느 모델의 결과가 가장 좋을까요? 가장 쉽게 `픽셀 정확도(Pixel Accuracy)`를 가지고 판단할 수 있습니다. 픽셀은 이미지 처리에서 나오는 용어지만 여기서는 블록 하나라고 쳐봅십니다. 여기서 다루는 클래스는 녹색과 노란색으로 두 개입니다.
 
@@ -353,7 +353,7 @@ F모델이 G모델보다 AP 수치가 높으므로 더 좋은 모델이라고 �
     
 그럼 각 모델의 픽셀 정확도를 계산해보겠습니다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_2.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_2.png)
 
 단순히 맞춘 개수를 보고 계산하기 때문에 서로 다른 패턴이라도 동일 정확도로 나오는 경우가 많습니다. E모델은 녹색 블록이 하나도 없는데도 83.3%이나 결과가 나옵니다. 색상별로 어느정도 맞춰야 좋은 평가를 얻게 되려면 어떻게 해야할 까요? 클래스 별로 픽셀 정확도를 계산하는 방법인 `평균 정확도(Mean Accuracy)`가 있습니다. 이는 색상별로 픽셀 정확도를 계산하여 평균을 구한 값입니다.
 
@@ -361,7 +361,7 @@ F모델이 G모델보다 AP 수치가 높으므로 더 좋은 모델이라고 �
     
 위 식에서 2는 색상 수 즉 클래스 수입니다. 그럼 각 모델 결과에 대해서 Mean Accuracy를 구해봤습니다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_3.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_3.png)
 
 앞서 봤던 E모델은 가장 낮은 평가를 받았습니다. 노란색 블록의 픽셀 정확도는 100%이지만 녹색 블록의 픽셀 정확도 0%이기 때문에 평균인 50%가 되었습니다. A모델과 C모델이 상대적으로 높은 평가를 받았습니다. 녹색 블록의 비중이 낮지만 픽셀 정확도는 100%이기 때문에 전체 평균값이 올라갔습니다. C모델인 경우에는 노란색 블록이 많이 틀렸음에도 80%나 되는 평가를 받았습니다. 이러한 정확도는 맞춘 개수만 카운팅이 되고 틀린 개수에 대한 패널티가 없기 때문입니다. 그럼 틀린 블록에 대한 패널티는 어떻게 고려할까요? 이를 고려한 평가방법으로 `MeanIU`라는 것이 있습니다.
 
@@ -371,19 +371,19 @@ IU는 Intersection over Union의 약자로 특정 색상에서의 실제 블록�
     
 각 모델의 결과에 대해 Mean IU을 계산해보겠습니다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_4.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_4.png)
 
 IU 개념에 대해서 조금 더 살펴보겠습니다. D모델을 예를 들어, 아래 그림을 보시면 Ground Truth의 녹색 블록 영역과 모델 결과 녹색 블록 영역에서 서로 겹치는 블록 수가 2개이고, 서로 합한 영역의 블록 수가 6개이기 때문에, 녹색 블록 IU는 2/6입니다. 노란색 블록 IU는 18/22입니다. 따라서 Mean IU는 이를 평균 취한 57.5%가 됩니다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_7.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_7.png)
 
 Pixel Accuracy와 Mean Accuracy인 경우에는 틀린 블록에 대한 고려가 없었지만, Mean IU인 경우에는 틀린 블록 수가 많을 수록 분모가 커지기 때문에 전체 수치는 낮아집니다. 클래스별로 IU를 구한 뒤 평균을 취하기 때문에 비중이 낮은 클래스라도 IU 수치가 낮으면 Mean IU 값도 떨어집니다. 만약 클래스별로 픽셀 수가 다를 경우 픽셀 수가 많은 클래스에 더 비중을 주고 싶다면 `Frequency Weighted IU`를 사용합니다. 각 모델별로 Frequency Weighted IU를 계산하면 아래와 같습니다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_5.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_5.png)
 
 앞서 살펴본 4가지 평가 기준에 대해서 정리해봤습니다.
 
-![segmentation](http://tykimos.github.com/Keras/warehouse/2017-5-22-Evaluation_Talk_segmentation_6.png)
+![segmentation](http://tykimos.github.io/warehouse/2017-5-22-Evaluation_Talk_segmentation_6.png)
 
 각 평가 기준이 나타내는 의미와 모델 결과별 수치를 보면서 왜 이런 결과가 나오게 되었는 지 의미적으로 해석해보시는 것이 다양한 평가 기준을 이해하는 데 도움이 많이 될 것 같습니다.
 

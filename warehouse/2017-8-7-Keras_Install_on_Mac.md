@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-08-07 16:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Mac_4.png
+image: http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Mac_4.png
 ---
 본 강좌에서는 맥에서 케라스 개발 환경을 구축해보겠습니다.
 
@@ -81,7 +81,7 @@ keras_talk $ source venv/bin/activate
 
 정상적으로 설치되었다면 웹 브라우저가 실행되면서 아래와 같은 페이지가 띄워집니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Mac_1.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Mac_1.png)
 
 계속 다른 패키지를 설치하기 위해 터미널 창에서 'Control-C'를 누른 뒤 'y'를 입력하여 ipython notebook를 종료시킵니다.
 
@@ -131,11 +131,11 @@ Shutdown this notebook server (y/[n])?  y
 
 아래 그림처럼 우측 상단에 있는 'new' 버튼을 클릭해서 예제 코드를 작성할 파이션 파일을 생성합니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Mac_2.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Mac_2.png)
 
 성공적으로 파인썬 파일이 생성되었다면, 아래 그림처럼 코드를 작성할 수 있는 페이지가 띄워집니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Mac_3.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Mac_3.png)
 
 녹색 박스로 표시된 영역에 아래 코드를 삽입한 뒤 'shift키 + enter키'를 눌러서 실행시킵니다.
 
@@ -228,7 +228,7 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 
 에러없이 다음과 같이 화면이 출력되면 정상적으로 작동되는 것입니다.
 
-![img](http://tykimos.github.com/Keras/warehouse/2017-8-7-Keras_Install_on_Mac_4.png)
+![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Mac_4.png)
 
 #### 딥러닝 모델 저장 기능 확인
 
