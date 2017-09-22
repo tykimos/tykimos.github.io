@@ -343,7 +343,7 @@ model = load_model('mnist_mlp_model.h5')
 ---
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [케라스 이야기](https://tykimos.github.io/Keras/2017/01/27/Keras_Talk/)
-* 다음 : [윈도우에서 케라스 설치하기](https://tykimos.github.io/Keras/2017/08/07/Keras_Install_on_Windows/)
-* 다음 : [데이터셋 이야기](https://tykimos.github.io/Keras/2017/03/25/Dataset_and_Fit_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [케라스 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/)
+* 다음 : [윈도우에서 케라스 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
+* 다음 : [데이터셋 이야기](https://tykimos.github.io/2017/03/25/Dataset_and_Fit_Talk/)

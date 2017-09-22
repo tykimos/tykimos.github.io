@@ -81,4 +81,4 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc']
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
+* [강좌 목차](https://tykimos.github.io/lecture/)

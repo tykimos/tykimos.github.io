@@ -677,6 +677,6 @@ A3) 한 전문가가 세 종목을 보는 것이랑 세 명의 전문가가 종�
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [영상입력 다중클래스분류 모델 레시피](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
-* 다음 : [문장(시계열수치)입력 이진분류 모델 레시피](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Binary_Classification_Model_Recipe)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [영상입력 다중클래스분류 모델 레시피](https://tykimos.github.io/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
+* 다음 : [문장(시계열수치)입력 이진분류 모델 레시피](https://tykimos.github.io/2017/08/17/Text_Input_Binary_Classification_Model_Recipe)

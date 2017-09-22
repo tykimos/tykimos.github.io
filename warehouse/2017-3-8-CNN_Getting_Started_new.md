@@ -592,6 +592,6 @@ print(output)
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [딥러닝 모델 이야기/컨볼루션 신경망 레이어 이야기](https://tykimos.github.io/Keras/2017/01/27/CNN_Layer_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [딥러닝 모델 이야기/컨볼루션 신경망 레이어 이야기](https://tykimos.github.io/2017/01/27/CNN_Layer_Talk/)
 * 다음 : [딥러닝 모델 이야기/순환 신경망 레이어 이야기]

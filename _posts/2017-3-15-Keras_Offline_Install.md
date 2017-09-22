@@ -164,6 +164,6 @@ comments: true
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [딥러닝 이야기/학습인자와 데이터셋 이야기](https://tykimos.github.io/Keras/2017/03/25/Dataset_and_Fit_Talk/)
-* 다음 : [딥러닝 모델 이야기/다층 퍼셉트론 레이어 이야기](https://tykimos.github.io/Keras/2017/01/27/MLP_Layer_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [딥러닝 이야기/학습인자와 데이터셋 이야기](https://tykimos.github.i.io017/03/25/Dataset_and_Fit_Talk/)
+* 다음 : [딥러닝 모델 이야기/다층 퍼셉트론 레이어 이야기](https://tykimos.github.io/2017/01/27/MLP_Layer_Talk/)

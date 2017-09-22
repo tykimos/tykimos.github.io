@@ -254,4 +254,4 @@ model = load_model('mnist_mlp_model.h5')
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
+* [강좌 목차](https://tykimos.github.io/lecture/)

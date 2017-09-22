@@ -331,6 +331,6 @@ print('loss : ' + str(loss))
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [순환 신경망 모델 만들어보기](https://tykimos.github.io/Keras/2017/04/09/RNN_Layer_Talk/)
-* 다음 : [수치입력 이진분류 모델 레시피](https://tykimos.github.io/Keras/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)  
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [순환 신경망 모델 만들어보기](https://tykimos.github.io/2017/04/09/RNN_Layer_Talk/)
+* 다음 : [수치입력 이진분류 모델 레시피](https://tykimos.github.io/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)  

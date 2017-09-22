@@ -99,8 +99,8 @@ A2) 맞습니다. 첫번째 검증 시 모의고사 5회를 사용하였고, 두
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [케라스 이야기](https://tykimos.github.io/Keras/2017/01/27/Keras_Talk/)
-* 이전 : [맥에서 케라스 설치하기](https://tykimos.github.io/Keras/2017/08/07/Keras_Install_on_Mac/)
-* 이전 : [윈도우에서 케라스 설치하기](https://tykimos.github.io/Keras/2017/08/07/Keras_Install_on_Windows/)    
-* 다음 : [학습과정 이야기](https://tykimos.github.io/Keras/2017/03/25/Fit_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [케라스 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/)
+* 이전 : [맥에서 케라스 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Mac/)
+* 이전 : [윈도우에서 케라스 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)    
+* 다음 : [학습과정 이야기](https://tykimos.github.io/2017/03/25/Fit_Talk/)

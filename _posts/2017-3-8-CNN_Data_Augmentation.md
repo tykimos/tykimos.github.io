@@ -18,7 +18,7 @@ image: http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_combi
 
 ### 현실적인 문제
 
-[컨볼루션 신경망 모델 만들어보기](https://tykimos.github.io/Keras/2017/03/08/CNN_Getting_Started/) 강좌에서 사용하였던 원, 사각형, 삼각형 데이터셋을 예제로 살펴보겠습니다. 구성은 훈련셋과 시험셋으로 되어 있는 데, 아래 그림은 훈련셋입니다.
+[컨볼루션 신경망 모델 만들어보기](https://tykimos.github.io/2017/03/08/CNN_Getting_Started/) 강좌에서 사용하였던 원, 사각형, 삼각형 데이터셋을 예제로 살펴보겠습니다. 구성은 훈련셋과 시험셋으로 되어 있는 데, 아래 그림은 훈련셋입니다.
 
 #### 훈련셋
 ![data](http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_1.png)
@@ -50,7 +50,7 @@ image: http://tykimos.github.io/warehouse/2017-3-8-CNN_Data_Augmentation_5_combi
 
 ### 기존 모델 결과보기
 
-[컨볼루션 신경망 모델 만들어보기](https://tykimos.github.io/Keras/2017/03/08/CNN_Getting_Started/) 강좌에서 사용했던 모델을 그대로 가지고 왔습니다. 제가 만든 시험셋에서는 결과가 100%나왔는데, 도전 시험셋으론 어떤 결과가 나오는 지 테스트해보겠습니다.
+[컨볼루션 신경망 모델 만들어보기](https://tykimos.github.io/2017/03/08/CNN_Getting_Started/) 강좌에서 사용했던 모델을 그대로 가지고 왔습니다. 제가 만든 시험셋에서는 결과가 100%나왔는데, 도전 시험셋으론 어떤 결과가 나오는 지 테스트해보겠습니다.
 
 
 ```python
@@ -431,6 +431,6 @@ print(output)
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [딥러닝 모델 이야기/컨볼루션 신경망 레이어 이야기](https://tykimos.github.io/Keras/2017/01/27/CNN_Layer_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [딥러닝 모델 이야기/컨볼루션 신경망 레이어 이야기](https://tykimos.github.io/2017/01/27/CNN_Layer_Talk/)
 * 다음 : [딥러닝 모델 이야기/순환 신경망 레이어 이야기]

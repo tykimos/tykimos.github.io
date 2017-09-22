@@ -362,6 +362,6 @@ print(output)
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [컨볼루션 신경망 레이어 이야기](https://tykimos.github.io/Keras/2017/01/27/CNN_Layer_Talk/)
-* 다음 : [컨볼루션 신경망 모델을 위한 데이터 부풀리기](https://tykimos.github.io/Keras/2017/06/10/CNN_Data_Augmentation/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [컨볼루션 신경망 레이어 이야기](https://tykimos.github.io/2017/01/27/CNN_Layer_Talk/)
+* 다음 : [컨볼루션 신경망 모델을 위한 데이터 부풀리기](https://tykimos.github.io/2017/06/10/CNN_Data_Augmentation/)

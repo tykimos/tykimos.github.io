@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-01-27 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.io/Keras/warehouse/gates.jpg
+image: http://tykimos.github.io/warehouse/gates.jpg
 ---
 케라스(Keras) - 그 간결함에 빠지다.
 
@@ -134,7 +134,7 @@ print(yhat)
 
 그리스 신화에 오네이로이라고 불리는 꿈의 정령들이 있습니다. 오네이로이는 헬리오스의 궁전 근처에 살면서 두 개의 문을 통해 인간들에게 꿈을 보냅니다. 신이 사람들에게 메시지를 전할 때 오네이로이에게 부탁하여 꿈을 보낸다고 합니다. 미래에 성취될 진실은 뿔로 된 문으로 보내고 거짓은 상아로 된 문으로 보내줍니다. 즉 꿈을 통해 미래로 인도하는 역할을 오네이로이가 하고, 그때 뿔(케라스)로 된 문을 통해 꿈을 보냅니다. 신이 심기가 좋지 않을 때 거짓꿈을 보내기도 하죠. 제우스는 트로이가 곧 망할 것이라는 거짓꿈을 아가멤논에게 보내고, 아가멤논은 이 꿈을 뀐 뒤 트로이를 공격했다가 그리스군 패배하죠. 거짓꿈이니 상아의 문을 통해 전달되었겠죠? 거짓꿈을 믿었다가 패가망신한 경우입니다.
 
-![gates](http://tykimos.github.io/Keras/warehouse/gates.jpg)
+![gates](http://tykimos.github.io/warehouse/gates.jpg)
 [그림 출처](http://www.coryianshaferlpc.com/cory-ian-shafer-lpc-blog/dreams-paying-attention-to-the-sleeping-story)
 
 딴 얘기이지만 오네이로이는 밤의여신 닉스와 잠의 신 힙노스의 자식들이고 수천명이나 됩니다. 그 중에 모르페우스(Morpheus)라는 신이 있는 데, 이 신은 꿈에선 인간의 모습으로 보이며, .엄청나게 정교한 흉내를 낸다고 하네요. 모르페우스의 영어발음이 모피어스인데, 영화 매트릭스에선 이 이름의 인물이 네오의 가상세계에 나타나 진실로 이끄는 역할을 하죠.
@@ -149,7 +149,7 @@ _(본 문단은 신화에 박식한 wingikaros님의 도움으로 작성되었�
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 다음 : [맥에서 케라스 설치하기](https://tykimos.github.io/Keras/2017/08/07/Keras_Install_on_Mac/)
-* 다음 : [윈도우에서 케라스 설치하기](https://tykimos.github.io/Keras/2017/08/07/Keras_Install_on_Windows/)
-* 다음 : [데이터셋 이야기](https://tykimos.github.io/Keras/2017/03/25/Dataset_and_Fit_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 다음 : [맥에서 케라스 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Mac/)
+* 다음 : [윈도우에서 케라스 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
+* 다음 : [데이터셋 이야기](https://tykimos.github.io/2017/03/25/Dataset_and_Fit_Talk/)

@@ -445,5 +445,5 @@ plt.show()
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 다음 : [학습 조기종료 시키기](https://tykimos.github.io/Keras/2017/07/09/Early_Stopping/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 다음 : [학습 조기종료 시키기](https://tykimos.github.io/2017/07/09/Early_Stopping/)

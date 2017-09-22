@@ -435,7 +435,7 @@ Visual Interaction Network는 시각적 모듈과 물리적 추론 모듈의 두
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
 
 
 ```python

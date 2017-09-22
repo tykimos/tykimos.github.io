@@ -62,7 +62,7 @@ model = Sequential()
 model.add(Dense(1, input_dim=1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/13/Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/13/Numerical_Prediction_Model_Recipe/)
 
 #### Numerical Input / Numerical Prediction - MLP NN Model<br>(수치입력 수치예측 다층퍼셉트론 신경망 모델)
 
@@ -75,7 +75,7 @@ model.add(Dense(64, input_dim=1, activation='relu'))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/13/Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/13/Numerical_Prediction_Model_Recipe/)
 
 #### Numerical Input / Binary Classification - Deep MLP NN Model<br>(수치입력 수치예측 깊은 다층퍼셉트론 신경망 모델)
 
@@ -89,7 +89,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/13/Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/13/Numerical_Prediction_Model_Recipe/)
 
 #### Numerical Input / Binary Classification - Perceptron NN Model<br>(수치입력 이진분류 퍼셉트론 신경망 모델)
 
@@ -101,7 +101,7 @@ model = Sequential()
 model.add(Dense(1, input_dim=12, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)
 
 #### Numerical Input / Binary Classification - MLP NN Model<br>(수치입력 이진분류 다층퍼셉트론 신경망 모델)
 
@@ -114,7 +114,7 @@ model.add(Dense(64, input_dim=12, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)
 
 #### Numerical Input / Binary Classification - Deep MLP NN Model<br>(수치입력 이진분류 깊은 다층퍼셉트론 신경망 모델)
 
@@ -128,7 +128,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/13/Numerical_Input_Binary_Classification_Model_Recipe/)
 
 #### Numerical Input / Multiclass Classification - Perceptron NN Model<br>(수치입력 다중클래스분류 퍼셉트론 신경망 모델)
 
@@ -140,7 +140,7 @@ model = Sequential()
 model.add(Dense(10, input_dim=12, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Numerical Input / Multiclass Classification - MLP NN Model<br>(수치입력 다중클래스분류 다층퍼셉트론 신경망 모델)
 
@@ -153,7 +153,7 @@ model.add(Dense(64, input_dim=12, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/19/Numerical_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/19/Numerical_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Numerical Input / Multiclass Classification - Deep MLP NN Model<br>(수치입력 다중클래스분류 깊은 다층퍼셉트론 신경망 모델)
 
@@ -167,7 +167,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/19/Numerical_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/19/Numerical_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Image Input / Numerical Prediction - MLP NN Model<br>(영상입력 수치예측 다층퍼셉트론 신경망 모델)
 
@@ -182,7 +182,7 @@ model.add(Dense(256))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/20/Image_Input_Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/20/Image_Input_Numerical_Prediction_Model_Recipe/)
 
 #### Image Input / Numerical Prediction - CNN Model<br>(영상입력 수치예측 컨볼루션 신경망 모델)
 
@@ -200,7 +200,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Image Input / Binary Classification - MLP NN Model<br>(영상입력 이진분류 다층퍼셉트론 신경망 모델)
 
@@ -215,7 +215,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Binary_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/18/Image_Input_Binary_Classification_Model_Recipe/)
 
 #### Image Input / Binary Classification - CNN Model<br>(영상입력 이진분류 컨볼루션 신경망 모델)
 
@@ -233,7 +233,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Binary_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/18/Image_Input_Binary_Classification_Model_Recipe/)
 
 #### Image Input / Binary Classification - Deep CNN Model<br>(영상입력 이진분류 깊은 컨볼루션 신경망 모델)
 
@@ -256,7 +256,7 @@ model.add(Dropout(0.5))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Binary_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/18/Image_Input_Binary_Classification_Model_Recipe/)
 
 #### Image Input / Multiclass Classification - MLP NN Model<br>(영상입력 다중클래스분류 다층퍼셉트론 신경망 모델)
 
@@ -271,7 +271,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Image Input / Multiclass Classification - CNN Model<br>(영상입력 다중클래스분류 컨볼루션 신경망 모델)
 
@@ -289,7 +289,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Image Input / Multiclass Classification - Deep CNN Model<br>(영상입력 다중클래스분류 깊은 컨볼루션 신경망 모델)
 
@@ -312,7 +312,7 @@ model.add(Dropout(0.5))
 model.add(Dense(10, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Time-series Numerical Input / Numerical Prediction - MLP NN Model<br>(시계열수치입력 수치예측 다층퍼셉트론 신경망 모델)
 
@@ -329,7 +329,7 @@ for i in range(2):
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
 
 #### Time-series Numerical Input / Numerical Prediction - RNN Model<br>(시계열수치입력 수치예측 순환신경망 모델)
 
@@ -343,7 +343,7 @@ model.add(Dropout(0.3))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
 
 #### Time-series Numerical Input / Numerical Prediction - Stateful RNN Model<br>(시계열수치입력 수치예측 상태유지 순환신경망 모델)
 
@@ -357,7 +357,7 @@ model.add(Dropout(0.3))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
 
 #### Time-series Numerical Input / Numerical Prediction - Stateful Stack RNN Model<br>(시계열수치입력 수치예측 상태유지 스택 순환신경망 모델)
 
@@ -374,7 +374,7 @@ model.add(Dropout(0.3))
 model.add(Dense(1))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
 
 #### Text Input / Binary Classification - MLP NN Model<br>(문장입력 이진분류 다층퍼셉트론 신경망 모델)
 
@@ -389,7 +389,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Binary Classification - RNN Model<br>(문장입력 이진분류 순환신경망 모델)
 
@@ -403,7 +403,7 @@ model.add(LSTM(128))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Binary Classification - CNN Model<br>(문장입력 이진분류 컨볼루션 신경망 모델)
 
@@ -425,7 +425,7 @@ model.add(Dropout(0.2))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Binary Classification - RNN & CNN Model<br>(문장입력 이진분류 순환 컨볼루션 신경망 모델)
 
@@ -446,7 +446,7 @@ model.add(LSTM(128))
 model.add(Dense(1, activation='sigmoid'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Multiclass Classification - MLP NN Model<br>(문장입력 다중클래스분류 다층퍼셉트론 신경망 모델)
 
@@ -461,7 +461,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(46, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Multiclass Classification - RNN Model<br>(문장입력 다중클래스분류 순환신경망 모델)
 
@@ -475,7 +475,7 @@ model.add(LSTM(128))
 model.add(Dense(46, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Multiclass Classification - CNN Model<br>(문장입력 다중클래스분류 컨볼루션 신경망 모델)
 
@@ -497,7 +497,7 @@ model.add(Dropout(0.2))
 model.add(Dense(46, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
 
 #### Text Input / Multiclass Classification - RNN & CNN Model<br>(문장입력 다중클래스분류 순환 컨볼루션 신경망 모델)
 
@@ -518,4 +518,4 @@ model.add(LSTM(128))
 model.add(Dense(46, activation='softmax'))
 ```
 
-[more...](https://tykimos.github.io/Keras/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+[more...](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)

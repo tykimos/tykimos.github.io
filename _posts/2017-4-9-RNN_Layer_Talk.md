@@ -1017,6 +1017,6 @@ print("full song prediction : ", seq_out)
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [순환 신경망 레이어 이야기](https://tykimos.github.io/Keras/2017/04/09/RNN_Getting_Started/)
-* 다음 : [수치입력 수치예측 모델 레시피](https://tykimos.github.io/Keras/2017/08/13/Numerical_Prediction_Model_Recipe/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [순환 신경망 레이어 이야기](https://tykimos.github.io/2017/04/09/RNN_Getting_Started/)
+* 다음 : [수치입력 수치예측 모델 레시피](https://tykimos.github.io/2017/08/13/Numerical_Prediction_Model_Recipe/)

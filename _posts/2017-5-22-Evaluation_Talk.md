@@ -398,6 +398,6 @@ Pixel Accuracy와 Mean Accuracy인 경우에는 틀린 블록에 대한 고려�
 
 ### 같이 보기
    
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [딥러닝 이야기/학습과정과 데이터셋 이야기](https://tykimos.github.io/Keras/2017/03/25/Dataset_and_Fit_Talk/)
-* 다음 : [딥러닝 이야기/오프라인 설치](https://tykimos.github.io/Keras/2017/03/15/Keras_Offline_Install/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [딥러닝 이야기/학습과정과 데이터셋 이야기](https://tykimos.github.io/2017/03/25/Dataset_and_Fit_Talk/)
+* 다음 : [딥러닝 이야기/오프라인 설치](https://tykimos.github.io/2017/03/15/Keras_Offline_Install/)

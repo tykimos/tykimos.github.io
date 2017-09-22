@@ -285,4 +285,4 @@ A2) 네, 맞습니다. functional API 기반 모델은 다수개의 입출력으
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
+* [강좌 목차](https://tykimos.github.io/lecture/)

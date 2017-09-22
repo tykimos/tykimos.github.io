@@ -7,7 +7,7 @@ categories: Lecture
 comments: true
 image: http://tykimos.github.io/warehouse/2017-7-9-Early_Stopping_4.png
 ---
-앞서 ['학습과정과 데이터셋 이야기'](https://tykimos.github.io/Keras/2017/03/25/Dataset_and_Fit_Talk/)에서 과적합이라는 것을 살펴보았고, 이를 방지하기 위해 조기 종료하는 시점에 대해서 알아보았습니다. 본 절에서는 케라스에서 제공하는 기능을 이용하여 학습 중에 어떻게 조기 종료를 시킬 수 있는 지 알아보겠습니다.
+앞서 ['학습과정과 데이터셋 이야기'](https://tykimos.github.io/2017/03/25/Dataset_and_Fit_Talk/)에서 과적합이라는 것을 살펴보았고, 이를 방지하기 위해 조기 종료하는 시점에 대해서 알아보았습니다. 본 절에서는 케라스에서 제공하는 기능을 이용하여 학습 중에 어떻게 조기 종료를 시킬 수 있는 지 알아보겠습니다.
 
 ---
 
@@ -390,6 +390,6 @@ print('accuray : ' + str(loss_and_metrics[1]))
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [학습과정 표시하기 (텐서보드 포함)](https://tykimos.github.io/Keras/2017/07/09/Training_Monitoring/)    
-* 다음 : [학습 모델 저장하기/불러오기](https://tykimos.github.io/Keras/2017/06/10/Model_Save_Load/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [학습과정 표시하기 (텐서보드 포함)](https://tykimos.github.io/2017/07/09/Training_Monitoring/)    
+* 다음 : [학습 모델 저장하기/불러오기](https://tykimos.github.io/2017/06/10/Model_Save_Load/)

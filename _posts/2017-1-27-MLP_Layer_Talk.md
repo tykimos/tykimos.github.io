@@ -5,7 +5,7 @@ author: Taeyoung, Kim
 date:   2017-01-27 02:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.io/Keras/warehouse/2017-1-27_MLP_Layer_Talk_lego_5.png
+image: http://tykimos.github.io/warehouse/2017-1-27_MLP_Layer_Talk_lego_5.png
 ---
 이번에는 케라스에서 사용되는 레이어(layer, 층) 개념에 대해서 알아봅니다. 케라스의 핵심 데이터 구조는 모델이고, 이 모델을 구성하는 것이 레이어입니다. 간단히 뉴런에 대해서 알아본 다음, 주요 레이어에 대해 기본 개념, 역할 등에 대해서 살펴보고, 레이어를 어떻게 쌓아서 모델을 만들 수 있는 지 알아봅니다. 기본적인 레이어 개념을 익히면 레고 쌓는 것 처럼 쉽게 구성할 수 있는데, 실제 레고로도 쌓아보겠습니다. 본 강좌에서는 다층 퍼셉트론 모델에서 사용되는 Dense 레이어에 대해서만 알아보겠습니다.
 
@@ -128,7 +128,7 @@ from keras.utils.visualize_util import model_to_dot
 SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 ```
 
-![model](http://tykimos.github.io/Keras/warehouse/2017-1-27-MLP_Layer_Talk_model.png)
+![model](http://tykimos.github.io/warehouse/2017-1-27-MLP_Layer_Talk_model.png)
 
 ---
 
@@ -140,6 +140,6 @@ SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [딥러닝 이야기/케라스 이야기](https://tykimos.github.io/Keras/2017/01/27/Keras_Talk/)
-* 다음 : [딥러닝 모델 이야기/다층 퍼셉트론 모델 만들어보기](https://tykimos.github.io/Keras/2017/02/04/MLP_Getting_Started/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [딥러닝 이야기/케라스 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/)
+* 다음 : [딥러닝 모델 이야기/다층 퍼셉트론 모델 만들어보기](https://tykimos.github.io/2017/02/04/MLP_Getting_Started/)

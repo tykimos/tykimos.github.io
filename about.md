@@ -7,8 +7,8 @@ comments: true
 (주)인스페이스에 근무하고 있고, 항공우주분야 전공을 바탕으로 천문/위성/드론/헬스케어/의료 분야에서 영상처리/분석 프로젝트를 진행하고 있습니다. 다양한 분야에서 딥러닝의 적용 가능성을 빨리 확인하려다 보니 프로토타이핑에 적합한 케라스를 공부하게 되었습니다. 딥러닝 전공은 아니지만 도메인에서 가진 문제를 해결하고자 고민하고 얘기하는 것은 억수로(?) 좋아라 합니다. 
 
 이야기
-- 2017년 8월 9일 [딥브릭(DeepBrick) 이야기](https://tykimos.github.io/Keras/2017/08/09/DeepBrick_Talk/) 시작
-- 2017년 1월 27일 [케라스(Keras) 이야기](https://tykimos.github.io/Keras/2017/01/27/Keras_Talk/) 시작
+- 2017년 8월 9일 [딥브릭(DeepBrick) 이야기](https://tykimos.github.io/2017/08/09/DeepBrick_Talk/) 시작
+- 2017년 1월 27일 [케라스(Keras) 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/) 시작
 
 걸음
 - (예정) 2017년 9월 20일 (주)인스페이스 대전창조경제혁신센터, "블록과 함께하는 딥러닝 실습, 케라스(Keras) 이야기"
@@ -22,11 +22,11 @@ comments: true
 - 2017년 3월 7일 충남대학교병원, "의료영상 분야에서의 딥러닝 이야기 세미나"
 - 2016년 11월 7일 세브란스병원, "영상인식 분야에서의 딥러닝 이야기 세미나"
 
-<img src="http://tykimos.github.io/Keras/images/face1.jpg">
+<img src="http://tykimos.github.io/images/face1.jpg">
 [선릉]
-<img src="http://tykimos.github.io/Keras/images/face2.jpg">
+<img src="http://tykimos.github.io/images/face2.jpg">
 [하와이]
-<img src="http://tykimos.github.io/Keras/images/face3.jpg">
+<img src="http://tykimos.github.io/images/face3.jpg">
 [북극]
 
 연락처

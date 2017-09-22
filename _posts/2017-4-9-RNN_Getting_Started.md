@@ -63,6 +63,6 @@ LSTM 레이어는 return_sequences 인자에 따라 마지막 시퀀스에서 �
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [컨볼루션 신경망 모델을 위한 데이터 부풀리기](https://tykimos.github.io/Keras/2017/06/10/CNN_Data_Augmentation/)
-* 다음 : [순환 신경망 모델 만들어보기](https://tykimos.github.io/Keras/2017/04/09/RNN_Layer_Talk/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [컨볼루션 신경망 모델을 위한 데이터 부풀리기](https://tykimos.github.io/2017/06/10/CNN_Data_Augmentation/)
+* 다음 : [순환 신경망 모델 만들어보기](https://tykimos.github.io/2017/04/09/RNN_Layer_Talk/)

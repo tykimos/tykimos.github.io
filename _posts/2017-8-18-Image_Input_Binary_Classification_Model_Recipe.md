@@ -575,6 +575,6 @@ plt.show()
 
 ### 같이 보기
 
-* [강좌 목차](https://tykimos.github.io/Keras/lecture/)
-* 이전 : [영상입력 수치예측 모델 레시피](https://tykimos.github.io/Keras/2017/08/20/Image_Input_Numerical_Prediction_Model_Recipe/)    
-* 다음 : [영상입력 다중클래스분류 모델 레시피](https://tykimos.github.io/Keras/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
+* [강좌 목차](https://tykimos.github.io/lecture/)
+* 이전 : [영상입력 수치예측 모델 레시피](https://tykimos.github.io/2017/08/20/Image_Input_Numerical_Prediction_Model_Recipe/)    
+* 다음 : [영상입력 다중클래스분류 모델 레시피](https://tykimos.github.io/2017/08/18/Image_Input_Multiclass_Classification_Model_Recipe/)
