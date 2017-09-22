@@ -4,7 +4,7 @@ motto: 케라스, 그 간결함에 빠지다
 email: adam.tykim@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Keras, deep learning, MLP, CNN, RNN, LSTM, 케라스, 딥러닝, 다층 퍼셉트론, 컨볼루션 신경망, 순환 신경망, 강좌, DL, RL, Relation Network
-baseurl: "/Keras" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tykimos.github.io" # the base hostname & protocol for your site
 tags: [Keras, deep learning, MLP, CNN, RNN, LSTM, 케라스, 딥러닝, 다층 퍼셉트론, 컨볼루션 신경망, 순환 신경망, 강좌, DL, RL, Relation Network]
 
