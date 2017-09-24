@@ -1,5 +1,4 @@
 ---
-redirect_from: "https://tykimos.github.io/Keras/about/"
 layout: page
 comments: true
 ---
