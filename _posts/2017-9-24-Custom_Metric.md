@@ -347,9 +347,9 @@ plt.show()
 
 [김태영의 책]
 
-|도서|설명|바로가기|
-|:-:|:-|:-|
-|![img](https://tykimos.github.com/images/book_title.jpg)|뜬구름같은 딥러닝 이론을<br>블록이라는 손에 잡히는 실체로 만져가며 알 수 있게 하고,<br> 구현의 어려움은 케라스라는 시를 읽듯이<br> 읽어내려 갈 수 있는 라이브러리로 풀어준다.<br>(하용호님)<br><br>여행에서도 좋은 가이드가 있으면<br>여행지에 대한 깊은 이해로 여행이 풍성해지듯이<br>이 책은 딥러닝이라는 분야를 여행할 사람들에<br>가장 훌륭한 가이드가 되리라고 자부할 수 있다.<br>이 책을 통하여 딥러닝에 대해 보지 못했던 것들이 보이고,<br>듣지 못했던 것들이 들리고,<br>말하지 못했던 것들이 말해지는 경험을 하게 될 것이다.<br>(이부일님)<br><br>레고 블럭에 비유하여 누구나 이해할 수 있게<br>쉽게 설명해 놓은 이 책은<br>딥러닝의 입문 도서로서 제 역할을 다 하리라 믿습니다.<br>(이활석님)<br><br>복잡했던 머릿속이 맑고 깨끗해지는 효과가 있습니다.<br>(김진중님)<br><br>기존의 텐서플로우를 활용했던 분들에게<br>바라볼 수 있는 관점의 전환점을 줄 수 있는<br>Mild Stone과 같은 책이다.<br>(이태영님)<br><br>keras의 특징인 단순함, 확장성, 재사용성을<br>눈으로 쉽게 보여주기 위해<br>친절하게 정리된 내용이라 생각합니다.<br>(전태균님)<br><br>바로 적용해보고 싶지만<br>어디부터 시작할지 모를 때 최선의 선택입니다<br>(유재준님)|[교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960882133&orderClick=LAG&Kc=#N)<br>[YES24](http://www.yes24.com/24/goods/49867702?scode=032&OzSrank=4)<br>[반디앤루이스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4108153)<br>[알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=118349212)<br>[인터파크](http://shopping.interpark.com/product/productInfo.do?prdNo=5164576976&dispNo=008001082&pis1=shop&pis2=product)
+|도서|추천사|
+|:-:|:-|
+|![img](https://tykimos.github.com/images/book_title.jpg)<br><br>[교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960882133&orderClick=LAG&Kc=#N)<br>[YES24](http://www.yes24.com/24/goods/49867702?scode=032&OzSrank=4)<br>[반디앤루이스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4108153)<br>[알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=118349212)<br>[인터파크](http://shopping.interpark.com/product/productInfo.do?prdNo=5164576976&dispNo=008001082&pis1=shop&pis2=product)|뜬구름같은 딥러닝 이론을<br>블록이라는 손에 잡히는 실체로 만져가며 알 수 있게 하고,<br> 구현의 어려움은 케라스라는 시를 읽듯이<br> 읽어내려 갈 수 있는 라이브러리로 풀어준다.<br>(하용호님)<br><br>여행에서도 좋은 가이드가 있으면<br>여행지에 대한 깊은 이해로 여행이 풍성해지듯이<br>이 책은 딥러닝이라는 분야를 여행할 사람들에<br>가장 훌륭한 가이드가 되리라고 자부할 수 있다.<br>이 책을 통하여 딥러닝에 대해 보지 못했던 것들이 보이고,<br>듣지 못했던 것들이 들리고,<br>말하지 못했던 것들이 말해지는 경험을 하게 될 것이다.<br>(이부일님)<br><br>레고 블럭에 비유하여 누구나 이해할 수 있게<br>쉽게 설명해 놓은 이 책은<br>딥러닝의 입문 도서로서 제 역할을 다 하리라 믿습니다.<br>(이활석님)<br><br>복잡했던 머릿속이 맑고 깨끗해지는 효과가 있습니다.<br>(김진중님)<br><br>기존의 텐서플로우를 활용했던 분들에게<br>바라볼 수 있는 관점의 전환점을 줄 수 있는<br>Mild Stone과 같은 책이다.<br>(이태영님)<br><br>keras의 특징인 단순함, 확장성, 재사용성을<br>눈으로 쉽게 보여주기 위해<br>친절하게 정리된 내용이라 생각합니다.<br>(전태균님)<br><br>바로 적용해보고 싶지만<br>어디부터 시작할지 모를 때 최선의 선택입니다<br>(유재준님)|
 
 ```python
 
