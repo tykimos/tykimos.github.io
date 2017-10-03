@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-09-30 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.io/warehouse/2017-9-9-Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe_front_total.png
+image: https://tykimos.github.com/images/book_title.jpg
 ---
 딥러닝이란 단어는 이제 일반인에게도 많이 알려져 있습니다. 그리고 대부분 '딥러닝 = 텐서플로우'이란 공식으로 기억을 하시기 계시구요. 저 또한 텐서플로우로 시작했었습니다. 그러다 케라스라는 것을 소개 받았을 때 '케라스? 듣지도 보지도 못했는데? 딥러닝은 당연 텐서플로우이지'라고 생각했던 제가 그 후 케라스에 빠졌고, 1년반 후 아래 책을 냈습니다. 그 여정에 대해서 이야기를 해볼까 합니다.
 - 한 장의 그림을 보고 회사 전체 프레임워크를 바꾸다
