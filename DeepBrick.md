@@ -1,22 +1,20 @@
 ---
 layout: post
-title:  "DeepBrick Studio for Keras (케라스를 위한 딥브릭 스튜디오)"
+title:  "DeepBrick for Keras (케라스를 위한 딥브릭)"
 author: 김태영 (Taeyoung Kim)
-redirect_to:
-  - https://tykimos.github.io/DeepBrick/
 date:   2017-09-10 16:00:00
 categories: DeepBrick
 comments: true
 image: http://tykimos.github.io/warehouse/DeepBrick/title.png
 ---
-The Keras is a high-level API for deep learning model. The API is very intuitive and similar to building bricks. So, I have started the DeepBrick Studio Project to help you understand Keras's layers and models.
+The Keras is a high-level API for deep learning model. The API is very intuitive and similar to building bricks. So, I have started the DeepBrick Project to help you understand Keras's layers and models.
 
-딥러닝과 케라스를 공부하면서 느낀 점은 층을 쌓고 모델을 만들고 하는 과정들이 블록 쌓는 것과 비슷한 느낌을 많이 받았고, 실제로 딥러닝 모델을 설명할 때 블록 그림을 많이 이용하기도 했습니다. 그러다가 (실제 혹은 웹에서) 블록을 쌓으면 딥러닝 모델까지 자동으로 만들 수 있겠다는 생각이 들었습니다. 그래서 딥브릭(DeepBrick Studio)이란 이름으로 프로젝트를 진행해볼까 합니다.
+딥러닝과 케라스를 공부하면서 느낀 점은 층을 쌓고 모델을 만들고 하는 과정들이 블록 쌓는 것과 비슷한 느낌을 많이 받았고, 실제로 딥러닝 모델을 설명할 때 블록 그림을 많이 이용하기도 했습니다. 그러다가 (실제 혹은 웹에서) 블록을 쌓으면 딥러닝 모델까지 자동으로 만들 수 있겠다는 생각이 들었습니다. 그래서 딥브릭(DeepBrick)이란 이름으로 프로젝트를 진행해볼까 합니다.
 
 ---
 ### Bricks
 
-There are bricks supported by DeepBrick Studio. 
+There are bricks supported by DeepBrick. 
 
 #### Dataset
 
