@@ -5,7 +5,7 @@ author: 김태영 (Taeyoung Kim)
 date:   2017-09-10 16:00:00
 categories: DeepBrick
 comments: true
-image: http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_4.png
+image: http://tykimos.github.io/warehouse/DeepBrick/title.png
 ---
 The Keras is a high-level API for deep learning model. The API is very intuitive and similar to building bricks. So, I have started the DeepBrick Studio Project to help you understand Keras's layers and models.
 
