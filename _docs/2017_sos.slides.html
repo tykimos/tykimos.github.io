@@ -9,14 +9,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>2017_SOS slides</title>
+<title>2017_sos slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="reveal.js/css/reveal.css">
-<link rel="stylesheet" href="reveal.js/css/theme/sky.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -36,7 +36,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 
 <!-- Loading the mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -58,7 +58,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
     <!-- End of mathjax configuration -->
 
 <!-- Get Font-awesome from cdn -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
 <style type="text/css">
     /*!
@@ -67,8 +67,8 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 *
 */
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1163,6 +1163,7 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2591,6 +2592,7 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3081,6 +3083,7 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -8811,9 +8814,6 @@ body > #header .header-bar {
     margin-left: 10px;
   }
 }
-[dir="rtl"] #ipython_notebook {
-  float: right !important;
-}
 #noscript {
   width: auto;
   padding-top: 16px;
@@ -9016,14 +9016,8 @@ span#login_widget > .button .badge,
  *
  * Author: Jupyter Development Team
  */
-[dir="rtl"] #tabs li {
-  float: right;
-}
 ul#tabs {
   margin-bottom: 4px;
-}
-[dir="rtl"] ul#tabs {
-  margin-right: 0px;
 }
 ul#tabs a {
   padding-top: 6px;
@@ -9046,16 +9040,6 @@ ul.breadcrumb span {
 }
 .list_toolbar .tree-buttons {
   padding-top: 1px;
-}
-[dir="rtl"] .list_toolbar .tree-buttons {
-  float: left !important;
-}
-[dir="rtl"] .list_toolbar .pull-right {
-  padding-top: 1px;
-  float: left !important;
-}
-[dir="rtl"] .list_toolbar .pull-left {
-  float: right !important;
 }
 .dynamic-buttons {
   padding-top: 3px;
@@ -9192,9 +9176,6 @@ ul.breadcrumb span {
 #tree-selector {
   padding-right: 0px;
 }
-[dir="rtl"] #tree-selector a {
-  float: right;
-}
 #button-select-all {
   min-width: 50px;
 }
@@ -9284,9 +9265,6 @@ ul#new-menu {
   left: auto;
   right: 0;
 }
-[dir="rtl"] #new-menu {
-  text-align: right;
-}
 .kernel-menu-icon {
   padding-right: 12px;
   width: 24px;
@@ -9331,9 +9309,6 @@ ul#new-menu {
 }
 #running .panel-group .panel .panel-body .list_container .list_item:last-child {
   border-bottom: 0px;
-}
-[dir="rtl"] #running .col-sm-8 {
-  float: right !important;
 }
 .delete-button {
   display: none;
@@ -9630,7 +9605,6 @@ div.cell.selected.jupyter-soft-selected {
   }
 }
 div.inner_cell {
-  min-width: 0;
   /* Old browsers */
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -9651,6 +9625,11 @@ div.inner_cell {
   box-flex: 1;
   /* Modern browsers */
   flex: 1;
+}
+@-moz-document url-prefix() {
+  div.inner_cell {
+    overflow-x: hidden;
+  }
 }
 /* input_area and input_prompt must match in top border and margin for alignment */
 div.input_area {
@@ -11321,7 +11300,7 @@ div#pager .ui-resizable-handle::after {
 }
 .shortcut_key {
   display: inline-block;
-  width: 21ex;
+  width: 20ex;
   text-align: right;
   font-family: monospace;
 }
@@ -11633,7 +11612,6 @@ ul.typeahead-list > li > a {
   box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
 }
 .terminal-app .terminal {
-  width: 100%;
   float: left;
   font-family: monospace;
   color: white;
@@ -11647,9 +11625,6 @@ ul.typeahead-list > li > a {
 .terminal-app .terminal dummy-screen {
   line-height: 1em;
   font-size: 14px;
-}
-.terminal-app .terminal .xterm-rows {
-  padding: 10px;
 }
 .terminal-app .terminal-cursor {
   color: black;
@@ -11710,10 +11685,8 @@ ul.typeahead-list > li > a {
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
 .highlight .mo { color: #666666 } /* Literal.Number.Oct */
-.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
 .highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
 .highlight .sc { color: #BA2121 } /* Literal.String.Char */
-.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
 .highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
 .highlight .s2 { color: #BA2121 } /* Literal.String.Double */
 .highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
@@ -11724,11 +11697,9 @@ ul.typeahead-list > li > a {
 .highlight .s1 { color: #BA2121 } /* Literal.String.Single */
 .highlight .ss { color: #19177C } /* Literal.String.Symbol */
 .highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
-.highlight .fm { color: #0000FF } /* Name.Function.Magic */
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
@@ -11776,6 +11747,7 @@ ul.typeahead-list > li > a {
 /* Overrides of notebook CSS for static HTML export */
 .reveal {
   font-size: 160%;
+  overflow-y: scroll;
 }
 .reveal pre {
   width: inherit;
@@ -11805,41 +11777,6 @@ ul.typeahead-list > li > a {
 }
 .reveal .progress {
   position: static;
-}
-.reveal .controls .navigate-left,
-.reveal .controls .navigate-left.enabled {
-  border-right-color: #727272;
-}
-.reveal .controls .navigate-left.enabled:hover,
-.reveal .controls .navigate-left.enabled.enabled:hover {
-  border-right-color: #dfdfdf;
-}
-.reveal .controls .navigate-right,
-.reveal .controls .navigate-right.enabled {
-  border-left-color: #727272;
-}
-.reveal .controls .navigate-right.enabled:hover,
-.reveal .controls .navigate-right.enabled.enabled:hover {
-  border-left-color: #dfdfdf;
-}
-.reveal .controls .navigate-up,
-.reveal .controls .navigate-up.enabled {
-  border-bottom-color: #727272;
-}
-.reveal .controls .navigate-up.enabled:hover,
-.reveal .controls .navigate-up.enabled.enabled:hover {
-  border-bottom-color: #dfdfdf;
-}
-.reveal .controls .navigate-down,
-.reveal .controls .navigate-down.enabled {
-  border-top-color: #727272;
-}
-.reveal .controls .navigate-down.enabled:hover,
-.reveal .controls .navigate-down.enabled.enabled:hover {
-  border-top-color: #dfdfdf;
-}
-.reveal .progress span {
-  background: #727272;
 }
 div.input_area {
   padding: 0.06em;
@@ -11874,19 +11811,6 @@ a.anchor-link {
 .rendered_html p {
   text-align: inherit;
 }
-::-webkit-scrollbar
-{
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar *
-{
-  background:transparent;
-}
-::-webkit-scrollbar-thumb
-{
-  background: #727272 !important;
-}
 </style>
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
@@ -11901,7 +11825,8 @@ a.anchor-link {
 <div class="reveal">
 <div class="slides">
 <section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11930,7 +11855,8 @@ a.anchor-link {
 </div>
 </div>
 </div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11964,38 +11890,132 @@ a.anchor-link {
 </div>
 </div>
 </div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="&#52628;&#51652;&#51204;&#47029;">&#52628;&#51652;&#51204;&#47029;<a class="anchor-link" href="#&#52628;&#51652;&#51204;&#47029;">&#182;</a></h3><ul>
-<li>임무관제 시스템 통합을 위한 분석 및 가상화 연구</li>
-<li>CAS500-1 지상시스템 소프트웨어 프레임워크 설계</li>
-<li>지상국 시스템 핵심 미들웨어 개발</li>
-<li>타 기관 위성 지상국 인프라/시스템 구축</li>
+<li><p>차세대중형위성 위성운용시스템 프레임워크 정의</p>
+<ul>
+<li>CAS500-1 지상시스템 Software 프레임워크 활용</li>
+<li>4대환경 (실행환경, 개발환경, 관리환경, 운영환경) 구축</li>
+<li>공통컴포넌트 개발</li>
+</ul>
+</li>
+<li><p>프레임워크 핵심 요소인 자사 개발 미들웨어 제공</p>
+<ul>
+<li>컴포넌트 프레임워크 (Component Framework)</li>
+<li>서비스 통합 플랫폼 (Service Integration Platform)</li>
+<li>통신 및 데이터 분배 (Communication and Data Distribution)</li>
+<li>시스템 런타임 관리 (System Run-Time Management)</li>
+</ul>
+</li>
+<li><p>통합 및 자동화 방안 제시</p>
+<ul>
+<li>시스템 통합 가이드라인 제시</li>
+<li>업무 자동화 가이드라인 제시</li>
+</ul>
+</li>
 </ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>시스템 통합 가이드
+
+</code></pre>
+<table>
+<thead><tr>
+<th style="text-align:center">레벨</th>
+<th style="text-align:center">상황</th>
+<th style="text-align:center">가이드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Level 0</td>
+<td style="text-align:center">차이점 없음</td>
+<td style="text-align:center">공통 컴포넌트</td>
+</tr>
+<tr>
+<td style="text-align:center">Level 1</td>
+<td style="text-align:center">환경 설정 상이</td>
+<td style="text-align:center">환경설정 도출</td>
+</tr>
+<tr>
+<td style="text-align:center">Level 2</td>
+<td style="text-align:center">로직 상이</td>
+<td style="text-align:center">스크립트 도출</td>
+</tr>
+<tr>
+<td style="text-align:center">Level 3</td>
+<td style="text-align:center">인터페이스 상이</td>
+<td style="text-align:center">래퍼 개발</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code>업무 자동화 가이드
+
+</code></pre>
+<table>
+<thead><tr>
+<th style="text-align:center">업무</th>
+<th style="text-align:center">가이드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">절차 업무 자동화</td>
+<td style="text-align:center">로직/프로시져 구성</td>
+</tr>
+<tr>
+<td style="text-align:center">타이밍 업무</td>
+<td style="text-align:center">작업 스케줄링</td>
+</tr>
+<tr>
+<td style="text-align:center">모니터링 업무</td>
+<td style="text-align:center">알고리즘 개발 (패턴인식/딥러닝 적용)</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>WBS, 번다운 차트를 이용한 체계적이고 투명한 과제 관리</li>
+</ul>
+<p><img src="2017_SOS_001.png" alt="img"></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### 추진전략</span>
-
-<span class="o">*</span> <span class="err">임무관제</span> <span class="err">시스템</span> <span class="err">통합을</span> <span class="err">위한</span> <span class="err">분석</span> <span class="err">및</span> <span class="err">가상화</span> <span class="err">연구</span>
-<span class="o">*</span> <span class="n">CAS500</span><span class="o">-</span><span class="mi">1</span> <span class="err">지상시스템</span> <span class="err">소프트웨어</span> <span class="err">프레임워크</span> <span class="err">설계</span>
-<span class="o">*</span> <span class="err">지상국</span> <span class="err">시스템</span> <span class="err">핵심</span> <span class="err">미들웨어</span> <span class="err">개발</span>
-<span class="o">*</span> <span class="err">타</span> <span class="err">기관</span> <span class="err">위성</span> <span class="err">지상국</span> <span class="err">인프라</span><span class="o">/</span><span class="err">시스템</span> <span class="err">구축</span>
+<div class=" highlight hl-ipython2"><pre><span></span> 
 </pre></div>
 
 </div>
 </div>
 </div>
 
-</div>
+</div></section></section>
 </div>
 </div>
 
@@ -12020,7 +12040,8 @@ require(
             progress: true,
             history: true,
 
-            transition: "slide",
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
@@ -12040,25 +12061,13 @@ require(
 
         Reveal.addEventListener('slidechanged', update);
 
-        function setScrollingSlide() {
-            var scroll = false
-            if (scroll === true) {
-              var h = $('.reveal').height() * 0.95;
-              $('section.present').find('section')
-                .filter(function() {
-                  return $(this).height() > h;
-                })
-                .css('height', 'calc(95vh)')
-                .css('overflow-y', 'scroll')
-                .css('margin-top', '20px');
-            }
-        }
+        var update_scroll = function(event){
+          $(".reveal").scrollTop(0);
+        };
 
-        // check and set the scrolling slide every time the slide change
-        Reveal.addEventListener('slidechanged', setScrollingSlide);
+        Reveal.addEventListener('slidechanged', update_scroll);
 
     }
-
 );
 </script>
 
