@@ -8,9 +8,8 @@ comments: true
 ---
 이후 텐서플로우, 티아노, 케라스 오프라인 설치는 인스페이스 딥러닝랩([InSpace Deep Learning Lab](https://inspace4u.github.io/dllab/)) 페이지에서 제공합니다. 아래 링크를 참고하세요. 파일 요청은 본 포스트 댓글로도 가능합니다. 댓글에 원도우 버전 명기해주세요~
 
-* [Windows 7에서 텐서플로우, 케라스 오프라인 설치](https://inspace4u.github.io/dllab/lecture/2017/09/04/Windows_7_Keras_Offline_Install.html)
-* [Windows 10에서 텐서플로우, 케라스 오프라인 설치](https://inspace4u.github.io/dllab/lecture/2017/09/04/Windows_10_Keras_Offline_Install.html)
-
+* [Windows 7에서 텐서플로우, 케라스 오프라인 설치](https://inspace4u.github.io/dllab/lecture/2017/10/13/Windows_7_Keras_Offline_Install.html)
+* [Windows 10에서 텐서플로우, 케라스 오프라인 설치](https://inspace4u.github.io/dllab/lecture/2017/10/13/Windows_10_Keras_Offline_Install.html)
 
 > 버전 관리 등의 이유로 본 게시물은 더 이상 유효하지 않습니다. 단 댓글 기능을 통해 파일 요청을 하실 수 있습니다.
 
@@ -165,5 +164,5 @@ comments: true
 ### 같이 보기
 
 * [강좌 목차](https://tykimos.github.io/lecture/)
-* 이전 : [딥러닝 이야기/학습인자와 데이터셋 이야기](https://tykimos.github.i.io017/03/25/Dataset_and_Fit_Talk/)
+* 이전 : [딥러닝 이야기/학습인자와 데이터셋 이야기](https://tykimos.github.io/2017/03/25/Dataset_and_Fit_Talk/)
 * 다음 : [딥러닝 모델 이야기/다층 퍼셉트론 레이어 이야기](https://tykimos.github.io/2017/01/27/MLP_Layer_Talk/)
