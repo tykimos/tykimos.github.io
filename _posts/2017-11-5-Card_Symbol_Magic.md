@@ -91,9 +91,7 @@ https://www.dropbox.com/s/3vsa5r78ofsznpi/cards_ab.zip?dl=0
 
 크로바 카드를 순차적으로 바꾼 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
 
-<video width="512" height="256" controls>
-  <source src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c_seq.mp4" type="video/mp4">
-</video>
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c_seq.mp4" frameborder="0" allowfullscreen></iframe>
 
 크로바 카드 이미지를 입력해서 하트 카드 이미지를 만드는 것은 만족스로운 수준입니다. 만약 하트 카드를 입력하면 어떻게 될까요? 스페이드는? 여러 장의 카드를 입력하면 어떻게 될까요? 조커 카드는 어떻게 바꿀까요? 여러가지 질문이 떠오르실 수 있습니다. 비정상 입력 테스트 결과는 결론에서 설명하도록 하겠습니다.
 
