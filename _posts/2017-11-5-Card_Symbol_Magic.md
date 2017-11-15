@@ -7,7 +7,7 @@ categories: DeepShare
 comments: true
 image: https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_title.gif
 ---
-크로바 카드를 하트 카드로 바꾸는 마술을 하고자 합니다. 카드 형태를 유지한 상태에서 문양의 색상 및 모양만을 바꿀 수 있는 지에 대한 테스트인데요, 여러가지로 활용도가 높은 것 같습니다. 이 문제를 "Image-to-Image Translation"이라고 부르며, pix2pix 모델이 유명합니다. 테스트 결과 pix2pix 모델은 기대한 만큼 성능을 보여주었습니다. 학습시키지 않은 카드를 이용하여 여러가지 실험도 해보왔는데요, 이를 통해 학습한 모델을 이해하는 데 도움이 되었습니다.
+크로바 카드를 하트 카드로 바꾸는 마술을 하고자 합니다. 카드 형태를 유지한 상태에서 문양의 색상 및 모양만을 바꿀 수 있는 지에 대한 테스트인데요, 여러가지로 활용도가 높은 것 같습니다. 이 문제를 "Image-to-Image Translation"이라고 부르며, pix2pix 모델이 유명합니다. 테스트 결과 pix2pix 모델은 기대한 만큼 성능을 보여주었습니다. 학습시키지 않은 카드를 이용하여 여러가지 실험도 해보왔는데요, 이 실험을 통해 학습한 모델을 이해하는 데 도움이 되었습니다.
 
 ---
 ### 문제 정의
@@ -74,19 +74,26 @@ https://www.dropbox.com/s/3vsa5r78ofsznpi/cards_ab.zip?dl=0
 ### 테스트 결과
 
 크로바 1 카드 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c1.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c1.mp4" frameborder="0" allowfullscreen></iframe>
 
 크로바 5 카드 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c5.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c5.mp4" frameborder="0" allowfullscreen></iframe>
 
 크로바 9 카드 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c9.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c9.mp4" frameborder="0" allowfullscreen></iframe>
 
 크로바 Q 카드 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_cq.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_cq.mp4" frameborder="0" allowfullscreen></iframe>
 
 크로바 카드를 순차적으로 바꾼 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c_seq.mp4)
+
+<video width="512" height="256" controls>
+  <source src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c_seq.mp4" type="video/mp4">
+</video>
 
 크로바 카드 이미지를 입력해서 하트 카드 이미지를 만드는 것은 만족스로운 수준입니다. 만약 하트 카드를 입력하면 어떻게 될까요? 스페이드는? 여러 장의 카드를 입력하면 어떻게 될까요? 조커 카드는 어떻게 바꿀까요? 여러가지 질문이 떠오르실 수 있습니다. 비정상 입력 테스트 결과는 결론에서 설명하도록 하겠습니다.
 
@@ -552,12 +559,16 @@ del train_batch, trainA, trainB
 ```
 
 
+![png](output_23_0.png)
+
+
+
+![png](output_23_1.png)
+
+
 ![png](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_output_23_0.png)
 
-
-
 ![png](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_output_23_1.png)
-
 
 
 ```python
@@ -658,7 +669,7 @@ for idx in range(max_idx+1):
 
 코드가 정상적으로 동작하면 './warehouse/cards_ab/test_out/' 폴더에 하트로 변환된 카드 이미지가 저장됩니다. 아래 동영상은 테스트에 사용된 입력 크로바 카드와 딥러닝 모델이 만든 하트 카드 이미지를 붙혀서 만든 것입니다.
 
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c3.mp4)
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c3.mp4" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -667,16 +678,20 @@ for idx in range(max_idx+1):
 크로바 문양과 하트 문양 카드를 한 쌍으로 학습한 모델을 이용하여, 크로바 문양을 하트 문양으로 바꿔주는 실험을 해봤습니다. 현재 모델은 크로바 문양만 봐왔고, 하트 문양만 그려본 모델입니다. 이 모델에 다양한 입력에서 어떤 반응을 할 지 한 번 살펴보겠습니다.
 
 크로바 카드 여러 장이 겹치게 찍은 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c_mul.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_c_mul.mp4" frameborder="0" allowfullscreen></iframe>
 
 하트 카드 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_heart.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_heart.mp4" frameborder="0" allowfullscreen></iframe>
 
 여러 문양의 카드를 순차적으로 찍은 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_ab_seq.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_ab_seq.mp4" frameborder="0" allowfullscreen></iframe>
 
 여러 문양의 카드 여러 장이 겹치게 찍은 동영상을 입력해서 하트 카드를 생성한 동영상입니다.
-![movie](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_ab_mul.mp4)
+
+<iframe width="512" height="256" src="https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_ab_mul.mp4" frameborder="0" allowfullscreen></iframe>
 
 ---
 
