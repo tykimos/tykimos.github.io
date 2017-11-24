@@ -98,7 +98,7 @@ https://www.dropbox.com/s/3vsa5r78ofsznpi/cards_ab.zip?dl=0
 ---
 ### 전체 소스
 
-https://phillipi.github.io/pix2pix 사이트에서 제공하는 소스를 기반으로 현재 예제에 맞게 조금 수정했습니다. 
+https://github.com/tjwei/GANotebooks/blob/master/pix2pix-keras.ipynb 사이트에서 제공하는 소스를 기반으로 현재 예제에 맞게 조금 수정했습니다. 
 
 
 ```python
@@ -557,11 +557,6 @@ del train_batch, trainA, trainB
 ```
 
 
-![png](output_23_0.png)
-
-
-
-![png](output_23_1.png)
 
 
 ![png](https://tykimos.github.io/warehouse/2017-11-5-Card_Symbol_Magic_output_23_0.png)
