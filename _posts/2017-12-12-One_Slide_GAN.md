@@ -7,7 +7,11 @@ categories: Study
 comments: true
 image: https://tykimos.github.com/warehouse/2017-12-12-One_Slide_GAN_title.png
 ---
-케라스의 GAN 코드를 보다가 엄청 헷갈리는 부분이 있었는데 이것 때문에 개념삽질 좀 했습니다. 그 부분은 바로 "discriminator.trainable = False" 이것입니다. 일단 대부분의 GAN 코드는 다음과 같은 구성을 가지고 있습니다.
+제 마음대로 '네트워크'와 '모델'을 구분해서 개념 정리를 해본 것을 그림으로 표현해봤습니다.
+
+![img](https://tykimos.github.com/warehouse/2017-12-12-One_Slide_GAN_title.png)
+
+이 그림을 그리게 된 계기가 있는데요. 케라스의 GAN 코드를 보다가 엄청 헷갈리는 부분이 있었는데 이것 때문에 개념삽질 좀 했습니다. 그 부분은 바로 "discriminator.trainable = False" 이것입니다. 일단 대부분의 GAN 코드는 다음과 같은 구성을 가지고 있습니다.
 
 
 ```python
@@ -43,9 +47,7 @@ discriminator 학습 시킬 때는 참/거짓 데이터를 주고 가중치를 �
 - 여기서 하나 알 수 있는 것은 discriminator이라는 네트워크는 discriminator 모델과 gan 모델에 둘 다 사용되고 가중치도 공유되나 discriminator 모델에서는 가중치 갱신이 일어나고, gan 모델에서는 가중치 갱신이 일어나지 않음
 - gan 모델에서의 discriminator 네트워크는 단순 가중치를 가진 네트워크로만 받아들이고 discriminator 모델에 적용된 compile()은 아무 영향을 주지 않음. 즉 gan 모델은 따로 complie()을 해야 함
 
-제 마음대로 '네트워크'와 '모델'을 구분해서 개념 정리를 해본 것을 그림으로 표현해봤습니다. 배성호교수님의 '간은 로스일 뿐이야'라는 말씀을 이제야 이해한 듯 합니다.
-
-![img](https://tykimos.github.com/warehouse/2017-12-12-One_Slide_GAN_title.png)
+배성호교수님의 '간은 로스일 뿐이야'라는 말씀을 이제야 이해한 듯 합니다.
 
 ---
 
