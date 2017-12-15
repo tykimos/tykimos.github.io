@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "케라스 소개"
-author: François Chollet
-translator : 김태영
+author: François Chollet(김태영 번역)
 date:   2017-12-15 01:00:00
 categories: Lecture
 comments: true
