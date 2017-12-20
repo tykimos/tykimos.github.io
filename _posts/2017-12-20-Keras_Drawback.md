@@ -2,7 +2,7 @@
 layout: post
 title:  "케라스 단점"
 author: 김태영
-date:   2017-01-27 04:00:00
+date:   2017-12-20 00:00:00
 categories: Study
 comments: true
 ---
