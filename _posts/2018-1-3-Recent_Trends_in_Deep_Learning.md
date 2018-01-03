@@ -112,4 +112,5 @@ VAE와 GAN의 기본과 여러가지 GAN에 대해서 살펴봅니다. GAN의 �
 
 ### 같이 보기
 
+* [최성준님 블로그](http://enginius.tistory.com/) : 관련 주제로 더 자세히 알고 싶으신 분이나 이후 최신 연구 내용에 대해서 궁금하신 분들은 최성준님 블로그에서 확인하세요~
 * [강좌 목차](https://tykimos.github.io/lecture/)
