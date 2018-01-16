@@ -2,7 +2,7 @@
 layout: post
 title:  "NASA FDL 2017 연구 소개"
 author: 박천용
-date:   2017-01-27 04:00:00
+date:   2018-01-27 04:00:00
 categories: Study
 comments: true
 image: http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_title.jpeg
