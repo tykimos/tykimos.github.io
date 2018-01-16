@@ -50,7 +50,7 @@ Flare란 태양 대기에서 발생하는, 수소폭탄 수천만 개에 해당�
 
 ---
 
-## 2. Long Period Comets
+### 2. Long Period Comets
 
 #### 개요
 
