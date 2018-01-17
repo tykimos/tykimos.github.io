@@ -37,6 +37,28 @@
 					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
 				</li>			
 			{% endif %}			
+			{% if page.path == "rl.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/rl" | prepend: site.baseurl }}">강화학습</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/rl" | prepend: site.baseurl }}">강화학습</a>
+				</li>			
+			{% endif %}					              
+			{% if page.path == "seminar.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/seminar" | prepend: site.baseurl }}">딥러닝 세미나</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/seminar" | prepend: site.baseurl }}">딥러닝 세미나</a>
+				</li>			
+			{% endif %}					          
 			{% if page.path == "study.md" %}
 			<span class="title">
 				<li>
