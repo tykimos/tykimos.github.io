@@ -9,6 +9,8 @@ image: http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_title.jpe
 ---
 저희회사((주)인스페이스)에서 충남대학교 백마인턴쉽 과정으로 함께 하게된 박천용 인턴님의 첫과제로 조사한 내용을 공유드립니다. 주제는 NASA Frontier Development Lab에서 진행되고 있는 연구 소개입니다.
 
+![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_title.jpeg)
+
 미국 NASA의 Frontier Development Lab (FDL)은 항공 기관인 Ames Research Center와 SETI에 의해 공동 운영 되고 있으며, 이들은 잠재적 위험성을 가지고 있는 소행성과 혜성으로부터 지구를 보호하는 방법을 연구하고자 인공지능을 이용하겠다고 발표하였습니다. 
 
 * NASA FDL Homepage: [NASA FDL](http://frontierdevelopmentlab.org/)
@@ -26,11 +28,11 @@ image: http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_title.jpe
 
 #### 플레어(Flare)란?
 
-Flare란 태양 대기에서 발생하는, 수소폭탄 수천만 개에 해당하는 격렬한 폭발을 말합니다.
+플레어란 태양 대기에서 발생하는, 수소폭탄 수천만 개에 해당하는 격렬한 폭발을 말합니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_flare.png)
 
-태양의 **Flare**(이하 플레어)는 단파장의 전자기 방사선을 발생시킵니다. 이는 상층 대기의 이온화와 가열을 초래하고, GPS와 HF의 통신에 영향을 미칩니다.
+태양의 플레어는 단파장의 전자기 방사선을 발생시킵니다. 이는 상층 대기의 이온화와 가열을 초래하고, GPS와 HF의 통신에 영향을 미칩니다.
  
 #### FlareNet
 
@@ -63,7 +65,7 @@ Flare란 태양 대기에서 발생하는, 수소폭탄 수천만 개에 해당�
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_meteor_graph.png)
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_non_meteor_graph.png)
 
-각 개체의 시간에 따른 위치를 X,Y 좌표계로 나타내고, Intensity(밝기,빛의 모양 등)를 시간에 따라 graph로 나타내었습니다. 위 그림은 유성인 것과 유성이 아닌 것에 대한 비교 그래프입니다. 유성의 경우 규칙적인 값을 갖는 반면에, 유성이 아닌 경우 불규칙적인 값을 갖습니다.
+각 개체의 시간에 따른 위치를 X,Y 좌표계로 나타내고, Intensity(밝기,빛의 모양 등)를 시간에 따라 그래프로 나타내었습니다. 위 그림은 유성인 것과 유성이 아닌 것에 대한 비교 그래프입니다. 유성의 경우 규칙적인 값을 갖는 반면에, 유성이 아닌 경우 불규칙적인 값을 갖습니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_fdl-2017-long-period-comets-final-presentation-15-1024.jpg)
 
@@ -87,11 +89,11 @@ Flare란 태양 대기에서 발생하는, 수소폭탄 수천만 개에 해당�
 
 ---
 
-### 3. Lunar Water and volatiles
+### 3. Lunar Water and Volatiles
 
 #### 개요
 
-수자원이 풍부한 지역을 탐사하기 위한 crater map의 자동 제작을 연구합니다.달의 남극에서 대규모 데이터 셋을 수집하고 크레이터 감지에 초점을 둔 고급의 feature 추출을 수행합니다. 98,4%의 높은 성공률로 전문가보다 100배 빠른 속도향상을 이루어냈습니다. 
+수자원이 풍부한 지역을 탐사하기 위한 crater map의 자동 제작을 연구합니다. 달의 남극에서 대규모 데이터 셋을 수집하고 크레이터 감지에 초점을 둔 고급의 feature 추출을 수행합니다. 98,4%의 높은 성공률로 전문가보다 100배 빠른 속도향상을 이루어냈습니다. 
 
 #### 달에 물이 존재하는 곳
 
@@ -115,13 +117,13 @@ Flare란 태양 대기에서 발생하는, 수소폭탄 수천만 개에 해당�
 
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_fdl-2017-lunar-water-and-volatiles-19-1024.jpg)
 
-Annotation과정을 거친 데이터 셋은 CNN을 사용하는 Classifier 모델을 학습시키는 데 사용됩니다.
+Annotation 과정을 거친 데이터 셋은 CNN을 사용하는 Classifier 모델을 학습시키는 데 사용됩니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_fdl-2017-lunar-water-and-volatiles-20-1024.jpg)
 
 #### 결론
 
-FDL팀이 연구한 CNN모델이 지난 팀들이 연구한 패턴인식을 사용한 방법이나 CNN모델 보다 월등히 뛰어난 정확도를 보이고 있습니다.
+FDL팀이 연구한 CNN 모델이 지난 팀들이 연구한 패턴인식을 사용한 방법이나 CNN 모델 보다 월등히 뛰어난 정확도를 보이고 있습니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_fdl-2017-lunar-water-and-volatiles-21-1024.jpg)
 
@@ -175,7 +177,7 @@ Kp 지수는 매일 3 시간 간격으로 측정 한 지자기 활동 수준의 
 
 ##### LSTM RNN 모델
 
-LSTM유닛은 여러 개의 게이트(gate)가 붙어있는 셀(cell)로 이루어져있으며 이 셀의 정보를 새로 저장/셀의 정보를 불러오기/셀의 정보를 유지하는 기능이 있다. 셀은 셀에 연결된 게이트의 값을 보고 무엇을 저장할지, 언제 정보를 내보낼지, 언제 쓰고 언제 지울지를 결정합니다.
+LSTM유닛은 여러 개의 게이트(gate)가 붙어있는 셀(cell)로 이루어져있으며 이 셀의 정보를 새로 저장/셀의 정보를 불러오기/셀의 정보를 유지하는 기능이 있습니다. 셀은 셀에 연결된 게이트의 값을 보고 무엇을 저장할지, 언제 정보를 내보낼지, 언제 쓰고 언제 지울지를 결정합니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-17-NASA_FDL_LAB_Study_fdl-2017-solar-terrestrial-interactions-14-1024.jpg)
 
