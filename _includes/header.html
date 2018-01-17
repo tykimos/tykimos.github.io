@@ -23,20 +23,6 @@
 					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스 강좌</a>
 				</li>			
 			{% endif %}
-				<li>
-					<a href="https://www.facebook.com/groups/KerasKorea/">@케라스 코리아</a>
-				</li>				
-			{% if page.path == "DeepBrickStudio.md" %}
-			<span class="title">
-				<li>
-					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
-				</li>			
-			{% endif %}			
 			{% if page.path == "rl.md" %}
 			<span class="title">
 				<li>
@@ -51,25 +37,36 @@
 			{% if page.path == "seminar.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ "/seminar" | prepend: site.baseurl }}">딥러닝 세미나</a>
+					<a href="{{ "/seminar" | prepend: site.baseurl }}">세미나</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="{{ "/seminar" | prepend: site.baseurl }}">딥러닝 세미나</a>
+					<a href="{{ "/seminar" | prepend: site.baseurl }}">세미나</a>
 				</li>			
 			{% endif %}					          
 			{% if page.path == "study.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ "/study" | prepend: site.baseurl }}">딥러닝 공부</a>
+					<a href="{{ "/study" | prepend: site.baseurl }}">스터디</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="{{ "/study" | prepend: site.baseurl }}">딥러닝 공부</a>
+					<a href="{{ "/study" | prepend: site.baseurl }}">스터디</a>
 				</li>			
 			{% endif %}					
+			{% if page.path == "DeepBrickStudio.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
+				</li>			
+			{% endif %}			            
 			{% if page.path == "about.md" %}
 			<span class="title">
 				<li>
@@ -81,6 +78,9 @@
 					<a href="{{ "/about" | prepend: site.baseurl }}">소개</a>
 				</li>			
 			{% endif %}			
+				<li>
+					<a href="https://www.facebook.com/groups/KerasKorea/">@케라스 코리아</a>
+				</li>				            
 		</div>
 		<div class="description"> {{ site.motto }} </div>			
 	</div>
