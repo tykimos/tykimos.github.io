@@ -3,7 +3,7 @@ layout: post
 title:  "딥러닝 최신동향"
 author: 김태영 (최성준님 발표)
 date:   2018-01-04 23:00:00
-categories: Seminar
+categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2018-1-4-Recent_Trends_in_Deep_Learning_1.png
 ---
@@ -14,7 +14,6 @@ image: http://tykimos.github.io/warehouse/2018-1-4-Recent_Trends_in_Deep_Learnin
 ---
 
 ### 개요
-
 
 딥러닝 분야에서 다루고 있는 연구 주제에 대해서 간략히 살펴보고, 본 세미나에서 다룰 네 가지 주제(Generative Model, Domain Adaptation, Meta Learning, Uncertainty in Deep Learning)를 소개합니다.
 
