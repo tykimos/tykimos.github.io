@@ -3,7 +3,7 @@ layout: post
 title:  "[세미나] 가깝고도 먼 딥러닝 강화학습(DeepRL)"
 author: 이웅원님 발표, 김태영 작성
 date:   2018-02-07 23:00:00
-categories: Seminar
+categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2018-2-7-Near_and_Far_DeepRL_title.png
 ---
