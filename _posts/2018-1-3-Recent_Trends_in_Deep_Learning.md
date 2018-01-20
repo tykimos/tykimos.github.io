@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "딥러닝 최신동향"
-author: 김태영 (최성준님 발표)
+title:  "[세미나] 딥러닝 최신동향"
+author: 최성준님 발표, 김태영 작성
 date:   2018-01-04 23:00:00
 categories: seminar
 comments: true
