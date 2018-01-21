@@ -15,7 +15,7 @@ image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part1_title.
 
 ### 소스코드
 
-골빈해커님의 깃허브에서 소스코드를 다운로드 받으실 수 있습니다.
+[골빈해커님의 깃허브](https://github.com/golbin/g-coin)에서 소스코드를 다운로드 받으실 수 있습니다.
 
 gcoin 폴더에 들어가시면 아래 파일을 보실 수 있습니다. 
 
