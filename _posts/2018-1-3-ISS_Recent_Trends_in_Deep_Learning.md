@@ -5,13 +5,13 @@ author: 최성준님 발표, 김태영 작성
 date:   2018-01-04 23:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-1-4-Recent_Trends_in_Deep_Learning_1.png
+image: http://tykimos.github.io/warehouse/2018-1-4-ISS_Recent_Trends_in_Deep_Learning_1.png
 ---
 딥러닝 기술은 하루가 멀다하고 발전하고 있습니다. 이번 ISS에서는 Google Developer Expert이시고 서울대학교 사이버물리시스템 연구실 박사과정에 계신 최성준님이 '딥러닝 최신 동향'이란 주제로 발표하셨습니다. 열정적으로 강의해주신 최성준님께 감사드리고, 장시간 동안 끝까지 관심있게 들어주시고 좋은 질문 많이해주신 참석자분들에게 감사드립니다.
 
     ISS란 Intelligence Space Semiar의 약자로 인공지능 기술과 관련된 인스페이스의 사내 세미나를 말합니다. 어렵게 모신 전문가분들의 주옥같은 내용을 공유하고자 오픈 세미나로 진행하고 있습니다.
     
-![img](http://tykimos.github.io/warehouse/2018-1-4-Recent_Trends_in_Deep_Learning_1.png)
+![img](http://tykimos.github.io/warehouse/2018-1-4-ISS_Recent_Trends_in_Deep_Learning_1.png)
 
 ---
 
