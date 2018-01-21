@@ -18,6 +18,7 @@ Keras.egg-info
 # developer environments
 .idea
 venv
+venv3
 .ipynb_checkpoints
 _writing/.ipynb_checkpoints/*
 _writing/warehouse
