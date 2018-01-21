@@ -702,6 +702,6 @@ new_block() 함수가 어디서 호출되었는 지 기억나시나요? 스크�
 
 ### 같이 보기
 
-* [골빈해커님의 g-coin 분석 1부](http://tykimos.github.io/warehouse/2018-1-22018-1-21_g-coin_analysis_part1)
-* [골빈해커님의 g-coin 분석 2부](http://tykimos.github.io/warehouse/2018-1-22018-1-21_g-coin_analysis_part2)
+* [골빈해커님의 g-coin 분석 1부](https://tykimos.github.io/2018/01/21/g_coin_analysis_part1/)
+* [골빈해커님의 g-coin 분석 2부](https://tykimos.github.io/2018/01/21/g_coin_analysis_part2/)
 * [골빈해커님의 g-coin 분석 3부]
