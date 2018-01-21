@@ -5,11 +5,11 @@ author: 김태영 작성
 date:   2018-01-21 10:00:00
 categories: blockchain
 comments: true
-image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_title.png
+image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png
 ---
-1부에서는 골빈해커님이 올려주신 소스코드 중 블록체인의 코어 부분에 대해서 코드리딩을 해봤습니다. 뭔가 이해를 했으니 바로 돌려보고 싶네요. 이번에는 먼저 실제로 서버를 구동시켜보고 사용해볼 예정입니다.
+1부에서는 골빈해커님이 올려주신 소스코드 중 블록체인의 코어 부분에 대해서 코드리딩을 해봤습니다. 뭔가 이해를 했으니 바로 돌려보고 싶네요. 이번에는 먼저 실제로 서버를 구동시켜보고 사용해볼 예정입니다. 주로 아래 툴을 이용할 것이고 코드리딩은 3부로 미루겠습니다.
 
-![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_title.png)
+![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png)
 
 ---
 
