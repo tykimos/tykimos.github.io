@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "[세미나] 딥러닝 최신동향"
+title:  "[ISS 세미나] 최성준님, 딥러닝 최신동향"
 author: 최성준님 발표, 김태영 작성
 date:   2018-01-04 23:00:00
 categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2018-1-4-Recent_Trends_in_Deep_Learning_1.png
 ---
-저희회사 사내세미나로 Google Developer Expert이시고 서울대학교 사이버물리시스템 연구실 박사과정에 계신 최성준님이 '딥러닝 최신 동향'이란 주제로 발표하셨습니다. 열정적으로 강의해주신 최성준님께 감사드리고, 장시간 동안 끝까지 관심있게 들어주시고 좋은 질문 많이해주신 참석자분들에게 감사드립니다.
+딥러닝 기술은 하루가 멀다하고 발전하고 있습니다. 이번 ISS에서는 Google Developer Expert이시고 서울대학교 사이버물리시스템 연구실 박사과정에 계신 최성준님이 '딥러닝 최신 동향'이란 주제로 발표하셨습니다. 열정적으로 강의해주신 최성준님께 감사드리고, 장시간 동안 끝까지 관심있게 들어주시고 좋은 질문 많이해주신 참석자분들에게 감사드립니다.
 
+    ISS란 Intelligence Space Semiar의 약자로 인공지능 기술과 관련된 인스페이스의 사내 세미나를 말합니다. 어렵게 모신 전문가분들의 주옥같은 내용을 공유하고자 오픈 세미나로 진행하고 있습니다.
+    
 ![img](http://tykimos.github.io/warehouse/2018-1-4-Recent_Trends_in_Deep_Learning_1.png)
 
 ---
@@ -107,9 +109,8 @@ VAE와 GAN의 기본과 여러가지 GAN에 대해서 살펴봅니다. GAN의 �
 
 [interpretable-deep-learning.pdf](https://drive.google.com/open?id=1z8-mSWFADJOiVUcAlw8s2qqLw_Xgo6Yj)
 
----
-
 ### 같이 보기
 
 * [최성준님 블로그](http://enginius.tistory.com/) : 관련 주제로 더 자세히 알고 싶으신 분이나 이후 최신 연구 내용에 대해서 궁금하신 분들은 최성준님 블로그에서 확인하세요~
-* [강좌 목차](https://tykimos.github.io/lecture/)
+* [다른 세미나 보기](https://tykimos.github.io/seminar/)
+* [케라스 기초강좌](https://tykimos.github.io/lecture/)
