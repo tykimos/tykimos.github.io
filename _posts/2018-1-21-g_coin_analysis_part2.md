@@ -59,15 +59,15 @@ image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png
 ---
 ### 거래 해보기
 
-먼저 readme 예제대로 해봅니다. 'POST | add transaction'을 해볼까요?
+먼저 readme 예제대로 해봅니다. 'POST add transaction'을 해볼까요?
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_5.png)
 
-'신'이 골빈해커님에게 10을 주셨네요. 서버는 이 거래가 2번째 블록에 추가될꺼다라고 하네요. 아직 2번째 블록이 없는 상태이기에 블록체인이 임시적으로 가지고 있는 상황입니다. 'GET | get pending transactions'으로 임시 거래정보를 확인해볼까요?
+'신'이 골빈해커님에게 10을 주셨네요. 서버는 이 거래가 2번째 블록에 추가될꺼다라고 하네요. 아직 2번째 블록이 없는 상태이기에 블록체인이 임시적으로 가지고 있는 상황입니다. 'GET get pending transactions'으로 임시 거래정보를 확인해볼까요?
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_6.png)
 
-하나가 있는 걸 확인할 수 있네요. 블록체인의 체인 정보를 받아보겠습니다. 'GET | get full chain'을 실행하시면 됩니다.
+하나가 있는 걸 확인할 수 있네요. 블록체인의 체인 정보를 받아보겠습니다. 'GET get full chain'을 실행하시면 됩니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_7.png)
 
@@ -76,7 +76,7 @@ image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png
 ---
 ### 채굴 해보기
 
-'POST | mining'으로 채굴을 해봅시다.
+'POST mining'으로 채굴을 해봅시다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_8.png)
 
@@ -84,7 +84,7 @@ image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png
 
 ('드르륵 드르륵')
 
-맞습니다. 역시 '신'께서 채굴자한테 내린 보상 (코인 1)입니다. 'GET | get pending transactions'으로 아직 기록되지 않은 거래정보를 볼까요?
+맞습니다. 역시 '신'께서 채굴자한테 내린 보상 (코인 1)입니다. 'GET get pending transactions'으로 아직 기록되지 않은 거래정보를 볼까요?
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_9.png)
 
@@ -93,7 +93,7 @@ image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png
 ---
 ### 다시 거래 해보기
 
-이제 거래와 채굴하는 법을 알았으니 본격적으로 거래를 해보겠습니다. 일단 이런 훌륭한 소스코드를 작성해주신 골빈해커님께 1024만큼 드리고 싶네요. 'POST | add transaction'을 해보겠습니다.
+이제 거래와 채굴하는 법을 알았으니 본격적으로 거래를 해보겠습니다. 일단 이런 훌륭한 소스코드를 작성해주신 골빈해커님께 1024만큼 드리고 싶네요. 'POST add transaction'을 해보겠습니다.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_10.png)
 
@@ -103,7 +103,7 @@ image: http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png
 
 거래는 성사되었지만 아직 거래정보가 통장에 기록이 되지 않은 상태라서, tykimos 계정에 코인은 없는 상태입니다. 그럼 거래정보를 등록하려면 어떻게 해야하죠?
 
-맞습니다. 채굴자가 새로운 블록을 만들어야죠. 'POST | mining' 해보겠습니다. 잘 되네요. proof이 62입니다. 증명을 찾기 위해 62번을 시도했나봅니다. 채굴자도 덤으로 코인하나를 받았네요.
+맞습니다. 채굴자가 새로운 블록을 만들어야죠. 'POST mining' 해보겠습니다. 잘 되네요. proof이 62입니다. 증명을 찾기 위해 62번을 시도했나봅니다. 채굴자도 덤으로 코인하나를 받았네요.
 
 ![img](http://tykimos.github.io/warehouse/2018-1-21_g-coin_analysis_part2_12.png)
 
