@@ -11,7 +11,7 @@ image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyo
 
     KCD란 Koera Community Day의 약자로 ‘커뮤니티란 무엇인가’, ‘커뮤니티가 왜 중요한가’와 같은 커뮤니티 본질에 대하여 알고 그 속에서 앞으로 배움의 방향과 기술을 습득할 수 있는 노하우를 공유하고 즐기며 직접 참가하여 커뮤니티 발전에 기여하고 활동할 수 있는 계기를 주는 커뮤니티 만의 행사입니다. 
     
-![img](2018-2-24-Deep_Learning_Tool_in_Everyones_hands_title.png)
+![img](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_title.png)
 
 ---
 ### 프로그램
@@ -34,7 +34,7 @@ image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyo
 - (주)인스페이스 기술이사
 - '블록과 함께하는 파이썬 딥러닝 케라스 도서' 저자
 
-![img](2018-2-24-Deep_Learning_Tool_in_Everyones_hands_tykim.jpg)
+![img](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_tykim.jpg)
 
 전미정
 - 케라스 코리아 운영진
@@ -42,7 +42,7 @@ image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyo
 - 패스트 캠퍼스 iOS 스쿨 보조 강사 활동
 - 네이버 커넥트재단 부스트캠프 보조 튜터 활동
 
-![img](2018-2-24-Deep_Learning_Tool_in_Everyones_hands_jmj.jpg)
+![img](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_jmj.jpg)
 
 ---
 
