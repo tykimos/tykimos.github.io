@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[한국 커뮤너티 데이] 김태영님, 전미정님, 모두의 손에 딥러닝 툴을..."
+title:  "[한국 커뮤니티 데이] 김태영님, 전미정님, 모두의 손에 딥러닝 툴을..."
 author: 김태영님, 전미정님 발표
 date:   2018-02-24 00:00:00
 categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_title.png
 ---
-이번 제8회 KCD행사에서 케라스 코리아(Keras Korea)는 '모두의 손에 딥러닝 툴을...'이라는 주제로 케라스 코리아의 운영진인 김태영님과 전미정님이 함께 발표를 할 예정입니다.
+이번 제7회 KCD행사에서 케라스 코리아(Keras Korea)는 '모두의 손에 딥러닝 툴을...'이라는 주제로 케라스 코리아의 운영진인 김태영님과 전미정님이 함께 발표를 할 예정입니다.
 
     KCD란 Koera Community Day의 약자로 ‘커뮤니티란 무엇인가’, ‘커뮤니티가 왜 중요한가’와 같은 커뮤니티 본질에 대하여 알고 그 속에서 앞으로 배움의 방향과 기술을 습득할 수 있는 노하우를 공유하고 즐기며 직접 참가하여 커뮤니티 발전에 기여하고 활동할 수 있는 계기를 주는 커뮤니티 만의 행사입니다. 
     
@@ -39,8 +39,7 @@ image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyo
 전미정
 - 케라스 코리아 운영진
 - Swift Korea Meetup 발표
-- 패스트 캠퍼스 iOS 스쿨 보조 강사 활동
-- 네이버 커넥트재단 부스트캠프 보조 튜터 활동
+- iOS 개발자
 
 ![img](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_jmj.jpg)
 
