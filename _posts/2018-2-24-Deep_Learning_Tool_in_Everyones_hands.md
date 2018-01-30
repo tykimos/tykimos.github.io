@@ -34,14 +34,10 @@ image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyo
 - (주)인스페이스 기술이사
 - '블록과 함께하는 파이썬 딥러닝 케라스 도서' 저자
 
-![img](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_tykim.jpg)
-
 전미정
 - 케라스 코리아 운영진
 - Swift Korea Meetup 발표
 - iOS 개발자
-
-![img](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_jmj.jpg)
 
 ---
 
