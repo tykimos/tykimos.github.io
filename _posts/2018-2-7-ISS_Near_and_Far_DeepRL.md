@@ -48,7 +48,7 @@ image: http://tykimos.github.io/warehouse/2018-2-7-ISS_Near_and_Far_DeepRL_title
 
 ### 주요 내용
 
-[발표자료 다운](http://tykimos.github.io/warehouse/2018-2-7-ISS_Near_and_Far_DeepRL_가깝고도-먼-DeepRL_가깝다편.pdf)
+[발표자료 다운](http://tykimos.github.io/warehouse/2018-2-7-ISS_Near_and_Far_DeepRL_4.pdf)
 
 * 강화학습이란
 * 강화학습 기초와 Q-Learning
