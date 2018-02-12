@@ -48,6 +48,14 @@ image: http://tykimos.github.io/warehouse/2018-2-7-ISS_Near_and_Far_DeepRL_title
 
 ### 주요 내용
 
+#### 인스페이스 연구 소개 (김태영님)
+
+[발표 영상](http://tv.naver.com/v/2440383) (발표자료엔 이미지 뿐이라 이해를 돕기위해 네이버 D2 발표영상으로 대체하겠습니다.)
+
+* 블록과 함께하는 케라스와 태양에서 세포까지 활용사례
+
+#### 가깝고도 먼 딥강화학습 (이웅원님)
+
 [발표자료 다운](http://tykimos.github.io/warehouse/2018-2-7-ISS_Near_and_Far_DeepRL_4.pdf)
 
 * 강화학습이란
