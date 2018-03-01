@@ -7,7 +7,7 @@ categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_title.png
 ---
-이번 제7회 KCD행사에서 케라스 코리아(Keras Korea)는 '모두의 손에 딥러닝 툴을...'이라는 주제로 케라스 코리아의 운영진인 김태영님과 전미정님이 함께 발표를 할 예정입니다.
+이번 제7회 KCD행사에서 케라스 코리아(Keras Korea)는 '모두의 손에 딥러닝 툴을...'이라는 주제로 케라스 코리아의 운영진인 김태영님과 전미정님이 함께 발표를 진행하였습니다.
 
     KCD란 Koera Community Day의 약자로 ‘커뮤니티란 무엇인가’, ‘커뮤니티가 왜 중요한가’와 같은 커뮤니티 본질에 대하여 알고 그 속에서 앞으로 배움의 방향과 기술을 습득할 수 있는 노하우를 공유하고 즐기며 직접 참가하여 커뮤니티 발전에 기여하고 활동할 수 있는 계기를 주는 커뮤니티 만의 행사입니다. 
     
@@ -43,13 +43,9 @@ image: http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyo
 
 ### 발표자료
 
-추후 추가
+김태영님 발표 : [구글프리젠테이션](https://docs.google.com/presentation/d/16t9qPf7HarW6V4TuET1trXjo-8iQsYeHr2G01zYY7qM/edit?usp=sharing)
 
----
-
-### 참가신청
-
-추후 공지
+전미정님 발표 : [PDF](http://tykimos.github.io/warehouse/2018-2-24-Deep_Learning_Tool_in_Everyones_hands_jmj.pdf)
 
 ---
 
