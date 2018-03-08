@@ -19,7 +19,7 @@ image: http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Ker
 |구분|소개|
 |-|-|
 |![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_tykimos.jpg)|김태영, (주)인스페이스 (기초 강좌)<br><br>[블록과 함께하는 파이썬 딥러닝 케라스]<br><br>비전공자분들이 쉽게 딥러닝 모델을 개발할 수 있도록 케라스 라이브러리 소개와 블록 비유를 통해 다양한 모델을 살펴보겠습니다.|
-|![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_yoyogo96.jpg)|유용균, 한국원자력연구원 (라이트닝 톡)<br><br>[딥러닝을 이용한 최적설계 및 시뮬레이션 소개]<br><br>딥러닝 기술은 물리 화학 기계 등 광범위한 과학 분야에 적용되고 있습니다. 전산 시물레이션  및 최적설계 분야에 대한 적용 사례와 진행 중인 연구를 간단하게 소개드리겠습니다.|
+|![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_yoyogo96.jpg)|유용균, 한국원자력연구원 (라이트닝 톡)<br><br>[딥러닝을 이용한 최적설계 및 시뮬레이션 소개]<br><br>딥러닝 기술은 물리 화학 기계 등 광범위한 과학 분야에 적용되고 있습니다. 전산 시뮬레이션  및 최적설계 분야에 대한 적용 사례와 진행 중인 연구를 간단하게 소개드리겠습니다.|
 |![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_ivyheart2.png)|송규예, OrbisAI (라이트닝 톡)<br><br>[딥러닝을 활용한 IHCI 측면에서의 감성분석]<br><br>딥러닝도 결국 인간을 위한 기술이므로, 딥러닝이 적용된 기계와 인간과의 상호작용 측면에 있어 화두가 되는 것이 '감성' 부분입니다. 딥러닝을 활용한 인간의 감성분석 연구사례와 이와 관련한 일을 하고 있는 저희 회사를 소개합니다.|
 
 ---
