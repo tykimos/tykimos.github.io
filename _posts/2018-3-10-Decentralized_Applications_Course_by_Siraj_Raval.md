@@ -31,7 +31,7 @@ image: http://tykimos.github.io/warehouse/2018-3-10-Decentralized_Applications_C
 
 https://www.theschool.ai/courses/decentralized-applications
 
-코스 계획은 다음과 같습니다. 
+이 코스에 대해서 같이 공부하실 분은 [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)에서 함께해요~ 코스 계획은 다음과 같습니다. 
 
 ---
 ### 코스
@@ -97,9 +97,7 @@ https://www.theschool.ai/courses/decentralized-applications
     1. Building a Decentralized AI
     1. Setting up OpenMined Libraries
     1. The Future of AI
-    1. Decentralized AI Final Project
-    
-이 코스에 대해서 같이 공부하실 분은 [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)에서 함께해요~
+    1. Decentralized AI Final Project   
 
 ---
 ### 링크
