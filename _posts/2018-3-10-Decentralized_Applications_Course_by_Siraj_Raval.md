@@ -31,7 +31,11 @@ image: http://tykimos.github.io/warehouse/2018-3-10-Decentralized_Applications_C
 
 https://www.theschool.ai/courses/decentralized-applications
 
-이 코스에 대해서 같이 공부하실 분은 [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)에서 함께해요~ 코스 계획은 다음과 같습니다. 
+이 코스에 대해서 같이 공부하실 분은 [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)에서 함께해요~ Siraj Raval님이 [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)에 인사 남겨주셨네요~
+
+![img](http://tykimos.github.io/warehouse/2018-3-10-Decentralized_Applications_Course_by_Siraj_Raval_3.png)
+
+코스 계획은 다음과 같습니다. 
 
 ---
 ### 코스
