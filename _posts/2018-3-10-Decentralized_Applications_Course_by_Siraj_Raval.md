@@ -14,7 +14,7 @@ image: http://tykimos.github.io/warehouse/2018-3-10-Decentralized_Applications_C
 
 즉 기술이던 가치(돈)이든 특수한 집단에 모이는 것이 아니라 서로 공유되어 가치를 나눕니다. 
 
-![img](http://tykimos.github.io/warehouse/2018-3-10-Decentralized_Applications_Course_by_Siraj_Raval_title.png)
+[![Video Label](http://tykimos.github.io/warehouse/2018-3-10-Decentralized_Applications_Course_by_Siraj_Raval_title.png)](https://youtu.be/VyQVlBQCX_Y) 
 
 ---
 ### 개요
