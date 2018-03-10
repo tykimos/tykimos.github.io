@@ -98,11 +98,13 @@ https://www.theschool.ai/courses/decentralized-applications
     1. Setting up OpenMined Libraries
     1. The Future of AI
     1. Decentralized AI Final Project
+    
+이 코스에 대해서 같이 공부하실 분은 [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)에서 함께해요~
 
 ---
 ### 링크
 
 * [Siraj Raval 코스 신청](https://www.theschool.ai/courses/decentralized-applications)
 * [DApps Korea (댑스 코리아)](https://www.facebook.com/groups/dappskorea/)
-* [오픈마인디드 코리아 (Openminded Korea)](https://www.facebook.com/groups/openmindedkorea/)
 * [케라스 코리아 (Keras Korea)](https://www.facebook.com/groups/keraskorea/)
+* [오픈마인디드 코리아 (Openminded Korea)](https://www.facebook.com/groups/openmindedkorea/)
