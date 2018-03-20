@@ -55,7 +55,12 @@ image: http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Ker
 ---
 ### 발표자료
 
-추후 업데이트
+* [블록과 함께하는 파이썬 딥러닝 케라스] 김태영님, (주)인스페이스 [보기](https://docs.google.com/presentation/d/1dCyZmxGQgICmUp4t_ora4K3q2J52oxPw5CWFIrC0J-k/edit?usp=sharing)
+* [딥러닝을 이용한 최적설계 및 시뮬레이션 소개] 유용균님, 한국원자력연구원 [보기](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_유용균.pdf)
+* [딥러닝을 활용한 IHCI 측면에서의 감성분석] 송규예님, OrbisAI [보기](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_송규예.pdf)
+* [근전도 생체신호 데이터로 손 모양 생성하기] 박상민님, 대덕소프트웨어마이스터고등학교 [보기](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_박상민.pdf)
+* [케라스와 함께하는 모바일 딥러닝] 전미정님, iOS 개발자
+* [우주기상 소개 및 딥러닝 적용 사례] 박은수님, 경희대학교 우주탐사학과 [보기](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_박은수.pdf)
 
 ---
 ### 사전준비
@@ -82,6 +87,14 @@ image: http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Ker
 * 예) 김태영, 인스페이스, tykim@inspace.re.kr, 우주, 위성 운영 효율화를 위해 강화학습을 적용해보고자 합니다.
 
 댓글을 달아도 스팸처리되어서 바로 표시 안될 수도 있습니다. 제가 다 스팸아님으로 처리하고 있으니, 크게 신경 안 쓰셔도 됩니다. 그리고 혹시 참석신청하셨으나 부득이한 이유로 참석이 힘드신 분은 미리 알려주세요~ 다른 분들에게 참석 기회를 드리고자 합니다.
+
+---
+
+### 후기
+
+시간내기 힘든 월요일 오후에 비까지 오는데도 불구하고 백여명이 넘는 많은 분들이 함께해주셨습니다. 참석해주시면 분들 너무 감사드립니다. 그리고 라이트닝 톡을 준비해주시고 발표해주신 분들도 너무 감사드립니다. 분야별 톡이 점점 활성화가 되었으면 좋겠습니다.
+
+![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_photo.png)
 
 ---
 
