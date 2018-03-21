@@ -4,45 +4,34 @@
 			{% if page.path == "index.html" %}
 			<span class="title">
 				<li>
-					<a href="{{ "/index.html" | prepend: site.baseurl }}">전체 글</a>
+					<a href="{{ "/index.html" | prepend: site.baseurl }}">전체</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="{{ "/index.html" | prepend: site.baseurl }}">전체 글</a>
+					<a href="{{ "/index.html" | prepend: site.baseurl }}">전체</a>
 				</li>			
 			{% endif %}
 			{% if page.path == "lecture.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스 강좌</a>
+					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스(Keras)</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스 기초강좌</a>
+					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스(Keras)</a>
 				</li>			
-			{% endif %}
-			{% if page.path == "dl_study.md" %}
+			{% endif %}         
+			{% if page.path == "dapps.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ "/dl_study" | prepend: site.baseurl }}">딥러닝 스터디</a>
+					<a href="{{ "/dapps" | prepend: site.baseurl }}">댑스(DApps)</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="{{ "/dl_study" | prepend: site.baseurl }}">딥러닝 스터디</a>
-				</li>			
-			{% endif %}					            
-			{% if page.path == "dapps_study.md" %}
-			<span class="title">
-				<li>
-					<a href="{{ "/daaps_study" | prepend: site.baseurl }}">DApps 스터디</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="{{ "/daaps_study" | prepend: site.baseurl }}">DApps 스터디</a>
+					<a href="{{ "/dapps" | prepend: site.baseurl }}">댑스(DApps)</a>
 				</li>			
 			{% endif %}					               
 			{% if page.path == "seminar.md" %}
@@ -56,17 +45,6 @@
 					<a href="{{ "/seminar" | prepend: site.baseurl }}">세미나</a>
 				</li>			
 			{% endif %}					          
-			{% if page.path == "DeepBrickStudio.md" %}
-			<span class="title">
-				<li>
-					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="{{ "/DeepBrick" | prepend: site.baseurl }}">딥브릭</a>
-				</li>			
-			{% endif %}			            
 			{% if page.path == "about.md" %}
 			<span class="title">
 				<li>
@@ -79,14 +57,11 @@
 				</li>			
 			{% endif %}			
 				<li>
-					<a href="https://www.facebook.com/groups/KerasKorea/">케라스 코리아</a>
+					<a href="https://www.facebook.com/groups/KerasKorea/">케라스코리아</a>
 				</li>				            
 				<li>
-					<a href="https://www.facebook.com/groups/KerasKorea/">DApps 코리아</a>
+					<a href="https://www.facebook.com/groups/KerasKorea/">댑스코리아</a>
 				</li>				            
-				<li>
-					<a href="https://www.facebook.com/groups/KerasKorea/">OpenMinded 코리아</a>
-				</li>				                       
 		</div>
 		<div class="description"> {{ site.motto }} </div>			
 	</div>
