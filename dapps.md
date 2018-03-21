@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "간(GAN)"
+title:  "댑스(DApps)"
 comments: true
 ---
 
-간(GAN) 관련 논문이나 오픈된 소스를 보면서 공부한 것을 공유하고자 합니다.
+댑스 관련 논문이나 오픈된 소스를 보면서 공부한 것을 공유하고자 합니다.
 
 <div class="home">
   <ul class="post-list">
-    {% for post in site.categories.gan %}
+    {% for post in site.categories.dapps %}
       <li>
           <h3>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
