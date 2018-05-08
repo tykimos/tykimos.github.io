@@ -5,7 +5,7 @@ author: 김태영
 date:   2017-05-04 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.io/warehouse/2017-1-27_CNN_Layer_Talk_lego_10.png
+image: http://tykimos.github.io/warehouse/2018-5-4-Making_Keras_Model_using_Lego_Minifigures_2.png
 ---
 딥러닝 모델을 레고사람으로 비유해보고 어떻게 모델을 사용하고 학습하는 지 살펴보도록 하겠습니다. 
 
