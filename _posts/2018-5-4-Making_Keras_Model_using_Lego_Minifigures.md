@@ -2,7 +2,7 @@
 layout: post
 title:  "안녕? 레고사람, 안녕? 딥러닝 모델"
 author: 김태영
-date:   2017-05-04 01:00:00
+date:   2018-05-04 01:00:00
 categories: Lecture
 comments: true
 image: http://tykimos.github.io/warehouse/2018-5-4-Making_Keras_Model_using_Lego_Minifigures_2.png
