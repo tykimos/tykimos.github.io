@@ -5,13 +5,13 @@ author: 김태영
 date:   2018-05-16 14:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_title.png
+image: http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_title1.png
 ---
 이번 ISS에서는 "(주)인스페이스"와 "국토연구원 국토정보연구본부 국토정보분석센터" 공동 주최로 "세종국책연구단지에 딥러닝 모델 심기"란 주제를 가지고 세미나를 개최하고자 합니다. 딥러닝 기본 개념을 익히고 딥러닝 기반 모델을 쉽게 만들어볼 수 있는 ‘케라스’라는 딥러닝 라이브러리에 대해서 알아봅니다. 케라스 코드를 ‘블록’ 개념과 매칭하여 직관적으로 모델을 이해할 수 있는 방법에 대해 연습한 후 다양한 기초 문제를 살펴봅니다. 자율주행 분야에 딥러닝 모델이 어떻게 적용되는 지 알아보고, 다양한 분야에서 문제를 해결하는 데 있어 도움이 되는 캐글에 대해서도 알아봅니다.
 
     ISS란 Intelligence Space Seminar의 약자로 인공지능 기술과 관련된 인스페이스의 사내 세미나를 말합니다. 어렵게 모신 전문가분들의 주옥같은 내용을 공유하고자 오픈 세미나로 진행하고 있습니다.
     
-![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_title.png)
+![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_title1.png)
 
 ---
 ### 발표자
