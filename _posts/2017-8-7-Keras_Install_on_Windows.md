@@ -24,7 +24,7 @@ image: http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_4.pn
 
 ### 아나콘다 설치하기
 
-https://repo.continuum.io/archive/에 접속하여 시스템환경에 맞는 버전을 선택하여 Anaconda3을 다운로드 받습니다.
+https://repo.continuum.io/archive/ 에 접속하여 시스템환경에 맞는 버전을 선택하여 Anaconda3을 다운로드 받습니다.
 
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_5.png)
 
@@ -35,18 +35,20 @@ https://repo.continuum.io/archive/에 접속하여 시스템환경에 맞는 버
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_22.png)
 
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_17.png)
+위 화면이 나오면 All Users로 체크하고 Next를 눌러 다음 단계를 진행합니다.
 
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_1.png)
 
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_21.png)
+첫번째 체크박스는 아래의 환경 변수 추가 단계를 자동으로 해주는 옵션이므로 체크합니다. 두번째 체크박스는 실습에 영향을 끼치지 않습니다. 필요에 따라 선택적으로 체크합니다.
 
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_3.png)
 
 ![img](http://tykimos.github.io/warehouse/2017-8-7-Keras_Install_on_Windows_6.png)
 
-설치가 정상적으로 완료되지 않고 ‘Failed to create Anaconda menus’라는 메시지가 뜨는 경우,  제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에서 [시스템변수] 중 java와 관련된 환경변수가 있는지 확인합니다. 관련 변수가 있는 경우 해당 변수를 임시 저장해두었다가 일시적으로 삭제한 후 설치를 진행한다. 설치가 완료되면 해당 변수를 다시 생성합니다.
+설치가 정상적으로 완료되지 않고 ‘Failed to create Anaconda menus’라는 메시지가 뜨는 경우,  제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에서 [시스템변수] 중 java와 관련된 환경변수가 있는지 확인합니다. 관련 변수가 있는 경우 해당 변수를 메모장에 임시 저장해두었다가 일시적으로 삭제한 후 설치를 다시 진행합니다. 오류 메시지가 뜨지 않고 설치가 정상적으로 완료되면 해당 변수를 다시 생성합니다.
 
-제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에서 [시스템변수] 중 Path 에 아래 경로들을 추가합니다.
+제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에서 [시스템변수] 중 Path 에 아래 경로들을 추가합니다. 이미 경로가 있는 경우 다시 추가하지 않으셔도 됩니다.
 
 ```
     [추가할 경로]
@@ -55,7 +57,7 @@ https://repo.continuum.io/archive/에 접속하여 시스템환경에 맞는 버
     C:\ProgramData\Anaconda3\Library\bin
 ```
 
-이 때, Path에 python경로가 있는 경우 python 경로 보다 앞 쪽에 위의 경로를 추가합니다.
+이 때, Path에 python경로가 있는 경우 python 경로 보다 앞 쪽에 위의 경로를 추가합니다. 아래 경로가 없는 경우에는 이 단계를 건너뜁니다.
 
 ```
     [파이썬 경로(예시)]
@@ -70,7 +72,7 @@ Windows키 + r을 눌러 cmd(명령 프롬프트)를 실행시키고, cmd 창에
     conda 4.3.21
 ```    
 
-그 다음 다음과 같이 명령어를 입력하여 파이썬이 잘 동작하는지 확인한다. 파이썬이 정상적으로 실행되면 설치가 성공적으로 된 것입니다.
+그 다음 다음과 같이 명령어를 입력하여 파이썬이 잘 동작하는지 확인합니다. 파이썬이 정상적으로 실행되면 설치가 성공적으로 된 것입니다.
 ```
     >python [Enter]
 ```
@@ -112,7 +114,7 @@ c:\Projects\keras_talk>_
 프로젝트별로 개발환경이 다양할 수 있기 때문에 가상환경을 이용하면 편리합니다. 위에서 생성한 프로젝트에 가상 환경을 구축해보겠습니다. 명령 프롬프트에서 다음 명령어를 실행하여 가상환경을 생성합니다. 이 때, 권한 문제를 막기 위해 관리자 권한으로 명령 프롬프트가 실행되어 있어야 합니다. 설치를 확인하는 문장이 나타나면 ‘y’를 입력하여 설치를 진행합니다.
 
 ```
-    c:\Projects\keras_talk>conda create -n venv python=3.5 anaconda
+    c:\Projects\keras_talk>conda create -n venv python=3.6 anaconda
 ```
 
 다음과 같이 입력하여 생성한 가상환경을 실행시킵니다. ‘(venv)’라는 문구가 입력창에 나타나면 성공적으로 가상환경이 실행된 것입니다.
@@ -169,7 +171,7 @@ c:\Projects\keras_talk>_
 ```
     (venv) c:\Projects\keras_talk>conda install -n venv theano pygpu
     (venv) c:\Projects\keras_talk>conda install -n venv git graphviz
-    (venv) c:\Projects\keras_talk>conda install -n venv tensorflow
+    (venv) c:\Projects\keras_talk>pip install --ignore-installed --upgrade tensorflow
 ```
 
 다음과 같이 명령어를 입력하여 케라스를 다운로드 받은 후 ‘cd’ 명령어를 이용하여 keras 폴더로 이동합니다. 
@@ -218,7 +220,7 @@ import numpy
 import matplotlib
 import pandas
 import sklearn
-import pydotplus
+import pydot
 import h5py
 
 import theano
@@ -380,6 +382,104 @@ model = load_model('mnist_mlp_model.h5')
 > http://localhost:8888/?token=7c0dxxx
 
 이 경우 브라우저의 권한 등의 문제로 발생하는 것인데, 브라우저를 열어서 콘솔창에 출력된 링크로 한 번 접속하시면 해결됩니다.
+
+#### 텐서플로우 라이브러리 import 에러
+
+> 텐서플로우 라이브러리 import 시 아래와 같은 에러가 발생합니다.
+
+Traceback (most recent call last):
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 18, in swig_import_helper
+    return importlib.import_module(mname)
+  File "C:\...\Python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 658, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+  File "<frozen importlib._bootstrap_external>", line 922, in create_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+ImportError: DLL load failed: A dynamic link library (DLL) initialization routine failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 58, in <module>
+    from tensorflow.python.pywrap_tensorflow_internal import *
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 21, in <module>
+    _pywrap_tensorflow_internal = swig_import_helper()
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 20, in swig_import_helper
+    return importlib.import_module('_pywrap_tensorflow_internal')
+  File "C:\...\Python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+ModuleNotFoundError: No module named '_pywrap_tensorflow_internal'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\...\Python36\lib\site-packages\tensorflow\__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+    from tensorflow.python import pywrap_tensorflow
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 74, in <module>
+    raise ImportError(msg)
+ImportError: Traceback (most recent call last):
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 18, in swig_import_helper
+    return importlib.import_module(mname)
+  File "C:\...\Python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 658, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+  File "<frozen importlib._bootstrap_external>", line 922, in create_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+ImportError: DLL load failed: A dynamic link library (DLL) initialization routine failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 58, in <module>
+    from tensorflow.python.pywrap_tensorflow_internal import *
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 21, in <module>
+    _pywrap_tensorflow_internal = swig_import_helper()
+  File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 20, in swig_import_helper
+    return importlib.import_module('_pywrap_tensorflow_internal')
+  File "C:\...\Python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+ModuleNotFoundError: No module named '_pywrap_tensorflow_internal'
+
+Failed to load the native TensorFlow runtime.
+
+See https://www.tensorflow.org/install/install_sources#common_installation_problems
+
+for some common reasons and solutions.  Include the entire stack trace
+above this error message when asking for help.
+이 경우 http://tykimos.github.io/warehouse/files/tensorflow-1.6.0-cp36-cp36m-win_amd64.whl 의 파일을 다운로드 받아 텐서플로우 라이브러리 재설치를 진행합니다. 재설치 시 권한 문제를 막기 위해 관리자 권한으로 명령 프롬프트를 실행합니다. 아래의 명령어를 입력하여 설치되어 있는 텐서플로우 라이브러리를 삭제합니다. 계속 진행 여부를 묻는 창이 뜨면 'y'를 입력하여 계속 진행합니다.
+
+```
+    (venv) c:\Projects\keras_talk>pip uninstall tensorflow
+    .
+    .
+    .
+    Successfully uninstalled tensorflow-1.6.0
+    (venv) c:\Projects\keras_talk>_
+```
+
+다운로드 받은 파일을 'c:/Projects/keras_talk' 경로로 이동시킨 후 아래의 명령어를 입력하여 설치를 진행합니다. 계속 진행 여부를 묻는 창이 뜨면 'y'를 입력하여 계속 진행합니다. 경우에 따라 텐서플로우 설치에 필요한 다른 라이브러리가 같이 설치될 수 있습니다.
+
+```
+    (venv) c:\Projects\keras_talk>pip install tensorflow-1.6.0-cp36-cp36m-win_amd64.whl
+    .
+    .
+    .
+    Successfully installed tensorflow-1.6.0
+    (venv) c:\Projects\keras_talk>_
+```
+
+설치가 완료되면 주피터 노트북을 실행하여 텐서플로우 라이브러리가 정상적으로 import 되는 지 확인합니다.
 
 ---
 
