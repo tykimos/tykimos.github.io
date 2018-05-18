@@ -166,10 +166,9 @@ c:\Projects\keras_talk>_
 
 ### 딥러닝 라이브러리 설치
 
-다음 명령어를 입력하여 케라스 사용하는 딥러닝 라이브러리인 티아노(Theano)와 텐서플로우(Tensorflow)를 설치합니다. 둘 중 하나만 사용한다면 해당 라이브러리만 설치하시면 됩니다.
+다음 명령어를 입력하여 케라스 사용하는 딥러닝 라이브러리인 텐서플로우(Tensorflow)를 설치합니다.
 
 ```
-    (venv) c:\Projects\keras_talk>conda install -n venv theano pygpu
     (venv) c:\Projects\keras_talk>conda install -n venv git graphviz
     (venv) c:\Projects\keras_talk>pip install --ignore-installed --upgrade tensorflow
 ```
@@ -223,7 +222,6 @@ import sklearn
 import pydot
 import h5py
 
-import theano
 import tensorflow
 import keras
 
@@ -234,7 +232,6 @@ print('pandas ' + pandas.__version__)
 print('sklearn ' + sklearn.__version__)
 print('h5py ' + h5py.__version__)
 
-print('theano ' + theano.__version__)
 print('tensorflow ' + tensorflow.__version__)
 print('keras ' + keras.__version__)
 ```
@@ -318,26 +315,6 @@ model = load_model('mnist_mlp_model.h5')
 
 ---
 
-### 딥러닝 엔진 바꾸기
-
-백엔드로 구동되는 딥러닝 엔진을 바꾸려먼 'C:/Users/사용자이름/.keras/keras.json' 파일을 열어서 'backend' 부분을 수정하시면 됩니다. 만약 현재 설정이 텐서플로우일 경우 아래와 같이 표시됩니다.
-
-```
-    ...
-    "backend": "tensorflow"
-    ...
-```
-
-텐서플로우에서 티아노로 변경할 경우 위의 설정을 아래와 같이 수정합니다.
-
-```
-    ...
-    "backend": "theano"
-    ...
-```
-
----
-
 ### 다시 시작하기
 
 재부팅하거나 새로운 명령창에서 다시 시작할 때는 다음의 명령을 수행합니다.
@@ -357,7 +334,7 @@ model = load_model('mnist_mlp_model.h5')
 
 이 오류는 graphviz가 정상적으로 설치되지 않았거나 경로가 설정되지 않은 경우에 발생합니다.
 
-* http://www.graphviz.org/Download_windows.php 에 접속하여 graphviz-2.38.msi 파일을 다운로드 받습니다.
+* https://graphviz.gitlab.io/_pages/Download/Download_windows.html 에 접속하여 graphviz-2.38.msi 파일을 다운로드 받습니다.
 * graphviz-2.38.msi을 실행시켜 graphviz를 설치합니다.
 * 설치가 완료되면 제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경 변수에서 다음과 같이 변수를 추가합니다.
 
@@ -386,7 +363,7 @@ model = load_model('mnist_mlp_model.h5')
 #### 텐서플로우 라이브러리 import 에러
 
 > 텐서플로우 라이브러리 import 시 아래와 같은 에러가 발생합니다.
-
+<pre>
 Traceback (most recent call last):
   File "C:\...\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py", line 18, in swig_import_helper
     return importlib.import_module(mname)
@@ -457,6 +434,7 @@ See https://www.tensorflow.org/install/install_sources#common_installation_probl
 
 for some common reasons and solutions.  Include the entire stack trace
 above this error message when asking for help.
+</pre>
 이 경우 http://tykimos.github.io/warehouse/files/tensorflow-1.6.0-cp36-cp36m-win_amd64.whl 의 파일을 다운로드 받아 텐서플로우 라이브러리 재설치를 진행합니다. 재설치 시 권한 문제를 막기 위해 관리자 권한으로 명령 프롬프트를 실행합니다. 아래의 명령어를 입력하여 설치되어 있는 텐서플로우 라이브러리를 삭제합니다. 계속 진행 여부를 묻는 창이 뜨면 'y'를 입력하여 계속 진행합니다.
 
 ```
