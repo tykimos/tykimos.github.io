@@ -47,7 +47,10 @@ image: http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model
 ---
 ### 발표자료
 
-(추후 업데이트)
+* 김태영 기술이사, (주)인스페이스, [블록과 함께하는 파이썬 딥러닝 케라스], [발표자료 링크](https://docs.google.com/presentation/d/1dCyZmxGQgICmUp4t_ora4K3q2J52oxPw5CWFIrC0J-k/edit?usp=sharing)
+* 이유한 박사과정, 카이스트, [딥러닝심기 캐글소개], [발표자료 다운](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh_file.pdf),
+* 김준태, 대전대학교 전자정보통신공학과 4학년 재학중, [GTA5로 자율주행하기], [발표자료 다운](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_kjt_file.pdf)
+* 곽병권 이사, NGLE, [Keras 시계열 모델 튜토리얼], [발표자료 다운](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_kbk_file.pdf), [원문 링크](https://github.com/Steven-A3/TensorFlow-Tutorials)
 
 ---
 ### 사전준비
@@ -69,7 +72,7 @@ image: http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model
 
 ### 후기
 
-(추후 업데이트)
+도움이 되셨다면 댓글 부탁드려요~
 
 ---
 
