@@ -27,6 +27,9 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
 ### 딥러닝 몰라도 간(GAN)부터 보기
 ---
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kty.png)
+
 김태영 CTO, (주)인스페이스 : 케라스 코리아, 대딥사 운영자이며, 다양한 분야에 딥러닝 모델을 심을 수 있도록 대중화에 힘쓰고 있습니다. https://tykimos.github.io
 
 요즘은 인공지능이 그림도 그리고, 진짜같은 사람 목소리도 만들어내는 세상입니다. 이러한 것들을 생성모델이라고 하고, 그 근간에는 GAN이라는 것이 있습니다. 딥러닝을 잘 모르시는 분들이라도 레고 사람을 조립해보면서 기본적은 GAN의 개념을 익혀보겠습니다. CGAN, LSGAN, InfoGAN뿐만아니라 Pix2Pix, CycleGAN 등도 레고 사람으로 조립해보면서 확실히 간(GAN) 보도록 하겠습니다. 
