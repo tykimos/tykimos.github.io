@@ -23,54 +23,121 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
 발표는 어떤 주제에 대해 깊이 있는 정보를 전달하거나 전반적인 내용을 다룰 경우 세미나(50분) 형식으로 진행되고, 자신의 연구 및 기관에 대한 소개, 자유로운 토론 위주로 할 경우 라이트닝톡(20분)으로 진행됩니다.
 
-## [입문]
-
-### 딥러닝 몰라도 간(GAN)부터 보기
+### 딥러닝 몰라도 간(GAN)부터 보기 - 입문, 세미나
 ---
-
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kty.png)
 
-김태영 CTO, (주)인스페이스 : 케라스 코리아, 대딥사 운영자이며, 다양한 분야에 딥러닝 모델을 심을 수 있도록 대중화에 힘쓰고 있습니다. https://tykimos.github.io
+#### 연사소개
+(주)인스페이스 기술이사, 케라스 코리아, 대딥사 운영자이며, 경희대학교 우주탐사학과 박사과정에 진학 중입니다. 다양한 분야에 딥러닝 모델을 심을 수 있도록 대중화에 힘쓰고 있습니다.
 
+#### 발표소개
 요즘은 인공지능이 그림도 그리고, 진짜같은 사람 목소리도 만들어내는 세상입니다. 이러한 것들을 생성모델이라고 하고, 그 근간에는 GAN이라는 것이 있습니다. 딥러닝을 잘 모르시는 분들이라도 레고 사람을 조립해보면서 기본적은 GAN의 개념을 익혀보겠습니다. CGAN, LSGAN, InfoGAN뿐만아니라 Pix2Pix, CycleGAN 등도 레고 사람으로 조립해보면서 확실히 간(GAN) 보도록 하겠습니다. 
 
-### 딥러닝 보물상자 '캐글' 알아보기
----
-이유한 박사과정, 카이스트 : (간략한 발표자 소개) 
+#### 발표자료
+구글 프리젠테이션 : [모두의 손에 딥러닝 툴을...](https://docs.google.com/presentation/d/1dCyZmxGQgICmUp4t_ora4K3q2J52oxPw5CWFIrC0J-k/edit)
 
+#### 블로그 및 깃헙
+* [김태영의 케라스 블로그](https://tykimos.github.io) : 케라스와 딥러닝에 관련된 강좌 및 세미나 자료가 정리되어 있습니다. 딥러닝 입문에 추천드립니다. 
+
+#### 저서
+[블록과 함께하는 파이썬 딥러닝 케라스](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960882133&orderClick=LAG&Kc=#N&OV_REFFER=http://click.linkprice.com/click.php?m=kbbook&a=A100532541&l=9999&l_cd1=0&u_id=jhqg2qh8q101t9ww02yqe&l_cd2=0&tu=http%3A%2F%2Fwww.kyobobook.co.kr%2Fproduct%2FdetailViewKor.laf%3FejkGb%3DKOR%26mallGb%3DKOR%26barcode%3D9788960882133%26orderClick%3DLAG%26Kc%3D%23N) : 케라스 사용에 필요한 딥러닝 개념 설명과 실습 가능한 파이썬 소스코드를 담고 있으며 직관적으로 딥러닝 모델 구성을 이해할 수 있도록 블록쌓기 예제가 포함되어 있습니다.
+
+### 딥러닝 보물상자 '캐글' 알아보기 - 입문, 세미나
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh.png)
+
+#### 연사소개
+(추후 업데이트)
+
+#### 발표소개
 캐글은 다양한 분야의 문제 및 데이터셋을 제공하고 해당 문제를 풀기 위한 알고리즘 온라인 경연 대회를 운영하는 곳입니다. 유사 문제를 확인하고, 도움을 얻을 수 있는 방법에 대해서 살펴봅니다.
 
-## [알고리즘 및 코어]
+#### 발표자료
+(추후 업데이트)
 
-### Graph Neural Network
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+### Graph Neural Network - 알고리즘, 세미나
 ---
-류성옥, 석박사통합과정 5년차, KAIST 화학과 : 양자역학을 연구하다가, AI가 세상을 바꿀 기술이라 생각되어 딥러닝을 공부하는 대학원생입니다. AI를 활용하여 Smart Drug Discovery를 연구중이며, Graph Neural Network 을 이용한 네트워크 분석에 관심이 많습니다. 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_rsy.png)
 
+#### 연사소개
+석박사통합과정 5년차이며 KAIST 화학과 전공입니다. 양자역학을 연구하다가, AI가 세상을 바꿀 기술이라 생각되어 딥러닝을 공부하는 대학원생입니다. AI를 활용하여 Smart Drug Discovery를 연구중이며, Graph Neural Network 을 이용한 네트워크 분석에 관심이 많습니다. 
+
+#### 발표소개
 격화된 공간에서 표현되는 이미지와 다르게, 네트워크/물리/화학 등 시스템을 구성하는 객체들띠리 복잡한 관계를 형성하는 문제들은 Graph로 문제가 정의되곤 합니다. 이러한 문제를 data-driven으로 해결하기 위한 Graph Neural Network에 대해서 소개하고, 실제로 분자들의 구조-물성 관계(Quantitative Structure Activity Relationship; QSAR)을 딥러닝 모델을 개발하여 연구한 사례를 소개합니다.
 뱀다리) 당일 4주훈련을 마치고 퇴소하여 까까머리로 발표할 예정입니다^.
 
-### TensorFlow Eager Execution
----
-전태균 팀장, (주)쎄트렉아이 : TensorFlow KR 운영자, ML Google Developer Experts
+#### 발표자료
+(추후 업데이트)
 
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+### Deep convolutional framelets: application to diffuse optical tomography - 알고리즘, 세미나
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj.png)
+
+#### 연사소개
+올해 2월 KAIST 바이오및뇌공학과 박사 졸업 후 네이버 클로바에서 일하고 있습니다. GANs, VAE, Autoregressive model 등 generative model과 interpretable model에 대한 연구에 관심이 있습니다.
+
+#### 발표소개
+Super-resolution, image denoising, reconstruction, segmentation 등의 다양한 inverse problem에서 deep learning이 매우 좋은 결과를 보여주고 있습니다. 이미 기존 방식들이 어느 정도 잘 하고 있던 분야에서 성능을 더 잘 내고 있는 것은 분명한데, 그렇다면 더 복잡한 물리적 현상도 deep learning을 이용하여 학습하는 것이 가능할까요? 이번 발표에서는 Inverse scattering problem이라는 좀 더 어려운 문제를 deep learning으로 풀어보고자 노력한 제 박사학위 연구(밑바닥부터 졸업까지 삽질기)를 소개하고자 합니다. 덧붙여서 시간이 허락한다면, deep learning에서 특정 구조가 잘 동작하는 이유를 분석하고, 어떤 식으로 구조를 디자인해야 할 지에 대해 신호처리 관점에서 풀어낸 deep convolutional framelets 이론을 같이 소개하겠습니다.
+
+#### 발표자료
+[다운로드](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj_file.pdf)
+
+#### 참고자료
+* [Deep Learning Can Reverse Photon Migration for Diffuse Optical Tomography](https://arxiv.org/abs/1712.00912)
+* [A Mathematical Framework for Deep Learning in Elastic Source Imaging](https://arxiv.org/abs/1802.10055)
+* [Deep Convolutional Framelets: A General Deep Learning Framework for Inverse Problems](https://arxiv.org/abs/1707.00372)
+
+#### 블로그 및 깃헙
+* http://jaejunyoo.blogspot.com
+* https://github.com/jaejun-yoo/
+
+### TensorFlow Eager Execution - 코어, 라이트닝톡
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jtg.png)
+
+#### 연사소개
+(주)쎄트렉아이 : TensorFlow KR 운영자, ML Google Developer Experts
+
+#### 발표소개
 구글이 올해 3월 정식으로 공개한 Eager Execution에 대해서 소개합니다. Eager Execution은 TensorFlow를 대화형 명령 스타일기로 프로그래밍 할 수 있도록 해주는 것입니다. MNIST, linear regression, GAN, RNN, CNN(ResNet) 의 예제를 활용법을 소개합니다. 
 코어 및 알고리즘
 
-## [강화학습]
+#### 발표자료
+(추후 업데이트)
 
-### 우리는 왜 강화학습을 해야하는가
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+### 우리는 왜 강화학습을 해야하는가 - 강화학습, 세미나
 ---
-차금강 연구원, 플랜아이 미래연구소 : https://github.com/chagmgang 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_cgg.png)
 
+#### 연사소개
+(추후 업데이트)
+
+#### 발표소개
 비전문가들에게 강화학습은 알파고로 대변되고 있습니다. 강화학습이란 무엇인가, 일반 딥러닝과 무엇이 다른것인가, 강화학습을 하기 위해서는 어떤 것들이 필요한가를 짚은 후 여러 적용사례들을 소개드리겠습니다.(적용사례: 벽돌피하기, CartPole(장대세우기), 스타크래프트2)
+
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+* https://github.com/chagmgang 
 
 ### 달려라, 인공지능
 ---
-정원석 연구원, ConnexionAI 연구원, 프리랜서 데이터사이언티스트, 모두의연구소 강화학습 연구원 : 프리랜서 연구원으로 스마트팩토리에 딥러닝과 강화학습을 적용하는 프로젝트에 참여하고 있으며, 특히 강화학습 연구에 몰두하고 있습니다. 지식과 경험을 나누는 것이 가장 큰 가치라고 생각하여 발표자로 참여하게 되었습니다. 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kws.png)
 
-* github : https://github.com/wonseokjung
-* blog : https://wonseokjung.github.io
+#### 연사소개
+프리랜서 연구원으로 스마트팩토리에 딥러닝과 강화학습을 적용하는 프로젝트에 참여하고 있으며, 특히 강화학습 연구에 몰두하고 있습니다. 지식과 경험을 나누는 것이 가장 큰 가치라고 생각하여 발표자로 참여하게 되었습니다. 
 
+#### 발표소개
 현재 강화학습은 큰 환경에 적용할때 한계를 보이고 있습니다. 이 한계는 강화학습을 게임에서 적용할때 뿐만 아니라, 미래에  “보편적인 인공지능”을 만들기 위해 우리가 풀어야할 숙제입니다. 이 한계를 해결하기 위해 Atari, Super Mario, Sonic의 환경에 강화학습을 적용하여, 목표를 달성하는 에이전트를 만들기 위해 시도한 과정들을 다음의 순서로 공유하고자 합니다.
 
 1. 강화학습의 탄생
@@ -80,20 +147,37 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
     강화학습으로 슈퍼마리오 에이전트를 만들수 있는 튜토리얼 또한 제공됩니다.
 
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+* github : https://github.com/wonseokjung
+* blog : https://wonseokjung.github.io
+
 ### 알파오목이랑 게임하기
 ---
-김정대 동화세상에듀코 선임 코치, RL Korea 알파오목 팀 : 알파고를 사랑한 수학강사. 셀프 플레이 강화학습을 실제 삶에 적용하는 사람. 퇴근 후에 두뇌가 풀가동되는 신인류.   
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjd.png)
 
+#### 연사소개
+알파고를 사랑한 수학강사. 셀프 플레이 강화학습을 실제 삶에 적용하는 사람. 퇴근 후에 두뇌가 풀가동되는 신인류.
+
+#### 발표소개
 알파고 제로에 대한 기본적인 원리에 대해서 알아보고, 이 알고리즘을 이용하여 알파오목을 구현한 경험을 공유합니다. 사람과 알파오목 대전을 보실 수도(?) 있습니다.
 
-### 안.전.제.일. 강화학습!
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+### 안.전.제.일. 강화학습! - 강화학습, 세미나
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ldm.png)
 
-이동민, 한양대학교 컴퓨터공학 전공, RLI(Reinforcement Learning Intelligence) Study Director & Lead : 강화학습을 사랑하고 공부하고 있는 학부생입니다. 강화학습은 저의 연구분야이며, 취미이며, 일상입니다.
+#### 연사소개
+강화학습을 사랑하고 공부하고 있는 학부생입니다. 강화학습은 저의 연구분야이며, 취미이며, 일상입니다.
 
-* slideshare : https://www.slideshare.net/DongMinLee32
-* blog : https://dongminlee.tistory.com 
-
+#### 발표소개
 본격적인 내용에 앞서 우리가 왜 강화학습을 공부해야 하는지, 강화학습이란 무엇인지에 대해서 알아보겠습니다. 그리고 ‘어떻게 하면 강화학습을 더 안전하고 빠르게 학습할 수 있을까?’에 대해서 소개하고자 합니다.
 
 1. Artificial General Intelligence
@@ -101,10 +185,15 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 3. Planning & Learning
 4. Safe Reinforcement Learning
 
-## [의료]
+#### 발표자료
+* 슬라이드쉐어 : https://www.slideshare.net/DongMinLee32
 
-### Introduction to GAN
+#### 블로그 및 깃헙
+* https://dongminlee.tistory.com
+
+### Introduction to GAN, 의료, E-Session
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ljm.png)
 
 이지민 박사과정, 서울대학교 방사선의학물리연구실 / TensorFlowKR 운영진 : 늘 행복하고 싶은 대학원생이며, 딥러닝을 이용하여 의료영상을 분석하는 연구를 하고 있습니다. :)
 
@@ -112,41 +201,17 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
 ### MRI 를 이용한 치매 질환 예측
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psj.png)
+
 박세진 (연구원), VUNO Inc. 
 
 컴퓨터 비전을 좋아하는 아들바보입니다. 관심분야는 의료영상, 자율주행.
 
 객체인식 기법과 머신러닝을 사용하여 MRI 영상에서 관심 뇌영역을 분할하고 뇌위축을 인식하여 치매(알츠하이머) 위험도를 예측하는 기법을 소개합니다.
 
-## [공학]
-
-### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례
----
-유용균 박사, 한국원자력연구원 : (간략한 발표자 소개)
-
-딥러닝 기술은 물리 화학 기계 등 광범위한 과학 분야에 적용되고 있습니다. 전산 시뮬레이션 및 최적설계 분야에 대한 적용 사례와 진행 중인 연구를 간단하게 소개드리겠습니다.
-
-### 항공우주분야에서의 머신러닝기술
----
-김홍배 책임, 한국항공우주연구원 인공지능연구실: 구조진동 전공. 시험평가 전문가. 우주 광학 전문가. 컴퓨터 비젼과 머신 러닝분야에 관심이 많고  현재는 머신러닝기술의 항공우주분야 응용에 집중하고 있습니다.
-
-머신러닝기술이 항공우주분야에 어떻게 적용되고 있는지 간단하게 소개하고 참가자들과 토론하고자 합니다.
-
-### 딥러닝을 활용한 테스트 자동화 연구
----
-곽병권 (이사, 소장), (NGLE) : NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을 연구
-
-모바일 게임 환경에서의 블랙박스 테스트 상황에서의 딥러닝 적용 방안 연구, Imitation Learning, Behavioral-Cloning등의 적용등을 소개합니다.
-
-## [과학]
-
-### 연관된 이미지 변환하기 - 태양 분야 적용 사례
----
-신경인 연구원, 경희대학교 우주탐사학과
-
-딥러닝이 단순히 응용 분야에만 적용되는 것이 아니라, 굉장히 정밀한 데이터를 요구하는 과학 학문 분야에도 쓰일 수 있습니다. 제가 수정한 conditional GAN으로 두 이미지 사이의 변환을 이용한 연구를 소개합니다. 
-
 ## [헬스케어]
+
+2018-6-28-ISS_1st_Deep_Learning_Together_sky
 
 ### 나의 감성을 알아주는 너
 
@@ -156,9 +221,50 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
 ### 근전도 생체신호 데이터로 손 모양 생성하기
 
+2018-6-28-ISS_1st_Deep_Learning_Together_psm
+
 박상민(대덕 소프트웨어마이스터고등학교 3학년) : 개발자를 꿈꾸는 한국의 어느 평범한(?) 고3 입니다. 임베디드SW와 딥러닝에 관심이 많아  주로 공부하고 있습니다.
 
 근전도 생체신호와 딥러닝의 이미지 생성모델(GAN)로 손의 모양을 생성해내는 프로젝트를 소개하고, 지금까지 어떤 문제들이 있었고, 어떻게 해결하려고 했는지, 어떤 삽질을 했는지  소개합니다.
+
+## [공학]
+
+### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례
+---
+
+2018-6-28-ISS_1st_Deep_Learning_Together_yyk
+
+유용균 박사, 한국원자력연구원 : (간략한 발표자 소개)
+
+딥러닝 기술은 물리 화학 기계 등 광범위한 과학 분야에 적용되고 있습니다. 전산 시뮬레이션 및 최적설계 분야에 대한 적용 사례와 진행 중인 연구를 간단하게 소개드리겠습니다.
+
+### 항공우주분야에서의 머신러닝기술
+---
+
+2018-6-28-ISS_1st_Deep_Learning_Together_khb
+김홍배 책임, 한국항공우주연구원 인공지능연구실: 구조진동 전공. 시험평가 전문가. 우주 광학 전문가. 컴퓨터 비젼과 머신 러닝분야에 관심이 많고  현재는 머신러닝기술의 항공우주분야 응용에 집중하고 있습니다.
+
+머신러닝기술이 항공우주분야에 어떻게 적용되고 있는지 간단하게 소개하고 참가자들과 토론하고자 합니다.
+
+### 딥러닝을 활용한 테스트 자동화 연구
+---
+
+2018-6-28-ISS_1st_Deep_Learning_Together_kbg
+
+곽병권 (이사, 소장), (NGLE) : NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을 연구
+
+모바일 게임 환경에서의 블랙박스 테스트 상황에서의 딥러닝 적용 방안 연구, Imitation Learning, Behavioral-Cloning등의 적용등을 소개합니다.
+
+## [과학]
+
+### 연관된 이미지 변환하기 - 태양 분야 적용 사례
+---
+
+2018-6-28-ISS_1st_Deep_Learning_Together_khu
+
+신경인 연구원, 경희대학교 우주탐사학과
+
+딥러닝이 단순히 응용 분야에만 적용되는 것이 아니라, 굉장히 정밀한 데이터를 요구하는 과학 학문 분야에도 쓰일 수 있습니다. 제가 수정한 conditional GAN으로 두 이미지 사이의 변환을 이용한 연구를 소개합니다. 
 
 ---
 ### 상세 프로그램
