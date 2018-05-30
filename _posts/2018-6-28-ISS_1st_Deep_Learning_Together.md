@@ -21,9 +21,12 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
 ---
 
-발표는 어떤 주제에 대해 깊이 있는 정보를 전달하거나 전반적인 내용을 다룰 경우 세미나(50분) 형식으로 진행되고, 자신의 연구 및 기관에 대한 소개, 자유로운 토론 위주로 할 경우 라이트닝톡(20분)으로 진행됩니다.
+발표는 아래 세가지 방식으로 진행됩니다. 
+* 세미나(50분) : 어떤 주제에 대해 깊이 있는 지식이나 전반적인 내용을 다룹니다.
+* 라이트닝톡(20분) : 자신의 연구 및 기관에 대한 소개, 자유로운 토론 위주로 합니다.
+* 전자세션(E-Session) : 발표자가 직접 참석은 못하지만 자료를 공개하고 온라인 토론이 가능합니다.
 
-### 딥러닝 몰라도 간(GAN)부터 보기 - 입문, 세미나
+### 딥러닝 몰라도 간(GAN)부터 보기 - 입문 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kty.png)
 
@@ -42,7 +45,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 #### 저서
 [블록과 함께하는 파이썬 딥러닝 케라스](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960882133&orderClick=LAG&Kc=#N&OV_REFFER=http://click.linkprice.com/click.php?m=kbbook&a=A100532541&l=9999&l_cd1=0&u_id=jhqg2qh8q101t9ww02yqe&l_cd2=0&tu=http%3A%2F%2Fwww.kyobobook.co.kr%2Fproduct%2FdetailViewKor.laf%3FejkGb%3DKOR%26mallGb%3DKOR%26barcode%3D9788960882133%26orderClick%3DLAG%26Kc%3D%23N) : 케라스 사용에 필요한 딥러닝 개념 설명과 실습 가능한 파이썬 소스코드를 담고 있으며 직관적으로 딥러닝 모델 구성을 이해할 수 있도록 블록쌓기 예제가 포함되어 있습니다.
 
-### 딥러닝 보물상자 '캐글' 알아보기 - 입문, 세미나
+#### 연락처
+* 이메일 : tykim@inspace.re.kr
+* 페이스북 : https://www.facebook.com/tykimo
+
+### 딥러닝 보물상자 '캐글' 알아보기 - 입문 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh.png)
 
@@ -58,7 +65,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 #### 블로그 및 깃헙
 (추후 업데이트)
 
-### Graph Neural Network - 알고리즘, 세미나
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### Graph Neural Network - 알고리즘 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_rsy.png)
 
@@ -75,7 +86,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 #### 블로그 및 깃헙
 (추후 업데이트)
 
-### Deep convolutional framelets: application to diffuse optical tomography - 알고리즘, 세미나
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### Deep convolutional framelets: application to diffuse optical tomography - 알고리즘 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj.png)
 
@@ -97,7 +112,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * http://jaejunyoo.blogspot.com
 * https://github.com/jaejun-yoo/
 
-### TensorFlow Eager Execution - 코어, 라이트닝톡
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### TensorFlow Eager Execution - 코어 (라이트닝톡)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jtg.png)
 
@@ -114,7 +133,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 블로그 및 깃헙
 (추후 업데이트)
 
-### 우리는 왜 강화학습을 해야하는가 - 강화학습, 세미나
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 우리는 왜 강화학습을 해야하는가 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_cgg.png)
 
@@ -130,7 +153,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 블로그 및 깃헙
 * https://github.com/chagmgang 
 
-### 달려라, 인공지능
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 달려라, 인공지능 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kws.png)
 
@@ -154,7 +181,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * github : https://github.com/wonseokjung
 * blog : https://wonseokjung.github.io
 
-### 알파오목이랑 게임하기
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 알파오목이랑 게임하기 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjd.png)
 
@@ -170,7 +201,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 블로그 및 깃헙
 (추후 업데이트)
 
-### 안.전.제.일. 강화학습! - 강화학습, 세미나
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 안.전.제.일. 강화학습! - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ldm.png)
 
@@ -189,82 +224,168 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 슬라이드쉐어 : https://www.slideshare.net/DongMinLee32
 
 #### 블로그 및 깃헙
-* https://dongminlee.tistory.com
+* 블로그 : https://dongminlee.tistory.com
+* 깃헙 : https://github.com/dongminleeai
 
-### Introduction to GAN, 의료, E-Session
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### Introduction to GAN - 의료 (전자세션)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ljm.png)
 
-이지민 박사과정, 서울대학교 방사선의학물리연구실 / TensorFlowKR 운영진 : 늘 행복하고 싶은 대학원생이며, 딥러닝을 이용하여 의료영상을 분석하는 연구를 하고 있습니다. :)
+#### 연사소개
+서울대학교 방사선의학물리연구실 / TensorFlowKR 운영진 : 늘 행복하고 싶은 대학원생이며, 딥러닝을 이용하여 의료영상을 분석하는 연구를 하고 있습니다. :)
 
+#### 발표소개
 생성 모델(Generative Model) 인 Auto-Regressive model, Variational Auto-Encoder, GAN (Generative Adversarial Networks)에 대해 간단히 소개하고, 그 중 가장 주목받고 있는 GAN 의 심화 개념과 응용 사례도 함께 다루어보고자 합니다.
 
-### MRI 를 이용한 치매 질환 예측
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### MRI 를 이용한 치매 질환 예측 - 의료 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psj.png)
 
-박세진 (연구원), VUNO Inc. 
-
+#### 연사소개
 컴퓨터 비전을 좋아하는 아들바보입니다. 관심분야는 의료영상, 자율주행.
 
+#### 발표소개
 객체인식 기법과 머신러닝을 사용하여 MRI 영상에서 관심 뇌영역을 분할하고 뇌위축을 인식하여 치매(알츠하이머) 위험도를 예측하는 기법을 소개합니다.
 
-## [헬스케어]
+#### 발표자료
+(추후 업데이트)
 
-2018-6-28-ISS_1st_Deep_Learning_Together_sky
+#### 블로그 및 깃헙
+(추후 업데이트)
 
-### 나의 감성을 알아주는 너
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
 
-송규예 데이터사이언스트, OrbisAI : (간략한 발표자 소개)
+### 나의 감성을 알아주는 너 - 감성 (세미나)
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_sky.png)
 
+#### 연사소개
+(추후 업데이트)
+
+#### 발표소개
 딥러닝이 단순히 응용 분야에만 적용되는 것이 아니라, 굉장히 정밀한 데이터를 요구하는 과학 학문 분야에도 쓰일 수 있습니다. 제가 수정한 conditional GAN으로 두 이미지 사이의 변환을 이용한 연구를 소개합니다. 
 
-### 근전도 생체신호 데이터로 손 모양 생성하기
+#### 발표자료
+(추후 업데이트)
 
-2018-6-28-ISS_1st_Deep_Learning_Together_psm
+#### 블로그 및 깃헙
+(추후 업데이트)
 
-박상민(대덕 소프트웨어마이스터고등학교 3학년) : 개발자를 꿈꾸는 한국의 어느 평범한(?) 고3 입니다. 임베디드SW와 딥러닝에 관심이 많아  주로 공부하고 있습니다.
+### 근전도 생체신호 데이터로 손 모양 생성하기 - 임베디드 (세미나)
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psm.png)
 
+#### 연사소개
+개발자를 꿈꾸는 한국의 어느 평범한(?) 고3 입니다. 임베디드SW와 딥러닝에 관심이 많아  주로 공부하고 있습니다.
+
+#### 발표소개
 근전도 생체신호와 딥러닝의 이미지 생성모델(GAN)로 손의 모양을 생성해내는 프로젝트를 소개하고, 지금까지 어떤 문제들이 있었고, 어떻게 해결하려고 했는지, 어떤 삽질을 했는지  소개합니다.
 
-## [공학]
+#### 발표자료
+(추후 업데이트)
 
-### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례 - 공학 (세미나)
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk.png)
 
-2018-6-28-ISS_1st_Deep_Learning_Together_yyk
+#### 연사소개
+(추후 업데이트)
 
-유용균 박사, 한국원자력연구원 : (간략한 발표자 소개)
-
+#### 발표소개
 딥러닝 기술은 물리 화학 기계 등 광범위한 과학 분야에 적용되고 있습니다. 전산 시뮬레이션 및 최적설계 분야에 대한 적용 사례와 진행 중인 연구를 간단하게 소개드리겠습니다.
 
-### 항공우주분야에서의 머신러닝기술
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 항공우주분야에서의 머신러닝기술 - 공학 (라이트닝톡)
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_khb.png)
 
-2018-6-28-ISS_1st_Deep_Learning_Together_khb
-김홍배 책임, 한국항공우주연구원 인공지능연구실: 구조진동 전공. 시험평가 전문가. 우주 광학 전문가. 컴퓨터 비젼과 머신 러닝분야에 관심이 많고  현재는 머신러닝기술의 항공우주분야 응용에 집중하고 있습니다.
+#### 연사소개
+한국항공우주연구원 인공지능연구실: 구조진동 전공. 시험평가 전문가. 우주 광학 전문가. 컴퓨터 비젼과 머신 러닝분야에 관심이 많고 현재는 머신러닝기술의 항공우주분야 응용에 집중하고 있습니다.
 
+#### 발표소개
 머신러닝기술이 항공우주분야에 어떻게 적용되고 있는지 간단하게 소개하고 참가자들과 토론하고자 합니다.
 
-### 딥러닝을 활용한 테스트 자동화 연구
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
+
+### 딥러닝을 활용한 테스트 자동화 연구 - 품질 (라이트닝톡)
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kbg.png)
 
-2018-6-28-ISS_1st_Deep_Learning_Together_kbg
+#### 연사소개
+NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을 연구
 
-곽병권 (이사, 소장), (NGLE) : NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을 연구
-
+#### 발표소개
 모바일 게임 환경에서의 블랙박스 테스트 상황에서의 딥러닝 적용 방안 연구, Imitation Learning, Behavioral-Cloning등의 적용등을 소개합니다.
 
-## [과학]
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
 
 ### 연관된 이미지 변환하기 - 태양 분야 적용 사례
 ---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_khu.png)
 
-2018-6-28-ISS_1st_Deep_Learning_Together_khu
+#### 연사소개
+경희대학교 우주탐사학과 신경인, 박은수, 이하림 연구원
 
-신경인 연구원, 경희대학교 우주탐사학과
-
+#### 발표소개
 딥러닝이 단순히 응용 분야에만 적용되는 것이 아니라, 굉장히 정밀한 데이터를 요구하는 과학 학문 분야에도 쓰일 수 있습니다. 제가 수정한 conditional GAN으로 두 이미지 사이의 변환을 이용한 연구를 소개합니다. 
+
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : (추후 업데이트)
 
 ---
 ### 상세 프로그램
