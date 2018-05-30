@@ -279,7 +279,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 발표소개
-딥러닝이 단순히 응용 분야에만 적용되는 것이 아니라, 굉장히 정밀한 데이터를 요구하는 과학 학문 분야에도 쓰일 수 있습니다. 제가 수정한 conditional GAN으로 두 이미지 사이의 변환을 이용한 연구를 소개합니다. 
+(추후 업데이트)
 
 #### 발표자료
 (추후 업데이트)
