@@ -252,7 +252,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 슬라이드쉐어 : [강화학습의 개요](https://www.slideshare.net/DongMinLee32/ss-91521646)
 * 슬라이드쉐어 : [강화학습 알고리즘의 흐름도 Part 1](https://www.slideshare.net/DongMinLee32/part-1-91522059)
 * 슬라이드쉐어 : [강화학습 알고리즘의 흐름도 Part 2](https://www.slideshare.net/DongMinLee32/part-2-91522217)
-* 슬라이드쉐어 : [Multi-armed Bandits](https://www.slideshare.net/DongMinLee32/multiarmed-bandits)
+* 슬라이드쉐어 : [Planning and Learning with Tabular Methods](https://www.slideshare.net/DongMinLee32/planning-and-learning-with-tabular-methods)
 
 #### 블로그 및 깃헙
 * 블로그 : [https://dongminlee.tistory.com](https://dongminlee.tistory.com)
