@@ -18,7 +18,8 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
     * 세션 C: 대회의실 30명
 
 3. 주최 : (주)인스페이스, 케라스 코리아, 대딥사
-4. 대상 : 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 500명)
+4. 후원 : UST 과학기술연합대학원대학교, NIPA 정보통신산업진흥원
+5. 대상 : 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 500명)
 
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ust.png)
 
@@ -56,11 +57,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 
 ![img](http://image.kyobobook.co.kr/images/book/large/133/l9788960882133.jpg)
 
-[블록과 함께하는 파이썬 딥러닝 케라스](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960882133&orderClick=LAG&Kc=#N&OV_REFFER=http://click.linkprice.com/click.php?m=kbbook&a=A100532541&l=9999&l_cd1=0&u_id=jhqg2qh8q101t9ww02yqe&l_cd2=0&tu=http%3A%2F%2Fwww.kyobobook.co.kr%2Fproduct%2FdetailViewKor.laf%3FejkGb%3DKOR%26mallGb%3DKOR%26barcode%3D9788960882133%26orderClick%3DLAG%26Kc%3D%23N) : 케라스 사용에 필요한 딥러닝 개념 설명과 실습 가능한 파이썬 소스코드를 담고 있으며 직관적으로 딥러닝 모델 구성을 이해할 수 있도록 블록쌓기 예제가 포함되어 있습니다.
+케라스 사용에 필요한 딥러닝 개념 설명과 실습 가능한 파이썬 소스코드를 담고 있으며 직관적으로 딥러닝 모델 구성을 이해할 수 있도록 블록쌓기 예제가 포함되어 있습니다. [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960882133&orderClick=LAG&Kc=#N&OV_REFFER=http://click.linkprice.com/click.php?m=kbbook&a=A100532541&l=9999&l_cd1=0&u_id=jhqg2qh8q101t9ww02yqe&l_cd2=0&tu=http%3A%2F%2Fwww.kyobobook.co.kr%2Fproduct%2FdetailViewKor.laf%3FejkGb%3DKOR%26mallGb%3DKOR%26barcode%3D9788960882133%26orderClick%3DLAG%26Kc%3D%23N)
 
 #### 연락처
 * 이메일 : tykim@inspace.re.kr
-* 페이스북 : https://www.facebook.com/tykimo
+* 페이스북 : [https://www.facebook.com/tykimo](https://www.facebook.com/tykimo)
 
 ### 딥러닝 보물상자 '캐글' 알아보기 - 입문 (세미나)
 ---
@@ -76,11 +77,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* 블로그 : http://kaggle-kr.tistory.com/
+* 블로그 : [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
 
 #### 연락처
 * 이메일 : youhanlee@kaist.ac.kr 또는 bshz15@gmail.com
-* 페이스북 : https://www.facebook.com/youhan.lee.33
+* 페이스북 : [https://www.facebook.com/youhan.lee.33](https://www.facebook.com/youhan.lee.33)
 
 ### Graph Neural Network - 알고리즘 (세미나)
 ---
@@ -100,11 +101,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 논문 : [Deeply learning molecular structure-property relationships using graph attention neural network](https://arxiv.org/abs/1805.10988)
 
 #### 블로그 및 깃헙
-* 블로그 : http://suma_maple.blog.me
+* 블로그 : [http://suma_maple.blog.me](http://suma_maple.blog.me)
 
 #### 연락처
 * 이메일 : sower2002@kaist.ac.kr
-* 페이스북 : https://www.facebook.com/ryu.seongok.1
+* 페이스북 : [https://www.facebook.com/ryu.seongok.1](https://www.facebook.com/ryu.seongok.1)
 
 ### Deep convolutional framelets: application to diffuse optical tomography - 알고리즘 (세미나)
 ---
@@ -125,12 +126,12 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * [Deep Convolutional Framelets: A General Deep Learning Framework for Inverse Problems](https://arxiv.org/abs/1707.00372)
 
 #### 블로그 및 깃헙
-* http://jaejunyoo.blogspot.com
-* https://github.com/jaejun-yoo/
+* 블로그 : [http://jaejunyoo.blogspot.com](http://jaejunyoo.blogspot.com)
+* 깃헙 : [https://github.com/jaejun-yoo/](https://github.com/jaejun-yoo/)
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/thinking.factory
+* 페이스북 : [https://www.facebook.com/thinking.factory](https://www.facebook.com/thinking.factory)
 
 ### TensorFlow Eager Execution - 코어 (라이트닝톡)
 ---
@@ -151,7 +152,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/taegyun.jeon
+* 페이스북 : [https://www.facebook.com/taegyun.jeon](https://www.facebook.com/taegyun.jeon)
 
 ### 우리는 왜 강화학습을 해야하는가 - 강화학습 (세미나)
 ---
@@ -171,11 +172,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* 깃헙 : https://github.com/chagmgang 
+* 깃헙 : [https://github.com/chagmgang](https://github.com/chagmgang)
 
 #### 연락처
 * 이메일 : chagmgang@gmail.com
-* 페이스북 : https://www.facebook.com/profile.php?id=100002147815509
+* 페이스북 : [https://www.facebook.com/profile.php?id=100002147815509](https://www.facebook.com/profile.php?id=100002147815509)
 
 ### 달려라, 인공지능 - 강화학습 (세미나)
 ---
@@ -202,12 +203,12 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* 블로그 : https://wonseokjung.github.io
-* 깃헙 : https://github.com/wonseokjung
+* 블로그 : [https://wonseokjung.github.io](https://wonseokjung.github.io)
+* 깃헙 : [https://github.com/wonseokjung](https://github.com/wonseokjung)
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/ws.jung.798
+* 페이스북 : [https://www.facebook.com/ws.jung.798](https://www.facebook.com/ws.jung.798)
 
 ### 알파오목이랑 게임하기 - 강화학습 (세미나)
 ---
@@ -227,7 +228,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/kekmodel
+* 페이스북 : [https://www.facebook.com/kekmodel](https://www.facebook.com/kekmodel)
 
 ### 안.전.제.일. 강화학습! - 강화학습 (세미나)
 ---
@@ -254,12 +255,12 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 슬라이드쉐어 : [Multi-armed Bandits](https://www.slideshare.net/DongMinLee32/multiarmed-bandits)
 
 #### 블로그 및 깃헙
-* 블로그 : https://dongminlee.tistory.com
-* 깃헙 : https://github.com/dongminleeai
+* 블로그 : [https://dongminlee.tistory.com](https://dongminlee.tistory.com)
+* 깃헙 : [https://github.com/dongminleeai](https://github.com/dongminleeai)
 
 #### 연락처
 * 이메일 : kid33629@gmail.com
-* 페이스북 : https://www.facebook.com/dongminleeai
+* 페이스북 : [https://www.facebook.com/dongminleeai](https://www.facebook.com/dongminleeai)
 
 ### GTA로 자율주행 - 강화학습 (세미나)
 ---
@@ -279,7 +280,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/kjt7889
+* 페이스북 : [https://www.facebook.com/kjt7889](https://www.facebook.com/kjt7889)
 
 ### Introduction to GAN - 의료 (세미나)
 ---
@@ -296,7 +297,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 
 #### 연락처
 * 이메일 : ljm861@gmail.com
-* 페이스북 : https://www.facebook.com/jimin.lee.5623
+* 페이스북 : [https://www.facebook.com/jimin.lee.5623](https://www.facebook.com/jimin.lee.5623)
 
 ### MRI 를 이용한 치매 질환 예측 - 의료 (세미나)
 ---
@@ -316,7 +317,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 페이스북 : [https://www.facebook.com/profile.php?id=100002023963861](https://www.facebook.com/profile.php?id=100002023963861)
 
 ### 나의 감성을 알아주는 너 - 감성 (세미나)
 ---
@@ -340,11 +341,11 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* 깃헙 : https://github.com/Kyuye
+* 깃헙 : [https://github.com/Kyuye](https://github.com/Kyuye)
 
 #### 연락처
 * 이메일 : ivyheart2@gmail.com
-* 페이스북 : https://facebook.com/ivyheart2
+* 페이스북 : [https://facebook.com/ivyheart2](https://facebook.com/ivyheart2)
 
 ### 근전도 생체신호 데이터로 손 모양 생성하기 - 임베디드 (세미나)
 ---
@@ -364,7 +365,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/jigeria114
+* 페이스북 : [https://www.facebook.com/jigeria114](https://www.facebook.com/jigeria114)
 
 ### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례 - 공학 (세미나)
 ---
@@ -388,7 +389,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 
 #### 연락처
 * 이메일 : yoyogo@gmail.com, ygyu@kaeri.re.kr
-* 페이스북 : https://www.facebook.com/yoyogo96
+* 페이스북 : [https://www.facebook.com/yoyogo96](https://www.facebook.com/yoyogo96)
 
 ### 항공우주분야에서의 머신러닝기술 - 공학 (라이트닝톡)
 ---
@@ -412,7 +413,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/profile.php?id=100001173798815
+* 페이스북 : [https://www.facebook.com/profile.php?id=100001173798815](https://www.facebook.com/profile.php?id=100001173798815)
 
 ### 딥러닝을 활용한 테스트 자동화 연구 - 품질 (라이트닝톡)
 ---
@@ -436,7 +437,7 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : https://www.facebook.com/byeongkwon.kwak
+* 페이스북 : [https://www.facebook.com/byeongkwon.kwak](https://www.facebook.com/byeongkwon.kwak)
 
 ### 연관된 이미지 변환하기 - 태양 분야 적용 사례
 ---
@@ -470,7 +471,7 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 
 #### 연락처
 * 이메일 : phoenixlee1@gmail.com
-* 페이스북 : https://www.facebook.com/phoenixlee.sh
+* 페이스북 : [https://www.facebook.com/phoenixlee.sh](https://www.facebook.com/phoenixlee.sh)
 
 ---
 ### 상세 프로그램
