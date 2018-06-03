@@ -5,11 +5,11 @@ author: 김태영
 date:   2018-06-28 10:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_title1.png
+image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_DLCAT_title1.png
 ---
 이제 딥러닝 기술은 무서운 속도로 각 분야에 퍼져가고 있습니다. 그에 따라 활용 사례도 늘어나고 있고, 실전 적용에 막히는 여러가지 문제도 해결하고자 많은 연구가 활발히 이루어지고 있습니다. 딥러닝을 공부하시는 분이라면 딥러닝 코어 및 알고리즘은 물론 타 분야의 활용사례, 최근에 유행하고 있는 GAN과 강화학습까지 관심을 가지고 계실겁니다. 다양한 주제로 즐겁게 소통하고자 첫번째 '함께하는 딥러닝 컨퍼런스'를 대전에서 개최합니다. 대전은 정부출연연구원 및 정부청사, 우수한 대학교, 최첨단 기술 중심의 벤처회사들이 밀집된 지역인 만큼 다른 지역과는 또 다른 느낌의 소통이 이뤄질 것 같아 기대되네요~
 
-![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_title1.png)
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_DLCAT_title1.png)
 
 1. 일시 : 2018년 6월 28일 (10시~18시)
 2. 장소 : (우)34113 대전광역시 유성구 가정로 217 과학기술연합대학원대학교
@@ -40,10 +40,13 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kty_slide.png)
 
-    딥러닝 모델은 네트워크, 목표함수(objective function), 최적화기(optimizer)으로 구성되고, 레고 사람으로 비유하면 머리, 상반신, 하반신으로 나눌 수 있습니다. [참고](https://tykimos.github.io/2018/05/04/Making_Keras_Model_using_Lego_Minifigures/) GAN에 관심을 가지신 분들은 Generator (생성자)와 Discriminator(판별자)가 있다는 것을 아실겁니다. 그럼 GAN에서는 두 개의 모델이 있는 데, 이걸 어떻게 조립해야할까요? 그림에 있는 화살표처럼 조립하면 될까요? 그렇지 않습니다. 조금은 잔인한 방법으로 조립됩니다. 좀 더 확장된 GAN들은 좀 더 잔인합니다. 노약자나 심신이 약하신 분들은 주의하시길 바랍니다.
+    딥러닝 모델은 네트워크, 목표함수(objective function), 최적화기(optimizer)으로 구성되고, 레고 사람으로 비유하면 머리, 상반신, 하반신으로 나눌 수 있습니다. GAN에 관심을 가지신 분들은 Generator (생성자)와 Discriminator(판별자)가 있다는 것을 아실겁니다. 그럼 GAN에서는 두 개의 모델이 있는 데, 이걸 어떻게 조립해야할까요? 그림에 있는 화살표처럼 조립하면 될까요? 그렇지 않습니다. 조금은 잔인한 방법으로 조립됩니다. 좀 더 확장된 GAN들은 좀 더 잔인합니다. 노약자나 심신이 약하신 분들은 주의하시길 바랍니다.
+
+#### 참고자료
+* 블로그 : [안녕? 레고사람, 안녕? 딥러닝 모델](https://tykimos.github.io/2018/05/04/Making_Keras_Model_using_Lego_Minifigures/)
 
 #### 발표자료
-구글 프리젠테이션 : [모두의 손에 딥러닝 툴을...](https://docs.google.com/presentation/d/1dCyZmxGQgICmUp4t_ora4K3q2J52oxPw5CWFIrC0J-k/edit)
+* 구글 프리젠테이션 : [모두의 손에 딥러닝 툴을...](https://docs.google.com/presentation/d/1dCyZmxGQgICmUp4t_ora4K3q2J52oxPw5CWFIrC0J-k/edit)
 
 #### 블로그 및 깃헙
 
@@ -93,10 +96,10 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 (추후 업데이트)
 
 #### 참고자료
-* [Deeply learning molecular structure-property relationships using graph attention neural network](https://arxiv.org/abs/1805.10988)
+* 논문 : [Deeply learning molecular structure-property relationships using graph attention neural network](https://arxiv.org/abs/1805.10988)
 
 #### 블로그 및 깃헙
-* 블로그 : suma_maple.blog.me
+* 블로그 : http://suma_maple.blog.me
 
 #### 연락처
 * 이메일 : sower2002@kaist.ac.kr
@@ -113,7 +116,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Togeth
 Super-resolution, image denoising, reconstruction, segmentation 등의 다양한 inverse problem에서 deep learning이 매우 좋은 결과를 보여주고 있습니다. 이미 기존 방식들이 어느 정도 잘 하고 있던 분야에서 성능을 더 잘 내고 있는 것은 분명한데, 그렇다면 더 복잡한 물리적 현상도 deep learning을 이용하여 학습하는 것이 가능할까요? 이번 발표에서는 Inverse scattering problem이라는 좀 더 어려운 문제를 deep learning으로 풀어보고자 노력한 제 박사학위 연구(밑바닥부터 졸업까지 삽질기)를 소개하고자 합니다. 덧붙여서 시간이 허락한다면, deep learning에서 특정 구조가 잘 동작하는 이유를 분석하고, 어떤 식으로 구조를 디자인해야 할 지에 대해 신호처리 관점에서 풀어낸 deep convolutional framelets 이론을 같이 소개하겠습니다.
 
 #### 발표자료
-[다운로드](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj_file.pdf)
+*  PDF : [Deep convolutional framelets](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj_file.pdf)
 
 #### 참고자료
 * [Deep Learning Can Reverse Photon Migration for Diffuse Optical Tomography](https://arxiv.org/abs/1712.00912)
@@ -167,7 +170,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* https://github.com/chagmgang 
+* 깃헙 : https://github.com/chagmgang 
 
 #### 연락처
 * 이메일 : chagmgang@gmail.com
@@ -175,7 +178,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 
 ### 달려라, 인공지능 - 강화학습 (세미나)
 ---
-![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kws.png)
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jws.png)
 
 #### 연사소개
 프리랜서 연구원으로 스마트팩토리에 딥러닝과 강화학습을 적용하는 프로젝트에 참여하고 있으며, 특히 강화학습 연구에 몰두하고 있습니다. 지식과 경험을 나누는 것이 가장 큰 가치라고 생각하여 발표자로 참여하게 되었습니다. 
@@ -188,7 +191,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 3. To the Rainbow 
 4. 보편적 인공지능의 시작
 
-![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kws_slide.png)
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jws_slide.png)
 
     2013년 인공지능회사 Deepmind가 강화학습에 딥러닝을 적용하여, Atari 게임에서 사람보다 게임을 잘하는 인공지능 에이전트를 만들었습니다. 하지만 화면이 계속 변화며 에이전트가 선택할수 있는 행동의 수가 많아지는 환경에서, 이 학습법의 성능은 매우 좋지 않습니다. 우리가 살고 있는 실제 환경은, 선택할수 있는 행동의 조합이 Atari 게임과 비교할수 없을정도로 많으며, 화면 또한 끊임없이 변하고 있습니다. 또한, 인류는 사물, 사람, 동물 들과 커뮤니케이션하며 공유하며 살기에 서로 밀접한 관계를 맺고 있습니다. 강화학습을 실제 환경에 적용하기 위해 Atari, Super mario, Sonic, Unity ml agent 환경으로 연구한 The Rise of Reinforcement Learning by Wonseok Jung에 대해 공유하고자 합니다.
 
@@ -198,8 +201,8 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* github : https://github.com/wonseokjung
-* blog : https://wonseokjung.github.io
+* 블로그 : https://wonseokjung.github.io
+* 깃헙 : https://github.com/wonseokjung
 
 #### 연락처
 * 이메일 : (추후 업데이트)
@@ -243,6 +246,12 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 발표자료
 * (추후 업데이트)
 
+#### 참고자료
+* 슬라이드쉐어 : [강화학습의 개요](https://www.slideshare.net/DongMinLee32/ss-91521646)
+* 슬라이드쉐어 : [강화학습 알고리즘의 흐름도 Part 1](https://www.slideshare.net/DongMinLee32/part-1-91522059)
+* 슬라이드쉐어 : [강화학습 알고리즘의 흐름도 Part 2](https://www.slideshare.net/DongMinLee32/part-2-91522217)
+* 슬라이드쉐어 : [Multi-armed Bandits](https://www.slideshare.net/DongMinLee32/multiarmed-bandits)
+
 #### 블로그 및 깃헙
 * 블로그 : https://dongminlee.tistory.com
 * 깃헙 : https://github.com/dongminleeai
@@ -251,7 +260,27 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : kid33629@gmail.com
 * 페이스북 : https://www.facebook.com/dongminleeai
 
-### Introduction to GAN - 의료 (전자세션)
+### GTA로 자율주행 - 강화학습 (세미나)
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjt.png)
+
+#### 연사소개
+대전대학교 전자정보통신공학과 학부생이고 대학원 진학 예정입니다. 
+
+#### 발표소개
+GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 한 후 자율주행을 하는지 알아보고, GTA를 강화학습을 하기 위해 밑바닥부터 환경 구축을 하고 있는 제 이야기를 듣고 같이 이야기 해봐요!!
+    
+#### 발표자료
+(추후 업데이트)
+
+#### 블로그 및 깃헙
+(추후 업데이트)
+
+#### 연락처
+* 이메일 : (추후 업데이트)
+* 페이스북 : https://www.facebook.com/kjt7889
+
+### Introduction to GAN - 의료 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ljm.png)
 
@@ -262,14 +291,11 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 생성 모델(Generative Model) 인 Auto-Regressive model, Variational Auto-Encoder, GAN (Generative Adversarial Networks)에 대해 간단히 소개하고, 그 중 가장 주목받고 있는 GAN 의 심화 개념과 응용 사례도 함께 다루어보고자 합니다.
 
 #### 발표자료
-(추후 업데이트)
-
-#### 블로그 및 깃헙
-(추후 업데이트)
+* 슬라이드 쉐어 : [Introduction to GAN](https://www.slideshare.net/JiminLee36/introduction-to-gan)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 이메일 : ljm861@gmail.com
+* 페이스북 : https://www.facebook.com/jimin.lee.5623
 
 ### MRI 를 이용한 치매 질환 예측 - 의료 (세미나)
 ---
@@ -296,16 +322,28 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_sky.png)
 
 #### 연사소개
-(추후 업데이트)
+감성기술로 행복한 세상을 만들어가고 있는 orbis.ai(오르비스에이아이) 기업의 공동창업자이자, 데이터과학자인 송규예 입니다. 감성인식과 감성표현을 위한 딥러닝 모델개발을 하고 있습니다. 개인적으로는 사람의 세포부터 무의식까지, 사람에 대한 모든 것을 파헤치고 있으며 사람, 자연 구조와 닮은 기술구현에 관심이 많습니다. 
 
 #### 발표소개
-(추후 업데이트)
+"딥러닝 X 심리상담기법" . 어울릴 듯, 어울리지않는 두 분야의 콜라보레이션 ☆사람의 감성상태 진단을 위한 감성인식 딥러닝 기술과 심리상담기법 측면에서 활용할 수 있는 딥러닝 기술에는 무엇이 있을지 다뤄볼 예정입니다. 
+
+    1. intro : 딥러닝과 심리상담기법의 운명적 만남 (부제 : 나는 네가 필요해)
+    2. 감성인식 딥러닝 기술 소개
+    3. 심리상담기법과 접목가능한 딥러닝 기술 소개 (예 : Neural style를 이용한 만다라 미술치료 그림생성)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_sky_slide.png)
+
+    따뜻한 "공감"과  행동유도의 핵심 "동기부여"를 통해 잠재되어 있던 무의식을 의식상태로 끌어올려 행복을 도모합니다. 이 과정에서 딥러닝 기술이 어떻게 적용되는지 집중탐구합니다.
 
 #### 발표자료
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-(추후 업데이트)
+* 깃헙 : https://github.com/Kyuye
+
+#### 연락처
+* 이메일 : ivyheart2@gmail.com
+* 페이스북 : https://facebook.com/ivyheart2
 
 ### 근전도 생체신호 데이터로 손 모양 생성하기 - 임베디드 (세미나)
 ---
@@ -325,17 +363,21 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 페이스북 : https://www.facebook.com/jigeria114
 
 ### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례 - 공학 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk.png)
 
 #### 연사소개
-(추후 업데이트)
+원자력연구원 선임연구원. 딥러닝 덕질하다가 재미있어서 원장님한테 인공지능연구 시켜달라고 조르는 중.
 
 #### 발표소개
-딥러닝 기술은 물리 화학 기계 등 광범위한 과학 분야에 적용되고 있습니다. 전산 시뮬레이션 및 최적설계 분야에 대한 적용 사례와 진행 중인 연구를 간단하게 소개드리겠습니다.
+딥러닝 기술은 물리 화학 기계 등 광범위한 과학/공학 분야에 적용되고 있습니다. 전산 시뮬레이션 및 최적설계 분야에 대한 적용 사례와 진행 중인 연구(위상최적설계와 딥러닝 융합, 골재형성 과정을 고려한 딥러닝 기반 뼈 CT 사진 고해상화)를 간단하게 소개를 하겠습니다. 
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk_slide.png)
+
+    기존 최적설계방법론은 반복적인 해석이 필요하기 때문에 결과를 얻기위하여 많은 시간이 요구됩니다. 합니다. 고전적인 최적설계 방법론 대신 인공신경망을 이용하면 최적의 구조를 빠르게 찾을 수 있지 않을까요?
 
 #### 발표자료
 (추후 업데이트)
@@ -344,8 +386,8 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 이메일 : yoyogo@gmail.com, ygyu@kaeri.re.kr
+* 페이스북 : https://www.facebook.com/yoyogo96
 
 ### 항공우주분야에서의 머신러닝기술 - 공학 (라이트닝톡)
 ---
@@ -357,6 +399,10 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 발표소개
 머신러닝기술이 항공우주분야에 어떻게 적용되고 있는지 간단하게 소개하고 참가자들과 토론하고자 합니다.
 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_khb_slide.jpg)
+
+    Autonomous Exploration for Gathering Increased Science(AEGIS) 화성이나 달 탐사용 Rover의 자율탐사시스템으로 데이터의 전송 지연등에 의한 탐사지연을 최소화 하기 위하여 NASA에서 개발 중인 인공지능 기술. 미리 지정된 목표인지, 처음 탐지된 대상인지 등을 인공지능 기술을 이용하여 결정하고 추가적인 탐사 여부와 지구로의 데이터 전송등을 효율적으로 관리합니다.
+
 #### 발표자료
 (추후 업데이트)
 
@@ -365,7 +411,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 페이스북 : https://www.facebook.com/profile.php?id=100001173798815
 
 ### 딥러닝을 활용한 테스트 자동화 연구 - 품질 (라이트닝톡)
 ---
@@ -377,6 +423,10 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 #### 발표소개
 모바일 게임 환경에서의 블랙박스 테스트 상황에서의 딥러닝 적용 방안 연구, Imitation Learning, Behavioral-Cloning등의 적용등을 소개합니다.
 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kbg_slide.jpg)
+
+    저희 회사에서 주로 하는 게임 품질관리와 테스팅을 설명 한 책입니다. 게임 테스팅이 예상처럼 쉽지 않고 효율적인 테스팅을 위해서는 지치지 않고 누락없는 반복 테스팅이 필요한데, 이를 위해 인공지능을 활용하는 방법을 연구하고 있습니다.
+
 #### 발표자료
 (추후 업데이트)
 
@@ -385,7 +435,7 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 
 #### 연락처
 * 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 페이스북 : https://www.facebook.com/byeongkwon.kwak
 
 ### 연관된 이미지 변환하기 - 태양 분야 적용 사례
 ---
@@ -406,6 +456,20 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 #### 연락처
 * 이메일 : (추후 업데이트)
 * 페이스북 : (추후 업데이트)
+
+### 서포터즈 소개
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lsh.png)
+
+삼성생명 DA Lab 근무중, 케라스 코리아, 스파크 사용자 모임 운영자입니다. 현재 이미지 인식과 텍스트 처리 관련된 업무를 하고 있고 분산환경에서의 hyperparameter 튜닝에 관심이 많습니다.
+
+#### 저서, 역서
+* 빅데이터 실무 기술 가이드 공동 저자
+* 실시간 분석의 모든것 역자
+
+#### 연락처
+* 이메일 : phoenixlee1@gmail.com
+* 페이스북 : https://www.facebook.com/phoenixlee.sh
 
 ---
 ### 상세 프로그램
