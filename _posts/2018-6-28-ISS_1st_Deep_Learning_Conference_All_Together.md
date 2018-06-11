@@ -206,7 +206,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 깃헙 : [https://github.com/wonseokjung](https://github.com/wonseokjung)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : wonseokjung@hotmail.com
 * 페이스북 : [https://www.facebook.com/ws.jung.798](https://www.facebook.com/ws.jung.798)
 
 ### 알파오목이랑 게임하기 - 강화학습 (세미나)
