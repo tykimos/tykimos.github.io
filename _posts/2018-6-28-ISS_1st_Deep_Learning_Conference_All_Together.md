@@ -75,7 +75,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-* 블로그 : [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
+* 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
 
 #### 연락처
 * 이메일 : youhanlee@kaist.ac.kr 또는 bshz15@gmail.com
@@ -170,6 +170,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 블로그 및 깃헙
+* 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
 * 깃헙 : [https://github.com/chagmgang](https://github.com/chagmgang)
 
 #### 연락처
@@ -238,10 +239,12 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 발표소개
 본격적인 내용에 앞서 우리가 왜 강화학습을 공부해야 하는지, 강화학습이란 무엇인지에 대해서 알아보겠습니다. 그리고 ‘어떻게 하면 강화학습을 더 안전하고 빠르게 학습할 수 있을까?’에 대해서 소개하고자 합니다.
 
-1. Artificial General Intelligence
-2. What is Reinforcement Learning?
+1. What is Reinforcement Learning?
+2. Artificial General Intelligence
 3. Planning & Learning
-4. Safe Reinforcement Learning
+4. Safe Reinforcement Learning 
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ldm_slide.png)
 
 #### 발표자료
 * (추후 업데이트)
@@ -274,10 +277,10 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-(추후 업데이트)
+* 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : kjt7889@naver.com
 * 페이스북 : [https://www.facebook.com/kjt7889](https://www.facebook.com/kjt7889)
 
 ### Introduction to GAN - 의료 (세미나)
@@ -350,16 +353,18 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psm.png)
 
 #### 연사소개
-개발자를 꿈꾸는 한국의 어느 평범한(?) 고3 입니다. 임베디드SW와 딥러닝에 관심이 많아  주로 공부하고 있습니다.
+개발자를 꿈꾸는 한국의 어느 평범한(?) 고3 입니다. 대덕SW마이스터고등학교 임베디드과를 재학중이며, 임베디드SW와 딥러닝에 관심이 많아 주로 공부하고 있습니다. 이론적으로, 전문적으로 한 분야를 깊게 알지는 못하지만, 능력있는 개발자가 되기위해 열심히 달려가고 있습니다. 전문가분들의, 개발자분들의 따끔한 충고와 조언은 언제든지 환영입니다~
 
 #### 발표소개
-근전도 생체신호와 딥러닝의 이미지 생성모델(GAN)로 손의 모양을 생성해내는 프로젝트를 소개하고, 지금까지 어떤 문제들이 있었고, 어떻게 해결하려고 했는지, 어떤 삽질을 했는지  소개합니다.
+사람의 팔에는 EMG라는 '근전도 생체 신호'가 나옵니다. 이를 이용하여 손 모양을 생성해 내고자 합니다. 근전도 생체신호와 딥러닝의 이미지 생성모델(GAN)로 손의 모양을 생성해내는 프로젝트를 소개해드리겠습니다. 처음에는 혼자 시작했지만 현재는 능력있고, 멋진 팀원들과 함께 팀을이루어 프로젝트를 진행하고 있습니다. 프로젝트를 진행하면서 어떤 문제들이 있었고, 어떻게 해결하려고 했는지, 또 어떤 삽질들을 했는지 '고등학생의 딥러닝 프로젝트 삽질기'를 소개해 드리고자 합니다.
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psm_slide.png)
 
 #### 발표자료
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-(추후 업데이트)
+* 깃헙 : https://github.com/jigeria
 
 #### 연락처
 * 이메일 : (추후 업데이트)
@@ -373,16 +378,18 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 원자력연구원 선임연구원. 딥러닝 덕질하다가 재미있어서 원장님한테 인공지능연구 시켜달라고 조르는 중.
 
 #### 발표소개
-딥러닝 기술은 물리 화학 기계 등 광범위한 과학/공학 분야에 적용되고 있습니다. 전산 시뮬레이션 및 최적설계 분야에 대한 적용 사례와 진행 중인 연구(위상최적설계와 딥러닝 융합, 골재형성 과정을 고려한 딥러닝 기반 뼈 CT 사진 고해상화)를 간단하게 소개를 하겠습니다. 
+본 세미나에서는 전문적인 딥러닝 지식보다 그 동안 알려지지 않았던 원자력 및 기계공학 분야의 응용사례에 대해서 소개합니다.
+ 
+1. 계산과학 분야의 머신러닝 적용
+2. 최적설계와 딥러닝의 융합
+3. 딥러닝과 최적설계를 융합한 뼈 CT 사진 고해상화
+4. 원자력 분야의 머신러닝 적용 사례
 
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk_slide.png)
 
     기존 최적설계방법론은 반복적인 해석이 필요하기 때문에 결과를 얻기위하여 많은 시간이 요구됩니다. 합니다. 고전적인 최적설계 방법론 대신 인공신경망을 이용하면 최적의 구조를 빠르게 찾을 수 있지 않을까요?
 
 #### 발표자료
-(추후 업데이트)
-
-#### 블로그 및 깃헙
 (추후 업데이트)
 
 #### 연락처
@@ -456,6 +463,32 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 #### 연락처
 * 이메일 : (추후 업데이트)
 * 페이스북 : (추후 업데이트)
+
+### 내 손 위의 딥러닝(모바일에 딥러닝 심기)
+---
+(추후 업데이트)
+
+#### 연사소개
+안녕하세요, iOS 개발자 미정입니다. ☕️를 마시며 하루를 시작하는 걸 좋아합니다. 가끔📱개발을 하며 주로 🐈와 놀거나 잡니다. 최근에는 딥러닝에 관심이 생겨 모바일에 딥러닝을 심기 위한 다양한 방법을 공부하고있습니다 🙂
+
+#### 발표소개
+딥러닝이 컴퓨터를 떠나 모바일에 들어오기 시작했습니다. 서버 통신을 하지 않고 모바일에서 구동되는 딥러닝이 어떤 의미가 있으며, 어떻게 구현할 수 있는지, 어떤 모델들을 심을 수 있는지 개발자 입장에서 정리하고 직접 구현해봤습니다. 실제로 내 손위에서 어떻게 딥러닝이 작동하는지 소개해드리겠습니다.
+
+    외부에서 훈련된 딥러닝 모델을 모바일 기기에 심어 모바일 딥러닝을 구현해보았습니다. (쉿, 이건 비밀인데 모바일 자체에서도 훈련이 되기 시작했습니다.)
+
+#### 발표자료
+(추후 업데이트)
+
+#### 참고자료
+* [https://github.com/MijeongJeon/ShapeDetector_Keras_CoreML](https://github.com/MijeongJeon/ShapeDetector_Keras_CoreML)
+
+#### 블로그 및 깃헙
+* 블로그 : https://mijeongjeon.github.io
+* 깃헙 : https://github.com/mijeongjeon
+
+#### 연락처
+* 이메일 : ninevincentg@gmail.com
+* 페이스북 : [https://www.facebook.com/Ninevincent](https://www.facebook.com/Ninevincent)
 
 ### 서포터즈 소개
 ---
