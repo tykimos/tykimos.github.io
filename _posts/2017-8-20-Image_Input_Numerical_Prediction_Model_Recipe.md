@@ -182,10 +182,10 @@ model.add(Dense(1))
 # 3. 모델 학습과정 설정하기
 model.compile(loss='mse', optimizer='adam')
 
-# 5. 모델 학습시키기
+# 4. 모델 학습시키기
 hist = model.fit(x_train_1d, y_train, batch_size=32, epochs=1000, validation_data=(x_val_1d, y_val))
 
-# 6. 학습과정 살펴보기
+# 5. 학습과정 살펴보기
 %matplotlib inline
 import matplotlib.pyplot as plt
 
@@ -197,12 +197,12 @@ plt.xlabel('epoch')
 plt.legend(['train', 'val'], loc='upper left')
 plt.show()
 
-# 7. 모델 평가하기
+# 6. 모델 평가하기
 score = model.evaluate(x_test_1d, y_test, batch_size=32)
 
 print(score)
 
-# 8. 모델 사용하기
+# 7. 모델 사용하기
 yhat_test = model.predict(x_test_1d, batch_size=32)
 
 %matplotlib inline
@@ -216,7 +216,7 @@ plt.rcParams["figure.figsize"] = (10,10)
 f, axarr = plt.subplots(plt_row, plt_col)
 
 for i in range(plt_row*plt_col):
-    sub_plt = axarr[i/plt_row, i%plt_col]
+    sub_plt = axarr[i//plt_row, i%plt_col]
     sub_plt.axis('off')
     sub_plt.imshow(x_test[i].reshape(width, height))
     sub_plt.set_title('R %d P %.1f' % (y_test[i][0], yhat_test[i][0]))
@@ -226,20 +226,21 @@ plt.show()
 
     Train on 1500 samples, validate on 300 samples
     Epoch 1/1000
-    1500/1500 [==============================] - 1s - loss: 4547.2297 - val_loss: 489.0028
+    1500/1500 [==============================] - 0s 319us/step - loss: 4512.4429 - val_loss: 277.1421
     Epoch 2/1000
-    1500/1500 [==============================] - 0s - loss: 270.5862 - val_loss: 250.0564
+    1500/1500 [==============================] - 0s 74us/step - loss: 251.0093 - val_loss: 205.3613
     Epoch 3/1000
-    1500/1500 [==============================] - 0s - loss: 184.1776 - val_loss: 200.3438
+    1500/1500 [==============================] - 0s 74us/step - loss: 199.9910 - val_loss: 158.1126
     ...
     Epoch 998/1000
-    1500/1500 [==============================] - 0s - loss: 0.2356 - val_loss: 107.4000
+    1500/1500 [==============================] - 0s 92us/step - loss: 0.0384 - val_loss: 72.1721
     Epoch 999/1000
-    1500/1500 [==============================] - 0s - loss: 0.3426 - val_loss: 107.5543
+    1500/1500 [==============================] - 0s 89us/step - loss: 0.0298 - val_loss: 71.9559
     Epoch 1000/1000
-    1500/1500 [==============================] - 0s - loss: 0.5059 - val_loss: 110.1831
+    1500/1500 [==============================] - 0s 69us/step - loss: 0.0534 - val_loss: 71.9296
 
-     32/100 [========>.....................] - ETA: 0s110.12584671
+    100/100 [==============================] - 0s 46us/step
+    61.79263580322266
 
 다층퍼셉트론 모델의 입력층인 Dense 레이어는 일차원 벡터로 데이터를 입력 받기 때문에, 이차원인 영상을 일차원 벡터로 변환하는 과정이 필요합니다.
 
@@ -308,10 +309,10 @@ model.add(Dense(1))
 # 3. 모델 학습과정 설정하기
 model.compile(loss='mse', optimizer='adam')
 
-# 5. 모델 학습시키기
+# 4. 모델 학습시키기
 hist = model.fit(x_train, y_train, batch_size=32, epochs=1000, validation_data=(x_val, y_val))
 
-# 6. 학습과정 살펴보기
+# 5. 학습과정 살펴보기
 %matplotlib inline
 import matplotlib.pyplot as plt
 
@@ -323,12 +324,12 @@ plt.xlabel('epoch')
 plt.legend(['train', 'val'], loc='upper left')
 plt.show()
 
-# 7. 모델 평가하기
+# 6. 모델 평가하기
 score = model.evaluate(x_test, y_test, batch_size=32)
 
 print(score)
 
-# 8. 모델 사용하기
+# 7. 모델 사용하기
 yhat_test = model.predict(x_test, batch_size=32)
 
 %matplotlib inline
@@ -342,7 +343,7 @@ plt.rcParams["figure.figsize"] = (10,10)
 f, axarr = plt.subplots(plt_row, plt_col)
 
 for i in range(plt_row*plt_col):
-    sub_plt = axarr[i/plt_row, i%plt_col]
+    sub_plt = axarr[i//plt_row, i%plt_col]
     sub_plt.axis('off')
     sub_plt.imshow(x_test[i].reshape(width, height))
     sub_plt.set_title('R %d P %.1f' % (y_test[i][0], yhat_test[i][0]))
@@ -352,11 +353,11 @@ plt.show()
 
     Train on 1500 samples, validate on 300 samples
     Epoch 1/1000
-    1500/1500 [==============================] - 1s - loss: 4547.2297 - val_loss: 489.0028
+    1500/1500 [==============================] - 0s - loss: 12420.6872 - val_loss: 1761.2949
     Epoch 2/1000
-    1500/1500 [==============================] - 0s - loss: 270.5862 - val_loss: 250.0564
+    1500/1500 [==============================] - 0s - loss: 1472.7157 - val_loss: 1186.2057
     Epoch 3/1000
-    1500/1500 [==============================] - 0s - loss: 184.1776 - val_loss: 200.3438
+    1500/1500 [==============================] - 0s - loss: 1060.2265 - val_loss: 901.6347
     ...
     Epoch 998/1000
     1500/1500 [==============================] - 0s - loss: 0.0858 - val_loss: 173.7133

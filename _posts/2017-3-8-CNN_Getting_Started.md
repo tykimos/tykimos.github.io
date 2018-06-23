@@ -302,12 +302,12 @@ model.fit_generator(
         validation_data=test_generator,
         validation_steps=5)
 
-# 6. 모델 평가하기
+# 5. 모델 평가하기
 print("-- Evaluate --")
 scores = model.evaluate_generator(test_generator, steps=5)
 print("%s: %.2f%%" %(model.metrics_names[1], scores[1]*100))
 
-# 7. 모델 사용하기
+# 6. 모델 사용하기
 print("-- Predict --")
 output = model.predict_generator(test_generator, steps=5)
 np.set_printoptions(formatter={'float': lambda x: "{0:0.3f}".format(x)})
