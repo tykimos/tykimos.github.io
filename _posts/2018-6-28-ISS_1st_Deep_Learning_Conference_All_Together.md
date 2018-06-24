@@ -17,7 +17,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
     * 세션 B: 사이언스홀 60명
     * 세션 C: 대회의실 30명
 
-3. 주최 : (주)인스페이스, 케라스 코리아, 대딥사
+3. 주최 : (주)인스페이스, 케라스 코리아, 대딥사, 한국원자력연구원
 4. 후원 : UST 과학기술연합대학원대학교, NIPA 정보통신산업진흥원
 5. 대상 : 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 500명)
 
@@ -362,11 +362,11 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 감성기술로 행복한 세상을 만들어가고 있는 orbis.ai(오르비스에이아이) 기업의 공동창업자이자, 데이터과학자인 송규예 입니다. 감성인식과 감성표현을 위한 딥러닝 모델개발을 하고 있습니다. 개인적으로는 사람의 세포부터 무의식까지, 사람에 대한 모든 것을 파헤치고 있으며 사람, 자연 구조와 닮은 기술구현에 관심이 많습니다. 
 
 #### 발표소개
-"딥러닝 X 심리상담기법" . 어울릴 듯, 어울리지않는 두 분야의 콜라보레이션 ☆사람의 감성상태 진단을 위한 감성인식 딥러닝 기술과 심리상담기법 측면에서 활용할 수 있는 딥러닝 기술에는 무엇이 있을지 다뤄볼 예정입니다. 
+"딥러닝 X 심리" . 어울릴 듯, 어울리지않는 두 분야의 콜라보레이션 ☆사람의 감정인식을 위한 딥러닝 기술과 감정표현 측면에서 활용할 수 있는 딥러닝 기술에는 무엇이 있을지 다뤄보며, 저희 회사, 오르비스에이아이에서 진행하고 있는 감정인식 기술에 대해서 설명합니다. 
 
-1. intro : 딥러닝과 심리상담기법의 운명적 만남 (부제 : 나는 네가 필요해)
-2. 감성인식 딥러닝 기술 소개
-3. 심리상담기법과 접목가능한 딥러닝 기술 소개 (예 : Neural style를 이용한 만다라 미술치료 그림생성)
+1. intro : 딥러닝과 심리의 운명적 만남 (부제 : 나는 네가 필요해)
+2. 감정인식 및 감정표현 딥러닝 기술 소개
+3. 오르비스에이아이에서 진행하는 감정인식 기술 소개
 
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_sky_slide.png)
 
@@ -568,6 +568,13 @@ Tensorflow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 
 #### 블로그 및 깃헙
 * 블로그 : [https://brunch.co.kr/@fermat39](https://brunch.co.kr/@fermat39)
+
+#### 번역서 및 저서
+* Splunk 앱 제작과 대시보드 개발(에이콘출판사) : 빅데이터 플랫폼 Splunk 플랫폼의 앱 개발 설명 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960778207&orderClick=LAG&Kc=)
+* 파이썬 웹 스크래핑(에이콘출판사) : scrapy, beautifulsoup를 활용한 웹 스크래핑 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960779594&orderClick=LAH&Kc=)
+* 뷰티플 자바스크립트(비제이퍼블릭) : 자바스크립트 중급서 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&orderClick=LEB&barcode=9791186697184)
+* 누구나 쉽게 배우는 스몰베이직(비제이퍼블릭) : 스몰베이직 초급서 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186697375&orderClick=LAH&Kc=)
+* 머신러닝을 이용한 이미지 분석(비제이퍼블릭) : 텐서플로를 이용해서 자신만의 데이터셋 제작 및 이미지 학습 및 분석 (집필중)
 
 #### 연락처
 * 이메일 : youngha@dplus.company
