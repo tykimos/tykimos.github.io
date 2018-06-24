@@ -9,7 +9,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 ---
 이제 딥러닝 기술은 무서운 속도로 각 분야에 퍼져가고 있습니다. 그에 따라 활용 사례도 늘어나고 있고, 실전 적용에 막히는 여러가지 문제도 해결하고자 많은 연구가 활발히 이루어지고 있습니다. 딥러닝을 공부하시는 분이라면 딥러닝 코어 및 알고리즘은 물론 타 분야의 활용사례, 최근에 유행하고 있는 GAN과 강화학습까지 관심을 가지고 계실겁니다. 다양한 주제로 즐겁게 소통하고자 첫번째 '함께하는 딥러닝 컨퍼런스'를 대전에서 개최합니다. 대전은 정부출연연구원 및 정부청사, 우수한 대학교, 최첨단 기술 중심의 벤처회사들이 밀집된 지역인 만큼 다른 지역과는 또 다른 느낌의 소통이 이뤄질 것 같아 기대되네요~
 
-![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_title.png)
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_DLCAT_title1.png)
 
 1. 일시 : 2018년 6월 28일 (10시~18시)
 2. 장소 : (우)34113 대전광역시 유성구 가정로 217 과학기술연합대학원대학교
