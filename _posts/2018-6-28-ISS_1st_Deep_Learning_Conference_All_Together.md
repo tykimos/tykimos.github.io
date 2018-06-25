@@ -61,7 +61,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 이메일 : tykim@inspace.re.kr
 * 페이스북 : [https://www.facebook.com/tykimo](https://www.facebook.com/tykimo)
 
-### 딥러닝 보물상자 '캐글' 알아보기 , 이유한 - 입문 (세미나, 핸즈온랩)
+### 딥러닝 보물상자 '캐글' 알아보기 , 이유한 - 입문 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh.png)
 
@@ -74,9 +74,6 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 #### 발표자료
 (추후 업데이트)
 
-#### 핸즈온랩소개
-핸즈온랩에서는 타이타닉 생존자 예측하는 문제를 머신러닝으로 풀어보는 시간을 가질 예정입니다. 실무에 인공지능을 접목하실려는 분들께서는 생생한 꿀팁들을 가지고 가질 수가 있습니다. 실제 가입 및 실습을 진행하려고 하니 노트북을 꼭 지참해주세요^^ 
-
 #### 블로그 및 깃헙
 * 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
 * 유투브 : [https://www.youtube.com/channel/UC--LgKcZVgffjsxudoXg5pQ/?reload=9](https://www.youtube.com/channel/UC--LgKcZVgffjsxudoXg5pQ/?reload=9)
@@ -84,6 +81,15 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 #### 연락처
 * 이메일 : youhanlee@kaist.ac.kr 또는 bshz15@gmail.com
 * 페이스북 : [https://www.facebook.com/youhan.lee.33](https://www.facebook.com/youhan.lee.33)
+
+### 타이타닉 생존자 예측을 해보자, 이유한 - 입문 (핸즈온랩)
+---
+
+#### 핸즈온랩소개
+핸즈온랩에서는 타이타닉 생존자 예측하는 문제를 머신러닝으로 풀어보는 시간을 가질 예정입니다. 실무에 인공지능을 접목하실려는 분들께서는 생생한 꿀팁들을 가지고 가질 수가 있습니다. 실제 가입 및 실습을 진행합니다.
+
+#### 준비물
+1. 노트북
 
 ### Graph Neural Network, 류성옥 - 알고리즘 (세미나)
 ---
@@ -205,9 +211,6 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 발표자료
 (추후 업데이트)
 
-#### 핸즈온랩소개
-(추후 업데이트)
-
 #### 블로그 및 깃헙
 * 블로그 : [https://wonseokjung.github.io](https://wonseokjung.github.io)
 * 깃헙 : [https://github.com/wonseokjung](https://github.com/wonseokjung)
@@ -215,6 +218,21 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 #### 연락처
 * 이메일 : wonseokjung@hotmail.com
 * 페이스북 : [https://www.facebook.com/ws.jung.798](https://www.facebook.com/ws.jung.798)
+
+### 밑바닥부터 만들어보는 핸드메이드 인공지능, 정원석 - 강화학습 (핸즈온랩)
+---
+
+#### 핸드온랩소개
+강화학습이 처음이신분들을 위한 시간입니다. Atari 환경에서 DQN 알고리즘을 적용하여 똑똑한 강화학습 에이전트를 만듭니다. 
+
+#### 준비물
+1. 노트북
+2. Python 3.5 : [https://www.python.org/downloads/](https://www.python.org/downloads/)
+3. Pytorch : [https://pytorch.org/](https://pytorch.org/)
+4. OpenAI gym : [https://github.com/openai/gym](https://github.com/openai/gym)
+5. Jupyter notebook : [http://jupyter.org/](http://jupyter.org/)
+6. Numpy
+7. Matplotlib : [https://matplotlib.org/](https://matplotlib.org/)
 
 ### 알파오목이랑 게임하기, 김정대 - 강화학습 (세미나)
 ---
@@ -403,7 +421,7 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 * 깃헙 : https://github.com/jigeria
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : jigeria@naver.com
 * 페이스북 : [https://www.facebook.com/jigeria114](https://www.facebook.com/jigeria114)
 
 ### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례, 유용균 - 공학 (세미나)
@@ -580,7 +598,7 @@ Tensorflow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 * 이메일 : youngha@dplus.company
 * 페이스북 : [https://www.facebook.com/profile.php?id=100001647473870](https://www.facebook.com/profile.php?id=100001647473870)
 
-### 서포터즈 소개
+### 서포터즈 - 이상훈
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lsh.png)
 
@@ -593,6 +611,60 @@ Tensorflow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 #### 연락처
 * 이메일 : phoenixlee1@gmail.com
 * 페이스북 : [https://www.facebook.com/phoenixlee.sh](https://www.facebook.com/phoenixlee.sh)
+
+### 서포터즈 - 황준오 
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_hjh.png)
+
+부경대학교 컴퓨터공학과에 재학중인 4학년 학생입니다. 원활한 컨퍼런스 진행을 위해 열심히 서포트 하겠습니다!
+
+#### 프로필
+* 이메일 : bactoria@gmail.com
+* 깃헙 : [https://github.com/bactoria](https://github.com/bactoria)
+
+### 서포터즈 - 홍정훈
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_hojh.png)
+
+미시간 대학교에서 데이터사이언스를 공부하고 있습니다.
+
+#### 프로필
+* 이메일 : datahong@umich.edu
+
+### 서포터즈 - 조수현 
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jsh.png)
+
+#### 프로필
+* 이메일 : seanbrowncho@gmail.com
+
+### 서포터즈 - 신채원
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_scw.png)
+
+한밭대학교 산업경영공학과 4학년입니다.
+
+#### 프로필
+* 이메일 : scw1544@naver.com
+
+### 서포터즈 - 이병호
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lbh.png)
+
+카이스트와 퍼듀에서 기하학을 전공하였습니다. 주로 자연어처리와 음악 생성, 그리고 딥러닝의 수학적 측면에 관심을 갖고 있습니다.
+
+#### 프로필
+* 이메일 : byeongholee@kaist.ac.kr
+* 페이스북: [https://www.facebook.com/arthematist](https://www.facebook.com/arthematist)
+
+### 서포터즈 - 강천성
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kcs.png)
+
+충남대학교 컴퓨터공학과 4학년 재학중, 캐글을 시작으로 데이터 사이언스 분야에 발을 들여놓았습니다. 현재 음성 변조 관련 졸업 프로젝트를 진행중이며, 머신러닝 및 딥러닝 관련 기술에 관심이 많습니다.
+
+#### 프로필
+* 이메일 : kcs93023@gmail.com
 
 ---
 ### 상세 프로그램
