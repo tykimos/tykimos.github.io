@@ -665,6 +665,7 @@ Tensorflow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 
 #### 프로필
 * 이메일 : kcs93023@gmail.com
+* 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/) 
 
 ---
 ### 상세 프로그램
