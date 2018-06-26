@@ -17,7 +17,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
     * 세션 B: 사이언스홀 60명
     * 세션 C: 대회의실 30명
 
-3. 주최 : (주)인스페이스, 케라스 코리아, 대딥사
+3. 주최 : (주)인스페이스, 케라스 코리아, 대딥사, 한국원자력연구원
 4. 후원 : UST 과학기술연합대학원대학교, NIPA 정보통신산업진흥원
 5. 대상 : 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 500명)
 
@@ -29,7 +29,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 세미나(50분) : 어떤 주제에 대해 깊이 있는 지식이나 전반적인 내용을 다룹니다.
 * 라이트닝톡(20분) : 자신의 연구 및 기관에 대한 소개, 자유로운 토론 위주로 합니다.
 
-### 딥러닝 몰라도 간(GAN)부터 보기 - 입문 (세미나)
+### 딥러닝 몰라도 간(GAN)부터 보기, 김태영 - 입문 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kty.png)
 
@@ -61,7 +61,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 이메일 : tykim@inspace.re.kr
 * 페이스북 : [https://www.facebook.com/tykimo](https://www.facebook.com/tykimo)
 
-### 딥러닝 보물상자 '캐글' 알아보기 - 입문 (세미나)
+### 딥러닝 보물상자 '캐글' 알아보기 , 이유한 - 입문 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh.png)
 
@@ -69,7 +69,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 현재 KAIST 생명화학공학과에서 박사과정 재학중이며, 전공은 분자 시뮬레이션입니다. 데이터 사이언스, AI를 어디서 배울지 고민하다가 캐글을 알게 된 후, 캐글에 푹 빠져버린 대학원생입니다. 저에게 큰 도움을 준 캐글을 다른 사람들과 함께 하고 싶어 발표자로 참여하게 되었습니다. 현재 [캐글 코리아](https://www.facebook.com/groups/230717130993727/)을 운영 중에 있습니다.
 
 #### 발표소개
-전세계 데이터를 사랑하는 사람들에게 데이터를 제공하고, 함께 즐길 수 있도록 해주는 캐글을 소개하려고 합니다. 캐글 내 유능한 데이터분석가들의 귀하디 귀한 노하우를 거저!!! 얻을 수 있는 방법을 소개해드릴 겁니다. 또한 자신의 노하우도 거저!!! 나눠주는 방법도 소개해드릴 겁니다. 제 세션에 참석하시는 모든 분들이 캐글러가 되는 게 제 발표 목표입니다! 실제 가입 및 실습을 조금 진행하려고 하니 노트북을 꼭 지참해주세요^^
+전세계 데이터를 사랑하는 사람들에게 데이터를 제공하고, 함께 즐길 수 있도록 해주는 캐글을 소개하려고 합니다. 캐글 내 유능한 데이터분석가들의 귀하디 귀한 노하우를 거저!!! 얻을 수 있는 방법을 소개해드릴 겁니다. 또한 자신의 노하우도 거저!!! 나눠주는 방법도 소개해드릴 겁니다. 제 세션에 참석하시는 모든 분들이 캐글러가 되는 게 제 발표 목표입니다! 
 
 #### 발표자료
 (추후 업데이트)
@@ -82,7 +82,16 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 이메일 : youhanlee@kaist.ac.kr 또는 bshz15@gmail.com
 * 페이스북 : [https://www.facebook.com/youhan.lee.33](https://www.facebook.com/youhan.lee.33)
 
-### Graph Neural Network - 알고리즘 (세미나)
+### 타이타닉 생존자 예측을 해보자, 이유한 - 입문 (핸즈온랩)
+---
+
+#### 핸즈온랩소개
+핸즈온랩에서는 타이타닉 생존자 예측하는 문제를 머신러닝으로 풀어보는 시간을 가질 예정입니다. 실무에 인공지능을 접목하실려는 분들께서는 생생한 꿀팁들을 가지고 가질 수가 있습니다. 실제 가입 및 실습을 진행합니다.
+
+#### 준비물
+1. 노트북
+
+### Graph Neural Network, 류성옥 - 알고리즘 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_rsy.png)
 
@@ -106,7 +115,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 이메일 : sower2002@kaist.ac.kr
 * 페이스북 : [https://www.facebook.com/ryu.seongok.1](https://www.facebook.com/ryu.seongok.1)
 
-### Deep convolutional framelets: application to diffuse optical tomography - 알고리즘 (세미나)
+### Deep convolutional framelets: application to diffuse optical tomography, 유재준 - 알고리즘 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj.png)
 
@@ -132,7 +141,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : (추후 업데이트)
 * 페이스북 : [https://www.facebook.com/thinking.factory](https://www.facebook.com/thinking.factory)
 
-### TensorFlow Eager Execution - 코어 (라이트닝톡)
+### TensorFlow Eager Execution, 전태균 - 코어 (라이트닝톡)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jtg.png)
 
@@ -153,7 +162,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : (추후 업데이트)
 * 페이스북 : [https://www.facebook.com/taegyun.jeon](https://www.facebook.com/taegyun.jeon)
 
-### 우리는 왜 강화학습을 해야하는가 - 강화학습 (세미나)
+### 우리는 왜 강화학습을 해야하는가, 차금강 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_cgg.png)
 
@@ -178,7 +187,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : chagmgang@gmail.com
 * 페이스북 : [https://www.facebook.com/profile.php?id=100002147815509](https://www.facebook.com/profile.php?id=100002147815509)
 
-### 달려라, 인공지능 - 강화학습 (세미나)
+### 달려라! 인공지능, 정원석 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jws.png)
 
@@ -198,7 +207,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
     2013년 인공지능회사 Deepmind가 강화학습에 딥러닝을 적용하여, Atari 게임에서 사람보다 게임을 잘하는 인공지능 에이전트를 만들었습니다. 하지만 화면이 계속 변화며 에이전트가 선택할수 있는 행동의 수가 많아지는 환경에서, 이 학습법의 성능은 매우 좋지 않습니다. 우리가 살고 있는 실제 환경은, 선택할수 있는 행동의 조합이 Atari 게임과 비교할수 없을정도로 많으며, 화면 또한 끊임없이 변하고 있습니다. 또한, 인류는 사물, 사람, 동물 들과 커뮤니케이션하며 공유하며 살기에 서로 밀접한 관계를 맺고 있습니다. 강화학습을 실제 환경에 적용하기 위해 Atari, Super mario, Sonic, Unity ml agent 환경으로 연구한 The Rise of Reinforcement Learning by Wonseok Jung에 대해 공유하고자 합니다.
 
 강화학습으로 슈퍼마리오 에이전트를 만들수 있는 튜토리얼 또한 제공됩니다.
-    
+
 #### 발표자료
 (추후 업데이트)
 
@@ -210,7 +219,22 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : wonseokjung@hotmail.com
 * 페이스북 : [https://www.facebook.com/ws.jung.798](https://www.facebook.com/ws.jung.798)
 
-### 알파오목이랑 게임하기 - 강화학습 (세미나)
+### 밑바닥부터 만들어보는 핸드메이드 인공지능, 정원석 - 강화학습 (핸즈온랩)
+---
+
+#### 핸드온랩소개
+강화학습이 처음이신분들을 위한 시간입니다. Atari 환경에서 DQN 알고리즘을 적용하여 똑똑한 강화학습 에이전트를 만듭니다. 
+
+#### 준비물
+1. 노트북
+2. Python 3.5 : [https://www.python.org/downloads/](https://www.python.org/downloads/)
+3. Pytorch : [https://pytorch.org/](https://pytorch.org/)
+4. OpenAI gym : [https://github.com/openai/gym](https://github.com/openai/gym)
+5. Jupyter notebook : [http://jupyter.org/](http://jupyter.org/)
+6. Numpy
+7. Matplotlib : [https://matplotlib.org/](https://matplotlib.org/)
+
+### 알파오목이랑 게임하기, 김정대 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjd.png)
 
@@ -230,7 +254,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : (추후 업데이트)
 * 페이스북 : [https://www.facebook.com/kekmodel](https://www.facebook.com/kekmodel)
 
-### 안.전.제.일. 강화학습! - 강화학습 (세미나)
+### 안.전.제.일. 강화학습!, 이동민 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ldm.png)
 
@@ -264,7 +288,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : kid33629@gmail.com
 * 페이스북 : [https://www.facebook.com/dongminleeai](https://www.facebook.com/dongminleeai)
 
-### GTA로 자율주행 - 강화학습 (세미나)
+### GTA로 자율주행, 김준태 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjt.png)
 
@@ -284,7 +308,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 * 이메일 : kjt7889@naver.com
 * 페이스북 : [https://www.facebook.com/kjt7889](https://www.facebook.com/kjt7889)
 
-### Introduction to GAN - 의료 (세미나)
+### Introduction to GAN, 이지민 - 의료 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ljm.png)
 
@@ -301,7 +325,34 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 * 이메일 : ljm861@gmail.com
 * 페이스북 : [https://www.facebook.com/jimin.lee.5623](https://www.facebook.com/jimin.lee.5623)
 
-### MRI 를 이용한 치매 질환 예측 - 의료 (세미나)
+### TensorFlow Object Detection API를 활용한 대장 종양 검출, 김영하 - 의료 (라이트닝톡)
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kyh.png)
+
+#### 연사소개
+데이터를 사랑하는 사람들과 디플러스에서 즐겁게 연구하는 연구원. 재미있는 주제를 찾아 연구하고 같이 재미있는 것을 만들어보고자 합니다.
+
+#### 발표소개
+TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Open Images 데이터셋으로 학습이 된 모델들도 제공하고 있습니다. 이 모델에서 제공하는 클래스이외에 의학영상 및 동영상 (대장 내시경)에서 종양을 검출할 수 있는지에 대한 연구를 하고 있습니다.
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kyh_slide.png)
+
+    자신만의 Object Detection을 하기 위한 데이터셋 준비 > 종양을 검출하기 위해 데이터셋으로 기존 모델에 학습 > 학습된 결과로 종양 검출 확인
+
+#### 발표자료
+(추후 업데이트)
+
+#### 참고자료
+* [https://github.com/tensorflow/models/tree/master/research/object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+#### 블로그 및 깃헙
+* 블로그 : [https://brunch.co.kr/@fermat39](https://brunch.co.kr/@fermat39)
+
+#### 연락처
+* 이메일 : youngha@dplus.company
+* 페이스북 : [https://www.facebook.com/profile.php?id=100001647473870](https://www.facebook.com/profile.php?id=100001647473870)
+
+### MRI 를 이용한 치매 질환 예측, 박세진 - 의료 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psj.png)
 
@@ -321,7 +372,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 * 이메일 : (추후 업데이트)
 * 페이스북 : [https://www.facebook.com/profile.php?id=100002023963861](https://www.facebook.com/profile.php?id=100002023963861)
 
-### 나의 감성을 알아주는 너 - 감성 (세미나)
+### 나의 감성을 알아주는 너, 송규예 - 감성 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_sky.png)
 
@@ -329,11 +380,11 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 감성기술로 행복한 세상을 만들어가고 있는 orbis.ai(오르비스에이아이) 기업의 공동창업자이자, 데이터과학자인 송규예 입니다. 감성인식과 감성표현을 위한 딥러닝 모델개발을 하고 있습니다. 개인적으로는 사람의 세포부터 무의식까지, 사람에 대한 모든 것을 파헤치고 있으며 사람, 자연 구조와 닮은 기술구현에 관심이 많습니다. 
 
 #### 발표소개
-"딥러닝 X 심리상담기법" . 어울릴 듯, 어울리지않는 두 분야의 콜라보레이션 ☆사람의 감성상태 진단을 위한 감성인식 딥러닝 기술과 심리상담기법 측면에서 활용할 수 있는 딥러닝 기술에는 무엇이 있을지 다뤄볼 예정입니다. 
+"딥러닝 X 심리" . 어울릴 듯, 어울리지않는 두 분야의 콜라보레이션 ☆사람의 감정인식을 위한 딥러닝 기술과 감정표현 측면에서 활용할 수 있는 딥러닝 기술에는 무엇이 있을지 다뤄보며, 저희 회사, 오르비스에이아이에서 진행하고 있는 감정인식 기술에 대해서 설명합니다. 
 
-1. intro : 딥러닝과 심리상담기법의 운명적 만남 (부제 : 나는 네가 필요해)
-2. 감성인식 딥러닝 기술 소개
-3. 심리상담기법과 접목가능한 딥러닝 기술 소개 (예 : Neural style를 이용한 만다라 미술치료 그림생성)
+1. intro : 딥러닝과 심리의 운명적 만남 (부제 : 나는 네가 필요해)
+2. 감정인식 및 감정표현 딥러닝 기술 소개
+3. 오르비스에이아이에서 진행하는 감정인식 기술 소개
 
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_sky_slide.png)
 
@@ -349,7 +400,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 * 이메일 : ivyheart2@gmail.com
 * 페이스북 : [https://facebook.com/ivyheart2](https://facebook.com/ivyheart2)
 
-### 근전도 생체신호 데이터로 손 모양 생성하기 - 임베디드 (세미나)
+### 근전도 생체신호 데이터로 손 모양 생성하기, 박상민 - 임베디드 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psm.png)
 
@@ -370,10 +421,10 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 * 깃헙 : https://github.com/jigeria
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : jigeria@naver.com
 * 페이스북 : [https://www.facebook.com/jigeria114](https://www.facebook.com/jigeria114)
 
-### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례 - 공학 (세미나)
+### 딥러닝과 함께하는 최적설계와 시뮬레이션, 원자력분야의 적용사례, 유용균 - 공학 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk.png)
 
@@ -393,13 +444,13 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
     기존 최적설계방법론은 반복적인 해석이 필요하기 때문에 결과를 얻기위하여 많은 시간이 요구됩니다. 합니다. 고전적인 최적설계 방법론 대신 인공신경망을 이용하면 최적의 구조를 빠르게 찾을 수 있지 않을까요?
 
 #### 발표자료
-(추후 업데이트)
+* [PDF](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk_file.pdf)
 
 #### 연락처
 * 이메일 : yoyogo@gmail.com, ygyu@kaeri.re.kr
 * 페이스북 : [https://www.facebook.com/yoyogo96](https://www.facebook.com/yoyogo96)
 
-### 항공우주분야에서의 머신러닝기술 - 공학 (라이트닝톡)
+### 항공우주분야에서의 머신러닝기술, 김홍배 - 공학 (라이트닝톡)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_khb.png)
 
@@ -423,7 +474,7 @@ GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 
 * 이메일 : (추후 업데이트)
 * 페이스북 : [https://www.facebook.com/profile.php?id=100001173798815](https://www.facebook.com/profile.php?id=100001173798815)
 
-### 딥러닝을 활용한 테스트 자동화 연구 - 품질 (라이트닝톡)
+### 딥러닝을 활용한 테스트 자동화 연구, 곽병권 - 품질 (라이트닝톡)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kbg.png)
 
@@ -447,27 +498,44 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 * 이메일 : (추후 업데이트)
 * 페이스북 : [https://www.facebook.com/byeongkwon.kwak](https://www.facebook.com/byeongkwon.kwak)
 
-### 연관된 이미지 변환하기 - 태양 분야 적용 사례
+### 연관된 이미지 변환하기, 신경인, 박은수, 이하림 - 태양 분야 적용 사례 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_khu.png)
 
 #### 연사소개
-경희대학교 우주탐사학과 신경인, 박은수, 이하림 연구원
+경희대학교 우주탐사학과 태양 & 우주기상 연구실 박은수, 이하림, 신경인 연구원. 딥러닝 모델을 설계하고 우주기상분야에 적용하면서 과학기술 분야와 딥러닝 사이의 연결고리가 되고 싶은 대학원생들입니다. 
 
 #### 발표소개
-딥러닝이 단순히 응용 분야에만 적용되는 것이 아니라, 굉장히 정밀한 데이터를 요구하는 과학 학문 분야에도 쓰일 수 있습니다. 제가 수정한 conditional GAN으로 두 이미지 사이의 변환을 이용한 연구를 소개합니다. 
+우주기상 분야에서의 딥러닝 적용 사례 (박은수)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_pes_slide.png)
+
+    많은 관측 위성이 다양한 파장대에서 태양 영상을 관측하고 있습니다. 태양 영상을 다른 종류의 영상으로 바꾸어 보았으며, 이를 이용하여 데이터 결손을 복원하거나, 두 데이터간의 물리적 연관성을 찾고자 하는 시도를 하고 있습니다.
+
+태양 흑점 스케치로 자기장 지도 생성, 400년전 기록을 복원! (이하림)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lhl_slide.png)
+
+    갈릴레오는 1600년대 초 최초로 태양 흑점을 관측하였습니다. 이 자료와 딥러닝을 사용하여 최초의 태양 자기장 지도를 생성한 결과에 대하여 발표하겠습니다.
+
+갓 pix2pix 변신은 무죄 (신경인)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ski_slide.png)
+
+    Pix2Pix를 개선한 모델로 생성한 이미지와 실제 이미지의 비교입니다. 왼쪽 이미지가 모델이 생성한 이미지, 오른쪽 이미지가 실제 이미지입니다. 확대된 부분을 비교해보았을 때, 세밀한 구조까지 복원할 수 있음을 알 수 있습니다.
 
 #### 발표자료
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-(추후 업데이트)
+* 신경인 깃헙 : [https://github.com/GyunginShin](https://github.com/GyunginShin)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
-* 페이스북 : (추후 업데이트)
+* 박은수 이메일 : espark@khu.ac.kr
+* 이하림 이메일 : zmzmdg@naver.com
+* 신경인 이메일 : gishin@khu.ac.kr
 
-### 내 손 위의 딥러닝(모바일에 딥러닝 심기)
+### 내 손 위의 딥러닝(모바일에 딥러닝 심기), 전미정 - 모바일 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jmj.png)
 
@@ -495,7 +563,42 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 * 이메일 : ninevincentg@gmail.com
 * 페이스북 : [https://www.facebook.com/Ninevincent](https://www.facebook.com/Ninevincent)
 
-### 서포터즈 소개
+### TensorFlow Object Detection API를 활용한 대장 종양 검출, 김영하 - 의료 (세미나)
+
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kyh.png)
+
+#### 연사소개
+데이터를 사랑하는 사람들과 디플러스에서 즐겁게 연구하는 연구원. 재미있는 주제를 찾아 연구하고 같이 재미있는 것을 만들어보고자 합니다.
+
+#### 발표소개
+Tensorflow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Open Images 데이터셋으로 학습이 된 모델들도 제공하고 있습니다. 이 모델에서 제공하는 클래스이외에 의학영상 및 동영상 (대장 내시경)에서 종양을 검출할 수 있는지에 대한 연구를 하고 있습니다.
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kyh_slide.png)
+
+    자신만의 Object Detection을 하기 위한 데이터셋 준비 > 종양을 검출하기 위해 데이터셋으로 기존 모델에 학습 > 학습된 결과로 종양 검출 확인
+
+#### 발표자료
+(추후 업데이트)
+
+#### 참고자료
+* [https://github.com/tensorflow/models/tree/master/research/object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+#### 블로그 및 깃헙
+* 블로그 : [https://brunch.co.kr/@fermat39](https://brunch.co.kr/@fermat39)
+
+#### 번역서 및 저서
+* Splunk 앱 제작과 대시보드 개발(에이콘출판사) : 빅데이터 플랫폼 Splunk 플랫폼의 앱 개발 설명 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960778207&orderClick=LAG&Kc=)
+* 파이썬 웹 스크래핑(에이콘출판사) : scrapy, beautifulsoup를 활용한 웹 스크래핑 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788960779594&orderClick=LAH&Kc=)
+* 뷰티플 자바스크립트(비제이퍼블릭) : 자바스크립트 중급서 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&orderClick=LEB&barcode=9791186697184)
+* 누구나 쉽게 배우는 스몰베이직(비제이퍼블릭) : 스몰베이직 초급서 [바로가기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186697375&orderClick=LAH&Kc=)
+* 머신러닝을 이용한 이미지 분석(비제이퍼블릭) : 텐서플로를 이용해서 자신만의 데이터셋 제작 및 이미지 학습 및 분석 (집필중)
+
+#### 연락처
+* 이메일 : youngha@dplus.company
+* 페이스북 : [https://www.facebook.com/profile.php?id=100001647473870](https://www.facebook.com/profile.php?id=100001647473870)
+
+### 서포터즈 - 이상훈
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lsh.png)
 
@@ -509,6 +612,61 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 * 이메일 : phoenixlee1@gmail.com
 * 페이스북 : [https://www.facebook.com/phoenixlee.sh](https://www.facebook.com/phoenixlee.sh)
 
+### 서포터즈 - 황준오 
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_hjh.png)
+
+부경대학교 컴퓨터공학과에 재학중인 4학년 학생입니다. 원활한 컨퍼런스 진행을 위해 열심히 서포트 하겠습니다!
+
+#### 프로필
+* 이메일 : bactoria@gmail.com
+* 깃헙 : [https://github.com/bactoria](https://github.com/bactoria)
+
+### 서포터즈 - 홍정훈
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_hojh.png)
+
+미시간 대학교에서 데이터사이언스를 공부하고 있습니다.
+
+#### 프로필
+* 이메일 : datahong@umich.edu
+
+### 서포터즈 - 조수현 
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jsh.png)
+
+#### 프로필
+* 이메일 : seanbrowncho@gmail.com
+
+### 서포터즈 - 신채원
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_scw.png)
+
+한밭대학교 산업경영공학과 4학년입니다.
+
+#### 프로필
+* 이메일 : scw1544@naver.com
+
+### 서포터즈 - 이병호
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lbh.png)
+
+카이스트와 퍼듀에서 기하학을 전공하였습니다. 주로 자연어처리와 음악 생성, 그리고 딥러닝의 수학적 측면에 관심을 갖고 있습니다.
+
+#### 프로필
+* 이메일 : byeongholee@kaist.ac.kr
+* 페이스북: [https://www.facebook.com/arthematist](https://www.facebook.com/arthematist)
+
+### 서포터즈 - 강천성
+---
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kcs.png)
+
+충남대학교 컴퓨터공학과 4학년 재학중, 캐글을 시작으로 데이터 사이언스 분야에 발을 들여놓았습니다. 현재 음성 변조 관련 졸업 프로젝트를 진행중이며, 머신러닝 및 딥러닝 관련 기술에 관심이 많습니다.
+
+#### 프로필
+* 이메일 : kcs93023@gmail.com
+* 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/) 
+
 ---
 ### 상세 프로그램
 
@@ -516,18 +674,18 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 
 |구분|강당|사이언스홀|대회의실|
 |-|-|-|-|
-|09:50~10:10(20분)|발표자소개|발표자소개|핸즈온랩|
-|10:10~10:55(45분)|신경인,박은수,이하림|이지민|핸즈온랩|
-|10:55~11:15(20분)|전태균|김홍배|핸즈온랩|
-|11:15~12:00(45분)|유재준|이유한|핸즈온랩|
+|09:50~10:10(20분)|발표자소개|발표자소개|발표자소개|
+|10:10~10:55(45분)|박은수,이하림,신경인|이지민|캐글 핸즈온랩(이유한)|
+|10:55~11:15(20분)|전태균|김홍배|캐글 핸즈온랩(이유한)|
+|11:15~12:00(45분)|유재준|이유한|-|
 |12:00~13:00(60분)|점심|점심|점심|
-|13:00~13:45(45분)|차금강|송규예|핸즈온랩|
-|13:45~14:30(45분)|이동민|박세진|핸즈온랩|
-|14:30~15:15(45분)|박상민|정원석|핸즈온랩|
-|15:15~16:00(45분)|유용균|김준태|핸즈온랩|
-|16:00~16:20(20분)|곽병권|김영하|핸즈온랩|
-|16:20~17:05(45분)|김태영|전미정|핸즈온랩|
-|17:05~17:50(45분)|류성옥|김정대|핸즈온랩|
+|13:00~13:45(45분)|차금강|송규예|-|
+|13:45~14:30(45분)|이동민|박세진|-|
+|14:30~15:15(45분)|박상민|정원석|-|
+|15:15~16:00(45분)|유용균|김준태|강화학습 핸즈온랩(정원석)|
+|16:00~16:20(20분)|곽병권|김영하|강화학습 핸즈온랩(정원석)|
+|16:20~17:05(45분)|김태영|전미정|-|
+|17:05~17:50(45분)|류성옥|김정대|-|
 
 ---
 
