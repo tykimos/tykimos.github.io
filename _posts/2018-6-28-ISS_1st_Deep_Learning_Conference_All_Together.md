@@ -72,7 +72,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 전세계 데이터를 사랑하는 사람들에게 데이터를 제공하고, 함께 즐길 수 있도록 해주는 캐글을 소개하려고 합니다. 캐글 내 유능한 데이터분석가들의 귀하디 귀한 노하우를 거저!!! 얻을 수 있는 방법을 소개해드릴 겁니다. 또한 자신의 노하우도 거저!!! 나눠주는 방법도 소개해드릴 겁니다. 제 세션에 참석하시는 모든 분들이 캐글러가 되는 게 제 발표 목표입니다! 
 
 #### 발표자료
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh_file.pdf)
 
 #### 블로그 및 깃헙
 * 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
@@ -138,7 +138,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 깃헙 : [https://github.com/jaejun-yoo/](https://github.com/jaejun-yoo/)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : jaejun.yoo@navercorp.com
 * 페이스북 : [https://www.facebook.com/thinking.factory](https://www.facebook.com/thinking.factory)
 
 ### TensorFlow Eager Execution, 전태균 - 코어 (라이트닝톡)
@@ -159,15 +159,12 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 (추후 업데이트)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : taylor.taegyun.jeon@gmail.com
 * 페이스북 : [https://www.facebook.com/taegyun.jeon](https://www.facebook.com/taegyun.jeon)
 
 ### 우리는 왜 강화학습을 해야하는가, 차금강 - 강화학습 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_cgg.png)
-
-#### 연사소개
-(추후 업데이트)
 
 #### 발표소개
 비전문가들에게 강화학습은 알파고로 대변되고 있습니다. 강화학습이란 무엇인가, 일반 딥러닝과 무엇이 다른것인가, 강화학습을 하기 위해서는 어떤 것들이 필요한가를 짚은 후 여러 적용사례들을 소개드리겠습니다.(적용사례: 벽돌피하기, CartPole(장대세우기), 스타크래프트2)
@@ -177,7 +174,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
     강화학습이라는 것이 주로 공학에서는 로봇에 많이 사용되고 있고 주로 손로봇에서는 pick and place가 가장 기본적인 문제로 거론되는데 그에 대한 문제를 강화학습으로 충분히 풀 수 있다 라는 것을 의미하고 있습니다
 
 #### 발표자료
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_cgg_file.pdf)
 
 #### 블로그 및 깃헙
 * 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
@@ -245,13 +242,10 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 알파고 제로에 대한 기본적인 원리에 대해서 알아보고, 이 알고리즘을 이용하여 알파오목을 구현한 경험을 공유합니다. 사람과 알파오목 대전을 보실 수도(?) 있습니다.
 
 #### 발표자료
-(추후 업데이트)
-
-#### 블로그 및 깃헙
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjd_file.pdf)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : kekmodel@gmail.com
 * 페이스북 : [https://www.facebook.com/kekmodel](https://www.facebook.com/kekmodel)
 
 ### 안.전.제.일. 강화학습!, 이동민 - 강화학습 (세미나)
@@ -299,7 +293,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 GTA란 게임을 이용하여 어떻게 주행 데이터를 모으고 학습을 한 후 자율주행을 하는지 알아보고, GTA를 강화학습을 하기 위해 밑바닥부터 환경 구축을 하고 있는 제 이야기를 듣고 같이 이야기 해봐요!!
     
 #### 발표자료
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kjt_file.pdf)
 
 #### 블로그 및 깃헙
 * 블로그 : 캐글코리아 - [http://kaggle-kr.tistory.com/](http://kaggle-kr.tistory.com/)
@@ -369,7 +363,7 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 (추후 업데이트)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : gnoses@vuno.co
 * 페이스북 : [https://www.facebook.com/profile.php?id=100002023963861](https://www.facebook.com/profile.php?id=100002023963861)
 
 ### 나의 감성을 알아주는 너, 송규예 - 감성 (세미나)
@@ -391,7 +385,7 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
     따뜻한 "공감"과  행동유도의 핵심 "동기부여"를 통해 잠재되어 있던 무의식을 의식상태로 끌어올려 행복을 도모합니다. 이 과정에서 딥러닝 기술이 어떻게 적용되는지 집중탐구합니다.
 
 #### 발표자료
-(추후 업데이트)
+* 구글 드라이브 : [보기](https://docs.google.com/presentation/d/1Fl82bA_-oBttNUs5gSE2R1Ta4ZRhqy-WmsqJ66oY2vc/edit?usp=sharing)
 
 #### 블로그 및 깃헙
 * 깃헙 : [https://github.com/Kyuye](https://github.com/Kyuye)
@@ -415,7 +409,7 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
     MYO의 센서값과 실제 손 모양 이미지를 이용해 GAN모델을 학습시킨다면 이 모델은 MYO의 센서값만으로도 손 모양 이미지를 생성해 낼 수 있을 것 입니다. 이를 이용한다면 많은 분야에 적용하여 사용할 수 있지 않을까요?
 
 #### 발표자료
-(추후 업데이트)
+* 구글 드라이브 : [보기](https://drive.google.com/file/d/1CBiAEaz04P2yzzECUkLpVzhwuct22Bli/view?usp=sharing)
 
 #### 블로그 및 깃헙
 * 깃헙 : https://github.com/jigeria
@@ -444,7 +438,7 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
     기존 최적설계방법론은 반복적인 해석이 필요하기 때문에 결과를 얻기위하여 많은 시간이 요구됩니다. 합니다. 고전적인 최적설계 방법론 대신 인공신경망을 이용하면 최적의 구조를 빠르게 찾을 수 있지 않을까요?
 
 #### 발표자료
-* [PDF](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk_file.pdf)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yyk_file.pdf)
 
 #### 연락처
 * 이메일 : yoyogo@gmail.com, ygyu@kaeri.re.kr
@@ -467,11 +461,8 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 #### 발표자료
 * 슬라이드쉐어 : [보기](https://www.slideshare.net/ssuser06e0c5/machine-learning-applications-in-aerospace-domain)
 
-#### 블로그 및 깃헙
-(추후 업데이트)
-
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : hongbaegim88@gmail.com
 * 페이스북 : [https://www.facebook.com/profile.php?id=100001173798815](https://www.facebook.com/profile.php?id=100001173798815)
 
 ### 딥러닝을 활용한 테스트 자동화 연구, 곽병권 - 품질 (라이트닝톡)
@@ -492,10 +483,10 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
 (추후 업데이트)
 
 #### 블로그 및 깃헙
-(추후 업데이트)
+* 깃헙 : [https://github.com/Steven-A3](https://github.com/Steven-A3)
 
 #### 연락처
-* 이메일 : (추후 업데이트)
+* 이메일 : bk.kwak@gmail.com
 * 페이스북 : [https://www.facebook.com/byeongkwon.kwak](https://www.facebook.com/byeongkwon.kwak)
 
 ### 우주과학 이미지 자료 변환하기, 신경인, 박은수, 이하림 - 태양 분야 적용 사례 (세미나)
@@ -550,7 +541,7 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
     외부에서 훈련된 딥러닝 모델을 모바일 기기에 심어 모바일 딥러닝을 구현해보았습니다. (쉿, 이건 비밀인데 모바일 자체에서도 훈련이 되기 시작했습니다.)
 
 #### 발표자료
-(추후 업데이트)
+* 슬라이드 쉐어 : [보기](https://www.slideshare.net/MijeongJeon1/ios-103594100)
 
 #### 참고자료
 * [https://github.com/MijeongJeon/ShapeDetector_Keras_CoreML](https://github.com/MijeongJeon/ShapeDetector_Keras_CoreML)
@@ -709,6 +700,12 @@ KAIST에서 기계학습 기반 사용자 이용내역 데이터 기반 토픽�
 * 예) 김태영, 인스페이스, tykim@inspace.re.kr, 우주, 위성 운영 효율화를 위해 강화학습을 적용해보고자 합니다.
 
 댓글을 달아도 스팸처리되어서 바로 표시 안될 수도 있습니다. 제가 다 스팸아님으로 처리하고 있으니, 크게 신경 안 쓰셔도 됩니다. 그리고 혹시 참석신청하셨으나 부득이한 이유로 참석이 힘드신 분은 미리 알려주세요~ 다른 분들에게 참석 기회를 드리고자 합니다.
+
+### 후기
+
+연사분들 및 서포터즈분들입니다. 고생많으셨습니다! 내년에도 또 뵈어요~
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_DLCAT_end.png)
 
 ---
 
