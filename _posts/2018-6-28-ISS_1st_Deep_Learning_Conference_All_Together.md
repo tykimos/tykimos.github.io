@@ -25,9 +25,10 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 
 ---
 
-발표는 아래 두 가지 방식으로 진행됩니다. 
+발표는 아래 세가지 방식으로 진행됩니다. 
 * 세미나(50분) : 어떤 주제에 대해 깊이 있는 지식이나 전반적인 내용을 다룹니다.
 * 라이트닝톡(20분) : 자신의 연구 및 기관에 대한 소개, 자유로운 토론 위주로 합니다.
+* 핸즈온랩 : 직접 따라하면서 실습을 할 수 있는 시간을 가집니다.
 
 ### 딥러닝 몰라도 간(GAN)부터 보기, 김태영 - 입문 (세미나)
 ---
@@ -61,6 +62,8 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 이메일 : tykim@inspace.re.kr
 * 페이스북 : [https://www.facebook.com/tykimo](https://www.facebook.com/tykimo)
 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kty_pic.jpg)
+
 ### 딥러닝 보물상자 '캐글' 알아보기 , 이유한 - 입문 (세미나)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh.png)
@@ -81,6 +84,8 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 #### 연락처
 * 이메일 : youhanlee@kaist.ac.kr 또는 bshz15@gmail.com
 * 페이스북 : [https://www.facebook.com/youhan.lee.33](https://www.facebook.com/youhan.lee.33)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lyh_pic.jpg)
 
 ### 타이타닉 생존자 예측을 해보자, 이유한 - 입문 (핸즈온랩)
 ---
@@ -103,7 +108,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 뱀다리) 당일 4주훈련을 마치고 퇴소하여 까까머리로 발표할 예정입니다^.
 
 #### 발표자료
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_rsy_file.pdf)
 
 #### 참고자료
 * 논문 : [Deeply learning molecular structure-property relationships using graph attention neural network](https://arxiv.org/abs/1805.10988)
@@ -114,6 +119,8 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 #### 연락처
 * 이메일 : sower2002@kaist.ac.kr
 * 페이스북 : [https://www.facebook.com/ryu.seongok.1](https://www.facebook.com/ryu.seongok.1)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_rsy_pic.jpg)
 
 ### Deep convolutional framelets: application to diffuse optical tomography, 유재준 - 알고리즘 (세미나)
 ---
@@ -141,6 +148,8 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 * 이메일 : jaejun.yoo@navercorp.com
 * 페이스북 : [https://www.facebook.com/thinking.factory](https://www.facebook.com/thinking.factory)
 
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_yjj_pic.jpg)
+
 ### TensorFlow Eager Execution, 전태균 - 코어 (라이트닝톡)
 ---
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_jtg.png)
@@ -153,10 +162,13 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 코어 및 알고리즘
 
 #### 발표자료
-(추후 업데이트)
+* 구글 프리젠테이션 : [보기](http://bit.ly/TFE_DDC)
+
+#### 참고자료
+* [https://github.com/tgjeon/TF-Eager-Execution-Guide-KR](https://github.com/tgjeon/TF-Eager-Execution-Guide-KR)
 
 #### 블로그 및 깃헙
-(추후 업데이트)
+깃헙 : [gitHub.com/tgjeon](gitHub.com/tgjeon)
 
 #### 연락처
 * 이메일 : taylor.taegyun.jeon@gmail.com
@@ -266,7 +278,7 @@ Super-resolution, image denoising, reconstruction, segmentation 등의 다양한
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_ldm_slide.png)
 
 #### 발표자료
-* (추후 업데이트)
+* 슬라이드쉐어 : [보기](https://www.slideshare.net/DongMinLee32/ss-103395612)
 
 #### 참고자료
 * 슬라이드쉐어 : [강화학습의 개요](https://www.slideshare.net/DongMinLee32/ss-91521646)
@@ -333,9 +345,6 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 
     자신만의 Object Detection을 하기 위한 데이터셋 준비 > 종양을 검출하기 위해 데이터셋으로 기존 모델에 학습 > 학습된 결과로 종양 검출 확인
 
-#### 발표자료
-(추후 업데이트)
-
 #### 참고자료
 * [https://github.com/tensorflow/models/tree/master/research/object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
@@ -357,10 +366,7 @@ TensorFlow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 객체인식 기법과 머신러닝을 사용하여 MRI 영상에서 관심 뇌영역을 분할하고 뇌위축을 인식하여 치매(알츠하이머) 위험도를 예측하는 기법을 소개합니다.
 
 #### 발표자료
-(추후 업데이트)
-
-#### 블로그 및 깃헙
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_psj_file.pdf)
 
 #### 연락처
 * 이메일 : gnoses@vuno.co
@@ -480,7 +486,7 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
     저희 회사에서 주로 하는 게임 품질관리와 테스팅을 설명 한 책입니다. 게임 테스팅이 예상처럼 쉽지 않고 효율적인 테스팅을 위해서는 지치지 않고 누락없는 반복 테스팅이 필요한데, 이를 위해 인공지능을 활용하는 방법을 연구하고 있습니다.
 
 #### 발표자료
-(추후 업데이트)
+* PDF : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kbg_file.pdf)
 
 #### 블로그 및 깃헙
 * 깃헙 : [https://github.com/Steven-A3](https://github.com/Steven-A3)
@@ -516,7 +522,8 @@ NGLE이라는 QA 전문 회사에서 QA-Test 자동화에 인공지능 적용을
     Pix2Pix를 개선한 모델로 생성한 이미지와 실제 이미지의 비교입니다. 왼쪽 이미지가 모델이 생성한 이미지, 오른쪽 이미지가 실제 이미지입니다. 확대된 부분을 비교해보았을 때, 세밀한 구조까지 복원할 수 있음을 알 수 있습니다.
 
 #### 발표자료
-(추후 업데이트)
+* 박은수 발표자료 : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_pes_file.pdf)
+* 이하림 발표자료 : [다운](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_lhl_file.pdf)
 
 #### 블로그 및 깃헙
 * 신경인 깃헙 : [https://github.com/GyunginShin](https://github.com/GyunginShin)
@@ -568,9 +575,6 @@ Tensorflow에서 Object Detection API를 제공하고 있으며, COCO, Kitti, Op
 ![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Together_kyh_slide.png)
 
     자신만의 Object Detection을 하기 위한 데이터셋 준비 > 종양을 검출하기 위해 데이터셋으로 기존 모델에 학습 > 학습된 결과로 종양 검출 확인
-
-#### 발표자료
-(추후 업데이트)
 
 #### 참고자료
 * [https://github.com/tensorflow/models/tree/master/research/object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
