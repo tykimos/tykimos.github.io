@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NN 어디까지 해봤니? GNN(그래프 신경망)"
+title:  "NN 어디까지 해봤노? 이번엔 GNN이다."
 author: 김태영
 date:   2018-09-11 13:00:00
 categories: seminar
