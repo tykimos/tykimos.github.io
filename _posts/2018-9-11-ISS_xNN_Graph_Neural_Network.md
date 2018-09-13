@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NN 어디까지 해봤노? 이번엔 GNN이다."
+title:  "니NN어데까지해봤노? GNN함가자"
 author: 김태영
 date:   2018-09-11 13:00:00
 categories: seminar
@@ -19,7 +19,8 @@ image: http://tykimos.github.io/warehouse/2018-9-11-ISS_xNN_Graph_Neural_Network
 1. 일시 : 2018년 9월 11일 오후 1시 40분
 2. 장소 : 대전 유성구 대학로291 KAIST 나노종합기술원 9F 대전창조경제혁신센터 E19
 3. 주최 : (주)인스페이스, 케라스 코리아, 대딥사
-4. 발표내용
+4. 후원 : 대전창조경제혁신센터
+5. 발표내용
 
     * 그래프 신경망의 필요성
     * 그래프 신경망의 이론 및 실용적인 구현에 필요한 지식 
@@ -33,7 +34,7 @@ image: http://tykimos.github.io/warehouse/2018-9-11-ISS_xNN_Graph_Neural_Network
         3. Gated Graph Neural Network
         4. Graph Autoencoder
 
-5. 대상 : 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들
+6. 대상 : 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들
 
 ---
 ### 참고자료
