@@ -7,8 +7,7 @@ categories: Lecture
 comments: true
 image: https://blog.keras.io/img/seq2seq/seq2seq-inference.png
 ---
-원문 : [A ten-minute introduction to sequence-to-sequence learning in Keras](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html)
-> 본 문서는 케라스를 이용해 RNN(Recurrent Neural Networks)모델인 Seq2Seq를 10분 안에 알려주는 튜토리얼 한글 버전입니다. Seq2Seq의 의미부터 케라스를 이용한 모델 구현을 다루고 있으며 본 문서 대상자는 recurrent networks와 keras에 대한 경험이 있다는 가정하에 진행합니다.
+본 문서는 케라스를 이용해 RNN(Recurrent Neural Networks)모델인 Seq2Seq를 10분 안에 알려주는 튜토리얼 한글 버전입니다. Seq2Seq의 의미부터 케라스를 이용한 모델 구현을 다루고 있으며 본 문서 대상자는 recurrent networks와 keras에 대한 경험이 있다는 가정하에 진행합니다.
 
 * Keras
 * RNN
@@ -16,6 +15,8 @@ image: https://blog.keras.io/img/seq2seq/seq2seq-inference.png
 * NLP
 * Seq2Seq
 * GRU layer
+
+원문 : [A ten-minute introduction to sequence-to-sequence learning in Keras](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html)
 
 #### sequence-to-sequence 학습이란?
 sequence-to-sequence(Seq2Seq) 학습은 한 도메인(예: 영어 문장)에서 다른 도메인(예: 불어로 된 문장)으로 시퀀스(sequence)를 변환하는 모델 학습을 의미합니다.
