@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Keras를 이용해 seq2seq를 10분안에 알려주기  "
+title:  "케라스를 이용해 seq2seq를 10분안에 알려주기"
 author: 송문혁
 date:   2018-09-14 04:00:00
 categories: Lecture
