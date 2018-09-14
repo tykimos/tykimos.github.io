@@ -5,13 +5,13 @@ author: 김태영
 date:   2018-09-18 13:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon_title.png
+image: http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon.jpg
 ---
 레고사람 비유를 시작으로 GAN 개념과 기초적인 GAN 모델을 알아봅니다. 그 다음 의료영상 합성 분야의 흥미로운 논문을 간략히 설명드립니다. 마지막에는 vid2vid논문을 리뷰합니다. vid2vid는 2018.08 최근에 발표된 만큼 다양한 GAN 논문들의 개념이 적용되어 복잡하고 설명이 친절한 논문도 아니라서 단번에 이해가 쉽지 않습니다. 그럼에도 불구하고 GAN을 잘 모르는 분들도 충분히 이해할 수 있게 최대한 기본 개념을 챙기려고 노력했습니다.
 
     ISS란 Intelligence Space Seminar의 약자로 인공지능 기술과 관련된 인스페이스의 사내 세미나를 말합니다. 어렵게 모신 전문가분들의 주옥같은 내용을 공유하고자 오픈 세미나로 진행하고 있습니다.
 
-![img](http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon_title.png)
+![img](http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon.jpg)
 
 ---
 ### 연사소개
