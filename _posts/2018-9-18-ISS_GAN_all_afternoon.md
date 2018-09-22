@@ -5,13 +5,13 @@ author: 김태영
 date:   2018-09-18 13:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon_title.png
+image: http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon.jpg
 ---
 레고사람 비유를 시작으로 GAN 개념과 기초적인 GAN 모델을 알아봅니다. 그 다음 의료영상 합성 분야의 흥미로운 논문을 간략히 설명드립니다. 마지막에는 vid2vid논문을 리뷰합니다. vid2vid는 2018.08 최근에 발표된 만큼 다양한 GAN 논문들의 개념이 적용되어 복잡하고 설명이 친절한 논문도 아니라서 단번에 이해가 쉽지 않습니다. 그럼에도 불구하고 GAN을 잘 모르는 분들도 충분히 이해할 수 있게 최대한 기본 개념을 챙기려고 노력했습니다.
 
     ISS란 Intelligence Space Seminar의 약자로 인공지능 기술과 관련된 인스페이스의 사내 세미나를 말합니다. 어렵게 모신 전문가분들의 주옥같은 내용을 공유하고자 오픈 세미나로 진행하고 있습니다.
 
-![img](http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon_title.png)
+![img](http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon.jpg)
 
 ---
 ### 연사소개
@@ -62,10 +62,13 @@ image: http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon_title.
 
 ### 참가신청 
 
-댓글로 참가신청을 받습니다. 댓글 양식은 아래와 같으며 '한 줄'로 작성 부탁드리겠습니다. 
+댓글로 참가신청을 받습니다. 댓글 양식은 아래와 같습니다. 양식에 맞지 않으면 제대로 등록이 안될 수 있으니 양식 맞추어 주세요.
 
-* 이름, 기관, 이메일, 분야, 참석계기
-* 예) 김태영, 인스페이스, tykim@inspace.re.kr, 우주, 위성 운영 효율화를 위해 강화학습을 적용해보고자 합니다.
+- '한 줄'로 작성 부탁드리겠습니다.
+- 5가지 항목을 기입해주세요. 이름/기관/이메일/분야/참석계기
+- 항목 간 구분은 '/' (슬래쉬)로 해주세요.
+
+* 예) 김태영/인스페이스/tykim@inspace.re.kr/우주/위성 운영 효율화를 위해 강화학습을 적용해보고자 합니다.
 
 댓글을 달아도 스팸처리되어서 바로 표시 안될 수도 있습니다. 제가 다 스팸아님으로 처리하고 있으니, 크게 신경 안 쓰셔도 됩니다. 그리고 혹시 참석신청하셨으나 부득이한 이유로 참석이 힘드신 분은 미리 알려주세요~ 다른 분들에게 참석 기회를 드리고자 합니다.
 
