@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "지도/비지도학습과 강화학습 차이점"
+title:  "지도/비지도학습과 강화학습 풀이법"
 author: 김태영
 date:   2018-09-22 01:00:00
 categories: Lecture
