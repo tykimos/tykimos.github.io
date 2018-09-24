@@ -25,7 +25,7 @@ Snake
 * Fox(여우)는 mammal(포유류)이다.
 * Snake(뱀)은 reptile(파충류)이다.
 
-![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_2.jpg)
+![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_2a.jpg)
 
 동물이름을 X라고하고 계통을 Y이라고 했을 때, ‘X는 Y이다.’라는 것을 미리 학습을 한 뒤 ‘다음 중 특정 Y가 아닌 것을?’라는 질문에는 X를 대입하면 쉽게 고를 수 있게 됩니다. 우리는 Y를 ‘라벨'이라고 하는 데요, 옷사면 붙어있는 그 라벨과 동일한 의미입니다. ‘X의 라벨은 Y이다.’라고도 말할 수 있겠네요. 이렇게 X에 대해 Y 즉 라벨에 대해서 알고 있어서 이를 학습하는 것을 **‘지도 학습(Supervised Learning)’**이라고 합니다. 각각의 X에 대해 Y이라고 지도를 해 줬으니까 말이죠. 
 
@@ -35,7 +35,7 @@ Snake
 * Pig, Cow, Fox는 새끼를 낳는데, Snake는 알을 낳아
 * Pig, Cow, Fox는 3글자인데, Snake는 5글자이야
 
-![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_3.jpg)
+![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_3a.jpg)
 
 즉 위에서 얘기한 Y(라벨)을 모른체, X의 특성만 보고 다른 하나를 골라낸 것입니다. 사전에 라벨에 대해서 지도가 없었다는 말이겠죠? 따라서 이런 방식으로 학습하는 것 **‘비지도 학습(Unsupervised Learning)’**이라고 합니다.
 
@@ -46,7 +46,7 @@ Snake
 * Cow를 골랐는데, -10점을 받고
 * Fox를 골랐는데, -10점을 받았다
 
-![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_4.jpg)
+![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_4a.jpg)
 
 다음에 같은 문제가 나왔을 때 여러분은 무엇을 고를까요? 점수를 많이 받은 Snake를 고르겠죠? 이 과정으로 아래와 같이 생각해볼 수 있습니다.
 
