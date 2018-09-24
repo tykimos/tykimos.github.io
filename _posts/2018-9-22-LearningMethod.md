@@ -5,7 +5,7 @@ author: 김태영
 date:   2018-09-22 01:00:00
 categories: Lecture
 comments: true
-image: http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_1.jpg
+image: http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_1a.jpg
 ---
 
 영어 문제 하나 풀어볼까요? 다음 질문에 알맞은 답을 골라 봅시다. 
@@ -16,7 +16,7 @@ Cow
 Fox
 Snake
 
-![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_1.jpg)
+![img](http://tykimos.github.io/warehouse/2018-9-22-LearningMethod_1a.jpg)
 
 무엇을 고르셨나요? 정답은 ‘Snake’입니다. 다른 단어에 비해 유독 생소한 단어인 ‘mammal’때문에 어려웠죠? 포유류라는 뜻이라고 합니다. 따라서 문제를 해석하면, ‘다음 중 포유류가 아닌것은?’가 됩니다. 이 문제를 풀기 전에 아래와 같은 문장들을 선행학습하였다면, 정답을 바로 아실 수 있었을 껍니다.
 
