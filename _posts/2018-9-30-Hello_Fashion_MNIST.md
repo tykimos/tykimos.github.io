@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title:  "딥러닝의 Hello World, Fashion-MNIST"
 author: 김수정
