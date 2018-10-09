@@ -26,11 +26,11 @@ GAN이 무엇인지 이해하는 가장 쉬운 방법은 우리에게 익숙한 
 
 고객으로부터 와인을 사들이는 가게를 가정해봅시다.
 
-![89_0.png](media/89_0.png)
+![89_0.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_0.png)
 
 공정한 거래가 오가면 모두 평화롭지만, 돈을 벌기 위해 가짜 와인을 파는 사악한 고객들도 있습니다. 이 경우 가게 주인은 가짜 와인과 진품 와인을 구분할 수 있어야 합니다.
 
-![89_1.png](media/89_1.png)
+![89_1.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_1.png)
 
 여러분은 위조 와인을 팔려는 가짜 와인 위조범이 처음에는 많은 실수를 할지도 모른다고 상상할 수 있습니다. 그렇다면 가게 주인은 그 와인이 진짜가 아니라는 것을 쉽게 알아낼 것입니다.
 
@@ -47,7 +47,7 @@ GAN이 무엇인지 이해하는 가장 쉬운 방법은 우리에게 익숙한 
 ### Components of a Generative Adversarial Network (GANs의 구성요소)
 위의 예제를 이용하여, 우리는 `GANs`의 아키텍처를 그려볼 수 있습니다.
 
-![89_2.png](media/89_2.png)
+![89_2.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_2.png)
 
 여기에 GANs의 주요 구성요소가 있습니다: `Generator(생성자)`와 `Discriminator(식별자)` 입니다.
 
@@ -103,7 +103,7 @@ random_dim = 100
 
 `Discriminator`와 `Generator`를 만들기 전에 먼저 데이터를 수집하고 전처리해야 합니다. 0 부터 9 까지의 단일 자릿수의 이미지 세트인 인기쟁이 데이터셋 `MNIST`를 사용할 것입니다.
 
-![89_3.png](media/89_3.png)
+![89_3.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_3.png)
 
 ```python
 def load_minst_data():
@@ -257,7 +257,7 @@ if __name__ == '__main__':
 
 | 1 epoch | 40 epochs | 400 epochs |
 |:--------:|:--------:|:--------:|
-| ![89_4.png](media/89_4.png) | ![89_5.png](media/89_5.png) | ![89_6.png](media/89_6.png) |
+| ![89_4.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_4.png) | ![89_5.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_5.png) | ![89_6.png](https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/89_6.png) |
 
 이 코드는 CPU 에서 epoch 별로 약 2분이 소요되고, 이것이 이 코드를 선택한 주된 이유입니다. `Generator`와 `Discriminator`에 더 많은(그리고 다른) 레이어를 추가하여 실험할 수 있습니다. 그러나 더 복잡하고 깊은 아키텍처를 사용하는 경우 CPU 만 사용하는 경우에도 런타임이 증가합니다. 하지만, 그런 제약 사항들이 여러분이 실험하는 것을 멈추게 하지 마세요!
 
