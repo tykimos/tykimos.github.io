@@ -633,34 +633,34 @@ style 이미지의 스타일 뿐만 아니라 content 이미지의 윤곽을 굉
 아래 3 장의 스타일 이미지를 사용하였습니다.
 <center>스타일 이미지</center>
 
- <center><figure><img src='./media/48_7.jpg', width=400, height=400></figure></center>
- <center><figure><img src='./media/48_8.jpg', width=400, height=400></figure></center>
-<center><figure><img src='./media/48_9.jpg', width=400, height=400></figure></center>
+ <center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_7.jpg', width=400, height=400></figure></center>
+ <center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_8.jpg', width=400, height=400></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_9.jpg', width=400, height=400></figure></center>
 <br>
 <center>콘텐트 이미지</center>
-<center><figure><img src='./media/48_0.png', width=400, height=400></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_0.png', width=400, height=400></figure></center>
 <br>
 <center>결과 이미지 : spiderman with wave</center>
-<center><figure><img src='./media/48_1.png', width=400, height=400></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_1.png', width=400, height=400></figure></center>
 <br>
 <center>결과 이미지 : spiderman with starry night</center>
-<center><figure><img src='./media/48_2.png', width=400, height=400></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_2.png', width=400, height=400></figure></center>
 <br>
 <center>결과 이미지 : spiderman with composition_vii</center>
-<center><figure><img src='./media/48_3.png', width=400, height=400></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_3.png', width=400, height=400></center>
 
 스파이더맨의 수트의 선 뿐만 아니라 배경의 모양 윤곽도 잘 살렸습니다.
 <br>
 그래서 제 Github 프로필 사진으로도 시도해 보았습니다.
 <br>
 <center>콘텐트 이미지 : my pic of inside the lift</center>
-<center><figure><img src='./media/48_4.jpeg', width=400, height=500></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_4.jpeg', width=400, height=500></figure></center>
 <br>
 <center>결과 이미지 : my pic with starry night</center>
-<center><figure><img src='./media/48_5.png', width=400, height=500></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_5.png', width=400, height=500></figure></center>
 <br>
 <center>결과 이미지 : my pic with composition_vii</center>
-<center><figure><img src='./media/48_6.png', width=400, height=500></figure></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_6.png', width=400, height=500></figure></center>
 입력 이미지를 보면 사진이 셀피이기 때문에 거울에 비친 뒷모습이 있고, 체크무늬 셔츠를 입은것을 볼 수 있는데 결과 이미지를 봤을 때도 거울에 비친 모습과 체크무늬 셔츠가 아주 선명하게 style transfer 되서 나타난 것을 볼 수 있습니다!
 
 ### 참고 사이트
