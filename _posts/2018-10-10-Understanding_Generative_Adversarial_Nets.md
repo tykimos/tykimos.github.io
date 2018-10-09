@@ -20,7 +20,7 @@ image: https://github.com/KerasKorea/KEKOxTutorial/blob/master/media/89_2.png
 
 이 튜토리얼에서는 수학없이 Generative Adversarial Networks가 무엇인지 배우고, 숫자를 생성해내는 간단한 `GANs` 모델을 만들어 봅시다!
 
-<br></br>
+<br>
 
 ### Analogy (비유)
 GAN이 무엇인지 이해하는 가장 쉬운 방법은 우리에게 익숙한 것에 비유해보는 것입니다:
@@ -43,7 +43,7 @@ GAN이 무엇인지 이해하는 가장 쉬운 방법은 우리에게 익숙한 
 
 <U>**위조범과 위조를 구분해내려는 자의 경쟁이 `GANs`의 기본 아이디어 입니다.**</U>
 
-<br></br>
+<br>
 
 ### Components of a Generative Adversarial Network (GANs의 구성요소)
 위의 예제를 이용하여, 우리는 `GANs`의 아키텍처를 그려볼 수 있습니다.
@@ -58,7 +58,7 @@ GAN이 무엇인지 이해하는 가장 쉬운 방법은 우리에게 익숙한 
 
 `Generative 네트워크`는 실제 이미지와 비슷한 모습을 계속해서 생성하는 반면, `Discriminative 네트워크`는 실제 이미지와 가짜 이미지의 차이를 확인하려고 노력합니다. 궁극적인 목표는 실제 이미지와 구별할 수 없는 이미지를 생성할 수 있는 생성 네트워크를 갖는 것입니다.
 
-<br></br>
+<br>
 
 ### A Simple Generative Adversarial Network with Keras (케라스로 만드는 간단한 Generative Adversarial Network)
 
@@ -262,13 +262,13 @@ if __name__ == '__main__':
 
 이 코드는 CPU 에서 epoch 별로 약 2분이 소요되고, 이것이 이 코드를 선택한 주된 이유입니다. `Generator`와 `Discriminator`에 더 많은(그리고 다른) 레이어를 추가하여 실험할 수 있습니다. 그러나 더 복잡하고 깊은 아키텍처를 사용하는 경우 CPU 만 사용하는 경우에도 런타임이 증가합니다. 하지만, 그런 제약 사항들이 여러분이 실험하는 것을 멈추게 하지 마세요!
 
-<br></br>
+<br>
 
 ### Conclusion (결과)
 
 축하합니다. 이 튜토리얼을 마치셨습니다. `GAN(Generative Adversarial Networks)`의 기본을 직관적으로 배웠습니다. 또한 `Keras` 라이브러리의 도움을 받아 첫 번째 모델을 구현했습니다. Python을 사용한 심층 학습에 대해 자세히 알아보려면 DataCamp의 Deep Learning을 Python 과정으로 수강해보세요.
 
-<br></br>
+<br>
 > 이 글은 2018 컨트리뷰톤에서 [`Contribute to Keras`](https://github.com/KerasKorea/KEKOxTutorial) 프로젝트로 진행했습니다.  
 > Translator: [박정현](https://github.com/parkjh688)  
 > Translator email : <parkjh688@gmail.com>
