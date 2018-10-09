@@ -17,10 +17,10 @@ image: https://camo.githubusercontent.com/13d5f8c3df70bd679a3b0e5a2ea7f50ef347c7
 * Neural Style Transfer
 * Gram matrix
 
-<br></br>
+<br>
 <center><img src='https://s3-us-west-2.amazonaws.com/static.pyimagesearch.com/opencv-neural-style/neural_style_transfer_animation.gif'></center>
 
-<br></br>
+<br>
 
 ### Introduction
 이 튜토리얼을 통해 OpenCV, 파이썬, 딥러닝을 이용해 Neural Style Transfer를 이미지 뿐만 아니라 실시간으로 촬영되는 비디오에 적용하는 방법을 익힐 수 있습니다. 튜토리얼이 끝날 때 쯤, 당신은 Neural Style Transfer를 이용해 아주 아름다운 작품을 만들 수 있을 겁니다.
@@ -43,14 +43,14 @@ image: https://camo.githubusercontent.com/13d5f8c3df70bd679a3b0e5a2ea7f50ef347c7
 
 먼저, Neural Style Transfer이 무엇이고, 어떻게 작동하는지를 포함하는 간단한 설명을 시작하겠습니다.
 
-<br></br><br></br>
+<br><br>
 
 ### Neural Style Transfer 란 무엇일까?
-<br></br>
+<br>
 ![Figure 1](https://www.pyimagesearch.com/wp-content/uploads/2018/08/neural_style_transfer_example.jpg)
 <center>Figure1: OpenCV를 사용한 Neural Style Transfer의 예. content 이미지 (왼쪽). Style 이미지 (중앙). 스타일화 된 결과(Stylized output) (오른쪽). </center>
 
-<br></br>
+<br>
 
 Neural Style Transfer 프로세스:
 
@@ -69,15 +69,15 @@ Neural Style Transfer의 프로세스는 **Figure1**에서 확인할 수 있습�
 
 물론 가능합니다! 바로 다음 섹션에서 어떻게 Neural Style Transfer가 가능한지 토론할 것입니다.
 
-<br></br><br></br>
+<br><br>
 
 ### Neural Style Transfer는 어떻게 동작할까?
-<br></br>
+<br>
 <img  src='https://www.pyimagesearch.com/wp-content/uploads/2018/08/neural_style_transfer_gatys.jpg'>
 
 Figure 2: Neural Style Transfer with OpenCV possible (Figure 1 of Gatys et al. 2015).
 
-<br></br>
+<br>
 
 이 시점에서 여러분은 아마 머리를 긁적이며 "우리가 어떻게 신경망을 정의해서 스타일 전달을 할 수 있을까?"라는 생각을 하고 있을 것입니다.
 
@@ -85,17 +85,17 @@ Figure 2: Neural Style Transfer with OpenCV possible (Figure 1 of Gatys et al. 2
 
 흥미롭게도, 2015년에 [Gatys et al. 이 작성한 논문](https://arxiv.org/abs/1508.06576)은 새로운 구조를 전혀 필요로 하지 않는 Neural Style Transfer 알고리즘을 제안했습니다! 대신 미리 학습된 네트워크( pre-trained network, 일반적으로 ImageNet)를 사용하고 스타일 전송의 최종 목표를 달성하기 위해 필요한 손실 함수를 정의합니다.
 
-<br></br>
+<br>
 **그러면 질문은 "어떤 뉴럴 네트워크를 우리가 써야할까" 가 아니라 "어떤 손실 함수를 우리가 써야할까?" 겠네요.**
 
-<br></br>
+<br>
 그에 대한 대답은 세가지 구성요소로 이야기할 수 있습니다.
 
 1. Content loss
 2. Style loss
 3. Total-variation loss
 
-<br></br>
+<br>
 
 각각의 구성요소는 개별적으로 계산이 된 후 한 개의 meta 손실 함수로 합쳐집니다. meta 손실 함수값을 최소화 시키기 위해서 우리는 content, style, total-variation 들의 손실을 최소화 시켜야 합니다.
 
@@ -105,7 +105,7 @@ Johnson et al. (2016)은 Gatys et al.의 연구를 기반으로 했고, 최대 3
 
 Johnson et al. 들의 방법이 확실히 빠르지만 가장 큰 단점은 Gatys et al. 들의 방법에서와 같이 스타일 이미지를 임의로 선택할 수 없다는 것입니다.
 
-<br></br>
+<br>
 
 대신 먼저 원하는 이미지의 스타일을 재현하기 위해 네트워크를 명시적으로 학습해야 합니다. 네트워크가 학습이 되면 당신이 원하는 어떠한 content 이미지도 네트워크에 적용할 수 있습니다. 당신은 Johnson et al. 의 방법을 확인해봐야 합니다.
 
@@ -115,7 +115,7 @@ Johnson et al. 들은 그들이 어떻게 Neural Style Transfer 모델을 학습
 
 나는 Johnson et al. 이 사용한 두 가지 모델을 ECCV 논문에 Ulyanov 외 연구진들의 모델들과 함께 이 게시물의 "다운로드" 섹션에 포함시켰습니다.
 
-<br></br><br></br>
+<br><br>
 
 > 이 튜토리얼에서는 loss function 에 대한 이야기를 더 이상 하지 않습니다.
 >
@@ -127,14 +127,14 @@ Johnson et al. 들은 그들이 어떻게 Neural Style Transfer 모델을 학습
 > ![M_l](http://latex.codecogs.com/gif.latex?M_l) : filter 의 output 개수
 > ![F_l](http://latex.codecogs.com/gif.latex?F^l\in{R^{N_l\times{M_l}}) : ![F_l](http://latex.codecogs.com/gif.latex?F^l) 는 Feature map
 > 입력 이미지 ![x](http://latex.codecogs.com/gif.latex?x), content 이미지 ![p](http://latex.codecogs.com/gif.latex?p) 의 Feature map 을  ![x_l](http://latex.codecogs.com/gif.latex?x^l), ![p_l](http://latex.codecogs.com/gif.latex?p^l) 이라고 할 때 `content loss` 는 다음과 같습니다.
-> <br></br> ![Lcontent](http://latex.codecogs.com/gif.latex?L_%7Bcontent%7D%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bij%7D%28F_%7Bij%7D%5El%20-%20P_%7Bij%7D%5El%29%5E2)
+> <br> ![Lcontent](http://latex.codecogs.com/gif.latex?L_%7Bcontent%7D%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bij%7D%28F_%7Bij%7D%5El%20-%20P_%7Bij%7D%5El%29%5E2)
 > ```python
 > from keras import backend as K
 >
 > def content_loss(base, combination):
 >    return K.sum(K.square(combination - base))
 > ```
-> <br></br>
+> <br>
 > `style loss` 는 조금 더 어렵지만, content loss 와 같은 원리입니다. 이번에는 feature map에 대해 Gram matrix를 구하고, Gram matrix 간 차의 제곱을 loss 로 정의합니다. 그렇다면 아래와 같은 수식이 되겠죠? Gram matrix 는 같은 레이어의 서로 다른 filter 들의 correlation 입니다. filter 가 ![N_l](http://latex.codecogs.com/gif.latex?N_l) 개 있으므로 Gram matrix ![p_l](http://latex.codecogs.com/gif.latex?G%5El%20%5Cin%20R%5E%7BN_l%5Ctimes%20N_l%7D) 입니다.
 >
 > ![gram_matrix](http://latex.codecogs.com/gif.latex?G_%7Bij%7D%5El%20%3D%20%5Csum%20F_%7Bik%7D%5Ccdot%20F_%7Bjk%7D)
@@ -144,8 +144,8 @@ Johnson et al. 들은 그들이 어떻게 Neural Style Transfer 모델을 학습
 > ![E_l](http://latex.codecogs.com/gif.latex?E_l%20%3D%20%5Cfrac%7B1%7D%7B4N_l%5E2M_l%5E2%7D%5Csum_%7Bij%7D%28G_%7Bij%7D%20-%20A_%7Bij%7D%29%5E2)
 >
 > 전체 style loss 는 아래와 같이 표현됩니다.
-> <br></br> ![L_style](http://latex.codecogs.com/gif.latex?L_%7Bstyle%7D%28a%2C%20x%29%20%3D%20%5Csum_%7Bl%3D0%7D%5E%7BL%7Dw_lE_l)
-> <br></br>
+> <br> ![L_style](http://latex.codecogs.com/gif.latex?L_%7Bstyle%7D%28a%2C%20x%29%20%3D%20%5Csum_%7Bl%3D0%7D%5E%7BL%7Dw_lE_l)
+> <br>
 > ```Python
 > def gram_matrix(x):
 >    assert K.ndim(x) == 3
@@ -175,14 +175,14 @@ Johnson et al. 들은 그들이 어떻게 Neural Style Transfer 모델을 학습
 > channels_first, channels_last 에 대한 이야기는 `keras` 문서 혹은 한글로는 [김태영님의 블로그](https://tykimos.github.io/2017/01/27/CNN_Layer_Talk/) 에 잘 설명되어 있습니다.
 
 
-<br></br>
-<br></br>
+<br>
+<br>
 ### 프로젝트 구조
 
 프로젝트는 몇 개의 파일을 가지고 있는데, 이 프로젝트는 <strong>*"Downloads"*</strong> 섹션에서 다운로드 받을 수 있습니다.
 
 scripts + models + images 들을 다운로드 받은 후에 `tree` 커맨드를 입력하면 아래와 같은 디렉토리 및 파일 구조를 확인할 수 있습니다.
-<br></br>
+<br>
 ```
 $ tree --dirsfirst
 .
@@ -211,12 +211,12 @@ $ tree --dirsfirst
 
 4 directories, 18 files
 ```
-<br></br>
+<br>
 <strong>*"Downloads"*</strong> 섹션에서 .zip 파일을 다운받으면, 당신은 이 프로젝트를 위해서 온라인의 그 어떤곳에서 다른 것을 다운로드 받을 필요가 없습니다. 제가 test 에 도움이 될 이미지들을 `images/` 에, 모델들은 `models/` 에 준비를 해놓았습니다. 이 모델들은 Johnson 외 연구진들이 미리 학습시켜놓은 것입니다.
 당신은 또한 세개의 파이썬 스크립트를 찾을 수 있을 것입니다.
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### Neural Style Transfer 구현하기
 
@@ -247,18 +247,18 @@ args = vars(ap.parse_args())
 * [imutils](https://github.com/jrosebr1/imutils): 이 패키지는 `pip install --upgrade imutils` 로 설치가 가능합니다. 최근에 imutils==0.5.1 버전이 배포되었으니 업그레이드 하는 것을 잊지마세요!
 * [OpenCV](https://opencv.org): 이 튜토리얼을 위해서 OpenCV 3.4 또는 그 이상의 버전이 필요합니다. 제가 업로드한 또 다른 튜토리얼을 이용해서 [Ubuntu](https://www.pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/)와 [macOS](https://www.pyimagesearch.com/2018/08/17/install-opencv-4-on-macos/) 를 위한 `OpenCV4` 를 설치할 수도 있을 거에요.
 
-<br></br>
+<br>
 
 우리는 또한 두 줄의 커맨드 라인 arguments 가 필요합니다.
 * `--model` : Neural Style Transfer 모델의 path(위치) 입니다. 11 개의 미리 학습된 모델들이 <strong>*"Downloads"*</strong> 에 있습니다.
 * `--image` : 우리가 스타일을 적용할 입력 이미지입니다. 이미 4 개의 샘플 이미지를 준비해뒀습니다. 튜토리얼을 진행하는데 부담갖지 마세요!
 
-<br></br>
+<br>
 당신은 커맨드 라인 arguments 코드를 바꿀 필요가 없습니다. - arguments 는 실행시간동안 처리될 것 입니다. 만약 이런 방식이 익숙하지 않다면, [커맨드 라인 arguments + argparse](https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/) 에 대한 블로그 포스트를 한 번 읽어보세요.
 
 이제는 재미있는 파트입니다. - 우리는 우리의 이미지와 모델을 가져올 것이고, 그 다음엔 Neural Style Transfer 를 해볼 것입니다.
 
-<br></br>
+<br>
 
 ```python
 # Neural Style Transfer model 로드 합니다.
@@ -279,7 +279,7 @@ start = time.time()
 output = net.forward()
 end = time.time()
 ```
-<br></br>
+<br>
 이 코드 블록에서 우리는 아래 사항을 진행합니다 :
 
 * pre-trained(학습된) Neural Style Transfer 모델을 로드합니다.
@@ -287,7 +287,7 @@ end = time.time()
 * mean subtraction 을 통해서 `blob` 구성을 수행합니다. [`cv2.dnn.blobFromImage`](https://www.pyimagesearch.com/2017/11/06/deep-learning-opencvs-blobfromimage-works/)를 읽어보세요. blob 이 무엇인지 이해하는데 도움이 될 것입니다.
 * forward pass 를 수행해서 결과 이미지를 얻습니다. (i.e. Neural Style Transfer 프로세스의 결과는 time.time() 사이에 있습니다. 결과를 얻는데까지의 시간 측정을 해보기 위해 time.time() 을 이용했습니다.)
 
-<br></br>
+<br>
 
 > 위의 설명에서 `blob` 이라는 것이 나옵니다. 원작자가 추천한 글을 읽으셔도 되고 제가 지금 간단히 설명할 이 글을 읽으셔도 됩니다. 원작자 설명은 영어입니다 :)
 >
@@ -306,7 +306,7 @@ end = time.time()
 >
 > Figure3 : Mean subtraction
 >
-> <br></br>
+> <br>
 >
 > Mean subtraction 을 산하기 위해서 입력 이미지로 사용할 이미지의 R(Red), G(Green), B(Blue) 채널의 평균값을 각각 구합니다.
 > 각 채널의 평균값을 ![](https://www.pyimagesearch.com/wp-content/latex/00d/00d17f8035a0d96ed31b6c7d4f68d407-ffffff-000000-0.png)  ,      ![](https://www.pyimagesearch.com/wp-content/latex/029/02949639dff879b56cef44160bc985c7-ffffff-000000-0.png) , ![](https://www.pyimagesearch.com/wp-content/latex/4b7/4b7a4c54b57c9297141ab648398f6dfc-ffffff-000000-0.png)  로 표현한다고 했을 때, 각각의 진짜 채널 값에서 평균 값을 뺍니다. 아래와 같이 표현할 수 있을 것입니다.
@@ -332,11 +332,11 @@ end = time.time()
 >
 
 
-<br></br>
+<br>
 
 다시 튜토리얼로 돌아와서, 지금까지 전처리를 하고 forward pass 를 실행하고 결과를 이미지를 얻었으니 다음으로 `출력 이미지` 를 후처리하는 것이 중요합니다.
 
-<br></br>
+<br>
 
 ```Python
 # 결과 tensor 를 reshape 하고, mean subtraction 했던 만큼 더해줍니다.
@@ -374,8 +374,8 @@ cv2.imshow("Output", output)
 cv2.waitKey(0)
 ```
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### Neural Style Transfer 결과들
 
@@ -390,21 +390,21 @@ $ python neural_style_transfer.py --image images/giraffe.jpg \
 [INFO] loading style transfer model...
 [INFO] neural style transfer took 0.3152 seconds
 ```
-<br></br>
+<br>
 
 <center><img src='https://www.pyimagesearch.com/wp-content/uploads/2018/08/neural_style_transfer_output02.jpg'>
 
 Figure4 : Result 1
-<br></br>
+<br>
 
 다른 이미지로 style transfer 된 결과 이미지를 얻고 싶다면 커맨드의 이미지 path와 와 모델 path 를 변경해 보세요.
 
-<br></br>
+<br>
 
 ![](https://www.pyimagesearch.com/wp-content/uploads/2018/08/neural_style_transfer_output03.jpg)
 
 Figure5 : Result 2
-<br></br>
+<br>
 
 ![](https://www.pyimagesearch.com/wp-content/uploads/2018/08/neural_style_transfer_output04.jpg)
 
@@ -415,8 +415,8 @@ Figure6 : Result 3
 
 도전! 신경 스타일의 전이가 있는 화려한 딥러닝 작품을 만들 수 있나요? 저는 당신이 작품을 트윗하는 것을 보고 싶습니다. 해시태그, #noralstyletransfer를 사용하여 트윗(@PyImageSearch)에서 저를 언급하세요. 또한, 아티스트와 사진작가가 트위터에 있다면 태그를 달아주세요.
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### 실시간 Neural Style Transfer
 
@@ -424,10 +424,10 @@ Figure6 : Result 3
 
 이 과정은 정적 이미지에서 신경 스타일 전송을 수행하는 것과 매우 유사합니다.
 
-<br></br>
+<br>
 > 웹캠에서 한 프레임을 가져오는 것은 이미지 하나를 처리하는 것과 같기 때문입니다.
 
-<br></br>
+<br>
 
 이 스크립트에서는 다음을 수행합니다:
 
@@ -442,7 +442,7 @@ Figure6 : Result 3
 
 `neural_style_transfer_video.py` 를 열고 다음 코드를 삽입하세요.
 
-<br></br>
+<br>
 ```python
 # 필요한 패키지들 import
 from imutils.video import VideoStream
@@ -459,7 +459,7 @@ ap.add_argument("-m", "--models", required=True,
 	help="path to directory containing neural style transfer models")
 args = vars(ap.parse_args())
 ```
-<br></br>
+<br>
 
 먼저 필요한 패키지/모듈을 가져옵니다.
 
@@ -469,7 +469,7 @@ We begin by importing required packages/modules.
 
 다음은, 모델 path iterator 를 만들어 봅시다:
 
-<br></br>
+<br>
 ```Python
 # 모든 neurl style transfer 모델이 들어있는 model 디렉토리의 path 를 설정하세요.
 # 디렉토리에 있는 모든 모델은 '.t7' file 확장자입니다.
@@ -483,7 +483,7 @@ models = list(zip(range(0, len(modelPaths)), (modelPaths)))
 modelIter = itertools.cycle(models)
 (modelID, modelPath) = next(modelIter)
 ```
-<br></br>
+<br>
 
 위의 코드 블록을 보면 중간 반복문에서 프레임을 처리하기 시작하면, "n" 키를 눌렀을 때 iterator 에 "다음" 모델이 로드됩니다. 이렇게 하면 스크립트를 중지하고 모델 경로를 변경한 다음 다시 시작하지 않고도 비디오 스트림에서 각 neural style 의 효과를 볼 수 있습니다.
 
@@ -498,7 +498,7 @@ modelIter = itertools.cycle(models)
 
 이제 Neural Style Transfer 모델을 로드하고 비디오 스트림을 초기화 합시다!:
 
-<br></br>
+<br>
 
 ```Python
 # Neural Style Transfer 모델을 로드합니다.
@@ -511,13 +511,13 @@ vs = VideoStream(src=0).start()
 time.sleep(2.0)
 print("[INFO] {}. {}".format(modelID + 1, modelPath))
 ```
-<br></br>
+<br>
 
 위의 코드 블록에서는 우리는 우리의 첫 번째 Neural Style Transfer 모델의 경로를 이용해서 모델을 사용합니다.
 
 그 다음, 웹캠으로 영상을 촬영할 수 있도록 비디오 스트림을 초기화합니다.
 
-<br></br>
+<br>
 
 프레임 반복을 하는 과정을 구현해 봅시다:
 
@@ -539,7 +539,7 @@ while True:
   output = net.forward()
 ```
 
-<br></br>
+<br>
 
 우리는 `while` 을 이용해서 반복문을 사용할 것입니다.
 
@@ -550,7 +550,7 @@ while True:
 입력 이미지에 대해 CNN에서는 많은 연산이 이루어집니다. 케라스로 Neural Style Transfer 모델을 어떻게 훈련시키는지 궁금하다면, 제 책 ["Deep Learning for Computer Vision with Python"](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book/)을 참고하세요.
 
 그런 다음 `결과 이미지` 를 후처리하고 표시합니다.
-<br></br>
+<br>
 
 ```Python
   # 결과 tensor 를 reshape 하고, mean subtraction 했던 만큼 더해줍니다.
@@ -567,12 +567,12 @@ while True:
   cv2.imshow("Output", output)
   key = cv2.waitKey(1) & 0xFF
 ```
-<br></br>
+<br>
 
 정적 이미지 신경 스타일 스크립트와 동일합니다. 우리의 출력 이미지는 reshape, 평균 추가(평균을 이전에 뺀 이후)를 통해 "de-processed"됩니다.
 
 원래의 프레임과 가공된 프레임이 모두 화면에 표시됩니다.
-<br></br>
+<br>
 
 ```Python
   # "다음" 이라는 의미의 `n` 키가 눌리면, 다음 Neural Style Transfer 모델을 가져옵니다.
@@ -589,15 +589,15 @@ while True:
 cv2.destroyAllWindows()
 vs.stop()
 ```
-<br></br>
+<br>
 
 스크립트가 실행되는 동안 다른 동작을 유발하는 두 가지 키가 있습니다.
 
 "n": "다음" 신경 스타일 전달 모델 경로 + ID를 가져와서 로드합니다. 마지막 모델에 도달한 경우, iterator는 처음부터 다시 순환합니다.
 "q": "q" 키를 누르면 `while` 루프(라인 83 및 84)가 "종료"됩니다.
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### 실시간 Neural style transfer 의 결과
 
@@ -605,18 +605,18 @@ vs.stop()
 
 <center><img  src ='https://s3-us-west-2.amazonaws.com/static.pyimagesearch.com/opencv-neural-style/neural_style_transfer_animation.gif'></center>
 
-<br></br>
+<br>
 
 보시는 바와 같이, 한 번의 키 누름 버튼을 사용하여 Neural Style Transfer 모델을 순환(반복)하기 쉽습니다.
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### Neural Style Transfer 에 대해 조금 더 알아보기
 ["Deep Learning for Computer Vision with Python"](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book/) 을 참조하세요.
 
-<br></br>
-<br></br>
+<br>
+<br>
 
 ### Summary
 오늘 블로그 게시물에서 `OpenCV`, Python 을 사용하여 이미지와 비디오 모두에 Neural Style Transfer 를 적용하는 방법을 배웠습니다.
@@ -631,7 +631,7 @@ vs.stop()
 
 > Neural Style Transfer 를 실행해보았습니다.
 > style 이미지의 스타일 뿐만 아니라 content 이미지의 윤곽을 굉장히 잘 살려주는 모델이라고 느껴집니다.
-> <br></br>
+> <br>
 >
 > 아래 3 장의 스타일 이미지를 사용하였습니다.
 > <center>스타일 이미지</center>
@@ -642,42 +642,42 @@ vs.stop()
 > >
 > ><center><figure><img src='./media/48_9.jpg', width=400, height=400></figure></center>
 >
-> <br></br>
+> <br>
 > <center>콘텐트 이미지</center>
 >
 > > <center><figure><img src='./media/48_0.png', width=400, height=400></figure></center>
 >
-> <br></br>
+> <br>
 >
 > <center>결과 이미지 : spiderman with wave</center>
 >
 > > <center><figure><img src='./media/48_1.png', width=400, height=400></figure></center>
 >
-> <br></br>
+> <br>
 >
 > <center>결과 이미지 : spiderman with starry night</center>
 >
 > > <center><figure><img src='./media/48_2.png', width=400, height=400></figure></center>
 >
-> <br></br>
+> <br>
 >
 > <center>결과 이미지 : spiderman with composition_vii</center>
 >
 > > <center><figure><img src='./media/48_3.png', width=400, height=400></center>
 >
 > 스파이더맨의 수트의 선 뿐만 아니라 배경의 모양 윤곽도 잘 살렸습니다.
-> <br></br>
+> <br>
 > 그래서 제 Github 프로필 사진으로도 시도해 보았습니다.
-> <br></br>
+> <br>
 > <center>콘텐트 이미지 : my pic of inside the lift</center>
 >
 > > <center><figure><img src='./media/48_4.jpeg', width=400, height=500></figure></center>
-> <br></br>
+> <br>
 > <center>결과 이미지 : my pic with starry night</center>
 >
 > > <center><figure><img src='./media/48_5.png', width=400, height=500></figure></center>
 >
-> <br></br>
+> <br>
 > <center>결과 이미지 : my pic with composition_vii</center>
 >
 > > <center><figure><img src='./media/48_6.png', width=400, height=500></figure></center>
