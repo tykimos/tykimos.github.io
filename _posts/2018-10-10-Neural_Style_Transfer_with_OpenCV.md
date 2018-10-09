@@ -7,9 +7,11 @@ categories: Lecture
 comments: true
 image: https://camo.githubusercontent.com/13d5f8c3df70bd679a3b0e5a2ea7f50ef347c722/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f7374617469632e7079696d6167657365617263682e636f6d2f6f70656e63762d6e657572616c2d7374796c652f6e657572616c5f7374796c655f7472616e736665725f616e696d6174696f6e2e676966
 ---
-[원문 링크](https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/)
-> 이 문서는 Keras와 OpenCV를 이용해 Neural Style Transfer 하는 방법을 보여줍니다. 많은 예제들이 content 이미지에 style 이미지의 style을 합치지만, 이 튜토리얼에서는 OpenCV를 사용해 이미지 뿐만 아니라 실시간으로 촬영되는 비디오에도 style 이미지의 style을 합칩니다.  
-> 번역자의 부가설명은 `인용구`를 이용해 구분했습니다.
+이 문서는 Keras와 OpenCV를 이용해 Neural Style Transfer 하는 방법을 보여줍니다. 많은 예제들이 content 이미지에 style 이미지의 style을 합치지만, 이 튜토리얼에서는 OpenCV를 사용해 이미지 뿐만 아니라 실시간으로 촬영되는 비디오에도 style 이미지의 style을 합칩니다.  
+
+  번역자의 부가설명은 `인용구`를 이용해 구분했습니다.
+
+[원문 링크](https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/)  
 
 * 케라스
 * Neural Style Transfer

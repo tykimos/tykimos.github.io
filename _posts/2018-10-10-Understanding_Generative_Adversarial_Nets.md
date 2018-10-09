@@ -7,8 +7,9 @@ categories: Lecture
 comments: true
 image: https://github.com/KerasKorea/KEKOxTutorial/blob/master/media/89_2.png
 ---
+이 문서에서는 Generative Adversarial Networks(GANs)의 개념을 설명하고, `MNIST Data`, `Keras`, `Tensorflow`를 이용해 간단한 GANs 모델을 만들어 볼 것입니다. 원문 튜토리얼에 대한 번역자의 부가설명은 `인용구`를 이용해 표현합니다.
+
 [원문링크](https://www.datacamp.com/community/tutorials/generative-adversarial-networks)
-> 이 문서에서는 Generative Adversarial Networks(GANs)의 개념을 설명하고, `MNIST Data`, `Keras`, `Tensorflow`를 이용해 간단한 GANs 모델을 만들어 볼 것입니다. 원문 튜토리얼에 대한 번역자의 부가설명은 `인용구`를 이용해 표현합니다.
 
 * GANs
 * MNIST Data
