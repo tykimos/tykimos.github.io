@@ -632,9 +632,8 @@ style 이미지의 스타일 뿐만 아니라 content 이미지의 윤곽을 굉
 
 아래 3 장의 스타일 이미지를 사용하였습니다.
 <center>스타일 이미지</center>
-
- <center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_7.jpg', width=400, height=400></figure></center>
- <center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_8.jpg', width=400, height=400></figure></center>
+<center><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_7.jpg', width=400, height=400></center>
+<center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_8.jpg', width=400, height=400></figure></center>
 <center><figure><img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_9.jpg', width=400, height=400></figure></center>
 <br>
 <center>콘텐트 이미지</center>
