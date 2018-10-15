@@ -5,7 +5,7 @@ author: 김태영
 date:   2018-10-16 13:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-9-18-ISS_GAN_all_afternoon.jpg
+image: http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_1.gif
 ---
 김윤기님이 만든 시각장애인 안내하는 'AI' 저에게는 많은 의미에서 감동적이었습니다. 사용목적, 열정, 성능, 노력 등등... 
 
