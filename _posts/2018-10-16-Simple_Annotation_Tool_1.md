@@ -3,7 +3,7 @@ layout: post
 title:  "심플 어노테이션 툴 - 첫번째"
 author: 김태영
 date:   2018-10-16 13:00:00
-categories: seminar
+categories: lecture
 comments: true
 image: http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_1.gif
 ---
