@@ -13,7 +13,7 @@ image: http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_ti
 
 소개용 소스코드로 정리하다보니 29줄이 되더군요. 30줄도 안되니 한 번 따라해볼까요? 찬찬히 설명해드리겠습니다. 블로그 글로도 정리했지만 동영상 따라하기를 좋아하시는 분을 위해 녹화도 해봤습니다.
 
-[![video](http://img.youtube.com/vi/BYJ4Nr40Lew/0.jpg)](https://youtu.be/BYJ4Nr40Lew)
+[![video](http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_title.png)](https://youtu.be/BYJ4Nr40Lew)
 
 ---
 ### 폴더 및 파일 구성
