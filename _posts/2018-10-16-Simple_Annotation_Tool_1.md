@@ -206,7 +206,7 @@ for img_file in img_files: # 모든 jpg 파일들 목록에서 jpg 파일명을 
 
 김윤기님의 원래 소스에는 이것보다 좀 더 많은 기능이 들어가 있습니다. 본 강좌에서는 입문하기 부담없을 정도, 그리고 자신감이 생길 정도로 간단한 소스코드와 기능 위주로 작성하였습니다. 따라하기에 성공하셨다면 원 소스를 한 번 살펴보시기 바랍니다~
 
-![img]https://github.com/YoongiKim/Walk-Assistant/raw/master/img/cover.gif
+![img](https://github.com/YoongiKim/Walk-Assistant/raw/master/img/cover.gif)
 
 [https://github.com/YoongiKim/Walk-Assistant/blob/master/annotation.py](https://github.com/YoongiKim/Walk-Assistant/blob/master/annotation.py)
 
