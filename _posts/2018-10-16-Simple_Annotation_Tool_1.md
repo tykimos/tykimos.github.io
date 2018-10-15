@@ -5,13 +5,15 @@ author: 김태영
 date:   2018-10-16 13:00:00
 categories: lecture
 comments: true
-image: http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_1.gif
+image: http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_title.png
 ---
 김윤기님이 만든 시각장애인 안내하는 'AI' 저에게는 많은 의미에서 감동적이었습니다. 사용목적, 열정, 성능, 노력 등등... 그 중에 어노테이션 툴 (라벨링을 하기 위한 툴)을 30분만에 만들었다는 게시물을 보고, 아차 싶었습니다. 딥러닝 적용을 위해 개발자와 도메인 전문가가 협업을 한다고 했을 때, 어노테이션 툴은 개발자의 몫이라고 생각하고 있었거든요. 그 틀이 깨지는 순간이었습니다. 와~ 어노테이션 툴 개발도 도메인 전문가 영역으로 넘길 수 있겠다는 생각이 들더군요. 
 
 ![img](http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_1.gif)
 
 소개용 소스코드로 정리하다보니 29줄이 되더군요. 30줄도 안되니 한 번 따라해볼까요? 찬찬히 설명해드리겠습니다. 블로그 글로도 정리했지만 동영상 따라하기를 좋아하시는 분을 위해 녹화도 해봤습니다.
+
+[![video](http://img.youtube.com/vi/BYJ4Nr40Lew/0.jpg)](https://youtu.be/BYJ4Nr40Lew)
 
 ---
 ### 폴더 및 파일 구성
