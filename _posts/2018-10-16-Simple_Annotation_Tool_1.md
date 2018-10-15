@@ -7,13 +7,11 @@ categories: lecture
 comments: true
 image: http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_1.gif
 ---
-김윤기님이 만든 시각장애인 안내하는 'AI' 저에게는 많은 의미에서 감동적이었습니다. 사용목적, 열정, 성능, 노력 등등... 
+김윤기님이 만든 시각장애인 안내하는 'AI' 저에게는 많은 의미에서 감동적이었습니다. 사용목적, 열정, 성능, 노력 등등... 그 중에 어노테이션 툴 (라벨링을 하기 위한 툴)을 30분만에 만들었다는 게시물을 보고, 아차 싶었습니다. 딥러닝 적용을 위해 개발자와 도메인 전문가가 협업을 한다고 했을 때, 어노테이션 툴은 개발자의 몫이라고 생각하고 있었거든요. 그 틀이 깨지는 순간이었습니다. 와~ 어노테이션 툴 개발도 도메인 전문가 영역으로 넘길 수 있겠다는 생각이 들더군요. 
 
 ![img](http://tykimos.github.io/warehouse/2018-10-16_Simple_Annotation_Tool_1_1.gif)
 
-그 중에 어노테이션 툴 (라벨링을 하기 위한 툴)을 30분만에 만들었다는 게시물을 보고, 아차 싶었습니다. 딥러닝 적용을 위해 개발자와 도메인 전문가가 협업을 한다고 했을 때, 어노테이션 툴은 개발자의 몫이라고 생각하고 있었거든요. 그 틀이 깨지는 순간이었습니다. 와~ 어노테이션 툴 개발도 도메인 전문가 영역으로 넘길 수 있겠다는 생각이 들더군요. 소개용 소스코드로 정리하다보니 29줄이 되더군요. 30줄도 안되니 한 번 따라해볼까요? 찬찬히 설명해드릴께요.
-
-블로그 글로도 정리했지만 동영상 따라하기를 좋아하시는 분을 위해 녹화도 해봤습니다.
+소개용 소스코드로 정리하다보니 29줄이 되더군요. 30줄도 안되니 한 번 따라해볼까요? 찬찬히 설명해드리겠습니다. 블로그 글로도 정리했지만 동영상 따라하기를 좋아하시는 분을 위해 녹화도 해봤습니다.
 
 ---
 ### 폴더 및 파일 구성
@@ -208,7 +206,9 @@ for img_file in img_files: # 모든 jpg 파일들 목록에서 jpg 파일명을 
 
 김윤기님의 원래 소스에는 이것보다 좀 더 많은 기능이 들어가 있습니다. 본 강좌에서는 입문하기 부담없을 정도, 그리고 자신감이 생길 정도로 간단한 소스코드와 기능 위주로 작성하였습니다. 따라하기에 성공하셨다면 원 소스를 한 번 살펴보시기 바랍니다~
 
-![https://github.com/YoongiKim/Walk-Assistant/blob/master/annotation.py](https://github.com/YoongiKim/Walk-Assistant/blob/master/annotation.py)
+![img]https://github.com/YoongiKim/Walk-Assistant/raw/master/img/cover.gif
+
+[https://github.com/YoongiKim/Walk-Assistant/blob/master/annotation.py](https://github.com/YoongiKim/Walk-Assistant/blob/master/annotation.py)
 
 ---
 
