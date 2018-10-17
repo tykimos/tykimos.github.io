@@ -627,12 +627,9 @@ vs.stop()
 <br><br>
 
 Neural Style Transfer 를 실행해보았습니다.
-style 이미지의 스타일 뿐만 아니라 content 이미지의 윤곽을 굉장히 잘 살려주는 모델이라고 느껴집니다.
-<br>
+style 이미지의 스타일 뿐만 아니라 content 이미지의 윤곽을 굉장히 잘 살려주는 모델이라고 느껴집니다.<br>
 
 아래 3 장의 스타일 이미지를 사용하였습니다.
-<center>스타일 이미지</center>
-
 <img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_7.jpg', width='400', height='400'>
 <img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_8.jpg', width='400', height='400'>
 <img src='https://raw.githubusercontent.com/KerasKorea/KEKOxTutorial/master/media/48_9.jpg', width='400', height='400'>
