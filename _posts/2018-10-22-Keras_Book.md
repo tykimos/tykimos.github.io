@@ -5,11 +5,11 @@ author: 김태영
 date:   2018-10-22 00:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-10-22_Keras_Book_title.png
+image: http://tykimos.github.io/warehouse/2018-10-22-Keras_Book_title.png
 ---
 작년에 케라스를 만든 프랑소와 숄레님이 'Deep Learning with Python'이란 책을 집필하였고 한 문장 한 문장 통찰력이 담겨 있어 상당히 감동 받았던 기억이 납니다. 그 책이 이번에 번역되어서 '케라스 창시자에게 배우는 딥러닝'이란 이름으로 출간되었습니다. 번역은 IT 및 머신러닝 분야에 전문 번역가이신 박해선님께서 해주셨습니다. 사실 이 책은 제가 번역을 하고 싶어서 숄레님께 연락을 드려봤을 정도로 의미가 있는 책이라 번역 후기를 부탁하여 들어봤습니다. 출판사는 IT 전문서를 발간하는 길벗입니다.
 
-![img](http://tykimos.github.io/warehouse/2018-10-22_Keras_Book_title.png)
+![img](http://tykimos.github.io/warehouse/2018-10-22-Keras_Book_title.png)
 
 ---
 ### 번역 후기
