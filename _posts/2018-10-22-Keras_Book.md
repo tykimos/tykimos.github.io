@@ -3,7 +3,7 @@ layout: post
 title:  "케라스 창시자에게 배우는 딥러닝 - 도서"
 author: 김태영
 date:   2018-10-22 00:00:00
-categories: lecture
+categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2018-10-22_Keras_Book_title.png
 ---
@@ -41,8 +41,8 @@ image: http://tykimos.github.io/warehouse/2018-10-22_Keras_Book_title.png
 
 원서도 그렇고 번역서도 그렇고 추천을 할 수 있는 책이라 관계자분께 부탁하여 이벤트 도서를 할당받았습니다. 본 도서 증정 이벤트는 총 3군데에서 각 2권씩 증정이 이뤄집니다. 이벤트 신청은 해당 페이스 그룹에 댓글로 남겨주세요. 해당 기간에 댓글을 다셔야 정상적으로 등록됩니다.
 
-* [캐글 코리아](https://www.facebook.com/groups/KaggleKoreaOpenGroup/) 기간 2018/10/22~2018/10/27
-* [AI 프렌즈](https://www.facebook.com/groups/aifriend/) 기간 2018/10/29~2018/11/3
+* [AI 프렌즈](https://www.facebook.com/groups/aifriend/) 기간 2018/10/23~2018/10/27
+* [캐글 코리아](https://www.facebook.com/groups/KaggleKoreaOpenGroup/) 기간 2018/10/29~2018/11/3
 * [대딥사](https://www.facebook.com/groups/ddeeps/) 기간 2018/11/5~2018/11/10
 
 ---
