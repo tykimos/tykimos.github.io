@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2019 천문력"
+title:  "달력은 역시 천문력으로 보는 것이 제 맛 - 2019 천문력"
 author: 김태영
 date:   2019-12-25 00:00:00
 categories: etc
