@@ -23,17 +23,6 @@
 					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스(Keras)</a>
 				</li>			
 			{% endif %}         
-			{% if page.path == "dapps.md" %}
-			<span class="title">
-				<li>
-					<a href="{{ "/dapps" | prepend: site.baseurl }}">댑스(DApps)</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="{{ "/dapps" | prepend: site.baseurl }}">댑스(DApps)</a>
-				</li>			
-			{% endif %}					               
 			{% if page.path == "seminar.md" %}
 			<span class="title">
 				<li>
@@ -48,20 +37,32 @@
 			{% if page.path == "about.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ "/about" | prepend: site.baseurl }}">소개</a>
+					<a href="{{ "/about" | prepend: site.baseurl }}">김태영</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="{{ "/about" | prepend: site.baseurl }}">소개</a>
+					<a href="{{ "/about" | prepend: site.baseurl }}">김태영</a>
 				</li>			
 			{% endif %}			
 				<li>
 					<a href="https://www.facebook.com/groups/KerasKorea/">케라스코리아</a>
 				</li>				            
 				<li>
-					<a href="https://www.facebook.com/groups/DAppsKorea/">댑스코리아</a>
-				</li>				            
+					<a href="https://www.facebook.com/groups/KaggleKoreaOpenGroup/">캐글코리아</a>
+				</li>
+			{% if page.path == "dapps.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/dapps" | prepend: site.baseurl }}">댑스(DApps)</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/dapps" | prepend: site.baseurl }}">댑스(DApps)</a>
+				</li>			
+			{% endif %}					               
+
 		</div>
 		<div class="description"> {{ site.motto }} </div>			
 	</div>
