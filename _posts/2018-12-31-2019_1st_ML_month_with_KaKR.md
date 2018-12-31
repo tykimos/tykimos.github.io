@@ -31,13 +31,17 @@ image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR
 ---
 ### 대회 상세
 
+![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_1.png)
+
 * 주제: 타이타닉 탑승자 정보를 예측하여 타이타닉 생존자 예측하라
 * 대상: 머신, 딥러닝 그리고 데이터 사이언스에 관심있는 누구나
 * 기간: 2019/01/01 00:00 ~ 2019/02/13 23:59 (UTC time 기준)
 * 상: 높은 정확도로 생존을 예측하는 모델을 만든 200명에게, 구글에서 제공하는 티셔츠를 증정합니다.
 * [캐글 대회 바로가기](https://www.kaggle.com/c/2019-1st-ml-month-with-kakr)
 
-![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_1.png)
+이 대회는 구글 코리아가 후원하고 캐글 코리아가 주최하는 대회입니다. 대회 기획 멤버들 입니다. (왼쪽부터 권순선, 이유한, 김태영, 임성혁)
+
+![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_3.png)
 
 ---
 ### 함께 보기
