@@ -48,6 +48,10 @@ image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR
 * [타이타닉 튜토리얼 1부](http://kaggle-kr.tistory.com/17?category=821486)
 * [타이타닉 튜토리얼 2부](http://kaggle-kr.tistory.com/18?category=821486)
     
+전국적으로 오프라인 튜토리얼도 진행됩니다. 아래 링크를 참고하세요!
+
+* [오프라인 튜토리얼 참가 신청](https://docs.google.com/forms/d/e/1FAIpQLScO5MXECnvMlEpSvXLuYuuoq1i8J5PM6cmFaMfPKcvfk_96qw/viewform)
+
 ### 같이 보기
 
 * [캐글 코리아](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
