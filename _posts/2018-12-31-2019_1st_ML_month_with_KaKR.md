@@ -31,7 +31,7 @@ image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR
 ---
 ### 대회 상세
 
-![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_1.png)
+[![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_1.png)](https://www.kaggle.com/c/2019-1st-ml-month-with-kakr)
 
 * 주제: 타이타닉 탑승자 정보를 예측하여 타이타닉 생존자 예측하라
 * 대상: 머신, 딥러닝 그리고 데이터 사이언스에 관심있는 누구나
@@ -41,7 +41,7 @@ image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR
 
 이 대회는 구글 코리아가 후원하고 캐글 코리아가 주최하는 대회입니다. 대회 기획 멤버들 입니다. (왼쪽부터 권순선, 이유한, 김태영, 임성혁)
 
-![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_3.png)
+![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_3.jpg)
 
 ---
 ### 함께 보기
@@ -57,6 +57,8 @@ image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR
 전국적으로 오프라인 튜토리얼도 진행됩니다. 아래 링크를 참고하세요!
 
 * [오프라인 튜토리얼 참가 신청](https://docs.google.com/forms/d/e/1FAIpQLScO5MXECnvMlEpSvXLuYuuoq1i8J5PM6cmFaMfPKcvfk_96qw/viewform)
+
+[![img](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_4.png)](https://docs.google.com/forms/d/e/1FAIpQLScO5MXECnvMlEpSvXLuYuuoq1i8J5PM6cmFaMfPKcvfk_96qw/viewform)
 
 ### 같이 보기
 
