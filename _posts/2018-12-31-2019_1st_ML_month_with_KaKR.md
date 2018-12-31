@@ -19,7 +19,7 @@ image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR
 * 세부적인 코드 리뷰는 못했지만, 데이터 분석 및 학습의 큰 흐름에 대해서 아실 수 있습니다. 
 * 따라하는 사람의 솔직한 심정이 담겨져 있습니다.
 
-[![video](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_title.png)](https://www.youtube.com/watch?v=Eh2hfygb5OE)
+[![video](http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_title.png)](https://youtu.be/Eh2hfygb5OE)
 
 동영상 원본이 필요하신 분은 [이 링크](https://drive.google.com/open?id=1gJc2RznScdslC3VlV8kl1mNx6p7JT2vB)에서 다운로드 받으세요. 용량은 3GB입니다. 
 
