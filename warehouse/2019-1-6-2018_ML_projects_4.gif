@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>vid2vid/teaser.gif at master · NVIDIA/vid2vid · GitHub</title>
+  <title>vid2vid/pose.gif at master · NVIDIA/vid2vid · GitHub</title>
     <meta name="description" content="Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photorealistic video-to-video translation. - NVIDIA/vid2vid">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="872E:8902:A5D78:10BD04:5C318957" data-pjax-transient>
+  <meta name="request-id" content="A73E:8905:97BC1C:E64AC6:5C318D11" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="872E:8902:A5D78:10BD04:5C318957" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="A73E:8905:97BC1C:E64AC6:5C318D11" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,11 +70,11 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZDg0YzAyN2M4Y2E4M2U4MmNjOTBmYjQxOTA2ZTc3NjRlYTMwOThlZTg0YzE1YjgwMGQyZjcyOGZiYjJiNGNlNXx7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjM5LjE1MS4yMTQiLCJyZXF1ZXN0X2lkIjoiODcyRTo4OTAyOkE1RDc4OjEwQkQwNDo1QzMxODk1NyIsInRpbWVzdGFtcCI6MTU0Njc1MDMwNCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="YWM5MjI5ZjMwOWU1ZGNjZmVmMDUyOTVmY2YxMzdiOWRlNWExZjU5ODNiNzhhZTI0MzBkYjU4YzY3ZWM3ZWMzM3x7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjM5LjE1MS4yMTQiLCJyZXF1ZXN0X2lkIjoiQTczRTo4OTA1Ojk3QkMxQzpFNjRBQzY6NUMzMThEMTEiLCJ0aW1lc3RhbXAiOjE1NDY3NTEyNzEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
 
-  <meta name="html-safe-nonce" content="fc553284d080875a28d42ffcffe0b0b9b6de971f">
+  <meta name="html-safe-nonce" content="dda752106dd7d79b14397922836bf647eb3f5950">
 
   <meta http-equiv="x-pjax-version" content="467914139631c32d4c17a30925911944">
   
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="1728152" /><meta name="octolytics-dimension-user_login" content="NVIDIA" /><meta name="octolytics-dimension-repository_id" content="144782044" /><meta name="octolytics-dimension-repository_nwo" content="NVIDIA/vid2vid" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="144782044" /><meta name="octolytics-dimension-repository_network_root_nwo" content="NVIDIA/vid2vid" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/NVIDIA/vid2vid/blob/master/imgs/teaser.gif" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/NVIDIA/vid2vid/blob/master/imgs/pose.gif" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -255,7 +255,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=UtOUkCvyBZtRduBgjmXY2qi2bQU2dtZi/V0pDSVb3peJnBxFWfBLR6JLTaGdkvca0GAgXhxQMM+1QIKw/QRiJA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=rwu3v+POzQfhro13q7MuDSaNLo4hlNj8O2J1ZyWiotO6ZC/TMEWoyggoxyiPaJIr/aRQkc4LyRkl56kYvMtAhQ=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -380,7 +380,7 @@
 
           </div>
 
-        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2FNVIDIA%2Fvid2vid%2Fblob%2Fmaster%2Fimgs%2Fteaser.gif" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2FNVIDIA%2Fvid2vid%2Fblob%2Fmaster%2Fimgs%2Fpose.gif" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
           <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
       </div>
     </div>
@@ -524,14 +524,14 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/NVIDIA/vid2vid/blob/51e823375ead50c9bbe7459dcf0b0caa832fd866/imgs/teaser.gif">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/NVIDIA/vid2vid/blob/51e823375ead50c9bbe7459dcf0b0caa832fd866/imgs/pose.gif">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:0251540bcc443a10f2e77aa70baff62d -->
+    <!-- blob contrib key: blob_contributors:v21:ad31d5027bc93622be048b0116613cfb -->
 
         <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mDO6rAvaYslLo6xsL94Gc12R3I2fe/DD9DFU9ePMTmc2leWYAPzKSJtvK9NUPkJXJRofh8fZCmZXbP3YNSRb/Q==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bH4gpKZZiR5oQh/pgxNF4WuVChvXdmMPDJC8LpHMu6eVAW+RG+8FaHvQZ7JLJeAsRYLNuUHVHozPWGFFGbwEgg==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
@@ -582,7 +582,7 @@
 <div class="select-menu-list" role="tabpanel">
   <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
       <a class="select-menu-item js-navigation-item js-navigation-open selected"
-         href="/NVIDIA/vid2vid/blob/master/imgs/teaser.gif"
+         href="/NVIDIA/vid2vid/blob/master/imgs/pose.gif"
          data-name="master"
          data-skip-pjax="true"
          rel="nofollow">
@@ -621,7 +621,7 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/NVIDIA/vid2vid"><span>vid2vid</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/NVIDIA/vid2vid/tree/master/imgs"><span>imgs</span></a></span><span class="separator">/</span><strong class="final-path">teaser.gif</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/NVIDIA/vid2vid"><span>vid2vid</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/NVIDIA/vid2vid/tree/master/imgs"><span>imgs</span></a></span><span class="separator">/</span><strong class="final-path">pose.gif</strong>
       </div>
     </div>
 
@@ -629,15 +629,15 @@
     
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/NVIDIA/vid2vid/commit/b4c45695429a1507d554423f6f3bc54f0a1fa84b" data-pjax>
-          b4c4569
+        <a class="commit-tease-sha" href="/NVIDIA/vid2vid/commit/43de0368d55dceb7d26889f508e30f6384adafe1" data-pjax>
+          43de036
         </a>
-        <relative-time datetime="2018-08-16T22:59:02Z">Aug 17, 2018</relative-time>
+        <relative-time datetime="2018-12-04T05:39:37Z">Dec 4, 2018</relative-time>
       </span>
       <div>
         <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=5497944" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tcwang0509"><img class="avatar" src="https://avatars0.githubusercontent.com/u/5497944?s=40&amp;v=4" width="20" height="20" alt="@tcwang0509" /></a>
         <a class="user-mention" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=5497944" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tcwang0509">tcwang0509</a>
-          <a data-pjax="true" title="first commit" class="message" href="/NVIDIA/vid2vid/commit/b4c45695429a1507d554423f6f3bc54f0a1fa84b">first commit</a>
+          <a data-pjax="true" title="update readme results" class="message" href="/NVIDIA/vid2vid/commit/43de0368d55dceb7d26889f508e30f6384adafe1">update readme results</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -680,8 +680,8 @@
 
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/NVIDIA/vid2vid/raw/master/imgs/teaser.gif">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/NVIDIA/vid2vid/commits/master/imgs/teaser.gif">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/NVIDIA/vid2vid/raw/master/imgs/pose.gif">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/NVIDIA/vid2vid/commits/master/imgs/pose.gif">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -691,7 +691,7 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/NVIDIA/vid2vid/delete/master/imgs/teaser.gif" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YFmE48JX/j+wlqA/nj5IDAwB7yVgVTHQPjjt23XX81ptagmpIYNpn1V4oJbXw8Cq3w0EIHbDB0kBQp2pKe9hSA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/NVIDIA/vid2vid/delete/master/imgs/pose.gif" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="oEk+jY9ErG23llJAGaYxcNsgvjo23elbmloFiSqVcIuHET2cwfiR1slCEjpdmaNfzsLxX61VzpUr/8W6E+lQhQ==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="You must be signed in to make or propose changes" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -701,7 +701,7 @@
   <div class="file-info">
       <span class="file-mode" title="File mode">executable file</span>
       <span class="file-info-divider"></span>
-    11.3 MB
+    12.2 MB
   </div>
 </div>
 
@@ -709,7 +709,7 @@
 
   <div itemprop="text" class="blob-wrapper data type-text ">
       <div class="image">
-          <span class="border-wrap"><img src="/NVIDIA/vid2vid/blob/master/imgs/teaser.gif?raw=true" alt="teaser.gif"></span>
+          <span class="border-wrap"><img src="/NVIDIA/vid2vid/blob/master/imgs/pose.gif?raw=true" alt="pose.gif"></span>
       </div>
   </div>
 
@@ -741,7 +741,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.17616s from unicorn-574dbf4c74-jcqzs">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.17858s from unicorn-574dbf4c74-dbf6x">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
