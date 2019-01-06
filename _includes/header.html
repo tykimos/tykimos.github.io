@@ -23,6 +23,17 @@
 					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스</a>
 				</li>			
 			{% endif %}         
+			{% if page.path == "kaggle.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/kaggle" | prepend: site.baseurl }}">캐글</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/kaggle" | prepend: site.baseurl }}">캐글</a>
+				</li>			
+			{% endif %}         
 			{% if page.path == "seminar.md" %}
 			<span class="title">
 				<li>
