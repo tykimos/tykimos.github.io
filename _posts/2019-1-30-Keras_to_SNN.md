@@ -7,7 +7,7 @@ categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2019-1-30-Keras_to_SNN_title.png
 ---
-네이처 머신러닝에 등재된 휘스톤 방법을 소개드립니다. 이 방법은 케라스 모델을 부가적인 코드없이 쉽게 Spiking Neural Network로 만들어줍니다.
+신경망은 여러분야에서 탁월한 결과를 내놓곤 있지만 학습 시에 막대한 계산량이 필요하고 사용 시에도 만만치 않기에 좀 더 생물학적인 방법으로 신경망 구성을 하고자하는 노력이 있었고 그러한 신경망을 Spiking Neural Network(SNN)이라 부릅니다. 기존 케라스 모델을 부가적인 코드없이 SNN으로 변환하는 휘스턴 방법이 네이처 머신러닝에 소개되었습니다. 네이처 머신러닝에 등재된 휘스톤 방법을 소개드립니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-1-30-Keras_to_SNN_title.png)
 
