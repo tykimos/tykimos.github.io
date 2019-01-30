@@ -14,7 +14,8 @@ image: http://tykimos.github.io/warehouse/2019-1-30-Keras_to_SNN_title.png
 ---
 ### 참고
 
-* ![네이처 머신러닝 원문](https://www.nature.com/articles/s42256-018-0015-y.epdf?author_access_token=HIFIT_s3XXRdKKF3DTspd9RgN0jAjWel9jnR3ZoTv0P7sMl50Mvxe5hygHWfkIWjiyJe1kEkFLNBiorlpBWGyE5yRNu7SaSa6rWLAwmUPf1dL47QUigBag24erZ3G6Ue-9ZkZNtWzrZVVkxMrGE8eA%3D%3D)
+* [네이처 머신러닝 원문](https://www.nature.com/articles/s42256-018-0015-y.epdf?author_access_token=HIFIT_s3XXRdKKF3DTspd9RgN0jAjWel9jnR3ZoTv0P7sMl50Mvxe5hygHWfkIWjiyJe1kEkFLNBiorlpBWGyE5yRNu7SaSa6rWLAwmUPf1dL47QUigBag24erZ3G6Ue-9ZkZNtWzrZVVkxMrGE8eA%3D%3D)
+* [Spiking Neural Networks 소개](https://m.blog.naver.com/bootpay/221185232352)
 
 ---
 ### 같이 보기
