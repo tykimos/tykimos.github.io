@@ -7,7 +7,7 @@ categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_title.png
 ---
-케라스 사용자라면 케라스 공식 문서 사이트([https://keras.io/](https://keras.io/) 를 한 번 쯤은 방문하셨을 겁니다. 이 사이트에 들어가면 가장 반가운 글귀가 있죠. 바로... "You have just found Keras." 입니다.
+케라스 사용자라면 케라스 공식 문서 사이트([https://keras.io/](https://keras.io) 를 한 번 쯤은 방문하셨을 겁니다. 이 사이트에 들어가면 가장 반가운 글귀가 있죠. 바로... "You have just found Keras." 입니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_1.png)
 
