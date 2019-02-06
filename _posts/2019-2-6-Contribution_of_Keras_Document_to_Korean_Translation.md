@@ -7,17 +7,19 @@ categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_title.png
 ---
-케라스 사용자라면 케라스 공식 문서 사이트를 한 번 쯤은 방문하셨을 겁니다. 제가 
+케라스 사용자라면 케라스 공식 문서 사이트([https://keras.io/](https://keras.io/) 를 한 번 쯤은 방문하셨을 겁니다. 이 사이트에 들어가면 가장 반가운 글귀가 있죠. 바로... "You have just found Keras." 입니다.
 
-    You have just found Keras.
+![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_1.png)
 
-https://keras.io/
+늘 들어갈 때마다 만약 한글 문서가 있다면 정말 좋겠다는 생각이 있었는데, 이번에 프랑소와 쏠례님께 부탁하여 한국어 번역을 위한 리포지터리를 하나 만들었습니다.  
 
-현재 한글화가 필요한 모든 문서들은 위 레포의 sources폴더 안에 원문으로 저장되어 있으며, 작업은 Github의 Pull Request단위로 이루어질 예정입니다. 작업은 수시로 진행 예정이며, 정해진 기간은 없으나 많은 분들이 참여해 주신다면 수개월 내로 끝낼 수 있지 않을까 생각합니다. 위 문서들을 번역한 후 해당 내용을 PR로 만들어 올려주시면, 저와 태영님이 리뷰 및 필요하다면 수정 후 반영할 예정입니다.
+* [한국어 번역 리포지터리](https://github.com/keras-team/keras-docs-ko/)
+
+현재 한글화가 필요한 모든 문서들은 위 리포지터리의 sources폴더 안에 원문으로 저장되어 있으며, 작업은 Github의 Pull Request단위로 이루어질 예정입니다. 작업은 수시로 진행 예정이며, 정해진 기간은 없으나 많은 분들이 참여해 주신다면 수개월 내로 끝낼 수 있지 않을까 생각합니다. 위 문서들을 번역한 후 해당 내용을 PR로 만들어 올려주시면, 케라스 코리아의 정연준님과 김태영님이 리뷰 및 필요하다면 수정 후 반영할 예정입니다.
 
 [![video](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_title.png)](https://youtu.be/FB3aU__zFfU)
 
-![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_1.png)
+번역에 많이 참여하신 분들은 아래와 같이 기여 정도를 확인할 수 있습니다. 많이 기여하신 분들께 뭔가 드려야 하는데...
 
 ![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_2.png)
 
@@ -29,7 +31,9 @@ https://keras.io/
 * [일본어 번역](https://github.com/keras-team/keras-docs-ja/pulls?q=is%3Apr+is%3Aclosed)
 * [중국어 번역](https://github.com/keras-team/keras-docs-zh/pulls?q=is%3Apr+is%3Aclosed)
 
-많은 분들과 함께해 모두 컨트리뷰터가 된다면 좋을 것 같습니다 ~.~
+많은 분들과 함께해 모두 컨트리뷰터가 된다면 좋을 것 같습니다. 케라스 공식 문서 한글 번역 컨트리뷰션 운영은 정연준님이 할 예정입니다. 관련 문의가 있으신 분은 연락주세요~
+
+* [정연준님 프로필보기](https://www.facebook.com/younjoon.chung)
 
 ---
 ### 같이 보기
