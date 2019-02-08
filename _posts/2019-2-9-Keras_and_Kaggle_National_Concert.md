@@ -1,42 +1,60 @@
 ---
 layout: post
-title:  "케라스 공식 문서 한글번역 참여방법"
-author: 정연준, 김태영
-date:   2019-02-06 00:00:00
+title:  "케라스 & 캐글 전국콘서트"
+author: 김태영
+date:   2019-02-09 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_title.png
+image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title.png
 ---
-케라스 사용자라면 케라스 공식 문서 사이트([https://keras.io/](https://keras.io) 를 한 번 쯤은 방문하셨을 겁니다. 이 사이트에 들어가면 가장 반가운 글귀가 있죠. 바로... "You have just found Keras." 입니다.
+요즘 인공지능 기술이 여러분야에서 각광받고 있는 가운데, 머신러닝/딥러닝 모델 개발 및 데이터 분석 기술의 중요성이 커지고 있습니다. 관심은 있지만 아직 시작하시지 않았거나 이제 막 입문하시는 분들에게 딥러닝 모델과 데이터 분석 기술을 손에 쥐어드릴 수 있도록 케라스 코리아와 캐글 코리아 운영자가 직접 케라스 및 캐글을 전국적으로 소개하고자 합니다.
 
-![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_1.png)
-
-늘 들어갈 때마다 만약 한글 문서가 있다면 정말 좋겠다는 생각이 있었는데, 이번에 프랑소와 쏠례님께 부탁하여 한국어 번역을 위한 리포지터리를 하나 만들었습니다.  
-
-* [한국어 번역 리포지터리](https://github.com/keras-team/keras-docs-ko/)
-
-현재 한글화가 필요한 모든 문서들은 위 리포지터리의 sources폴더 안에 원문으로 저장되어 있으며, 작업은 Github의 Pull Request단위로 이루어질 예정입니다. 작업은 수시로 진행 예정이며, 정해진 기간은 없으나 많은 분들이 참여해 주신다면 수개월 내로 끝낼 수 있지 않을까 생각합니다. 위 문서들을 번역한 후 해당 내용을 PR로 만들어 올려주시면, 케라스 코리아의 정연준님과 김태영님이 리뷰 및 필요하다면 수정 후 반영할 예정입니다.
-
-[![video](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_title.png)](https://youtu.be/FB3aU__zFfU)
-
-번역에 많이 참여하신 분들은 아래와 같이 기여 정도를 확인할 수 있습니다. 많이 기여하신 분들께 뭔가 드려야 하는데...
-
-![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_2.png)
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title.png)
 
 ---
-### 작성 참고사항
+### 프로그램
 
-하나의 PR에 해당하는 작업 분량은 정해진 것이 없습니다. 한 문장 혹은 파일 전체를 번역한 것일 수도, 아니면 단순히 오타를 수정한 것일 수도 있지만, 분량이 많을 수록 리뷰 기간이 길어질 수 있습니다. PR과 리뷰 과정의 예시는 앞서 진행된 일본/중국어 번역 작업들을 참조하시면 좋을 것 같습니다.
-
-* [일본어 번역](https://github.com/keras-team/keras-docs-ja/pulls?q=is%3Apr+is%3Aclosed)
-* [중국어 번역](https://github.com/keras-team/keras-docs-zh/pulls?q=is%3Apr+is%3Aclosed)
-
-많은 분들과 함께해 모두 컨트리뷰터가 된다면 좋을 것 같습니다. 케라스 공식 문서 한글 번역 컨트리뷰션 운영은 정연준님이 할 예정입니다. 관련 문의가 있으신 분은 연락주세요~
-
-* [정연준님 프로필보기](https://www.facebook.com/younjoon.chung)
+|시간|주제|내용|
+|-|-|-|
+|20분|케라스 및 캐글 소개|프로그램 소개 및 캐라스와 캐글이 무엇인지 알아봅니다.|
+|40분|케라스 시작하기|딥러닝 개념과 케라스 코드를 살펴보고, 간단한 MLP, CNN, GAN를 시연해봅니다.|
+|10분|휴식|스트레칭|
+|40분|캐글 시작하기|데이터 분석 방법, 캐글 사용법, 여러가지 팁에 대해서 알아봅니다.|
+|10분|휴식|명상하기|
+|15분|케라스를 함께 즐기는 법|오픈 커뮤니티, 블로그, 페이스북, 단톡방 등을 이용해서 함께 케라스를 즐기는 법을 알아봅니다.|
+|15분|캐글을 함께 즐기는 법|오픈 커뮤니티, 블로그, 페이스북, 단톡방 등을 이용해서 캐글을 즐기고 진행 중인 대회에 참여하는 법도 알아봅니다.|
+|30분|함께 소통하기|케라스와 캐글에 대한 FAQ에 대해 살펴보고 참가자분들과 질의응답하면서 소통시간을 가집니다.|
 
 ---
-### 같이 보기
+### 진행
 
+|구분|소개|
+|-|-|
+|![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_tykimos.jpg)|김태영, 케라스 코리아 운영자, (주)인스페이스<br><br>비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다.|
+|![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh.jpg)|이유한, 캐글 코리아 운영자, 카이스트  박사과정<br><br>[딥러닝심기 캐글소개]<br><br>캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다.|
+
+#### 주최/주관 
+* 케라스 코리아
+* 캐글 코리아
+
+#### 후원
+* (주)인스페이스
+* 구글 코리아
+* 대전테크노파크
+
+---
+### 스케줄
+
+#### 1차
+|지역|날짜|시간|장소|
+|서울|2/14(목)|오후 6시 ~ 9시|구글 코리아(역삼동, 130명)|
+|대전|2/20(수)|오후 2시 ~ 5시|대전테크노파크(유성구, 110명)|
+
+#### 2차 - 제주, 대구, 광주, 부산, 경기, 강원 등
+: 수요 및 장소 섭외에 따라 추진 예정
+
+---
+### 같이보기
 * [케라스 기초 강좌](https://tykimos.github.io/lecture/)
 * [케라스 코리아](https://www.facebook.com/groups/KerasKorea/)
+* [캐글 코리아](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
