@@ -56,6 +56,5 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 
 ---
 ### 같이보기
-* [케라스 기초 강좌](https://tykimos.github.io/lecture/)
 * [케라스 코리아](https://www.facebook.com/groups/KerasKorea/)
 * [캐글 코리아](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
