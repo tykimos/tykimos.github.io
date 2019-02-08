@@ -19,9 +19,15 @@ image: http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Documen
 
 [![video](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_title.png)](https://youtu.be/FB3aU__zFfU)
 
-번역에 많이 참여하신 분들은 아래와 같이 기여 정도를 확인할 수 있습니다. 많이 기여하신 분들께 뭔가 드려야 하는데...
+번역에 많이 참여하신 분들은 아래와 같이 기여 정도를 확인할 수 있습니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-2-6-Contribution_of_Keras_Document_to_Korean_Translation_2.png)
+
+---
+### 기여를 많이 해주시는 분께
+2월에서 4월까지 석달간 기여도가 높은 세 분을 선정해서 구글 코리아에서 제공하는 텐서플로우 공식 티셔츠를 선물로 드리겠습니다. 단 이전 달에 이미 받으신 분은 추가로 받지 못하고 다음 순위의 분께 드리도록 하겠습니다. 
+  
+    `본 프로그램의 구글 코리아의 후원을 받고 있습니다.
 
 ---
 ### 작성 참고사항
