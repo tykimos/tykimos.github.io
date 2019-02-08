@@ -5,11 +5,11 @@ author: 김태영
 date:   2019-02-09 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title.png
+image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title_1.png
 ---
 요즘 인공지능 기술이 여러분야에서 각광받고 있는 가운데, 머신러닝/딥러닝 모델 개발 및 데이터 분석 기술의 중요성이 커지고 있습니다. 관심은 있지만 아직 시작하시지 않았거나 이제 막 입문하시는 분들에게 딥러닝 모델과 데이터 분석 기술을 손에 쥐어드릴 수 있도록 케라스 코리아와 캐글 코리아 운영자가 직접 케라스 및 캐글을 전국적으로 소개하고자 합니다.
 
-![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title.png)
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title_1.png)
 
 ---
 ### 프로그램
