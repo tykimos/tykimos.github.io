@@ -43,9 +43,9 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 * 대전테크노파크
 
 ---
-### 스케줄 및 신청
+### 스케줄
+#### 1차 - 서울, 대전
 
-#### 1차
 |지역|날짜|시간|장소|
 |-|-|-|-|
 |서울|2/14(목)|오후 6시 ~ 9시|구글 코리아(역삼동, 130명)|
@@ -59,7 +59,6 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 
 ---
 ### 신청
-
 아래 링크에서 신청해주세요~ 장소별로 수용인원이 정해져 있어서 선착순 마감입니다.
 
 [신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)
