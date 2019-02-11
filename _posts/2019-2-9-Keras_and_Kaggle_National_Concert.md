@@ -5,11 +5,11 @@ author: 김태영
 date:   2019-02-09 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title_3.png
+image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title_4.png
 ---
 요즘 인공지능 기술이 여러분야에서 각광받고 있는 가운데, 머신러닝/딥러닝 모델 개발 및 데이터 분석 기술의 중요성이 커지고 있습니다. 관심은 있지만 아직 시작하시지 않았거나 이제 막 입문하시는 분들에게 딥러닝 모델과 데이터 분석 기술을 손에 쥐어드릴 수 있도록 케라스 코리아와 캐글 코리아 운영자가 직접 케라스 및 캐글을 전국적으로 소개하고자 합니다.
 
-![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title_3.png)
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_title_4.png)
 
 #### 케라스란?
 
@@ -40,7 +40,7 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 |구분|소개|
 |-|-|
 |![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_tykimos.jpg)|김태영, 케라스 코리아 운영자, (주)인스페이스<br><br>비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다.|
-|![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh.jpg)|이유한, 캐글 코리아 운영자, 카이스트  박사과정<br><br>[딥러닝심기 캐글소개]<br><br>캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다.|
+|![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh.jpg)|이유한, 캐글 코리아 운영자, 카이스트  박사과정<br><br>캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다.|
 
 #### 주최/주관 
 * 케라스 코리아
