@@ -83,6 +83,12 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 * [신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)
 
 ---
+### 콘서트 관련 질답
+
+* Q: 노트북이 필요한가요? A: 실습이 필요한 부분은 발표자 시연으로 이뤄집니다. 따라서 별도의 노트북은 필요없습니다. 
+* Q: 케라스 공식 문서 번역은 어떻게 참여하나요? A: [케라스 공식 문서 한글번역 참여방법](https://tykimos.github.io/2019/02/06/Contribution_of_Keras_Document_to_Korean_Translation/) 페이지를 참고하세요.
+
+---
 ### 같이보기
 * [케라스 코리아](https://www.facebook.com/groups/KerasKorea/)
 * [캐글 코리아](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
