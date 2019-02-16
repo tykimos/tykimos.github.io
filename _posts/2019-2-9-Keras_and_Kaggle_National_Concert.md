@@ -42,6 +42,15 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 |![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_tykimos.jpg)|김태영, 케라스 코리아 운영자, (주)인스페이스<br><br>비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다.|
 |![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh.jpg)|이유한, 캐글 코리아 운영자, 카이스트  박사과정<br><br>캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다.|
 
+#### 발표자료
+
+* [케라스 이야기](https://drive.google.com/open?id=1sjtsRf0cYFb7-fj67TIjyCjDzbLj4vy-IeyOcT0vsgQ)
+* [딥러닝 이야기](https://drive.google.com/open?id=10L4PSBHrQLblbaPLTPnDTxBRJj_8y-KSyp6v8Ams5oY)
+* [레이어 이야기](https://drive.google.com/open?id=1TzHwAfEQlHDscYiOEO3EJ6dJBE6rrwkjFDYk3n0fRm0)
+* [생성 모델 이야기](https://drive.google.com/open?id=14poDITwyidWbwZQh08FAh2F5fsLWN1s8YRCZXp2FOoo)
+* [함께 공부해서 함께 나눕시다. 캐글 코리아](https://drive.google.com/open?id=1hUpqatYVmpUJ2q1_l-xGBQ9-lRQUNRT-AhULt9RqhyE)
+
+
 #### 주최/주관 
 * 케라스 코리아
 * 캐글 코리아
@@ -58,7 +67,7 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 
 |지역|날짜|시간|장소|
 |-|-|-|-|
-|서울|2/14(목)|오후 6시 ~ 9시|구글 코리아(역삼동, 130명)|
+|서울|2/14(목)|오후 6시 ~ 9시|구글 코리아(역삼동, 160명)|
 |대전|2/20(수)|오후 2시 ~ 5시|대전테크노파크(유성구, 110명)|
 
 * 서울 구글 코리아 상세 주소 : 서울 강남 테헤란로 152 강남파이낸스센터 22층 구글코리아 - 저녁시간이라 구글 코리아에서 간단한 간식(샌드위치 등)이 제공될 예정입니다. 
@@ -71,7 +80,7 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 ### 신청
 아래 링크에서 신청해주세요~ 장소별로 수용인원이 정해져 있어서 선착순 마감입니다.
 
-[신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)
+* [신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)
 
 ---
 ### 같이보기
