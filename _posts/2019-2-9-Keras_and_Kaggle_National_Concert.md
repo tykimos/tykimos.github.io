@@ -80,8 +80,8 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 ### 신청
 아래 링크에서 신청해주세요~ 장소별로 수용인원이 정해져 있어서 선착순 마감입니다.
 
-* 서울, 2/14(목), [마감]
-* 대전, 2/20(수), [마감]
+* 서울, 2/14(목) [마감]
+* 대전, 2/20(수) [마감]
 * [신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)
 
 ---
