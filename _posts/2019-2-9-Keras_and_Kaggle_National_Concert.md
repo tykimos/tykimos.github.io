@@ -48,7 +48,8 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 * [딥러닝 이야기](https://drive.google.com/open?id=10L4PSBHrQLblbaPLTPnDTxBRJj_8y-KSyp6v8Ams5oY)
 * [레이어 이야기](https://drive.google.com/open?id=1TzHwAfEQlHDscYiOEO3EJ6dJBE6rrwkjFDYk3n0fRm0)
 * [생성 모델 이야기](https://drive.google.com/open?id=14poDITwyidWbwZQh08FAh2F5fsLWN1s8YRCZXp2FOoo)
-* [함께 공부해서 함께 나눕시다. 캐글 코리아](https://drive.google.com/open?id=1hUpqatYVmpUJ2q1_l-xGBQ9-lRQUNRT-AhULt9RqhyE)
+* [케라스 코리아 - 모두의 손에 딥러닝 툴을...](https://drive.google.com/open?id=1YcpkJJGe9s7Y1vzAQeGP7gqHGb4W0hNa1etfUIY8uzU)
+* [캐글 코리아 - 함께 공부해서 함께 나눕시다.](https://drive.google.com/open?id=1hUpqatYVmpUJ2q1_l-xGBQ9-lRQUNRT-AhULt9RqhyE)
 
 
 #### 주최/주관 
