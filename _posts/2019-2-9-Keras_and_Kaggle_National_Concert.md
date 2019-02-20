@@ -96,9 +96,11 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 * [케라스 코리아 단톡방](https://open.kakao.com/o/g93MSBV)
 * [케라스 코리아 블로그](http://keraskorea.github.io)
 * [케라스 공식 문서 한글번역 참여방법](https://tykimos.github.io/2019/02/06/Contribution_of_Keras_Document_to_Korean_Translation/)
+* [김태영 페북 프로필](https://web.facebook.com/tykimo) - 케코와 함께하시고 싶은 분은 연락주세요.
 
 ---
 ### 캐글 코리아 커뮤니티 함께하기
 * [캐글 코리아 페북](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
 * [캐글 코리아 단톡방](https://open.kakao.com/o/gP24T89)
 * [캐글 코리아 블로그](https://kaggle-kr.tistory.com/)
+* [이유한 페북 프로필](https://web.facebook.com/youhan.lee.33o), [강천성 페북 프로필](https://web.facebook.com/profile.php?id=100007162502644) - 캐코와 함께하시고 싶은 분은 연락주세요.
