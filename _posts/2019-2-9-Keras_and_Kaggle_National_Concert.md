@@ -92,7 +92,7 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 ---
 ### 케라스 코리아 커뮤니티 함께하기
 * [케라스 코리아 페북](https://www.facebook.com/groups/KerasKorea/)
-* [케라스 코리아 슬랙 초대](https://join.slack.com/t/keraskorea/shared_invite/enQtNTUzMTUxMzIyMzg4LWQ3YmQ1YTdmNTYxOTAwZTExNmFmOGM3M2QyMjIyNzYwYTY2YTY2ZjBlNDNlZDdmMTU0NGVjYzFkMWYxNzE0ZDA
+* [케라스 코리아 슬랙 초대](https://join.slack.com/t/keraskorea/shared_invite/enQtNTUzMTUxMzIyMzg4LWQ3YmQ1YTdmNTYxOTAwZTExNmFmOGM3M2QyMjIyNzYwYTY2YTY2ZjBlNDNlZDdmMTU0NGVjYzFkMWYxNzE0ZDA)
 * [케라스 코리아 단톡방](https://open.kakao.com/o/g93MSBV)
 * [케라스 코리아 블로그](http://keraskorea.github.io)
 * [케라스 공식 문서 한글번역 참여방법](https://tykimos.github.io/2019/02/06/Contribution_of_Keras_Document_to_Korean_Translation/)
