@@ -26,12 +26,10 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 ---
 ### 케라스 코리아와 함께하기(운영진)
 
-#### 연사소개
-
-#### 발표소개
+#### 소개
 
 #### 참고
-* 발표자료
+* [발표자료](https://docs.google.com/presentation/d/1YcpkJJGe9s7Y1vzAQeGP7gqHGb4W0hNa1etfUIY8uzU)
 
 ---
 ### 카드 문양 바꾸기 마술(김태영)
@@ -43,7 +41,7 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 센싱 데이터나 이미지를 다루는 분야에서 실제적으로 많이 활용할 수 있는 이미지 변환 모델에 대해서 알아봅니다. 이를 위해 딥러닝 모델, 학습 과정 등 기초적인 것부터 CNN 및 GAN, Conditional GAN, Pix2Pix까지 블록 및 레고사람을 비유하여 손쉽게 개념을 익히고 간결한 케라스 코드를 보면서 어떻게 구현되었는 지 살펴봅니다. 이 모델을 기반으로 카드 문양 마술로 프로토타이핑을 한 것과 인류가 지금 껏 보지 못했던 태양 후면의 자기장 영상을 생성하는데 실제 적용한 사례까지 살펴보겠습니다. 시계열 고해상도 이미지에 최적화된 Vid2Vid 모델도 간단히 살펴보겠습니다.
 
 #### 참고
-* 발표자료
+* [발표자료](https://docs.google.com/presentation/d/11Nw_eGQpDWSNXZ6z5OzyQ9MjU_1n_ScWDIWNGi7ZDKs)
 
 ---
 ### 이상한 폰트나라으로 뛰어들기 마술(황준원)
@@ -55,7 +53,7 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 발표 주제는 “이상한 폰트 세계로 뛰어들기 마술” 입니다. 제가 인턴을 하며 진행했던 프로젝트가 폰트를 생성하는 문제를 다뤘고, 이에 제가 프로젝트를 진행하며 주로 사용했던 기술과 오픈소스 프로젝트들을 소개하는 자리를 가지려고 합니다. 가장 먼저 폰트, 서체의 간단한 설명과 왜 서체 제작이 어렵고 노력이 많이 드는지를 알아본 후에, Word2Vec과 비슷한 방식의 Font2Vec과 그 원리를 설명하려 합니다. 이후 Autoencoder를 활용한 Embedding 기법과 그 결과를 시각화하는 방법을 소개하고, 끝으로 폰트를 생성하는 프로젝트에서 제가 많이 참고했고, 또 기술적으로나 결과로나 멋진 “zi2zi” 프로젝트를 소개하려 합니다. 컴퓨터비전 분야의 발표로 무엇을 할까 고민을 많이 했지만, 제가 직접 해봤던 내용을 보여드리는 게 좋을 것 같아 Autoencoder 내용 위주로 구성하게 되었습니다. 참여한 여러분들이 Autoencoder의 놀라움과 그 능력을 경험하고 가셨으면 좋겠습니다. 
 
 #### 참고
-* 발표자료
+* [발표자료](https://docs.google.com/presentation/d/1qdFDWWAa69Zlb7sYJmmk7RTKAzbuF3xe1N-N6msB_2w)
 
 ### 폰으로 손글씨 알아 맞추기 마술(전미정)
 
