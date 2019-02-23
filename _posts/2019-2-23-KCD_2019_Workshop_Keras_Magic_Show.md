@@ -5,11 +5,11 @@ author: 김태영
 date:   2019-02-23 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magic_Show_title.png
+image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magic_Show_title_1.png
 ---
 2019년 2월 23일(토) 대한민국 최대 규모의 커뮤니티 소통의 장인 KCD(Korea Community Day) 2019 워크숍에서 케라스 마술쇼를 선보이게 되었습니다. 
 
-![img](http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magic_Show_title.png)
+![img](http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magic_Show_title_1.png)
 
 ---
 ### 프로그램
@@ -26,7 +26,15 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 ---
 ### 케라스 코리아와 함께하기(운영진)
 
-#### 소개
+#### 연사소개
+* 김태영님 : 케라스 코리아 커뮤니티 총괄입니다.
+* 전미정님 : 케라스 코리아에서 블로그 운영 및 컨트리뷰팅 관리를 담당하고 있습니다.
+* 황준원님 : 케라스 코리아 단톡방 운영을 담당하고 있습니다. 
+* 정연준님 : 케라스 코리아에서 케라스 공식 문서 한글화 관리를 담당하고 있습니다.
+* 이유한님 : 캐글 코리아 운영자이시며 특별히 모셨습니다.
+
+#### 발표소개
+케라스 코리아와 함께 케라스를 즐기기 위해서 오픈 커뮤니티, 블로그, 페이스북, 단톡방 등을 이용하는 방법에 대해서 알아봅니다.
 
 #### 참고
 * [발표자료](https://docs.google.com/presentation/d/1YcpkJJGe9s7Y1vzAQeGP7gqHGb4W0hNa1etfUIY8uzU)
@@ -35,7 +43,7 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 ### 카드 문양 바꾸기 마술(김태영)
 
 #### 연사소개
-비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다.
+비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다. [페북 프로필](https://web.facebook.com/tykimo)
 
 #### 발표소개
 센싱 데이터나 이미지를 다루는 분야에서 실제적으로 많이 활용할 수 있는 이미지 변환 모델에 대해서 알아봅니다. 이를 위해 딥러닝 모델, 학습 과정 등 기초적인 것부터 CNN 및 GAN, Conditional GAN, Pix2Pix까지 블록 및 레고사람을 비유하여 손쉽게 개념을 익히고 간결한 케라스 코드를 보면서 어떻게 구현되었는 지 살펴봅니다. 이 모델을 기반으로 카드 문양 마술로 프로토타이핑을 한 것과 인류가 지금 껏 보지 못했던 태양 후면의 자기장 영상을 생성하는데 실제 적용한 사례까지 살펴보겠습니다. 시계열 고해상도 이미지에 최적화된 Vid2Vid 모델도 간단히 살펴보겠습니다.
@@ -82,11 +90,13 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 ### 캐글 보물상자 열기(이유한)
 
 #### 연사소개
+캐글 코리아 운영자, 카이스트 박사과정이며 캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다. [페북 프로필](https://web.facebook.com/youhan.lee.33o)
 
 #### 발표소개
+캐글을 소개하고 오픈 커뮤니티인 캐글 코리아의 블로그, 페이스북, 단톡방 이용하는 방법과 전국적으로 이뤄지고 있는 스터디 및 대회에 대해 소개합니다.
 
 #### 참고
-* 발표자료
+* [발표자료](https://drive.google.com/open?id=1hUpqatYVmpUJ2q1_l-xGBQ9-lRQUNRT-AhULt9RqhyE)
 
 ---
 ### 신청
@@ -97,5 +107,9 @@ KCD 2019에서는 케라스 코리아 커뮤니티 말고도 국내에서 활발
 ---
 ### 같이 보기
 
+* [케라스 코리아 페북](https://www.facebook.com/groups/KerasKorea/)
+* [케라스 코리아 슬랙 초대](https://join.slack.com/t/keraskorea/shared_invite/enQtNTUzMTUxMzIyMzg4LWQ3YmQ1YTdmNTYxOTAwZTExNmFmOGM3M2QyMjIyNzYwYTY2YTY2ZjBlNDNlZDdmMTU0NGVjYzFkMWYxNzE0ZDA)
+* [케라스 코리아 단톡방](https://open.kakao.com/o/g93MSBV)
+* [케라스 코리아 블로그](http://keraskorea.github.io)
+* [케라스 공식 문서 한글번역 참여방법](https://tykimos.github.io/2019/02/06/Contribution_of_Keras_Document_to_Korean_Translation/)
 * [케라스 기초 강좌](https://tykimos.github.io/lecture/)
-* [케라스 코리아](https://www.facebook.com/groups/KerasKorea/)
