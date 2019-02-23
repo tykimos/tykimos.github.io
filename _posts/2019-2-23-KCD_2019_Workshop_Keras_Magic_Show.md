@@ -84,7 +84,7 @@ image: http://tykimos.github.io/warehouse/2019-2-23-KCD_2019_Workshop_Keras_Magi
 이번 발표 주제는 많은 사람들이 어려움을 겪고있는 “띄어쓰기”입니다. 최근 문서 번역 프로젝트를 진행하면서 띄어쓰기에 대한 가이드라인을 제시할 방법이 필요하다는 것을 느껴, 이를 딥러닝으로 해결해보고자 하는 과정을 소개해드리려 합니다. 데이터 전처리부터 모델 설계와 구현, 학습까지의 과정을 코드와 함께 살펴보며 케라스와 함께라면 누구나 쉽게 아이디어를 현실로 만들 수 있다는 것을 느낄 수 있는 자리가 되면 좋겠습니다🙂
 
 #### 참고
-* 발표자료
+* [발표자료](https://docs.google.com/presentation/d/1UZI158rtQXE778aukKo3Cno7i_RHDaMDfTpKiCjJ1dk/edit?usp=sharing)
 
 ---
 ### 캐글 보물상자 열기(이유한)
