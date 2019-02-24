@@ -104,3 +104,38 @@ image: http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Con
 * [캐글 코리아 단톡방](https://open.kakao.com/o/gP24T89)
 * [캐글 코리아 블로그](https://kaggle-kr.tistory.com/)
 * [이유한 페북 프로필](https://web.facebook.com/youhan.lee.33o), [강천성 페북 프로필](https://web.facebook.com/profile.php?id=100007162502644) - 캐코와 함께하시고 싶은 분은 연락주세요.
+
+---
+### 후기
+
+#### 2/14 서울, 구글 코리아
+
+구글 코리아 본사에서 가장 큰 공간인 식당을 빌려서 행사를 진행했습니다. 구글 코리아 권순선님의 인사로 행사를 시작했습니다.
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_s1.jpg)
+
+제 강의에선 레고 블록 및 사람이 빠질 수 없죠. 요즘엔 딥러닝 모델의 학습 원리를 레고 사람에 비유를 많이 한답니다.
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_s2.jpg)
+
+이유한님의 캐글 소개를 시작합니다~ 이유한님의 팬들과 평소 캐글에 관심이 많은 분들과 함께 즐거운 소통을 했습니다. 
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_s3.jpg)
+
+발렌타인 데이임에도 불구하고 많은 분들이 오셔서 즐겁게 콘서트를 즐기다 갔습니다. 내년에는 아예 발렌타인 이벤트로 진행을 해볼까도 생각이 드네요.
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_s4.jpg)
+
+#### 2/20 대전, 대전테크노파크
+
+케라스 코리아와 캐글 코리아의 운영자의 거주지가 대전인 만큼 대한민국의 "중앙"에서 두 번째 행사를 열었습니다. 캐글 코리아의 강천성님도 자리를 함께 해주셔서 커뮤니티 활동에 대해서 멋지게 발표해주셨습니다. 
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_d2.jpg)
+
+대전 콘서트는 주중 오후 시간대임에도 불구하고 많은 분들이 오셔서 함께 즐거운 시간을 보냈습니다. 역시나 자리가 좀 부족해서 서서 들으시는 분들도 계셨습니다.
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_d3.jpg)
+
+콘서트를 마치고 현수막 앞에서 기념 촬영을 했습니다. 후원해주신 (주)인스페이스, 구글 코리아, 대전테크노파크 관계자분들께 감사하다는 말씀을 다시 드리고 싶습니다.
+
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_d4.jpg)
