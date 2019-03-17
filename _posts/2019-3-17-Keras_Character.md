@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "KCD 2019 워크숍 - 케라스 마술쇼"
+title:  "케라스 스티커"
 author: 김태영
 date:   2019-02-23 00:00:00
 categories: etc
