@@ -18,7 +18,7 @@ image: http://tykimos.github.io/warehouse/2019-3-17-Keras_Character_title.png
 
 제가 찍은 것과 프랑소와 쏠레님이 찍은 것 올려봅니다. 예쁘군요~
 
-![img](http://tykimos.github.io/warehouse/2019-3-17-Keras_Character_keras_sticker_real.jpg)
+![img](http://tykimos.github.io/warehouse/2019-3-17-Keras_Character_keras_sticker_real.png)
 
 ---
 ### 원본
