@@ -38,9 +38,17 @@ https://docs.google.com/presentation/d/1X2hB6BiudfeMgaOvAeOPtY-zwZMiJUleZyGyo5Qj
 ---
 ### 같이 보기
 
+#### 케라스 코리아 커뮤니티
+
 * [케라스 코리아 페북](https://www.facebook.com/groups/KerasKorea/)
 * [케라스 코리아 슬랙 초대](https://join.slack.com/t/keraskorea/shared_invite/enQtNTUzMTUxMzIyMzg4LWQ3YmQ1YTdmNTYxOTAwZTExNmFmOGM3M2QyMjIyNzYwYTY2YTY2ZjBlNDNlZDdmMTU0NGVjYzFkMWYxNzE0ZDA)
 * [케라스 코리아 단톡방](https://open.kakao.com/o/g93MSBV)
 * [케라스 코리아 블로그](http://keraskorea.github.io)
 * [케라스 공식 문서 한글번역 참여방법](https://tykimos.github.io/2019/02/06/Contribution_of_Keras_Document_to_Korean_Translation/)
 * [케라스 기초 강좌](https://tykimos.github.io/lecture/)
+
+#### 캐글 코리아 커뮤니티
+
+* [캐글 코리아 페북](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
+* [캐글 코리아 단톡방](https://open.kakao.com/o/gP24T89)
+* [캐글 코리아 블로그](https://kaggle-kr.tistory.com/)
