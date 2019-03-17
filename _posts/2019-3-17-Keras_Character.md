@@ -14,7 +14,22 @@ image: http://tykimos.github.io/warehouse/2019-3-17-Keras_Character_title.png
 케라스는 그리스어로 뿔이라는 의미이고, 그 뿔의 주인을 "유니콘"으로 골랐다고 하시네요. 산양도 좋지만 유니콘도 더 신비하고 좋은 것 같아요.
 
 ---
+### 실사
+
+제가 찍은 것과 프랑소와 쏠레님이 찍은 것 올려봅니다. 예쁘군요~
+
+![img](http://tykimos.github.io/warehouse/2019-3-17-Keras_Character_keras_sticker_real.jpg)
+
+---
 ### 원본
+
+#### 케라스 코리아 로고 (with 캐글 코리아 로그)
+
+케라스 코리아 및 캐글 코리아 로고는 구글 프레젠테이션으로 바로 보실 수 있습니다.
+
+https://docs.google.com/presentation/d/1X2hB6BiudfeMgaOvAeOPtY-zwZMiJUleZyGyo5QjqYI/edit#slide=id.g5042a4b324_0_0
+
+#### 케라스 스티커
 
 아래는 해상도가 2633 × 2597인 고화질 이미지입니다. 프랑소와 쏠레님에게 이미지 저작권에 대해서 문의를 했는데, 마음 껏 사용하라고 하시네요~ 널리 애용되었으면 합니다.
 
