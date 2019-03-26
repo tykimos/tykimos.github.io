@@ -126,17 +126,17 @@ LPC(Long Period Comets)는 최소 200년 이상의 주기를 갖는 혜성을 �
 이러한 작업을 수행하기 위해서는 이미지에서 분화구를 추출할 필요가 있다. 이에 FDL 2017팀은 0.5m 광학 해상도 이미지와 20m해상도의 DEM(Digital Elevation Model)을 데이터 셋으로 하는 Deep Neural Network를 사용하였다. 32x32 픽셀 크기의 타일 40,000개를 모아 ‘분화구’와 ‘분화구가 아닌’ 이미지로 구분하여 데이터셋을 구축하였다.
 
 
-|GROUP|	Vijayan et al.	Di et al.	Emani et al.	FDL
-YEAR	2013	2014	2015	2017
-METHOD	PATTERN
-RECOGNITION	PATTER
-RECOGNITION	CNN	CNN
-PRECISION	91%	87%	86%	98%
-ERROR RATE	9%	13%	14%	2%
+|GROUP|Vijayan et al.|Di et al.|Emani et al.|FDL|
+|-|-|-|-|-|
+|YEAR|2013|2014|2015|2017|
+|METHOD|PATTERN RECOGNITION|PATTERN RECOGNITION|CNN|CNN|
+|PRECISION|91%|87%|86%|98%|
+|ERROR RATE|9%|13%|14%|2%|
 
-GROUP	HUMAN	SINGLE-LAYER	CNN
-ACCURACY	-	POOR	98.4%
-TIME (1k IMAGES)	1-3 HOURS	10 HOURS	1 MINUTE
+|GROUP|HUMAN|SINGLE-LAYER|CNN|
+|-|-|-|-|
+|ACCURACY|-|POOR|98.4%|
+|TIME (1k IMAGES)|1-3 HOURS|10 HOURS|1 MINUTE|
 [표 2] Mapping Poles Results
 
 Classifier를 사용한 분화구 탐지의 결과는 표 2와 같다. 1,000개의 데이터 셋을 1-3분안에 처리했다. FDL 2017 기간 동안에 이미지를 오버레이하여 합성 인공물을 제거하는 단계까지는 도달하지 못했으나 이 연구는 우주 산업에 현대 시스템의 적용 가능성과 유용성을 증명하는 사례라는 데에 큰 의미가 있다.
