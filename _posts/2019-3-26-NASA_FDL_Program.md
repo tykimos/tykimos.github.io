@@ -9,6 +9,8 @@ image: http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_title.png
 ---
 최근 비약적으로 발전하고 있는 인공지능 기술은 핵심 알고리즘부터 어플리케이션까지 접목이 가능하며, 어떤 분야에서 좋은 성과를 내는 모델은 다른 분야에서도 활용할 수 있어 학제간(interdisciplinary) 접근에 용이합니다. 여러 분야에서 인공지능 기술 기반의 프로젝트가 생겨나고 있으며, 그 중 우주분야에서 국가기관과 학계 그리고 민간 기업에서 서로 협력하여 인공지능 기술을 접목한 프로젝트를 수행하는 프로그램인 NASA(National Aeronautics and Space Administration)의 Frontier Development Lab(이하 FDL)을 소개하고자 합니다.
 
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_title.png)
+
 FDL은 전 세계의 선도적인 기관으로부터 지원한 다양한 연구 분야 및 배경을 가지고 있는 박사과정, 혹은 박사 후 과정 수준의 연구원, 멘토 및 민간 고문 등이 모여 팀을 구성하고, 문제 이해 및 다양한 방법을 통한 해결책을 구상합니다. 각 팀들은 할당된 프로젝트를 서로 경쟁하면서 수행하지만 동시에 기술 공유도 활발하게 이뤄질 수 있도록 연구 문화가 형성되어 있습니다. 또한 NASA가 구축한 데이터를 자유롭게 접근을 할 수 있고, 다양한 분야의 수석 연구원과 자유롭게 교류할 수 있으며, 최첨단 GPU 컴퓨팅 자원, 교육 및 멘토링 등 인공지능 기술 연구를 위한 최적의 환경을 제공합니다. 적대적 신경망(Generative Adversarial Network, GAN), 가변 오토인코더(Variation Auto-Encoders, VAE)와 같은 비지도 학습 알고리즘 등 최신 기술 접목을 위한 연구도 수행되지만 특성이 다양한 데이터를 다루기 때문에 베이지안 최적화와 같은 전통적인 기계학습 알고리즘을 혼합한 모델 연구도 수행됩니다.
 
 ---
@@ -63,8 +65,9 @@ FDL에서는 연구 활동과 결과를 토대로 적어도 하나 이상의 학
 * Women in Machine Learning workshop, Long Beach, USA: Planetary Defense: In Search of Long Period Comets with Deep Learning by Susana Zoghbi
 * AGU Fall Meeting, New Orleans, Louisiana, USA: Modeling Geomagnetic Variations using a Machine Learning Framework by Bala Poduval
 
-![img](http://tykimos.github.io/warehouse/2018-4-30-NASA_FDL_Program_2-1.png)
-![img](http://tykimos.github.io/warehouse/2018-4-30-NASA_FDL_Program_2-2.png)
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_2-1.png)
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_2-2.png)
+
 [그림 2] 각종 학회에서 결과를 발표하는 FDL팀[2]
 
 ---
@@ -73,15 +76,18 @@ FDL에서는 연구 활동과 결과를 토대로 적어도 하나 이상의 학
 #### LONG PERIOD COMETS
 LPC(Long Period Comets)는 최소 200년 이상의 주기를 갖는 혜성을 뜻하며, 만약 지구와 충돌할 경우 큰 피해가 발생합니다. 따라서 LPC의 관측 및 궤도를 추적하기 위하여 CAMS(Camera for Allsky Meteor)라 불리는 카메라 네트워크를 통하여 혜성을 관측하고 있으며 사람이 최종적으로 혜성의 유무를 분류합니다. 그림 3은 CAMS 카메라 네트워크가 촬영한 영상으로 왼쪽은 구름, 비행체, 새를 혜성이라고 잘 못 인식한 것을 나타낸 것이고 오른쪽은 혜성이 작게 혹은 밝게 관측되거나 구름에 가려 혜성 감지에 실패한 경우를 나타내었습니다[3]. 이는 현재 CAMS 네트워크가 혜성의 유무를 자동으로 분류하지 못하는 것을 뜻하며 따라서 현재의 워크플로우에서 사람의 개입이 필요한 상황입니다. 하지만 현재 CAMS 네트워크는 하루 밤사이에 약 8,000장의 사진을 촬영하며, 이에 대한 검토 및 분류하는 작업은 많은 인력과 시간이 필요로 하기 때문에 FDL은 딥러닝 기반 혜성 분류 모델 연구를 수행하였습니다.
  
-![img](http://tykimos.github.io/warehouse/2018-4-30-NASA_FDL_Program_3.png)
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_3.png)
+
 [그림 3] CAMS에 의하여 촬영된 영상
 
 혜성 감지를 위하여 사용한 딥러닝 모델은 영상처리 분야에서 주로 사용되는 CNN(Convolutional Neural Network) 모델과 순차데이터 혹은 시계열데이터를 처리할 때 주로 사용하는 모델인 LSTM(Long Short Term Memory)을 사용하였습니다. 또한 랜덤포레스트 기법을 통한 분류 성능을 베이스라인으로 하여 딥러닝 모델의 성능을 비교하고 분석하였습니다. 혜성 감지를 위한 CNN 네트워크는 AlexNet 아키텍처를 사용하였으며 카메라 촬영 영상을 입력하였다(그림 4). LSTM 모델은 혜성의 X, Y 좌표와 시간 그리고 빛의 강도를 입력받아 혜성의 유무를 판별하였다(그림 5).
   
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_4.png)
+
 [그림 4] 혜성 분류를 위한 CNN 네트워크(AlexNet 아키텍처)
  
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_5.png)
+
 [그림 5] 혜성 분류를 위한 LSTM 네트워크
 
 표 1은 본 연구에 사용된 3가지 모델의 정밀도(Precision), 재현율(Recall), F1 스코어를 나타내었습니다. F1 스코어는 정밀도와 재현율을 조합하여 모델의 성능을 나타내는 지표로, F1 스코어를 살펴보았을 때 LSTM와 CNN의 성능은 모두 랜덤포레스트에 비하여 좋은 성능을 보였고 두 모델의 성능 간에는 큰 차이를 보이지 않았습니다. FDL은 두가지 딥러닝 모델을 이용하여 혜성 분류 작업을 자동화할 수 있었다고 NIPS 학회에서 발표하였습니다[3].
@@ -99,20 +105,25 @@ LPC(Long Period Comets)는 최소 200년 이상의 주기를 갖는 혜성을 �
 2016년 1월, NASA에서 개설한 PDCO(Planetary Defense Coordination Office)는 지구와 소행성의 충돌을 대비하여 충돌 가능성 조기 탐지를 목표로 광범위의 소행성 관측 네트워크를 구축하기 위해 노력하고 있다[4]. 그림 6은 NASA가 2015년까지 레이더를 이용하여 탐지했던 지구와 충돌 위험성을 보이는 소행성의 개수를 나타낸 것이다[5]. 지구와 소행성의 충돌을 예측하기 위해서는 소행성의 정밀한 궤도 결정이 필수 요소이며 궤도 위의 물체는 움직이고 있기 때문에, 적외선이나 광학 장비를 이용하는 것보다 지상 기반 레이더를 이용한 궤도 결정이 더 적절합니다. 정밀한 궤도 결정을 위해서는 레이더로 관측한 물체의 크기, 형상, 천체 동역학 등을 모두 고려해야 하며 우주 물체 크기 및 형상을 추정하기 위해서 레이더를 이용한 3차원 복원 방법이 일반적입니다. 그림 7는 실제 소행성으로부터 반사된 레이더 주파수 정보를 기반으로 생성한 도플러 영상입니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_6.png) 
+
 [그림 6] 1970년부터 NASA가 탐지한 지구 근처 소행성의 개수 현황
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_7.png)  
+
 [그림 7] 레이더 실측 도플러 데이터로 생성한 소행성 2015 TB145의 2차원 레이더 영상[6]
 
-![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_8-1.png)  
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_8-1.png) 
+
 [그림 8-a] SHAPE로 생성한 소행성의 2차원 영상[2]
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_8-2.png)
+
 [그림 8-b] SHAPE로 생성한 소행성의 3차원 영상[2]
 
 기존의 방법으로는 데이터 전처리 과정과 도플러 관측 데이터를 입력하여 소행성의 3차원 영상을 생성하기까지 약 4주가 소요되었다[7]. FDL 2017의 Sean Marshall 외 3명으로 구성된 팀은 소행성의 3차원 영상 생성 시간을 단축하기 위해, 데이터 전처리 및 영상 형성에 딥러닝을 적용하였고, 4~6시간 만에 레이더 도플러 영상을 입력하여 소행성의 3차원 레이더 영상을 형성하는 모델을 개발하였습니다. 해당 팀은 딥러닝 모델을 학습시킬만큼 충분한 레이더 도플러 이미지가 없었기 때문에 NASA에서 개발한 SHAPE 소프트웨어를 이용하여 동일한 소행성의 다양한 상태의 운동 자세를 모델링한 후에, 이 형상을 바탕으로 도플러 이미지를 생성했습니다. 그림 8의 (a)와 (b)는 SHAPE로 생성한 2차원 및 3차원 영상의 예시입니다. 소행성 형상을 생성하기 위해 사용한 딥러닝 구조는 심층 생성 모델 중 하나인 GAN(Generative Adversarial Network)이다[8]. GAN은 생성자(Generator)와 판별자(Discriminator)로 구성된 네트워크인데, 생성자와 판별자 간 적대적 학습 (adversarial training)을 통해 생성자에 임의의 입력이 있을 때, 원하는 이미지를 자연스럽게 생성하도록 유도됩니다. 학습을 통해 2차원 도플러 영상을 입력받아 3차원 소행성을 묘사할 수 있는 생성자가 학습되면, 2차원 도플러 이미지만 입력되더라도 자연스러운 3차원 소행성 형상을 생성할 수 있습니다. 그림 9에서 2차원 도플러 영상이 입력되어 3차원의 소행성 영상이 생성되는 전반적인 과정을 나타내었습니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_9.png)
+
 [그림 9] GAN을 이용하여 도플러 이미지를 입력으로 받아 3차원 소행성 영상을 생성하는 과정
 
 #### LUNAR WATER & VOLATILES
@@ -121,6 +132,7 @@ LPC(Long Period Comets)는 최소 200년 이상의 주기를 갖는 혜성을 �
 로버가 달 탐사 임무를 원활하게 수행하려면 달 표면의 분화구에 대한 정확한 정보가 필요합니다. 이를 위해 Lunar Reconnaissance Orbiter(LRO)는 달 표면 전체를 0.5m의 광학 해상도와 20m의 레이저 고도계를 사용하여 촬영하였습니다. 하지만 여러 번의 궤도 주행을 하며 얻은 이미지들을 결합할 때 합성 인공물(synthetic artefacts)이 나타났습니다. 이러한 합성 인공물은 사진으로는 긴 교차선으로 나타나며 로버에게 이것은 20ft의 벽이나 골자기로 여겨져 달 횡단에 큰 문제를 야기합니다. 이미지에서 이러한 합성 인공물을 제거하기 위해서는 다수의 이미지 소스를 함께 비교하여 공통된 이미지만 남기는 방식을 사용하지만 달에는 GPS가 없기 때문에 겹칠 이미지의 지리적 위치가 정확하지 않습니다. 따라서 달의 가장 보편적이고 많이 존재하고 있는 분화구를 기준으로 가장 적합한 이미지를 찾아 매칭하여 오버레이하는 방법을 사용합니다. 
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_10.png)
+
 [그림 10] Deep Learning based Classifier
 
 이러한 작업을 수행하기 위해서는 이미지에서 분화구를 추출할 필요가 있습니다. 이에 FDL 2017팀은 0.5m 광학 해상도 이미지와 20m해상도의 DEM(Digital Elevation Model)을 데이터 셋으로 하는 Deep Neural Network를 사용하였습니다. 32x32 픽셀 크기의 타일 40,000개를 모아 ‘분화구’와 ‘분화구가 아닌’ 이미지로 구분하여 데이터셋을 구축하였습니다.
@@ -136,6 +148,7 @@ LPC(Long Period Comets)는 최소 200년 이상의 주기를 갖는 혜성을 �
 |-|-|-|-|
 |ACCURACY|-|POOR|98.4%|
 |TIME (1k IMAGES)|1-3 HOURS|10 HOURS|1 MINUTE|
+
 [표 2] Mapping Poles Results
 
 Classifier를 사용한 분화구 탐지의 결과는 표 2와 같습니다. 1,000개의 데이터 셋을 1-3분안에 처리했습니다. FDL 2017 기간 동안에 이미지를 오버레이하여 합성 인공물을 제거하는 단계까지는 도달하지 못했으나 이 연구는 우주 산업에 현대 시스템의 적용 가능성과 유용성을 증명하는 사례라는 데에 큰 의미가 있습니다.
@@ -148,17 +161,21 @@ Classifier를 사용한 분화구 탐지의 결과는 표 2와 같습니다. 1,0
 이러한 이유로 다수의 태양 폭발 예보모델들이 개발되어 왔으며, 태양 폭발과 우주기상과의 상관관계에 대한 이해를 바탕으로한 수치 혹은 경험적 모델, 통계적 모델 또는 기계학습(Machine Learning)을 통한 모델 등이 있습니다. 가장 잘 알려진 통계 모델은 태양 흑점의 분류를 통한 통계적 모델입니다. Patrick McIntosh는 태양의 크기나 형태 등 3가지 기준을 통하여 분류하는 McIntosh Sunspot Class를 만들었으며, 많은 학자들이 이 McIntosh Sunspot Class의 각 흑점군별로 태양 플레어의 발생 확률을 통계적으로 정리하여 태양 플레어를 예보하는 모델을 개발하였습니다.
  
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_11.png)
+
 [그림 11] McIntosh Sunspot Class[9], McIntosh Sunspot Class는 크게 3가지 기준을 통하여 태양 흑점을 분류합니다.
 
 2017년 FDL의 Solar Storm Prediction 팀은 태양 플레어 예보 모델 개발에 Solar Dynamics Observatory (SDO) 위성의 탑재체인 Atmospheric Imaging Assembly (AIA)를 이용하여 관측한 극자외선 (Extreme UltraViolet ,EUV) 영상 중 8개의 채널 이미지를 입력인자로, 미대기해양청의 지구관측 정지궤도위성인 Geostationary Operational Environment Satellite (GOES) 위성에서 관측한 X-ray 플럭스를 출력인자로 사용하였습니다. 또한 모델의 구조로는 합성곱 신경망(Convolutional Neural Network, CNN)을 사용하여 8채널 영상의 크기를 줄이고, 특징맵을 추출하여 최후에 11개의 출력 인자를 산출해내는 모델을 구성하였습니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_12.png) 
+
 [그림 12] Solar Dynamics Observatory (SDO) Channel Images[10], SDO 위성에서 관측하고 있는 여러 파장대의 이미지
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_13.png)
+
 [그림 13] CNN을 이용한 X-ray 플럭스 예측 결과
 
-![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_14.png) 
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_14.png)
+
 [그림 14] CNN모델에 입력한 영상과, 입력 영상에 컨볼루션을 적용한 영상
 
 그 결과, 훈련된 모델은 2014년 6월에 발생한 X-class의 태양 플레어 폭발을 예측하는데 성공하였습니다. 그리고 훈련된 모델을 분석한 결과, CNN모델에 태양 채널 영상만을 입력해 주었음에도 불구하고, 태양의 활성 영역 (Active Region, AR)에 가중치를 두어 계산을 수행하도록 모델이 훈련되었음을 확인하였습니다. FDL의 연구팀은 인공지능을 활용한 태양 활동 분석 및 예측이 기존 모델들의 예측 신뢰성과 정확성을 향상시킬 수 있었다고 하였습니다.
@@ -168,27 +185,32 @@ Classifier를 사용한 분화구 탐지의 결과는 표 2와 같습니다. 1,0
 태양활동으로 인해 태양 입자들이 분출되어 우주환경에 영향을 미치게 됩니다. 이러한 입자들은 빠르면 수 분에서 수 일에 이르기까지 지구에 영향을 미치게 됩니다. 극지방에 오로라가 발생하고 지자기 폭풍으로 인해 위성, 발전소 들은 무용지물이 될 수 있으며 항공기는 방사선에 노출되어 항로를 변경해야 하고, 통신 시스템에 장애를 발생시킵니다. 태양 활동에 대한 연구를 위하여 지자기 데이터 및 태양풍 데이터를 이용하여 모델링 하고 이를 예보에 활용하고 있습니다. 오픈 소스 기계학습 프레임워크 위에 STING(Solar Terrestrial Interactions Neural Network Generator) 이라는 지식 검색 모듈을 구축하여 연구자들로 하여금 복잡한 데이터에 대한 탐색을 수행할 수행할 수 있도록 하였습니다. Open Access Science Data 와 AI(Artificial Intelligence), ML(Machine Learning)을 통해 과학적 통찰과 더 나은 예측을 위한 발전을 추구하고 있습니다.
  
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_15.png) 
+
 [그림 15] FDL 2017 SOLAR-TERRESTRIAL INTERACTIONS 프로젝트
 
 Kp 지수는 매일 3시간 간격으로 측정한 지자기의 범위를 말하며 는 지자기 데이터와 태양풍 데이터를 이용하여 예측을 수행하기 위해 2가지의 프로젝트를 진행하였습니다. 
  
-![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_16.png)  
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_16.png) 
+
 [그림 16] LSTM을 이용한 태양풍 예측 모델 구성 예시
 
 첫번째 프로젝트는 LSTM 기법을 적용한 딥러닝 모델로 시계열 특성을 지닌 데이터에 대한 예측 시 많이 활용되고 있는 모델로써 Geomag 데이터와 태양풍 속도를 이용하여 지구의 남북방향의 지자기 강도를 예측 하기 위한 시도 및 남북방향의 지자기 강도를 이용하여 태양풍의 속도를 예측하도록 관리되었다
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_17.png) 
+
 [그림 17] LSTM을 이용한 지자기 및 태양풍 속도 예측 결과
 
 그림 17의 좌측은 태양풍의 속도 변화에 대한 예측결과이며 우측은 LSTM 예측 모델과 기존에 연구했던 수치 모델의 오차를 비교한 그래프입니다. 이를 통해 LSTM 모델이 패턴 및 경향성이 더 잘 맞는 것을 확인 할 수 있습니다. 
 두 번째 프로젝트로 Gradient Boosting 모델로써 각 트리는 문제에 대한 솔루션의 추정치이며 각 취약한 트리가 강력한 솔루션에 기여할 수 있습니다. 훈련이 반복 될때마다 가중치를 재 구성 하며 손실함수가 최소화되는 트리 앙상블을 찾는 것이 최종 목표입니다. 실험을 위해 10개월치의 데이터를 사용하였으며 실제 Kp 지수와 Gradient Boosting Regressor 모델을 이용하여 예측한 결과를 비교하였습니다. 그림 18에서 검정색 실선은 실제 Kp 지수를, 파란색 점은 Gradient Boosting Regressor 모델이 예측한 결과를 나타납니다.
  
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_18.png)  
+
 [그림 18] Kp 지수 예측 (3 Hour)
 
 그림 19은 관찰 된 Kp 지수와 다양한 모델에서 예측 된 Kp 지수 사이의 평균 제곱 오차를 나타납니다. Gradient Boosting Regressor는 기존의 모델보다 뛰어난 성능을 보였습니다.
 
-![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_19.png)  
+![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_19.png)
+
 [그림 19] Kp 지수 예측 정확도 비교
 
 ---
@@ -202,6 +224,7 @@ FDL은 2018년 우주 자원 부문 인공지능 적용 도전 과제로 다개�
 FDL은 무인 탐사 임무에 다개체 시스템(multi-agent system, MAS)을 적용하면, 기존에 사용되던 하나의 매개체(agent)로 구성된 시스템으로 문제를 해결하는 방식보다 탐사선의 임무 수행 능력을 향상할 것으로 판단했습니다. 다개체 시스템이란, 주어진 목적을 이루기 위해 2대 이상의 매개체를 팀으로 운영하는 시스템을 의미한다[11]. Mevludin Glavic은 자신의 기술 보고서[12]에서 센서를 통해 주변 환경을 인지하는 것으로 간주 될 수 있는 모든 존재들을 매개체라고 정의합니다. 다개체 시스템은 이러한 매개체가 네트워크를 구성하여, 개체 간 단순 업무 분담뿐만 아니라 개체 간 정보교환을 통해 임무를 수행하기 위한 판단을 내릴 수 있습니다. 1980년 MIT에서 개최한 분산식 인공지능 워크숍을 시작으로 세계적인 연구분야가 되었고, NASA에서는 2002년 로봇 간 작업 보정을 위한 FIRE(Federation of Intelligent Robotic Explorers) 프로젝트를 수행하기도 했습니다. 그림 20은 FIRE 프로젝트의 화성 탐사 시뮬레이션 예시이다[13]. FDL은 이러한 다개체 시스템을 자율 경로 계획 소프트웨어 플랫폼에 적용하면 선행 정보가 없는 환경이나 예기치 못한 상황에 임무를 수행하는 무인 탐사선의 강인성 및 적응성을 높이고 단일 매개체의 제한된 기능을 다개체 시스템을 통해 보다 다양하게 향상할 것으로 기대하면서, 자율 경로 계획 소프트웨어 플랫폼에 인공지능 기술 접목하는 것을 우주 자원 부문 첫번째 과제로 선정했습니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_20.png) 
+
 [그림 20] FIRE 프로젝트 화성 탐사 시뮬레이션 예시 화면 [13]
 
 ##### 초기 50년 간 우주 자원 산업 생태계 최적 모델링
@@ -211,6 +234,7 @@ FDL은 무인 탐사 임무에 다개체 시스템(multi-agent system, MAS)을 �
 달이나 행성 표면을 탐사할 때 직면하는 어려움 중 하나는 탐사선으로부터 얻은 영상을 그림 21처럼 위성 영상의 시각으로 변환하는 것입니다. NASA는 달이나 행성 표면 탐사 임무에서 관찰 영상의 시각을 조정할 때, 과학자나 기술자의 전문지식에 의존하였다. 이러한 방식의 한계를 극복하기 위해서, FDL이 선정한 우주 자원 부문 2018년 세번째 도전 과제는 촬영 영상으로부터 탐사선이나 우주 비행사의 카메라 위치를 예측하고, 카메라 로컬라이제이션 하는 인공지능 모델을 개발하는 것입니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_21.png)  
+
 [그림 21] 화성 표면 지도[16]
 
 #### EXOPLANETS
@@ -219,6 +243,7 @@ EXOPLANET은 외계행성으로 불리며, 태양계 밖의 행성으로, 태양
 실제로 2017년 Google AI의 Chris Shallue는 신경망을 사용하여 케플러 우주망원경의 기록 테이터를 분석하여 2개의 알려지지 않은 외계행성을 발견하였다. 외계행성을 찾을 때 주로 횡단법(Transits)을 사용하는데, 이것은 외계행성이 관찰자와 항성 사이를 지나갈 경우 항성 표면에 검은 원반이 지나가는 것 처럼 보이는데 그때의 항성의 밝기가 어두워지는 정도를 통해 행성의 존재여부와 크기를 확인하는 방식입니다. 이러한 관측을 항성 전체에 대한 binary 이미지와 원반이 포함된 부분에 대한 이미지를 데이터셋으로하여 CNN을 사용하는 Classifier 모델을 학습하였고 이 모델을 사용하여 외계행성을 발견하였다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_22.png) 
+
 [그림 22] 횡단법을 사용하여 생성한 이진 이미지 데이터 생성
 
 두번째 도전 과제는 TESS가 첫번째 과제에서 찾은 외계행성 중에서 암반행성을 더 잘 식별할 수 있도록 AI 기반의 외계행성 발견 및 분류 과정을 체계화하는 것입니다. 행성은 행성을 구성하는 물질에 따라 암반행성, 가스행성 그리고 얼음행성으로 구분되고 지구와 같은 행성이 암반행성에 속합니다. 이러한 암반행성의 발견은 외계 생명체의 존재 여부와 더 나아가 먼 미래에 인류가 거주할 제 2 지구의 가능성을 열어 줄 수 있을 것입니다.
@@ -235,6 +260,7 @@ EXOPLANET은 외계행성으로 불리며, 태양계 밖의 행성으로, 태양
 그림 23은 우주물체의 충돌상황을 나타낸 것이며, 타원체는 위치공분산으로 각 우주물체의 위치불확실성을 표시한 것입니다. Primary의 경우, 궤도정보를 많이 갖고 있기 때문에 위치불확실성이 낮으나 다른나라 소유이거나 우주쓰레기인 Secondary는 궤도정보의 정확도가 다소 떨어집니다. 본 과제에서는 인공지능과 양자컴퓨팅 알고리즘을 통해 보다 정확한 우주 대기 모델을 생성하여, 장기적 궤도 안정성을 높이고자 합니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_23.png)  
+
 [그림 23] 우주물체 충돌상황
 
 #### EARTH OBSERVATION
@@ -259,8 +285,7 @@ FDL은 NASA FDL 홈페이지(http://www.frontierdevelopmentlab.org) 지원 가�
 * (4) https://www.nasa.gov/planetarydefense
 * (5) https://adamcobb.github.io/journal/3D-Shape-Modelling-of-Asteroids.html
 * (6) https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA20043
-* (7) https://www.slideshare.net/LeonardSilverberg/fdl-2017-3d-shape-modeling?qid=67980c69-fbc
-1-4a2b-9551-777f3b612b2f&v=&b=&from_search=1
+* (7) https://www.slideshare.net/LeonardSilverberg/fdl-2017-3d-shape-modeling?qid=67980c69-fbc1-4a2b-9551-777f3b612b2f&v=&b=&from_search=1
 * (8) Goodfellow, Ian, et al. "Generative adversarial nets." Advances in neural information processing systems. 
 * (9) http://www.pozorovanislunce.eu/vykladovy-slovnicek/mcintoshova-klasifikace-slunecnich-skvrn.html
 * (10) https://www.nasa.gov/content/goddard/how-sdo-sees-the-sun
@@ -268,8 +293,7 @@ FDL은 NASA FDL 홈페이지(http://www.frontierdevelopmentlab.org) 지원 가�
 * (12) Mevludin Glavic,2006, Agents and Mutli-Agent Systems: A short Introduction for Power Engineers, Belgium University
 * (13) http://www.cs.cmu.edu/~./FIRE/index.html
 * (14) http://spacenews.com/luxembourg-adopts-space-resources-law/
-* (15) http://www.spaceresources.public.lu/en/actualites/2018/Luxembourg-cooperates-with-China-in-t
-he-exploration-and-use-of-outer-space-for-peaceful-purpose.hml
+* (15) http://www.spaceresources.public.lu/en/actualites/2018/Luxembourg-cooperates-with-China-in-the-exploration-and-use-of-outer-space-for-peaceful-purpose.hml
 * (16) http://planetary-science.org/mars-research/mars-cartography/
 * (17) https://en.wikipedia.org/wiki/Exoplanet
 
