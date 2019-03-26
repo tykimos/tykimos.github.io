@@ -2,10 +2,10 @@
 layout: post
 title:  "인공지능과 함께하는 우주를 향한 인류의 도전, NASA FDL - 2018"
 author: 김태영, 최명진, 양승범, 박천용, 구원회, 김재엽, 이광현, 임성민, 정대원, 박은수, 문용재
-date:   2018-04-30 00:00:00
+date:   2019-03-26 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2018-4-30-NASA_FDL_Program_title.png
+image: http://tykimos.github.io/warehouse/2019-3-26-NASA_FDL_Program_title.png
 ---
 최근 비약적으로 발전하고 있는 인공지능 기술은 핵심 알고리즘부터 어플리케이션까지 접목이 가능하며, 어떤 분야에서 좋은 성과를 내는 모델은 다른 분야에서도 활용할 수 있어 학제간(interdisciplinary) 접근에 용이합니다. 여러 분야에서 인공지능 기술 기반의 프로젝트가 생겨나고 있으며, 그 중 우주분야에서 국가기관과 학계 그리고 민간 기업에서 서로 협력하여 인공지능 기술을 접목한 프로젝트를 수행하는 프로그램인 NASA(National Aeronautics and Space Administration)의 Frontier Development Lab(이하 FDL)을 소개하고자 합니다.
 
