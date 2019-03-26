@@ -2,7 +2,7 @@
 layout: post
 title:  "달력은 역시 천문력으로 보는 것이 제 맛 - 2019 천문력"
 author: 김태영
-date:   2019-12-25 00:00:00
+date:   2018-12-25 00:00:00
 categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2018-12-25-Astronomical_Cnalender_2019_title.jpg

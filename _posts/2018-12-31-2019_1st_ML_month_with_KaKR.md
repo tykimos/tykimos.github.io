@@ -2,7 +2,7 @@
 layout: post
 title:  "캐글 코리아와 함께하는 첫번째 캐글 시작하기 (구글 코리아 후원)"
 author: 김태영
-date:   2019-12-31 00:00:00
+date:   2018-12-31 00:00:00
 categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2018-12-31-2019_1st_ML_month_with_KaKR_title.png
