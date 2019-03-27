@@ -118,7 +118,7 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 |구분|소개|
 |-|-|
 |![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_tykimos.jpg)|[김태영](https://web.facebook.com/tykimo), 케라스 코리아 운영자, (주)인스페이스<br><br>비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다.|
-|![img](http://tykimos.github.io/images/jmj.jpg)|전미정, 케라스 코리아 운영자<br><br>소개|
+|![img](https://avatars2.githubusercontent.com/u/19141925?s=320&v=4) |[전미정](https://github.com/MijeongJeon), 케라스 코리아 운영자, iOS 개발자 <br><br> 김태영님의 세미나에서 풍문으로만 듣던 딥러닝을 케라스라는 툴을 이용해 쉽게 만들고, 적용하는 걸 보고 무릎을 탁!하고 쳤습니다. '케라스라면 나도 할 수 있지 않을까?'라는 용기를 가지고 모바일에 딥러닝 모델 심기를 시작했습니다. 메인 분야는 iOS이지만 머신러닝을 취미삼아 즐겁게 공부하고있습니다. 머신러닝에 관심 많은 많은 사람들과 기술을 공유하며 이야기를 나누고 싶습니다. 🕊  |
 |![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh.jpg)|[이유한](https://web.facebook.com/youhan.lee.33o), 캐글 코리아 운영자, 카이스트  박사과정<br><br>캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다.|
 |![img](http://tykimos.github.io/images/gcs.jpg)|[강천성](https://web.facebook.com/profile.php?id=100007162502644), 캐글 코리아 운영자, 충남대 컴퓨터공학<br><br>소개|
 |![img](http://tykimos.github.io/images/lhh.jpg)|이현호, (주)인스페이스 인공지능연구실<br><br>소개|
