@@ -23,6 +23,18 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 
 강화학습은 현재의 상태(State)에서 어떤 행동(Action)을 취하는 것이 최적인지를 학습하는 것입니다. 행동을 취할 때마다 외부 환경에서 보상(Reward)이 주어지는데, 이러한 보상을 최대화 하는 방향으로 학습이 진행됩니다.
 
+#### 주최/주관 
+* 케라스 코리아
+* 캐글 코리아
+* 강화학습 코리아
+
+#### 후원
+* (주)인스페이스
+* 구글 코리아
+* 대전테크노파크
+* 부산창조경제혁신센터
+* GDG 광주
+
 ---
 ### 프로그램
 
@@ -81,8 +93,6 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 ---
 ### 일정
 
-#### 
-
 |지역|날짜|시간|장소|발표|신청|
 |-|-|-|-|-|-|
 |(신청중)부산|4/11(목)|오후 6시반 ~ 10시|부산창조경제혁신센터(해운대, 100명)|김태영, 전미정, 이유한, 강천성, 이현호|[신청](https://goo.gl/forms/94Fla2TG2qO3Ctm33)|
@@ -99,7 +109,8 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 * 대전 대전테크노파크 상세 주소 : 대전광역시 유성구 용산동 테크노9로 35
 * 서울 구글 코리아 상세 주소 : 서울 강남 테헤란로 152 강남파이낸스센터 22층 구글코리아 - 저녁시간이라 구글 코리아에서 간단한 간식(샌드위치 등)이 제공될 예정입니다. 
 
-#### 진행자
+---
+### 진행자
 
 |구분|소개|
 |-|-|
@@ -110,7 +121,8 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 |![img](http://tykimos.github.io/images/lhh.jpg)|이현호, (주)인스페이스 인공지능연구실<br><br>소개|
 |![img](http://tykimos.github.io/images/yjw.jpg)|유지원, 강화학습 운영자<br><br>소개 추가|
 
-#### 발표자료
+---
+### 발표자료
 
 * [케라스 이야기](https://drive.google.com/open?id=1sjtsRf0cYFb7-fj67TIjyCjDzbLj4vy-IeyOcT0vsgQ)
 * [딥러닝 이야기](https://drive.google.com/open?id=10L4PSBHrQLblbaPLTPnDTxBRJj_8y-KSyp6v8Ams5oY)
@@ -118,18 +130,6 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 * [생성 모델 이야기](https://drive.google.com/open?id=14poDITwyidWbwZQh08FAh2F5fsLWN1s8YRCZXp2FOoo)
 * [케라스 코리아 - 모두의 손에 딥러닝 툴을...](https://drive.google.com/open?id=1YcpkJJGe9s7Y1vzAQeGP7gqHGb4W0hNa1etfUIY8uzU)
 * [캐글 코리아 - 함께 공부해서 함께 나눕시다.](https://drive.google.com/open?id=1hUpqatYVmpUJ2q1_l-xGBQ9-lRQUNRT-AhULt9RqhyE)
-
-#### 주최/주관 
-* 케라스 코리아
-* 캐글 코리아
-* 강화학습 코리아
-
-#### 후원
-* (주)인스페이스
-* 구글 코리아
-* 대전테크노파크
-* 부산창조경제혁신센터
-* GDG 광주
 
 ---
 ### 콘서트 관련 질답
