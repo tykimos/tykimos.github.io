@@ -40,6 +40,8 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 
 #### 3차 - 광주 (4월 17일 수)
 
+* GDG Gwangju에서 준비해주신 간단한 식사(샌드위치)는 18:00부터 나눠드립니다.
+
 |주제|시간|내용|발표자|
 |-|-|-|-|
 |등록|18:00-18:30|인사 및 간단한 식사(샌드위치)|-|
@@ -49,8 +51,6 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 |캐글|19:50-20:50|데이터 분석 방법, 캐글 사용법, 여러가지 팁에 대해서 알아봅니다. 그리고 캐글 커뮤니티를 통해서 함께 즐기고 대회에 참여하는 방법에 대해서 알아봅니다.|이유한, 강천성|
 |소통|20:50-21:00|질문 및 휴식|-|
 |강화학습|21:00-22:00|강화학습 개념과 간단한 코드를 살펴봅니다. 그리고 강화학습 코리아에서 이뤄지고 있는 프로젝트에 대해서 알아보고 함께 즐기는 법에 대해서 알아봅니다.|유지원|
-
-* 간단한 식사(샌드위치)는 18:00부터 나눠드립니다.
 
 #### 2차 - 대전 (2월 20일 수)
 
@@ -198,6 +198,8 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 
 ![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_d2.jpg)
 
-대전 콘서트는 주중 오후 시간대임에도 불구하고 많은 분들이 오셔서 함께 즐거운 시간을 보냈습니다. 역시나 자리가 좀 부족해서 서서 들으시는 분들도 계셨습니다. 후원해주신 (주)인스페이스, 구글 코리아, 대전테크노파크 관계자분들께 감사하다는 말씀을 다시 드리고 싶습니다.
+대전 콘서트는 주중 오후 시간대임에도 불구하고 많은 분들이 오셔서 함께 즐거운 시간을 보냈습니다. 역시나 자리가 좀 부족해서 서서 들으시는 분들도 계셨습니다.
 
-![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_d4.jpg)
+![img](http://tykimos.github.io/warehouse/2019-2-9-Keras_and_Kaggle_National_Concert_d3.jpg)
+
+후원해주신 (주)인스페이스, 구글 코리아, 대전테크노파크 관계자분들께 감사하다는 말씀을 다시 드리고 싶습니다.
