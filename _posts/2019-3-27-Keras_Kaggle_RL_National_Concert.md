@@ -94,9 +94,9 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 |함께 소통하기|20:30-21:00|케라스와 캐글에 대한 FAQ에 대해 살펴보고 참가자분들과 질의응답하면서 소통시간을 가집니다.|-|
 
 ---
-### 신청
+### 일정 및 신청
 
-> [신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)|
+## [신청하기](https://goo.gl/forms/94Fla2TG2qO3Ctm33)|
 
 |지역|날짜|시간|장소|발표|
 |-|-|-|-|-|-|
