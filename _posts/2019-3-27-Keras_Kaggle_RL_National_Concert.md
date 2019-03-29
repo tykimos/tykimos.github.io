@@ -118,11 +118,11 @@ image: http://tykimos.github.io/warehouse/2019-3-27-Keras_Kaggle_RL_National_Con
 |구분|소개|
 |-|-|
 |![img](http://tykimos.github.io/warehouse/2018-3-19-ISS_Python_Deep_Learning_Keras_with_Blocks_tykimos.jpg)|[김태영](https://web.facebook.com/tykimo), 케라스 코리아 운영자, (주)인스페이스<br><br>비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다.|
-|![img](https://avatars2.githubusercontent.com/u/19141925?s=320&v=4) |[전미정](https://github.com/MijeongJeon), 케라스 코리아 운영자, iOS 개발자 <br><br> 김태영님의 세미나에서 풍문으로만 듣던 딥러닝을 케라스라는 툴을 이용해 쉽게 만들고, 적용하는 걸 보고 무릎을 탁!하고 쳤습니다. '케라스라면 나도 할 수 있지 않을까?'라는 용기를 가지고 모바일에 딥러닝 모델 심기를 시작했습니다. 메인 분야는 iOS이지만 머신러닝을 취미삼아 즐겁게 공부하고있습니다. 머신러닝에 관심 많은 많은 사람들과 기술을 공유하며 이야기를 나누고 싶습니다. 🕊  |
+|![img](http://tykimos.github.io/images/jmj.jpg) |[전미정](https://github.com/MijeongJeon), 케라스 코리아 운영자, iOS 개발자 <br><br> 김태영님의 세미나에서 풍문으로만 듣던 딥러닝을 케라스라는 툴을 이용해 쉽게 만들고, 적용하는 걸 보고 무릎을 탁!하고 쳤습니다. '케라스라면 나도 할 수 있지 않을까?'라는 용기를 가지고 모바일에 딥러닝 모델 심기를 시작했습니다. 메인 분야는 iOS이지만 머신러닝을 취미삼아 즐겁게 공부하고있습니다. 머신러닝에 관심 많은 많은 사람들과 기술을 공유하며 이야기를 나누고 싶습니다. 🕊  |
 |![img](http://tykimos.github.io/warehouse/2018-5-16-ISS_Plant_DeepLearning_Model_in_SNRC_lyh.jpg)|[이유한](https://web.facebook.com/youhan.lee.33o), 캐글 코리아 운영자, 카이스트  박사과정<br><br>캐글을 취미로 하는 대학원생입니다. 화학공학의 여러 문제를 머신러닝으로 풀려고 노력하고 있습니다. 데이터 사이언스, 머신러닝, 딥러닝을 캐글에서 연마하였습니다. 캐글 속 공유 정신에 감명받아, 데이터 사이언스가 취미가 되는, “모두의 데이터사이언스”를 꿈꾸며 “캐글 코리아”를 운영하고 있습니다.|
-|![img](http://tykimos.github.io/images/gcs.jpg)|[강천성](https://web.facebook.com/profile.php?id=100007162502644), 캐글 코리아 운영자, 충남대 컴퓨터공학<br><br>소개|
-|![img](http://tykimos.github.io/images/lhh.jpg)|이현호, (주)인스페이스 인공지능연구실<br><br>소개|
-|![img](http://tykimos.github.io/images/yjw.jpg)|유지원, 강화학습 운영자<br><br>소개 추가|
+|![img](http://tykimos.github.io/images/gcs.jpg)|[강천성](https://web.facebook.com/profile.php?id=100007162502644), 캐글 코리아 운영자, 충남대 컴퓨터공학<br><br>개발자의 꿈을 꾸다 데이터의 매력에 빠져 데이터 분석가의 길을 걷고 있는 학부생입니다. 충남대학교 데이터 사이언스 연구실에서 학부 인턴을 하고 있습니다. 캐글 스터디 관리와 여러가지 활동을 통해 데이터 사이언스의 대중화를 목표로 캐글 코리아를 운영하고 있습니다.|
+|![img](http://tykimos.github.io/images/lhh.jpg)|[이현호](https://web.facebook.com/profile.php?id=100003470945315), (주)인스페이스 인공지능연구실<br><br>응용수학과 컴퓨터공학을 복수전공하고 이를 활용하기 위해 인공지능 공부를 시작하였습니다. 현재 (주)인스페이스 인공지능 연구실에서 AI 연구원으로서 실생활 문제들에 인공지능을 적용하고자 노력하고 있습니다. 또 Unity 로 강화학습 환경을 제작하고 학습하는 것에 흥미가 있어, RL Korea의 Unity ML-Agents 팀원으로도 활동하고 있습니다.|
+|![img](http://tykimos.github.io/images/yjw.jpg)|[유지원](https://web.facebook.com/JiwonAshleyRyu), 강화학습 운영자<br><br>강화학습을 좋아하는 평범한사람입니다. 전자과를 졸업해 임베디드SW를 다뤘지만, 강화학습에 매료되어 '강화학습 코리아'에서 재미있는 연구를 하고 있습니다. 특히, 로보틱스의 여러 문제를 강화학습으로 풀기위해 노력하고 있습니다. 이외에도 주식, 추천 서비스 등 다양한 분야에 강화학습이 적용되어 '모두의 알파고'를 가질수 있길 꿈꾸며 강화학습 코리아를 운영하고 있습니다. ‘RL Korea 블로그’를 통해 입문자에게 바른 길잡이를 제시하고자 노력하고 있습니다.|
 
 ---
 ### 발표자료
