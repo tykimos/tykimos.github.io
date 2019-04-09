@@ -22,18 +22,7 @@
 				<li>
 					<a href="{{ "/lecture" | prepend: site.baseurl }}">케라스</a>
 				</li>			
-			{% endif %}         
-			{% if page.path == "kaggle.md" %}
-			<span class="title">
-				<li>
-					<a href="{{ "/kaggle" | prepend: site.baseurl }}">캐글</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="{{ "/kaggle" | prepend: site.baseurl }}">캐글</a>
-				</li>			
-			{% endif %}         
+			{% endif %}                
 			{% if page.path == "seminar.md" %}
 			<span class="title">
 				<li>
@@ -57,11 +46,18 @@
 				</li>			
 			{% endif %}			
 				<li>
-					<a href="https://www.facebook.com/groups/KerasKorea/" target="_blank"><img width=40 height=40 src="/images/keko_logo.png"> 케라스코리아</a>
+					<a href="https://www.facebook.com/groups/KerasKorea/" target="_blank"><img width=40 height=40 src="/images/keko_logo.png"></a>
 				</li>				            
 				<li>
-					<a href="https://www.facebook.com/groups/KaggleKoreaOpenGroup/" target="_blank"><img width=40 height=40 src="/images/kako_logo.png"> 캐글코리아</a>
+					<a href="https://www.facebook.com/groups/KaggleKoreaOpenGroup/" target="_blank"><img width=40 height=40 src="/images/kako_logo.png"></a>
 				</li>
+				<li>
+					<a href="https://www.facebook.com/groups/ReinforcementLearningKR/" target="_blank"><img width=40 height=40 src="/images/rlko_logo.png"></a>
+				</li>
+				<li>
+					<a href="https://paperswithcode.com/" target="_blank"><img width=40 height=40 src="/images/pwc_logo.png"></a>
+				</li>
+
 		</div>
 		<div class="description"> {{ site.motto }} </div>			
 	</div>
