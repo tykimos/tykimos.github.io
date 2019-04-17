@@ -216,7 +216,7 @@ class DQNAgent:
         self.epsilon_start = 0.5
         self.epsilon_end = 0.1
 
-        self.exploration_steps = 1000000.
+        self.exploration_steps = 1000000. 
         self.epsilon_decay_step = (self.epsilon_start - self.epsilon_end) \
                                   / self.exploration_steps
         self.batch_size = 32
