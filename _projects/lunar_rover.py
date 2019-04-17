@@ -73,6 +73,8 @@ class Environment:
         self.moving_distance = 0
         self.mineral_sampling = 0
 
+        self.map[self.rover_current_y][self.rover_current_x - self.map_current_x] = MapBlock.ROVER
+
         observation = self.get_observation()
 
         return observation
@@ -94,7 +96,6 @@ class Environment:
         done = False
         dead = False
 
-        #self.map[self.rover_current_y][self.rover_current_x - self.map_current_x] = MapBlock.VISIT
         self.map[self.rover_current_y][self.rover_current_x - self.map_current_x] = MapBlock.VISIT
 
         if action == 1:
@@ -172,14 +173,14 @@ class Environment:
         self.screen.refresh()
 
         #time.sleep(0.0)
-        #time.sleep(0.5)
-        time.sleep(1.0)
+        #time.sleep(0.3)
+        #time.sleep(1.0)
 
 class HumanAgent:
     def __init__(self, screen):
         self.screen = screen
 
-    def write_summary(self, global_step, step):
+    def write_summary(self, episode, score, global_step, step):
         pass
 
     def update_avg_q_max(self, history):
@@ -197,7 +198,7 @@ class HumanAgent:
 
         return ret
 
-    def save_model(slef, ep):
+    def save_model(self, ep):
         pass
 
 class DQNAgent:
@@ -208,8 +209,13 @@ class DQNAgent:
         self.state_size = (state_height, state_width, 1)
         self.action_size = action_size
         # DQN 하이퍼파라미터
-        self.epsilon = 0#0.5
-        self.epsilon_start, self.epsilon_end = 0, 0 #0.5, 0.1
+        #self.epsilon = 0#0.5
+        #self.epsilon_start, self.epsilon_end = 0, 0 #0.5, 0.1
+
+        self.epsilon = 0.5
+        self.epsilon_start = 0.5
+        self.epsilon_end = 0.1
+
         self.exploration_steps = 1000000.
         self.epsilon_decay_step = (self.epsilon_start - self.epsilon_end) \
                                   / self.exploration_steps
@@ -337,7 +343,7 @@ class DQNAgent:
         loss = self.optimizer([history, action, target])
         self.avg_loss += loss[0]
 
-    def write_summary(self, global_step, step):
+    def write_summary(self, episode, score, global_step, step):
         
         # 각 에피소드 당 학습 정보를 기록
         if global_step > self.train_start:
@@ -346,10 +352,10 @@ class DQNAgent:
             for i in range(len(stats)):
                 self.sess.run(self.update_ops[i], feed_dict={self.summary_placeholders[i]: float(stats[i])})
             summary_str = self.sess.run(self.summary_op)
-            self.summary_writer.add_summary(summary_str, ep + 1)
+            self.summary_writer.add_summary(summary_str, episode + 1)
 
-        print("ep:%5d scr:%5d memlen:%5d eps:%5.2f gb_step:%3d avr_q:%5.2f avr_loss:%5.2f" %
-        (ep, score, len(agent.memory), agent.epsilon, global_step, agent.avg_q_max / float(step), agent.avg_loss / float(step)))
+        print("ep:%5d scr:%5d mem:%5d eps:%6.4f step:%5d q:%6.4f loss:%6.4f" %
+        (episode, score, len(self.memory), self.epsilon, global_step, self.avg_q_max / float(step), self.avg_loss / float(step)))
 
         self.avg_q_max = 0
         self.avg_loss = 0
@@ -376,7 +382,7 @@ class DQNAgent:
         summary_op = tf.summary.merge_all()
         return summary_placeholders, update_ops, summary_op
 
-    def save_model(slef, ep):
+    def save_model(self, ep):
 
         # 1000 에피소드마다 모델 저장
         if ep % 1000 == 0:
@@ -388,16 +394,17 @@ def main(screen):
     env = Environment(screen)
     action_size = env.action_size
 
-    agent = HumanAgent(screen)
+    #agent = HumanAgent(screen)
     
     # DQN 에이전트 생성
-    #agent = DQNAgent(MAP_HEIGHT, MAP_WIDTH, action_size)
+    agent = DQNAgent(MAP_HEIGHT, MAP_WIDTH, action_size)
 
     scores, episodes, global_step = [], [], 0
 
     for ep in range(MAX_EPISODE):
 
-        step, score, start_life = 0, 0, 5
+        step = 0
+        score = 0
         observation = env.reset()
 
         #for _ in range(random.randint(1, agent.no_op_steps)):
@@ -429,9 +436,7 @@ def main(screen):
 
             agent.update_avg_q_max(history)
 
-            if start_life > info['lives']:
-                dead = True
-                start_life = info['lives']
+            dead = True
 
             reward = np.clip(reward, -1., 1.)
 
@@ -440,7 +445,7 @@ def main(screen):
             score += reward
 
                 
-        agent.write_summary(global_step, step)        
+        agent.write_summary(ep, score, global_step, step)        
         agent.save_model(ep)
 
 if __name__=='__main__':
