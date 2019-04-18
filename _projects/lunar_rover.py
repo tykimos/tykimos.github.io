@@ -24,20 +24,20 @@ ROVER_MAX_ENERGY = 40
 MAX_EPISODE = 500000
 
 class MapBlock(IntEnum):
-    UNVISITED = 0
-    CRATERS = 1
-    HELIUM3 = 2
-    ROVER = 3
-    VISIT = 4
-    BROKEN_ROVER = 5
+    AIR = 0
+    VISIT = 1
+    GROUND = 2
+    CRATERS = 3
+    HELIUM3 = 4
+    ROVER = 5
 
 MAP_BLOCKS_ICONS = {
     0: '..',
-    1: '░░',
-    2: '◆.',
-    3: '▞▚',
-    4: '  ',           
-    5: '▚▝'
+    1: '  ',               
+    2: '▓▓',
+    3: '░░',
+    4: '◆.',
+    5: '▞▚',
 }
 
 class Observation:
@@ -63,10 +63,10 @@ class Environment:
     def reset(self):
             
         self.map = np.zeros((MAP_HEIGHT, MAP_WIDTH))
-        self.map[MAP_HEIGHT-1][:] = 1
-        self.map[MAP_HEIGHT-2][:] = 2
+        self.map[MAP_HEIGHT-1][:] = MapBlock.GROUND
+        self.map[MAP_HEIGHT-2][:] = MapBlock.HELIUM3
 
-        self.rover_current_energy = 0
+        self.rover_current_energy = 5
         self.rover_current_x = int(MAP_WIDTH / 2)
         self.rover_current_y = MAP_HEIGHT - 2
         self.map_current_x = 0
@@ -116,16 +116,19 @@ class Environment:
 
         new_block = MapBlock.ROVER
 
-        if current_block == MapBlock.UNVISITED:
+        is_get_helium3 = False
+
+        if current_block == MapBlock.AIR:
             new_block = MapBlock.ROVER
         elif current_block == MapBlock.CRATERS:
-            new_block = MapBlock.BROKEN_ROVER
+            new_block = MapBlock.AIR
             done = True
             dead = True
         elif current_block == MapBlock.HELIUM3:
             new_block = MapBlock.ROVER
             self.mineral_sampling += 1
             self.rover_current_energy += 1
+            is_get_helium3 = True
 
         self.map[self.rover_current_y][self.rover_current_x - self.map_current_x] = new_block
 
@@ -136,12 +139,14 @@ class Environment:
                 self.map[row][col] = self.map[row][col+1]
 
         for row in range(MAP_HEIGHT):
-            if row > (MAP_HEIGHT - new_wall_height - 1):
-                self.map[row][MAP_WIDTH-1] = 1
+            if row < (MAP_HEIGHT - new_wall_height - 1):
+                self.map[row][MAP_WIDTH-1] = MapBlock.AIR
             elif row == (MAP_HEIGHT - new_wall_height - 1):
-                self.map[row][MAP_WIDTH-1] = 2
+                self.map[row][MAP_WIDTH-1] = MapBlock.HELIUM3
+            elif row < MAP_HEIGHT - 1:
+                self.map[row][MAP_WIDTH-1] = MapBlock.CRATERS
             else:
-                self.map[row][MAP_WIDTH-1] = 0
+                self.map[row][MAP_WIDTH-1] = MapBlock.GROUND
 
         self.map_current_x += 1        
 
@@ -150,11 +155,12 @@ class Environment:
         self.moving_distance = max(self.moving_distance, abs(self.map_current_x))
 
         if done == True:
-            reward = 0
+            reward = -1
         else:
-            reward = 1 #self.moving_distance + self.mineral_sampling
-
-        info['lives'] = dead
+            if is_get_helium3 == True:
+                reward = 1 #self.moving_distance + self.mineral_sampling
+            else:
+                reward = 0
 
         return observation, reward, done, info
 
@@ -172,7 +178,7 @@ class Environment:
         self.screen.addstr(16, 0, '')    
         self.screen.refresh()
 
-        #time.sleep(0.0)
+        #time.sleep(0.1)
         #time.sleep(0.3)
         #time.sleep(1.0)
 
@@ -216,11 +222,11 @@ class DQNAgent:
         self.epsilon_start = 0.5
         self.epsilon_end = 0.1
 
-        self.exploration_steps = 1000000. 
+        self.exploration_steps = 100000. #1000000. 
         self.epsilon_decay_step = (self.epsilon_start - self.epsilon_end) \
                                   / self.exploration_steps
         self.batch_size = 32
-        self.train_start = 50000
+        self.train_start = 5000 #50000 메모리가 이만큼 쌓이면 학습 시작
         self.update_target_rate = 10000
         self.discount_factor = 0.99
         # 리플레이 메모리, 최대 크기 400000
@@ -294,7 +300,7 @@ class DQNAgent:
         return model
 
     def update_avg_q_max(self, history):
-        self.avg_q_max += np.amax(self.model.predict(np.float32(history / 255.))[0])
+        self.avg_q_max += np.amax(self.model.predict(np.float32(history / 5.))[0])
 
     # 타겟 모델을 모델의 가중치로 업데이트
     def update_target_model(self):
@@ -302,7 +308,7 @@ class DQNAgent:
 
     # 입실론 탐욕 정책으로 행동 선택
     def get_action(self, history):
-        history = np.float32(history / 255.0)
+        history = np.float32(history / 5.0)
         if np.random.rand() <= self.epsilon:
             return random.randrange(self.action_size)
         else:
@@ -325,8 +331,8 @@ class DQNAgent:
         action, reward, dead = [], [], []
 
         for i in range(self.batch_size):
-            history[i] = np.float32(mini_batch[i][0] / 255.)
-            next_history[i] = np.float32(mini_batch[i][3] / 255.)
+            history[i] = np.float32(mini_batch[i][0] / 5.)
+            next_history[i] = np.float32(mini_batch[i][3] / 5.)
             action.append(mini_batch[i][1])
             reward.append(mini_batch[i][2])
             dead.append(mini_batch[i][4])
@@ -411,7 +417,6 @@ def main(screen):
         #    observation, _, _, _ = env.step(1)
 
         done = False
-        dead = False        
 
         state = observation.map
         #history = np.stack((state, state, state, state), axis=2)
@@ -436,14 +441,11 @@ def main(screen):
 
             agent.update_avg_q_max(history)
 
-            dead = True
-
             reward = np.clip(reward, -1., 1.)
 
-            agent.train(history, action, reward, next_history, dead, global_step)
+            agent.train(history, action, reward, next_history, done, global_step)
 
             score += reward
-
                 
         agent.write_summary(ep, score, global_step, step)        
         agent.save_model(ep)
