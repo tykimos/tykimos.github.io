@@ -13,13 +13,14 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 from keras.models import Sequential
 from IPython import get_ipython
+from IPython.display import clear_output
 import os
 
 MAP_WIDTH = 16
 MAP_HEIGHT = 16
 ROVER_MAX_ENERGY = 40
 MAX_EPISODE = 500000
-RENDERING_TIME_SLEEP = 1.
+RENDERING_TIME_SLEEP = 0.0
 
 class MapBlock(IntEnum):
     AIR = 0
@@ -40,6 +41,7 @@ class StandardRenderer:
 
     def __init__(self):
         self.screen = None
+        self.str_log = ''
 
     def set_screen(self, screen):
         pass
@@ -61,14 +63,16 @@ class StandardRenderer:
             str_draw += '\n'
 
         print(str_draw, flush=True)
+        print(self.str_log)
 
-    def logging(self, str_log):
-        print(str_log)
+    def put_log(self, str_log):
+        self.str_log = str_log
         
 class CursesRenderer:
 
     def __init__(self):
         self.screen = None
+        self.str_log = ''
     
     def set_screen(self, screen):
         self.screen = screen
@@ -88,11 +92,11 @@ class CursesRenderer:
         self.screen.addstr(0, 0, '%4d♥' % rover_current_energy)
         self.screen.addstr(0, 5, '%4dm' % moving_distance)
         self.screen.addstr(0, 10, '%4d◆' % mineral_sampling)
-        self.screen.addstr(16, 0, '')
+        self.screen.addstr(16, 0, self.str_log)
         self.screen.refresh()
 
-    def logging(self, str_log):
-        self.screen.addstr(16, 0, str_log)
+    def put_log(self, str_log):
+        self.str_log = str_log
 
 class Observation:
 
@@ -125,11 +129,6 @@ class Observation:
         state = np.reshape(state, [1, self.state_size])
 
         return state
-"""
-# 각 타임스텝마다 상태 전처리
-        next_state = np.reshape(next_state, [1, state_size])
-        state = np.reshape(state, [1, state_size])
-"""
 
 class Environment:
 
@@ -263,8 +262,8 @@ class Environment:
         self.renderer.render(self.map, self.rover_current_energy, self.moving_distance, self.mineral_sampling)
         time.sleep(RENDERING_TIME_SLEEP)
 
-    def render_log(self, str_log):
-        self.renderer.logging(str_log)
+    def put_log(self, str_log):
+        self.renderer.put_log(str_log)
 
 class HumanAgent:
     
@@ -290,7 +289,7 @@ class HumanAgent:
 class DQNAgent:
     def __init__(self, state_size, action_size):
 
-        self.load_model = False #True #False
+        self.load_model = True #False
 
         # 상태와 행동의 크기 정의
         self.state_size = state_size
@@ -316,7 +315,7 @@ class DQNAgent:
         self.update_target_model()
 
         if self.load_model:
-            self.model.load_weights("./lunar_rover_dqn_v100.h5")
+            self.model.load_weights("./lunar_rover_dqn_play_v5_4000.h5")
 
     # 상태가 입력, 큐함수가 출력인 인공신경망 생성
     def build_model(self):
@@ -452,14 +451,14 @@ def main_train(screen, env, agent):
         scores.append(score)
         
         pylab.plot(episodes, scores, 'b')
-        pylab.savefig("./lunar_rover_v101.png")
+        pylab.savefig("./lunar_rover_v102.png")
 
         str_log = "ep:%5d, score:%5d, memlen:%5d, ep:%5.3f" % (ep, score, len(agent.memory), agent.epsilon)
 
-        env.render_log(str)
+        env.put_log(str_log)
 
         if ep % 1000 == 0:
-            agent.save_model("./lunar_rover_dqn_v100.h5")
+            agent.save_model("./lunar_rover_dqn_v102.h5")
 
 if __name__=='__main__':
 
@@ -475,15 +474,15 @@ if __name__=='__main__':
     else:
         renderer = StandardRenderer()
 
-    agent = HumanAgent(state_size, action_size, renderer)
+    #agent = HumanAgent(state_size, action_size, renderer)
     #agent = ReinforceAgent(state_size, action_size)
-    #agent = DQNAgent(state_size, action_size)
+    agent = DQNAgent(state_size, action_size)
     #agent = A2CAgent(state_size, action_size)
     
     env.renderer = renderer
 
     if get_ipython() is None:   
-        #curses.wrapper(main_train, renderer, env, agent)
+        #curses.wrapper(main_train, env, agent)
         curses.wrapper(main_play, env, agent)
     else:
         #main_train(None, renderer, env, agent)
