@@ -13,6 +13,7 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 from keras.models import Sequential
 from IPython import get_ipython
+from IPython.display import clear_output
 import os
 
 MAP_WIDTH = 16
