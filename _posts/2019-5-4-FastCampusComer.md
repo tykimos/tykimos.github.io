@@ -5,22 +5,20 @@ author: 김태영
 date:   2019-05-04 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_title.png
+image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png
 ---
 요즘 인공지능 기술이 여러분야에서 각광받고 있는 가운데, 머신러닝/딥러닝 모델 개발 및 데이터 분석 기술의 중요성이 커지고 있습니다. 관심은 있지만 아직 시작하시지 않았거나 이제 막 입문하시는 분들에게 딥러닝 모델, 데이터 분석, 강화학습 기술을 손에 쥐어드릴 수 있도록 케라스 코리아, 캐글 코리아, 강화학습 코리아 운영자가 전국적으로 소개하고자 합니다.
 
-![img](http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_title.png)
+![img](http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png)
 
 ---
 ### 패스트캠퍼스 매거진 - 커머
 
-![img](http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png)
-
 * 더 자세히 보기 - [https://www.fastcampus.co.kr/data_mag_comer/](https://www.fastcampus.co.kr/data_mag_comer/) 
 
-* Contents Director 이샘 : 데이터 사이언스 코스 교육 기획자
-* Editor 안혜민 : 데이터 사이언스 콘텐츠를 즐기며 담아내는 에디터
-* Designer 서정화, 강하렴 : 데이터 사이언스 본질을 표현하는 디자이너
+* Contents Director 이샘: 데이터 사이언스 코스 교육 기획자
+* Editor 안혜민: 데이터 사이언스 콘텐츠를 즐기며 담아내는 에디터
+* Designer 서정화, 강하렴: 데이터 사이언스 본질을 표현하는 디자이너
 
 ---
 ### Column 전문가의 생각
@@ -46,15 +44,15 @@ image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_title.png
 
 * 대덕넷, 대전일보 - '이정원의 문화산책' 컬럼 연재
 * ETRI 연구원 - 게임이론연구회 만듬
-* KBS 스페셜 <인공지능, 인간을 이기다>에 출연
+* KBS 스페셜 '인공지능, 인간을 이기다'에 출연
 
 #### 강병호 - 데이터 사이언스 기술은 지금 어디쯤 와 있을까?
 
 내용
 
 * SK텔레콤 DT센터
-* <머신 러닝을 활용한 컴퓨터 보안> 번역
-* <딥러닝 데이터 전처리 입문> 번역
+* '머신 러닝을 활용한 컴퓨터 보안' 번역
+* '딥러닝 데이터 전처리 입문' 번역
 
 ---
 ### Application 기술발전과 변화
@@ -70,7 +68,7 @@ image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_title.png
 내용
 
 * (주)인스페이스 CTO
-* <블록과 함께하는 파이썬 딥러닝 케라스> 집필
+* '블록과 함께하는 파이썬 딥러닝 케라스' 집필
 * 김태영의 케라스 블로그 운영
 * 케라스 코리아, 캐글 코리아, 대딥사 운영
 * 강화학습 코리아 알파오목팀
@@ -85,8 +83,8 @@ image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_title.png
 
 * 가천대학교 산업경영공학과 조교수
 * 가천대학교 데이터 과학 연구센터 TEAMLAB 리더
-* 인프런 <데이터 과학을 위한 파이썬 입문>
-* 인프런 <밑바닥부터 시작하는 머신러닝 입문>
+* 인프런 '데이터 과학을 위한 파이썬 입문'
+* 인프런 '밑바닥부터 시작하는 머신러닝 입문'
 
 #### 최윤섭 - 인공지능은 의료를 어떻게 혁신하는가?
 
