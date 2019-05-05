@@ -14,7 +14,7 @@ image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png
 ---
 ### 패스트캠퍼스 매거진 - 커머
 
-'커머'는 ‘관심 있는 사람 모두’ 라는 의미를 담고 있습니다. 데이터 사이언스 분야의 칼럼, 전문가 인터뷰, 실무 이야기 그리고 최근 이슈들을 중심으로 데이터 사이언스 분야에 관심이 있는 분들이라면 모두 주목할만한 주제들을 다루는 커머에 주목해주세요.
+'커머'는 ‘관심 있는 사람 모두’ 라는 의미를 담고 있습니다. 데이터 사이언스 분야의 칼럼, 전문가 인터뷰, 실무 이야기 그리고 최근 이슈들을 중심으로 내용이 구성되어 있습니다.
 
 * 더 자세히 보기 - [https://www.fastcampus.co.kr/data_mag_comer/](https://www.fastcampus.co.kr/data_mag_comer/) 
 
