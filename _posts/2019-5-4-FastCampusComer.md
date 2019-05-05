@@ -7,12 +7,14 @@ categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png
 ---
-요즘 인공지능 기술이 여러분야에서 각광받고 있는 가운데, 머신러닝/딥러닝 모델 개발 및 데이터 분석 기술의 중요성이 커지고 있습니다. 관심은 있지만 아직 시작하시지 않았거나 이제 막 입문하시는 분들에게 딥러닝 모델, 데이터 분석, 강화학습 기술을 손에 쥐어드릴 수 있도록 케라스 코리아, 캐글 코리아, 강화학습 코리아 운영자가 전국적으로 소개하고자 합니다.
+'데이터 사이언스 거품인가? 미래인가?'한 주제로 패스트캠퍼스의 제1호 매거진인 '커머'가 출간되었네요. 
 
 ![img](http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png)
 
 ---
 ### 패스트캠퍼스 매거진 - 커머
+
+'커머'는 ‘관심 있는 사람 모두’ 라는 의미를 담고 있습니다. 데이터 사이언스 분야의 칼럼, 전문가 인터뷰, 실무 이야기 그리고 최근 이슈들을 중심으로 데이터 사이언스 분야에 관심이 있는 분들이라면 모두 주목할만한 주제들을 다루는 커머에 주목해주세요.
 
 * 더 자세히 보기 - [https://www.fastcampus.co.kr/data_mag_comer/](https://www.fastcampus.co.kr/data_mag_comer/) 
 
