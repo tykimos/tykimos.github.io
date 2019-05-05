@@ -34,7 +34,7 @@ image: http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png
 
 #### 엄태웅 - 딥러닝의 환상을 파는 사람들께 고함
 
-... 불분명한 문제 정의와 접근 방법으론 
+... 딥러닝을 이용한다는 것이 중요한 것이 아니라 각 문제 요소를 어떤 도구로 해결할 것인지 명확한 문제 정의와 구체적인 접근 방법으로 현실 문제를 대해야 합니다 ...
 
 * 캐나다 워터루대학 전기컴퓨터 공학부 박사과정
 * 테리의 딥러닝 토크 - [https://www.facebook.com/deeplearningtalk](https://www.facebook.com/deeplearningtalk)
