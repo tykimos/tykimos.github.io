@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "하이퍼파라미터 튜닝 - 케라스 튜너"
+title:  "하이퍼튜닝을 손쉽게 - 케라스 튜너"
 author: 김태영
 date:   2019-05-10 00:00:00
 categories: etc
@@ -12,7 +12,6 @@ image: http://tykimos.github.io/warehouse/2019-5-10-KerasTuner_title.png
 ![img](http://tykimos.github.io/warehouse/2019-5-10-KerasTuner_title.png)
 
 * 소개 페이지 - [https://elie.net/talk/](https://elie.net/talk/cutting-edge-tensorflow-keras-tuner-hypertuning-for-humans/)
-![img](http://tykimos.github.io/warehouse/2019-5-4-FastCampusComer_1.png)
 * 발표자료 - [PDF](https://elie.net/static/files/cutting-edge-tensorflow-keras-tuner-hypertuning-for-humans/cutting-edge-tensorflow-keras-tuner-hypertuning-for-humans-slides.pdf) [구글슬라이드](https://docs.google.com/presentation/d/e/2PACX-1vT7Tc0KiUW7HX36Dck4YxKc1M8bX701PsVFUDiVK7ZN220efFGmukg0N1UJowBVnOR6Awsx_SFL9cxd/embed?slide=id.g5746e5591c_0_92)
 
 Google I/O'19에서 발표된 세미나 동영상도 있네요. 
