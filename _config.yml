@@ -34,3 +34,5 @@ facebook:
 markdown: kramdown
 
 encoding: UTF-8
+
+paginate: 5
