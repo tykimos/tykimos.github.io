@@ -26,17 +26,13 @@ comments: true
 <div class="pagination" style="text-align:center">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
-      Previous
+      이전 페이지
     </a>
-  {% else %}
-    <span class="previous">Previous</span>
   {% endif %}
   <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    현재 페이지: {{ paginator.page }} / {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
+    <a href="{{ paginator.next_page_path }}" class="next">다음 페이지</a>
   {% endif %}
 </div>
