@@ -83,6 +83,31 @@ li {
     color: #EEE;
 }
 
+.description a {
+    color: #959BA6;
+}
+
+.description a:link {
+    color: #FFF;    
+    opacity: 1;
+    transition: all 0.15s linear 0s;
+    text-decoration: none;
+}
+
+.description li a:visited {
+    color: #FFF;
+    opacity: 1;
+    transition: all 0.15s linear 0s;
+    text-decoration: none;
+}
+
+.description li a:hover {
+    color: #FFF;
+    opacity: 0.6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .social-links {
     padding-top: 10px;
 	margin-left: 0px;
