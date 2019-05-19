@@ -50,7 +50,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 블로그
 * 깃헙
 * 저서
-* 연락처
+* 이메일, 페북링크
 
 #### 발표소개
 발표 요약 및 대표 이미지
