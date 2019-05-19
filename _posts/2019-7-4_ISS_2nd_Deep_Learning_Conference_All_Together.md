@@ -65,6 +65,10 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 ---
 ### 같이 보기
 
+* [1st DLCAT](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)
+
+![img](http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_DLCAT_title1.png)
+
 * [케라스 기초 강좌](https://tykimos.github.io/lecture/)
 * [대딥사](https://www.facebook.com/groups/ddeeps/?ref=bookmarks)
 * [케라스 코리아](https://www.facebook.com/groups/KerasKorea/)
