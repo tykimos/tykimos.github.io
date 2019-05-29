@@ -48,6 +48,7 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
     * 송규예(Resonance-공명 CEO, 감성AI): (주제미정)
     * 조수현(디아이티주식회사): (주제미정)
     * 전미정(MS MVP): (주제미정)
+    * 유용균(한국원자력연구원): (주제미정)
     * 배성호(경희대학교 컴공교수): (주제미정)
     * 황준원(케라스 코리아): (주제미정)
 
