@@ -35,20 +35,18 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
-|10시|(이름:주제)|(이름:주제)|(이름:주제)|(이름:주제)|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 1|(이름:주제)|
+|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|(이름:주제)|(이름:주제)|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 1|(이름:주제)|
 |11시|<b>안수빈</b><br>알아두면 쓸데있는 신비한 딥러닝|(이름:주제)|(이름:주제)|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 2|(이름:주제)|
 |13시|(이름:주제)|(이름:주제)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|(이름:주제)|<b>신경인</b><br>(실습)파이토치로 갈아타기 1|(이름:주제)|
 |14시|(이름:주제)|(이름:주제)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|(이름:주제)|<b>신경인</b><br>(실습)파이토치로 갈아타기 2|(이름:주제)|
-|15시|(이름:주제)|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김영하</b><br>AutomatedML 동향|<b>이진원</b><br>(미정)|(이름:주제)|(이름:주제)|
-|16시|(이름:주제)|(이름:주제)|(이름:주제)|<b>차금강</b><br>강화학습|(이름:주제)|(이름:주제)|
+|15시|(이름:주제)|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김영하</b><br>AutomatedML 동향|<b>이진원</b><br>(미정)|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지|(이름:주제)|
+|16시|(이름:주제)|(이름:주제)|(이름:주제)|<b>차금강</b><br>강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지|(이름:주제)|
 |17시|대전 AI 거버넌스|-|-|-|-|-|
 
 * 세션 미정
     * 김보섭(LG전자, 자연어처리): "(실습)영화평점 데이터로 자연어처리 논문구현 입문" 또는 "SentenceCNN부터 BERT까지"
     * 송규예(Resonance-공명 CEO, 감성AI): (주제미정)
-    * 조수현(디아이티주식회사): (주제미정)
     * 전미정(MS MVP): (주제미정)
-    * 유용균(한국원자력연구원): (주제미정)
     * 배성호(경희대학교 컴공교수): (주제미정)
     * 황준원(케라스 코리아): (주제미정)
 
@@ -56,7 +54,70 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 * 각 세션은 45분 발표, 5분 질의응답, 10분 휴식 및 이동입니다.
 * UST과 ETRI사이는 도보로 10분이내 거리에 있습니다. 따라서 쉬는 시간을 이용해서 이동하시면 됩니다.
 
-### 이름1 - 주제
+### 조수현 - 3분 강화학습 순한맛 SAC(Soft Actor Critic) feat. AC(Actor Critic)
+---
+
+#### 연사소개
+디아이티 연구원, 관심 분야는 강화학습, 서버프로그래밍입니다.
+
+* 깃헙:  https://github.com/humblem2
+* 이메일: seanbrowncho@gmail.com 
+
+#### 발표소개
+TBD
+
+#### 발표자료
+TBD
+
+#### 참고자료
+TBD
+
+### 유용균 - 딥러닝과 최적설계
+---
+
+#### 연사소개
+한국원자력연구원
+
+#### 발표소개
+TBD
+
+#### 발표자료
+TBD
+
+#### 참고자료
+TBD 
+
+### 김경환, 박진우 - Rainbow로 달착륙부터 Atari까지
+---
+
+#### 연사소개
+현재 Medipixel에서 research engineer로 재직중이며, 강화학습을 통해 심혈관 중재시술(PCI) 일부 과정을 자동화하는 연구를 진행하고 있습니다. 심혈관 중재시술의 핵심은 혈관 내에서 병변부위까지 무사히 도달할 수 있도록 wire를 제어하는 기술입니다. 특히 wire 제어는 굉장히 풀기 어려운 non-linear system으로 악명이 높은데, 저희는 그 동안의 성과물을 통해 강화학습에 의한 wire 제어의 가능성을 조금씩 세상에 보여주고 있습니다.
+
+* 블로그: https://mrsyee.github.io / https://curt-park.github.io/
+* 깃헙: https://github.com/MrSyee / https://github.com/Curt-Park
+* 이메일: khsyee@gmail.com / www.jwpark.co.kr@gmail.com
+
+#### 발표소개
+Atari 환경에서 아주 좋은 성능을 보여주는 강화학습 알고리즘인 Rainbow를 공부하고 실습해봅니다. Rainbow를 구성하는 DQN, PER, Double-Q, Dueling Network, NoisyNet, C51, N-Step 및 expert demonstration을 이용한 추가적인 성능 향상 기법(DQfD)을 구현해봅니다.
+
+#### 발표자료
+TBD
+
+#### 참고자료
+* 논문
+    * V. Mnih et al., "Human-level control through deep reinforcement learning." Nature, 518 (7540):529–533, 2015.
+    * T. Schaul et al., "Prioritized Experience Replay." arXiv preprint arXiv:1511.05952, 2015.
+    * van Hasselt et al., "Deep Reinforcement Learning with Double Q-learning." arXiv preprint arXiv:1509.06461, 2015.
+    * Z. Wang et al., "Dueling Network Architectures for Deep Reinforcement Learning." arXiv preprint arXiv:1511.06581, 2015.
+    * T. Hester et al., "Deep Q-learning from Demonstrations." arXiv preprint arXiv:1704.03732, 2017.
+    * M. G. Bellemare et al., "A Distributional Perspective on Reinforcement Learning." arXiv preprint arXiv:1707.06887, 2017.
+    * M. Fortunato et al., "Noisy Networks for Exploration." arXiv preprint arXiv:1706.10295, 2017.
+    * M. Hessel et al., "Rainbow: Combining Improvements in Deep Reinforcement Learning." arXiv preprint arXiv:1710.02298, 2017.
+
+* 깃헙
+    * https://github.com/medipixel/rl_algorithms
+    * https://github.com/Kaixhin/Rainbow
+
 ---
 
 #### 연사소개
