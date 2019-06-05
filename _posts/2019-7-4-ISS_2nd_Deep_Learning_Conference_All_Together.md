@@ -15,7 +15,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 신청은 아래 링크에서 해주세요~
 
-#### [신청하기](https://forms.gle/DFYtGWS7aDj1Bmow8)
+#### >> [신청하기](https://forms.gle/DFYtGWS7aDj1Bmow8) <<
 
 * 일시: 2019년 7월 4일 (10시~18시)
 * 장소: 대전광역시 유성구 가정로 217 
@@ -50,6 +50,10 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * 점심시간은 12시 ~ 13시입니다.
 * 각 세션은 45분 발표, 5분 질의응답, 10분 휴식 및 이동입니다.
 * UST과 ETRI사이는 도보로 10분이내 거리에 있습니다. 따라서 쉬는 시간을 이용해서 이동하시면 됩니다.
+
+신청은 아래 링크에서 해주세요~
+
+#### >> [신청하기](https://forms.gle/DFYtGWS7aDj1Bmow8) <<
 
 ## 10시
 
