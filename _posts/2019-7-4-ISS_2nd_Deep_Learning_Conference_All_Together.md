@@ -35,11 +35,11 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
-|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|(이름:주제)|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 1|(이름:주제)|
+|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - AI Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 1|(이름:주제)|
 |11시|<b>안수빈</b><br>알아두면 쓸데있는 신비한 딥러닝|(이름:주제)|(이름:주제)|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 2|(이름:주제)|
-|13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|(이름:주제)|<b>신경인</b><br>(실습)파이토치로 갈아타기 1|(이름:주제)|
+|13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>강민국</b><br>주제(커밍슌)|<b>신경인</b><br>(실습)파이토치로 갈아타기 1|(이름:주제)|
 |14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 2|(이름:주제)|
-|15시|<b>예약</b><br>-|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 1|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 1|(이름:주제)|
+|15시|<b>블라인드</b><br>-|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 1|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 1|(이름:주제)|
 |16시|<b>김태영</b><br>휴먼 인 더 루프 with 케라스|(이름:주제)|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 2|<b>차금강</b><br>강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 2|(이름:주제)|
 |17시|대전 AI 거버넌스|-|-|-|-|-|
 
@@ -58,6 +58,21 @@ image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Confer
 
 * 깃헙:  https://github.com/humblem2
 * 이메일: seanbrowncho@gmail.com 
+
+#### 발표소개
+TBD
+
+#### 발표자료
+TBD
+
+#### 참고자료
+TBD
+
+### 이수진 - AI시대의 예술작품 - AI Atelier를 이용하여
+---
+
+#### 연사소개
+TBd
 
 #### 발표소개
 TBD
