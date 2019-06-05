@@ -21,12 +21,14 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * 주최: (주)인스페이스
 * 후원: UST 과학기술연합대학원대학교, ETRI 융합기술연구생산센터
 * 대상: 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 700명)
-    * 세션 A: UST 강당 300명
-    * 세션 B: UST 사이언스홀 65명
-    * 세션 C: UST 대회의실 35명
-    * 세션 D: ETRI 융합기술연구생산센터 212호 대회의실 180명
-    * 세션 E: ETRI 융합기술연구생산센터 224호 중회의실 50명
-    * 세션 F: ETRI 융합기술연구생산센터 219호 중회의실3 20명
+    * 트랙 A: UST 강당 300명
+    * 트랙 B: UST 사이언스홀 65명
+    * 트랙 C: UST 대회의실 35명
+    * 트랙 D: ETRI 융합기술연구생산센터 212호 대회의실 180명
+    * 트랙 E: ETRI 융합기술연구생산센터 224호 중회의실 50명
+    * 트랙 F: ETRI 융합기술연구생산센터 219호 중회의실3 20명
+
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_room.png)
 
 ### 프로그램
 ---
