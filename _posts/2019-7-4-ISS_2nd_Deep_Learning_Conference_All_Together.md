@@ -5,7 +5,7 @@ author: 김태영
 date:   2019-07-04 10:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2018-6-28-ISS_1st_Deep_Learning_Conference_All_Together_DLCAT_title1.png
+image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title2.png
 ---
 작년 6월 말 대전에서 ["1st 함께하는 딥러닝 컨퍼런스"](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)에 400명 넘게 모여 즐겁게 인공지능 및 딥러닝 관한 다양한 주제로 톡을 나누었습니다. 
 
