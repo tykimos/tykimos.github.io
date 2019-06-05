@@ -13,6 +13,8 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title2.png)
 
+### [신청하기](https://forms.gle/DFYtGWS7aDj1Bmow8)
+
 * 일시: 2019년 7월 4일 (10시~18시)
 * 장소: 대전광역시 유성구 가정로 217 
     * 과학기술연합대학원대학교 - 대전광역시 유성구 가정로 217 
