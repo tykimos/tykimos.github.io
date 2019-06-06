@@ -63,7 +63,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 #### 연사소개
 디아이티 연구원, 관심 분야는 강화학습, 서버프로그래밍입니다.
 
-* 깃헙:  https://github.com/humblem2
+* 깃헙:  https://github.com/humblem2  
 * 이메일: seanbrowncho@gmail.com 
 
 #### 발표소개
