@@ -5,13 +5,13 @@ author: 김태영
 date:   2019-07-04 10:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title3.png
+image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title4.png
 ---
 작년 6월 말 대전에서 ["1st 함께하는 딥러닝 컨퍼런스"](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)에 400명 넘게 모여 즐겁게 인공지능 및 딥러닝 관한 다양한 주제로 톡을 나누었습니다.  그간 매일 논문만 읽어도 못 따라갈 만큼 새로운 연구가 쏟아지고 있고, 그 활용 사례 및 관심 또한 각 분야에 퍼져가고 있습니다. 대전은 전국 각지에서 오시기에 접근성이 용이하고, 정부출연연구원 및 정부청사, 우수한 대학교, 대기업의 기술 연구소, 최첨단 기술 중심의 벤처회사들이 밀집된 지역인 만큼 지식공유의 즐거움을 나누고자 합니다. 
 
     별도의 참가비는 없습니다. 연사분들도 여러분과 즐기게 위해 재능기부합니다. 주차공간이 협소하므로 대중교통을 이용해주세요.
 
-![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title3.png)
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title4.png)
 
 신청은 아래 링크에서 해주세요~
 
