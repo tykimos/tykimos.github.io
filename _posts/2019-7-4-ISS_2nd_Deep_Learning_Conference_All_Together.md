@@ -156,6 +156,27 @@ TBD
 #### 참고자료
 TBD 
 
+### 김준태 - 나도 너도 모르는 Graph Neural Network의 힘
+---
+
+#### 연사소개
+안녕하세요 현재 고려대학교에서 석사과정 중이고 
+작년에 1st DLCAT에서 "GTA5로 자율주행 자동차 만들기" 발표를 진행한 김준태라고 합니다.
+관심분야로는 주로 Time Series, 강화학습, 딥러닝이고, 새로운 Research Area로 GNN을 이용한 VQA에서의 relation 연구를 시작했습니다.
+
+- CV: https://sites.google.com/s/1o2nR2sFY7c4VUrosW1Fivbt_4mhKiQAX/p/1h52r1XhKqPvElCInPU717DjCwFNsrr7r/edit
+- 깃헙: https://github.com/OPAYA
+- 이메일: kjt7889@naver.com
+
+#### 발표소개
+"나도 너도 모르는 GNN의 힘" 발표는 Graph Neural Network 공부를 시작한 지 1주일 된 초보자가 초보자에게 
+Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담감 없이 들으시면 됩니다.
+발표는 2019 ICLR에서 발표한 "How Powerful are Graph Neural Networks?"를 기반으로 진행됩니다.
+
+#### 참고자료
+논문
+K.Xu,W.Hu,J.Leskovec,and S.Jegelka,“How powerful are graph neural networks”
+
 ### 이유한 - I'm Kaggler - Why need kaggle?
 ---
 
