@@ -380,16 +380,19 @@ TBD
 ### 이진원 - Efficient CNN 톺아보기
 
 #### 연사소개
-TBD
+현재 삼성전자에서 Staff Engineer로 일하고 있습니다. Deep Learning Hardware Accelerator와 모델 경량화를 연구하였습니다. PR12 논문 읽기 모임을 3년째 참여하고 있고, Facebook TensroFlow Korea group에서 운영진으로도 활동하고 있습니다.
+
+* 깃헙 : https://github.com/jwlee-ml
+* 이메일: jwlee.ml25@gmail.com
 
 #### 발표소개
-TBD
+ImageNet에서 ResNet이 human performance를 뛰어넘은 이후 efficiency를 중요시하는 CNN들이 계속 연구되어 왔는데 최근까지의 흐름을 쭉 정리해보고자 합니다.
 
 #### 발표자료
 TBD
 
 #### 참고자료
-TBD 
+* 논문: TBA
 
 ---
 ### 김경환,박진우 - (실습)Rainbow로 달착륙부터 Atari까지
