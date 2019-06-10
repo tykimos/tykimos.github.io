@@ -7,7 +7,7 @@ categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_title4.png
 ---
-작년 6월 말 대전에서 ["1st 함께하는 딥러닝 컨퍼런스"](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)에 400명 넘게 모여 즐겁게 인공지능 및 딥러닝 관한 다양한 주제로 톡을 나누었습니다.  그간 매일 논문만 읽어도 못 따라갈 만큼 새로운 연구가 쏟아지고 있고, 그 활용 사례 및 관심 또한 각 분야에 퍼져가고 있습니다. 대전은 전국 각지에서 오시기에 접근성이 용이하고, 정부출연연구원 및 정부청사, 우수한 대학교, 대기업의 기술 연구소, 최첨단 기술 중심의 벤처회사들이 밀집된 지역인 만큼 지식공유의 즐거움을 나누고자 합니다. 
+작년 6월 말 대전에서 ["1st 함께하는 딥러닝 컨퍼런스"](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)에 400명 넘게 모여 즐겁게 인공지능 및 딥러닝 관한 다양한 주제로 톡을 나누었습니다.  그간 매일 논문만 읽어도 못 따라갈 만큼 새로운 연구가 쏟아지고 있고, 그 활용 사례 및 관심 또한 각 분야에 퍼져가고 있습니다. 대전은 전국 각지에서 오시기에 접근성이 용이하고, 정부출연연구원 및 정부청사, 우수한 대학교, 대기업의 기술 연구소, 최첨단 기술 중심의 벤처회사들이 밀집된 지역인 만큼 지식공유의 즐거움을 나누고자 합니다.
 
     별도의 참가비는 없습니다. 연사분들도 여러분과 즐기게 위해 재능기부합니다. 주차공간이 협소하므로 대중교통을 이용해주세요.
 
@@ -18,9 +18,9 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 #### >> [신청하기](https://forms.gle/DFYtGWS7aDj1Bmow8) <<
 
 * 일시: 2019년 7월 4일 (10시~18시)
-* 장소: 대전광역시 유성구 가정로 217 
-    * 과학기술연합대학원대학교 - 대전광역시 유성구 가정로 217 
-    * ETRI 융합기술연구생산센터 - 대전광역시 유성구 가정로 218 
+* 장소: 대전광역시 유성구 가정로 217
+    * 과학기술연합대학원대학교 - 대전광역시 유성구 가정로 217
+    * ETRI 융합기술연구생산센터 - 대전광역시 유성구 가정로 218
 * 주관: 대딥사, 케라스 코리아, 캐글 코리아, RL 코리아
 * 주최: (주)인스페이스
 * 후원: UST 과학기술연합대학원대학교, ETRI 융합기술연구생산센터
@@ -64,7 +64,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 디아이티 연구원, 관심 분야는 강화학습, 서버프로그래밍입니다.
 
 * 깃헙:  https://github.com/humblem2
-* 이메일: seanbrowncho@gmail.com 
+* 이메일: seanbrowncho@gmail.com
 
 #### 발표소개
 TBD
@@ -122,7 +122,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 이현호 - (실습)유니티 기반 드론 강화학습
@@ -137,7 +137,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ## 11시
 
@@ -154,7 +154,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 김준태 - 나도 너도 모르는 Graph Neural Network의 힘
@@ -167,7 +167,7 @@ TBD
 * 이메일: kjt7889@naver.com
 
 #### 발표소개
-"나도 너도 모르는 GNN의 힘" 발표는 Graph Neural Network 공부를 시작한 지 1주일 된 초보자가 초보자에게 
+"나도 너도 모르는 GNN의 힘" 발표는 Graph Neural Network 공부를 시작한 지 1주일 된 초보자가 초보자에게
 Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담감 없이 들으시면 됩니다.
 발표는 2019 ICLR에서 발표한 "How Powerful are Graph Neural Networks?"를 기반으로 진행됩니다.
 
@@ -188,7 +188,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 안수빈 - 알아두면 쓸데있는 신비한 딥러닝
@@ -203,7 +203,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ## 13시
 
@@ -220,7 +220,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 김유민 - 딥러닝 모델 엑기스 추출(Knowlege Distillation)
@@ -235,22 +235,27 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 홍원의 - (실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기
 
 #### 연사소개
-TBD
+카이스트 지식서비스공학 대학원을 석사 졸업하고 디플러스(http://www.dplus.company)에서 데이터분석 강사로 활동하다 현재는 홍콩 과학기술대학교 (HKUST)에서 [머신러닝](https://sites.google.com/view/dyyeung/)을 전공하는 박사과정 학생입니다. 여름방학중 잠시 귀국해서 강의합니다.
+
+* 홈페이지 : https://sites.google.com/view/woneuihong
+* Github : https://github.com/laftworld
+* Email : [wehong@cse.ust.hk](mailto:wehong@cse.ust.hk)
 
 #### 발표소개
-TBD
+연구란 무엇이고 어떤 절차를 수행하는지, 매일같이 쏟아지는 머신러닝 분야의 논문을 어떻게 읽고 정리하며 공부할지 함께 고민하는 시간을 마련했습니다. 국내와 해외 연구실 생활을 겪어본 주관적인 경험도 공유합니다. 대학원 초년생이나 진학 예정자를 비롯해 연구에 대해 궁금한 분을 대상으로 합니다. 
 
 #### 발표자료
-TBD
+* [발표자료](https://docs.google.com/presentation/d/1tQp_i-fshzUjdVnHXvTikf-DGYv0acehSryg7SRFU1A/edit?usp=sharing)
 
 #### 참고자료
-TBD 
+* 한페이지 머신러닝 : [한페이지 머신러닝](https://opentutorials.org/module/3653)
+* 영문 소개 : [One Page Learning](https://laftworld.github.io/)
 
 ---
 ### 신경인 - (실습)파이토치로 갈아타기
@@ -265,7 +270,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 전미정 - 실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지
@@ -280,7 +285,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ## 14시
 
@@ -312,7 +317,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 송규예 - Deeplema, 딥러닝 서비스상용화의 딜레마
@@ -344,7 +349,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 김태진 - 구글 코랩 TPU 알아보기
@@ -359,7 +364,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 김보섭 - (실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0
@@ -374,7 +379,7 @@ TBD
 TBD
 
 #### 참고자료
-TBD 
+TBD
 
 ---
 ### 이진원 - Efficient CNN 톺아보기
