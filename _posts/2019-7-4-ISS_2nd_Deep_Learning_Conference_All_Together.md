@@ -241,11 +241,11 @@ TBD
 ### 홍원의 - (실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기
 
 #### 연사소개
-카이스트 지식서비스공학 대학원을 석사 졸업하고 [디플러스](http://www.dplus.company) 에서 데이터분석 강사로 활동하다 현재는 홍콩 과학기술대학교 (HKUST)에서 [머신러닝](https://sites.google.com/view/dyyeung/) 을 전공하는 박사과정 학생입니다. 여름방학중 잠시 귀국해서 강의합니다.
+카이스트 지식서비스공학 대학원을 석사 졸업하고 [디플러스](http://www.dplus.company)에서 데이터분석 강사로 활동하다 현재는 홍콩 과학기술대학교 (HKUST)에서 [머신러닝](https://sites.google.com/view/dyyeung/)을 전공하는 박사과정 학생입니다. 여름방학중 잠시 귀국해서 강의합니다.
 
 * 홈페이지 : https://sites.google.com/view/woneuihong
 * 깃헙 : https://github.com/laftworld
-* Email : [wehong@cse.ust.hk](mailto:wehong@cse.ust.hk)
+* 이메일 : [wehong@cse.ust.hk](mailto:wehong@cse.ust.hk)
 
 #### 발표소개
 연구란 무엇이고 어떤 절차로 수행하는지, 매일같이 쏟아지는 머신러닝 분야의 논문을 어떻게 읽고 정리하며 공부할지 함께 고민하는 시간을 마련했습니다. 국내 및 해외 연구실 생활에 대한 주관적인 경험도 공유합니다. 대학원 초년생이나 진학 예정자를 비롯해 연구에 대해 궁금한 분을 대상으로 합니다.
