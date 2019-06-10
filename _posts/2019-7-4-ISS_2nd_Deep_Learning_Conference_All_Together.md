@@ -255,8 +255,8 @@ TBD
 
 #### 참고자료
 * [한페이지 머신러닝 (온라인))](https://opentutorials.org/module/3653)
-* [한페이지 머신러닝 - 여름방학편 (오프라인 세미나)](https://timetodev.co.kr/event/14)
-* [One Page Learning](https://laftworld.github.io/)
+* [한페이지 머신러닝 - 여름방학편 (오프라인 세미나)](https://timetodev.co.kr/event/13)
+* [One Page Learning (영문)](https://laftworld.github.io/)
 
 ---
 ### 신경인 - (실습)파이토치로 갈아타기
