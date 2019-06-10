@@ -254,7 +254,8 @@ TBD
 * [발표자료](https://docs.google.com/presentation/d/1tQp_i-fshzUjdVnHXvTikf-DGYv0acehSryg7SRFU1A/edit?usp=sharing)
 
 #### 참고자료
-* [한페이지 머신러닝](https://opentutorials.org/module/3653)
+* [한페이지 머신러닝 (온라인))](https://opentutorials.org/module/3653)
+* [한페이지 머신러닝 - 여름방학편 (오프라인 세미나)](https://timetodev.co.kr/event/14)
 * [One Page Learning](https://laftworld.github.io/)
 
 ---
