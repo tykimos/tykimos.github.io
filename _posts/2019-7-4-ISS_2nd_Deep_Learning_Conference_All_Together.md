@@ -39,8 +39,8 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
-|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|(모집중)|
-|11시|<b>안수빈</b><br>알아두면 쓸데있는 신비한 딥러닝|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|(모집중)|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|(모집중)|
+|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (1)|
+|11시|<b>안수빈</b><br>알아두면 쓸데있는 신비한 딥러닝|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
 |13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (1)|
 |14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (2)|
 |15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
@@ -139,6 +139,25 @@ TBD
 #### 참고자료
 TBD 
 
+---
+### 정연준 - (실습)아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기
+
+#### 연사소개
+케라스 코리아 운영진 및 셀바스AI 컴퓨터 비전 연구원. 취미로 오픈소스를 하는 사람입니다. 
+
+* CV: https://fuzzythecat.github.io
+* 깃헙: https://github.com/fuzzythecat
+* 이메일: fuzzy0427@gmail.com
+
+#### 발표소개
+많은 사람들이 어려움을 겪고있는 “띄어쓰기”를 딥러닝으로 해결해보고자 하는 과정을 소개합니다. 이를 위해 필요한 이론과 기본적인 케라스 사용법을 다루며, 최종적으로 각자의 모델을 테스트 해보는 시간을 가질 예정입니다. 
+
+#### 발표자료
+TBD
+
+#### 참고자료
+TBD 
+
 ## 11시
 
 ---
@@ -174,6 +193,21 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 #### 참고자료
 * 논문
     * K.Xu,W.Hu,J.Leskovec,and S.Jegelka,"How powerful are graph neural networks"
+
+---
+### 안종훈 - 설명가능한 AI for AI 윤리
+
+#### 연사소개
+TBD
+
+#### 발표소개
+TBD
+
+#### 발표자료
+TBD
+
+#### 참고자료
+TBD 
 
 ---
 ### 이유한 - I'm Kaggler - Why need kaggle?
