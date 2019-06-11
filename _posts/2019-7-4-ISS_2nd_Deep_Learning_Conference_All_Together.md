@@ -39,7 +39,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
-|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - AI Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|(모집중)|
+|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|(모집중)|
 |11시|<b>안수빈</b><br>알아두면 쓸데있는 신비한 딥러닝|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|(모집중)|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|(모집중)|
 |13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|(모집중)|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (1)|
 |14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (2)|
@@ -177,21 +177,6 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 
 ---
 ### 이유한 - I'm Kaggler - Why need kaggle?
-
-#### 연사소개
-TBD
-
-#### 발표소개
-TBD
-
-#### 발표자료
-TBD
-
-#### 참고자료
-TBD 
-
----
-### 안수빈 - 알아두면 쓸데있는 신비한 딥러닝
 
 #### 연사소개
 TBD
@@ -458,19 +443,26 @@ TBD
 TBD
 
 ---
-### 차금강 - 강화학습
+### 차금강 - 설명가능한 강화학습(Explainable Reinforcement Learning)
 
 #### 연사소개
-(주)인스페이스 기술이사, 케라스 코리아, 캐글 코리아 운영진
+안녕하세요 현재 너드팩토리에서 자연어처리를 이용한 여러가지 문제를 풀고 있는 강입니다. 챗봇 시스템, 언어처리를 이용한 추천시스템 등을 연구/개발하고 있으며 진정한 의미의 인공지능으로써 강화학습을 연구하고 있습니다.
+
+* 깃헙: http://github.com/chagmgang
+* cv: https://github.com/chagmgang/cv
+* 이메일: chagmgang@gmail.com
 
 #### 발표소개
-TBD
+현재 DeepMind, OpenAI가 선두가 되어 많은 강화학습 문제들이 해결되고 있습니다. 하지만 내부 모델이 왜 특정 상태에서 해당 행동을 하는지는 인공신경망 특성상 알기 어렵습니다. DeepMind에서는 이러한 문제를 자연어 문제에서 흔히 사용하는 self-attention 모델을 이용하여 설명하는 인공신경망을 발표하였습니다. 이는 추후 설명가능한 진정한 의미의 AI가 될 수 있는 가능성을 내포하고 있습니다. 이에 대해서 구현하고 설명하는 내용을 발표할 것 입니다.
 
 #### 발표자료
 TBD
 
 #### 참고자료
-TBD
+* Attention Is All You Need
+* Proximal Policy Optimization Algorithms
+* A simple neural network module for relational reasoning
+* Relational Deep Reinforcement Learning
 
 ## 17시
 
