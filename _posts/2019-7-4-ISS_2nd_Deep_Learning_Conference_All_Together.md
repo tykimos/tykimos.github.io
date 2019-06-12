@@ -21,8 +21,8 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * 장소: 대전광역시 유성구 가정로 217 
     * 과학기술연합대학원대학교 - 대전광역시 유성구 가정로 217 
     * ETRI 융합기술연구생산센터 - 대전광역시 유성구 가정로 218 
-* 주관: 대딥사, 케라스 코리아, 캐글 코리아, RL 코리아
 * 주최: (주)인스페이스
+* 주관: 대딥사, 케라스 코리아, 캐글 코리아, RL 코리아
 * 후원: UST 과학기술연합대학원대학교, ETRI 융합기술연구생산센터
 * 대상: 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 700명)
     * 트랙 A: UST 강당 300명
@@ -40,7 +40,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
 |10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (1)|
-|11시|<b>안수빈</b><br>알아두면 쓸데있는 신비한 딥러닝|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
+|11시|<b>안수빈</b><br>The Newbie Guide to Blogging & Visualization|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
 |13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (1)|
 |14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (2)|
 |15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
@@ -161,13 +161,22 @@ TBD
 ## 11시
 
 ---
-### 안수빈 - 알아두면 쓸데있는 신비한 딥러닝
+### 안수빈 - The Newbie Guide to Blogging & Visualization
 
 #### 연사소개
-TBD
+"모두를 위한 인공지능"을 꿈꾸는 인공지능 꿈나무 안수빈입니다. 현재 페이스북 페이지 A.I.Lookbook(구 어썸너드 수비니움)을 운영하고 있으며, 캐글 코리아에서 한글화프로젝트 및 블로그를 담당하고 있습니다. 코딩보다는 글쓰기를 좋아합니다.
+
+* 블로그: https://subinium.github.io
+* 페이스북 페이지: https://facebook.com/AI.Lookbook
+* 깃헙: https://github.com/subinium
+* 이메일: me@ansubin.com
 
 #### 발표소개
-TBD
+지난 6개월간 인공지능으로 블로그와 페이지를 운영하며, 느낀점을 여러분과 공유하고자 합니다. 추가적으로 최근 블로그의 메인 주제인 (딥러닝 및 데이터사이언스에서) 시각화를 이야기해보고자 합니다.
+
+* 글을 쓰는 이유와 장점
+* 블로그, 어떻게 꾸준하게 할 수 있을까
+* Visualization 가이드
 
 #### 발표자료
 TBD
@@ -375,6 +384,24 @@ TBD
 
 ---
 ### 민규식 - 강화학습 환경 제작, Unity ML-agents와 함께하세요
+
+#### 연사소개
+현재 한양대학교 미래자동차공학과 기계감지 및 제어연구실 (MML Lab.)에서 석박사 통합과정 중에 있습니다. 자율주행차량 및 운전자 보조 시스템에 대한 연구를 수행하고 있으며 딥러닝, 강화학습, 유니티에 대해 공부하고 있습니다. 페이스북 페이지 [Reinforcement Learning Korea](<https://www.facebook.com/groups/ReinforcementLearningKR/>)의 운영진 중 한명으로 활동하고 있으며 유니티 코리아에서 공인한 유니티 전문가 그룹인 [유니티 마스터즈 3기](<http://www.unity3dkorea.com/unitymasters/>)에 선정되었습니다. 
+
+* 깃헙: https://github.com/Kyushik
+* 이메일: kyushikmin@gmail.com
+* 구글 scholar: <https://scholar.google.co.kr/citations?user=dz8VK3IAAAAJ&hl=ko>
+
+#### 발표소개
+강화학습에서는 강화학습 알고리즘 자체도 중요하지만 강화학습 알고리즘을 테스트 하기 위한 환경을 구성하는 것도 매우 중요합니다. 지난 2017년 9월에 공개된 [Unity ML-agents](<https://blogs.unity3d.com/kr/2017/09/19/introducing-unity-machine-learning-agents/>)는 강화학습 알고리즘을 테스트 할 게임 및 시뮬레이션 환경을 비교적 간단하게 구현할 수 있도록 도와주는 고마운 툴입니다. 본 발표에서는 Unity ML-agents에 대한 소개 및 사용법에 대한 설명을 진행할 예정입니다. 또한 Unity ML-agents를 통해 구현한 강화학습 환경들의 예시를 소개하려 합니다. 
+
+#### 발표자료 
+TBD
+
+#### 참고자료
+* 깃헙
+    * Unity ML-agents 공식 깃헙: <https://github.com/Unity-Technologies/ml-agents>
+    * RLKorea Unity ML-agents 튜토리얼 팀 깃헙: <https://github.com/reinforcement-learning-kr/Unity_ML_Agents>
 
 #### 연사소개
 TBD
