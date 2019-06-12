@@ -403,18 +403,6 @@ TBD
     * Unity ML-agents 공식 깃헙: <https://github.com/Unity-Technologies/ml-agents>
     * RLKorea Unity ML-agents 튜토리얼 팀 깃헙: <https://github.com/reinforcement-learning-kr/Unity_ML_Agents>
 
-#### 연사소개
-TBD
-
-#### 발표소개
-TBD
-
-#### 발표자료
-TBD
-
-#### 참고자료
-TBD 
-
 ---
 ### 김태진 - 구글 코랩 TPU 알아보기
 
