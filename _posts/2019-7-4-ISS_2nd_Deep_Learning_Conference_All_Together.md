@@ -61,19 +61,21 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 ### 조수현 - 3분 강화학습 순한맛 SAC(Soft Actor Critic) feat. AC(Actor Critic)
 
 #### 연사소개
-디아이티 연구원, 관심 분야는 강화학습, 서버프로그래밍입니다.
+현재 디아이티에서 딥러닝 엔지니어로 현실문제를 어떻게 해결 할 수 있나 즐겁게 준비하고 고민하고 일하고 있습니다. 이전 회사들에서는 B2B, B2C 애플리케이션 기반 서비스들의 백엔드개발을 다양한 아키텍쳐에서 주로 경험 하였습니다. 프론트엔드 개발도 주로 하였구요. 현재는 최고의 실력자들이 계신 디아이티에서 딥러닝 엔지니어로 현실문제를 어떻게 해결 할 수 있나 고민하고 많이 배우며 즐겁게 일하고 있습니다. 인공지능의 한 분야로서 딥러닝과 또 다른 맥락인 강화학습에 대해 초보 연구자로써 틈틈히 반 취미로 공부하고 배우고 있습니다. 또한 Real Lab 강화학습 스터디의 운영진으로 있습니다. 하고 싶은 건 많고 몸은 하나인 평범한 엔지니어입니다. 가치 추구 실현과 시간적 자유를 추구합니다. 
 
 * 깃헙:  https://github.com/humblem2
 * 이메일: seanbrowncho@gmail.com 
 
 #### 발표소개
-TBD
+RL(Reinforcement Learning) 알고리즘은 최적화 문제에 쓰일 수 있고 앞으로 미래 먹거리가 될 수 있습니다. 특히나 로보틱스나 제어에서 많이 쓰이구요. 하지만 RL은 어렵습니다. 특히나 수식의 향연이 더욱 부추깁니다. 그래서 각 알고리즘의 아이디어에 대한 직관적인 이해가 특히 더 요구됩니다. 본 시간은 2018년 ICML 논문인 SAC(Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor) 알고리즘에 대해서 기본에 충실한 핵심 내용을 최대한 알기 쉽게 빠르게 공유 및 전달 하는 시간입니다. SAC알고리즘은 SAC알고리즘은 RL의 기본 가정인 tabular MDP를 Soft-MDP로 재정의(확장)하여 확률적으로 문제를 학습, 처리 하는 아이디어입니다. 이를 실현하기 위해 특별한(specific) 가정 추가 없이 기존 문제영역(high variance)을 해결하여 비교적 좋은 성능을 가진 알고리즘입니다. 금과옥조 (金科玉條)처럼 모든 task에 사용되는 알고리즘은 없습니다. 하지만 대개의 문제에 비교적 높은 성능과 학습 안정성을 나타내어 Google 내부적으로 직원들 사이에서 제일 인기가 있는 베이스라인 알고리즘이 바로 SAC 입니다. 함께 지식을 쌓아나갑시다. 
+* 실력자 분들 께서는 본 강연이 평이 할 수 있으니 컨퍼런스 당일 이 점 참고 하시어 즐기시면 됩니다.
 
 #### 발표자료
 TBD
 
 #### 참고자료
-TBD
+
+*논문: Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
 
 ---
 ### 이수진 - AI시대의 예술작품 - AI Atelier를 이용하여
