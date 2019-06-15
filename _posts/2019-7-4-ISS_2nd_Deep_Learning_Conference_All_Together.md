@@ -222,16 +222,20 @@ TBD
 ### 이유한 - I'm Kaggler - Why need kaggle?
 
 #### 연사소개
-TBD
+현재 KAIST 생명화학공학과에서 박사과정 재학중이며, 전공은 분자 시뮬레이션입니다. 데이터 사이언스, AI를 어디서 배울지 고민하다가 캐글을 알게 된 후, 캐글이 취미가 된 대학원생입니다. 캐글에서 공부한 여러 ML, DL 스킬을 화공분야에 접목하고자 노력하고 있습니다. 저에게 큰 도움을 준 캐글을 다른 사람들과 함께 하고 싶어 발표자로 참여하게 되었습니다. 
+
+* 캐글 프로필: https://www.kaggle.com/youhanlee
 
 #### 발표소개
-TBD
+전세계 데이터를 사랑하는 사람들에게 데이터를 제공하고, 함께 즐길 수 있도록 해주는 캐글을 소개하려고 합니다. 작년 1st DL cat 에서 캐글 발표 이후 지난 1년간의 캐글 경험 및 후기를 들려드릴 것입니다. 제 발표를 들으시면, 왜 캐글이 ML, DL, DS 를 위한Project-based learnin(PBL) 을 할 수 있는 최적의 플랫폼인지 알게 되실 겁니다.
 
 #### 발표자료
 TBD
 
 #### 참고자료
-TBD 
+
+* 캐글 코리아 페이스북: https://www.facebook.com/groups/KaggleKoreaOpenGroup/
+* 캐글 코리아 블로그: https://kaggle-kr.tistory.com/
 
 ## 13시
 
