@@ -45,8 +45,8 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 |-|-|-|-|-|-|-|
 |10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (1)|
 |11시|<b>안수빈</b><br>The Newbie Guide to Blogging & Visualization|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
-|13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (1)|
-|14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지 (2)|
+|13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기(1)|
+|14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기 (2)|
 |15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
 |16시|<b>김태영</b><br>휴먼 인 더 루프 with 케라스|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
 |17시|(모집중)|(모집중)|(모집중)|<b>옥찬호</b><br>카드게임 강화학습 환경 개발기 - 하스스톤|(모집중)|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
@@ -329,19 +329,32 @@ TBD
 TBD 
 
 ---
-### 전미정 - 실습)MS Azure ML Service와 함께 케라스 학습부터 배포까지
+### 전미정 - 실습)MS Azure ML Service와 함께하는 AutoML 사용하기
 
 #### 연사소개
-TBD
+안녕하세요, Keras Korea 운영진 미정입니다. 작년 `1st 함께하는 딥러닝 컨퍼런스`에서 모바일 딥러닝 주제로 즐겁게 발표하고, 많은 분과 네트워킹했던 좋은 기억을 가득 안고 2nd DLCAT에 돌아왔습니다 🕊    
+저는 냐옹이, 여행 그리고 공부를 좋아하는 평범한 사람이에요. 만들고 싶은 iOS 애플리케이션이 있어 개발을
+시작하게 되었고, 모바일에 딥러닝을 심어보고 싶어 머신러닝을 공부하게되었죠. 다른 연사분들처럼 멋진 전문 지식이나 경험은 별로 없지만 제가 공부하고 경험한 내용을 많은 사람들과 공유하는걸 즐긴답니다. 이번 2nd DLCAT에서도 잘 부탁드립니다 🤗   
+
+📮 <a href="mailto:ninevincentg@gmail.com">ninevincentg@gmail.com</a>  
+🐙 [https://github.com/MijeongJeon](https://github.com/MijeongJeon)  
+👍 [https://www.facebook.com/Ninevincent](https://www.facebook.com/Ninevincent)
 
 #### 발표소개
-TBD
+여러분은 머신러닝 모델을 어디서 학습하고 관리하시나요? GPU가 없어 느린 학습 속도에 좌절😫 하거나 어떤 모델을 생성해야 좋을지 고민한 적이 있나요? 잇템, `Cloud ML`/`AutoML`에 대해 관심 있다면 2nd DLCAT에서 만나보면 어떨까요.
+
+Microsoft Azure ML Service에서 최적의 모델을 찾아내는 실습을 하며 `Cloud ML Service`와 `AutoML`에 대한 경험을 쌓아보아요. 
+
+한번도 Clould 서비스를 사용해본적이 없다구요? Azure 유료계정이 없다구요? 걱정하지말고 노트북과 열정만 가지고 오세요. Microsoft에서 지원하는 Sponsor Pass로 GPU를 이용해 마음껏 학습시켜보아요 ☄️
 
 #### 발표자료
 TBD
 
 #### 참고자료
-TBD 
+![AutoML](https://docs.microsoft.com/ko-kr/azure/machine-learning/service/media/tutorial-auto-train-models/flow2.png)  
+
+* [Azure Machine Learning Service](https://azure.microsoft.com/ko-kr/services/machine-learning-service/)  
+* [What is automated machine learning?](https://docs.microsoft.com/ko-kr/azure/machine-learning/service/concept-automated-ml)  
 
 
 ---
