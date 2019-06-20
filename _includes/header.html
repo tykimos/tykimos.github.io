@@ -34,6 +34,17 @@
 					<a href="{{ "/seminar" | prepend: site.baseurl }}">세미나</a>
 				</li>			
 			{% endif %}					          
+			{% if page.path == "community.md" %}
+			<span class="title">
+				<li>
+					<a href="{{ "/community" | prepend: site.baseurl }}">커뮤니티</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="{{ "/community" | prepend: site.baseurl }}">커뮤니티</a>
+				</li>			
+			{% endif %}			
 			{% if page.path == "about.md" %}
 			<span class="title">
 				<li>
