@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "커뮤니티"
+author: Taeyoung, Kim
+date:   2019-06-20 04:00:00
+categories: Lecture
 comments: true
 ---
 인공지능, 머신러닝, 데이터사이언스, 딥러닝에 관련된 커뮤니티를 정리해봤습니다.
