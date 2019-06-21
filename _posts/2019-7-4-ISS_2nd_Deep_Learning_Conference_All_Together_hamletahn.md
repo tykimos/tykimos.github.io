@@ -8,8 +8,6 @@ comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png
 ---
 
-![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png)
-
 #### 연사소개
 저는 대학에 교수로 재직하다가 퇴직을 하고 인공지능콘텐츠LAB 이란 연구소를 만들고 현재 홈페이지 등 관련 작업을 진행하고 있습니다. 박사학위를 받은 후 2000년 초반 국내에 e러닝 이 처음 도입되던 시기에 향후 우리 교육에 IT기술 접목이 중요하겠다 싶어 교육공학 석사과 정에 등록, e러닝 교수학습 콘텐츠 제작 및 교수설계, 컨설팅 등 관련 공부를 하였습니다. 2011년, 디지털인문학 도입관련 논문발표를 하면서 자연스럽게 디지털기술로 그리고 인공지능 쪽으로 계속 연구를 하게 되었고, 현재는 인공지능산업컨설턴트(한국인공지능협회)로서 인공지 능 윤리와 안전 그리고 가버넌스 중심으로 강연 및 세미나를 진행하고 있습니다. 
 
@@ -21,12 +19,10 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 * 이메일: hamletahn@gmail.com
 
-#### 장소 및 시간
-* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
-* 시간: 7월 4일 오전 11시
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png)
 
 #### 발표소개
-2018년 제1회 DLCAT 발표자료들을 읽어보고는 우리나라 인공지능 딥러닝의 미래 전문가들 을 보게 되었습니다. 올해 제 2회 에서도 딥러닝 관련 좋은 발표 주제들이 많은데, 저는 그 중에 AI윤리관련 안전과 프라이버시 문제로 최근 부각되기 시작한 ‘설명가능한 AI(XAI)’를 인 공지능 윤리와 연결시켜 발표합니다. 특히, 딥러닝에서 AI의 윤리적 의식과 도덕성 구현방법 에 관한 내용과 심을 가지고 있습니다. 개괄적인 주요 발표내용은 다음과 같습니다.
+2018년 제1회 DLCAT 발표자료들을 읽어보고는 우리나라 인공지능 딥러닝의 미래 전문가들을 보게 되었습니다. 올해 제2회 에서도 딥러닝 관련 좋은 발표 주제들이 많은데, 저는 그 중에 AI윤리관련 안전과 프라이버시 문제로 최근 부각되기 시작한 ‘설명가능한 AI(XAI)’를 인 공지능 윤리와 연결시켜 발표합니다. 특히, 딥러닝에서 AI의 윤리적 의식과 도덕성 구현방법 에 관한 내용과 심을 가지고 있습니다. 개괄적인 주요 발표내용은 다음과 같습니다.
 
 1. What is Xai?, Why Xai? and Challenges
     1. Tay, Google, Uber Car Driving
@@ -44,6 +40,10 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 1. What's Next? 
 
 현재 진행하고 있는 개인적인 프로젝트로 조지아 공대 마크 리들과 브렌트 해리슨의 ‘이야기 를 이용해 인공 행위자에게 인간 가치를 가르치기’라는 논문에서 처럼 ‘키호테 (Quixote)’라는 이야기를 이용한 가치 학습 방법을 딥러닝으로 구현하는 기술개발을 해보려고 애를 쓰고 있습 니다.
+
+#### 장소 및 시간
+* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
+* 시간: 7월 4일 오전 11시
 
 #### 발표자료
 * [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_file.pdf)
