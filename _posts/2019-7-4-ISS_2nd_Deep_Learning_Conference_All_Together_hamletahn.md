@@ -7,22 +7,7 @@ categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png
 ---
-
-#### 연사소개
-저는 대학에 교수로 재직하다가 퇴직을 하고 인공지능콘텐츠LAB 이란 연구소를 만들고 현재 홈페이지 등 관련 작업을 진행하고 있습니다. 박사학위를 받은 후 2000년 초반 국내에 e러닝 이 처음 도입되던 시기에 향후 우리 교육에 IT기술 접목이 중요하겠다 싶어 교육공학 석사과 정에 등록, e러닝 교수학습 콘텐츠 제작 및 교수설계, 컨설팅 등 관련 공부를 하였습니다. 2011년, 디지털인문학 도입관련 논문발표를 하면서 자연스럽게 디지털기술로 그리고 인공지능 쪽으로 계속 연구를 하게 되었고, 현재는 인공지능산업컨설턴트(한국인공지능협회)로서 인공지 능 윤리와 안전 그리고 가버넌스 중심으로 강연 및 세미나를 진행하고 있습니다. 
-
-최근 인공지능 관련 논문발표
-* 한국지능정보시스템학회 2018 춘계학술발표회(2018년 6월 1일): 인공지능스피커의 ‘윤리병합설계(Ethically Aligned Design)’ 전략 
-* 한국지능정보시스템학회 2019 춘계학술발표회(2019년 6월 1일): ADDIE모델 기반 데이터파이프라인 개발 및 데이터윤리 구현전략 - 설명가능하고 책임있는 AI 시스템 개발을 위해 -
-
-그리고 한국인공지능협회 윤리분과 위원장으로서 다음달 7월 17일(수)-19일(금) 서울 코엑스 에서 열리는 대한민국인공대전 엑스포 기간 중 19일(금) 오후 1시부터 열리는 제 1회 대한민국 인공지능 윤리포럼을 준비하고 있습니다.
-
-* 이메일: hamletahn@gmail.com
-
-![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png)
-
-#### 발표소개
-2018년 제1회 DLCAT 발표자료들을 읽어보고는 우리나라 인공지능 딥러닝의 미래 전문가들을 보게 되었습니다. 올해 제2회 에서도 딥러닝 관련 좋은 발표 주제들이 많은데, 저는 그 중에 AI윤리관련 안전과 프라이버시 문제로 최근 부각되기 시작한 ‘설명가능한 AI(XAI)’를 인 공지능 윤리와 연결시켜 발표합니다. 특히, 딥러닝에서 AI의 윤리적 의식과 도덕성 구현방법 에 관한 내용과 심을 가지고 있습니다. 개괄적인 주요 발표내용은 다음과 같습니다.
+AI윤리관련 안전과 프라이버시 문제로 최근 부각되기 시작한 ‘설명가능한 AI(XAI)’를 인공지능 윤리와 연결시켜 발표합니다. 특히, 딥러닝에서 AI의 윤리적 의식과 도덕성 구현방법 에 관한 내용과 심을 가지고 있습니다. 개괄적인 주요 발표내용은 다음과 같습니다.
 
 1. What is Xai?, Why Xai? and Challenges
     1. Tay, Google, Uber Car Driving
@@ -39,11 +24,20 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
     1. Toward AI Governance System 
 1. What's Next? 
 
-현재 진행하고 있는 개인적인 프로젝트로 조지아 공대 마크 리들과 브렌트 해리슨의 ‘이야기 를 이용해 인공 행위자에게 인간 가치를 가르치기’라는 논문에서 처럼 ‘키호테 (Quixote)’라는 이야기를 이용한 가치 학습 방법을 딥러닝으로 구현하는 기술개발을 해보려고 애를 쓰고 있습 니다.
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png)
 
-#### 장소 및 시간
-* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
-* 시간: 7월 4일 오전 11시
+#### 연사소개
+저는 대학에 교수로 재직하다가 퇴직을 하고 인공지능콘텐츠LAB 이란 연구소를 만들고 현재 홈페이지 등 관련 작업을 진행하고 있습니다. 박사학위를 받은 후 2000년 초반 국내에 e러닝 이 처음 도입되던 시기에 향후 우리 교육에 IT기술 접목이 중요하겠다 싶어 교육공학 석사과 정에 등록, e러닝 교수학습 콘텐츠 제작 및 교수설계, 컨설팅 등 관련 공부를 하였습니다. 2011년, 디지털인문학 도입관련 논문발표를 하면서 자연스럽게 디지털기술로 그리고 인공지능 쪽으로 계속 연구를 하게 되었고, 현재는 인공지능산업컨설턴트(한국인공지능협회)로서 인공지 능 윤리와 안전 그리고 가버넌스 중심으로 강연 및 세미나를 진행하고 있습니다. 
+
+최근 인공지능 관련 논문발표
+* 한국지능정보시스템학회 2018 춘계학술발표회(2018년 6월 1일): 인공지능스피커의 ‘윤리병합설계(Ethically Aligned Design)’ 전략 
+* 한국지능정보시스템학회 2019 춘계학술발표회(2019년 6월 1일): ADDIE모델 기반 데이터파이프라인 개발 및 데이터윤리 구현전략 - 설명가능하고 책임있는 AI 시스템 개발을 위해 -
+
+2018년 제1회 DLCAT 발표자료들을 읽어보고는 우리나라 인공지능 딥러닝의 미래 전문가들을 보게 되었습니다. 올해 제2회 에서도 딥러닝 관련 좋은 발표 주제들이 많은데, 저는 그 중에 설명가능한 AI 주제로 발표하고자 합니다. 그리고 한국인공지능협회 윤리분과 위원장으로서 다음달 7월 17일(수)-19일(금) 서울 코엑스 에서 열리는 대한민국인공대전 엑스포 기간 중 19일(금) 오후 1시부터 열리는 제 1회 대한민국 인공지능 윤리포럼을 준비하고 있습니다.
+
+* 이메일: hamletahn@gmail.com
+
+현재 진행하고 있는 개인적인 프로젝트로 조지아 공대 마크 리들과 브렌트 해리슨의 ‘이야기 를 이용해 인공 행위자에게 인간 가치를 가르치기’라는 논문에서 처럼 ‘키호테 (Quixote)’라는 이야기를 이용한 가치 학습 방법을 딥러닝으로 구현하는 기술개발을 해보려고 애를 쓰고 있습 니다.
 
 #### 발표자료
 * [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_file.pdf)
@@ -60,7 +54,26 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * Movie, Rashomon(1950). Pierre Fournier, Mohamed Chetouani,  Pierre-Yves       Oudeyer, and Olivier Sigaud, Accuracy-based Curriculum Learning in Deep Reinforcement Learning(2018)
 * Y. Benkler, "From consumers to users: Shifting the deeper structure of regulations toward  sustainable commons and user access"(2000)
 
-### 참가신청
+#### 장소 및 시간
+* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
+* 시간: 7월 4일 오전 11시
+---
+
+|시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
+|-|-|-|-|-|-|-|
+|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (1)|
+|11시|<b>안수빈</b><br>The Newbie Guide to Blogging & Visualization|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
+|13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기(1)|
+|14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기 (2)|
+|15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
+|16시|<b>김태영</b><br>휴먼 인 더 루프 with 케라스|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
+|17시|(모집중)|(모집중)|(모집중)|<b>옥찬호</b><br>카드게임 강화학습 환경 개발기 - 하스스톤|(모집중)|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
+
+* 점심시간은 12시 ~ 13시입니다.
+* 각 세션은 45분 발표, 5분 질의응답, 10분 휴식 및 이동입니다.
+* UST과 ETRI사이는 도보로 10분이내 거리에 있습니다. 따라서 쉬는 시간을 이용해서 이동하시면 됩니다.
+
+#### 참가신청
 ---
 
 딥러닝을 시작하는 이유는 달라도 딥러닝을 계속 하는 이유 중 하나는 바로 '함께하는 즐거움'이지 않을까합니다. 작년 6월 말 대전에서 ["1st 함께하는 딥러닝 컨퍼런스"](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)에 400명 넘게 모여 즐겁게 인공지능 및 딥러닝 관한 다양한 주제로 톡을 나누었습니다.  그간 매일 논문만 읽어도 못 따라갈 만큼 새로운 연구가 쏟아지고 있고, 그 활용 사례 및 관심 또한 각 분야에 퍼져가고 있습니다. 대전은 전국 각지에서 오시기에 접근성이 용이하고, 정부출연연구원 및 정부청사, 우수한 대학교, 대기업의 기술 연구소, 최첨단 기술 중심의 벤처회사들이 밀집된 지역인 만큼 지식공유의 즐거움을 나누고자 합니다. 
@@ -93,24 +106,3 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
     * 트랙 F: ETRI 융합기술연구생산센터 219호 중회의실3 20명
 
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_room.png)
-
-### 프로그램
----
-
-|시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
-|-|-|-|-|-|-|-|
-|10시|<b>조수현</b><br>3분 강화학습 순한맛 SAC|<b>이수진</b><br>AI시대의 예술작품 - A차I Atelier를 이용하여|<b>박해선</b><br>케라스 in 텐서플로우2.0|<b>유용균</b><br>딥러닝과 최적설계|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (1)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (1)|
-|11시|<b>안수빈</b><br>The Newbie Guide to Blogging & Visualization|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
-|13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기(1)|
-|14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기 (2)|
-|15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
-|16시|<b>김태영</b><br>휴먼 인 더 루프 with 케라스|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
-|17시|(모집중)|(모집중)|(모집중)|<b>옥찬호</b><br>카드게임 강화학습 환경 개발기 - 하스스톤|(모집중)|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
-
-* 점심시간은 12시 ~ 13시입니다.
-* 각 세션은 45분 발표, 5분 질의응답, 10분 휴식 및 이동입니다.
-* UST과 ETRI사이는 도보로 10분이내 거리에 있습니다. 따라서 쉬는 시간을 이용해서 이동하시면 됩니다.
-
-신청은 아래 링크에서 해주세요~
-
-#### >> [신청하기](https://forms.gle/DFYtGWS7aDj1Bmow8) <<
