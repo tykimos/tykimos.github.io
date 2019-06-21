@@ -243,7 +243,8 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 현재 진행하고 있는 개인적인 프로젝트로 조지아 공대 마크 리들과 브렌트 해리슨의 ‘이야기 를 이용해 인공 행위자에게 인간 가치를 가르치기’라는 논문에서 처럼 ‘키호테 (Quixote)’라는 이야기를 이용한 가치 학습 방법을 딥러닝으로 구현하는 기술개발을 해보려고 애를 쓰고 있습 니다.
 
 #### 발표자료
-TBD
+
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn/)
 
 #### 참고자료
 * Alex Graves, Marc G. Bellemare, Jacob Menick, R"Lemi Munos, and Koray Kavukcuoglu, Automated Curriculum Learning for Neural Networks, Proceedings of the 34 th International Conference on Machine Learning, Sydney, Australia, PMLR 70. (2017)
