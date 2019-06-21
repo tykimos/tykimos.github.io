@@ -220,14 +220,25 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 
 그리고 한국인공지능협회 윤리분과 위원장으로서 다음달 7월 17일(수)-19일(금) 서울 코엑스 에서 열리는 대한민국인공대전 엑스포 기간 중 19일(금) 오후 1시부터 열리는 제 1회 대한민국 인공지능 윤리포럼을 준비하고 있습니다.
 
+* 이메일: hamletahn@gmail.com
+
 #### 발표소개
 2018년 제1회 DLCAT 발표자료들을 읽어보고는 우리나라 인공지능 딥러닝의 미래 전문가들 을 보게 되었습니다. 올해 제 2회 에서도 딥러닝 관련 좋은 발표 주제들이 많은데, 저는 그 중에 AI윤리관련 안전과 프라이버시 문제로 최근 부각되기 시작한 ‘설명가능한 AI(XAI)’를 인 공지능 윤리와 연결시켜 발표합니다. 특히, 딥러닝에서 AI의 윤리적 의식과 도덕성 구현방법 에 관한 내용과 심을 가지고 있습니다. 개괄적인 주요 발표내용은 다음과 같습니다.
 
-1. Why XAI?
-2. Explainabilty and Interpretability
-3. XAI Case Studies: DARPA
-4. XAI Models and Components Analysis 5. XAI Architecture Design
-6. What’s next?
+1. What is Xai?, Why Xai? and Challenges
+    1. Tay, Google, Uber Car Driving
+    1. Social Effects and Business Effects
+    1. Challenges
+1. Humanistic Background
+    1. Human (Un)Consciousness and AI Consciousness
+    1. Explainability vs. Interpretability
+1. Xai Case Studies
+    1. DARPA and AI Fairness 360
+1. K-Xai Engine(V.1): L-TTEC Architecture
+1. AI Ethics and Governance System
+    1. Machine Learning Algorithm and Data Ethics 
+    1. Toward AI Governance System 
+1. What's Next? 
 
 현재 진행하고 있는 개인적인 프로젝트로 조지아 공대 마크 리들과 브렌트 해리슨의 ‘이야기 를 이용해 인공 행위자에게 인간 가치를 가르치기’라는 논문에서 처럼 ‘키호테 (Quixote)’라는 이야기를 이용한 가치 학습 방법을 딥러닝으로 구현하는 기술개발을 해보려고 애를 쓰고 있습 니다.
 
@@ -235,7 +246,16 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 TBD
 
 #### 참고자료
-TBD 
+* Alex Graves, Marc G. Bellemare, Jacob Menick, R"Lemi Munos, and Koray Kavukcuoglu, Automated Curriculum Learning for Neural Networks, Proceedings of the 34 th International Conference on Machine Learning, Sydney, Australia, PMLR 70. (2017)
+* Carl Miller, The Death of Gods(2018)
+* CIO Korea, "eAI의 블랙박스화’ 막겠다"c 오픈소스로 알고리즘 공개 선언한 IBM.
+* CIO Korea, "g설명할 수 없는 AI라면 퇴출되어야 한다” IBM 지니 로메티
+* DARPA, Explainable AI Update(2017). https://www.darpa.mil/attachments/XAIProgramUpdate.pdf. 
+* F. Doshi-Velez and Been Kim, Towards A Rigorous Science of Interpretable Machine Learning(2017)
+* IBM, AI FAIRNESS 360: AN EXTENSIBLE TOOLKIT FOR DETECTING, UNDERSTANDING, AND MITIGATING UNWANTED ALGORITHMIC BIAS(2018)IDG TechReport,"g인공지능의 세대교체 "설명가능한 AI", Explainable AI. Info World,  Explainable AI: Peering inside the deep learning black box.  
+* Katharine Jarmul, Towards Interpretable Reliable Models, 19 October 2017. https://blog.kjamistan.com/towards-interpretable-reliable-models. 
+* Movie, Rashomon(1950). Pierre Fournier, Mohamed Chetouani,  Pierre-Yves       Oudeyer, and Olivier Sigaud, Accuracy-based Curriculum Learning in Deep Reinforcement Learning(2018)
+* Y. Benkler, "From consumers to users: Shifting the deeper structure of regulations toward  sustainable commons and user access"(2000)
 
 ---
 ### 이유한 - I'm Kaggler - Why need kaggle?
