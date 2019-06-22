@@ -1,62 +1,33 @@
 ---
 layout: post
-title:  "[2nd DLCAT] 설명가능한 AI for AI 윤리 - 안종훈"
+title:  "[2nd DLCAT] 강화학습 환경 제작, Unity ML-agents와 함께하세요 - 민규식"
 author: 김태영
 date:   2019-07-04 10:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png
+image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin_title.png
 ---
-AI윤리관련 안전과 프라이버시 문제로 최근 부각되기 시작한 ‘설명가능한 AI(XAI)’를 인공지능 윤리와 연결시켜 발표합니다. 특히, 딥러닝에서 AI의 윤리적 의식과 도덕성 구현방법 에 관한 내용과 심을 가지고 있습니다. 개괄적인 주요 발표내용은 다음과 같습니다.
+강화학습에서는 강화학습 알고리즘 자체도 중요하지만 강화학습 알고리즘을 테스트 하기 위한 환경을 구성하는 것도 매우 중요합니다. 지난 2017년 9월에 공개된 [Unity ML-agents](<https://blogs.unity3d.com/kr/2017/09/19/introducing-unity-machine-learning-agents/>)는 강화학습 알고리즘을 테스트 할 게임 및 시뮬레이션 환경을 비교적 간단하게 구현할 수 있도록 도와주는 고마운 툴입니다. 본 발표에서는 Unity ML-agents에 대한 소개 및 사용법에 대한 설명을 진행할 예정입니다. 또한 Unity ML-agents를 통해 구현한 강화학습 환경들의 예시를 소개하려 합니다. 
 
-1. What is Xai?, Why Xai? and Challenges
-    1. Tay, Google, Uber Car Driving
-    1. Social Effects and Business Effects
-    1. Challenges
-1. Humanistic Background
-    1. Human (Un)Consciousness and AI Consciousness
-    1. Explainability vs. Interpretability
-1. Xai Case Studies
-    1. DARPA and AI Fairness 360
-1. K-Xai Engine(V.1): L-TTEC Architecture
-1. AI Ethics and Governance System
-    1. Machine Learning Algorithm and Data Ethics 
-    1. Toward AI Governance System 
-1. What's Next? 
-
-![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_title.png)
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin_title.png)
 
 #### 연사소개
-저는 대학에 교수로 재직하다가 퇴직을 하고 인공지능콘텐츠LAB 이란 연구소를 만들고 현재 홈페이지 등 관련 작업을 진행하고 있습니다. 박사학위를 받은 후 2000년 초반 국내에 e러닝 이 처음 도입되던 시기에 향후 우리 교육에 IT기술 접목이 중요하겠다 싶어 교육공학 석사과 정에 등록, e러닝 교수학습 콘텐츠 제작 및 교수설계, 컨설팅 등 관련 공부를 하였습니다. 2011년, 디지털인문학 도입관련 논문발표를 하면서 자연스럽게 디지털기술로 그리고 인공지능 쪽으로 계속 연구를 하게 되었고, 현재는 인공지능산업컨설턴트(한국인공지능협회)로서 인공지 능 윤리와 안전 그리고 가버넌스 중심으로 강연 및 세미나를 진행하고 있습니다. 
+현재 한양대학교 미래자동차공학과 기계감지 및 제어연구실 (MML Lab.)에서 석박사 통합과정 중에 있습니다. 자율주행차량 및 운전자 보조 시스템에 대한 연구를 수행하고 있으며 딥러닝, 강화학습, 유니티에 대해 공부하고 있습니다. 페이스북 페이지 [Reinforcement Learning Korea](<https://www.facebook.com/groups/ReinforcementLearningKR/>)의 운영진 중 한명으로 활동하고 있으며 유니티 코리아에서 공인한 유니티 전문가 그룹인 [유니티 마스터즈 3기](<http://www.unity3dkorea.com/unitymasters/>)에 선정되었습니다. 
 
-최근 인공지능 관련 논문발표
-* 한국지능정보시스템학회 2018 춘계학술발표회(2018년 6월 1일): 인공지능스피커의 ‘윤리병합설계(Ethically Aligned Design)’ 전략 
-* 한국지능정보시스템학회 2019 춘계학술발표회(2019년 6월 1일): ADDIE모델 기반 데이터파이프라인 개발 및 데이터윤리 구현전략 - 설명가능하고 책임있는 AI 시스템 개발을 위해 -
-
-2018년 제1회 DLCAT 발표자료들을 읽어보고는 우리나라 인공지능 딥러닝의 미래 전문가들을 보게 되었습니다. 올해 제2회 에서도 딥러닝 관련 좋은 발표 주제들이 많은데, 저는 그 중에 설명가능한 AI 주제로 발표하고자 합니다. 그리고 한국인공지능협회 윤리분과 위원장으로서 다음달 7월 17일(수)-19일(금) 서울 코엑스 에서 열리는 대한민국인공대전 엑스포 기간 중 19일(금) 오후 1시부터 열리는 제 1회 대한민국 인공지능 윤리포럼을 준비하고 있습니다.
-
-* 이메일: hamletahn@gmail.com
-
-현재 진행하고 있는 개인적인 프로젝트로 조지아 공대 마크 리들과 브렌트 해리슨의 ‘이야기 를 이용해 인공 행위자에게 인간 가치를 가르치기’라는 논문에서 처럼 ‘키호테 (Quixote)’라는 이야기를 이용한 가치 학습 방법을 딥러닝으로 구현하는 기술개발을 해보려고 애를 쓰고 있습 니다.
+* 깃헙: https://github.com/Kyushik
+* 이메일: kyushikmin@gmail.com
+* 구글 scholar: <https://scholar.google.co.kr/citations?user=dz8VK3IAAAAJ&hl=ko>
 
 #### 발표자료
-* [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hamletahn_file.pdf)
+* [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin_file.pdf)
 
 #### 참고자료
-* Alex Graves, Marc G. Bellemare, Jacob Menick, R"Lemi Munos, and Koray Kavukcuoglu, Automated Curriculum Learning for Neural Networks, Proceedings of the 34 th International Conference on Machine Learning, Sydney, Australia, PMLR 70. (2017)
-* Carl Miller, The Death of Gods(2018)
-* CIO Korea, "eAI의 블랙박스화’ 막겠다"c 오픈소스로 알고리즘 공개 선언한 IBM.
-* CIO Korea, "g설명할 수 없는 AI라면 퇴출되어야 한다” IBM 지니 로메티
-* DARPA, Explainable AI Update(2017). https://www.darpa.mil/attachments/XAIProgramUpdate.pdf. 
-* F. Doshi-Velez and Been Kim, Towards A Rigorous Science of Interpretable Machine Learning(2017)
-* IBM, AI FAIRNESS 360: AN EXTENSIBLE TOOLKIT FOR DETECTING, UNDERSTANDING, AND MITIGATING UNWANTED ALGORITHMIC BIAS(2018)IDG TechReport,"g인공지능의 세대교체 "설명가능한 AI", Explainable AI. Info World,  Explainable AI: Peering inside the deep learning black box.  
-* Katharine Jarmul, Towards Interpretable Reliable Models, 19 October 2017. https://blog.kjamistan.com/towards-interpretable-reliable-models. 
-* Movie, Rashomon(1950). Pierre Fournier, Mohamed Chetouani,  Pierre-Yves       Oudeyer, and Olivier Sigaud, Accuracy-based Curriculum Learning in Deep Reinforcement Learning(2018)
-* Y. Benkler, "From consumers to users: Shifting the deeper structure of regulations toward  sustainable commons and user access"(2000)
+* Unity ML-agents 공식 깃헙: <https://github.com/Unity-Technologies/ml-agents>
+* RLKorea Unity ML-agents 튜토리얼 팀 깃헙: <https://github.com/reinforcement-learning-kr/Unity_ML_Agents>
 
 #### 장소 및 시간
-* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
-* 시간: 7월 4일 오전 11시
+* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 강당
+* 시간: 7월 4일 오전 15시
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|

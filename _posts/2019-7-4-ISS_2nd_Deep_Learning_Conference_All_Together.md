@@ -462,8 +462,9 @@ TBD
 #### 발표소개
 강화학습에서는 강화학습 알고리즘 자체도 중요하지만 강화학습 알고리즘을 테스트 하기 위한 환경을 구성하는 것도 매우 중요합니다. 지난 2017년 9월에 공개된 [Unity ML-agents](<https://blogs.unity3d.com/kr/2017/09/19/introducing-unity-machine-learning-agents/>)는 강화학습 알고리즘을 테스트 할 게임 및 시뮬레이션 환경을 비교적 간단하게 구현할 수 있도록 도와주는 고마운 툴입니다. 본 발표에서는 Unity ML-agents에 대한 소개 및 사용법에 대한 설명을 진행할 예정입니다. 또한 Unity ML-agents를 통해 구현한 강화학습 환경들의 예시를 소개하려 합니다. 
 
-#### 발표자료 
-TBD
+#### 발표자료
+
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin/)
 
 #### 참고자료
 * 깃헙
