@@ -327,7 +327,8 @@ TBD
 연구란 무엇이고 어떤 절차로 수행하는지, 매일같이 쏟아지는 머신러닝 분야의 논문을 어떻게 읽고 정리하며 공부할지 함께 고민하는 시간을 마련했습니다. 국내 및 해외 연구실 생활에 대한 주관적인 경험도 공유합니다. 대학원 초년생이나 진학 예정자를 비롯해 연구에 대해 궁금한 분을 대상으로 합니다.
 
 #### 발표자료
-* [발표자료](https://docs.google.com/presentation/d/1tQp_i-fshzUjdVnHXvTikf-DGYv0acehSryg7SRFU1A/edit?usp=sharing)
+
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_woneuihong_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_woneuihong/)
 
 #### 참고자료
 * [한페이지 머신러닝 (온라인))](https://opentutorials.org/module/3653)
