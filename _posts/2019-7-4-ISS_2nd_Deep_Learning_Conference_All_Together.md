@@ -367,20 +367,33 @@ TBD
 ### 전미정 - 실습)MS Azure ML Service와 함께하는 AutoML 사용하기
 
 #### 연사소개
-안녕하세요, Keras Korea 운영진 미정입니다. 작년 `1st 함께하는 딥러닝 컨퍼런스`에서 모바일 딥러닝 주제로 즐겁게 발표하고, 많은 분과 네트워킹했던 좋은 기억을 가득 안고 2nd DLCAT에 돌아왔습니다 🕊    
+##### 전미정
+안녕하세요, Keras Korea 운영진 미정입니다. 작년 `1st 함께하는 딥러닝 컨퍼런스`에서 모바일 딥러닝 주제로 즐겁게 발표하고, 많은 분과 네트워킹했던 좋은 기억을 가득 안고 2nd DLCAT에 돌아왔습니다 🕊      
 저는 냐옹이, 여행 그리고 공부를 좋아하는 평범한 사람이에요. 만들고 싶은 iOS 애플리케이션이 있어 개발을
-시작하게 되었고, 모바일에 딥러닝을 심어보고 싶어 머신러닝을 공부하게되었죠. 다른 연사분들처럼 멋진 전문 지식이나 경험은 별로 없지만 제가 공부하고 경험한 내용을 많은 사람들과 공유하는걸 즐긴답니다. 이번 2nd DLCAT에서도 잘 부탁드립니다 🤗   
+시작하게 되었고, 모바일에 딥러닝을 심어보고 싶어 머신러닝을 공부하게되었죠. 다른 연사분들처럼 멋진 전문 지식이나 경험은 별로 없지만 제가 공부하고 경험한 내용을 많은 사람들과 공유하는걸 즐긴답니다.  2nd DLCAT에서도 잘 부탁드립니다 🤗   
 
 📮 <a href="mailto:ninevincentg@gmail.com">ninevincentg@gmail.com</a>  
 🐙 [https://github.com/MijeongJeon](https://github.com/MijeongJeon)  
 👍 [https://www.facebook.com/Ninevincent](https://www.facebook.com/Ninevincent)
 
+그리고, 원활한 진행을 위해 실습을 도와주실 멋쟁이, 재원님을 소개합니다 👏🏻   
+##### 이재원 
+딥러닝을 사랑하는 대학원생입니다.   
+몇 해 전 컴퓨터비전과 딥러닝을 처음 접했고 아직도 그 매력에서 헤어나오지 못하고 있습니다.  
+많은 분들과 소통했으면 좋겠습니다 :D  
+
+📮 <a href="mailto:insurgent92@gmail.com">insurgent92@gmail.com</a>     
+🐙 [https://github.com/visionNoob](https://github.com/visionNoob)
+
 #### 발표소개
-여러분은 머신러닝 모델을 어디서 학습하고 관리하시나요? GPU가 없어 느린 학습 속도에 좌절😫 하거나 어떤 모델을 생성해야 좋을지 고민한 적이 있나요? 잇템, `Cloud ML`/`AutoML`에 대해 관심 있다면 2nd DLCAT에서 만나보면 어떨까요.
+여러분은 머신러닝 모델을 어디서 학습하고 관리하시나요?   
+GPU가 없어 느린 학습 속도에 좌절😫 해봤거나, 어떤 모델을 생성해야 좋을지 고민한 적이 있다면, 2nd DLCAT에서 `Cloud ML`/`AutoML`를 만나보세요!
+**MS Azure ML Service와 함께하는 AutoML 사용하기** 세션은 Microsoft Azure ML Service에서 최적의 머신러닝 모델을 찾으며 `Cloud ML Service`와 `AutoML`에 대한 경험을 쌓아보는 시간입니다.   
+한번도 Clould 서비스를 사용해보지 않았거나, Azure 유료계정이 없어도 걱정하지 말고 노트북과 열정만 가지고 오세요. Microsoft에서 지원하는 Sponsor Pass로 마음껏 학습시켜보아요 ☄️  
 
-Microsoft Azure ML Service에서 최적의 모델을 찾아내는 실습을 하며 `Cloud ML Service`와 `AutoML`에 대한 경험을 쌓아보아요. 
-
-한번도 Clould 서비스를 사용해본적이 없다구요? Azure 유료계정이 없다구요? 걱정하지말고 노트북과 열정만 가지고 오세요. Microsoft에서 지원하는 Sponsor Pass로 GPU를 이용해 마음껏 학습시켜보아요 ☄️
+* Cloud ML service/Azure AutoML을 사용해 보고 싶은 분 환영입니다 🤗  
+* 머신러닝 모델을 직접 학습시켜본 경험이 있다면 더욱 좋습니다.
+* 세션 시작 전, [https://signup.live.com/](https://signup.live.com/)에서 Microsoft 무료 계정을 생성해주세요(이미 계정이 있다면 편한 마음으로 오시면 됩니다).
 
 #### 발표자료
 TBD
