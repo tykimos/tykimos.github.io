@@ -255,7 +255,7 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 * F. Doshi-Velez and Been Kim, Towards A Rigorous Science of Interpretable Machine Learning(2017)
 * IBM, AI FAIRNESS 360: AN EXTENSIBLE TOOLKIT FOR DETECTING, UNDERSTANDING, AND MITIGATING UNWANTED ALGORITHMIC BIAS(2018)IDG TechReport,"g인공지능의 세대교체 "설명가능한 AI", Explainable AI. Info World,  Explainable AI: Peering inside the deep learning black box.  
 * Katharine Jarmul, Towards Interpretable Reliable Models, 19 October 2017. https://blog.kjamistan.com/towards-interpretable-reliable-models. 
-* Movie, Rashomon(1950). Pierre Fournier, Mohamed Chetouani,  Pierre-Yves       Oudeyer, and Olivier Sigaud, Accuracy-based Curriculum Learning in Deep Reinforcement Learning(2018)
+* Movie, Rashomon(1950). Pierre Fournier, Mohamed Chetouani,  Pierre-Yves Oudeyer, and Olivier Sigaud, Accuracy-based Curriculum Learning in Deep Reinforcement Learning(2018)
 * Y. Benkler, "From consumers to users: Shifting the deeper structure of regulations toward  sustainable commons and user access"(2000)
 
 ---
