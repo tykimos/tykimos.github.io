@@ -338,16 +338,32 @@ TBD
 ### 신경인 - (실습)파이토치로 갈아타기
 
 #### 연사소개
-TBD
+경희대학교 우주탐사학과에 2018년부터 재학 중인 석사 과정 학생입니다. 과를 보시면 아시겠지만 저는 딥러닝을 하게 될 거라고 생각한 사람은 아니었습니다. 솔직하게 말씀드리면, 저는 학부 졸업 때까지 컴퓨터 언어라고 하면 손사래부터 치는 사람이었죠. 그만큼 컴퓨터 언어에 자신도 없었고 잘하지도 못했습니다. 하지만 딥러닝으로 우주 분야 영상을 처리하는 연구를 맡았다가 세상을 바꾸는 딥러닝에 푹 빠졌죠. 딥러닝에 대한 열정이 생기니 기본적인 컴퓨터 언어 하나도 제대로 못했던 제가 Keras, TensorFlow를 거쳐 PyTorch까지 즐겁게 하게 되었습니다. 특히 PyTorch는 올해 3월부터 매주 토요일에 경희대에서 학부, 대학원생들을 대상으로 수업을 진행하고 있습니다. 현재는 내년에 컴퓨터공학 박사 과정 진학을 위해 동대학원 컴퓨터공학과 교수님의 공동지도를 받고 있습니다. 
+
+현재 진행하고 있는 연구는 두 개로 하나는  서로 다른 두 필터로 찍은 태양 영상 간의 변환(우주탐사학과 관련)이고 다른 하나는 분류 과업을 위한 attention module 개발(컴퓨터공학 관련)입니다. 비록 제 발표에서는 다루지 않겠지만 관심 있으신 분들과 소통할 수 있기를 바랍니다.
+
+* 이메일: gishin@khu.ac.kr
 
 #### 발표소개
-TBD
+이번 발표에서는 오시는 분들의 선호에 따라 간단한 분류 모델 혹은 GAN(Generative Adversarial Networks) PyTorch 코드를 짜면서 실습을 진행할 예정입니다. 제 발표를 들으면 유익하실 분들과 그렇지 않을 분들을 아래에 정리해놓았습니다.
+
+* 발표가 유익하실 분들.
+    * 빨리 딥러닝을 자신의 분야에 적용하고 싶으신 분들
+    * 딥러닝을 시작한지 오래 되지 않아서 (혹은 아직 시작하지 않아서) 어떤 프레임워크를 쓰면 좋을지 모르겠는 분들
+    * 기존에 쓰시던 프레임워크가 복잡하다고 느껴져서 친숙하지 않은 분들
+    * PyTorch에 사용법에 대해 알고 싶으신 분들
+
+* 발표가 유익하지 않으실 분들.
+    * 이미 애용하는 프레임워크가 있으신 분들
+    * 전문적인 딥러닝 개념을 듣고 싶으신 분들
+
+딥러닝으로 빠른 시간에 성과를 내려면 어느 프레임워크를 이용해야 할까요? 딥러닝을 하기 위한 도구를 제공하는 프레임워크는 정말 다양합니다 - Caffe(2), CNTK, Keras, PyTorch, TensorFlow, Theano 등. 각자가 더 많이 쓰이는 딥러닝 분야도 다르고 장단점도 다릅니다. 그럼에도 불구하고 저는 주변 사람들에게 얘기합니다. 적어도 처음 시작했던 저에게 가장 쉽고 직관적으로 다가왔던 프레임워크는 PyTorch였다고 말이죠. Keras를 이용해 코드를 짜다보면 TensorFlow에 대한 이해가 필요한 경우가 종종 있었습니다. 그렇다고 TensorFlow를 하려니 배워야 할 게 너무 많았죠. 그렇다면 PyTorch는? Python 클래스에 대한 기본적인 이해면 충분합니다. 그렇기 때문에 직관적이고 빠르게 적응할 수 있다는 큰 장점이 있습니다. 얼른 자신의 분야에 딥러닝을 적용하고 성과를 내고 싶으신가요? PyTorch로 오세요.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_gishin_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_gishin/)
 
 #### 참고자료
-TBD 
+* 파이토치 튜토리얼 사이트: https://tutorials.pytorch.kr/
 
 ---
 ### 전미정 - 실습)MS Azure ML Service와 함께하는 AutoML 사용하기
@@ -467,9 +483,9 @@ TBD
 [![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin/)
 
 #### 참고자료
-* 깃헙
-    * Unity ML-agents 공식 깃헙: <https://github.com/Unity-Technologies/ml-agents>
-    * RLKorea Unity ML-agents 튜토리얼 팀 깃헙: <https://github.com/reinforcement-learning-kr/Unity_ML_Agents>
+
+* Unity ML-agents 공식 깃헙: <https://github.com/Unity-Technologies/ml-agents>
+* RLKorea Unity ML-agents 튜토리얼 팀 깃헙: <https://github.com/reinforcement-learning-kr/Unity_ML_Agents>
 
 ---
 ### 김태진 - 구글 코랩 TPU 알아보기
