@@ -404,7 +404,6 @@ TBD
 * [Azure Machine Learning Service](https://azure.microsoft.com/ko-kr/services/machine-learning-service/)  
 * [What is automated machine learning?](https://docs.microsoft.com/ko-kr/azure/machine-learning/service/concept-automated-ml)  
 
-
 ---
 ### 서정훈 - 빽 투 더 Representation Learning: Visual Self-supervision을 중심으로
 
