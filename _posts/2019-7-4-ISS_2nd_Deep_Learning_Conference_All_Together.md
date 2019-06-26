@@ -627,7 +627,7 @@ TBD
 현재 DeepMind, OpenAI가 선두가 되어 많은 강화학습 문제들이 해결되고 있습니다. 하지만 내부 모델이 왜 특정 상태에서 해당 행동을 하는지는 인공신경망 특성상 알기 어렵습니다. DeepMind에서는 이러한 문제를 자연어 문제에서 흔히 사용하는 self-attention 모델을 이용하여 설명하는 인공신경망을 발표하였습니다. 이는 추후 설명가능한 진정한 의미의 AI가 될 수 있는 가능성을 내포하고 있습니다. 이에 대해서 구현하고 설명하는 내용을 발표할 것 입니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_chagmgang_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_chagmgang/)
 
 #### 참고자료
 * Attention Is All You Need
