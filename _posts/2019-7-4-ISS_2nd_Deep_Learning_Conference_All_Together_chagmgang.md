@@ -2,7 +2,7 @@
 layout: post
 title:  "[2nd DLCAT] 설명가능한 강화학습(Explainable Reinforcement Learning) - 차금강"
 author: 김태영
-date:   2019-07-04 10:00:00
+date:   2019-07-04 16:00:00
 categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_chagmgang_title.png
