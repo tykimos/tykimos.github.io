@@ -28,6 +28,11 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
    * ETRI 융합기술연구생산센터
    * 대전정보문화산업진흥원
    * (주)유클리드소프트 - 유클리드소프트는 정부부처 및 공공기관 서비스 개발과정에서 축적한 솔루션 기반 탄탄한 기술력 위에 빅데이터 분석, AI기반 CCTV 행동 패턴 분석, CNN, RNN, GAN 등 최신 기술을  접목하여, 고객의 핵심 가치에 더 나은 핵 가치를 제공하고자 계속 노력하고 있는 덕후 개발자들의 회사입니다.
+   * 한남대학교
+   * 길벗
+      * 모두의 딥러닝 3권
+      * 케라스 창시자에게 배우는 딥러닝 3권
+      * 머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로우 3권      
 * 대상: 인공지능 및 딥러닝에 관심있거나 관련 연구를 수행하시는 분들 (약 700명)
     * 트랙 A: UST 강당 300명
     * 트랙 B: UST 사이언스홀 65명
@@ -521,16 +526,21 @@ TBD
 ### 김보섭 - (실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0
 
 #### 연사소개
-TBD
+현재 LG전자 인공지능연구소에서 Researcher로 일하고 있습니다. 모두의 연구소에서 NLP 관련 스터디 모임(NLP Bootcamp)에서 faciliator로 활동하고 있으며, 모두를 위한 딥러닝 시즌 2 (TensorFlow)에 Contributor로 참여하였습니다. 현재는 Bayesian NN, Novelty Detection기반으로 Uncertainty를 NLP의 여러분야에 적용하는 연구를 하고 있습니다.
+
+* 홈페이지: https://aisolab.github.io/
+* 깃헙: https://github.com/aisolab
+* 이메일: bsk0130@gmail.com
 
 #### 발표소개
-TBD
+NLP 논문들을 구현하기위한 여러 기본 개념(Vocabulary, Tokenizer, Embedding 등) 및 일련의 전처리 과정을 학습하고, 위의 개념들을 어떤식으로 모듈화해야 효율적으로 논문을 구현할 수 있는 지 소개합니다. 소개한 내용을 기반으로 PyTorch를 활용, "Convolutional Neural Networks for Sentence Classification"을 구현하여 네이버 영화평점 데이터에 적용해봅니다. (발표 당일에는 TensorFlow 2.0 구현체는 설명하지않으며, PyTorch로 구현한 것과 비교만 해 볼 예정입니다.) 
 
 #### 발표자료
 TBD
 
 #### 참고자료
-TBD 
+* 논문: https://arxiv.org/abs/1408.5882
+* 깃헙: https://github.com/aisolab/nlp_implementation
 
 ---
 ### 이진원 - Efficient CNN 톺아보기
