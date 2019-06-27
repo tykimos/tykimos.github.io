@@ -29,7 +29,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 218 ETRI 융합기술연구생산센터 212호 대회의실
-* 시간: 7월 4일 오전 16시
+* 시간: 7월 4일 16시
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
