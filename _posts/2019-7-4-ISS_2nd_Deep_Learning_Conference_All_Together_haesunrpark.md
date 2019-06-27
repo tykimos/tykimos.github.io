@@ -6,6 +6,7 @@ date:   2019-07-04 10:00:00
 categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_haesunrpark_title.png
+
 ---
 텐서플로 2.0에서 변화된 내용을 소개하고 텐서플로 2.0에서 케라스가 어떤 역할을 담당하게 되었는지 소개합니다. 기본적인 케라스 사용법외에 텐서플로에서 케라스를 이용한 사용자 정의 모델을 어떻게 구현하는지도 알아보겠습니다.
 
