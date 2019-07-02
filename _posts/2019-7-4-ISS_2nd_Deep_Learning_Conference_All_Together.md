@@ -52,8 +52,8 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 |11시|<b>안수빈</b><br>The Newbie Guide to Blogging & Visualization|<b>김준태</b><br>나도 너도 모르는 Graph Neural Network의 힘|<b>안종훈</b><br>설명가능한 AI for AI 윤리|<b>이유한</b><br>I'm Kaggler - Why need kaggle?|<b>이현호</b><br>(실습)유니티 기반 드론 강화학습 (2)|<b>정연준</b><br>아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기 (2)|
 |13시|<b>남기현</b><br>(이론)딥러닝으로 오디오 만나보기|<b>김유민</b><br>딥러닝 모델 엑기스 추출(Knowlege Distillation)|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>서정훈</b><br>빽 투 더 Representation Learning: Visual Self-supervision을 중심으로|<b>신경인</b><br>(실습)파이토치로 갈아타기 (1)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기(1)|
 |14시|<b>황준원</b><br>(실전)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기 (2)|
-|15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
-|16시|<b>김태영</b><br>휴먼 인 더 루프 with 케라스|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>(실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0 (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
+|15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>Structuring your first NLP project (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
+|16시|<b>김태영</b><br>휴먼 인 더 루프 with 케라스|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>Structuring your first NLP project (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
 |17시|(모집중)|(모집중)|(모집중)|<b>옥찬호</b><br>카드게임 강화학습 환경 개발기 - 하스스톤|(모집중)|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
 
 * 점심시간은 12시 ~ 13시입니다.
@@ -525,7 +525,7 @@ TBD
 TBD 
 
 ---
-### 김보섭 - (실습)영화평점 데이터로 자연어처리 논문구현 입문 with PyTorch, TF 2.0
+### 김보섭 - Structuring your first NLP project
 
 #### 연사소개
 현재 LG전자 인공지능연구소에서 Researcher로 일하고 있습니다. 모두의 연구소에서 NLP 관련 스터디 모임(NLP Bootcamp)에서 faciliator로 활동하고 있으며, 모두를 위한 딥러닝 시즌 2 (TensorFlow)에 Contributor로 참여하였습니다. 현재는 Bayesian NN, Novelty Detection기반으로 Uncertainty를 NLP의 여러분야에 적용하는 연구를 하고 있습니다.
@@ -535,14 +535,24 @@ TBD
 * 이메일: bsk0130@gmail.com
 
 #### 발표소개
-NLP 논문들을 구현하기위한 여러 기본 개념(Vocabulary, Tokenizer, Embedding 등) 및 일련의 전처리 과정을 학습하고, 위의 개념들을 어떤식으로 모듈화해야 효율적으로 논문을 구현할 수 있는 지 소개합니다. 소개한 내용을 기반으로 PyTorch를 활용, "Convolutional Neural Networks for Sentence Classification"을 구현하여 네이버 영화평점 데이터에 적용해봅니다. (발표 당일에는 TensorFlow 2.0 구현체는 설명하지않으며, PyTorch로 구현한 것과 비교만 해 볼 예정입니다.) 
+NLP 논문을 구현할 때, 항상 수반하는 전처리(Vocabulary, Tokenizer, Embedding 등)들을 반영하는 project template (project structure)을 구성하고, 구현 시 modulization을 어떻게 효율적으로 해야하는 가에 관하여 소개합니다. 소개한 project template을 토대로 PyTorch로 구현한 "Convolutional Neural Networks for Sentence Classification"을 네이버 영화평점 데이터에 적용해봅니다. (논문의 상세한 내용에 대해서는 소개하지 않습니다. 발표자료를 참고해주세요)
+
+* 발표가 유익하실 분들
+    * 논문 구현을 project template 토대로 구현한 경험이 없으신 분들
+    * 논문 구현에 관심있으신 분들
+    * 자기자신만의 project template 구성에 관심있으신 분들
+    * NLP 논문 구현에 관심있으신 분들
+ 
+* 발표가 유익하지 않으신 분들
+    * 이미 사용하고 계신 project template이 있으신 분들
+    * 전문적인 딥러닝 개념을 듣고 싶으신 분들
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_aisolab_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_aisolab/)
 
 #### 참고자료
 * 논문: https://arxiv.org/abs/1408.5882
-* 깃헙: https://github.com/aisolab/nlp_implementation
+* 깃헙: https://github.com/aisolab/nlp_implementation/tree/master/Convolutional_Neural_Networks_for_Sentence_Classification
 
 ---
 ### 이진원 - Efficient CNN 톺아보기
