@@ -9,7 +9,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 ---
 항공우주분야에 강화학습을 적용하기 위해 만든 시뮬레이션 환경들을 소개하고자 합니다. 특히 드론 환경에 대해서 자세히 살펴보고 실습을 통해 직접 드론을 제작해보는 시간도 가져보겠습니다. 추가적으로 딥러닝,  강화학습 그리고 Unity ML-Agetns에 대해 간략하게 살펴보도록하겠습니다. 원활한 실습을 위해 참고자료의 Unity ML-Agents Tutorial을 한 번 진행해보시는것을 권장드립니다. 
 
-![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kyushikmin_title.png)
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hhlee_title.png)
 
 #### 연사소개
 응용수학과 컴퓨터공학을 복수전공하고 이를 활용하기 위해 인공지능 공부를 시작하였습니다. 현재 (주)인스페이스 인공지능 연구실에서 AI 연구원으로서 실생활 문제들을 인공지능을 통해 해결하고자 노력하고 있습니다. 특히 강화학습 시뮬레이션 환경 제작에 흥미가 있어 Unity ML-Agents 를 통해 발사체, 로켓, 드론, 당구 등 여러 강화학습 환경 제작을 진행하고 있습니다.
