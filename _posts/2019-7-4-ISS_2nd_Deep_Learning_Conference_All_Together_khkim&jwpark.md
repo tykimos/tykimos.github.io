@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(실습)강화학습 해부학 교실: Rainbow, 이론부터 구현까지 - 김경환,박진우"
+title:  "[2nd DLCAT] (실습)강화학습 해부학 교실: Rainbow, 이론부터 구현까지 - 김경환,박진우"
 author: 김태영
 date:   2019-07-04 15:00:00
 categories: seminar

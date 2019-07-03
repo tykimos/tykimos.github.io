@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(이론)딥러닝으로 오디오 만나보기 - 남기현"
+title:  "[2nd DLCAT] (이론)딥러닝으로 오디오 만나보기 - 남기현"
 author: 김태영
 date:   2019-07-04 13:00:00
 categories: seminar
