@@ -39,7 +39,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 |14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기 (2)|
 |15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>Structuring your first NLP project (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
 |16시|<b>옥찬호</b><br>카드게임 강화학습 환경 개발기 - 하스스톤|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>Structuring your first NLP project (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
-|17시|<b>김태영</b><br>이제|<b>김태영</b><br>하이퍼파라미터|<b>김태영</b><br>튜닝은|<b>김태영</b><br>케라스 튜너에게|<b>김태영</b><br>맞기세요|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
+|17시|<b>김태영</b><br>이제|<b>김태영</b><br>하이퍼파라미터|<b>김태영</b><br>튜닝은|<b>김태영</b><br>케라스 튜너에게|<b>김태영</b><br>맡기세요|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
 
 * 점심시간은 12시 ~ 13시입니다.
 * 각 세션은 45분 발표, 5분 질의응답, 10분 휴식 및 이동입니다.
