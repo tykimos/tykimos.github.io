@@ -706,13 +706,25 @@ TBD
 ### 대전 AI 거버넌스
 
 #### 연사소개
-TBD
+안창욱 - 광주과학기술원(GIST)
+    - e-mail: cwan@gist.ac.kr
+이준 - 산업연구원(KIET)
+    - e-mail: jlee@kiet.re.kr
+이순석 - 한국전자통신연구원(ETRI)
+    - e-mail: sslee@etri.re.kr
+유용균 - 원자력연구원(KAERI)
+    - e-mail: ygyu@kaeri.re.kr
+이홍석 - 한국과학기술정보연구원(KISTI)
+    - e-mail: hsyi@kisti.re.kr
+안효정 - 한국항공우주연구원(KARI)
+    - e-mail: hjahn@kari.re.kr
+
 
 #### 발표소개
 TBD
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_djgover/)
 
 #### 참고자료
 TBD
