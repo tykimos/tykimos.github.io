@@ -5,7 +5,7 @@ author: 김태영
 date:   2019-07-04 14:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_aisolab_title.png
+image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kysong_title.png
 ---
 즈니스 관점에서의 딥러닝에 대한 톡입니다. 실제 비즈니스 상에서 기술에 대한 오해나 상용화에 대해 접근방법이 아쉬운적이 많았고 여기에 대한 의견을 나누고자 합니다.
 
