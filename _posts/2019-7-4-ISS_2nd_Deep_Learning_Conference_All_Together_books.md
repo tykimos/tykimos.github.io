@@ -26,17 +26,20 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 			
 ### 길벗
 ---
+
 * 모두의 딥러닝	- 3권	
 * 케라스 창시자에게 배우는 딥러닝 - 3권	
 * 머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로우 - 3권	
 			
 ### 디지털북스			
 ---
+
 * 블록과 함께하는 딥러닝 파이쎤 케라스 - 5권	
 * 대소니 딥러닝	- 5권	
 			
 ### 위키북스
 ---
+
 * [파이썬과 케라스로 배우는 강화학습](https://wikibook.co.kr/reinforcement-learning/) - 1권	
 * [파이썬과 케라스를 이용한 딥러닝/강화학습 주식투자](https://wikibook.co.kr/deep-learning-trading/) - 1권	
 * [전문가를 위한 머신러닝 솔루션](https://wikibook.co.kr/ml-solutions/)	- 1권	
@@ -44,6 +47,9 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * [파이토치를 활용한 강화학습/심층강화학습](https://wikibook.co.kr/pytorch-drl/) - 1권
 * [나의 첫 머신러닝/딥러닝](https://wikibook.co.kr/machine-learning/) - 1권
 * [텐서플로와 머신러닝으로 시작하는 자연어처리](https://wikibook.co.kr/nlp/) - 1권
+
+### 함께하는 딥러닝 컨퍼런스 행사
+---
 
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
