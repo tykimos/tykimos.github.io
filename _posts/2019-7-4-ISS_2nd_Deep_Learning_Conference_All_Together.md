@@ -141,16 +141,23 @@ TBD
 ### 이현호 - (실습)유니티 기반 드론 강화학습
 
 #### 연사소개
-(주)인스페이스
+응용수학과 컴퓨터공학을 복수전공하고 이를 활용하기 위해 인공지능 공부를 시작하였습니다. 현재 (주)인스페이스 인공지능 연구실에서 AI 연구원으로서 실생활 문제들을 인공지능을 통해 해결하고자 노력하고 있습니다. 특히 강화학습 시뮬레이션 환경 제작에 흥미가 있어 Unity ML-Agents 를 통해 발사체, 로켓, 드론, 당구 등 여러 강화학습 환경 제작을 진행하고 있습니다.
+
+* 이메일: hyunho1027@khu.ac.kr
+* 깃헙: https://github.com/hyunho1027
+* 유튜브: https://www.youtube.com/channel/UCZx739AbunG2bGD5t0sNAhw
 
 #### 발표소개
-TBD
+항공우주분야에 강화학습을 적용하기 위해 만든 시뮬레이션 환경들을 소개하고자 합니다. 특히 드론 환경에 대해서 자세히 살펴보고 실습을 통해 직접 드론을 제작해보는 시간도 가져보겠습니다. 추가적으로 딥러닝,  강화학습 그리고 Unity ML-Agetns에 대해 간략하게 살펴보도록하겠습니다. 원활한 실습을 위해 참고자료의 Unity ML-Agents Tutorial을 한 번 진행해보시는것을 권장드립니다. 
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hhlee_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_hhlee/)
+
 
 #### 참고자료
-TBD 
+* Unity ML-Agents Tutorial github : https://github.com/hyunho1027/Unity_ML_Agents_Tutorial
+* Unity based Drone environments github : https://github.com/InSpaceAI/RL-InDrone
+* Unity based RL environments youtube : https://www.youtube.com/channel/UCZx739AbunG2bGD5t0sNAhw
 
 ---
 ### 정연준 - (실습)아기다리고기다리던딥러닝 - 케라스로 띄어쓰기 정복하기
@@ -301,8 +308,7 @@ TBD
 지금까지 해왔던 연구와는 완전히 달랐던 음원 분야를 연구하게 되어 이를 위해 공부했던 필수 지식들을 이번 시간에 여러분들과 공유하고자 합니다. 이 발표는 audio 분야는 처음인데 아무것도 아는 것이 없어 혼란스러운 분들과 딥러닝을 통한 audio 연구는 어떤 것이 있고 어떻게 하면 되는지 궁금하신 분들을 위한 발표입니다. 최대한 비전문가도 이해할 수 있도록 자료를 구성했으니 audio 분야에 도전하고자 하시는 분에게 도움이 되었으면 합니다.
 
 #### 발표자료
-TBD
-
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_namkihyun_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_namkihyun/)
 #### 참고자료
 TBD 
 
@@ -432,7 +438,8 @@ Visual Self-supervision을 중심으로, 본 발표에서는 다음과 같은 �
 주요 키워드: Visual Representation Learning, Self-supervised Learning, Data-efficiency
 
 #### 발표자료
-TBA
+
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jhseo_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_jhseo/)
 
 #### 참고자료
 TBA
@@ -576,7 +583,7 @@ TBD
 * 논문: TBA
 
 ---
-### 김경환,박진우 - (실습)Rainbow로 달착륙부터 Atari까지
+### 김경환,박진우 - (실습)강화학습 해부학 교실: Rainbow, 이론부터 구현까지
 
 #### 연사소개
 현재 Medipixel에서 research engineer로 재직중이며, 강화학습을 통해 심혈관 중재시술(PCI) 일부 과정을 자동화하는 연구를 진행하고 있습니다. 심혈관 중재시술의 핵심은 혈관 내에서 병변부위까지 무사히 도달할 수 있도록 wire를 제어하는 기술입니다. 특히 wire 제어는 굉장히 풀기 어려운 non-linear system으로 악명이 높은데, 저희는 그 동안의 성과물을 통해 강화학습에 의한 wire 제어의 가능성을 조금씩 세상에 보여주고 있습니다.
@@ -586,10 +593,10 @@ TBD
 * 이메일: khsyee@gmail.com / www.jwpark.co.kr@gmail.com
 
 #### 발표소개
-Atari 환경에서 아주 좋은 성능을 보여주는 강화학습 알고리즘인 Rainbow를 공부하고 실습해봅니다. Rainbow를 구성하는 DQN, PER, Double-Q, Dueling Network, NoisyNet, C51, N-Step 및 expert demonstration을 이용한 추가적인 성능 향상 기법(DQfD)을 구현해봅니다.
+Atari 환경에서 아주 좋은 성능을 보여주는 강화학습 알고리즘인 Rainbow를 공부해 봅니다. Rainbow를 구성하는 DQN, PER, Double-Q, Dueling Network, NoisyNet, C51, N-Step TD의 이론적 배경을 함께 살펴보고, Rainbow의 파이토치 구현을 line-by-line으로 뜯어봅시다. (노하우 대방출)
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_khkim&jwpark_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_khkim&jwpark/)
 
 #### 참고자료
 * 논문
@@ -597,7 +604,6 @@ TBD
     * T. Schaul et al., "Prioritized Experience Replay." arXiv preprint arXiv:1511.05952, 2015.
     * van Hasselt et al., "Deep Reinforcement Learning with Double Q-learning." arXiv preprint arXiv:1509.06461, 2015.
     * Z. Wang et al., "Dueling Network Architectures for Deep Reinforcement Learning." arXiv preprint arXiv:1511.06581, 2015.
-    * T. Hester et al., "Deep Q-learning from Demonstrations." arXiv preprint arXiv:1704.03732, 2017.
     * M. G. Bellemare et al., "A Distributional Perspective on Reinforcement Learning." arXiv preprint arXiv:1707.06887, 2017.
     * M. Fortunato et al., "Noisy Networks for Exploration." arXiv preprint arXiv:1706.10295, 2017.
     * M. Hessel et al., "Rainbow: Combining Improvements in Deep Reinforcement Learning." arXiv preprint arXiv:1710.02298, 2017.
@@ -605,6 +611,8 @@ TBD
 * 깃헙
     * https://github.com/medipixel/rl_algorithms
     * https://github.com/Kaixhin/Rainbow
+    * https://github.com/higgsfield/RL-Adventure
+    * https://github.com/openai/spinningup
 
 ## 16시
 

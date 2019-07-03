@@ -27,7 +27,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 강당
-* 시간: 7월 4일 오전 15시
+* 시간: 7월 4일 15시
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
