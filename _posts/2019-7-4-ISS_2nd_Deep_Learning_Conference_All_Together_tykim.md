@@ -19,7 +19,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * 블로그: tykimos.github.io
 
 #### 발표자료
-* [다운로드](https://docs.google.com/presentation/d/1U6CS0v3cPLrUOJlEsrsNmwVYoYhvNU6QW6_fD9czyZY/edit#slide=id.g5cefb1be18_0_409)
+* [다운로드](https://docs.google.com/presentation/d/1U6CS0v3cPLrUOJlEsrsNmwVYoYhvNU6QW6_fD9czyZY/edit?usp=sharing)
 
 #### 참고자료
 * [하이퍼튜닝을 손쉽게 - 케라스 튜너](https://tykimos.github.io/2019/05/10/KerasTuner/)
