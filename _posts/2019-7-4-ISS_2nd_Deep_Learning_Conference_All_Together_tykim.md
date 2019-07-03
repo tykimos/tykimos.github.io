@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[2nd DLCAT] 이제 하이퍼파라미터 튜닝은 케라스 튜너에 맡기세요 - 김태영"
+title:  "[2nd DLCAT] 이제 하이퍼파라미터 튜닝은 케라스 튜너에게 맡기세요 - 김태영"
 author: 김태영
 date:   2019-07-04 17:00:00
 categories: seminar
