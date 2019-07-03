@@ -7,6 +7,7 @@ categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover_title.png
 ---
+
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover_title.png)
 
 #### 연사소개
