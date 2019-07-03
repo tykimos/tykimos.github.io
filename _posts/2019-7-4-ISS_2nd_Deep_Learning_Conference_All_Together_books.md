@@ -11,33 +11,33 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_books.jpg)
 
-### 한빛미디어
+### [한빛미디어](http://www.hanbit.co.kr/)
 ---
-* 김기현의 자연어 처리 딥러닝 캠프(파이토치 편) - 1권
-* 한 권으로 끝내는 딥러닝 텐서플로 - 1권	
-* 자바를 활용한 딥러닝 - 1권	
-* 처음 배우는 딥러닝 수학 - 1권	
-* 코딩셰프의 3분 딥러닝, 케라스맛 - 1권	
-* 파이썬으로 배우는 머신러닝의 교과서 - 1권	
-* 텐서플로를 활용한 머신러닝 - 1권	
-* 머신러닝 실무 프로젝트 - 1권	
-* 파이썬 라이브러리를 활용한 머신러닝(번역개정판) : 사이킷런 핵심 개발자가 쓴 머신러닝과 데이터 과학 실무서	- 1권	
-* 파이토치 첫걸음 - 1권	
+* [김기현의 자연어 처리 딥러닝 캠프(파이토치 편)](http://www.hanbit.co.kr/store/books/look.php?p_code=B1294694476) - 1권
+* [한 권으로 끝내는 딥러닝 텐서플로](http://www.hanbit.co.kr/store/books/look.php?p_code=B1266184916) - 1권	
+* [자바를 활용한 딥러닝](http://www.hanbit.co.kr/store/books/look.php?p_code=B4774300045) - 1권	
+* [처음 배우는 딥러닝 수학](http://www.hanbit.co.kr/store/books/look.php?p_code=B6703128448) - 1권	
+* [코딩셰프의 3분 딥러닝, 케라스맛](http://www.hanbit.co.kr/store/books/look.php?p_code=B6313947129) - 1권	
+* [파이썬으로 배우는 머신러닝의 교과서](http://www.hanbit.co.kr/store/books/look.php?p_code=B8718279503) - 1권	
+* [텐서플로를 활용한 머신러닝](http://www.hanbit.co.kr/store/books/look.php?p_code=B8108682495) - 1권	
+* [머신러닝 실무 프로젝트](http://www.hanbit.co.kr/store/books/look.php?p_code=B2700797734) - 1권	
+* [파이썬 라이브러리를 활용한 머신러닝(번역개정판) : 사이킷런 핵심 개발자가 쓴 머신러닝과 데이터 과학 실무서](http://www.hanbit.co.kr/store/books/look.php?p_code=B5750278775)	- 1권	
+* [파이토치 첫걸음](http://www.hanbit.co.kr/store/books/look.php?p_code=B7818450418) - 1권	
 			
-### 길벗
----
-
-* 모두의 딥러닝	- 3권	
-* 케라스 창시자에게 배우는 딥러닝 - 3권	
-* 머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로우 - 3권	
-			
-### 디지털북스			
+### [길벗](https://www.gilbut.co.kr/)
 ---
 
-* 블록과 함께하는 딥러닝 파이쎤 케라스 - 5권	
-* 대소니 딥러닝	- 5권	
+* [모두의 딥러닝](https://www.gilbut.co.kr/book/view?bookcode=BN001909&keyword=%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%94%A5%EB%9F%AC%EB%8B%9D&collection=GB_BOOK)	- 3권	
+* [케라스 창시자에게 배우는 딥러닝](https://www.gilbut.co.kr/book/view?bookcode=BN002235&keyword=%EC%BC%80%EB%9D%BC%EC%8A%A4%20%EC%B0%BD%EC%8B%9C%EC%9E%90&collection=GB_BOOK) - 3권	
+* [머신 러닝 교과서 with 파이썬, 사이킷런, 텐서플로우](https://www.gilbut.co.kr/book/view?bookcode=BN002431&keyword=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EA%B5%90%EA%B3%BC%EC%84%9C&collection=GB_BOOK) - 3권	
 			
-### 위키북스
+### [디지털북스](http://www.digitalbooks.co.kr/v2/html/)			
+---
+
+* [블록과 함께하는 딥러닝 파이쎤 케라스](http://www.digitalbooks.co.kr/v2/html/sub_view.php?m=&n=&s=&b=&p=1&no=431) - 5권	
+* [대소니 딥러닝](http://www.digitalbooks.co.kr/v2/html/sub_view.php?m=&n=&s=&b=&p=1&no=452)	- 5권	
+			
+### [위키북스](https://wikibook.co.kr/)
 ---
 
 * [파이썬과 케라스로 배우는 강화학습](https://wikibook.co.kr/reinforcement-learning/) - 1권	
