@@ -21,6 +21,12 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 #### 발표자료
 * [보기](https://docs.google.com/presentation/d/1Uc_XlACl7o75eY7bHgjKrTR9hfjsvJ4Hk2722EDwRJo/edit)
 
+#### 실습 준비물
+
+Unity 2019 이상
+Visual Studio 2017 이상
+Python 3.6
+
 #### 참고자료
 * Unity ML-Agents Tutorial github : https://github.com/hyunho1027/Unity_ML_Agents_Tutorial
 * Unity based Drone environments github : https://github.com/InSpaceAI/RL-InDrone
