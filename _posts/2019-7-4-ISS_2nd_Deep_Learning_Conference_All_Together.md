@@ -285,10 +285,9 @@ Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담�
 전세계 데이터를 사랑하는 사람들에게 데이터를 제공하고, 함께 즐길 수 있도록 해주는 캐글을 소개하려고 합니다. 작년 1st DL cat 에서 캐글 발표 이후 지난 1년간의 캐글 경험 및 후기를 들려드릴 것입니다. 제 발표를 들으시면, 왜 캐글이 ML, DL, DS 를 위한Project-based learnin(PBL) 을 할 수 있는 최적의 플랫폼인지 알게 되실 겁니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhlee_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_yhlee/)
 
 #### 참고자료
-
 * 캐글 코리아 페이스북: https://www.facebook.com/groups/KaggleKoreaOpenGroup/
 * 캐글 코리아 블로그: https://kaggle-kr.tistory.com/
 
@@ -316,16 +315,32 @@ TBD
 ### 김유민 - 딥러닝 모델 엑기스 추출(Knowlege Distillation)
 
 #### 연사소개
-TBD
+현재 경희대학교 컴퓨터공학과 머신러닝&비주얼컴퓨팅 연구실에서 석사과정 재학중이고, 딥러닝 모델 압축 알고리즘을 연구하고 있습니다.
+
+* 이메일: rladbals0733@gmail.com
 
 #### 발표소개
-TBD
+여러 딥러닝 모델 압축 방법들 중 Knowledge Distillation분야의 연구 흐름을 관련 논문 리뷰를 통해 소개해드리려고 합니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_ymkim_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_ymkim/)
 
 #### 참고자료
-TBD 
+* 논문
+    * Han et al. Learning both Weights and Connections for Efficient Neural Networks. In NIPS, 2015.
+    * Han et al. Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding. In ICLR, 2016.
+    * G. Howard et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. In arXiv, 2017.
+    * Chen et al. Big-Little Net: an Efficient Multi-Scale Feature Representation for visual and speech recognition. In ICLR, 2019.
+    * Szegedy et al. Going Deeper with Convolutions. In CVPR, 2015.
+    * Ba et al. Do Deep Nets Really Need to be Deep?. In NIPS, 2014.
+    * Hinton et al. Distilling the Knowledge in a Neural Network. In NIPS workshop, 2014.
+    * Romero et al. FitNets: Hints for Thin Deep Nets. In ICLR, 2015.
+    * Yim et al. A Gift from Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning. In CVPR, 2017.
+    * Zagoruyko et al. Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer. In ICLR, 2017.
+    * Kim et al. Paraphrasing Complex Network: Network Compression via Factor Transfer. In NIPS, 2018.
+    * Furlanello et al. Born-Again Neural Networks. In ICML, 2018.
+    * Yu et al. Network Recasting: A Universal Method for Network Architecture Transformation. In AAAI, 2019.
+    * Park et al. Relational Knowledge Distillation. In CVPR, 2019.
 
 ---
 ### 홍원의 - (실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기
@@ -438,7 +453,6 @@ Visual Self-supervision을 중심으로, 본 발표에서는 다음과 같은 �
 주요 키워드: Visual Representation Learning, Self-supervised Learning, Data-efficiency
 
 #### 발표자료
-
 [![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jhseo_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_jhseo/)
 
 #### 참고자료
@@ -490,7 +504,7 @@ ML GDE(Machine Learning Google Developer Expert)입니다. 기계공학을 전�
 비즈니스 관점에서의 딥러닝에 대한 톡입니다. 실제 비즈니스 상에서 기술에 대한 오해나 상용화에 대해 접근방법이 아쉬운적이 많았고 여기에 대한 의견을 나누고자 합니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_kysong_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_kysong/)
 
 #### 참고자료
 TBD

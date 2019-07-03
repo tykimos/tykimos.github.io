@@ -37,7 +37,7 @@ NLP 논문을 구현할 때, 항상 수반하는 전처리(Vocabulary, Tokenizer
 
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
-* 시간: 7월 4일 오전 15시
+* 시간: 7월 4일 15시
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
