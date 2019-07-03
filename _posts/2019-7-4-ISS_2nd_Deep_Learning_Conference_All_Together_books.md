@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[2nd DLCAT] 인공지능, 머신러닝, 딥러닝, 자언어처리, 강화학습 관련 도서"
+title:  "[2nd DLCAT] 인공지능, 머신러닝, 딥러닝, 자연어처리, 강화학습 관련 도서"
 author: 김태영
 date:   2019-07-04 17:00:00
 categories: seminar
