@@ -151,7 +151,7 @@ TBD
 항공우주분야에 강화학습을 적용하기 위해 만든 시뮬레이션 환경들을 소개하고자 합니다. 특히 드론 환경에 대해서 자세히 살펴보고 실습을 통해 직접 드론을 제작해보는 시간도 가져보겠습니다. 추가적으로 딥러닝,  강화학습 그리고 Unity ML-Agetns에 대해 간략하게 살펴보도록하겠습니다. 원활한 실습을 위해 참고자료의 Unity ML-Agents Tutorial을 한 번 진행해보시는것을 권장드립니다. 
 
 #### 발표자료
-[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hhlee_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_hhlee/)
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_hhlee_title_1.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_hhlee/)
 
 
 #### 참고자료
@@ -721,7 +721,7 @@ TBD
 
 
 #### 발표소개
-TBD
+대전 산업 AI 생태계 활성화 및 거버넌스 구성 방안
 
 #### 발표자료
 [![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_djgover/)

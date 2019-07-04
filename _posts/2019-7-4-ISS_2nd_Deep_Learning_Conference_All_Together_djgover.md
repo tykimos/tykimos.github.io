@@ -7,7 +7,7 @@ categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover_title.png
 ---
-.
+대전 산업 AI 생태계 활성화 및 거버넌스 구성 방안
 
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover_title.png)
 
@@ -31,6 +31,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * [1-2.대전AI활성화자료](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover1-2_file.pdf)
 * [2.제조업 르네상스를 위한 AI산업 육성 방향](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover2_file.pdf)
 * [3.대전AI산업생태계활성화방안 및 거버넌스구성방안 토론회](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover3_file.pdf)
+* [3.대전AI산업생태계활성화방안 및 거버넌스구성방안 토론회](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover4_file.pdf)
 * [5.대전-AI-산업생태계](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover5_file.pdf)
 * [6.대전 산업 AI 생태계 활성화 및 거버넌스 구성방안](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_djgover6_file.pdf)
 
