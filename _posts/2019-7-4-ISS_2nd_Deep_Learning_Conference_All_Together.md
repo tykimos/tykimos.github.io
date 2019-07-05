@@ -428,7 +428,7 @@ GPU가 없어 느린 학습 속도에 좌절😫 해봤거나, 어떤 모델을 
 * 세션 시작 전, [https://signup.live.com/](https://signup.live.com/)에서 Microsoft 무료 계정을 생성해주세요(이미 계정이 있다면 편한 마음으로 오시면 됩니다).
 
 #### 발표자료
-TBD
+발표자료는 [SlideShare](https://www.slideshare.net/MijeongJeon1/azure-automl)에 올려두었습니다 :) 
 
 #### 참고자료
 ![AutoML](https://docs.microsoft.com/ko-kr/azure/machine-learning/service/media/tutorial-auto-train-models/flow2.png)  
