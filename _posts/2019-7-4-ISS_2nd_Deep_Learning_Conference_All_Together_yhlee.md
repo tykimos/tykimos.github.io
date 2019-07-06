@@ -17,7 +17,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 * 캐글 프로필: https://www.kaggle.com/youhanlee
 
 #### 발표자료
-* [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhlee_file.pdf)
+* [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhlee_file.pptx)
 
 #### 참고자료
 * 캐글 코리아 페이스북: https://www.facebook.com/groups/KaggleKoreaOpenGroup/
