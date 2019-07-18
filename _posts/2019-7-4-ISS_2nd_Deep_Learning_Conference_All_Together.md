@@ -219,6 +219,9 @@ TBD
 Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담감 없이 들으시면 됩니다.
 발표는 2019 ICLR에서 발표한 "How Powerful are Graph Neural Networks?"를 기반으로 진행됩니다.
 
+#### 발표자료
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jtkim_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_jtkim/)
+
 #### 참고자료
 * 논문
     * K.Xu,W.Hu,J.Leskovec,and S.Jegelka,"How powerful are graph neural networks"
@@ -428,7 +431,7 @@ GPU가 없어 느린 학습 속도에 좌절😫 해봤거나, 어떤 모델을 
 * 세션 시작 전, [https://signup.live.com/](https://signup.live.com/)에서 Microsoft 무료 계정을 생성해주세요(이미 계정이 있다면 편한 마음으로 오시면 됩니다).
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_mjjeon_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_mjjeon/)
 
 #### 참고자료
 ![AutoML](https://docs.microsoft.com/ko-kr/azure/machine-learning/service/media/tutorial-auto-train-models/flow2.png)  

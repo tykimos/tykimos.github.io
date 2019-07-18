@@ -1,46 +1,35 @@
 ---
 layout: post
-title:  "[2nd DLCAT] (실습)강화학습 해부학 교실: Rainbow, 이론부터 구현까지 - 김경환,박진우"
+title:  "[2nd DLCAT] 나도 너도 모르는 Graph Neural Network의 힘 - 김준태"
 author: 김태영
-date:   2019-07-04 15:00:00
+date:   2019-07-04 11:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_khkim&jwpark_title.png
+image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jtkim_title.png
 ---
-Atari 환경에서 아주 좋은 성능을 보여주는 강화학습 알고리즘인 Rainbow를 공부해 봅니다. Rainbow를 구성하는 DQN, PER, Double-Q, Dueling Network, NoisyNet, C51, N-Step TD의 이론적 배경을 함께 살펴보고, Rainbow의 파이토치 구현을 line-by-line으로 뜯어봅시다. (노하우 대방출)
+"나도 너도 모르는 GNN의 힘" 발표는 Graph Neural Network 공부를 시작한 지 1주일 된 초보자가 초보자에게 
+Graph Neural Network의 기본적인 개념을 알려주는 발표이니 부담감 없이 들으시면 됩니다.
+발표는 2019 ICLR에서 발표한 "How Powerful are Graph Neural Networks?"를 기반으로 진행됩니다.
 
-![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_khkim&jwpark_title.png)
+![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jtkim_title.png)
 
 #### 연사소개
-현재 Medipixel에서 research engineer로 재직중이며, 강화학습을 통해 심혈관 중재시술(PCI) 일부 과정을 자동화하는 연구를 진행하고 있습니다. 심혈관 중재시술의 핵심은 혈관 내에서 병변부위까지 무사히 도달할 수 있도록 wire를 제어하는 기술입니다. 특히 wire 제어는 굉장히 풀기 어려운 non-linear system으로 악명이 높은데, 저희는 그 동안의 성과물을 통해 강화학습에 의한 wire 제어의 가능성을 조금씩 세상에 보여주고 있습니다.
+안녕하세요 현재 고려대학교에서 석사과정 중이고 작년에 1st DLCAT에서 "GTA5로 자율주행 자동차 만들기" 발표를 진행한 김준태라고 합니다. 관심분야로는 주로 Time Series, 강화학습, 딥러닝이고, 새로운 Research Area로 GNN을 이용한 VQA에서의 relation 연구를 시작했습니다.
 
-* 블로그: https://mrsyee.github.io / https://curt-park.github.io/
-* 깃헙: https://github.com/MrSyee / https://github.com/Curt-Park
-* 이메일: khsyee@gmail.com / www.jwpark.co.kr@gmail.com
+* CV: https://sites.google.com/s/1o2nR2sFY7c4VUrosW1Fivbt_4mhKiQAX/p/1h52r1XhKqPvElCInPU717DjCwFNsrr7r/edit
+* 깃헙: https://github.com/OPAYA
+* 이메일: kjt7889@naver.com
 
 #### 발표자료
-* [슬라이드](https://www.slideshare.net/KyunghwanKim27/rainbow-2nd-dlcat-in-daejeon?qid=e2d885a0-8454-4acf-82c5-434ffe09ca6f&v&b&from_search=1&fbclid=IwAR0FEMnYHThztJChx10NYut-Ve7r1Jsh5xEkt254t9Uc-Ioh6qZtgeW6PfY)
-* [코드](https://github.com/Curt-Park/rainbow-is-all-you-need)
+* [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jtkim_file.pdf)
 
 #### 참고자료
 * 논문
-    * V. Mnih et al., "Human-level control through deep reinforcement learning." Nature, 518 (7540):529–533, 2015.
-    * T. Schaul et al., "Prioritized Experience Replay." arXiv preprint arXiv:1511.05952, 2015.
-    * van Hasselt et al., "Deep Reinforcement Learning with Double Q-learning." arXiv preprint arXiv:1509.06461, 2015.
-    * Z. Wang et al., "Dueling Network Architectures for Deep Reinforcement Learning." arXiv preprint arXiv:1511.06581, 2015.
-    * M. G. Bellemare et al., "A Distributional Perspective on Reinforcement Learning." arXiv preprint arXiv:1707.06887, 2017.
-    * M. Fortunato et al., "Noisy Networks for Exploration." arXiv preprint arXiv:1706.10295, 2017.
-    * M. Hessel et al., "Rainbow: Combining Improvements in Deep Reinforcement Learning." arXiv preprint arXiv:1710.02298, 2017.
-
-* 깃헙
-    * https://github.com/medipixel/rl_algorithms
-    * https://github.com/Kaixhin/Rainbow
-    * https://github.com/higgsfield/RL-Adventure
-    * https://github.com/openai/spinningup
+    * K.Xu,W.Hu,J.Leskovec,and S.Jegelka,"How powerful are graph neural networks"
 
 #### 장소 및 시간
-* 장소:  대전광역시 유성구 가정로 218 ETRI 융합기술연구생산센터 224호 대회의실
-* 시간: 7월 4일 15시
+* 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 대회의실
+* 시간: 7월 4일 11시
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
@@ -50,7 +39,7 @@ Atari 환경에서 아주 좋은 성능을 보여주는 강화학습 알고리�
 |14시|<b>황준원</b><br>(실습)딥러닝으로 오디오 만나보기|<b>김영하</b><br>AutomatedML 동향|<b>홍원의</b><br>(실습)한페이지 논문잡기:찾고+읽고+쓰고+정리하기|<b>송규예</b><br>Deeplema, 딥러닝 서비스상용화의 딜레마|<b>신경인</b><br>(실습)파이토치로 갈아타기 (2)|<b>전미정</b><br>(실습)MS Azure ML Service와 함께하는 AutoML 사용하기 (2)|
 |15시|<b>민규식</b><br>강화학습 환경 제작, Unity ML-agents와 함께하세요|<b>김태진</b><br>구글 코랩 TPU 알아보기|<b>김보섭</b><br>Structuring your first NLP project (1)|<b>이진원</b><br>Efficient CNN 톺아보기|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (1)|<b>대전AI거버넌스</b><br>AI 거버넌스 구성|
 |16시|<b>옥찬호</b><br>카드게임 강화학습 환경 개발기 - 하스스톤|<b>김형섭</b><br>GAN 동향|<b>김보섭</b><br>Structuring your first NLP project (2)|<b>차금강</b><br>설명가능한 강화학습|<b>김경환,박진우</b><br>(실습)Rainbow로 달착륙부터 Atari까지 (2)|<b>대전AI거버넌스</b><br>AI 적용 가속화 방안|
-|17시|<b>김태영</b><br>이제|<b>김태영</b><br>하이퍼파라미터|<b>김태영</b><br>튜닝은|<b>김태영</b><br>케라스 튜너에게|<b>김태영</b><br>맞기세요|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
+|17시|<b>김태영</b><br>이제|<b>김태영</b><br>하이퍼파라미터|<b>김태영</b><br>튜닝은|<b>김태영</b><br>케라스 튜너에게|<b>김태영</b><br>맡기세요|<b>대전AI거버넌스</b><br>한계 및 목표치 설정|
 
 * 점심시간은 12시 ~ 13시입니다.
 * 각 세션은 45분 발표, 5분 질의응답, 10분 휴식 및 이동입니다.
