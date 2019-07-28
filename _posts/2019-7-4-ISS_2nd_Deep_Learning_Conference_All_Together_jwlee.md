@@ -22,20 +22,19 @@ ImageNet에서 ResNet이 human performance를 뛰어넘은 이후 efficiency를 
 
 #### 참고자료
 * 논문
-    * Han et al. Learning both Weights and Connections for Efficient Neural Networks. In NIPS, 2015.
-    * Han et al. Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding. In ICLR, 2016.
-    * G. Howard et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. In arXiv, 2017.
-    * Chen et al. Big-Little Net: an Efficient Multi-Scale Feature Representation for visual and speech recognition. In ICLR, 2019.
-    * Szegedy et al. Going Deeper with Convolutions. In CVPR, 2015.
-    * Ba et al. Do Deep Nets Really Need to be Deep?. In NIPS, 2014.
-    * Hinton et al. Distilling the Knowledge in a Neural Network. In NIPS workshop, 2014.
-    * Romero et al. FitNets: Hints for Thin Deep Nets. In ICLR, 2015.
-    * Yim et al. A Gift from Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning. In CVPR, 2017.
-    * Zagoruyko et al. Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer. In ICLR, 2017.
-    * Kim et al. Paraphrasing Complex Network: Network Compression via Factor Transfer. In NIPS, 2018.
-    * Furlanello et al. Born-Again Neural Networks. In ICML, 2018.
-    * Yu et al. Network Recasting: A Universal Method for Network Architecture Transformation. In AAAI, 2019.
-    * Park et al. Relational Knowledge Distillation. In CVPR, 2019.
+    * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
+    * [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+    * [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size](https://arxiv.org/abs/1602.07360)
+    * [SqueezeNext: Hardware-Aware Neural Network Design](https://arxiv.org/abs/1803.10615)
+    * [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
+    * [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381)
+    * [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
+    * [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083)
+    * [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](https://arxiv.org/abs/1807.11164)
+    * [Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions](https://arxiv.org/abs/1711.08141)
+    * [CondenseNet: An Efficient DenseNet using Learned Group Convolutions](https://arxiv.org/abs/1711.09224)
+    * [All You Need is a Few Shifts: Designing Efficient Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1903.05285)
+    * [Fully Learnable Group Convolution for Acceleration of Deep Neural Networks](https://arxiv.org/abs/1904.00346)
 
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 218 ETRI 융합기술연구생산센터 212호 대회의실

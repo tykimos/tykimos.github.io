@@ -594,10 +594,23 @@ NLP 논문을 구현할 때, 항상 수반하는 전처리(Vocabulary, Tokenizer
 ImageNet에서 ResNet이 human performance를 뛰어넘은 이후 efficiency를 중요시하는 CNN들이 계속 연구되어 왔는데 최근까지의 흐름을 쭉 정리해보고자 합니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jwlee_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_jwlee/)
 
 #### 참고자료
-* 논문: TBA
+* 논문
+    * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
+    * [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+    * [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size](https://arxiv.org/abs/1602.07360)
+    * [SqueezeNext: Hardware-Aware Neural Network Design](https://arxiv.org/abs/1803.10615)
+    * [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
+    * [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381)
+    * [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
+    * [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083)
+    * [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](https://arxiv.org/abs/1807.11164)
+    * [Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions](https://arxiv.org/abs/1711.08141)
+    * [CondenseNet: An Efficient DenseNet using Learned Group Convolutions](https://arxiv.org/abs/1711.09224)
+    * [All You Need is a Few Shifts: Designing Efficient Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1903.05285)
+    * [Fully Learnable Group Convolution for Acceleration of Deep Neural Networks](https://arxiv.org/abs/1904.00346)
 
 ---
 ### 김경환,박진우 - (실습)강화학습 해부학 교실: Rainbow, 이론부터 구현까지
