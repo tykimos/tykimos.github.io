@@ -5,7 +5,7 @@ author: 김태영
 date:   2019-07-29 10:30:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title2.png
+image: http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title3.png
 ---
 
 얼마 전 DeepMind에서 BigBiGAN(BigGAN + BiGAN) 모델이 발표되어서 이슈되고 있습니다. 이 중 케라스 기반의 BiGAN 깃헙을 프랑소와 쏠레님이 트윗해주셔서 소개드립니다.
@@ -19,7 +19,7 @@ image: http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title2.png
 
 풍경 사진으로부터 유사도를 뽑아내는 BiGAN 케라스 코드를 통해서 한 번 살펴보시죠~
 
-![img](http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title2.png)
+![img](http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title3.png)
 
 가장 왼쪽에 있는 사진이 모델에 질문을 던진 사진이고, 오른쪽 두번째부터는 데이터셋에서 가장 유사한 순서대로 검출된 이미지입니다. 그 밖에,
 * BiGAN의 특징 공간 내에서 클러스터링을 하거나
