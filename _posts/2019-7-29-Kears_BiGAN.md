@@ -21,6 +21,11 @@ image: http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title1.png
 
 ![img](http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title1.png)
 
+가장 왼쪽에 있는 사진이 모델에 질문을 던진 사진이고, 오른쪽 두번째부터는 데이터셋에서 가장 유사한 순서대로 검출된 이미지입니다. 그 밖에,
+* BiGAN의 특징 공간 내에서 클러스터링을 하거나
+* 실제 이미지와 유사한 이미지를 만들어내는 등
+다양한 활용이 소개되어 있네요.
+
 ### 소스코드
 ---
 * Matthew님(manicman1999)의 깃헙: 
@@ -28,4 +33,9 @@ image: http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_title1.png
 
 ![img](http://tykimos.github.io/warehouse/2019-7-29-Kears_BiGAN_ref.png)
 
+파일 구조는 다음과 같습니다. 
+
+* bigan.py: BiGAN 네트워크를 정의하고 학습하는 코드입니다.
+* guess.py: BiGAN 특징 공간의 Inverse Distance Weighting 유사도를 이용하여 게임을 해보는 코드입니다.
+* idw.py: Inverse Distance Weighting을 계산하는 코드로 거리가 가까울수록(유사도가 높을 수록) 높은 값을 반환하는 함수입니다.
 
