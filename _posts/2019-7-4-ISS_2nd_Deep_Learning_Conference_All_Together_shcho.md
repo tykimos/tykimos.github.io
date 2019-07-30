@@ -20,6 +20,9 @@ RL(Reinforcement Learning) 알고리즘은 최적화 문제에 쓰일 수 있고
 #### 발표자료
 * [보기](https://www.slideshare.net/SuHyunCho2/sac-overview)
 
+#### 참고자료
+* 논문: Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 217 UST 과학기술연합대학원대학교, UST 강당
 * 시간: 7월 4일 오전 10시
