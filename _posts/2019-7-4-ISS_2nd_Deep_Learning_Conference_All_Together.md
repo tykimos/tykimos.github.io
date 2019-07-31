@@ -82,7 +82,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 RL(Reinforcement Learning) 알고리즘은 최적화 문제에 쓰일 수 있고 앞으로 미래 먹거리가 될 수 있습니다. 특히나 로보틱스나 제어에서 많이 쓰이구요. 하지만 RL은 어렵습니다. 특히나 수식의 향연이 더욱 부추깁니다. 그래서 각 알고리즘의 아이디어에 대한 직관적인 이해가 특히 더 요구됩니다. 본 시간은 2018년 ICML 논문인 SAC(Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor) 알고리즘에 대해서 기본에 충실한 핵심 내용을 최대한 알기 쉽게 빠르게 공유 및 전달 하는 시간입니다. SAC알고리즘은 SAC알고리즘은 RL의 기본 가정인 tabular MDP를 Soft-MDP로 재정의(확장)하여 확률적으로 문제를 학습, 처리 하는 아이디어입니다. 이를 실현하기 위해 특별한(specific) 가정 추가 없이 기존 문제영역(high variance)을 해결하여 비교적 좋은 성능을 가진 알고리즘입니다. 금과옥조 (金科玉條)처럼 모든 task에 사용되는 알고리즘은 없습니다. 하지만 대개의 문제에 비교적 높은 성능과 학습 안정성을 나타내어 Google 내부적으로 직원들 사이에서 제일 인기가 있는 베이스라인 알고리즘이 바로 SAC 입니다. 함께 지식을 쌓아나갑시다. 실력자 분들 께서는 본 강연이 평이 할 수 있으니 컨퍼런스 당일 이 점 참고 하시어 즐기시면 됩니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_shcho_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_shcho/)
 
 #### 참고자료
 
