@@ -38,6 +38,18 @@ image: http://tykimos.github.io/warehouse/2019-8-3-AI_School_with_KerasKorea_tit
 * 일시: 9월3일 ~ 11월19일, 매주 화요일 19:00~22:00
 * 장소: 양재R&CD혁신허브 1층 AI PLAY GROUND (한국교원단체총연합회관 1층)
 
+### 강사진
+---
+
+* 김태영
+* 전미정
+* 이상훈
+* 이태영
+* 정연준
+* 황준원
+* 박정현
+* 이재원
+
 ### 신청하기
 
 * [신청 링크](http://yangjaehub.com/newsinfo/notices/?uid=146&mod=document&pageid=1&fbclid=IwAR0spmjNTitm3BuH3gqqpw--UeTxCYz57RrJgLVjXyc1qffQNqoaqgYnqaI)
