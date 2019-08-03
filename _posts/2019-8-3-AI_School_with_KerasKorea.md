@@ -45,6 +45,7 @@ image: http://tykimos.github.io/warehouse/2019-8-3-AI_School_with_KerasKorea_tit
 * 전미정
 * 이상훈
 * 이태영
+* 강형석
 * 정연준
 * 황준원
 * 박정현
