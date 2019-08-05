@@ -126,10 +126,10 @@ ML GDE(Machine Learning Google Developer Expert)입니다. 기계공학을 전�
 ### 유용균 - 딥러닝과 최적설계
 
 #### 연사소개
-한국원자력연구원
+원자력연구원에서 인공지능 덕질을 해오다가 최근 덕업일치를 이루려고 연구원내 새로운 조직을 준비중입니다. 최적설계 분야와 원자력의 다양한 안전관련 기술에 인공지능 기술을 접목하기 위해 노력하고 있습니다.
 
 #### 발표소개
-TBD
+인공지능 기술을 활용한 최적설계 분야의 응용사례에 대해서 소개합니다.
 
 #### 발표자료
 TBD
@@ -492,7 +492,7 @@ TBD
 TBD
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhkim_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_yhkim/)
 
 #### 참고자료
 TBD 
