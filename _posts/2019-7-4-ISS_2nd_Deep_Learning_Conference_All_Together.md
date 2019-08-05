@@ -173,7 +173,7 @@ TBD
 많은 사람들이 어려움을 겪고있는 “띄어쓰기”를 딥러닝으로 해결해보고자 하는 과정을 소개합니다. 이를 위해 필요한 이론과 기본적인 케라스 사용법을 다루며, 최종적으로 각자의 모델을 테스트 해보는 시간을 가질 예정입니다. 
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yjjeong_title.png)](https://tykimos.github.io/2019/07/04/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yjjeong/)
 
 #### 참고자료
 TBD 
