@@ -477,7 +477,7 @@ TBA
 최근 프로젝트를 통해 음성 데이터를 처음 다뤄보면서 음성 데이터를 전처리하고 모델 학습에 사용하는 여러 방법을 접해보았습니다. 음성은 데이터 차원의 수가 이미지보다 적지만 그 특성이 꽤 달라 사전 지식과 테크닉들이 필요했습니다. 이에 처음 음성 데이터를 다루면서 겪을 만한 어려움과 새로이 배운 노하우들을 공유하기 위해 발표를 준비했습니다. 바로 전 시간에 준비되어 있는 남기현 님의 이론편에 이어, 실제로 audio를 불러오고 다양한 feature를 추출하는 전처리와 augmentation, 그리고 연산 속도를 높이기 위한 GPU 연산 사용법을 간단한 예시 코드와 함께 소개해 드리려 합니다. audio 데이터를 활용한 딥러닝 연구를 처음 시작하시는 분들께 도움이 되었으면 합니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jwhwang_title.png)](https://tykimos.github.io/2019/07/04/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jwhwang/)
 
 #### 참고자료
 TBD
