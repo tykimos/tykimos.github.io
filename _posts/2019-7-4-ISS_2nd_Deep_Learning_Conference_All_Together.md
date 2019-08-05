@@ -546,7 +546,7 @@ TBD
 데이터 사이언스, 머신러닝 그 중에서도 딥러닝을 위해서는 GPU가 필수입니다. 하지만 GPU가 하늘에서 굴러 떨어지는 것도 아니고, 물론, 캐글 커널과 구글 코랩에 좋은 리소스를 제공하고 있지만, 성능도 그렇게 좋은거 같지는 않은데 세션은 자꾸 날아가는 바람에 기껏 만들었던 모델도 날려 먹었던 경험이 다들 한번쯤은 있으실 거에요. 그런데, 구글 코랩에 정말 굉장하고 엄청난 딥러닝 컴퓨터가 있다는 것, 알고 계신가요? 그것도 무료로 쓸 수 있는데, 성능은 V100과 맞먹는다? Google Colab TPU의 사용 방법과 알아 두면 쓸데 있는 여러 팁에 대해 같이 이야기 해보아요.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_tjkim_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_tjkim/)
 
 #### 참고자료
 TBD 
