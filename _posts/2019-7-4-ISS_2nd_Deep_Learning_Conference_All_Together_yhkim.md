@@ -12,7 +12,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhkim_title.png)
 
 #### 연사소개
-TBS
+TBD
 
 #### 발표자료
 * [다운로드](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhkim_file.pdf)
