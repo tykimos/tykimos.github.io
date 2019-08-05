@@ -199,7 +199,7 @@ TBD
 * Visualization 가이드
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_sban_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_sban/)
 
 #### 참고자료
 TBD 
