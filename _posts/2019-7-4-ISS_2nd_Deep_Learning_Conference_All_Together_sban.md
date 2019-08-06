@@ -2,7 +2,7 @@
 layout: post
 title:  "[2nd DLCAT] The Newbie Guide to Blogging & Visualization - 안수빈"
 author: 김태영
-date:   2019-07-04 101:00:00
+date:   2019-07-04 11:00:00
 categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_sban_title.png
