@@ -29,12 +29,22 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
 ---
 
 * 소개
-    * 딥러닝 오픈소스인 Keras의 기술향상과 접근성향상 두가지 모두에 기여하는 프로젝트로, ObDe와 KoKo 두 개 주제로이뤄집니다.
-    * ObDe(옵디): Keras를 활용한 Object Detection(객체검출) Platform 생성=>주어진이미지컨텐츠를분석하는데가장적합한모델을찾아주는Objective Detection Platform생성/API 구축
-    * KoKo(코코): Keras 공식문서 한글화작업 => Keras공식홈페이지에서제공하는영어문서를한글화하여딥러닝사용자들의기술접근성및사용성향상
-
-2019 공개SW 컨트리뷰톤4(공통)Step1. 협업방법이해하고익숙해지기ObDeStep2. Object Detection 과정이해하기Step3. KerasObject Detection Platform 구현Step4. KerasAPI 구축Step 5. DeployYOLK KoKoStep 2. 용어통일Step 3. 문서번역Step 4. 오류수정Step 5. Deploy
-
+    * 딥러닝 오픈소스인 Keras의 기술향상과 접근성향상 두가지 모두에 기여하는 프로젝트로, ObDe와 KoKo 두 개 주제로 이뤄집니다.
+    * ObDe(옵디): Keras를 활용한 Object Detection(객체검출) Platform 생성 => 주어진 이미지 컨텐츠를 분석하는 데 가장 적합한 모델을 찾아주는 Objective Detection Platform생성/API 구축
+    * KoKo(코코): Keras 공식문서 한글화작업 => Keras 공식 홈페이지에서 제공하는 영어문서를 한글화하여 딥러닝 사용자들의 기술 접근성 및 사용성 향상
+* 가이드
+    * ObDe
+        * Step 1: 협업 방법 이해하고 익숙해지기
+        * Step 2: Object Detection 과정 이해하기
+        * Step 3: Keras Object Detection Platform 구현
+        * Step 4: KerasAPI 구축
+        * Step 5: Deploy
+    * KoKo
+        * Step 1: 협업 방법 이해하고 익숙해지기
+        * Step 2: 용어통일
+        * Step 3: 문서번역
+        * Step 4: 오류수정
+        * Step 5: Deploy
 * 멘토
     * 전미정: 미정님은즐거운협업과ObDe프로젝트를담당합니다
     * 정연준: 기술고문과KoKo프로젝트를담당합니다
@@ -58,6 +68,7 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
     * 김영하
         * 새로운 기술에 관심이 많은엔지니어 성향을 가진 개발자 입니다. 전사 시스템 모니터링 및빅데이터  플랫폼  기반의 실무 프로젝트를 수행했습니다. 프리랜서처럼 일하는 회사인디플러스에서데이터 분석, 인공지능 관련된 프로젝트 수행 및 강의를 하고 있습니다. 지난2~7월간 진행된MS Azure Discovery Day 행사인2일차에Azure 에서 하는 인공지능을 담당했습니다. ‘’기술서를읽고 공유하고자 공부하다 보니 어느덧 번역한 책이 데이터 분석을 위한판다스 입문, ‘’     파이썬 웹  스크래핑 등6권이 되었습니다. 재미있고 쉽게 누구나 해볼 수 있는프로그래밍 및 인공지능 컨텐츠 를 찾으며 만들고 있습니다.
     * 김태영
+        * 비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록<블록과 함께 하는 파이썬 딥러닝 케라스> ‘’의 집필과김태영의 케라스블로그, ‘’케라스 코리아, ‘’    캐글 코리아 를운영하고 있습니다.   ‘’    또한 강화  학습 코리아의 알파오목 프로젝트 의 팀원으로 알파고 모델을대중들이 접할 수 있도록 서비스도 구축했습니다.현재(주) “”인스페이스에서 기술이사로서 태양에서 세포까지 딥러닝, “”    게임에서 우주까지 강화 학습 의 모   토로여러 분야 인공지능을 적용하고자 활발히 연구개발 하고 있습니다.
 
 ### 신청하기
 
