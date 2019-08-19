@@ -10,6 +10,8 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
 
 케라스 코리아에서 공개SW 컨트리뷰톤에 제안한 두 개의 프로젝트가 선정되어 멘티를 모집하게 되었습니다. 공개SW 컨트리뷰톤이란 기여(Contribute)와 마라톤(Marathon)의 합성어로 참여/공유/개방/협업을 통한 과제수행으로 공개SW(오픈소스)를 개발 및 기여하는 프로그램을 말합니다.
 
+![img](http://tykimos.github.io/warehouse/http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_title.png)
+
 * 참가대상: 공개SW 개발문화에 관심이 있고 직접 참여해보고 싶은 누구나!
 * 참가신청날짜: 8.5(월)~8/25(일)
 * 참가신청링크: https://www.oss.kr
