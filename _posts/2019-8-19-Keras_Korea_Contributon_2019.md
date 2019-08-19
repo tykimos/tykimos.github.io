@@ -42,6 +42,8 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
 ### YOLK(You Only Look Keras)
 ---
 
+![img](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_YOLK_img.png)
+
 * 소개
     * 딥러닝 오픈소스인 Keras의 기술향상과 접근성향상 두가지 모두에 기여하는 프로젝트로, ObDe와 KoKo 두 개 주제로 이뤄집니다.
     * ObDe(옵디): Keras를 활용한 Object Detection(객체검출) Platform 생성 => 주어진 이미지 컨텐츠를 분석하는 데 가장 적합한 모델을 찾아주는 Objective Detection Platform생성/API 구축
@@ -63,9 +65,12 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
         * Step 3: 문서번역
         * Step 4: 오류수정
         * Step 5: Deploy
+* [상세내용 다운로드](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_YOLK_file.pdf))
 
 ### 케라콘-케라스기반챗봇시스템
 ---
+
+![img](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_Keracorn_img.png)
 
 * 소개
     * 이번 케라스 컨트리뷰톤의 프로젝트중 하나인챗봇은 실생활에서 가장 쉽게 접할 수 있고, 활용범위가 넓어 많은 사람들이 참여하고, 함께 만들어가는데 의미가 있기 때문에주제로 채택했습니다. 프로젝트는 한글데이터를 기반으로 진행 할 예정이고, 먼저자연어 처리의 기본 과정을 진행한후Python 환경 구축을 진행 후 본격적인 프로젝트를 진행 하고자 합니다. 
@@ -80,6 +85,7 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
     * Step 3: 자연어처리에 대한 기본 과정 이해하기
     * Step 4: 챗봇 프로젝트구축진행
     * Step 5: Deploy
+* [상세내용 다운로드](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_Keracorn_file.pdf))
 
 ### 신청하기
 
