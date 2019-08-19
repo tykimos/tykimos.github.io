@@ -98,7 +98,7 @@ RL(Reinforcement Learning) 알고리즘은 최적화 문제에 쓰일 수 있고
 인공지능연구원에서 개발한 A.I. Atelier는 인공지능(AI) 기술로 탄생한 새로운 시각예술 도구이다. 예술가의 창의성은 표현이라는 행위를 통해 비로 소 의미를 획득한다. 따라서 표현 도구를 다루지 못한다면 그 의미는 온전히 구현할 수 없다. A.I. Atelier는 끊임없이 의미의 실현을 모색하는 예술가적 창의성에 새로운 가능성을 제공한다.    발터 벤야민은 「기술 복제 시대의 예술작품」이라는 소논문에서 사진이나 영화와 같이 복제 가능한 기술로 탄생한 작품들도 고유의 예술성을 획득한다고 주장했다. 기존 표현 수단의 물리적 한계를 뛰어넘어 독창적인 이미지를 포착 하고 기록할 수 있기 때문이다. 그가 죽은 지 78년이 지난 지금, 그 때의 기술과는 차원이 다른 인공지능 시대가 도래 했다. 인공지능 기술은 지금까지 인류가 창조한 이미지를 재료로 삼아 누구도 체험하지 못한 예술의 영역을 개척하고 있다. 그 결과의 하나가 A.I. Atelier이다. 지금까지 인공지능 기술로 탄생한 화풍 변환 기술(Style Transfer)은 하나 의 이미지에 고흐나 피카소 등 특정한 화가의 화풍 하나를 선택해 입혀주는 수준이었다. A.I. Atelier는 한 발 더 나가 새로운 방식으로 작품을 생산할 수 있는 가능성을 제공한다. 이미지를 픽셀 단위로 쪼개 다양한 화풍을 동시에 적용 할 수 있다. 원 이미지에 없는 오브젝트를 새로 만드는 데도 한계가 없다. 인터넷이라는 바다에 잠자고 있는 무수히 많 은 예비 오브젝트를 실시간으로 찾아 추가하면 된다. 이런 과정으로 창작할 수 있는 이미지의 범위는 사실상 무제한에 가깝다. 결국, 필요한 건 상상력뿐이다.마음만 먹으면 누구나 예술가가 될 수 있는 길에 대해 이야기 해 본다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_sjlee_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_sjlee/)
 
 #### 참고자료
 TBD
@@ -126,10 +126,10 @@ ML GDE(Machine Learning Google Developer Expert)입니다. 기계공학을 전�
 ### 유용균 - 딥러닝과 최적설계
 
 #### 연사소개
-한국원자력연구원
+원자력연구원에서 인공지능 덕질을 해오다가 최근 덕업일치를 이루려고 연구원내 새로운 조직을 준비중입니다. 최적설계 분야와 원자력의 다양한 안전관련 기술에 인공지능 기술을 접목하기 위해 노력하고 있습니다.
 
 #### 발표소개
-TBD
+인공지능 기술을 활용한 최적설계 분야의 응용사례에 대해서 소개합니다.
 
 #### 발표자료
 TBD
@@ -173,7 +173,7 @@ TBD
 많은 사람들이 어려움을 겪고있는 “띄어쓰기”를 딥러닝으로 해결해보고자 하는 과정을 소개합니다. 이를 위해 필요한 이론과 기본적인 케라스 사용법을 다루며, 최종적으로 각자의 모델을 테스트 해보는 시간을 가질 예정입니다. 
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yjjeong_title.png)](https://tykimos.github.io/2019/07/04/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yjjeong/)
 
 #### 참고자료
 TBD 
@@ -199,7 +199,7 @@ TBD
 * Visualization 가이드
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_sban_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_sban/)
 
 #### 참고자료
 TBD 
@@ -477,7 +477,7 @@ TBA
 최근 프로젝트를 통해 음성 데이터를 처음 다뤄보면서 음성 데이터를 전처리하고 모델 학습에 사용하는 여러 방법을 접해보았습니다. 음성은 데이터 차원의 수가 이미지보다 적지만 그 특성이 꽤 달라 사전 지식과 테크닉들이 필요했습니다. 이에 처음 음성 데이터를 다루면서 겪을 만한 어려움과 새로이 배운 노하우들을 공유하기 위해 발표를 준비했습니다. 바로 전 시간에 준비되어 있는 남기현 님의 이론편에 이어, 실제로 audio를 불러오고 다양한 feature를 추출하는 전처리와 augmentation, 그리고 연산 속도를 높이기 위한 GPU 연산 사용법을 간단한 예시 코드와 함께 소개해 드리려 합니다. audio 데이터를 활용한 딥러닝 연구를 처음 시작하시는 분들께 도움이 되었으면 합니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jwhwang_title.png)](https://tykimos.github.io/2019/07/04/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_jwhwang/)
 
 #### 참고자료
 TBD
@@ -492,7 +492,7 @@ TBD
 TBD
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_yhkim_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_yhkim/)
 
 #### 참고자료
 TBD 
@@ -546,7 +546,7 @@ TBD
 데이터 사이언스, 머신러닝 그 중에서도 딥러닝을 위해서는 GPU가 필수입니다. 하지만 GPU가 하늘에서 굴러 떨어지는 것도 아니고, 물론, 캐글 커널과 구글 코랩에 좋은 리소스를 제공하고 있지만, 성능도 그렇게 좋은거 같지는 않은데 세션은 자꾸 날아가는 바람에 기껏 만들었던 모델도 날려 먹었던 경험이 다들 한번쯤은 있으실 거에요. 그런데, 구글 코랩에 정말 굉장하고 엄청난 딥러닝 컴퓨터가 있다는 것, 알고 계신가요? 그것도 무료로 쓸 수 있는데, 성능은 V100과 맞먹는다? Google Colab TPU의 사용 방법과 알아 두면 쓸데 있는 여러 팁에 대해 같이 이야기 해보아요.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_tjkim_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_tjkim/)
 
 #### 참고자료
 TBD 
@@ -714,7 +714,7 @@ TBD
 2016년, 딥마인드에서 개발한 인공지능 바둑 프로그램인 '알파고'는 전세계에 커다란 충격을 안겨주었습니다. 최근에는 스타크래프트2 AI '알파스타'를 통해 프로게이머에게 10 대 1로 압승해 또 한 번 세계를 놀라게 했습니다. 이를 통해 강화학습에 관심을 갖게 되어 어떤 게임에 적용해볼까 고민하다가 평소 즐기던 '하스스톤'이라는 게임에 관심을 갖게 되어 2017년 말부터 하스스톤 강화학습을 위한 API를 만들기 시작했습니다. 이 세션에서는 하스스톤이라는 게임을 간단하게 설명하고 기존 게임과 어떤 부분이 다른지 살펴봅니다. 그리고 현재까지 하스스톤 강화학습과 관련해 진행되었던 연구들을 살펴보고 어떤 한계점을 갖고 있는지 설명합니다. 다음으로 약 1년 반 동안 하스스톤을 만들면서 어떤 기술들을 적용했는지, 그리고 개발하는 과정에서 어떤 어려움을 겪었고 해결했는지 이야기합니다. 마지막으로 강화학습을 위한 환경을 구축하기 위해 작업했던 내용들을 설명하고 완성된 학습 환경을 통해 AI를 어떻게 학습할 수 있는지 살펴봅니다. 이 발표를 통해 평소 하스스톤과 같은 카드 게임 개발이나 게임에 강화학습을 적용하기 위한 환경을 구축하는데 관심을 갖고 있던 프로그래머들에게 조금이나마 도움이 되었으면 합니다.
 
 #### 발표자료
-TBD
+[![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_chok_title.png)](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together_chok/)
 
 #### 참고자료
 TBD

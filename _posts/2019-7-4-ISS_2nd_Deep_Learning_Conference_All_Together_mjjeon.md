@@ -7,7 +7,14 @@ categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_mjjeon_title.png
 ---
-대전 산업 AI 생태계 활성화 및 거버넌스 구성 방안
+여러분은 머신러닝 모델을 어디서 학습하고 관리하시나요?   
+GPU가 없어 느린 학습 속도에 좌절😫 해봤거나, 어떤 모델을 생성해야 좋을지 고민한 적이 있다면, 2nd DLCAT에서 `Cloud ML`/`AutoML`를 만나보세요!
+**MS Azure ML Service와 함께하는 AutoML 사용하기** 세션은 Microsoft Azure ML Service에서 최적의 머신러닝 모델을 찾으며 `Cloud ML Service`와 `AutoML`에 대한 경험을 쌓아보는 시간입니다.   
+한번도 Clould 서비스를 사용해보지 않았거나, Azure 유료계정이 없어도 걱정하지 말고 노트북과 열정만 가지고 오세요. Microsoft에서 지원하는 Sponsor Pass로 마음껏 학습시켜보아요 ☄️  
+
+* Cloud ML service/Azure AutoML을 사용해 보고 싶은 분 환영입니다 🤗  
+* 머신러닝 모델을 직접 학습시켜본 경험이 있다면 더욱 좋습니다.
+* 세션 시작 전, [https://signup.live.com/](https://signup.live.com/)에서 Microsoft 무료 계정을 생성해주세요(이미 계정이 있다면 편한 마음으로 오시면 됩니다).
 
 ![img](http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Conference_All_Together_mjjeon_title.png)
 
@@ -44,7 +51,7 @@ image: http://tykimos.github.io/warehouse/2019-7-4-ISS_2nd_Deep_Learning_Confere
 
 #### 장소 및 시간
 * 장소: 대전광역시 유성구 가정로 217 ETRI 융합기술연구생산센터 219호 중회의실3
-* 시간: 7월 4일 15시
+* 시간: 7월 4일 13시
 
 |시간|A-USTaudi|B-USTsci|C-USTmeet|D-ETRI212|E-ETRI224|F-ETRI219|
 |-|-|-|-|-|-|-|
