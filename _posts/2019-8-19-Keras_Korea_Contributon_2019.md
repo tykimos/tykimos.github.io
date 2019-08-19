@@ -67,7 +67,7 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
         * Step 3: 문서번역
         * Step 4: 오류수정
         * Step 5: Deploy
-* [상세내용 다운로드](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_YOLK_file.pdf))
+* [상세내용 다운로드](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_YOLK_file.pdf)
 
 ### 케라콘-케라스기반챗봇시스템
 ---
@@ -87,7 +87,7 @@ image: http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019
     * Step 3: 자연어처리에 대한 기본 과정 이해하기
     * Step 4: 챗봇 프로젝트구축진행
     * Step 5: Deploy
-* [상세내용 다운로드](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_Keracorn_file.pdf))
+* [상세내용 다운로드](http://tykimos.github.io/warehouse/2019-8-19-Keras_Korea_Contributon_2019_Keracorn_file.pdf)
 
 ### 신청하기
 ---
