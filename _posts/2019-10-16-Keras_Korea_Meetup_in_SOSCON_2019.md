@@ -119,6 +119,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 박정현
     * 좋은 기회로 Purdue University에서 Machine Learning을 이용한  Drone Detection 시스템 프로젝트를 참여했던 것이 너무 재미있어서 AI를 시작하게 되었습니다. kakaoVX의 Machine Learning Engineer로 일하고 있고 주로 컴퓨터비전, 현재는 주로 Human Activity Recognition 분야를 연구 및 개발하고 있습니다. 많은 사람들이 쓰는 서비스를 만드는 것이 목표 중 하나이고, 재밌는것이라면 다 좋아합니다! 그리고 멋진 분들과 함께 케라스 코리아 운영진을 맡고 있습니다. 
 
+![img](http://tykimos.github.io/images/pjh_512.png)    
+
 * 세션소개
     * 영상 및 이미지 컨텐츠에 포함된 물체 분석해 유용한 정보를 찾아내거나, 새로운 사용자 경험을 제공하는 Object Detection은 최근 가장 인기 있는 computer vision 분야 중 하나입니다. 활용도가 높고 관심이 많아 Object Detection 기술을 쉽게 사용할 수 있는 다양한 API가 제공되고 있지만, 공개된 API를 목적에 맞게 튜닝하거나 실제 데이터를 적용하기에는 어려움이 많습니다. 그래서 시작된 2019 공개 SW 컨트리뷰톤의 케라스 커뮤니티 프로젝트! Keras를 활용한 Objective Detection Platform YOLK를 소개합니다.
 
