@@ -5,12 +5,12 @@ author: 김태영
 date:   2019-10-16 13:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_2.png
+image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_3.png
 ---
 
 케라스 코리아 공식 밋업을 SOSCON에서 열리게 되었습니다. 
 
-![img](http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_2.png)
+![img](http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_3.png)
 
 * 일시: 10월 16일 
 * 시간: 13:00~18:00
