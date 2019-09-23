@@ -44,12 +44,12 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 16:00~16:30 Kaggle in Keras ! - 김태진
 * 16:30~17:00 YOLO? YOLK! - 박정현
 * 17:00~17:30 Privacy protected. Verify your identity with your signature - 강형석
-* 17:30~18:00 랩업
+* 17:30~18:00 PIntroduction to Quantum Machine Learning with keras - 맹윤호
 
 #### 13:00~13:30 서로 소개 - 김태영
 --- 
 * 김태영
-    * 비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 <블록과 함께하는 파이썬 딥러닝 케라스>의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 '강화학습 코리아의 알파오목 프로젝트'의 팀원으로 알파고 모델을 대중들이 접할 수 있도록 서비스도 구축했습니다. 현재 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다. 
+    * 비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 "블록과 함께하는 파이썬 딥러닝 케라스"의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 '강화학습 코리아의 알파오목 프로젝트'의 팀원으로 알파고 모델을 대중들이 접할 수 있도록 서비스도 구축했습니다. 현재 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다. 
 
 ![img](http://tykimos.github.io/images/kty_512.png)
 
@@ -129,8 +129,20 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 강형석
     * 머신러닝과 인공지능에 관심이 있어 Udacity machine learning nanodegree를 전공하고 Google hackfair finalist로 시각장애인을 위한 문서 리더기를 만들었다. 데이터를 모으고 가공하는 것에 대한 가치를 깨닫고 환경 문제를 해결하기 위해 재활용 쓰레기를 버리면서 쓰레기에 대한 이미지 데이터나 소비자 데이터를 댓가로 보상을 주는 Naturecoin을 창안 및 개발을 하여 GIX innovation challenge, Citypreneur finalist에 선정되었다. 현재는 탈중앙화된 신분 증명(DID)와 데이터에 대한 privacy에 관심이 많으며 SpeckleOS에서 인터체인 프로젝트인 폴카닷 네트워크에서 블록체인 간 data portability와 privacy를 지키기 위해 브릿지와 신분 증명 검증에 대해 연구 및 개발 중이다.
 
+![img](http://tykimos.github.io/images/khs_512.jpg)
+
 * 세션소개
-    * (추후 업데이트)
+    * 만약 아이디나 패스워드 없이 신원을 인증할 수 있다면 어떨까요? 인공지능을 이용해 어떻게 digital identity를 만들 수 있는지 알아보고 케라스로 간단하게 모바일 서명 인식 예제를 만들어봅시다.
+
+#### 17:30~18:00 PIntroduction to Quantum Machine Learning with keras - 맹윤호
+--- 
+* 맹윤호
+    * 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 졸업하고, 현재는 IBM Watson에서 Cognitive Engineer로 재직하고 있다. 관심기술분야는 딥러닝, 음성인식, 양자컴퓨팅, 마이크로 서비스 아키텍처 등이다. 기술, 진로, 재테크 등 이야기 하고 나눌 수 있는 [맹개발의 기술 블로그](https://maengdev.tistory.com/166)을 운영 중이다.
+
+![img](http://tykimos.github.io/images/myh_512.jpeg)
+
+* 세션소개
+    * 최근 들어 양자컴퓨팅을 머신러닝에 적용하려는 시도가 늘어나고 있다. 본 세션에서는 양자 컴퓨팅(QISKIT)을 활용한 머신러닝 분석에 케라스를 이용할 수 있는 가능성에 대해 살펴보고자 한다. (이론 레벨의 세션)   
 
 ### 신청하기
 ---
