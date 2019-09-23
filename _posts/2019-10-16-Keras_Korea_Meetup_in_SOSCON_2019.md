@@ -153,8 +153,6 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * [소스콘 신청서 작성 링크](https://www.soscon.net/)
 * [케라스 밋업 신청서 작성 링크](https://forms.gle/2teSju1ARff7AAYY9)
 
-https://forms.gle/2teSju1ARff7AAYY9
-
 #### 케라스 코리아 커뮤니티
 
 * [케라스 코리아 페북](https://www.facebook.com/groups/KerasKorea/)
