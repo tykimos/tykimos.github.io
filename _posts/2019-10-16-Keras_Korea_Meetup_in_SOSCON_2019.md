@@ -148,7 +148,7 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 
 ### 신청하기
 ---
-본 밋업은 소스콘 안에서 이뤄지는 행사라 두 군데에 신청을 하셔야 합니다~
+본 밋업은 소스콘 안에서 이뤄지는 행사라 두 군데에 모두 신청을 하셔야 합니다~
 
 * [소스콘 신청서 작성 링크](https://www.soscon.net/)
 * [케라스 밋업 신청서 작성 링크](https://forms.gle/2teSju1ARff7AAYY9)
