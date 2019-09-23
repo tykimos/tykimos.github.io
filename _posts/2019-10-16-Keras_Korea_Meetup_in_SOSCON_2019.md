@@ -81,6 +81,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 함명주
     * University of Illinois at Urbana-Champaign에서 Computer Science를 전공하고 2009년부터 삼성전자에서 Tizen의 Kernel과 System S/W를 개발하였고, 그 후 Tizen 앱 및 플랫폼 개발 환경 개선을 진행하였다. 최근 자율주행 프로젝트 참여 후 On-Device AI에 필요한 NNStreamer (신경망 Pipeline) 과 NPU 용 System SW 개발을 하고 있다. 오픈소스 활동으로 Linux Kernel의 devfreq, extcon 프레임워크를 제안하고 maintainer로 활동하고 있으며, nnstreamer의 founder이다. 그 외 .NET Runtime, Tensorflow를 포함한 다수의 프로젝트에서 committer로 활동하였다.
 
+![img](http://tykimos.github.io/images/hmj_512.jpeg)
+
 * 세션소개
     * 심층신경망의 사용은 Cloud나 기존 고성능 기기에서 확대되어 모바일/가전기기에서의 On-Device AI로 확대되고 있습니다. On-Device AI는 특히 Device에서 직접 생산되는 대량의 Online Data Stream의 저지연 처리가 요구되는 경우, Cloud 비용이 문제되는 경우, 혹은 개인정보 보호 및 보안문제에 민감할 경우 더욱 유용합니다. 이러한 요구조건을 가지는 AI Application을 구현하기 위해 Data Stream Pipeline 형태로 On-Device AI 를 구현하는 방법들이 최근 제안되고 있으며, 그러한 신경망 용 Pipeline Framework이면서 Tizen, Android, Ubuntu, Yocto, macOS 환경에서 쉽게 공통으로 사용될 수 있는 nnstreamer에 대해 알아보고, nnstreamer를 사용하여 보다 쉽고 효율적으로 application을 작성하는 방법에 대해 소개하고자 합니다.
 
