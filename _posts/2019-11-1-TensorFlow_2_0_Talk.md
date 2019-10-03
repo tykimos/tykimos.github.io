@@ -5,12 +5,14 @@ author: 김태영
 date:   2019-11-1 16:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-11-1-TensorFlow_2_0_Talk_title_0.jpg
+image: http://tykimos.github.io/warehouse/2019-11-1-TensorFlow_2_0_Talk_title_1.png
 ---
 
 2019년 10월 1일에 드디어 텐서플로우 2.0이 릴리즈되었습니다. 
 
-![img](http://tykimos.github.io/warehouse/2019-11-1-TensorFlow_2_0_Talk_title_0.jpg)
+* 소개 동영상: https://www.youtube.com/watch?v=EqWsPO8DVXk
+
+[![img](http://tykimos.github.io/warehouse/2019-11-1-TensorFlow_2_0_Talk_title_0.jpg)](https://www.youtube.com/watch?v=EqWsPO8DVXk)
 
 텐서플로우 2.0가 릴리즈되면서, 뭐가 바뀌었는 지, 뭘 바꿔야 하는 지, 어떻게 사용해야하는 지에 대한 궁금증이 늘어나고 있습니다. 이에 대한 이야기를 나누고자 연사분들을 초청합니다. 
 
