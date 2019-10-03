@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "텐서플로우 2.0 이야기 - 11월"
+title:  "텐서플로우 2.0 이야기 - 11월 1일 강남"
 author: 김태영
-date:   2019-10-3 13:00:00
+date:   2019-11-1 16:00:00
 categories: seminar
 comments: true
 image: http://tykimos.github.io/warehouse/2019-10-3-TensorFlow_2_0_Talk_title_0.jpg
@@ -21,6 +21,7 @@ image: http://tykimos.github.io/warehouse/2019-10-3-TensorFlow_2_0_Talk_title_0.
 현재 연사 모집하고 있습니다. 그 전에 인터넷에는 어떤 자료들이 있는 지 살펴볼까요?
 
 ### 살펴보기
+---
 
 #### TensorFlow 2.0 소식 미디엄
 
