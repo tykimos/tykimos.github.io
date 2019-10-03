@@ -5,12 +5,12 @@ author: 김태영
 date:   2019-10-16 13:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_0.png
+image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_3.png
 ---
 
 케라스 코리아 공식 밋업을 SOSCON에서 열리게 되었습니다. 
 
-![img](http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_0.png)
+![img](http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCON_2019_title_3.png)
 
 * 일시: 10월 16일 
 * 시간: 13:00~18:00
@@ -44,12 +44,14 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 16:00~16:30 Kaggle in Keras ! - 김태진
 * 16:30~17:00 YOLO? YOLK! - 박정현
 * 17:00~17:30 Privacy protected. Verify your identity with your signature - 강형석
-* 17:30~18:00 랩업
+* 17:30~18:00 PIntroduction to Quantum Machine Learning with keras - 맹윤호
 
 #### 13:00~13:30 서로 소개 - 김태영
 --- 
 * 김태영
-    * 비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 <블록과 함께하는 파이썬 딥러닝 케라스>의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 '강화학습 코리아의 알파오목 프로젝트'의 팀원으로 알파고 모델을 대중들이 접할 수 있도록 서비스도 구축했습니다. 현재 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다. 
+    * 비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 "블록과 함께하는 파이썬 딥러닝 케라스"의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아'를 운영하고 있습니다. 또한 '강화학습 코리아의 알파오목 프로젝트'의 팀원으로 알파고 모델을 대중들이 접할 수 있도록 서비스도 구축했습니다. 현재 (주)인스페이스에서는 기술이사로서 “태양에서 세포까지 딥러닝”, “게임에서 우주까지 강화학습”의 모토로 여러분야 인공지능을 적용하고자 활발히 연구개발하고 있습니다. 
+
+![img](http://tykimos.github.io/images/kty_512.png)
 
 * 세션소개
     * 케라스 코리아 분들과 함께 즐겁게 인사하고 서로 소개해요. 어디에 관심이 있는지, 무엇을 하는 지, 앞으로 하고 싶은 것이 무엇인지 서로 이야기를 나누어봐요.
@@ -59,6 +61,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 전미정
     * 자유로운 영혼의 iOS 개발자입니다. 새로운 분야를 조용히 공부하고 소소하게 공유하는 걸 즐깁니다. 컴퓨터 비 전공자로 뒤늦게 프로그래밍 세계에 발을 들여 신세계를 즐겁게 맛보고 있습니다. 커뮤니티에서 다양한 사람들과 기술에 대해 이야기하고 공유하는 걸 좋아하며,. 최근에는 인공지능과 머신러닝의 매력에 폭~ 빠져 케라스코리아 운영진, Microsoft AI MVP 로 활동하고 있습니다.
 
+![img](http://tykimos.github.io/images/jmj_512.png)
+
 * 세션소개
     * 기술을 공유하고 나누는 것이 더 큰 가치가 되어 돌아오는 요즘, 혼자 성장하는 것이 아니라 함께 성장 할 수 있는 방법인 커뮤니티 활동에 대해 이야기합니다. 동일한 분야에 관심을 지닌 다양한 사람들이 모여있는 커뮤니티에서 어떤 이야기가 오고가는지, 온/오프라인으로 어떤 활동을 하는지 알아봅니다. 그리고 커뮤니티에서 다른 사람들과 어떻게 커뮤니케이션 해야 나도, 상대방도 함께 성장할 수 있는지 공유합니다.
 
@@ -66,6 +70,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 --- 
 * 김슬기
     * 한양대에서 전자통신컴퓨터 공학을 전공하고, S/W 엔지니어로 시작하여 현재는 M/L 엔지니어로서 커리어를 이어 나가고 있습니다. 자연어 처리 관련해서 챗봇 시스템 구축 및 텍스트 기반의 기술을 활용한 인공지능 자소서 평가 솔루션을 개발을 하였고. 현재는 케라콘 컨트리뷰톤 멘토로 활동하고 있습니다.
+
+![img](http://tykimos.github.io/images/ksg_512.png)
 
 * 세션소개
     * 최근 챗봇시스템에 대한 관심이 많아지면서 많은 회사들이 챗봇 시스템 구축을 진행해 왔으나, 인공지능이라는 추상적인 개념으로 인해 많은 오해를 가지고 왔습니다. 기존에 존재했던 텍스트 기반 기술과 AI(Deep Learning)가 들어간 기술을 비교하고, 현재 비즈니스에서 활용하는 챗봇시스템의 예시 및 코어가 되는 자연어 처리의 흐름을 공유하고자 합니다. 그리고, 현재 오픈소스 컨트리뷰톤에 진행 중인 케라콘에 대해 소개하고자 합니다.
@@ -75,6 +81,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 함명주
     * University of Illinois at Urbana-Champaign에서 Computer Science를 전공하고 2009년부터 삼성전자에서 Tizen의 Kernel과 System S/W를 개발하였고, 그 후 Tizen 앱 및 플랫폼 개발 환경 개선을 진행하였다. 최근 자율주행 프로젝트 참여 후 On-Device AI에 필요한 NNStreamer (신경망 Pipeline) 과 NPU 용 System SW 개발을 하고 있다. 오픈소스 활동으로 Linux Kernel의 devfreq, extcon 프레임워크를 제안하고 maintainer로 활동하고 있으며, nnstreamer의 founder이다. 그 외 .NET Runtime, Tensorflow를 포함한 다수의 프로젝트에서 committer로 활동하였다.
 
+![img](http://tykimos.github.io/images/hmj_512.png)
+
 * 세션소개
     * 심층신경망의 사용은 Cloud나 기존 고성능 기기에서 확대되어 모바일/가전기기에서의 On-Device AI로 확대되고 있습니다. On-Device AI는 특히 Device에서 직접 생산되는 대량의 Online Data Stream의 저지연 처리가 요구되는 경우, Cloud 비용이 문제되는 경우, 혹은 개인정보 보호 및 보안문제에 민감할 경우 더욱 유용합니다. 이러한 요구조건을 가지는 AI Application을 구현하기 위해 Data Stream Pipeline 형태로 On-Device AI 를 구현하는 방법들이 최근 제안되고 있으며, 그러한 신경망 용 Pipeline Framework이면서 Tizen, Android, Ubuntu, Yocto, macOS 환경에서 쉽게 공통으로 사용될 수 있는 nnstreamer에 대해 알아보고, nnstreamer를 사용하여 보다 쉽고 효율적으로 application을 작성하는 방법에 대해 소개하고자 합니다.
 
@@ -82,6 +90,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 --- 
 * 정연준
     * 서강대학교에서 컴퓨터공학을 전공하였으며, Microsoft Student Partners 소속으로 다수의 딥러닝 워크샵/세미나를 진행하였습니다. 현재 IT기업에 재직중이며 컴퓨터 비전 관련 연구 및 개발을 진행하고 있습니다. 그 외 Keras, matplotlib등 여러 오픈소스 라이브러리의 컨트리뷰터로 활동하고 있으며, 케라스 코리아에서 케라스 공식 문서 한글화 프로젝트를 리딩하고 있습니다. 오픈소스 문화 확산에 관심이 많습니다.
+
+![img](http://tykimos.github.io/images/jyj_512.png)
 
 * 세션소개
     * 오픈소스에 기여하고 싶어도, 처음 시작할 땐 어떻게 해야 할지 막막할 수 있습니다. 이에 케라스 코리아에서는 컨트리뷰톤, 케라스 공식 문서 한글화 등의 프로젝트를 통해 오픈소스 개발자로서의 첫 발을 내딛는 것을 도와주고 있습니다. 케라스 코리아에서 오픈소스 문화 확산에 기여하는 방식과, 그간 오픈소스 프로젝트에 기여하며 ‘이런 점은 알고 시작하면 좋겠다’고 느낀 점들을 사례를 중심으로 공유해보는 자리를 마련해 보았습니다. 
@@ -91,6 +101,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 황준원
     * 성균관대학교 소프트웨어학과에 재학 중이고, 현재 산업기능요원으로 복무 중에 있습니다. 케라스 코리아의 운영진을 맡아 오픈 채팅방을 관리하고 있고, 여러 딥러닝 커뮤니티에서 의견을 나누거나 세미나에서 발표를 진행하면서 활동하고 있습니다. 딥러닝 기술 연구와 어플리케이션 개발에 전반적으로 관심이 많고, 사람들이 널리 쓰기 좋은 유용한 도구와 서비스를 만들고자 하는 꿈이 있습니다. 
 
+![img](http://tykimos.github.io/images/hjw_512.png)
+
 * 세션소개
     * 초심자 분들도 쉽게 사용할 수 있는 딥러닝 라이브러리인 Keras는 많은 사람들에게 환영받고 있지만, 많은 분들이 어떤 기능을 추가하거나 사용자 임의로 뉴럴 네트워크의 레이어를 수정하는 방법을 잘 모르거나 어려워하십니다. 오픈 채팅방에서도 비슷한 질문들이 여럿 올라오기도 합니다. 이에 사람들이 많이 궁금해하는 기능이나, 잘 모르지만 유용한 기능들을 소개하고 사용법을 간단히 적어 Keras를 좀 더 자유롭고 강력하게 사용할 수 있도록 도와드리는 발표를 준비하려 합니다.
 
@@ -98,6 +110,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 --- 
 * 김태진
     * 대학교 졸업하고 캐글이 너무 재미있어서 취직도 마다하고 캐글에 뛰어들고 있는 취준생입니다. 저는 학과 공부의 완성은 학교 밖에 있다고 생각해서 학부때는 공모전을 정말 많이 나갔었고 창업동아리 활동도 했었습니다. 정말 공부 외적인 것만 좋아해서 문제입니다만, 다양한 경험은 항상 저를 성장하게 만드는 것 같아요! 현재는 캐글코리아 그룹의 운영진을 맡고 있습니다.
+
+![img](http://tykimos.github.io/images/ktj_512.png)
 
 * 세션소개
     * 데이터 공부를 하고 싶은데 어떻게 시작해야 좋을까요? 캐글이라는 플랫폼이 있던데 처음이라 너무 어려워요….  케라스, 파이토치, 텐서플로우 들어본 적은 있는데 뭐부터 건드려야 할지 모르겠어요. 케라스 쉽다고 하는데 저한텐 아직…. 캐글을 잘 할 수 있는 방법은 뭘까요? 초보자에겐 익숙해지기 어려운 캐글을 케라스와 함께 풀어서 소개해드리려고 합니다. 캐글을 하기 위한 여러가지 팁과 정보는 덤!
@@ -107,6 +121,8 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 박정현
     * 좋은 기회로 Purdue University에서 Machine Learning을 이용한  Drone Detection 시스템 프로젝트를 참여했던 것이 너무 재미있어서 AI를 시작하게 되었습니다. kakaoVX의 Machine Learning Engineer로 일하고 있고 주로 컴퓨터비전, 현재는 주로 Human Activity Recognition 분야를 연구 및 개발하고 있습니다. 많은 사람들이 쓰는 서비스를 만드는 것이 목표 중 하나이고, 재밌는것이라면 다 좋아합니다! 그리고 멋진 분들과 함께 케라스 코리아 운영진을 맡고 있습니다. 
 
+![img](http://tykimos.github.io/images/pjh_512.png)    
+
 * 세션소개
     * 영상 및 이미지 컨텐츠에 포함된 물체 분석해 유용한 정보를 찾아내거나, 새로운 사용자 경험을 제공하는 Object Detection은 최근 가장 인기 있는 computer vision 분야 중 하나입니다. 활용도가 높고 관심이 많아 Object Detection 기술을 쉽게 사용할 수 있는 다양한 API가 제공되고 있지만, 공개된 API를 목적에 맞게 튜닝하거나 실제 데이터를 적용하기에는 어려움이 많습니다. 그래서 시작된 2019 공개 SW 컨트리뷰톤의 케라스 커뮤니티 프로젝트! Keras를 활용한 Objective Detection Platform YOLK를 소개합니다.
 
@@ -115,12 +131,27 @@ image: http://tykimos.github.io/warehouse/2019-10-16-Keras_Korea_Meetup_in_SOSCO
 * 강형석
     * 머신러닝과 인공지능에 관심이 있어 Udacity machine learning nanodegree를 전공하고 Google hackfair finalist로 시각장애인을 위한 문서 리더기를 만들었다. 데이터를 모으고 가공하는 것에 대한 가치를 깨닫고 환경 문제를 해결하기 위해 재활용 쓰레기를 버리면서 쓰레기에 대한 이미지 데이터나 소비자 데이터를 댓가로 보상을 주는 Naturecoin을 창안 및 개발을 하여 GIX innovation challenge, Citypreneur finalist에 선정되었다. 현재는 탈중앙화된 신분 증명(DID)와 데이터에 대한 privacy에 관심이 많으며 SpeckleOS에서 인터체인 프로젝트인 폴카닷 네트워크에서 블록체인 간 data portability와 privacy를 지키기 위해 브릿지와 신분 증명 검증에 대해 연구 및 개발 중이다.
 
+![img](http://tykimos.github.io/images/khs_512.jpg)
+
 * 세션소개
-    * (추후 업데이트)
+    * 만약 아이디나 패스워드 없이 신원을 인증할 수 있다면 어떨까요? 인공지능을 이용해 어떻게 digital identity를 만들 수 있는지 알아보고 케라스로 간단하게 모바일 서명 인식 예제를 만들어봅시다.
+
+#### 17:30~18:00 PIntroduction to Quantum Machine Learning with keras - 맹윤호
+--- 
+* 맹윤호
+    * 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 졸업하고, 현재는 IBM Watson에서 Cognitive Engineer로 재직하고 있다. 관심기술분야는 딥러닝, 음성인식, 양자컴퓨팅, 마이크로 서비스 아키텍처 등이다. 기술, 진로, 재테크 등 이야기 하고 나눌 수 있는 [맹개발의 기술 블로그](https://maengdev.tistory.com/166)을 운영 중이다.
+
+![img](http://tykimos.github.io/images/myh_512.jpeg)
+
+* 세션소개
+    * 최근 들어 양자컴퓨팅을 머신러닝에 적용하려는 시도가 늘어나고 있다. 본 세션에서는 양자 컴퓨팅(QISKIT)을 활용한 머신러닝 분석에 케라스를 이용할 수 있는 가능성에 대해 살펴보고자 한다. (이론 레벨의 세션)   
 
 ### 신청하기
 ---
-* [신청서 작성 링크](https://www.soscon.net/)
+본 밋업은 소스콘 안에서 이뤄지는 행사라 두 군데에 모두 신청을 하셔야 합니다~
+
+* [소스콘 신청서 작성 링크](https://www.soscon.net/)
+* [케라스 밋업 신청서 작성 링크](https://forms.gle/2teSju1ARff7AAYY9)
 
 #### 케라스 코리아 커뮤니티
 
