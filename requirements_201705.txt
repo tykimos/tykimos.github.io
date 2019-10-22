@@ -43,7 +43,7 @@ pathlib2==2.1.0
 pbr==1.10.0
 pexpect==4.2.0
 pickleshare==0.7.3
-Pillow==3.2.0
+Pillow==6.2.0
 ply==3.8
 protobuf==3.2.0
 ptyprocess==0.5.1
