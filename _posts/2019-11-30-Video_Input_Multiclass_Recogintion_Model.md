@@ -26,6 +26,7 @@ image: http://tykimos.github.io/warehouse/2019-11-30-Video_Input_Multiclass_Reco
 ### 데이터셋
 
 학습에 사용한 데이터셋은 "Kinetics"이라고 합니다. 400개의 클래스가 있고, 각 클래스마다 400개 이상 동영상이 있으며, 전체 30만개의 정도라고 합니다. (우와~)
+* [관련 논문](https://arxiv.org/abs/1705.06950)
 
 튜터리얼에서는 Kinetics로 학습한 모델을 사용합니다. 튜터리얼에서 학습까지 하면 너무나 오래 걸리겠죠?
 
@@ -34,8 +35,8 @@ image: http://tykimos.github.io/warehouse/2019-11-30-Video_Input_Multiclass_Reco
 
 몇가지 구현 사항을 요약해봤습니다. 
 * 기 학습한 모델을 사용하기에 모데 가중치 파일을 제공하고 있습니다. 
-* 영상처리 라이브러리인 OpenCV 안에 있는 딥러닝 모듈(DNN)을 사용하네요. 이 모듈은 파이토치 기반으로 되어 있다고 합니다. 
-* 백본 모델은 ResNet-34를 사용했네요.
+* 영상처리 라이브러리인 OpenCV 안에 있는 딥러닝 모듈(DNN)을 사용하네요. (참고: https://github.com/opencv/opencv/blob/master/samples/dnn/action_recognition.py)
+* 백본 모델은 ResNet-34를 사용했네요. (파이토치 버젼 참고: https://github.com/kenshohara/video-classification-3d-cnn-pytorch)
 * 입문하시는 분들은 자료 형태 맞추기가 쉽지 않은데, 이미지에 익숙하신 분이라면 "시간 차원"이 늘어난 것만 유의하세요. 즉 몇 "프레임"인가를 정의해줘야 합니다. 
 
 고려해야할 재미있는 컨셉은 "프레임 다루기"입니다.
