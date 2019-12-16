@@ -51,6 +51,50 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 ---
 현장 등록 가능합니다.
 
+### 표지설명
+---
+표지에 있는 크리스마스 트리는 TF2.0의 케라스 함수형API 모델로 디자인을 한 것입니다. 자세한 사용법은 아래 링크에서 확인할 수 있습니다. 
+
+* The Keras functional API in TensorFlow: https://www.tensorflow.org/guide/keras/functional
+
+```python
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+
+# 모델 구성하기
+inputs = tf.keras.Input(shape=(32,), name='A') 
+a = layers.Dense(64, activation='relu', name='AAAAAAAA')(inputs)
+a = layers.Dense(64, activation='relu', name='AAAAAAAAAAAAAA')(a)
+b = layers.Dense(64, activation='relu', name='B')(a)
+b1 = layers.Dense(64, activation='relu', name='B1')(b)
+b1 = layers.Dense(64, activation='relu', name='BBBBBBB1')(b1)
+b2 = layers.Dense(64, activation='relu', name='B2')(b)
+b2 = layers.Dense(64, activation='relu', name='BBBBBBB2')(b2)
+c = layers.concatenate([b1, b2], name='C')
+c1 = layers.Dense(64, activation='relu', name='CCCCCCCCCC1')(c)
+c1 = layers.Dense(64, activation='relu', name='CCCCCCCCCCCCCCCCCCCCCCC1')(c1)
+c2 = layers.Dense(64, activation='relu', name='CCCCCCCCCC2')(c)
+c2 = layers.Dense(64, activation='relu', name='CCCCCCCCCCCCCCCCCCCCCCC2')(c2)
+d = layers.concatenate([c1, c2], name='D')
+
+predictions = layers.Dense(10, activation='softmax', name='Z')(d)
+
+model = tf.keras.Model(inputs=inputs, outputs=predictions)
+
+# 모델 표출하기
+from IPython.display import SVG
+from keras.utils.vis_utils import model_to_dot
+from keras.utils import plot_model
+
+%matplotlib inline
+
+#SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg'))
+plot_model(model, to_file='model.png', show_shapes=True, show_layer_names=True)
+```
+
+![png](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_2.png)
+
 #### 케라스 코리아 커뮤니티
 
 * [케라스 코리아 페북](https://www.facebook.com/groups/KerasKorea/)
