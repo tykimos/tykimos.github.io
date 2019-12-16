@@ -5,12 +5,12 @@ author: 김태영
 date:   2019-12-17 13:00:00
 categories: seminar
 comments: true
-image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_title_1.png
+image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_title_2.png
 ---
 
 케라스 코리아 공식 밋업을 AICON에서 열리게 되었습니다. 
 
-![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_title_1.png)
+![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_title_2.png)
 
 * 일시: 12월 17일 
 * 시간: 13:00~18:00
@@ -49,7 +49,10 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 
 ### 신청하기
 ---
-현장 등록 가능합니다.
+현장 등록 가능합니다. 선착순 100분에게 예쁜 케라스 티 선물드립니다~
+
+![png](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_4.jpeg)
+
 
 ### 표지설명
 ---
