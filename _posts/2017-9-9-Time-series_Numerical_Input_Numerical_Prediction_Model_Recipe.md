@@ -45,7 +45,8 @@ def create_dataset(signal_data, look_back=1):
     return np.array(dataX), np.array(dataY)
 ```
 
--1.0에서 1.0까지의 값을 가지는 코사인 데이터를 0.0과 1.0 사이의 값을 가지도록 정규화를 한 뒤 훈련셋과 시험셋으로 분리합니다. 이전 20개의 수치를 입력하여 다음 수치 1개를 예측하는 데이터셋을 만들기 위해 look_back 인자를 40으로 설정하였습니다. look_back 인자에 따라 모델의 성능이 달라지므로 적정 값을 지정하는 것이 중요합니다.
+-1.0에서 1.0까지의 값을 가지는 코사인 데이터를 0.0과 1.0 사이의 값을 가지도록 정규화를 한 뒤 훈련셋과 시험셋으로 분리합니다. 이전 40개의 수치를 입력하여 다음 수치 1개를 예측하는 데이터셋을 만들기 위해 look_back 인자를 40으로 설정하였습니다. look_back 인자에 따라 모델의 성능이 달라지므로 적정 값을 지정하는 것이 중요합니다.
+
 
 ```python
 from sklearn.preprocessing import MinMaxScaler
