@@ -12,13 +12,30 @@ image: http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png
 
 ![img](http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png)
 
+간단한 예제를 살펴보겠습니다.
+
+```python
+>>> f = lambda x: x + 2
+>>> f(2)
+4
+```
+
+조금 더 어려운 거 해볼까요?
+
 ```python
 >>> f = lambda x,y: x + y
 >>> f(1,2)
-30
+3
 ```
 
-왜 이렇게 (어렵게) 하는 지 궁금하시죠? 차차 알아보도록 합시다.
+위 코드랑 같지만 아래와 같이 한 줄로 표현할 수 있습니다.
+
+```python
+>>> (lambda x,y: x + y)(1,2)
+3
+```
+
+뭐 이해는 되지만, 왜 이렇게 (어렵게) 하는 지 궁금하시죠? 차차 알아보도록 합시다.
 
 #### 케라스 코리아 커뮤니티
 
