@@ -12,6 +12,11 @@ image: http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png
 
 ![img](http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png)
 
+'''
+>>> f = lambda x,y: x + y
+>>> f(1,2)
+30
+'''python
 
 #### 케라스 코리아 커뮤니티
 
