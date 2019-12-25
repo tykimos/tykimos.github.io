@@ -32,6 +32,10 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 * 김태영 
     * 주제: 케라스와 함께하는 AIFactory
     * 소개: 기업이 의뢰한 인공지능 문제를 각 분야의 전문가및 머신러닝 엔지니어들의 크라우드소싱으로 해결하여 인공지능 모델 개발의 수요와 공급을 이어주고 인공지능 적용 가속화 시키는 플랫폼인 AIFactory를 소개합니다. 이 플랫폼의 주요 요소인 AutoML, 데이터셋 암호화, 인공지능 모델 자동 관리와 연동방안에 대해서도 논의합니다.
+    * 발표자료:
+
+    [![img](http://tykimos.github.io/warehouse/2019-12-17_aifactory.png)](https://docs.google.com/presentation/d/1T7pISkNL2oYiYR5kHlBY-KXndrqN-OX3m3cEI4i7Drw/edit?usp=sharing)
+
 * 박남욱
     * 주제: 인공지능의 불확실성: 만약 목숨이 달린 일이라면 딥러닝에게 맡기시겠습니까?
     * 소개: While deep neural networks have better prediction accuracy than human in some areas, it is not possible to estimate the uncertainty of the predictions yet. The prediction cannot be perfectly performed and the misprediction might result in fatal consequences in some areas such as autonomous vehicles control, robotics, and medical analysis. Therefore estimating uncertainty as well as predictions will be crucial for the safer application of machine learning based systems. In this lecture, I explain how deep learning can estimate the uncertainty of its prediction.
