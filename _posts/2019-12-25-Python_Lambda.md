@@ -10,7 +10,7 @@ image: http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png
 
 파이썬 입문자에게 람다(Lambda)가 나오면 잠시 명해질 때가 있습니다. 이해가 되는 것 같기도 하고 안되는 것 같기도 하고, 뭔가 묘한 녀석입니다. 뭔가 직관적으로 설명하는 그림이 있어 공유합니다.
 
-![img](http://tykimos.github.io/warehouse/http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png)
+![img](http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png)
 
 
 #### 케라스 코리아 커뮤니티
