@@ -17,14 +17,14 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 * 장소: 서울 양재R&D혁신허브 (서울 서초구 태봉로 114, 한국교원단체총연합회관)
 * 규모: 본행사 1000명, 밋업 100명
 
+많은 분들이 함께 해주셨습니다! 130분 넘게 오셨네요~
+
+![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic.jpg)
+
 ### 전체 행사 프로그램
 ---
 
 ![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_1.png)
-
-많은 분들이 함께 해주셨습니다!
-
-![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic.jpg)
 
 ### 상세 내용
 ---
