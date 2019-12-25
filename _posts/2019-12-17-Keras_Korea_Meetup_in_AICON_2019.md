@@ -27,7 +27,7 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 
 AICON2019 준비하신 분들과 뒷풀이 같이 했답니다.
 
-![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic3.jpg)
+![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic4.jpg)
 
 ### 전체 행사 프로그램
 ---
