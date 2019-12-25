@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "케라스 코리아 밋업 in AICON 2019"
+title:  "케라스 코리아 밋업 in AICON 2019[발표자료포함]"
 author: 김태영
 date:   2019-12-17 13:00:00
 categories: seminar
