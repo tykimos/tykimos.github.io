@@ -54,4 +54,4 @@ image: http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png
 
 #### MLOps KR 커뮤니티
 
-* [캐글 코리아 페북](https://www.facebook.com/groups/MLOpsKR/)
+* [엠엘옵스 코리아 페북](https://www.facebook.com/groups/MLOpsKR/)
