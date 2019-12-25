@@ -35,29 +35,30 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 * 박남욱
     * 주제: 인공지능의 불확실성: 만약 목숨이 달린 일이라면 딥러닝에게 맡기시겠습니까?
     * 소개: While deep neural networks have better prediction accuracy than human in some areas, it is not possible to estimate the uncertainty of the predictions yet. The prediction cannot be perfectly performed and the misprediction might result in fatal consequences in some areas such as autonomous vehicles control, robotics, and medical analysis. Therefore estimating uncertainty as well as predictions will be crucial for the safer application of machine learning based systems. In this lecture, I explain how deep learning can estimate the uncertainty of its prediction.
-    * 발표자료: 
-![img](http://tykimos.github.io/warehouse/2019-12-17_uncertainty-in-ai.png)(http://tykimos.github.io/warehouse/2019-12-17_uncertainty-in-ai.pdf)
+    * 발표자료:
+
+[![img](http://tykimos.github.io/warehouse/2019-12-17_uncertainty-in-ai.png)](http://tykimos.github.io/warehouse/2019-12-17_uncertainty-in-ai.pdf)
 
 * 임도형
     * 주제: GAN을 사용한 이상탐지 사례
     * 소개: GAN을 사용한 이상탐지 사례를 설명한다. 일반적으로 레이블링 데이터를 확보하는 것은 어렵고, 정상이 아닌 이상상태에 대한 레이블링 데이터는 그 수도 적다. 이러한 제약을 극복하기 위하여 비지도 학습인 GAN을 사용하여 정상상태를 학습하고 이를 사용하여 비정상 상태를 탐지한다. 생체신호에 대한 시계열데이터에 대한 이상탐지 사례를 설명한다.
     * 발표자료: 
     
-![img](http://tykimos.github.io/warehouse/2019-12-17_GAN을_사용한_이상탐지.png)(http://tykimos.github.io/warehouse/2019-12-17_GAN을_사용한_이상탐지.pptx)
+[![img](http://tykimos.github.io/warehouse/2019-12-17_GAN_Anomaly_Detection.png)](http://tykimos.github.io/warehouse/2019-12-17_GAN_Anomaly_Detection.pptx)
 
 * 김영하 
     * 주제: TensorFlow 2.0와 Keras의 인연 그리고 이어질 사연들
     * 소개: (추후 업데이트)
     * 발표자료: 
     
-![img](http://tykimos.github.io/warehouse/2019-12-17_TensorFlow_2.0_TensorFlow2.0로_시작하는_신경망과_이미지_처리.png)(http://tykimos.github.io/warehouse/2019-12-17_TensorFlow_2.0_TensorFlow2.0로_시작하는_신경망과_이미지_처리.pdf)
+[![img](http://tykimos.github.io/warehouse/2019-12-17_TensorFlow_2_0_NN_CV.png)](http://tykimos.github.io/warehouse/2019-12-17_TensorFlow_2_0_NN_CV.pdf)
 
 * 김수정 
     * 주제: YOLK(You Only Look Keras)
     * 소개: Object detection은 최근 자율주행 자동차, 무인점포, 제조업체 등 실생활에서 정말 많이 사용되고 있는 알고리즘입니다. 본 발표에서는 Opensource contributon 프로젝트인 YOLK를 소개합니다. YOLK는 케라스의 창시자 프랑소와 숄레의 철학을 이어받아 Keras만 알면 누구나 쉽고 간단하게 Object detection을 할 수 있도록 만든 API입니다.
     * 발표자료: 
     
-![img](http://tykimos.github.io/warehouse/2019-12-17_AICON2019_YOLK_SoojungKim.png)(http://tykimos.github.io/warehouse/2019-12-17_AICON2019_YOLK_SoojungKim.pdf)
+[![img](http://tykimos.github.io/warehouse/2019-12-17_AICON2019_YOLK_SoojungKim.png)](http://tykimos.github.io/warehouse/2019-12-17_AICON2019_YOLK_SoojungKim.pdf)
 
 * 차금강 
     * 주제: 분산 텐서플로우를 이용한 분산 강화학습(IMPALA)
@@ -69,7 +70,7 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
     * 소개: 딥러닝에서 무엇보다 중요한 것은 적용할 시스템에 대한 legacy 아키텍처이고, 제조업의 경우 공정 프로세스에 대한 이해가 무엇보다 중요하다. 그 이유는 효율을 높이기 위한 프로세스를 찾아낼 수 있고 생산성 향상과 직결되는 프로세스에 적용한 딥러닝 모델이야 말로 엄청난 경비 절감을 창출할 수 있기 때문이다. 이에 제가 몸 담았었던 철강업과 잘은 모르지만 반도체업의 프로세스를 비교해 보고 어디에 딥러닝 알고리즘을 적용하는게 좋을 것인지를 고찰해 본다. 또한 의료업의 경우 무엇보다 보안이 중요하기에 Federated Learning을 활용해야 하고 챗봇의 경우 Intent Scope에 따른 아키텍처 설계가 중요하고 이에 Transfer Learning이 나오게 되었다는 전반적인 오버뷰를 진행할 예정이다.
     * 발표자료: 
 
-![img](http://tykimos.github.io/warehouse/2019-12-17_DeepLearningThroughVariousProcesses.png)(http://tykimos.github.io/warehouse/2019-12-17_DeepLearningThroughVariousProcesses.pdf)
+[![img](http://tykimos.github.io/warehouse/2019-12-17_DeepLearningThroughVariousProcesses.png)](http://tykimos.github.io/warehouse/2019-12-17_DeepLearningThroughVariousProcesses.pdf)
 
 ### 신청하기
 ---
