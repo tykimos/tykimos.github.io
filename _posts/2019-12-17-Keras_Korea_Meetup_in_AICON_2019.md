@@ -21,6 +21,14 @@ image: http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON
 
 ![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic.jpg)
 
+쉬는 시간에 연사분들끼리 한 컷 찍었습니다. 즐거운 분위기 좋아요~
+
+![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic2.jpg)
+
+AICON2019 준비하신 분들과 뒷풀이 같이 했답니다.
+
+![img](http://tykimos.github.io/warehouse/2019-12-17-Keras_Korea_Meetup_in_AICON_2019_pic3.jpg)
+
 ### 전체 행사 프로그램
 ---
 
