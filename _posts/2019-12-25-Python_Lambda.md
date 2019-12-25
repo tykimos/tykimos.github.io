@@ -12,11 +12,13 @@ image: http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png
 
 ![img](http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png)
 
-'''
+```python
 >>> f = lambda x,y: x + y
 >>> f(1,2)
 30
-'''python
+```
+
+왜 이렇게 (어렵게) 하는 지 궁금하시죠? 차차 알아보도록 합시다.
 
 #### 케라스 코리아 커뮤니티
 
