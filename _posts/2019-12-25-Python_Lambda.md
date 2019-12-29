@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 람다(Lambda)"
+title:  "파이썬 람다(Lambda) - 람다시리즈 1부"
 author: 김태영
 date:   2019-12-25 13:00:00
 categories: seminar
@@ -36,6 +36,8 @@ image: http://tykimos.github.io/warehouse/2019-12-25-Python_Lambda.png
 ```
 
 조금만 익숙해지면 크게 어렵게 느껴지지는 않으시죠? 근데 뭐 이해는 되지만, 왜 이렇게 (어렵게) 하는 지 궁금하시죠? 일단 람다는 필요할 때 바로 정의해서 사용한 후 버리는 일시적인 함수라고 합니다(으잉? 점점 오리무중). 차차 알아보도록 하겠습니다.
+
+* 다음보기: [파이썬 람다함수](https://tykimos.github.io/2019/12/29/Python_Lambda_Function/)
 
 ---
 

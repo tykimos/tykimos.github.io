@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 람다함수(Lambda Function)"
+title:  "파이썬 람다함수(Lambda Function) - 람다시리즈 2부"
 author: 김태영
 date:   2019-12-29 13:00:00
 categories: python
@@ -8,7 +8,11 @@ comments: true
 image: http://tykimos.github.io/warehouse/2019-12-29-Python_Lambda_Function.png
 ---
 
-앞서 파이썬 람다가 뭔지 알았다면 이번에는 람다함수에 대해 알아볼까요? 먼저 그림부터 보겠습니다.
+앞서 파이썬 람다가 뭔지 알아봤습니다. 아직 못 보신 분은 아래 링크를 먼저 봐주세요. 
+
+* 이전보기: [파이썬 람다](https://tykimos.github.io/2019/12/25/Python_Lambda/)
+
+이번에는 람다함수에 대해 알아볼까요? 먼저 그림부터 보겠습니다.
 
 ![img](http://tykimos.github.io/warehouse/2019-12-29-Python_Lambda_Function.png)
 
