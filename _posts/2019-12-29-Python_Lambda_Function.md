@@ -10,7 +10,7 @@ image: http://tykimos.github.io/warehouse/2019-12-29-Python_Lambda_Function.png
 
 앞서 파이썬 람다가 뭔지 알았다면 이번에는 람다함수에 대해 알아볼까요? 먼저 그림부터 보겠습니다.
 
-![img](http://tykimos.github.io/warehouse/2019-12-29-Python_Lambda_Funtion.png)
+![img](http://tykimos.github.io/warehouse/2019-12-29-Python_Lambda_Function.png)
 
 람다자체가 함수라서 람다함수라고 부르기엔 애매합니다만 풀어서 말하면 람다를 반환하는 함수라고 하는 것이 맞겠네요.
 
