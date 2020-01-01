@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 람다 맵(Lambda Map) 케미, 한줄 구구단 - 람다시리즈 3부"
+title:  "파이썬 람다(Lambda)랑 맵(Map) 케미 - 람다시리즈 3부"
 author: 김태영
 date:   2020-1-1 13:00:00
 categories: python
@@ -8,28 +8,49 @@ comments: true
 image: http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_0.png
 ---
 
-본격적으로 람다의 활용이 돋보이는 예제를 살펴보겠습니다. 아직 람다가 생소하신 분은 아래 링크를 먼저 봐주세요. 
+본격적으로 람다의 활용이 돋보이는 예제를 살펴보겠습니다. 람다와 맵이 케미를 이루면 아래와 같은 코드로 한 줄 구구단을 만들 수 있습니다.
+
+![img](http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_0.png)
+
+아직 람다가 생소하신 분은 아래 링크를 먼저 봐주세요. 
 
 * 이전보기
    * [파이썬 람다](https://tykimos.github.io/2019/12/25/Python_Lambda/)
    * [파이썬 람다함수](https://tykimos.github.io/2019/12/29/Python_Lambda_Function/)
 
-람다와 맵이 케미를 이루면 아래와 같은 코드로 한 줄 구구단을 만들 수 있습니다.
+람다에 대해선 알아봤으니, 케미를 이룰 맵에 대해서 알아보겠습니다.
 
-![img](http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_0.png)
 
-람다자체가 함수라서 람다함수라고 부르기엔 애매합니다만 풀어서 말하면 람다를 반환하는 함수라고 하는 것이 맞겠네요.
+한 줄로 간단하게 하려다보니, 
 
 ```python
-def sec2other(unit):
-   return lambda sec: sec/unit
-
-sec2min = sec2other(60)
-sec2hour = sec2other(3600)
-
-print(sec2min(180))
-print(sec2hour(7200))
+list(map(lambda x:(x//10)*(x%10), range(10,100)))
 ```
+
+```python
+list(map(lambda x:str(x//10) + ' x ' + str(x%10) + ' = ' + str((x//10)*(x%10)), range(10,100)))
+```
+
+   ['1 x 0 = 0',
+   '1 x 1 = 1',
+   '1 x 2 = 2',
+   '1 x 3 = 3',
+   '1 x 4 = 4',
+   '1 x 5 = 5',
+   '1 x 6 = 6',
+   '1 x 7 = 7',
+   '1 x 8 = 8',
+   '1 x 9 = 9',
+   '2 x 0 = 0',
+   '2 x 1 = 2',
+
+   ...
+   
+   '9 x 5 = 45',
+   '9 x 6 = 54',
+   '9 x 7 = 63',
+   '9 x 8 = 72',
+   '9 x 9 = 81']   
 
 초를 분이나 시간으로 환산하는 예제인데, 기존 방식이라면 변환식마다 함수를 따로 만들겠지만, 람다함수를 이용하여 사용할 함수를 그때 그때 정의해서 사용하는 식입니다. 초를 일(day)로 바꿔야한다면 한 줄만 더 추가하면 되겠죠?
 
