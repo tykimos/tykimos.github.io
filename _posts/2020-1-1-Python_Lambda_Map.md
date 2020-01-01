@@ -5,12 +5,12 @@ author: 김태영
 date:   2020-1-1 13:00:00
 categories: python
 comments: true
-image: http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_0.png
+image: http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_1.png
 ---
 
 본격적으로 람다의 활용이 돋보이는 예제를 살펴보겠습니다. 람다와 맵이 케미를 이루면 아래와 같은 코드로 한 줄 구구단을 만들 수 있습니다.
 
-![img](http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_0.png)
+![img](http://tykimos.github.io/warehouse/2020-1-1-Python_Lambda_Map_1.png)
 
 아직 람다가 생소하신 분은 아래 링크를 먼저 봐주세요. 
 
