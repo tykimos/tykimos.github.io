@@ -27,10 +27,8 @@ image: http://tykimos.github.io/warehouse/2020-1-8-AI_innovation_square_1st_1.jp
 ### 기본과정
 
 * 인공지능을 위한 Python
-   * 과정 소개 및 Python 기초
-   * 기본문법, 자료형, 제어구문
-   * Python 활용
-   * 함수, 함수형 패러다임, 모듈, 객체지향
+   * 과정 소개 및 Python 기초 - 기본문법, 자료형, 제어구문
+   * Python 활용 - 함수, 함수형 패러다임, 모듈, 객체지향
 * Python 기반의 다양한 오픈소스 AI 관련 라이브러리 활용
    * 오픈소스의 이해 및 git 사용법(특강)
    * Numpy의 이해
@@ -39,8 +37,7 @@ image: http://tykimos.github.io/warehouse/2020-1-8-AI_innovation_square_1st_1.jp
    * Pandas를 통한 데이터 분석
    * 다양한 시각화 활용
 * Python 기반의 Machine Learning
-   * 기계학습 이해
-   * scikit-learn
+   * 기계학습 이해 - scikit-learn
    * 기계학습 활용
 * Python 기반의 Deep Learning
    * 딥러닝 기초
