@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI 이노베이션스퀘어 1차 기본/고급/BM 교육생 모집 - 전액무료"
+title:  "(전액무료)AI 이노베이션스퀘어 1차 교육생 모집 - 기본에서 고급까지 그리고 BM"
 author: 김태영
 date:   2020-1-8 13:00:00
 categories: python
