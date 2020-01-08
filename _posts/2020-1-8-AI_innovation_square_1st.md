@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "tt"
+title:  "[전액무료] AI 이노베이션스퀘어 기본에서 중급 그리고 BM 과정 모집"
 author: 김태영
 date:   2020-1-8 13:00:00
 categories: python
