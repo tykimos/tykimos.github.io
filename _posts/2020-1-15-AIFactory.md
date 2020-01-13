@@ -5,7 +5,7 @@ author: 김태영
 date:   2020-1-15 13:00:00
 categories: python
 comments: true
-image: http://tykimos.github.io/warehouse/2020-1-15_AIFactory_title_0.png
+image: http://tykimos.github.io/warehouse/2020-1-15_AIFactory_title_1.png
 ---
 
 "이제 인공지능은 AIFactory에게 맡기세요"라는 주제로 이야기를 하고자 합니다. 본 발표는 AI 프렌즈의 멤버쉽데이에서 이루어지며 ETRI의 손영성님이 이어서 "사물지능, 미완의 꿈"이란 주제로 발표가 진행됩니다.
