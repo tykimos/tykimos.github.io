@@ -27,7 +27,7 @@ image: http://tykimos.github.io/warehouse/2020-1-15_AIFactory_title_0.png
 
 ### 발표자료
 
-* ![보기](https://docs.google.com/presentation/d/1pPNc1Inc9gNVcQ6YbT6038HWtvCuPsIATCzS3AqbE3s/edit?usp=sharing)
+* [보기](https://docs.google.com/presentation/d/1pPNc1Inc9gNVcQ6YbT6038HWtvCuPsIATCzS3AqbE3s/edit?usp=sharing)
 
 ---
 
