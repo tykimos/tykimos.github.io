@@ -23,6 +23,45 @@ image: http://tykimos.github.io/warehouse/2020-1-15-AIFactory_title_2.png
 
 ![img](http://tykimos.github.io/warehouse/2020-1-15-AIFactory_title_0.png)
 
+--- 
+
+### 상세설명
+
+#### 기본구성
+
+* Task
+    * 설명
+* Dataset
+    * 설명
+* Model
+    * 설명
+* Operation
+    * 설명
+
+#### 시스템구성
+
+* Management
+    * 설명
+* Big Data
+    * 설명
+* Learning
+    * 설명
+* Service
+    * 설명
+
+#### 비즈니스 및 솔루션 연계
+
+* Consulting
+    * 설명
+* Annotation
+    * 설명
+* AutoML
+    * 설명
+* KubeFlow
+    * 설명
+* Azure
+    * 설명
+
 ---
 
 ### 발표자료
