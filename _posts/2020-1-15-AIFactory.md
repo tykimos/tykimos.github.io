@@ -25,7 +25,9 @@ image: http://tykimos.github.io/warehouse/2020-1-15-AIFactory_title_2.png
 
 --- 
 
-### 상세설명
+### 요소설명
+
+위 그림에서 블록으로 표현된 각 요소에 대해서 간단하게 기술해봤습니다.
 
 #### 기본구성
 
