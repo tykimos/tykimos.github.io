@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "이제 인공지능은 AIFactory에 맡기세요"
+title:  "중국진출 - (도서)블록과 함께하는 파이썬 딥러닝 케라스"
 author: 김태영
 date:   2020-1-15 13:00:00
 categories: python
