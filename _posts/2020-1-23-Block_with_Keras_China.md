@@ -5,19 +5,20 @@ author: 김태영
 date:   2020-1-23 13:00:00
 categories: python
 comments: true
-image: http://tykimos.github.io/warehouse/2020-1-23-Block_with_Keras_China_title.png
+image: http://tykimos.github.io/warehouse/2020-1-23-Block_with_Keras_China_title_1.png
 ---
 
 2017년 09월 30일에 출간한 "블록과 함께하는 파이썬 딥러닝 케라스" 책이 이제 중국으로 진출하게 되었습니다. 중국에서도 인공지능 열풍이 불고 있는 가운데, 좋은 커리큘럼이 쏟아지고 있다는 소식을 듣고 있었는데, 제 책도 합류하여 딥러닝을 입문하시는 많은 분들께 도움이 되었으면 하네요!
 
-![img](http://tykimos.github.io/warehouse/2020-1-23-Block_with_Keras_China_title.png)
+![img](http://tykimos.github.io/warehouse/2020-1-23-Block_with_Keras_China_title_1.png)
 
 ---
 ### 이모저모
 
 * [메이킹 스토리 보기](https://tykimos.github.io/2017/09/30/Book_Python_DeepLearning_Keras_with_Block/)
-* ![img](https://yt3.ggpht.com/a/AGF-l7_FrHqEFsw3CHXwP5mNcVFzFZSQhBzwAX_2Bg=s88-c-k-c0xffffffff-no-rj-mo) Naver D2 발표 동영상 - [블록과 함께하는 케라스와 태양에서 세포까지 활용사례](https://www.youtube.com/watch?v=6KyRCeqvjEA)
-* ![img](https://yt3.ggpht.com/a/AGF-l7_p_V68K_mm0Dhch3u9TQaJ5jxYPcEq_AvOmQ=s88-c-k-c0xffffffff-no-rj-mo) T 아카데미 토크ON세미나 - [딥러닝 입문에서 활용까지 케라스(Keras)](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=161#sec2)
+* ![img](https://yt3.ggpht.com/a/AGF-l7_FrHqEFsw3CHXwP5mNcVFzFZSQhBzwAX_2Bg=s88-c-k-c0xffffffff-no-rj-mo) [블록과 함께하는 케라스와 태양에서 세포까지 활용사례](https://www.youtube.com/watch?v=6KyRCeqvjEA)
+* ![img](https://yt3.ggpht.com/a/AGF-l7_p_V68K_mm0Dhch3u9TQaJ5jxYPcEq_AvOmQ=s88-c-k-c0xffffffff-no-rj-mo) [딥러닝 입문에서 활용까지 케라스(Keras)](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=161#sec2)
+
 ---
 ### 후기
 
