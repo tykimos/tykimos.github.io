@@ -2,7 +2,7 @@
 layout: post
 title:  "중국진출 - (도서)블록과 함께하는 파이썬 딥러닝 케라스"
 author: 김태영
-date:   2020-1-15 13:00:00
+date:   2020-1-23 13:00:00
 categories: python
 comments: true
 image: http://tykimos.github.io/warehouse/2020-1-23-Block_with_Keras_China_title.png
