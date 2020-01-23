@@ -2,7 +2,7 @@
 layout: post
 title:  "KCD 2020 워크숍 - 인공지능은 아는 데, 케라스, 캐글을 모른다면..."
 author: 김태영
-date:   2019-02-23 00:00:00
+date:   2020-02-20 00:00:00
 categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kaggle_title_1.png
