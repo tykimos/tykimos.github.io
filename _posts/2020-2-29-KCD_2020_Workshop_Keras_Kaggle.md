@@ -5,11 +5,11 @@ author: 김태영
 date:   2020-02-20 00:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kaggle_title_1.png
+image: http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kaggle_title_0.png
 ---
 2020년 2월 29일(토) 대한민국 최대 규모의 커뮤니티 소통의 장인 KCD(Korea Community Day) 2020에서 "인공지능은 아는 데, 케라스, 캐글을 모른다면..." 주제로 워크숍을 개최하게 되었습니다.
 
-![img](http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kaggle_title_1.png)
+![img](http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kaggle_title_0.png)
 
 ---
 ### 프로그램
