@@ -41,7 +41,7 @@ image: http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kagg
 ---
 ### 그림 그리는 Kaggler(안수빈)
 
-![img](http://tykimos.github.io/images/asb.png)
+![img](http://tykimos.github.io/images/asb.jpg)
 
 #### 연사소개
 현재 카카오 엔터프라이즈에서 인턴을 하며 음성 데이터를 만지고 있습니다. 캐글 코리아의 운영진으로 활동하고 있고, 페이스북 페이지 AI Lookbook를 관리하고 있습니다.
@@ -55,7 +55,7 @@ Kaggle을 하면 다들 최적화를 하거나, 점수를 높이는 대회를 �
 ---
 ### 웹 앱에 지능을 추가해보세요(강형석)
 
-![img](http://tykimos.github.io/image/ghs.jpg)
+![img](http://tykimos.github.io/images/ghs.jpg)
 
 #### 연사소개
 강형석은 새로운 기술에 흥미가 있는 학생으로서 유다시티 머신러닝 나노디그리를 졸업했으며 웹어셈블리와 머신러닝 인프라 엔지니어링에 관심이 있습니다. 현재는 삼성 리서치 아메리카에서 blockchain research engineer로 일한 뒤 웹3재단의 폴카닷 대사로서 한국 폴카닷 개발자 커뮤니티를 담당하고 있습니다.
