@@ -27,7 +27,7 @@ image: http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kagg
 ---
 ### 개발자를 위한 케라스 수학(이가람)
 
-![img](http://tykimos.github.io/image/lgl.png)
+![img](http://tykimos.github.io/images/lgl.png)
 
 #### 연사소개
 미국에서 수학전공으로 학부를 마치고 서울대학교 수학과에서 석사를 졸업한 이후에 본격적으로 통계 및 데이터사이언스쪽으로 공부를 하게 되었습니다. 서울대학교 빅데이터연구원 및 KAIST 양재 AI school에서 조교로 근무했었으며 현재는 바이오IT 스타트업의 AI부서에서 혈액 이미지 데이터 분석 관련 업무를 하고 있습니다. 세상에 대해 궁금한게 많은 문과적인 이과생이고 조금이라도 더 나은 곳으로 만들기를 바라며 노력하고 있습니다.
@@ -41,7 +41,7 @@ image: http://tykimos.github.io/warehouse/2020-2-29-KCD_2020_Workshop_Keras_Kagg
 ---
 ### 그림 그리는 Kaggler(안수빈)
 
-![img](http://tykimos.github.io/image/asb.png)
+![img](http://tykimos.github.io/images/asb.png)
 
 #### 연사소개
 현재 카카오 엔터프라이즈에서 인턴을 하며 음성 데이터를 만지고 있습니다. 캐글 코리아의 운영진으로 활동하고 있고, 페이스북 페이지 AI Lookbook를 관리하고 있습니다.
@@ -68,7 +68,7 @@ Kaggle을 하면 다들 최적화를 하거나, 점수를 높이는 대회를 �
 
 ### 당신이 캐글문을 열어야 하는 이유(강천성)
 
-![img](http://tykimos.github.io/image/gcs.jpg)
+![img](http://tykimos.github.io/images/gcs.jpg)
 
 #### 연사소개
 안녕하세요, iOS 개발자 미정입니다. 언제 어디서나 나와 함께하는 모바일 기기에 딥러닝 모델을 심어보고 싶어 케라스를 시작했습니다. 결코 AI 전문가는 아니지만, 급속히 발전하는 인공지능과 머신러닝 기술에 흥미를 느껴 혼자 공부하고 구현해보는 걸 즐깁니다. 공부하면서 알게 된 딥러닝의 재미와 경험을 많은 사람들과 공유하고 싶습니다 🤗
@@ -82,7 +82,7 @@ Kaggle을 하면 다들 최적화를 하거나, 점수를 높이는 대회를 �
 ---
 ### 머신러닝 쇼설 미디어 AI팩토리 허브(김태영)
 
-![img](http://tykimos.github.io/image/kty_2.jpg)
+![img](http://tykimos.github.io/images/kty_2.jpg)
 
 #### 연사소개
 SK주식회사 C&C에 재직 중이며, 캐글 코리아의 운영진으로 활동하고 있습니다. 커뮤니티 내에서 캐글 스터디 모집 및 진행을 도와드리고 있습니다. 캐글의 공유 정신을 바탕으로 모두의 데이터 사이언스를 만들기 위해 노력하고 있습니다. 
@@ -96,7 +96,7 @@ SK주식회사 C&C에 재직 중이며, 캐글 코리아의 운영진으로 활�
 ---
 ### 캐글 꿀팁 모음(송원호)
 
-![img](http://tykimos.github.io/image/swh.jpg)
+![img](http://tykimos.github.io/images/swh.jpg)
 
 #### 연사소개
 카이스트 석사과정 입학예정인 송원호입니다. 2019년 1월 처음 캐글을 접한 뒤 지금까지 캐글에 빠져살고 있습니다:) 캐글 그랜드마스터가 되는날까지 열심히 달려보겠습니다!
