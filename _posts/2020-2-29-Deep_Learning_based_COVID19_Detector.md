@@ -5,7 +5,7 @@ author: 김태영
 date:   2020-02-20 12:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_title_0.png
+image: http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_title_1.png
 ---
 우한 대학교의 Renmin 병원 이하 여러기관과 함께 딥러닝 기법을 사용하여 CT 촬영 이미지에서 코로나19를 진단하는 방법에 대한 논문이 있어 소개드립니다. 해당 모델은 케라스로 되어 있으며 프랑스와 쏠레님이 오늘 트위트로 소개해주셨습니다. 아래 이미지를 클릭하면 해당 논문을 다운로드 받으실 수 있습니다.
 
@@ -19,14 +19,42 @@ image: http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_
 * 본 연구는 고해상도 CT 촬영 이미지로부터 코로나19 폐렴을 검출하여 빨간색 박스로 표시하는 딥러닝 기법을 연구한 것입니다.
 * 딥러닝 모델 개발에는 수집된 46,096장 CT 이미지에서 품질이 좋은 것만 골라 35,355장의 이미지를 사용했습니다.
 * 확진환자 51명과 기타 질병 환자 55명에서 촬영한 이미지입니다.
-* 성능은 환자 당 민감도 100%, 특이도 93.55% 이고, 이미지 당 민감도 94.34%, 특이도 99.16%입니다. >> 참고 [평가 이야기](https://tykimos.github.io/2017/05/22/Evaluation_Talk/)
+* 성능은 환자 당 민감도 100%, 특이도 93.55% 이고, 이미지 당 민감도 94.34%, 특이도 99.16%입니다.
 * 사용된 모델은 케라스 기반의 UNet++ 입니다. 
-
-[![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_3.png)](https://arxiv.org/abs/1807.10165)
 
 모델 결과를 바로 사용하지 않고 진단을 하기 위해 후처리 과정이 있습니다. 결과 이미지에서 불필요한 영역을 제거하고 4등분한 다음 연속된 세 장의 이미지에서 동일한 사분면에서 검출되면 최종 양성으로 진단하고 그렇지 않으면 음성으로 진단합니다.
 
 ![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_title_0.png)
+
+---
+### 왜 CT인가?
+
+2020년 2월 26일에 발표된 뉴스를 보면, CT가 코로나19의 최고 진단법이라고 합니다. CT는 Computerized Tomography의 약자로 컴퓨터 단층촬영을 의미합니다. 
+
+https://www.sciencedaily.com/releases/2020/02/200226151951.htm
+
+그리고 Radiology 지에 게재된 논문을 보면, 1,014개의 케이스에 대해서 흉부CT와 RT-PCR 테스트 결과를 비교한 것이 있네요.
+
+https://pubs.rsna.org/doi/10.1148/radiol.2020200642
+
+논문 안에 있는 이미지를 보면, 1,014환자 중 308명이 RT-PCR에서는 음성이라고 나왔는데, CT에서는 양성이라고 나왔습니다.
+
+![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_5.jpeg)
+
+* 진단쪽에서는 평가(메트릭)을 민감도, 특이도로 나누어서 보고를 하는데요, 이 용어가 생소하다면 [평가 이야기](https://tykimos.github.io/2017/05/22/Evaluation_Talk/)을 참고하세요.
+
+고려대학교안산병원 영상의학과에서 COVID-19(코로나19) 폐렴에 대한 영상의학적 진단 소견 세미나 발표한 동영상이 있습니다. 코로나19에 걸린 CT 폐사진은 보면, 간유리 처럼 부옇게 보이는데, 이를 GGO(Ground glass opacity, 간유리음영)이라 부릅니다. 이 영상에서 GGO의 다양한 패턴을 보실 수 있습니다.
+
+[![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_6.png)](https://www.youtube.com/watch?v=nE0Zb6C-kzg)
+
+---
+### UNet++ 란
+
+이 논문에서 사용된 모델은 UNet++ 입니다. 
+
+[![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_3.png)](https://arxiv.org/abs/1807.10165)
+
+* 만약 케라스가 궁금하시다면 >> [케라스 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/)
 
 ---
 ### 서비스
