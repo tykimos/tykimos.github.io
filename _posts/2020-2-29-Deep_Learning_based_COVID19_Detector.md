@@ -37,7 +37,7 @@ https://www.sciencedaily.com/releases/2020/02/200226151951.htm
 
 https://pubs.rsna.org/doi/10.1148/radiol.2020200642
 
-논문 안에 있는 이미지를 보면, 1,014환자 중 308명이 RT-PCR에서는 음성이라고 나왔는데, CT에서는 양성이라고 나왔습니다.
+논문 안에 있는 이미지를 보면, 1,014환자 중 308명이 RT-PCR에서는 음성이라고 나왔는데, CT에서는 양성이라고 나왔습니다. 하지만 이 이야기가 CT가 완벽하다는 얘긴 아니니 오해하지 마세요. 모든 진단은 완벽한 건 없습니다.
 
 ![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_5.jpeg)
 
