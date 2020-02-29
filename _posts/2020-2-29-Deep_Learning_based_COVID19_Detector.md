@@ -47,6 +47,14 @@ https://pubs.rsna.org/doi/10.1148/radiol.2020200642
 
 [![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_6.png)](https://www.youtube.com/watch?v=nE0Zb6C-kzg)
 
+CT영상에 대해서 조금 더 살펴보겠습니다. "[Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study](https://www.sciencedirect.com/science/article/pii/S1473309920300864)" 연구를 보면, 아래와 같은 환자들의 CT 이미지를 보실 수 있습니다. GGO인 경우에는 간유리형태이니깐 내부에서 지나가는 혈관이 잘 보인다고 하네요.
+
+![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_7.jpg)
+
+위 논문에서는 환자를 경과시간에 따라 4그룹으로 나누었는데요, 초기에는 GGO 패턴이 많이 보이나 시간이 경과될 수록 다양한 패턴으로 나오고 있음을 알 수 있습니다.
+
+![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_8.jpg)
+
 ---
 ### UNet++ 란
 
@@ -55,6 +63,7 @@ https://pubs.rsna.org/doi/10.1148/radiol.2020200642
 [![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_3.png)](https://arxiv.org/abs/1807.10165)
 
 * 만약 케라스가 궁금하시다면 >> [케라스 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/)
+* 한글로 먼저 요약본을 보고 싶다면 >> [Unet++](http://machinelearningkorea.com/2019/08/24/unet/)
 
 ---
 ### 서비스
