@@ -70,6 +70,8 @@ https://pubs.rsna.org/doi/10.1148/radiol.2020200642
 
 ![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_4.png)
 
+데이터셋만 확보되면 우리나라도 충분히 개발할 수 있을 것 같습니다. 데이터셋을 제공받을 수만 있다면 머신러닝 경연대회 플랫폼에 올려서 머신러닝 개발자와 함께 다같이 이 문제를 풀어서 높은 성능의 모델을 확보하고 이를 서비스 하고 싶습니다. 이와 관련되어 아이디어가 있으신 분은 tykim@aifactory.page 로 메일 주시면 감사하겠습니다.
+
 ---
 ### 둘러보기
 
