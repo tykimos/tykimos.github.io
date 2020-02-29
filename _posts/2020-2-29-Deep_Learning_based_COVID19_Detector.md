@@ -63,7 +63,7 @@ CT영상에 대해서 조금 더 살펴보겠습니다. "[Radiological findings 
 [![img](http://tykimos.github.io/warehouse/2020-2-29-Deep_Learning_based_COVID19_Detector_3.png)](https://arxiv.org/abs/1807.10165)
 
 * 만약 케라스가 궁금하시다면 >> [케라스 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/)
-* 한글로 먼저 요약본을 보고 싶다면 >> [Unet++](http://machinelearningkorea.com/2019/08/24/unet/)
+* UNet++ 한글 소개자료를 간단히 먼저 보고 싶다면 >> [Unet++](http://machinelearningkorea.com/2019/08/24/unet/)
 
 ---
 ### 서비스
