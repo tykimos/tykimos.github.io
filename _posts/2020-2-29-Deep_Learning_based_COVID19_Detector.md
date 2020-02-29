@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "딥러닝 기반 코로나19 진단법 연구"
+title:  "딥러닝 기반 코로나19 진단법 연구 - 우한대학, 케라스 Unet++"
 author: 김태영
 date:   2020-02-20 12:00:00
 categories: etc
