@@ -8,6 +8,17 @@ AI팩토리 대표 김태영입니다. 배움과 창작의 기쁨을 나누고 �
 - 2017년 8월 9일 [딥브릭(DeepBrick) 이야기](https://tykimos.github.io/2017/08/09/DeepBrick_Talk/) 시작
 - 2017년 1월 27일 [케라스(Keras) 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/) 시작
 
+#### 저서
+- 2017년 9월 30일 디지털북스, 블록과 함께 하는 파이썬 딥러닝 케라스 >> [더보기](http://www.yes24.com/Product/Goods/49867702)
+
+#### 논문
+- 2019년 12월 18일 2019 International Conference on Information and Communication Technologies for Disaster Management (ICT-DM), Improving Network Availability with Low Network Construction Cost through Deep Reinforcement Learning, 
+Choong-hee Cho ; Hyunho Lee ; Taeyoung Kim ; Jeong-dong Ryoo >> [더보기](https://ieeexplore.ieee.org/abstract/document/9032905)
+- 2019년 3월 4일 Nature Astronomy, 1st Author of Solar farside magnetograms from deep learning analysis of STEREO/EUVI data >> [더보기](https://www.nature.com/articles/s41550-019-0711-5)
+
+#### 인터뷰
+- 2020년 1월 28일 젠미디어, AI 특화 플랫폼 통해 진입장벽 낮추고 싶어 >> [더보기](http://www.genmedia.co.kr/news/articleView.html?idxno=13183)
+
 #### 컨퍼런스 개최
 - 2019년 7월 4일 케라스 코리아, 캐글 코리아 at 과학기술연합대학원대학교(UST), 한국전자통신연구원(ETRI), 2nd 함께하는 딥러닝 컨퍼런스(DLCAT) >> [더보기](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together/)
 - 2018년 6월 28일 케라스 코리아, 캐글 코리아 at 과학기술연합대학원대학교(UST), 1st 함께하는 딥러닝 컨퍼런스(DLCAT) >> [더보기](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)
@@ -24,17 +35,20 @@ AI팩토리 대표 김태영입니다. 배움과 창작의 기쁨을 나누고 �
 - 2019년 2월 1일 캐글코리아 & 구글코리아, '2019 1st ML month with KaKR' 개최 >> [더보기](https://www.kaggle.com/c/2019-1st-ml-month-with-kakr/overview/timeline)
 
 #### 컨퍼런스 발표
+- 2019년 12월 14일 2019 Global AI Bootcamp - Seoul, 크라우드 소싱 기반 전 산업분야 인공지능 문제해결 온오프라인 협업 플랫폼 >> [더보기](https://festa.io/events/772)
+- 2018년 12월 15일 2018 Global AI Bootcamp - Seoul, 모두의 손에 딥러닝 툴을... >> [더보기](https://festa.io/events/168)
 - 2018년 11월 NVIDIA, NVIDIA AI Conference 2018, '알파오목연대기'
-- 2018년 10월 삼성, 삼성 오픈 컨퍼런스(soscon) 2018, '태양에서 세포까지 인공지능 활용 사례'
-- 2018년 10월 2018 한국슈퍼컴퓨팅 컨퍼런스, '알파오목 : 알파제로 알고리즘 탑재부터 서비스까지'
-- 2017년 11월 Google, GDG DevFest 2017 Seoul “블록과 함께하는 파이썬 딥러닝 케라스"
+- 2018년 10월 17일 삼성, 삼성 오픈 컨퍼런스(soscon) 2018, '태양에서 세포까지 인공지능 활용 사례'
+- 2018년 10월 4일 2018 한국슈퍼컴퓨팅 컨퍼런스, '알파오목 : 알파제로 알고리즘 탑재부터 서비스까지'
+- 2017년 11월 18일 Google, GDG DevFest 2017 Seoul “블록과 함께하는 파이썬 딥러닝 케라스"
 
 #### 커뮤니티 세미나
-- 2020년 1월 15일 AIFrenz 멤버스 데이 at 대전 대덕테크비즈센터(TBC) "이제 인공지능은 AIFactory에 맡기세요"
+- 2020년 1월 15일 AIFrenz 멤버스 데이 at 대전 대덕테크비즈센터(TBC) "이제 인공지능은 AIFactory에 맡기세요" >> [더보기](https://www.youtube.com/watch?v=IFmqpvhyomE)
 - 2018년 2월 24일 한국커뮤니티데이 KCD(Korea Community Day) at 한국 마이크로소프트, "모두의 손에 딥러닝 툴을..."
 - 2017년 3월 대전창조경제혁신센터 제1회 대전 AI 포럼, "태양에서 세포까지 적용분야 그리고 케라스 이야기 세미나"
 
 #### 기관 세미나
+- 2019년 6월 26일, NASA, NASA FDL 2019 BootCamp, Reinforcement Learning in field of Aerospace >> [더보기](https://tykimos.github.io/2019/06/26/NASA_FDL_2019/)
 - 2018년 3월 양재R&CD혁신허브, 제4회 AI신기술뎐 “함께하는 딥러닝 케라스'
 - 2017년 11월 NASA, NASA Ames Conference Center, Radiation Workshop Lightning Talk
 - 2017년 8월 통계청 2017년 원격탐사 활용 농업통계 워크숍 (2017 Agricultural Statistics Workshop) "원격탐사 분야 딥러닝 활용 및 케라스 소개 세미나"
@@ -61,8 +75,9 @@ AI팩토리 대표 김태영입니다. 배움과 창작의 기쁨을 나누고 �
 - 2017년 5월 한국전파진흥협회, "태양관측 데이터를 활용한 딥러닝모델 개발 세미나"
 
 #### 강의
+- 2019년 6월 14일 SKplanet Tacademy, [토크ON세미나] 딥러닝 입문에서 활용까지 케라스(Keras) >> [더보기](https://www.youtube.com/watch?v=cJpjAmRO_h8&list=PL9mhQYIlKEheoq-M4EifTMPNWMw7poclK)
 - 2019년 1월 서울과학종합대학원대학교, '인공지능의 실습과 전략적 적용' 박사과정 강의
-- 2019년 9월3일 ~ 2019년 11월19일, 케라스 코리아 @양재R&CD혁신허브, 케코운영진과 함께하는 양재R&CD혁신허브 AI SCHOOL
+- 2019년 9월3일 ~ 2019년 11월19일, 케라스 코리아 at 양재R&CD혁신허브, 케코운영진과 함께하는 양재R&CD혁신허브 AI SCHOOL
 
 <img src="http://tykimos.github.io/images/face1.jpg">
 [선릉]
