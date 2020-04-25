@@ -7,14 +7,20 @@ categories: etc
 comments: true
 image: http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_title1.png
 ---
-우한 대학교의 Renmin 병원 이하 여러기관과 함께 딥러닝 기법을 사용하여 CT 촬영 이미지에서 코로나19를 진단하는 방법에 대한 논문이 있어 소개드립니다. 해당 모델은 케라스로 되어 있으며 프랑스와 쏠레님이 오늘 트위트로 소개해주셨습니다. 아래 이미지를 클릭하면 해당 논문을 다운로드 받으실 수 있습니다.
 
-[![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_1.png)](https://www.medrxiv.org/content/10.1101/2020.02.25.20021568v1)
+우한 대학교의 Renmin 병원 이하 여러기관과 함께 딥러닝 기법을 사용하여 CT 촬영 이미지에서 코로나19를 진단하는 방법에 대한 논문이 있어 소개드립니다. 해당 모델은 케라스```로 되어 있으며 프랑스와 쏠레님이 오늘 트위트로 소개해주셨습니다. 아래 이미지를 클릭하면 해당 논문을 다운로드 받으실 수 있습니다.
+
+[![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_1.png)](https://youtu.be/C-HVF9TkcLQ)
 
 ---
 ### 소개
 
 저작권 문제 등이 있을 것 같아 간단하게 요약 정도만 해봤습니다. 
+
+
+[![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_title1.png)](https://docs.google.com/presentation/d/1XvdwZpkPoxjVyI3Ld7KOX9yfse2xoeoTFTEg8YmUvDE/edit?usp=sharing)
+
+
 
 * 본 연구는 고해상도 CT 촬영 이미지로부터 코로나19 폐렴을 검출하여 빨간색 박스로 표시하는 딥러닝 기법을 연구한 것입니다.
 * 딥러닝 모델 개발에는 수집된 46,096장 CT 이미지에서 품질이 좋은 것만 골라 35,355장의 이미지를 사용했습니다.
