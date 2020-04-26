@@ -52,6 +52,22 @@ image: http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_Auto
 
 실제 예제 파이썬 코드를 살펴보면서 데이터 준비, 환경 설정, 오토엠엘 설정, 실행, 평가 결과 보는 법에 대해서 설명합니다.
 
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_10.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_11.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_12.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_13.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_14.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_15.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_16.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_17.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_18.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_19.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_20.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_21.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_22.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_23.png)
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_24.png)
+
 ---
 ### 둘러보기
 
