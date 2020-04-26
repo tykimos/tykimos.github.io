@@ -47,7 +47,7 @@ image: http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_Auto
 
 아래 링크로 꼭 한 번 둘러보시기 바랍니다~
 
-[![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_2.png)](https://github.com/krazure/gab2020kr/blob/master/README.md?fbclid=IwAR3VHyVtqVjsKiNi91sod9yDP_PNzQWscAwcfVZVP9LauUuZAV0xTaJTA3A)
+[![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_3.png)](https://github.com/krazure/gab2020kr/blob/master/README.md?fbclid=IwAR3VHyVtqVjsKiNi91sod9yDP_PNzQWscAwcfVZVP9LauUuZAV0xTaJTA3A)
 
 #### AIFactory
 
