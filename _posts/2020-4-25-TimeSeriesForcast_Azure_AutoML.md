@@ -37,6 +37,10 @@ image: http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_Auto
 
 애저 오토엠엘은 작동원리를 그림으로 표시한 것입니다. 사용자는 데이터셋, 평가기준, 자원제약사항만 입력하면 피처 엔지니어링, 모델링, 하이퍼파라미터 튜닝 등은 오토엠엘에서 알아서 수행하고, 평가 결과를 리더보드(점수판)에 기록합니다.
 
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_10.png)
+
+각 태스크별로 지원되는 메트릭을 표시한 것 입니다. AutoML은 지정된 메트릭에 최고의 성능을 내는 모델을 만드는 것이 목표이므로 적절한 메트릭을 지정하는 것이 중요합니다.
+
 ![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_7.png)
 
 시계열 예측 문제에 대한 교차 검증 방법으로 Rolling Origin 방식이 있습니다. 타입스텝이 진행됨에 따라 새로생긴 샘플로 검증을 수행합니다.
@@ -52,7 +56,6 @@ image: http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_Auto
 
 실제 예제 파이썬 코드를 살펴보면서 데이터 준비, 환경 설정, 오토엠엘 설정, 실행, 평가 결과 보는 법에 대해서 설명합니다.
 
-![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_10.png)
 ![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_11.png)
 ![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_12.png)
 ![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_13.png)
