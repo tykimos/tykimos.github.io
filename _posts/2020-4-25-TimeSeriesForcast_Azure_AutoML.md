@@ -27,11 +27,30 @@ image: http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_Auto
 ---
 ### 내용요약
 
-* AutoML에 대한 개념 설명
-* 애저에서의 AutoML 사용법: 애저 머신러닝 스튜디오와 파이썬 SDK
-* 시계열 예측을 위한 AutoML 사용법
-* dnj시계열 예측을 위한 AutoML 사용법
-* 에너지 수요 예측 실습 훑어보기
+전체 중 일부 슬라이드에 대해서 요약해봤습니다.
+
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_5.png)
+
+현재 애저 오토엠엘에서 지원하는 태스크는 분류, 회귀, 시계열 예측 문제입니다. 이번 발표에서는 시계열 예측에 대해서 다룹니다.
+
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_6.png)
+
+애저 오토엠엘은 작동원리를 그림으로 표시한 것입니다. 사용자는 데이터셋, 평가기준, 자원제약사항만 입력하면 피처 엔지니어링, 모델링, 하이퍼파라미터 튜닝 등은 오토엠엘에서 알아서 수행하고, 평가 결과를 리더보드(점수판)에 기록합니다.
+
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_7.png)
+
+시계열 예측 문제에 대한 교차 검증 방법으로 Rolling Origin 방식이 있습니다. 타입스텝이 진행됨에 따라 새로생긴 샘플로 검증을 수행합니다.
+
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_8.png)
+
+오토엠엘에서 가장 신경써야 하는 부분은 AutoMLConfig입니다. 시계열 예측 문제에서는 아래와 같은 추가 파라미터가 필요합니다.
+* time_column_name : 시간스텝을 의미하는 열을 지정합니다.
+* grain_column_name : 복수 개의 시계열이 존재할 경우 그룹핑할 열을 지정합니다.
+* max_horizon : 최대 예측 구간을 지정합니다.
+
+![img](http://tykimos.github.io/warehouse/2020-4-25-TimeSeriesForcast_Azure_AutoML_9.png)
+
+실제 예제 파이썬 코드를 살펴보면서 데이터 준비, 환경 설정, 오토엠엘 설정, 실행, 평가 결과 보는 법에 대해서 설명합니다.
 
 ---
 ### 둘러보기
