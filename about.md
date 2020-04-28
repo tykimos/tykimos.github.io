@@ -24,10 +24,10 @@ AI팩토리 대표 김태영입니다. 비전공자분들이 직관적이고 간
 - 2017년 9월 30일 디지털북스, 블록과 함께 하는 파이썬 딥러닝 케라스 >> [더보기](http://www.yes24.com/Product/Goods/49867702)
 
 #### 기사
-- 2020년 1월 28일 김태영 "AI 특화 플랫폼 통해 진입장벽 낮추고 싶어" [더보기](http://www.genmedia.co.kr/news/articleView.html?idxno=13183)
-- 2019년 3월 5일 김태영 "산학연 공동연구로 AI기반 태양 측면 자기장 영상 복원 성공" [더보기](https://m.etnews.com/20190305000214?obj=Tzo4OiJzdGRDbGFzcyI6Mjp7czo3OiJyZWZlcmVyIjtOO3M6NzoiZm9yd2FyZCI7czoxMzoid2ViIHRvIG1vYmlsZSI7fQ%3D%3D)
-- 2019년 7월 10일 김태영 "NASA FDL 부트캠프" 초청 특별 세션 발표 [더보기](https://m.etnews.com/20190710000391?SNS=00004)
-- 2014년 8월 7일 김태영 세계 3大 인명사전 등재 >> [더보기](http://m.daejonilbo.com/mnews.asp?pk_no=1129915)
+- 2020년 1월 28일 젠미디어, 김태영 "AI 특화 플랫폼 통해 진입장벽 낮추고 싶어" [더보기](http://www.genmedia.co.kr/news/articleView.html?idxno=13183)
+- 2019년 3월 5일 전자신문, 김태영 "산학연 공동연구로 AI기반 태양 측면 자기장 영상 복원 성공" [더보기](https://m.etnews.com/20190305000214?obj=Tzo4OiJzdGRDbGFzcyI6Mjp7czo3OiJyZWZlcmVyIjtOO3M6NzoiZm9yd2FyZCI7czoxMzoid2ViIHRvIG1vYmlsZSI7fQ%3D%3D)
+- 2019년 7월 10일 전자신문, 김태영 "NASA FDL 부트캠프" 초청 특별 세션 발표 [더보기](https://m.etnews.com/20190710000391?SNS=00004)
+- 2014년 8월 7일 대전일보, 김태영 세계 3大 인명사전 등재 >> [더보기](http://m.daejonilbo.com/mnews.asp?pk_no=1129915)
 
 #### 논문
 - 2019년 12월 18일 2019 International Conference on Information and Communication Technologies for Disaster Management (ICT-DM), Improving Network Availability with Low Network Construction Cost through Deep Reinforcement Learning, 
