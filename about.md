@@ -34,9 +34,6 @@ AI팩토리 대표 김태영입니다. 비전공자분들이 직관적이고 간
 Choong-hee Cho ; Hyunho Lee ; Taeyoung Kim ; Jeong-dong Ryoo >> [더보기](https://ieeexplore.ieee.org/abstract/document/9032905)
 - 2019년 3월 4일 Nature Astronomy, 1st Author of Solar farside magnetograms from deep learning analysis of STEREO/EUVI data >> [더보기](https://www.nature.com/articles/s41550-019-0711-5)
 
-#### 인터뷰
-- 2020년 1월 28일 젠미디어, AI 특화 플랫폼 통해 진입장벽 낮추고 싶어 >> [더보기](http://www.genmedia.co.kr/news/articleView.html?idxno=13183)
-
 #### 컨퍼런스 개최
 - 2019년 7월 4일 케라스 코리아, 캐글 코리아 at 과학기술연합대학원대학교(UST), 한국전자통신연구원(ETRI), 2nd 함께하는 딥러닝 컨퍼런스(DLCAT) >> [더보기](https://tykimos.github.io/2019/07/04/ISS_2nd_Deep_Learning_Conference_All_Together/)
 - 2018년 6월 28일 케라스 코리아, 캐글 코리아 at 과학기술연합대학원대학교(UST), 1st 함께하는 딥러닝 컨퍼런스(DLCAT) >> [더보기](https://tykimos.github.io/2018/06/28/ISS_1st_Deep_Learning_Conference_All_Together/)
