@@ -2,14 +2,32 @@
 layout: page
 comments: true
 ---
-AI팩토리 대표 김태영입니다. 배움과 창작의 기쁨을 나누고 싶은 프로그래머입니다. 항공우주분야 전공을 바탕으로 천문/위성/드론/헬스케어/의료 분야에서 영상처리/분석 프로젝트를 진행하고 있습니다. 다양한 분야에서 딥러닝의 적용 가능성을 빨리 확인하려다 보니 프로토타이핑에 적합한 케라스를 공부하게 되었습니다. 딥러닝 전공은 아니지만 도메인에서 가진 문제를 해결하고자 고민하고 얘기하는 것은 억수로(?) 좋아라 합니다. 
+AI팩토리 대표 김태영입니다. 비전공자분들이 직관적이고 간결한 딥러닝 라이브러리인 케라스를 이용해 딥러닝 입문을 쉽게 할 수 있도록 '블록과 함께하는 파이썬 딥러닝 케라스'의 집필과 '김태영의 케라스 블로그', '케라스 코리아', '캐글 코리아', 'MLOps 코리아'를 운영하고 있습니다. 항공우주분야 전공을 바탕으로 천문/위성/드론/헬스케어/의료 분야에서 영상처리/분석 프로젝트를 진행하고 있습니다. 다양한 분야에서 딥러닝의 적용 가능성을 빨리 확인하려다 보니 프로토타이핑에 적합한 케라스를 공부하게 되었습니다. 딥러닝 전공은 아니지만 도메인에서 가진 문제를 해결하고자 고민하고 얘기하는 것은 억수로(?) 좋아라 합니다. 
 
-이야기
-- 2017년 8월 9일 [딥브릭(DeepBrick) 이야기](https://tykimos.github.io/2017/08/09/DeepBrick_Talk/) 시작
-- 2017년 1월 27일 [케라스(Keras) 이야기](https://tykimos.github.io/2017/01/27/Keras_Talk/) 시작
+#### 현재
+- (주)AI팩토리 (2020~현재)
+- aSSIST 경영대학원 디지털전략기획MBA 교수, "케라스로 배우는 인공지능 실습"
+- K-ICT 빅데이터 센터 멘토, “딥러닝, 분석기술, 서비스 기획" (2015~현재)
+- 김태영의 케라스 블로그(https://tykimos.github.io/) 운영 
+- 케라스 코리아 그룹(https://www.facebook.com/groups/KerasKorea) 운영자
+- 캐글 코리아 그룹(https://www.facebook.com/groups/230717130993727) 운영진
+
+#### 이력
+- (주)인스페이스 기술이사(2012~2020)
+- 한국항공우주연구원 위성정보연구소 연구원 (2011)
+- 경희대학교 우주탐사학과 박사수료 (2017~2019)
+- 과학기술연합대학원대학교 위성시스템 및 활용공학 석사 (2009~2011)
+- 경북대학교 전자전기공학부 학사 (1998~2005)
+- 강화학습 코리아 알파오목팀
 
 #### 저서
 - 2017년 9월 30일 디지털북스, 블록과 함께 하는 파이썬 딥러닝 케라스 >> [더보기](http://www.yes24.com/Product/Goods/49867702)
+
+#### 기사
+- 2020년 1월 28일 김태영 "AI 특화 플랫폼 통해 진입장벽 낮추고 싶어" [더보기](http://www.genmedia.co.kr/news/articleView.html?idxno=13183)
+- 2019년 3월 5일 김태영 "산학연 공동연구로 AI기반 태양 측면 자기장 영상 복원 성공" [더보기](https://m.etnews.com/20190305000214?obj=Tzo4OiJzdGRDbGFzcyI6Mjp7czo3OiJyZWZlcmVyIjtOO3M6NzoiZm9yd2FyZCI7czoxMzoid2ViIHRvIG1vYmlsZSI7fQ%3D%3D)
+- 2019년 7월 10일 김태영 "NASA FDL 부트캠프" 초청 특별 세션 발표 [더보기](https://m.etnews.com/20190710000391?SNS=00004)
+- 2014년 8월 7일 김태영 세계 3大 인명사전 등재 >> [더보기](http://m.daejonilbo.com/mnews.asp?pk_no=1129915)
 
 #### 논문
 - 2019년 12월 18일 2019 International Conference on Information and Communication Technologies for Disaster Management (ICT-DM), Improving Network Availability with Low Network Construction Cost through Deep Reinforcement Learning, 
@@ -79,6 +97,11 @@ Choong-hee Cho ; Hyunho Lee ; Taeyoung Kim ; Jeong-dong Ryoo >> [더보기](http
 - 2019년 1월 서울과학종합대학원대학교, '인공지능의 실습과 전략적 적용' 박사과정 강의
 - 2019년 9월3일 ~ 2019년 11월19일, 케라스 코리아 at 양재R&CD혁신허브, 케코운영진과 함께하는 양재R&CD혁신허브 AI SCHOOL
 
+#### 연락처
+- 이메일: [tykim@aifactory.page](mailto:tykim@aifactory.page)
+- 페이스북: [www.facebook.com/tykimo](https://www.facebook.com/tykimo)
+- 케라스 코리아 페이스북 그룹: [www.facebook.com/groups/KerasKorea/](https://www.facebook.com/groups/KerasKorea/)
+
 <img src="http://tykimos.github.io/images/face1.jpg">
 [선릉]
 <img src="http://tykimos.github.io/images/face2.jpg">
@@ -86,9 +109,3 @@ Choong-hee Cho ; Hyunho Lee ; Taeyoung Kim ; Jeong-dong Ryoo >> [더보기](http
 <img src="http://tykimos.github.io/images/face3.jpg">
 [북극]
 
-연락처
-
-- 이메일: [tykim@aifactory.page](mailto:tykim@aifactory.page)
-- 페이스북: [www.facebook.com/tykimo](https://www.facebook.com/tykimo)
-- 케라스 코리아 페이스북 그룹: [www.facebook.com/groups/KerasKorea/](https://www.facebook.com/groups/KerasKorea/)
-- (주)인스페이스 홈페이지: [www.inspace.re.kr](http://www.inspace.re.kr)
