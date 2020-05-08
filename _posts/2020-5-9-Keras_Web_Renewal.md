@@ -8,7 +8,7 @@ comments: true
 image: http://tykimos.github.io/warehouse/2020-5-9-Keras_Web_Renewal_title_1.png
 ---
 
-케라스 웹페이지(https://keras.io/)가 100% 리뉴얼 되었습니다. 한 번 살펴볼까요?
+케라스 웹페이지(https://keras.io/)가 100% 리뉴얼 되었습니다. 엔지니어와 연구자를 구분하여 맞춤형 가이드를 제공하고 다양하고 실용적인 예제가 구글 코랩과 함께 제공되어 클릭 한번으로 실습이 가능합니다. 케라스 튜너, 오토케라스 등 흩어져 있던 케라스 에코시스템도 공식 홈페이지에서 정리되어서 소개되고 있으니 딥러닝을 사랑하는 사람들에겐 종합선물세트 같은 기분이 들 것 같습니다. 
 
 ![img](http://tykimos.github.io/warehouse/2020-5-9-Keras_Web_Renewal_title_1.png)
 
