@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "새통사 - 인공지능 차별(AI Divide) 함께 극복하기"
-author: 이순석
+author: 이순석 
 date:   2020-06-30 12:00:00
 categories: etc
 comments: true
