@@ -38,7 +38,9 @@ AI가 콘텐츠라는 말과 함께 ‘직무능력을 AI가 평가하는 시대
 
 올 1월에 창업한 AI Factory를 반석에 올려놓고자 눈코뜰새 없는 환경에서도 기꺼이 시간 허락해 주신 김태영 대표님께 깊은 감사를 드립니다. AI Factory가 1조 유니콘으로 승천하길 기원합니다.
 
-*발표자료 공유: https://tykimos.github.io/2020/01/15/AIFactory/
+#### 발표자료 공유 (클릭)
+
+[![img](http://tykimos.github.io/warehouse/2020-6-30-AIFactory_1.png)](https://docs.google.com/presentation/d/1CA5NRkyCvzP_fv9ZjyTQF6f6hYV13NfnjcLq3U1RVC0/edit#slide=id.p){: target="_blank"}
 
 ---
 ### 마무리
