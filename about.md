@@ -10,6 +10,14 @@ comments: true
 
 그는 행간에 졸곧 인공지능 모델 연구는 쉽지 않지만 인공지능 기술 민주화 덕분에 인공지능 서비스 기술 활용의 진입장벽은 높지 않다고 주장합니다. Youtube 덕분에 촬영이나 방송에 대한 진입장벽이 사라진지 오래되었습니다. 그저 개성만점의 콘텐츠가 경쟁의 유일한 요소입니다. 이제 인공지능도 기술을 넘어 콘텐츠로 바라볼 시대가 곧 올 것으로 예상합니다. 누구나 뽐내고 싶은 인공지능 모델을 서로 소통할 수 있도록 AIFactory를 소셜 네트워크 플랫폼으로 성장시키는 것이 그의 꿈입니다.
 
+Taeyoung Kim is the CEO of AIFactory and has a vision to ensure that people can have artificial intelligence at an affordable price as the artificial intelligence gap is expected to come like the Internet gap, digital gap, mobile gap, and cloud gap.
+
+He has an unrivaled insight into artificial intelligence based on his excellent intuition, studying artificial intelligence on his own, and having abundant practical experience. His book, Python Deep Learning Keras with Block, is an artificial intelligence study book that matches an artificial intelligence library with Lego Blocks and does not include any mathematical symbols or mathematics. There is a true story that a child bought his book thinking it was a Lego assembly book, but the child entered artificial intelligence. He operates Keras  community and Kaggle community in Korea studying with 16,000 members together.
+
+Based on his major in aerospace, He is conducting signal/video processing and analysis projects in various fields such as astronomy, satellite, drone, healthcare, medical and network. In March 2019, he was listed as a first co-author of Nature Astronomy as a deep learning-based solar image analysis study. He presented various experiences related to artificial intelligence at Global AI Bootcamp, Google GDG DevFest, NASA FDL, NVIDIA AI, and Samsung Open Source Conference.
+
+He argues that the entry barrier to artificial intelligence service development is not high thanks to the democratization of artificial intelligence technology although it is not easy to study artificial intelligence models . Such as entry barriers to filming and broadcasting have long been removed thanks to Youtube. Unique content is the only element of competition. Therefore, we expect an era when artificial intelligence will look beyond technology and into content. His dream is to grow AIFactory into a social network platform so that anyone can communicate with each other the artificial intelligence models they want to show off.
+
 #### 현재
 - (주)AI팩토리 (2020~현재)
 - aSSIST 경영대학원 디지털전략기획MBA 교수, "케라스로 배우는 인공지능 실습"
