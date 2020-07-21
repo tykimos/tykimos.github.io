@@ -53,18 +53,18 @@ image: http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_title_2.pn
 
 우리나라 위성인 아리랑 시리즈 위성들도 좀 더 많은 수신을 위해서 북극 수신서에 수신시스템을 설치되어 운영되고 있습니다. 아래는 랙에서 한땀한땀 나사 조이면서 설치하는 장면이네요. 지금은 파이썬, 케라스, 파이토치 뭐 이런 걸 공부하지만, 이때만해도, NAT, 크리티컬섹션, 쓰레드, IOCP, ECC, Frame Sync, CCSDS 등등에 푹 빠져 있었네요.
 
-![img](http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_6.png)
+![img](http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_10.png)
 
 ---
 ### 볼거리
 
 역시나 북극까지 갔다면, 오로라입니다. 겨울에 가야 볼 수 있답니다. 오로라를 보고 있노라면, 귀에서 맑은 전자음이 들리는 듯한 착각에 빠질 정도로 몽환적입니다.
 
-![img](http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_8.png)
+![img](http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_7.png)
 
 눈에 덮은 산과 계곡을 지나가며 달려보는 개썰매도 잊을 수가 없죠. 눈과 눈산 말고는 아무것도 없습니다.
 
-![img](http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_7.png)
+![img](http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_6.png)
 
 ---
 ### 마무리
