@@ -5,12 +5,12 @@ author: 김태영
 date:   2020-07-10 12:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2020-7-10-AIFactory_Fashion_MNIST_title_1.png
+image: http://tykimos.github.io/warehouse/2020-7-10-AIFactory_Fashion_MNIST_title_2.png
 ---
 
 패션 아이템 이미지 분류 모델을 실습한 뒤 모델에서 추론한 결과를 AIFactory에 제출한 뒤 점수를 확인하는 방법에 대해서 아래 동영상으로 설명드리겠습니다.
 
-[![img](http://tykimos.github.io/warehouse/2020-7-10-AIFactory_Fashion_MNIST_title_1.png)](https://www.youtube.com/watch?v=CSQvWf4rbiw&feature=youtu.be){: target="_blank"}
+[![img](http://tykimos.github.io/warehouse/2020-7-10-AIFactory_Fashion_MNIST_title_2.png)](https://www.youtube.com/watch?v=CSQvWf4rbiw&feature=youtu.be){: target="_blank"}
 
 ---
 ### 샘플 코드
