@@ -5,7 +5,7 @@ author: 김태영
 date:   2020-07-22 12:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_title_2.png
+image: http://tykimos.github.io/warehouse/2020-7-22-Github_Seed_Vault_title_3.png
 ---
 
 오픈소스 서비스인 GitHub가 오픈소스들을 북극 저장소에 저장한다고 합니다. 지인분들의 오픈소스들이 북극 저장소에 저장되었다는 소식이 들려오는 데요, 궁금하신 분들을 위해 실제 방문기를 적어볼까 합니다. 근데 왜 하필이면 "북극"일까요? 물론 클라우드 서버에 저장을 하겠지만, 만약 전쟁이나 멸망 또는 전기쇼크 등으로 서버들이 동시에 다운된다면 소스들이 다 사라지겠죠? 이를 방지하고자 북극 저장소에 오픈소스들을 보관한다고 하네요. 그것도 QR코드 처럼 인코딩해서 이미지로 출력해서요. 아래 동영상을 꼭 한 번 보세요. 북극의 웅장함과 인류의 희망이 느껴집니다.
