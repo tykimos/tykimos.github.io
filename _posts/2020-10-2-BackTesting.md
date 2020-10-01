@@ -14,6 +14,8 @@ image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title1.png
 * 시작일, 종료일 설정
 * 매매, 수익 정보 제공
 
+![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title1.png)
+
 여러 패키지 중 백트레이더(Backtrader)를 알아보도록 하겠습니다.
 
 ---
@@ -30,7 +32,7 @@ image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title1.png
 
 ![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_2.png)
 
-실습은 코랩에서 해보도록 하겠습니다.
+실습은 코랩에서 해보도록 하겠습니다. 코랩에서 파이썬 패키지를 설치를 pip로 하기 위해서는 터미널 명령임을 알리기 위해서 느낌표(!)를 명령 앞에 붙여서 셀을 실행시킵니다.
 
 ```python
 # 백트레이더 설치
@@ -42,6 +44,8 @@ image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title1.png
         |████████████████████████████████| 419kB 2.8MB/s 
     Installing collected packages: backtrader
     Successfully installed backtrader-1.9.76.123
+
+예제코드는 크게 투자전략 클래스 정의, 백테스팅 설정, 실행 및 결과확인으로 되어 있습니다.
 
 ```python
 from datetime import datetime
@@ -85,12 +89,16 @@ cerebro.plot()  # and plot it with a single command
 ```
     [[<Figure size 432x288 with 5 Axes>]]
 
+차트 결과는 코랩에서 바로 출력이 되지 않아서 아래처럼 이미지 파일로 저장한 다음 이미지 파일을 화면에 표시하도록 하였습니다.
+
 ```python
 # 차트를 코랩에서 바로 출력
 from IPython.display import display, Image
 cerebro.plot()[0][0].savefig('plot.png', dpi=100)
 display(Image(filename='plot.png'))
 ```
+
+예제 코드 차트 결과는 아래와 같습니다.
 
 ![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_5.png)
 
@@ -100,7 +108,12 @@ display(Image(filename='plot.png'))
 ---
 ### 국내종목으로 바꿔보기
 
+국내종목으로 바꿔보기 위해서는 먼저 국내종목코드를 알아야합니다. 검색엔진에서 "회사명" + "주가" 혹은 "종목"으로 검색하면 쉽게 종목코드를 확인할 수 있습니다.
+
 ![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_3.png)
+
+백트레이더에서 제공하는 야후 금융 기능을 사용할 예정입니다. 위에서 검색한 종목이 야후 금융에도 동일하게 등록되어 있는 지 확인합니다. 본 예제에서는 엔씨소프트로 예시들어 보겠습니다.
+
 ![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_4.png)
 
 ```python
@@ -121,6 +134,8 @@ import backtrader as bt
 from IPython.display import display, Image
 
 ```
+
+기본 예제에서 적용된 전략은 단순 이동 평균(SMA) 10일과 30일짜리 두 개를 이용하여, 서로 교차되는 지점에서 매매 타이밍을 잡는 방법입니다.
 
 ```python
 # 1. 전략 클래스 정의
@@ -145,6 +160,8 @@ class SmaCross(bt.Strategy):
         elif self.crossover < 0:  # in the market & cross to the downside
             self.close()  # close long position
 ```
+
+bt.feeds.YahooFinanceData() 함수의 dataname 인자에서 위에서 확인한 국내종목코드를 입력합니다. 그리고 추가로 브로커(broker) 겍체의 setcash() 함수를 이용하여 현재 투자금액을 설정합니다. 한국 통화(원)은 단위가 높으므로 백트레이더의 기본 설정으로는 국내 주식 구매가 힘들기 때문에 백테스팅 수행 전에 투자금액 설정과 매매 단위 설정부분은 확인합니다.
 
 ```python
 # 2. 세레브로(백트레이더의 엔진) 설정
@@ -192,8 +209,9 @@ display(Image(filename='plot.png'))
     최종금액 :  11431054.299999999 원
     수익률 :  14.31054299999999 %
 
-![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_6.png)
+간단한 SMA 전략으로 14프로 이상의 수익률이 나왔습니다.
 
+![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_6.png)
 
 코랩에서 바로 실습을 해보시려면 아래 링크로 접속하세요.
 * [코랩 소스코드 - 백테스팅_2_국내종목으로 바꿔보기](https://colab.research.google.com/drive/1UZNEuJ7zPH-5-tr-DyWBxwF_wh9FjUtP?authuser=1#scrollTo=-E5ZGN3E9bUG)
@@ -201,6 +219,7 @@ display(Image(filename='plot.png'))
 ---
 ### 투자전략 바꿔보기
 
+투자전략 클래스를 상속받아 필요한 부분만 구현하면 쉽게 백테스팅 기능을 활용할 수 있습니다. 아래 예제에서는 "상대적 강도 지수(RSI)" 젼략을 클래스로 만들고 이를 백테스팅 수행한 것입니다.
 
 ```python
 # 백트레이더 설치
@@ -244,8 +263,8 @@ class SmaCross(bt.Strategy):
 
         elif self.crossover < 0:  # in the market & cross to the downside
             self.close()  # close long position
-```
-
+``
+전략 추가하기 부분에서 쉽게 전략 클랙스를 교체할 수 있습니다.
 
 ```python
 # 1.2 상대적 강도 지수(RSI) 전략 클래스 정의
@@ -311,11 +330,17 @@ display(Image(filename='plot.png'))
     최종금액 :  12925000.0 원
     수익률 :  29.25 %
 
-![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_7.png)
+수익률이 30프로 가까이 나왔습니다. 투자전략에 따라 수익률 차이가 생겨남을 확인했습니다.
 
+![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_7.png)
 
 코랩에서 바로 실습을 해보시려면 아래 링크로 접속하세요.
 * [코랩 소스코드 - 백테스팅_3_투자전략 바꿔보기](https://colab.research.google.com/drive/1CoKnva5KrtFQwlw_dMz2OQRm2UqHtN0d?usp=sharing)
+
+---
+### 마무리
+
+이번에는 자기가 만든 투자전략을 검증을 하기 위해서 과거데이터를 활용하여 백스팅하는 툴인 백트레이더 소개하였고, 기본 예제에서 국내 종목을 바꾸거나 투자 전략을 바꾸어서 수익률이 얼마나 나는 지 확인하였습니다.
 
 ---
 ### 참고
