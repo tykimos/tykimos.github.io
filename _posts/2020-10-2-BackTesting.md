@@ -5,10 +5,10 @@ author: 김태영
 date:   2020-10-2 12:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title1.png
+image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title2.png
 ---
 
-투자전략을 세웠다면 이 투자전략으로 바로 실전에 투입하기 전에 과거 데이터로 한 번 검증을 해봐야합니다. 이렇게 과거데이터를 이용해서 투자전략을 테스트해보는 것을 백테스팅이라고 부릅니다. 백테스팅을 위한 소프트웨어나 패키지들이 있는데요, 주요 가능은 다음과 같습니다.
+투자 투자전략을 투자전략을 세웠다면 이 투자전략으로 바로 실전에 투입하기 전에 과거 데이터로 한 번 검증을 해봐야합니다. 이렇게 과거데이터를 이용해서 투자전략을 테스트해보는 것을 백테스팅이라고 부릅니다. 백테스팅을 위한 소프트웨어나 패키지들이 있는데요, 주요 가능은 다음과 같습니다.
 
 * 초기 투자 금액 설정
 * 시작일, 종료일 설정
@@ -23,7 +23,7 @@ image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title1.png
 
 백트레이더 홈페이지 가면 문서와 함께 샘플 예제가 보입니다.
 
-![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_1.png)
+![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_2.png)
 
 ---
 ### 백트레이더 기본예제 구동하기
