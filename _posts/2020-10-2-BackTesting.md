@@ -5,7 +5,7 @@ author: 김태영
 date:   2020-10-2 12:00:00
 categories: etc
 comments: true
-image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title5.png
+image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title6.png
 ---
 
 주식 투자에 대해 공부를 하다보면, 여러가지 투자전략에 대해서 배우게 됩니다. 자신의 투자 경향, 관심 종목, 접근할 수 있는 정보 권한 등으로 자신만의 투자전략을 세우게 됩니다. 투자 전략에 있어서 주로 차트와 시장 가격을 분석하는 기술적 분석과 재무재표, 경영 등 가격 결정의 원인을 분석하는 기본적 분석이 있습니다. 이번에는 기술적 분석에 국한하여 몇 가지 전략을 적용해보겠습니다. 투자전략을 세웠다면 이 투자전략으로 바로 실전에 투입하기 전에 과거 데이터로 한 번 검증을 해봐야합니다. 이렇게 과거데이터를 이용해서 투자전략을 테스트해보는 것을 백테스팅이라고 부릅니다. 백테스팅 툴은 퀀트들에게 전략 및 지표 분석에 집중할 수 있도록 백테스팅 및 트래이딩 환경을 제공합니다.
@@ -20,7 +20,7 @@ image: http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title5.png
 
 영상으로 보실 분은 아래 이미지를 클릭하세요.
 
-[![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title5.png)](https://youtu.be/X8ytYDTp24E)
+[![img](http://tykimos.github.io/warehouse/2020-10-2-BackTesting_title6.png)](https://youtu.be/X8ytYDTp24E)
 
 백테스팅 기능이 지원되는 여러가지 툴이 있지만 이 중 백트레이더(Backtrader)를 알아보도록 하겠습니다. 자 그럼 내가 짠 투자전략 알고리즘이 과거데이터로 얼마나 수익을 낼 수 있는 지 확인해볼까요?
 
