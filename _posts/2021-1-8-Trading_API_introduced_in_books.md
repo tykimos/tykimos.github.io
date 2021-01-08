@@ -44,7 +44,7 @@ image: http://tykimos.github.io/warehouse/2021-1-8-Trading_API_introduced_in_boo
 * 핸즈온 머신러닝 딥러닝 알고리즘 트레이딩 (파이썬, Pandas, NumPy, Scikit-learn 케라스를 활용한 효과적인 거래 전략), 스테판 젠슨 지음, 홍창수 , 이기홍 옮김, 에이콘출판, 2020년 07월 31일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161754321&orderClick=LEa&Kc=)
 * 파이썬과 리액트를 활용한 주식 자동 거래 시스템 구축 (데이터 수집부터 거래자동화, API 서버, 웹 개발, 데이터분석까지 아우르는), 박재현 지음, 위키북스, 2020년 02월 12일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391881&orderClick=LAG&Kc=)
 * 손가락 하나 까딱하지 않는 주식 거래 시스템 구축 (파이썬을 이용한 데이터 수집과 차트 분석, 매매 자동화까지), 장용준 지음, 위키북스, 2020년 04월 27일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158392024&orderClick=LEa&Kc=)
-* 파이썬 증권 데이터 분석 (파이썬 입문, 웹 스크레이핑, 트레이딩 전략, 자동 매매 | 딥러닝을 이용한 주가 예측까지), 김황후 지음, 한빛미디어, 2020년 07월 01일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243206&orderClick=LAG&Kc=)
+* 파이썬 증권 데이터 분석 (파이썬 입문, 웹 스크레이핑, 트레이딩 전략, 자동 매매 (딥러닝을 이용한 주가 예측까지), 김황후 지음, 한빛미디어, 2020년 07월 01일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243206&orderClick=LAG&Kc=)
 
 주제와 관련이 깊은 내용이 포함되어 있으나 위 목록에 빠진 도서가 있다면 댓글로 남겨주세요~ 한 번 살펴보겠습니다.
 
