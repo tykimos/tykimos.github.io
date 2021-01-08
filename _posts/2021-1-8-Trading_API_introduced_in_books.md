@@ -38,14 +38,13 @@ image: http://tykimos.github.io/warehouse/2021-1-8-Trading_API_introduced_in_boo
 
 지금까지 구입한 자동 매매 혹은 퀀트 관련 도서를 나열해봤습니다. 주로 파이썬 기반의 자동 매매나 머신러닝 및 인공지능 알고리즘 위주로 구매를 했었습니다.
 
-* 파이썬으로 배우는 알고리즘 트레이딩 (내 손으로 만드는 자동 주식 거래 시스템) | 조대표 지음 | 위키북스 | 2019년 03월 07일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391461&orderClick=LAG&Kc=)
-* 퀀트 전략을 위한 인공지능 트레이딩 (파이썬과 케라스를 활용한 머신러닝/딥러닝 퀀트 전략 기술) | 김태헌 , 신준호 지음 | 한빛미디어 | 2020년 08월 20일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243312&orderClick=LEa&Kc=)
-* 파이썬과 케라스를 이용한 딥러닝/강화학습 주식투자 (퀀트 투자 알고리즘 트레이딩을 위한 최첨단 해법 입문) | 퀀티랩 지음 | 위키북스 | 2020년 04월 27일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158392031&orderClick=LEa&Kc=)
-* 핸즈온 머신러닝 딥러닝 알고리즘 트레이딩 (파이썬, Pandas, NumPy, Scikit-learn 케라스를 활용한 효과적인 거래 전략) |
-스테판 젠슨 지음 | 홍창수 , 이기홍 옮김 | 에이콘출판 | 2020년 07월 31일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161754321&orderClick=LEa&Kc=)
-* 파이썬과 리액트를 활용한 주식 자동 거래 시스템 구축 (데이터 수집부터 거래자동화, API 서버, 웹 개발, 데이터분석까지 아우르는) | 박재현 지음 | 위키북스 | 2020년 02월 12일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391881&orderClick=LAG&Kc=)
-* 손가락 하나 까딱하지 않는 주식 거래 시스템 구축 (파이썬을 이용한 데이터 수집과 차트 분석, 매매 자동화까지) | 장용준 지음 | 위키북스 | 2020년 04월 27일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158392024&orderClick=LEa&Kc=)
-* 파이썬 증권 데이터 분석 (파이썬 입문, 웹 스크레이핑, 트레이딩 전략, 자동 매매 | 딥러닝을 이용한 주가 예측까지) 김황후 지음 | 한빛미디어 | 2020년 07월 01일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243206&orderClick=LAG&Kc=)
+* 파이썬으로 배우는 알고리즘 트레이딩 (내 손으로 만드는 자동 주식 거래 시스템), 조대표 지음, 위키북스, 2019년 03월 07일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391461&orderClick=LAG&Kc=)
+* 퀀트 전략을 위한 인공지능 트레이딩 (파이썬과 케라스를 활용한 머신러닝/딥러닝 퀀트 전략 기술), 김태헌, 신준호 지음, 한빛미디어, 2020년 08월 20일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243312&orderClick=LEa&Kc=)
+* 파이썬과 케라스를 이용한 딥러닝/강화학습 주식투자 (퀀트 투자 알고리즘 트레이딩을 위한 최첨단 해법 입문), 퀀티랩 지음, 위키북스, 2020년 04월 27일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158392031&orderClick=LEa&Kc=)
+* 핸즈온 머신러닝 딥러닝 알고리즘 트레이딩 (파이썬, Pandas, NumPy, Scikit-learn 케라스를 활용한 효과적인 거래 전략), 스테판 젠슨 지음, 홍창수 , 이기홍 옮김, 에이콘출판, 2020년 07월 31일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161754321&orderClick=LEa&Kc=)
+* 파이썬과 리액트를 활용한 주식 자동 거래 시스템 구축 (데이터 수집부터 거래자동화, API 서버, 웹 개발, 데이터분석까지 아우르는), 박재현 지음, 위키북스, 2020년 02월 12일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391881&orderClick=LAG&Kc=)
+* 손가락 하나 까딱하지 않는 주식 거래 시스템 구축 (파이썬을 이용한 데이터 수집과 차트 분석, 매매 자동화까지), 장용준 지음, 위키북스, 2020년 04월 27일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158392024&orderClick=LEa&Kc=)
+* 파이썬 증권 데이터 분석 (파이썬 입문, 웹 스크레이핑, 트레이딩 전략, 자동 매매 | 딥러닝을 이용한 주가 예측까지), 김황후 지음, 한빛미디어, 2020년 07월 01일 출간 >> [보기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243206&orderClick=LAG&Kc=)
 
 주제와 관련이 깊은 내용이 포함되어 있으나 위 목록에 빠진 도서가 있다면 댓글로 남겨주세요~ 한 번 살펴보겠습니다.
 
@@ -76,8 +75,3 @@ image: http://tykimos.github.io/warehouse/2021-1-8-Trading_API_introduced_in_boo
 결론
 ---
 주식 API를 크게 데이터 수집용과 매매용으로 봤을 때, 두가지 용도를 하나의 API만을 사용할 이유는 없을 것 같습니다. 간단하게 입문용으로 하려면 어느 API나 상관없지만, 전문적으로 하기 위해서는 모델에 따라 매매 빈도수가 많을 수 있고 또는 타이밍도 중요하기 때문에, 수수료 혹은 응답속도 등도 확인을 해봐야될 것 같네요. 일단 저는 입문용으로 할 것이기에 이미 계좌가 개설된 일단 키움증권의 Open API+로 시작해보겠습니다.
-
-
-```
-
-```
