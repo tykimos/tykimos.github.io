@@ -53,7 +53,7 @@ As artificial intelligence and digital environment accelerate, it is inevitable 
 
 In the task of artificial intelligence communicating with humans and carrying out missions, the mixed reality environment in the middle of virtual and reality is optimal, and the development of interface technology for human access to mixed reality will also accelerate. In addition, since mixed reality is another world where people live, consideration of the gap and the underprivileged should be sufficient.
 
-[Korean]
+[Korean Version]
 
 ## 혼합현실은 인공지능을 위한 새로운 소통공간
 
