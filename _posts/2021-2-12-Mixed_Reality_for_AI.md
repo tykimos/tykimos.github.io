@@ -5,7 +5,7 @@ author: 김태영
 date:   2021-2-12 00:00:00
 categories: AI
 comments: true
-image: http://tykimos.github.io/warehouse/2021-2-12-Mixed_Reality_for_AI_title1.png
+image: http://tykimos.github.io/warehouse/2021-2-12-Mixed_Reality_for_AI_title2.png
 ---
  
 When artificial intelligence and metaverse become common, the main means of artificial intelligence to communicate with people will be a mixed reality. * 한국어버전은 하단부에 있습니다.
