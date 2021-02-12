@@ -7,12 +7,8 @@ categories: AI
 comments: true
 image: http://tykimos.github.io/warehouse/2021-2-12-Mixed_Reality_for_AI_title1.png
 ---
-
-[English] - 한국어 버전은 하단부에 있습니다.
-
-## Mixed Reality is a New Communication Space for Artificial Intelligence
  
-When artificial intelligence and metaverse become common, the main means of artificial intelligence to communicate with people will be a mixed reality.
+When artificial intelligence and metaverse become common, the main means of artificial intelligence to communicate with people will be a mixed reality. * 한국어버전은 하단부에 있습니다.
  
 ### Current interface for artificial intelligence
 ---
