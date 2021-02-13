@@ -6,7 +6,7 @@ date:   2021-2-13 00:00:00
 categories: AI
 comments: true
 image: http://tykimos.github.io/warehouse/2021-2-13-Microsoft_Special_Edition_Title_1.png
----
+--- 
 
 이번 설에는 마이크로소프트AI 패키지 언박싱(항상 느끼는 거지만 “언박싱” 자체가 가장 즐거움)과 마이크로소프트웨어의 특별판 읽는다고 즐거운 시간을 보냈네요. 유익한 내용이 많은 것 같습니다. 몇 가지 인상깊은 문구를 적어봅니다. 
 
