@@ -2,7 +2,7 @@
 layout: page
 comments: true
 ---
-김태영은 AIFactory의 대표이사이며, 인터넷 격차, 디지털 격차, 모바일 격차, 클라우드 격차에 이어 인공지능 격차 시대를 예상하고 모든 국민이 누구나 저렴하게 인공지능을 가지게 할 수 있도록 하겠다는 비전을 가지고 있습니다.
+김태영은 AIFactory의 대표이사이며, Microsoft Regional Director (마이크로소프트 지역 디렉터)이다. 인터넷 격차, 디지털 격차, 모바일 격차, 클라우드 격차에 이어 인공지능 격차 시대를 예상하고 모든 국민이 누구나 저렴하게 인공지능을 가지게 할 수 있도록 하겠다는 비전을 가지고 있습니다.
 
 그는 탁월한 직관력으로 인공지능을 독학으로 공부하고 실무적인 풍부한 경험으로 바탕으로 인공지능에 대한 독보적인 통찰을 가지고 있습니다. 그의 독창적인 저서인 "블록과 함께 하는 파이썬 딥러닝 케라스"는 인공지능 라이브러리를 레고블록과 매치를 시켜서 수학기호나 수학이 1도 포함되지 않은 인공지능 학습서입니다. 어린이가 레고블록 책인줄 알고 구입해서 따라하다가 직접 인공지능 모델을 만들 수 있는 수준까지 갔다는 상징적 일화도 있습니다. 지방에 사는 불리함을 극복하기 위하여 시작한 케라스(Keras) 학습 커뮤니티와 캐글(Kaggle) 커뮤니티는 무려 16,000여명의 멤버들이 함께 공부하며 인공지능의 저변을 쌓아가고 있습니다.
 
@@ -19,7 +19,8 @@ Based on his major in aerospace, He is conducting signal/video processing and an
 He argues that the entry barrier to artificial intelligence service development is not high thanks to the democratization of artificial intelligence technology although it is not easy to study artificial intelligence models . Such as entry barriers to filming and broadcasting have long been removed thanks to Youtube. Unique content is the only element of competition. Therefore, we expect an era when artificial intelligence will look beyond technology and into content. His dream is to grow AIFactory into a social network platform so that anyone can communicate with each other the artificial intelligence models they want to show off.
 
 #### 현재
-- (주)AI팩토리 (2020~현재)
+- (주)인공지능팩토리 (2020~현재)
+- 마이크로소프트 지역 이사 (Microsoft Regional Director)
 - aSSIST 경영대학원 디지털전략기획MBA 교수, "케라스로 배우는 인공지능 실습"
 - K-ICT 빅데이터 센터 멘토, “딥러닝, 분석기술, 서비스 기획" (2015~현재)
 - 김태영의 케라스 블로그(https://tykimos.github.io/) 운영 
