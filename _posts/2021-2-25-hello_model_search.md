@@ -5,7 +5,7 @@ author: 김태영
 date:   2021-2-25 13:00:00
 categories: python
 comments: true
-image: http://tykimos.github.io/warehouse/2021-2-25-hello_model_search_title_2.png
+image: http://tykimos.github.io/warehouse/2021-2-25-hello_model_search_title_1.png
 ---
 구글 모델 서치는 기존 NAS(네트워크 아키텍처 탐색)의 단점을 보안하고, 효율적이고 자동으로 최적의 모델을 개발할 수 있도록 오픈소스로 제공되는 플랫폼입니다. 이러한 구글 모델 서치를 코랩에서 바로 구동해볼 수 있도록 테스트한 결과를 공유합니다. 깃헙 설치부터 패키지 설치, 환경 설정, 예제 소스 코드 설명 그리고 출력값을 확인해보도록 하겠습니다. 
 
