@@ -7,10 +7,8 @@ categories: tech
 comments: true
 image: http://tykimos.github.io/warehouse/2021-7-4-using_hololens2_title.jpeg
 ---
-홀로렌즈2 글 모델 서치는 기존 NAS(네트워크 아키텍처 탐색)의 단점을 보안하고, 효율적이고 자동으로 최적의 모델을 개발할 수 있도록 오픈소스로 제공되는 플랫폼입니다. 이러한 구글 모델 서치를 코랩에서 바로 구동해볼 수 있도록 테스트한 결과를 공유합니다. 깃헙 설치부터 패키지 설치, 환경 설정, 예제 소스 코드 설명 그리고 출력값을 확인해보도록 하겠습니다. 
+홀로렌즈2를 직접 체험해본 사용기를 만들어봤습니다. 한국MS의 최영락님의 인터뷰와 홀로렌즈2의 1인칭 시점과 3인칭 시점에서 모두 촬영을 해서 편집해봤습니다.
 
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/D4Bvyt4eiQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D4Bvyt4eiQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-[![Video Label](http://img.youtube.com/vi/D4Bvyt4eiQk/0.jpg)](https://www.youtube.com/embed/D4Bvyt4eiQk)
+제가 사용해보면서 가장 놀란 것은 "고개를 돌려서 가상 속 모니터는 고정되어 그 자리에 있다"는 점입니다. 키보드도 마찬가지이고요. 그 정밀함이 뛰어나서, 마치 진짜 모니터와 키보드가 있는 듯한 착각이 들 정도이네요.
