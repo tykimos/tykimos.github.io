@@ -12,3 +12,7 @@ image: http://tykimos.github.io/warehouse/2021-7-4-using_hololens2_title.jpeg
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/D4Bvyt4eiQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 제가 사용해보면서 가장 놀란 것은 "고개를 돌려서 가상 속 모니터는 고정되어 그 자리에 있다"는 점입니다. 키보드도 마찬가지이고요. 그 정밀함이 뛰어나서, 마치 진짜 모니터와 키보드가 있는 듯한 착각이 들 정도이네요.
+
+참고로, 인공지능과 메타버스에 대한 생각을 정리한 글입니다. 
+
+https://tykimos.github.io/2021/02/12/Mixed_Reality_for_AI/
