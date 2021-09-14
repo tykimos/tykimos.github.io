@@ -5,7 +5,7 @@ author: 김태영
 date:   2021-7-4 13:00:00
 categories: tech
 comments: true
-image: http://tykimos.github.io/warehouse/2021-7-4-using_hololens2_title.jpeg
+image: http://tykimos.github.io/warehouse/2021-9-14-AI_for_good_title_1.png
 ---
 
 Artificial Intelligence for common good…develops into sharing and cooperation
