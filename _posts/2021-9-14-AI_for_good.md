@@ -25,6 +25,8 @@ What governments are trying to achieve for this goal is creating an ecosystem fo
 ### AI Hub (https://aihub.or.kr/)
 ---
 
+![img](http://tykimos.github.io/warehouse/2021-9-14-AI_for_good_title_1.png)
+
 AI Hub Contributes to AI Data Sharing and Industry Ecosystem of Intelligence Information Society and Artificial Intelligence
  
 AI Hub is a platform that is being promoted as an infrastructure creation project for the intelligence information industry. It is sharing data for AI learning held by domestic and foreign institutions and companies to everyone. It aims to contribute to the creation of an intelligence information society and an artificial intelligence industry ecosystem by releasing high-quality, high-capacity AI learning data that is difficult to obtain on its own due to high cost and input time. Business classification is provided in a total of eight categories by tailoring the government data reference model (DRM) and government function (Central and Basic) standard classification system (BRM), Korean standard industry classification table (10th), public data portal, and overseas cases.
@@ -45,6 +47,8 @@ Link to the 'Safety Environment' Open Data: https://aihub.or.kr/aihub-data/safty
 ### Learning and Model Development by Collective Intelligence and Challenge
 ---
  
+![img](http://tykimos.github.io/warehouse/2021-9-14-AI_for_good_title_1.png)
+
 Artificial Intelligence Factory, an artificial intelligence platform service company, is also taking the lead in developing artificial intelligence models by sharing and cooperating through challenges through the AF-Competition. It is the platform service of the competition, which is also the representative service of AI Factory. This service addresses the artificial intelligence model that clients need based on crowdsourcing. To solve the problem, the competition provides a platform for developers who participate in the competition to compete openly, and clients can develop artificial intelligence models that host competitions and target competitions through AI Factory's platform.
 
 The development of artificial intelligence through collective intelligence is not only advantageous in that it can learn the experience that can double the developer's ability, but also in that it can be developed and provided as an actual artificial intelligence model.
