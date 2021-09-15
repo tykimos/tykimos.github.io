@@ -25,7 +25,7 @@ What governments are trying to achieve for this goal is creating an ecosystem fo
 ### AI Hub (https://aihub.or.kr/)
 ---
 
-![img](http://tykimos.github.io/warehouse/2021-9-14-AI_for_good_title_1.png)
+![img](http://tykimos.github.io/warehouse/2021-9-14-AI_for_good_2.png)
 
 AI Hub Contributes to AI Data Sharing and Industry Ecosystem of Intelligence Information Society and Artificial Intelligence
  
