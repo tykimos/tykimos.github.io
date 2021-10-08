@@ -12,15 +12,16 @@ image: http://tykimos.github.io/warehouse/2021-10-9-KerasKoreaMeetup_title_1.png
  
 #### 안내
 ---
-날짜: 11월 18일
-시간: 13시~18시
-장소: 게더타운
-구성: 케라스와 관련된 다양한 주제 + 네트워킹
-사은품: 선착순 밋업 티셔츠 제공 (60명까지, 10월 13일까지)
+* 날짜: 11월 18일
+* 시간: 13시~18시
+* 장소: 게더타운
+* 사은품: 선착순 밋업 티셔츠 제공 (60명까지, 10월 13일까지)
 
 ![img](http://tykimos.github.io/warehouse/2021-10-9-KerasKoreaMeetup_img1.png)
 
-추후 자세한 정보는 아래에서 업데이트 됩니다.
+#### 상세 프로그램
+---
+(추후 업데이트)
 
 http://aifactory.space/page/keraskorea
 
