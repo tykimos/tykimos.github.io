@@ -26,4 +26,11 @@ image: http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_title1.png
 ### 상세 프로그램 소개
 ---
  
-![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_1.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img1.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img2.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img3.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img4.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img5.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img6.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img7.png)
+![img](http://tykimos.github.io/warehouse/2021-10-8-AI_x_IoT_class_img8.png)
