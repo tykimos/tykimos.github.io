@@ -2,7 +2,7 @@
 layout: post
 title:  "2021 인공지능 데이터 활용 경진대회 개회식"
 author: 김태영
-date:   2021-10-9 13:00:00
+date:   2021-10-9 23:00:00
 categories: tech
 comments: true
 image: http://tykimos.github.io/warehouse/2021-10-9-AIHub_Competition_title1.png
@@ -12,7 +12,7 @@ image: http://tykimos.github.io/warehouse/2021-10-9-AIHub_Competition_title1.png
 
 과기부와 NIA에서 주최/주관을 수행하고, 인공지능팩토리, 데이콘, 스마트CMS가 컨쇼시엄으로 대회를 운영합니다. 이번 개회식에는 특별히 세 분의 연사님들의 인사이트 넘치는 특강도 들을 수 있으니 많은 관심부탁드립니다.
 
-#### 라이브
+#### 라이브 및 녹화영상
 ---
 아래 링크로 들어가시면 됩니다.
 
