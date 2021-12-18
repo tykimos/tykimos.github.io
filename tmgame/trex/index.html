@@ -53,10 +53,32 @@
         // Prediction 2: run input through teachable machine classification model
         const prediction = await model.predict(posenetOutput);
 
+        max_class_index = 0
+        max_class_prob = -1.0
+
         for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
-                prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+                prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
+
+            if ( prediction[i].probability > max_class_prob )
+            {
+                max_class_prob = prediction[i].probability
+                max_class_index = i
+            }
+        }
+
+        switch (max_class_index){
+            case 0:
+                frame.contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 38}));
+                frame.contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 40}));
+                break;
+            case 1:
+                frame.contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 38}));
+                break;
+            case 2:
+                frame.contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 40}));
+                break;
         }
 
         // finally draw the poses
@@ -74,14 +96,6 @@
             }
         }
     }
-
-    document.addEventListener('keydown', e => {
-  const frame = 'game_frame';
-
-  // dispatch a new event
-  frame.contentDocument.dispatchEvent(
-    new KeyboardEvent('keydown', {key: e.key})
-  );
 })
 </script>
 
