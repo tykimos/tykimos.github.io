@@ -1,4 +1,4 @@
-<div>Teachable Machine Game v102</div>
+<div>Teachable Machine Game v103</div>
 <button type="button" onclick="init()">Start</button>
 <div><canvas id="canvas"></canvas></div>
 <div id="label-container"></div>
@@ -70,14 +70,14 @@
 
         switch (max_class_index){
             case 0:
-                frame.contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 38}));
-                frame.contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 40}));
+                game_frame.contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 38}));
+                game_frame.contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 40}));
                 break;
             case 1:
-                frame.contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 38}));
+                game_frame.contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 38}));
                 break;
             case 2:
-                frame.contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 40}));
+                game_frame.contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 40}));
                 break;
         }
 
