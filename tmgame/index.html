@@ -1,138 +1,213 @@
-<div style="background-color: rgb(238, 238, 238);">Tykimos Teachable Machine Game - 
-<a href="javascript:void(0);" onclick="changeGame('t-rex-runner-gh-pages')">#Dino</a>
-<a href="javascript:void(0);" onclick="changeGame('ms-edge-letssurf-main')">#Surf</a>
-<input type="text" id="model_link" value="https://teachablemachine.withgoogle.com/models/wU1aCSCE4/">
-<button type="button" onclick="init()">Load Model</button>
-</div>
-<div style="position: absolute;z-index: 123;">
-    <div><canvas id="canvas"></canvas></div>
-    <div id="label-container"></div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
-<script type="text/javascript">
-    // More API functions here:
-    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
-
-    // the link to your model provided by Teachable Machine export panel
-    let model, webcam, ctx, labelContainer, maxPredictions;
-
-    var action0_key;
-    var action1_key;
-    var action2_key;
-
-    async function init() {
-
-        URL = document.getElementById("model_link").value;
-
-        modelURL = URL + "model.json";
-        metadataURL = URL + "metadata.json";
-
-        // load the model and metadata
-        // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
-        // Note: the pose library adds a tmPose object to your window (window.tmPose)
-        model = await tmPose.load(modelURL, metadataURL);
-        maxPredictions = model.getTotalClasses();
-
-        // Convenience function to setup a webcam
-        const size = 200;
-        const flip = true; // whether to flip the webcam
-        webcam = new tmPose.Webcam(size, size, flip); // width, height, flip
-        await webcam.setup(); // request access to the webcam
-        await webcam.play();
-        window.requestAnimationFrame(loop);
-
-        // append/get elements to the DOM
-        const canvas = document.getElementById("canvas");
-        canvas.width = size; canvas.height = size;
-        ctx = canvas.getContext("2d");
-        labelContainer = document.getElementById("label-container");
-        for (let i = 0; i < maxPredictions; i++) { // and class labels
-            labelContainer.appendChild(document.createElement("div"));
-        }
-    }
-
-    async function loop(timestamp) {
-        webcam.update(); // update the webcam frame
-        await predict();
-        window.requestAnimationFrame(loop);
-    }
-
-    async function predict() {
-        // Prediction #1: run input through posenet
-        // estimatePose can take in an image, video or canvas html element
-        const { pose, posenetOutput } = await model.estimatePose(webcam.canvas);
-        // Prediction 2: run input through teachable machine classification model
-        const prediction = await model.predict(posenetOutput);
-
-        max_class_index = 0
-        max_class_prob = -1.0
-
-        for (let i = 0; i < maxPredictions; i++) {
-            const classPrediction =
-                prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
-            labelContainer.childNodes[i].innerHTML = classPrediction;
-
-            if ( prediction[i].probability > max_class_prob )
-            {
-                max_class_prob = prediction[i].probability
-                max_class_index = i
-            }
-        }
-
-        switch (max_class_index){
-            case 0:
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: action1_key}));
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: action2_key}));
-                break;
-            case 1:
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: action1_key}));
-                break;
-            case 2:
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: action2_key}));
-                break;           
-        }
-
-        // finally draw the poses
-        drawPose(pose);
-    }
-
-    function drawPose(pose) {
-        if (webcam.canvas) {
-            ctx.drawImage(webcam.canvas, 0, 0);
-            // draw the keypoints and skeleton
-            if (pose) {
-                const minPartConfidence = 0.5;
-                tmPose.drawKeypoints(pose.keypoints, minPartConfidence, ctx);
-                tmPose.drawSkeleton(pose.keypoints, minPartConfidence, ctx);
-            }
-        }
-    }
+<html>
+<head>
+    <title>TMGame v102</title>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-3351342248398060",
+        enable_page_level_ads: true
+      });
+    </script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
     
-    async function changeGame(game_src){
-        document.getElementById("game_frame").src = game_src + '/index.html'
+    ga('create', 'UA-106136296-1', 'auto');
+    ga('send', 'pageview');
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
 
-        switch(game_src){
-            case 't-rex-runner-gh-pages':
-                action0_key = -1;
-                action1_key = 38; // up
-                action2_key = 40; // down
-                break;
-            case 'ms-edge-letssurf-main':
-                action0_key = -1;
-                action1_key = 37; // left
-                action2_key = 39; // right
-                break;
+    <script type="text/javascript">
+        // More API functions here:
+        // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
+
+        // the link to your model provided by Teachable Machine export panel
+        let model, webcam, ctx, labelContainer, maxPredictions;
+
+        var ifr_dom_type;
+        var ifr_dom;
+        var action1_keyup_event;
+        var action2_keyup_event;
+        var action3_keyup_event;
+        var action1_keydown_event;
+        var action2_keydown_event;
+        var action3_keydown_event;
+
+        async function selectGame(game_src){
+            
+            document.getElementById("game_frame").src = game_src + '/index.html'
+
+            switch(game_src){
+                case 't-rex-runner-gh-pages':
+                    ifr_dom_type = 'document';
+                    action1_keyup_event = new KeyboardEvent('keyup', {keyCode: 38});
+                    action2_keyup_event = new KeyboardEvent('keyup', {keyCode: 40});
+                    action3_keyup_event = new KeyboardEvent('keyup', {keyCode: 32});
+                    action1_keydown_event = new KeyboardEvent('keydown', {keyCode: 38});
+                    action2_keydown_event = new KeyboardEvent('keydown', {keyCode: 40});
+                    action3_keydown_event = new KeyboardEvent('keydown', {keyCode: 32});
+                    break;
+
+                case 'ms-edge-letssurf-main':
+                    ifr_dom_type = 'window';
+                    action1_keyup_event = new KeyboardEvent('keyup', {'key': 'ArrowRight'});
+                    action2_keyup_event = new KeyboardEvent('keyup', {'key': 'ArrowLeft'});
+                    action3_keyup_event = new KeyboardEvent('keyup', {'key': 'ArrowUp'});
+                    action1_keydown_event = new KeyboardEvent('keydown', {'key': 'ArrowRight'});
+                    action2_keydown_event = new KeyboardEvent('keydown', {'key': 'ArrowLeft'});
+                    action3_keydown_event = new KeyboardEvent('keydown', {'key': 'ArrowUp'});
+                    break;
+            }
+            document.getElementById("selected_game").innerHTML = game_src
+
+            document.getElementById("game_frame").contentWindow.focus();
         }
 
-        document.getElementById("game_frame").contentWindow.focus();
-    }
-</script>
+        async function selectAction(action_src){
+            
+            URL = 'https://teachablemachine.withgoogle.com/models/' + action_src + '/'
+            
+            modelURL = URL + "model.json";
+            metadataURL = URL + "metadata.json";
 
-<iframe
-    src="./t-rex-runner-gh-pages/index.html"
-    id="game_frame"
-    style="width:100%; height:100%; margin:0px; border-width: 0px;"
-    sandbox="allow-same-origin allow-scripts allow-popups">
-    iframe not working in this browser
-</iframe>
+            // load the model and metadata
+            // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+            // Note: the pose library adds a tmPose object to your window (window.tmPose)
+            model = await tmPose.load(modelURL, metadataURL);
+            maxPredictions = model.getTotalClasses();
+
+            // Convenience function to setup a webcam
+            const size = 200;
+            const flip = true; // whether to flip the webcam
+            webcam = new tmPose.Webcam(size, size, flip); // width, height, flip
+            await webcam.setup(); // request access to the webcam
+            await webcam.play();
+            window.requestAnimationFrame(loop);
+
+            // append/get elements to the DOM
+            const canvas = document.getElementById("canvas");
+            canvas.width = size; canvas.height = size;
+            ctx = canvas.getContext("2d");
+            labelContainer = document.getElementById("label-container");
+            for (let i = 0; i < maxPredictions; i++) { // and class labels
+                labelContainer.appendChild(document.createElement("div"));
+            }
+            
+            document.getElementById("selected_action").innerHTML = '<a href=' + URL + ' target=_blank>' + action_src + '</a>'
+        }
+
+        async function selectCustomAction(){
+            selectAction(document.getElementById("model_link").value)
+        }
+
+        async function loop(timestamp) {
+            webcam.update(); // update the webcam frame
+            await predict();
+            window.requestAnimationFrame(loop);
+        }
+
+        async function predict() {
+            // Prediction #1: run input through posenet
+            // estimatePose can take in an image, video or canvas html element
+            const { pose, posenetOutput } = await model.estimatePose(webcam.canvas);
+            // Prediction 2: run input through teachable machine classification model
+            const prediction = await model.predict(posenetOutput);
+
+            max_class_index = 0
+            max_class_prob = -1.0
+
+            for (let i = 0; i < maxPredictions; i++) {
+                const classPrediction =
+                    prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
+                labelContainer.childNodes[i].innerHTML = classPrediction;
+
+                if ( prediction[i].probability > max_class_prob )
+                {
+                    max_class_prob = prediction[i].probability
+                    max_class_index = i
+                }
+            }
+
+            switch (ifr_dom_type){
+                case 'document':
+                    ifr_dom = document.getElementById("game_frame").contentDocument;
+                    break;
+                case 'window':
+                    ifr_dom = document.getElementById("game_frame").contentWindow;
+                    break;
+            }
+
+            switch (max_class_index){
+                case 0:
+                    ifr_dom.dispatchEvent(action1_keyup_event);
+                    ifr_dom.dispatchEvent(action2_keyup_event);
+                    ifr_dom.dispatchEvent(action3_keyup_event);
+                    break;
+                case 1:
+                    ifr_dom.dispatchEvent(action1_keydown_event);
+                    break;
+                case 2:
+                    ifr_dom.dispatchEvent(action2_keydown_event);
+                    break;           
+                case 3:
+                    ifr_dom.dispatchEvent(action3_keydown_event);
+                    break;
+            }
+
+            // finally draw the poses
+            drawPose(pose);
+        }
+
+        function drawPose(pose) {
+            if (webcam.canvas) {
+                ctx.drawImage(webcam.canvas, 0, 0);
+                // draw the keypoints and skeleton
+                if (pose) {
+                    const minPartConfidence = 0.5;
+                    tmPose.drawKeypoints(pose.keypoints, minPartConfidence, ctx);
+                    tmPose.drawSkeleton(pose.keypoints, minPartConfidence, ctx);
+                }
+            }
+        }
+
+        async function init(){
+            selectGame('t-rex-runner-gh-pages')
+            selectAction('XMTSbvwaV')
+        }
+    </script>
+</head>
+<body onload="init()">
+    <div style="background-color: rgb(238, 238, 238);">
+        <h3>Tykimos Teachable Machine Game</h3>
+        Game : <span id="selected_game">None</span> | Action : <span id="selected_action">None</span><br>
+        1. Change Game : 
+        <a href="javascript:void(0);" onclick="selectGame('t-rex-runner-gh-pages')">#Dino</a> |
+        <a href="javascript:void(0);" onclick="selectGame('ms-edge-letssurf-main')">#Surf</a>
+        <br>
+        2. Change Action : 
+        <a href="javascript:void(0);" onclick="selectAction('XMTSbvwaV')">#UpDown</a>
+        <a href="javascript:void(0);" onclick="selectAction('XMTSbvwaV')">#RightLeft</a>
+        Custom 
+        <input type="text" id="model_link" value="tm key">
+        <button type="button" onclick="selectCustomAction()">Load Model</button>
+        
+    </div>
+
+    <div style="position: absolute;z-index: 123;">
+        <div><canvas id="canvas"></canvas></div>
+        <div id="label-container"></div>
+    </div>
+
+    <iframe
+        src="./t-rex-runner-gh-pages/index.html"
+        id="game_frame"
+        style="width:100%; height:100%; margin:0px; border-width: 0px;"
+        sandbox="allow-same-origin allow-scripts allow-popups">
+        iframe not working in this browser
+    </iframe>
+</body>
+</html>
