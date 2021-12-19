@@ -7,7 +7,7 @@
         enable_page_level_ads: true
       });
     </script>
-    <title>TMGame v103</title>
+    <title>TMGame v104</title>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,12 +30,10 @@
 
         var ifr_dom_type;
         var ifr_dom;
-        var action1_keyup_event;
-        var action2_keyup_event;
-        var action3_keyup_event;
-        var action1_keydown_event;
-        var action2_keydown_event;
-        var action3_keydown_event;
+
+        var action_keyup_event = []; 
+        var action_keydown_event = []; 
+        var prev_action_keydown_event = -1;
 
         async function selectGame(game_src){
             
@@ -44,22 +42,26 @@
             switch(game_src){
                 case 't-rex-runner-gh-pages':
                     ifr_dom_type = 'document';
-                    action1_keyup_event = new KeyboardEvent('keyup', {keyCode: 38});
-                    action2_keyup_event = new KeyboardEvent('keyup', {keyCode: 40});
-                    action3_keyup_event = new KeyboardEvent('keyup', {keyCode: 32});
-                    action1_keydown_event = new KeyboardEvent('keydown', {keyCode: 38});
-                    action2_keydown_event = new KeyboardEvent('keydown', {keyCode: 40});
-                    action3_keydown_event = new KeyboardEvent('keydown', {keyCode: 32});
+                    action_keyup_event[0] = null;
+                    action_keyup_event[1] = new KeyboardEvent('keyup', {keyCode: 38});
+                    action_keyup_event[2] = new KeyboardEvent('keyup', {keyCode: 40});
+                    action_keyup_event[3] = new KeyboardEvent('keyup', {keyCode: 32});
+                    action_keydown_event[0] = null;
+                    action_keydown_event[1] = new KeyboardEvent('keydown', {keyCode: 38});
+                    action_keydown_event[2] = new KeyboardEvent('keydown', {keyCode: 40});
+                    action_keydown_event[3] = new KeyboardEvent('keydown', {keyCode: 32});
                     break;
 
                 case 'ms-edge-letssurf-main':
                     ifr_dom_type = 'window';
-                    action1_keyup_event = new KeyboardEvent('keyup', {'key': 'ArrowRight'});
-                    action2_keyup_event = new KeyboardEvent('keyup', {'key': 'ArrowLeft'});
-                    action3_keyup_event = new KeyboardEvent('keyup', {'key': 'ArrowUp'});
-                    action1_keydown_event = new KeyboardEvent('keydown', {'key': 'ArrowRight'});
-                    action2_keydown_event = new KeyboardEvent('keydown', {'key': 'ArrowLeft'});
-                    action3_keydown_event = new KeyboardEvent('keydown', {'key': 'ArrowUp'});
+                    action_keyup_event[0] = null;
+                    action_keyup_event[1] = new KeyboardEvent('keyup', {'key': 'ArrowRight'});
+                    action_keyup_event[2] = new KeyboardEvent('keyup', {'key': 'ArrowLeft'});
+                    action_keyup_event[3] = new KeyboardEvent('keyup', {'key': 'ArrowUp'});
+                    action_keydown_event[0] = null
+                    action_keydown_event[1] = new KeyboardEvent('keydown', {'key': 'ArrowRight'});
+                    action_keydown_event[2] = new KeyboardEvent('keydown', {'key': 'ArrowLeft'});
+                    action_keydown_event[3] = new KeyboardEvent('keydown', {'key': 'ArrowUp'});
                     break;
             }
             document.getElementById("selected_game").innerHTML = game_src
@@ -69,6 +71,8 @@
 
         async function selectAction(action_src){
             
+            document.getElementById("selected_action").innerHTML = 'loading...'
+
             URL = 'https://teachablemachine.withgoogle.com/models/' + action_src + '/'
             
             modelURL = URL + "model.json";
@@ -141,22 +145,15 @@
                     break;
             }
 
-            switch (max_class_index){
-                case 0:
-                    ifr_dom.dispatchEvent(action1_keyup_event);
-                    ifr_dom.dispatchEvent(action2_keyup_event);
-                    ifr_dom.dispatchEvent(action3_keyup_event);
-                    break;
-                case 1:
-                    ifr_dom.dispatchEvent(action1_keydown_event);
-                    break;
-                case 2:
-                    ifr_dom.dispatchEvent(action2_keydown_event);
-                    break;           
-                case 3:
-                    ifr_dom.dispatchEvent(action3_keydown_event);
-                    break;
+            if (prev_action_keydown_event != max_class_index && prev_action_keydown_event > 0){
+                ifr_dom.dispatchEvent(action_keyup_event[prev_action_keydown_event])
             }
+
+            if (max_class_index > 0){
+                ifr_dom.dispatchEvent(action_keydown_event[max_class_index])
+            }
+
+            prev_action_keydown_event = max_class_index
 
             // finally draw the poses
             drawPose(pose);
@@ -181,14 +178,14 @@
     </script>
 </head>
 <body onload="init()">
-    <div style="background-color: rgb(238, 238, 238);">
-        <h3>Tykimos Teachable Machine Game</h3>
-        Game : <span id="selected_game">None</span> | Action : <span id="selected_action">None</span><br>
-        1. Change Game : 
-        <a href="javascript:void(0);" onclick="selectGame('t-rex-runner-gh-pages')">#Dino</a> |
-        <a href="javascript:void(0);" onclick="selectGame('ms-edge-letssurf-main')">#Surf</a>
-        <br>
-        2. Change Action : 
+    <div style="background-color:#F8F9FA;">
+        <h3 style="color:#1A73E8;">Tykimos Teachable Machine Game</h3>
+        Selected Game : <span id="selected_game">None</span> | 
+        Change >> 
+        <a href="javascript:void(0);" onclick="selectGame('t-rex-runner-gh-pages')">#Dino</a>
+        <a href="javascript:void(0);" onclick="selectGame('ms-edge-letssurf-main')">#Surf</a><br>
+        Selected Action : <span id="selected_action">None</span> | 
+        Change >> 
         <a href="javascript:void(0);" onclick="selectAction('XMTSbvwaV')">#XMTSbvwaV</a>
         <a href="javascript:void(0);" onclick="selectAction('zfv1Zw-fy')">#zfv1Zw-fy</a>
         Custom 
