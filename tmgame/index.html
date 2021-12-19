@@ -1,8 +1,8 @@
 <div style="background-color: rgb(238, 238, 238);">Tykimos Teachable Machine Game - 
 <a href="javascript:void(0);" onclick="changeGame('t-rex-runner-gh-pages')">#Dino</a>
 <a href="javascript:void(0);" onclick="changeGame('ms-edge-letssurf-main')">#Surf</a>
-<input type="text" id="model_link" value="https://teachablemachine.withgoogle.com/models/QqZr0DXLv/">
-<button type="button" onclick="init()">Load Model</button> action : stay | up | down | right | left | space
+<input type="text" id="model_link" value="https://teachablemachine.withgoogle.com/models/wU1aCSCE4/">
+<button type="button" onclick="init()">Load Model</button>
 </div>
 <div style="position: absolute;z-index: 123;">
     <div><canvas id="canvas"></canvas></div>
@@ -16,6 +16,10 @@
 
     // the link to your model provided by Teachable Machine export panel
     let model, webcam, ctx, labelContainer, maxPredictions;
+
+    var action0_key;
+    var action1_key;
+    var action2_key;
 
     async function init() {
 
@@ -78,27 +82,15 @@
 
         switch (max_class_index){
             case 0:
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 32}));
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 37}));
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 38}));
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 39}));                
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: 40}));
+                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: action1_key}));
+                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keyup', {keyCode: action2_key}));
                 break;
-            case 1: // up
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 38}));
+            case 1:
+                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: action1_key}));
                 break;
-            case 2: // down
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 40}));
-                break;
-            case 3: // right
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 39}));
-                break;
-            case 4: // left
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 37}));
-                break;
-            case 5: // space
-                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: 32}));
-                break;                
+            case 2:
+                document.getElementById("game_frame").contentDocument.dispatchEvent(new KeyboardEvent('keydown', {keyCode: action2_key}));
+                break;           
         }
 
         // finally draw the poses
@@ -119,6 +111,21 @@
     
     async function changeGame(game_src){
         document.getElementById("game_frame").src = game_src + '/index.html'
+
+        switch(game_src){
+            case 't-rex-runner-gh-pages':
+                action0_key = -1;
+                action1_key = 38; // up
+                action2_key = 40; // down
+                break;
+            case 'ms-edge-letssurf-main':
+                action0_key = -1;
+                action1_key = 37; // left
+                action2_key = 39; // right
+                break;
+        }
+
+        document.getElementById("game_frame").contentWindow.focus();
     }
 </script>
 
