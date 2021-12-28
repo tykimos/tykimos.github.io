@@ -30,11 +30,10 @@ image: https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-
 
 디폴트로 제공하는 wef1yJup2 모델은 다음과 행동으로 학습되어 있습니다. 
 
-![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_stay.jpg)
-![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_up.jpg)
-![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_down.jpg)
-![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_right.jpg)
-![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_left.jpg)
+|stay|up|down|right|left|
+|---|---|---|---|---|
+|![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_stay.jpg)|![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_up.jpg)|   |![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_down.jpg)|![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_right.jpg)|
+|![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_left.jpg)|
 
 #### 사용법
 
