@@ -11,12 +11,12 @@ comments: true
 
 게더타운에서의 미로찾기는 자동 길찾기 알고리즘을 통해서 목적지를 클릭하면 알아서 찾아주기 때문에 직접 마우스 컨트롤을 통해서 미로 찾기를 하는 것은 권장하지 않습니다. 오프라인에서 나무 등으로 만들어진 미로 찾기 처럼 게더타운에서도 비슷하게 구현한 뒤, 티처블 머신을 이용해서 가만이 있기, 위/아래, 왼쪽/오른쪽 행동을 정의하고, 이러한 행동을 통해서 미로찾기 게임을 해봅니다.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/06PkLEtzNDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### 특징
 * 온라인에서 여러 사람이 접속하여 서로 경기를 할 수 있습니다.
 * 원하는 행동으로 학습할 수 있기 때문에 몸이 불편한 사람도 쉽게 게임에 참여할 수 있습니다. 
 * 실제 오프라인 공간에서 미로찾기 게임하듯이 즐길 수 있습니다. 
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/06PkLEtzNDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 사전 준비
 
