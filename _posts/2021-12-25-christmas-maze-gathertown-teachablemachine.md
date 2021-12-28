@@ -46,7 +46,7 @@ image: https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-
 
 #### 나만의 행동을 정의하는 법
 
-Teachable Machine의 Pose Project로 머신러닝 모델을 아래 순서로 학습십니다. 
+Teachable Machine의 Pose Project로 머신러닝 모델을 아래 순서로 학습시킵니다.
 
 1. https://teachablemachine.withgoogle.com/ 에 접속하여 Pose Project을 생성합니다.
 
@@ -75,3 +75,6 @@ Teachable Machine의 Pose Project로 머신러닝 모델을 아래 순서로 학
 7. 확인한 id를 “http://127.0.0.1:5001/” 페이지의 입력 폼에 입력한 후 [Load] 클릭하면 학습한 모델이 적용됩니다.
 
 ![img](https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_6.jpg)
+
+### 더보기
+* github 바로가기 [여기](https://github.com/teachableverse/christmas-maze-gathertown-teachablemachine)
