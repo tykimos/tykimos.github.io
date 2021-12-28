@@ -1,19 +1,13 @@
 ---
-date: 2021-12-25 12:00:00
 layout: post
-title: 티처블머신을 사용한 게더타운 크리스마스 미로찾기
-subtitle: 티처블버스
-description: 크리스마스를 함께 즐길 수 있는 공간입니다. 이 공간은 게더타운에서 구현되었고, 티처블머신을 통해 사용자가 원하는 행동으로 제어 방법을 정의할 수 있습니다.
-image: https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_title_0.jpg
-optimized_image: https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_title_0.jpg
-category: 게임
-tags:
-  - 게더타운
-  - 티처블머신
-  - 게임
+title:  "티처블머신을 사용한 게더타운 크리스마스 미로찾기"
 author: 김태영
+date:   2021-12-25 12:00:00
+categories: tech
 comments: true
+image: https://tykimos.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_title_0.jpg
 ---
+
 게더타운은 메타버스 화상회의 플랫폼으로 맵을 만들어서, 해당 맵에서 아바타를 통해서 여러가지 활동 및 소통을 할 수 있는 공간입니다. 게더타운을 놀이공간으로 활용하는 사례도 많은 데, 그 중 하나로 미로 찾기 게임을 할 수도 있습니다.
 
 게더타운에서의 미로찾기는 자동 길찾기 알고리즘을 통해서 목적지를 클릭하면 알아서 찾아주기 때문에 직접 마우스 컨트롤을 통해서 미로 찾기를 하는 것은 권장하지 않습니다. 오프라인에서 나무 등으로 만들어진 미로 찾기 처럼 게더타운에서도 비슷하게 구현한 뒤, 티처블 머신을 이용해서 가만이 있기, 위/아래, 왼쪽/오른쪽 행동을 정의하고, 이러한 행동을 통해서 미로찾기 게임을 해봅니다.
