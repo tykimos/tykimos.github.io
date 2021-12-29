@@ -5,6 +5,7 @@ author: 김태영
 date:   2021-12-25 12:00:00
 categories: tech
 comments: true
+image: http://tykimos.github.io/warehouse/2021-10-9-KerasKoreaMeetup_img1.png
 ---
 
 게더타운은 메타버스 화상회의 플랫폼으로 맵을 만들어서, 해당 맵에서 아바타를 통해서 여러가지 활동 및 소통을 할 수 있는 공간입니다. 게더타운을 놀이공간으로 활용하는 사례도 많은 데, 그 중 하나로 미로 찾기 게임을 할 수도 있습니다.
