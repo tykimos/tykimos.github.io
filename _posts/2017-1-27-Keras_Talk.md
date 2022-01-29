@@ -90,9 +90,9 @@ model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accura
 hist = model.fit(x_train, y_train, epochs=5, batch_size=32)
 
 # 5. 학습과정 살펴보기
-print('## training loss and acc ##')
+print('## training loss and accuracy ##')
 print(hist.history['loss'])
-print(hist.history['acc'])
+print(hist.history['accuracy'])
 
 # 6. 모델 평가하기
 loss_and_metrics = model.evaluate(x_test, y_test, batch_size=32)
