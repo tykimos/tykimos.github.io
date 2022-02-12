@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Game</title>
+  <link rel="stylesheet" href="game.css">
+  <script type="text/javascript" src="levels.js"></script>
+</head>
+
+<body>
+  <div id="scoreBoard">
+    <table c>
+      <tr>
+        <td colspan="3"><b>Level:</b></td>
+        <td colspan="1" id="gameLevel"></td>
+        <td colspan="3"><b>Moves:</b></td>
+        <td colspan="1" id="gameMoves"></td>
+        <td colspan="11"/>
+        <td colspan="1"><img id="shieldStatusIndicator" src="blank.png" /></td>
+      </tr>
+    </table>
+  </div>
+  <div id="mainFrame">
+    <div class="player" id="player" style="left: 0px; top: 0px;"></div>
+    <div class="modal" id="startDialog" style="display: block;">
+      <h1 id="startDialogLevel">Level</h1>
+      <p>Click <b>Start</b> to begin</p>
+      <button onclick="startLevel();"><b>Start</b></button>
+    </div>
+    <div class="modal" id="gameOverDialog" style="display: none;">
+      <h1 id="gameOverDialog">Game Over</h1>
+      <p id="gameOverMessage"></p>
+      <button onclick="startAgain();"><b>Start Again</b></button>
+    </div>
+  </div>
+  <div id="logFrame">
+    <p id="log"></p>
+    <script language="javascript">
+var level = 1;
+var numMoves = 0;
+var hasShield = false;
+
+var thisField = {};
+var fieldObjects = [];
+var maxX = 1000 / 25 - 1;
+var maxY = 500 / 25 - 1;
+var playerX = 0;
+var playerY = 0;
+var active = false;
+
+function escapeHtml(unsafe) {
+  // https://stackoverflow.com/a/6234804
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+ }
+
+function startAgain() {
+  document.getElementById("gameOverDialog").style.display = "none";
+  document.getElementById("gameOverMessage").innerHTML = "";
+  level = 1;
+  clearField();
+  initField();
+  drawField();
+  document.getElementById("startDialog").style.display = "block";
+}
+
+function resetPlayer() {
+  numMoves = 0;
+  setShieldStatus(false);
+  active = false;
+}
+
+function setShieldStatus(status) {
+  hasShield = status;
+  if (status) {
+    document.getElementById("shieldStatusIndicator").src = "shield.png";
+    document.getElementById("player").style.backgroundImage = "url('player-shield.png')";
+  } else {
+    document.getElementById("shieldStatusIndicator").src = "blank.png";
+    document.getElementById("player").style.backgroundImage = "url('player.png')";
+  }
+}
+
+function gameOver(reason) {
+  active = false;
+  if (reason !== undefined) {
+    document.getElementById("gameOverMessage").innerHTML = escapeHtml(reason);
+  } else {
+    document.getElementById("gameOverMessage").innerHTML = escapeHtml("");
+  }
+  document.getElementById("gameOverDialog").style.display = "block";
+}
+
+function startLevel() {
+  document.getElementById("startDialog").style.display = "none";
+  active = true;
+}
+
+function endLevel() {
+  active = false;
+  level++;
+  if (typeof levelMatrix[""+level] === 'undefined') {
+    // Last level
+    gameOver("Last level reached.");
+  } else {
+    // Next level
+    clearField();
+    initField();
+    drawField();
+    resetPlayer();
+    document.getElementById("startDialog").style.display = "block";
+  }
+}
+
+function removeFieldObject(id) {
+  for(var i = 0; i < fieldObjects.length; i++) {
+    if (fieldObjects[i] === id) {
+      fieldObjects.splice(i, 1);
+    }
+  }
+}
+
+function initRaster() {
+  for (var x = 0; x <= maxX; x++ ) {
+    for (var y = 0; y <= maxY; y++) {
+      id = "raster-("+x+","+y+")";
+      html = '<div class="cell" id="' + id + '" style="left: ' + 25 * x + 'px; top: ' + 25 * y + 'px;"></div>';
+      document.getElementById("mainFrame").innerHTML += html;
+      document.getElementById(id).style.backgroundImage = "url(blank.png)";
+    }
+  }
+}
+
+function clearField() {
+  for (var x = 0; x <= maxX; x++ ) {
+    for (var y = 0; y <= maxY; y++) {
+      let id = "raster-("+x+","+y+")";
+      console.log("Clear cell: " + id);
+      document.getElementById(id).style.backgroundImage = "url(blank.png)";
+    }
+  }
+  fieldObjects = [];
+}
+
+function drawCell(x, y, cell) {
+  if (typeof cell !== 'undefined') {
+    console.log(cell);
+    var html = "";
+    cellType = cell["type"];
+    var id = cell["id"];
+    switch (cellType) {
+      case "wall":
+        document.getElementById(id).style.backgroundImage = "url(wall.png)";
+        fieldObjects.push(id);
+        break;
+      case "exit":
+        document.getElementById(id).style.backgroundImage = "url(exit.png)";
+        fieldObjects.push(id);
+        break;
+      case "teleport":
+        document.getElementById(id).style.backgroundImage = "url(tunnel.png)";
+        fieldObjects.push(id);
+        break;
+      case "bomb":
+        document.getElementById(id).style.backgroundImage = "url(bomb.png)";
+        fieldObjects.push(id);
+        break;
+      case "shield":
+        document.getElementById(id).style.backgroundImage = "url(shield.png)";
+        fieldObjects.push(id);
+        break;
+      default:
+        document.getElementById(id).style.backgroundImage = "url(blank.png)";
+        break;
+    }
+    if (html.length > 0) {
+      document.getElementById("mainFrame").innerHTML += html;
+    }
+  }
+}
+
+function clearCell(x, y) {
+  if (typeof thisField !== 'undefined') {
+    var row = thisField["" + y];
+    if (typeof row !== 'undefined') {
+      let id = "raster-("+x+","+y+")";
+      document.getElementById(id).style.backgroundImage = "url(blank.png)";
+      let cell = row["" + x];
+      delete row["" + x];
+      thisField["" + y] = row;
+    }
+  }
+}
+
+function getCell(x, y) {
+  if (typeof thisField !== 'undefined') {
+    var row = thisField["" + y];
+    if (typeof row !== 'undefined') {
+      var cell = row["" + x];
+      if (cell !== null && typeof cell !== 'undefined') {
+        return cell;
+      }
+    }
+  }
+  return undefined;
+}
+
+function getCellType(x, y) {
+  var cell = getCell(x, y);
+  if (typeof cell !== 'undefined' && typeof cell["type"] !== 'undefined') {
+    return cell["type"];
+  }
+  return "empty";
+}
+
+function parseCoordinates(str) {
+  var coords = {};
+  if (typeof str !== 'undefined') {
+    const re = /\((\s*\d+)\s*,\s*(\d+)\s*\)/;
+    var x = -1;
+    var y = -1;
+    str = str.trim();
+    var matches = str.match(re);
+    if (matches.length === 3) {
+      x = parseInt(matches[1], 10);
+      y = parseInt(matches[2], 10);
+    }
+    coords["x"] = x;
+    coords["y"] = y;
+  }
+  return coords;
+}
+
+function splitSCSV(strData) {
+  var splitData = [];
+  var str = String(strData);
+  if (typeof str !== 'undefined' && str.length > 0) {
+    var i = 0;
+    var item = "";
+    while (i < str.length) {
+      var c = str.substr(i,1);
+      if (c === ';') {
+        splitData.push(item);
+        item = "";
+      } else {
+        item += c;
+      }
+      i++;
+    }
+    splitData.push(item);
+  }
+  return splitData;
+}
+
+function initField() {
+  Object.keys(levelMatrix).forEach(function(lvl) {
+      let levelData = levelMatrix[lvl];
+      let fieldData = {};
+      let rowData = levelData["rows"];
+      for (var y = 0; y < rowData.length; y++) {
+        let rowObject = {};
+        let row = splitSCSV(rowData[y]);
+        for (var x = 0; x < row.length; x++) {
+          let cellValue = String(row[x]);
+          if (typeof cellValue !== 'undefined' && cellValue.length > 0) {
+            let cell = {};
+            let id = "raster-("+x+","+y+")";
+            cell["id"] = id;
+            var t = cellValue.substr(0,1);
+            switch(t) {
+              case "b":
+                cell["type"] = "bomb";
+                break;
+              case "s":
+                cell["type"] = "shield";
+                break;
+              case "t":
+                cell["type"] = "teleport";
+                cell["to"] = parseCoordinates(cellValue.substr(1));
+                break;
+              case "w":
+                cell["type"] = "wall";
+                break;
+              case "x":
+                cell["type"] = "exit";
+                break;
+              default:
+                break;
+            }
+            rowObject[x] = cell;
+            //console.log("initField: (" + x + "," + y + ") " + cell["type"]);
+          }
+        }
+        fieldData[y] = rowObject;
+      }
+      levelData["field"] = fieldData;
+    }
+  );
+}
+
+function drawField() {
+  playerX = 0;
+  playerY = 0;
+  var thisLevel = levelMatrix["" + level];
+  var levelName = "Level " + level;
+  if (typeof thisLevel !== 'undefined') {
+    if (typeof thisLevel["name"] !== 'undefined') {
+      levelName = thisLevel["name"];
+    }
+    if (typeof thisLevel["start"] !== 'undefined' && typeof thisLevel["start"]["x"] === 'number' && typeof thisLevel["start"]["y"] === 'number') {
+      playerX = thisLevel["start"]["x"];
+      playerY = thisLevel["start"]["y"];
+    }
+    document.getElementById('startDialogLevel').innerHTML = levelName;
+    var field = thisLevel["field"];
+    if (typeof field === 'undefined') {
+      alert("Level " + level + " not defined");
+    } else {
+      thisField = field;
+      for (y = 0; y <= maxY; y++) {
+        var row = field["" + y];
+        if (typeof row !== 'undefined') {
+          for (x = 0; x <= maxX; x++) {
+            var cell = row["" + x];
+            if (typeof cell !== 'undefined') {
+              //console.log("(" + x + "," + y + ") " + cell["type"]);
+              drawCell(x, y, cell);
+            }
+          }
+        }
+      }
+    }
+  }
+  updatePlayerLocation();
+  resetPlayer();
+}
+
+function teleportPlayer(x, y) {
+  var cell = getCell(x,y);
+  if (typeof cell !== undefined && typeof cell["to"] !== undefined) {
+    var x = cell["to"]["x"];
+    var y = cell["to"]["y"];
+    console.log("Teleport to: (" + x + "," + y + ")");
+    if (typeof x === 'number' && x >= 0 && x <= maxX && typeof y === 'number' && y >= 0 && y <= maxY) {
+      playerX = x;
+      playerY = y;
+    }
+  }
+  updatePlayerLocation();
+}
+
+function updatePlayerLocation() {
+  posX = 25 * playerX;
+  posY = 25 * playerY;
+  numMoves++;
+  document.getElementById("player").style.left = posX + "px";
+  document.getElementById("player").style.top = posY + "px";
+  document.getElementById("gameMoves").innerHTML = numMoves;
+}
+
+function logKey(e) {
+  log.textContent += ` ${e.code}`;
+}
+
+function movePlayer(x, y) {
+  log.textContent += ` ${x} ${y}`;
+  let oldX = playerX;
+  let oldY = playerY;
+  playerX += x;
+  playerY += y;
+  log.textContent += ` ${playerX} ${playerY}`;
+  if (playerX < 0) {
+    playerX = 0;
+  }
+  if (playerX > maxX) {
+    playerX = maxX;
+  }
+  if (playerY < 0) {
+    playerY = 0;
+  }
+  if (playerY > maxY) {
+    playerY = maxY;
+  }
+  let cellType = getCellType(playerX, playerY);
+  switch (cellType) {
+    case "wall":
+      playerX = oldX;
+      playerY = oldY;
+      break;
+    case "bomb":
+      if (hasShield) {
+        setShieldStatus(false);
+        updatePlayerLocation();
+        clearCell(playerX, playerY);
+      } else {
+        gameOver("You hit a bomb");
+      }
+      break;
+    case "shield":
+      updatePlayerLocation();
+      setShieldStatus(true);
+      clearCell(playerX, playerY);
+      break;
+    case "exit":
+      updatePlayerLocation();
+      endLevel();
+      break;
+    case "teleport":
+      teleportPlayer(playerX, playerY);
+      break;
+    default:
+      updatePlayerLocation();
+  }
+}
+
+function keyDownHandler(e) {
+  logKey(e);
+  if (active) {
+    switch (e.code) {
+      case "ArrowDown":
+        movePlayer(0, 1);
+        break;
+      case "ArrowUp":
+        movePlayer(0, -1);
+        break;
+      case "ArrowLeft":
+        movePlayer(-1, 0);
+        break;
+      case "ArrowRight":
+        movePlayer(1, 0);
+        break;
+      default:
+    }
+  }
+}
+
+function uuidv4() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0,
+      v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+document.addEventListener('keydown', keyDownHandler);
+initField();
+initRaster();
+drawField();
+
+document.getElementById("gameLevel").innerHTML = level;
+document.getElementById("gameMoves").innerHTML = numMoves;
+setInterval(function() {
+  document.getElementById("gameLevel").innerHTML = level;
+  document.getElementById("gameMoves").innerHTML = numMoves;
+}, 500);
+    </script>
+  </div>
+</body>
+
+</html>
