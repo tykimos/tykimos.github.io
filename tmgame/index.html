@@ -53,6 +53,7 @@
                     break;
 
                 case 'ms-edge-letssurf-main':
+                case 'MazeGame-main':                    
                     ifr_dom_type = 'window';
                     action_keyup_event[0] = null;
                     action_keyup_event[1] = new KeyboardEvent('keyup', {'key': 'ArrowRight'});
@@ -145,12 +146,15 @@
                     break;
             }
 
-            if (prev_action_keydown_event != max_class_index && prev_action_keydown_event > 0){
-                ifr_dom.dispatchEvent(action_keyup_event[prev_action_keydown_event])
-            }
+            if (ifr_dom != null)
+            {
+                if (prev_action_keydown_event != max_class_index && prev_action_keydown_event > 0){
+                    ifr_dom.dispatchEvent(action_keyup_event[prev_action_keydown_event])
+                }
 
-            if (max_class_index > 0){
-                ifr_dom.dispatchEvent(action_keydown_event[max_class_index])
+                if (max_class_index > 0){
+                    ifr_dom.dispatchEvent(action_keydown_event[max_class_index])
+                }
             }
 
             prev_action_keydown_event = max_class_index
@@ -183,7 +187,8 @@
         Selected Game : <span id="selected_game">None</span> | 
         Change >> 
         <a href="javascript:void(0);" onclick="selectGame('t-rex-runner-gh-pages')">#Dino</a>
-        <a href="javascript:void(0);" onclick="selectGame('ms-edge-letssurf-main')">#Surf</a><br>
+        <a href="javascript:void(0);" onclick="selectGame('ms-edge-letssurf-main')">#Surf</a>
+        <a href="javascript:void(0);" onclick="selectGame('MazeGame-main')">#Maze</a><br>
         Selected Action : <span id="selected_action">None</span> | 
         Change >> 
         <a href="javascript:void(0);" onclick="selectAction('EVRMaHuP2')">#EVRMaHuP2</a>        
