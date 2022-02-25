@@ -8,9 +8,11 @@ comments: true
 image: http://tykimos.github.io/warehouse/2022-2-25-The_latest_Keras_io_Code_Examples_Analysis_1_Timeline_10_0.png
 ---
 
-# The latest Keras.io Code Examples Analysis 1 - Timeline
-
 The Keras.io Code Example is frequently updated. To track the latest information, this code checks when the example was added or changed. 
+
+Since this post includes Python source code and HTML rendering, I recommend you to see the Google Colab environment of this ipython notebook.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tykimos/tykimos.github.io/blob/master/warehouse/2022-2-25-The_latest_Keras_io_Code_Examples_Analysis_1_Timeline.ipynb)
 
 ## Download Keras.io Code Example
 
