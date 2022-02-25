@@ -248,845 +248,145 @@ rendering_html = sorted_report_df.to_html(render_links=True, escape=False, index
 IPython.display.HTML(rendering_html)
 ```
 
-
-
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Category</th>
-      <th>Title</th>
-      <th>Date created</th>
-      <th>Last modified</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>structured_data</td>
-      <td>[Classification with TensorFlow Decision Forests](https://keras.io/examples/structured_data/classification_with_tfdf)</a></td>
-      <td>2022-01-25</td>
-      <td>2022-01-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a></td>
-      <td>2022-01-22</td>
-      <td>2022-01-22</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a></td>
-      <td>2022-01-18</td>
-      <td>2022-01-18</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a></td>
-      <td>2022-01-13</td>
-      <td>2022-01-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a></td>
-      <td>2022-01-12</td>
-      <td>2022-01-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a></td>
-      <td>2022-01-07</td>
-      <td>2022-01-10</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a></td>
-      <td>2021-12-28</td>
-      <td>2021-12-28</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a></td>
-      <td>2021-12-26</td>
-      <td>2022-01-03</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a></td>
-      <td>2021-12-20</td>
-      <td>2021-12-21</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a></td>
-      <td>2021-12-10</td>
-      <td>2021-12-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a></td>
-      <td>2021-11-08</td>
-      <td>2021-11-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a></td>
-      <td>2021-11-04</td>
-      <td>2021-12-20</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a></td>
-      <td>2021-11-03</td>
-      <td>2021-11-03</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a></td>
-      <td>2021-10-29</td>
-      <td>2021-10-29</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a></td>
-      <td>2021-10-28</td>
-      <td>2021-10-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a></td>
-      <td>2021-10-20</td>
-      <td>2021-10-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a></td>
-      <td>2021-10-19</td>
-      <td>2021-10-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a></td>
-      <td>2021-10-12</td>
-      <td>2021-10-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a></td>
-      <td>2021-10-08</td>
-      <td>2021-10-10</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a></td>
-      <td>2021-10-07</td>
-      <td>2021-10-07</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a></td>
-      <td>2021-10-05</td>
-      <td>2021-10-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a></td>
-      <td>2021-09-30</td>
-      <td>2021-09-30</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a></td>
-      <td>2021-09-26</td>
-      <td>2021-09-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a></td>
-      <td>2021-09-24</td>
-      <td>2021-09-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a></td>
-      <td>2021-09-18</td>
-      <td>2021-09-19</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a></td>
-      <td>2021-09-13</td>
-      <td>2021-12-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a></td>
-      <td>2021-09-13</td>
-      <td>2021-09-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a></td>
-      <td>2021-09-11</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a></td>
-      <td>2021-09-10</td>
-      <td>2021-09-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a></td>
-      <td>2021-09-08</td>
-      <td>2021-09-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a></td>
-      <td>2021-08-31</td>
-      <td>2021-09-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a></td>
-      <td>2021-08-30</td>
-      <td>2021-08-30</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a></td>
-      <td>2021-08-28</td>
-      <td>2021-08-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a></td>
-      <td>2021-08-16</td>
-      <td>2021-08-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a></td>
-      <td>2021-08-16</td>
-      <td>2021-11-25</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a></td>
-      <td>2021-08-16</td>
-      <td>2021-12-27</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a></td>
-      <td>2021-08-09</td>
-      <td>2021-08-09</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a></td>
-      <td>2021-08-08</td>
-      <td>2021-08-15</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a></td>
-      <td>2021-08-01</td>
-      <td>2021-08-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/involution>Involutional neural networks</a></td>
-      <td>2021-07-25</td>
-      <td>2021-07-25</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a></td>
-      <td>2021-07-21</td>
-      <td>2021-07-21</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a></td>
-      <td>2021-07-13</td>
-      <td>2021-07-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a></td>
-      <td>2021-07-01</td>
-      <td>2021-07-01</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a></td>
-      <td>2021-06-25</td>
-      <td>2021-08-05</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a></td>
-      <td>2021-06-24</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a></td>
-      <td>2021-06-23</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a></td>
-      <td>2021-06-19</td>
-      <td>2021-06-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a></td>
-      <td>2021-06-18</td>
-      <td>2021-06-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a></td>
-      <td>2021-06-02</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a></td>
-      <td>2021-05-29</td>
-      <td>2021-10-31</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a></td>
-      <td>2021-05-28</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a></td>
-      <td>2021-05-26</td>
-      <td>2021-05-26</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a></td>
-      <td>2021-05-20</td>
-      <td>2021-06-06</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a></td>
-      <td>2021-05-15</td>
-      <td>2021-05-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a></td>
-      <td>2021-05-06</td>
-      <td>2021-05-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a></td>
-      <td>2021-05-02</td>
-      <td>2021-05-02</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a></td>
-      <td>2021-04-30</td>
-      <td>2021-05-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a></td>
-      <td>2021-04-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a></td>
-      <td>2021-04-24</td>
-      <td>2021-04-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a></td>
-      <td>2021-04-13</td>
-      <td>2021-04-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a></td>
-      <td>2021-03-25</td>
-      <td>2021-03-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a></td>
-      <td>2021-03-19</td>
-      <td>2021-03-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a></td>
-      <td>2021-03-13</td>
-      <td>2021-03-17</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a></td>
-      <td>2021-03-06</td>
-      <td>2021-03-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a></td>
-      <td>2021-03-01</td>
-      <td>2021-03-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a></td>
-      <td>2021-02-28</td>
-      <td>2021-02-28</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a></td>
-      <td>2021-02-27</td>
-      <td>2021-02-27</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a></td>
-      <td>2021-02-15</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a></td>
-      <td>2021-02-10</td>
-      <td>2021-02-10</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a></td>
-      <td>2021-02-09</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a></td>
-      <td>2021-01-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a></td>
-      <td>2021-01-18</td>
-      <td>2021-01-18</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a></td>
-      <td>2021-01-13</td>
-      <td>2021-01-13</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a></td>
-      <td>2020-12-31</td>
-      <td>2021-05-05</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a></td>
-      <td>2020-12-30</td>
-      <td>2020-12-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a></td>
-      <td>2020-11-30</td>
-      <td>2020-11-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a></td>
-      <td>2020-10-23</td>
-      <td>2020-10-24</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a></td>
-      <td>2020-09-25</td>
-      <td>2020-12-23</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a></td>
-      <td>2020-09-23</td>
-      <td>2020-09-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a></td>
-      <td>2020-09-18</td>
-      <td>2020-09-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a></td>
-      <td>2020-09-01</td>
-      <td>2020-09-01</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a></td>
-      <td>2020-08-15</td>
-      <td>2020-08-29</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a></td>
-      <td>2020-08-12</td>
-      <td>2020-08-12</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a></td>
-      <td>2020-08-10</td>
-      <td>2020-08-10</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a></td>
-      <td>2020-07-29</td>
-      <td>2020-08-07</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-27</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a></td>
-      <td>2020-07-21</td>
-      <td>2021-07-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a></td>
-      <td>2020-06-30</td>
-      <td>2020-07-16</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a></td>
-      <td>2020-06-23</td>
-      <td>2020-07-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a></td>
-      <td>2020-06-14</td>
-      <td>2020-06-26</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a></td>
-      <td>2020-06-14</td>
-      <td>2020-03-07</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a></td>
-      <td>2020-06-09</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a></td>
-      <td>2020-06-05</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a></td>
-      <td>2020-06-04</td>
-      <td>2020-09-21</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a></td>
-      <td>2020-06-02</td>
-      <td>2020-06-02</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a></td>
-      <td>2020-05-31</td>
-      <td>2020-05-31</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a></td>
-      <td>2020-05-25</td>
-      <td>2020-05-26</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a></td>
-      <td>2020-05-24</td>
-      <td>2020-05-24</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a></td>
-      <td>2020-05-23</td>
-      <td>2020-06-17</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a></td>
-      <td>2020-05-23</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a></td>
-      <td>2020-05-21</td>
-      <td>2020-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a></td>
-      <td>2020-05-17</td>
-      <td>2020-07-14</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a></td>
-      <td>2020-05-17</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a></td>
-      <td>2020-05-16</td>
-      <td>2020-05-16</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a></td>
-      <td>2020-05-13</td>
-      <td>2020-05-13</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2020-05-10</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a></td>
-      <td>2020-05-09</td>
-      <td>2020-05-09</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a></td>
-      <td>2020-05-05</td>
-      <td>2020-05-05</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a></td>
-      <td>2020-04-27</td>
-      <td>2020-04-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a></td>
-      <td>2020-04-26</td>
-      <td>2021-03-07</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a></td>
-      <td>2020-04-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a></td>
-      <td>2019-11-06</td>
-      <td>2020-05-17</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a></td>
-      <td>2019-05-28</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a></td>
-      <td>2019-05-10</td>
-      <td>2019-05-10</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a></td>
-      <td>2019-04-29</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a></td>
-      <td>2019-03-20</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a></td>
-      <td>2017-09-29</td>
-      <td>2020-04-26</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a></td>
-      <td>2016-01-13</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a></td>
-      <td>2016-01-11</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a></td>
-      <td>2016-01-06</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a></td>
-      <td>2015-08-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a></td>
-      <td>2015-06-19</td>
-      <td>2020-04-21</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a></td>
-      <td>2015-06-15</td>
-      <td>2020-04-30</td>
-    </tr>
-  </tbody>
-</table>
-
-
+| Category        | Title                                                                                                                                                        | Date created        | Last modified       |
+|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:--------------------|
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a>                               | 2022-01-25 | 2022-01-25 |
+| vision          | <a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a>                                                     | 2022-01-22 | 2022-01-22 |
+| structured_data | <a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a>                                            | 2022-01-18 | 2022-01-18 |
+| nlp             | <a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a>                                               | 2022-01-13 | 2022-01-13 |
+| vision          | <a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a>                                                                                  | 2022-01-12 | 2022-01-12 |
+| vision          | <a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a>                                                       | 2022-01-07 | 2022-01-10 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a>                     | 2021-12-28 | 2021-12-28 |
+| generative      | <a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a>                                                              | 2021-12-26 | 2022-01-03 |
+| vision          | <a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a>                                                   | 2021-12-20 | 2021-12-21 |
+| vision          | <a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a>                                                       | 2021-12-10 | 2021-12-15 |
+| generative      | <a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a>                                                                      | 2021-11-08 | 2021-11-08 |
+| vision          | <a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a>                                                                   | 2021-11-04 | 2021-12-20 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a>                          | 2021-11-03 | 2021-11-03 |
+| nlp             | <a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a>                                  | 2021-10-29 | 2021-10-29 |
+| generative      | <a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a>                                        | 2021-10-28 | 2021-10-28 |
+| vision          | <a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a>                         | 2021-10-20 | 2021-10-20 |
+| vision          | <a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a>                                          | 2021-10-19 | 2021-10-19 |
+| vision          | <a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a>                                                                   | 2021-10-12 | 2021-10-12 |
+| vision          | <a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a>                                                         | 2021-10-08 | 2021-10-10 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a>               | 2021-10-07 | 2021-10-07 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a>                                                                    | 2021-10-05 | 2021-10-05 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a>           | 2021-09-30 | 2021-09-30 |
+| audio           | <a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a>                                                                   | 2021-09-26 | 2021-09-26 |
+| vision          | <a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a>                                                                | 2021-09-24 | 2021-09-24 |
+| vision          | <a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a>                                                               | 2021-09-18 | 2021-09-19 |
+| graph           | <a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a>                                    | 2021-09-13 | 2021-12-26 |
+| vision          | <a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a>                                                           | 2021-09-13 | 2021-09-13 |
+| vision          | <a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a>                                                                 | 2021-09-11 | 2021-09-15 |
+| vision          | <a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a>                                                                     | 2021-09-10 | 2021-09-10 |
+| vision          | <a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a>                                                   | 2021-09-08 | 2021-09-08 |
+| vision          | <a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a>                                                | 2021-08-31 | 2021-09-01 |
+| vision          | <a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a>                                                                     | 2021-08-30 | 2021-08-30 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a>                                          | 2021-08-28 | 2021-08-28 |
+| vision          | <a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a>                                                                 | 2021-08-16 | 2021-08-16 |
+| vision          | <a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a>        | 2021-08-16 | 2021-11-25 |
+| graph           | <a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a>                    | 2021-08-16 | 2021-12-27 |
+| vision          | <a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a>                                                                          | 2021-08-09 | 2021-08-09 |
+| nlp             | <a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a>                                                                        | 2021-08-08 | 2021-08-15 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a>                                             | 2021-08-01 | 2021-08-01 |
+| vision          | <a href=https://keras.io/examples/vision/involution>Involutional neural networks</a>                                                                         | 2021-07-25 | 2021-07-25 |
+| generative      | <a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a>                                                            | 2021-07-21 | 2021-07-21 |
+| generative      | <a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a>                                                                             | 2021-07-13 | 2021-07-15 |
+| generative      | <a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a>                                                                | 2021-07-01 | 2021-07-01 |
+| generative      | <a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a>                                 | 2021-06-30 | 2021-06-30 |
+| vision          | <a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a>                                                                          | 2021-06-30 | 2021-06-30 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a>                    | 2021-06-25 | 2021-08-05 |
+| rl              | <a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a>                                                                           | 2021-06-24 | 2021-06-24 |
+| nlp             | <a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a>                                                       | 2021-06-23 | 2021-06-24 |
+| vision          | <a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a>                                                   | 2021-06-19 | 2021-06-19 |
+| vision          | <a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a>                                 | 2021-06-18 | 2021-06-18 |
+| vision          | <a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a>                                                       | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a>                                                        | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a>                                                  | 2021-06-02 | 2021-06-05 |
+| vision          | <a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a>                                            | 2021-05-30 | 2021-05-30 |
+| graph           | <a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a>                                                     | 2021-05-30 | 2021-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a>                                                                               | 2021-05-29 | 2021-10-31 |
+| vision          | <a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a>                                           | 2021-05-28 | 2021-06-05 |
+| nlp             | <a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a> | 2021-05-26 | 2021-05-26 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a>                                  | 2021-05-20 | 2021-06-06 |
+| graph           | <a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a>                                                   | 2021-05-15 | 2021-05-15 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a>                 | 2021-05-06 | 2021-05-06 |
+| vision          | <a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a>                                                    | 2021-05-02 | 2021-05-02 |
+| vision          | <a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a>                                                         | 2021-04-30 | 2021-05-13 |
+| vision          | <a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a>                                              | 2021-04-30 | 2021-01-30 |
+| vision          | <a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a>            | 2021-04-24 | 2021-04-24 |
+| vision          | <a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a>                                                      | 2021-04-13 | 2021-04-19 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a>                         | 2021-03-25 | 2021-03-25 |
+| vision          | <a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a>                                                       | 2021-03-19 | 2021-03-20 |
+| vision          | <a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a>                                        | 2021-03-13 | 2021-03-17 |
+| vision          | <a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a>                                                               | 2021-03-06 | 2021-03-06 |
+| vision          | <a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a>                                                       | 2021-03-01 | 2021-03-01 |
+| vision          | <a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a>                                                             | 2021-02-28 | 2021-02-28 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a>                                                                    | 2021-02-27 | 2021-02-27 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a>                       | 2021-02-15 | 2021-02-15 |
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a>     | 2021-02-10 | 2021-02-10 |
+| audio           | <a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a>                           | 2021-02-09 | 2021-09-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a>                                                  | 2021-01-30 | 2021-01-30 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a>                       | 2021-01-18 | 2021-01-18 |
+| structured_data | <a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a>                               | 2021-01-15 | 2021-01-15 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a>                                          | 2021-01-15 | 2021-01-15 |
+| audio           | <a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a>                                                    | 2021-01-13 | 2021-01-13 |
+| structured_data | <a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a>                  | 2020-12-31 | 2021-05-05 |
+| structured_data | <a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a>                       | 2020-12-30 | 2020-12-30 |
+| vision          | <a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a>                                                 | 2020-11-30 | 2020-11-30 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a>                                                    | 2020-10-23 | 2020-10-24 |
+| nlp             | <a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a>                                             | 2020-09-25 | 2020-12-23 |
+| vision          | <a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a>                                                   | 2020-09-23 | 2020-09-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a>                                             | 2020-09-18 | 2020-09-18 |
+| vision          | <a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a>                                                                   | 2020-09-01 | 2020-09-01 |
+| nlp             | <a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a>                                                        | 2020-08-15 | 2020-08-29 |
+| generative      | <a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a>                                                                                           | 2020-08-12 | 2020-08-12 |
+| generative      | <a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a>                                                                  | 2020-08-10 | 2020-08-10 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a>                                                    | 2020-07-29 | 2020-08-07 |
+| vision          | <a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a>                                                   | 2020-07-28 | 2020-08-24 |
+| vision          | <a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a>                              | 2020-07-28 | 2020-08-27 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a>                               | 2020-07-21 | 2021-07-16 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a>            | 2020-06-30 | 2020-07-16 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a>                                | 2020-06-23 | 2020-07-20 |
+| vision          | <a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a>                                                                      | 2020-06-14 | 2020-06-26 |
+| audio           | <a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a>                                                                | 2020-06-14 | 2020-03-07 |
+| structured_data | <a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a>                | 2020-06-09 | 2020-06-09 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a>                                                     | 2020-06-05 | 2020-06-09 |
+| rl              | <a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a>                                                             | 2020-06-04 | 2020-09-21 |
+| vision          | <a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a>                                           | 2020-06-02 | 2020-06-02 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a>                              | 2020-05-31 | 2020-05-31 |
+| generative      | <a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a>                                     | 2020-05-29 | 2020-05-29 |
+| vision          | <a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a>                                                 | 2020-05-29 | 2020-05-29 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a>                                                               | 2020-05-25 | 2020-05-26 |
+| structured_data | <a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a>                    | 2020-05-24 | 2020-05-24 |
+| rl              | <a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a>                                                          | 2020-05-23 | 2020-06-17 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a>                                                                | 2020-05-23 | 2020-05-23 |
+| vision          | <a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a>                                                                          | 2020-05-21 | 2020-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a>                                                                       | 2020-05-17 | 2020-07-14 |
+| generative      | <a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a>                                                                                           | 2020-05-17 | 2020-05-23 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a>                                                                      | 2020-05-16 | 2020-05-16 |
+| rl              | <a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a>                                                                           | 2020-05-13 | 2020-05-13 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a>                            | 2020-05-10 | 2021-02-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a>                                          | 2020-05-10 | 2020-05-10 |
+| generative      | <a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a>                                                               | 2020-05-09 | 2020-05-09 |
+| nlp             | <a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a>                                                       | 2020-05-05 | 2020-05-05 |
+| generative      | <a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a>                                                                                 | 2020-05-03 | 2020-05-03 |
+| nlp             | <a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a>                                                                 | 2020-05-03 | 2020-05-03 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a>                                             | 2020-04-27 | 2020-04-28 |
+| vision          | <a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a>                                                                | 2020-04-26 | 2021-03-07 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a>                                                                           | 2020-04-17 | 2020-04-17 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a>                                                  | 2019-11-06 | 2020-05-17 |
+| structured_data | <a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a>                       | 2019-05-28 | 2020-04-17 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a>                                                            | 2019-05-10 | 2019-05-10 |
+| generative      | <a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a>                                                   | 2019-04-29 | 2021-01-01 |
+| vision          | <a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a>                                | 2019-03-20 | 2020-04-20 |
+| nlp             | <a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a>                                                  | 2017-09-29 | 2020-04-26 |
+| generative      | <a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a>                                                                                       | 2016-01-13 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a>                                                                 | 2016-01-11 | 2020-05-02 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a>                                                 | 2016-01-06 | 2020-04-20 |
+| nlp             | <a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a>                                          | 2015-08-17 | 2020-04-17 |
+| vision          | <a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a>                                                                              | 2015-06-19 | 2020-04-21 |
+| generative      | <a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a>                              | 2015-06-15 | 2020-04-30 |
 
 
 ```python
@@ -1098,842 +398,145 @@ IPython.display.HTML(rendering_html)
 ```
 
 
-
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Category</th>
-      <th>Title</th>
-      <th>Date created</th>
-      <th>Last modified</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a></td>
-      <td>2022-01-25</td>
-      <td>2022-01-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a></td>
-      <td>2022-01-22</td>
-      <td>2022-01-22</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a></td>
-      <td>2022-01-18</td>
-      <td>2022-01-18</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a></td>
-      <td>2022-01-13</td>
-      <td>2022-01-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a></td>
-      <td>2022-01-12</td>
-      <td>2022-01-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a></td>
-      <td>2022-01-07</td>
-      <td>2022-01-10</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a></td>
-      <td>2021-12-26</td>
-      <td>2022-01-03</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a></td>
-      <td>2021-12-28</td>
-      <td>2021-12-28</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a></td>
-      <td>2021-08-16</td>
-      <td>2021-12-27</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a></td>
-      <td>2021-09-13</td>
-      <td>2021-12-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a></td>
-      <td>2021-12-20</td>
-      <td>2021-12-21</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a></td>
-      <td>2021-11-04</td>
-      <td>2021-12-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a></td>
-      <td>2021-12-10</td>
-      <td>2021-12-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a></td>
-      <td>2021-08-16</td>
-      <td>2021-11-25</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a></td>
-      <td>2021-11-08</td>
-      <td>2021-11-08</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a></td>
-      <td>2021-11-03</td>
-      <td>2021-11-03</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a></td>
-      <td>2021-05-29</td>
-      <td>2021-10-31</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a></td>
-      <td>2021-10-29</td>
-      <td>2021-10-29</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a></td>
-      <td>2021-10-28</td>
-      <td>2021-10-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a></td>
-      <td>2021-10-20</td>
-      <td>2021-10-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a></td>
-      <td>2021-10-19</td>
-      <td>2021-10-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a></td>
-      <td>2021-10-12</td>
-      <td>2021-10-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a></td>
-      <td>2021-10-08</td>
-      <td>2021-10-10</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a></td>
-      <td>2021-10-07</td>
-      <td>2021-10-07</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a></td>
-      <td>2021-10-05</td>
-      <td>2021-10-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a></td>
-      <td>2021-09-30</td>
-      <td>2021-09-30</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a></td>
-      <td>2021-09-26</td>
-      <td>2021-09-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a></td>
-      <td>2021-09-24</td>
-      <td>2021-09-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a></td>
-      <td>2021-09-18</td>
-      <td>2021-09-19</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a></td>
-      <td>2021-02-09</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a></td>
-      <td>2021-09-11</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a></td>
-      <td>2021-09-13</td>
-      <td>2021-09-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a></td>
-      <td>2021-09-10</td>
-      <td>2021-09-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a></td>
-      <td>2021-09-08</td>
-      <td>2021-09-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a></td>
-      <td>2021-08-31</td>
-      <td>2021-09-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a></td>
-      <td>2021-08-30</td>
-      <td>2021-08-30</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a></td>
-      <td>2021-08-28</td>
-      <td>2021-08-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a></td>
-      <td>2021-08-16</td>
-      <td>2021-08-16</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a></td>
-      <td>2021-08-08</td>
-      <td>2021-08-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a></td>
-      <td>2021-08-09</td>
-      <td>2021-08-09</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a></td>
-      <td>2021-06-25</td>
-      <td>2021-08-05</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a></td>
-      <td>2021-08-01</td>
-      <td>2021-08-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/involution>Involutional neural networks</a></td>
-      <td>2021-07-25</td>
-      <td>2021-07-25</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a></td>
-      <td>2021-07-21</td>
-      <td>2021-07-21</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a></td>
-      <td>2020-07-21</td>
-      <td>2021-07-16</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a></td>
-      <td>2021-07-13</td>
-      <td>2021-07-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a></td>
-      <td>2021-07-01</td>
-      <td>2021-07-01</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a></td>
-      <td>2021-06-24</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a></td>
-      <td>2021-06-23</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a></td>
-      <td>2021-06-19</td>
-      <td>2021-06-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a></td>
-      <td>2021-06-18</td>
-      <td>2021-06-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a></td>
-      <td>2021-05-20</td>
-      <td>2021-06-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a></td>
-      <td>2021-05-28</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a></td>
-      <td>2021-06-02</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a></td>
-      <td>2021-05-26</td>
-      <td>2021-05-26</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a></td>
-      <td>2021-05-15</td>
-      <td>2021-05-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a></td>
-      <td>2021-04-30</td>
-      <td>2021-05-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a></td>
-      <td>2021-05-06</td>
-      <td>2021-05-06</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a></td>
-      <td>2020-12-31</td>
-      <td>2021-05-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a></td>
-      <td>2021-05-02</td>
-      <td>2021-05-02</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a></td>
-      <td>2021-04-24</td>
-      <td>2021-04-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a></td>
-      <td>2021-04-13</td>
-      <td>2021-04-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a></td>
-      <td>2021-03-25</td>
-      <td>2021-03-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a></td>
-      <td>2021-03-19</td>
-      <td>2021-03-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a></td>
-      <td>2021-03-13</td>
-      <td>2021-03-17</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a></td>
-      <td>2020-04-26</td>
-      <td>2021-03-07</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a></td>
-      <td>2021-03-06</td>
-      <td>2021-03-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a></td>
-      <td>2021-03-01</td>
-      <td>2021-03-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a></td>
-      <td>2021-02-28</td>
-      <td>2021-02-28</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a></td>
-      <td>2021-02-27</td>
-      <td>2021-02-27</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a></td>
-      <td>2021-02-15</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a></td>
-      <td>2021-02-10</td>
-      <td>2021-02-10</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a></td>
-      <td>2021-01-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a></td>
-      <td>2021-04-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a></td>
-      <td>2021-01-18</td>
-      <td>2021-01-18</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a></td>
-      <td>2021-01-13</td>
-      <td>2021-01-13</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a></td>
-      <td>2019-04-29</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a></td>
-      <td>2020-12-30</td>
-      <td>2020-12-30</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a></td>
-      <td>2020-09-25</td>
-      <td>2020-12-23</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a></td>
-      <td>2020-11-30</td>
-      <td>2020-11-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a></td>
-      <td>2020-10-23</td>
-      <td>2020-10-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a></td>
-      <td>2020-09-23</td>
-      <td>2020-09-23</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a></td>
-      <td>2020-06-04</td>
-      <td>2020-09-21</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a></td>
-      <td>2020-09-18</td>
-      <td>2020-09-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a></td>
-      <td>2020-09-01</td>
-      <td>2020-09-01</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a></td>
-      <td>2020-08-15</td>
-      <td>2020-08-29</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-27</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-24</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a></td>
-      <td>2020-08-12</td>
-      <td>2020-08-12</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a></td>
-      <td>2020-08-10</td>
-      <td>2020-08-10</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a></td>
-      <td>2020-07-29</td>
-      <td>2020-08-07</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a></td>
-      <td>2020-06-23</td>
-      <td>2020-07-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a></td>
-      <td>2020-06-30</td>
-      <td>2020-07-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a></td>
-      <td>2020-05-17</td>
-      <td>2020-07-14</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a></td>
-      <td>2020-06-14</td>
-      <td>2020-06-26</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a></td>
-      <td>2020-05-23</td>
-      <td>2020-06-17</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a></td>
-      <td>2020-06-05</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a></td>
-      <td>2020-06-09</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a></td>
-      <td>2020-06-02</td>
-      <td>2020-06-02</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a></td>
-      <td>2020-05-31</td>
-      <td>2020-05-31</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a></td>
-      <td>2020-05-21</td>
-      <td>2020-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a></td>
-      <td>2020-05-25</td>
-      <td>2020-05-26</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a></td>
-      <td>2020-05-24</td>
-      <td>2020-05-24</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a></td>
-      <td>2020-05-17</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a></td>
-      <td>2020-05-23</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a></td>
-      <td>2019-11-06</td>
-      <td>2020-05-17</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a></td>
-      <td>2020-05-16</td>
-      <td>2020-05-16</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a></td>
-      <td>2020-05-13</td>
-      <td>2020-05-13</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2020-05-10</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a></td>
-      <td>2020-05-09</td>
-      <td>2020-05-09</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a></td>
-      <td>2020-05-05</td>
-      <td>2020-05-05</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a></td>
-      <td>2016-01-11</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a></td>
-      <td>2016-01-13</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a></td>
-      <td>2015-06-15</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a></td>
-      <td>2020-04-27</td>
-      <td>2020-04-28</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a></td>
-      <td>2017-09-29</td>
-      <td>2020-04-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a></td>
-      <td>2015-06-19</td>
-      <td>2020-04-21</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a></td>
-      <td>2016-01-06</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a></td>
-      <td>2019-03-20</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a></td>
-      <td>2020-04-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a></td>
-      <td>2019-05-28</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a></td>
-      <td>2015-08-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a></td>
-      <td>2020-06-14</td>
-      <td>2020-03-07</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a></td>
-      <td>2019-05-10</td>
-      <td>2019-05-10</td>
-    </tr>
-  </tbody>
-</table>
+| Category        | Title                                                                                                                                                        | Date created        | Last modified       |
+|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:--------------------|
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a>                               | 2022-01-25 | 2022-01-25 |
+| vision          | <a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a>                                                     | 2022-01-22 | 2022-01-22 |
+| structured_data | <a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a>                                            | 2022-01-18 | 2022-01-18 |
+| nlp             | <a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a>                                               | 2022-01-13 | 2022-01-13 |
+| vision          | <a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a>                                                                                  | 2022-01-12 | 2022-01-12 |
+| vision          | <a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a>                                                       | 2022-01-07 | 2022-01-10 |
+| generative      | <a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a>                                                              | 2021-12-26 | 2022-01-03 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a>                     | 2021-12-28 | 2021-12-28 |
+| graph           | <a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a>                    | 2021-08-16 | 2021-12-27 |
+| graph           | <a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a>                                    | 2021-09-13 | 2021-12-26 |
+| vision          | <a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a>                                                   | 2021-12-20 | 2021-12-21 |
+| vision          | <a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a>                                                                   | 2021-11-04 | 2021-12-20 |
+| vision          | <a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a>                                                       | 2021-12-10 | 2021-12-15 |
+| vision          | <a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a>        | 2021-08-16 | 2021-11-25 |
+| generative      | <a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a>                                                                      | 2021-11-08 | 2021-11-08 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a>                          | 2021-11-03 | 2021-11-03 |
+| vision          | <a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a>                                                                               | 2021-05-29 | 2021-10-31 |
+| nlp             | <a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a>                                  | 2021-10-29 | 2021-10-29 |
+| generative      | <a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a>                                        | 2021-10-28 | 2021-10-28 |
+| vision          | <a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a>                         | 2021-10-20 | 2021-10-20 |
+| vision          | <a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a>                                          | 2021-10-19 | 2021-10-19 |
+| vision          | <a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a>                                                                   | 2021-10-12 | 2021-10-12 |
+| vision          | <a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a>                                                         | 2021-10-08 | 2021-10-10 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a>               | 2021-10-07 | 2021-10-07 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a>                                                                    | 2021-10-05 | 2021-10-05 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a>           | 2021-09-30 | 2021-09-30 |
+| audio           | <a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a>                                                                   | 2021-09-26 | 2021-09-26 |
+| vision          | <a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a>                                                                | 2021-09-24 | 2021-09-24 |
+| vision          | <a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a>                                                               | 2021-09-18 | 2021-09-19 |
+| audio           | <a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a>                           | 2021-02-09 | 2021-09-15 |
+| vision          | <a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a>                                                                 | 2021-09-11 | 2021-09-15 |
+| vision          | <a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a>                                                           | 2021-09-13 | 2021-09-13 |
+| vision          | <a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a>                                                                     | 2021-09-10 | 2021-09-10 |
+| vision          | <a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a>                                                   | 2021-09-08 | 2021-09-08 |
+| vision          | <a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a>                                                | 2021-08-31 | 2021-09-01 |
+| vision          | <a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a>                                                                     | 2021-08-30 | 2021-08-30 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a>                                          | 2021-08-28 | 2021-08-28 |
+| vision          | <a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a>                                                                 | 2021-08-16 | 2021-08-16 |
+| nlp             | <a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a>                                                                        | 2021-08-08 | 2021-08-15 |
+| vision          | <a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a>                                                                          | 2021-08-09 | 2021-08-09 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a>                    | 2021-06-25 | 2021-08-05 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a>                                             | 2021-08-01 | 2021-08-01 |
+| vision          | <a href=https://keras.io/examples/vision/involution>Involutional neural networks</a>                                                                         | 2021-07-25 | 2021-07-25 |
+| generative      | <a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a>                                                            | 2021-07-21 | 2021-07-21 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a>                               | 2020-07-21 | 2021-07-16 |
+| generative      | <a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a>                                                                             | 2021-07-13 | 2021-07-15 |
+| generative      | <a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a>                                                                | 2021-07-01 | 2021-07-01 |
+| generative      | <a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a>                                 | 2021-06-30 | 2021-06-30 |
+| vision          | <a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a>                                                                          | 2021-06-30 | 2021-06-30 |
+| rl              | <a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a>                                                                           | 2021-06-24 | 2021-06-24 |
+| nlp             | <a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a>                                                       | 2021-06-23 | 2021-06-24 |
+| vision          | <a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a>                                                   | 2021-06-19 | 2021-06-19 |
+| vision          | <a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a>                                 | 2021-06-18 | 2021-06-18 |
+| vision          | <a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a>                                                        | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a>                                                       | 2021-06-08 | 2021-06-08 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a>                                  | 2021-05-20 | 2021-06-06 |
+| vision          | <a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a>                                           | 2021-05-28 | 2021-06-05 |
+| vision          | <a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a>                                                  | 2021-06-02 | 2021-06-05 |
+| graph           | <a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a>                                                     | 2021-05-30 | 2021-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a>                                            | 2021-05-30 | 2021-05-30 |
+| nlp             | <a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a> | 2021-05-26 | 2021-05-26 |
+| graph           | <a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a>                                                   | 2021-05-15 | 2021-05-15 |
+| vision          | <a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a>                                                         | 2021-04-30 | 2021-05-13 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a>                 | 2021-05-06 | 2021-05-06 |
+| structured_data | <a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a>                  | 2020-12-31 | 2021-05-05 |
+| vision          | <a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a>                                                    | 2021-05-02 | 2021-05-02 |
+| vision          | <a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a>            | 2021-04-24 | 2021-04-24 |
+| vision          | <a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a>                                                      | 2021-04-13 | 2021-04-19 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a>                         | 2021-03-25 | 2021-03-25 |
+| vision          | <a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a>                                                       | 2021-03-19 | 2021-03-20 |
+| vision          | <a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a>                                        | 2021-03-13 | 2021-03-17 |
+| vision          | <a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a>                                                                | 2020-04-26 | 2021-03-07 |
+| vision          | <a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a>                                                               | 2021-03-06 | 2021-03-06 |
+| vision          | <a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a>                                                       | 2021-03-01 | 2021-03-01 |
+| vision          | <a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a>                                                             | 2021-02-28 | 2021-02-28 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a>                                                                    | 2021-02-27 | 2021-02-27 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a>                       | 2021-02-15 | 2021-02-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a>                            | 2020-05-10 | 2021-02-15 |
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a>     | 2021-02-10 | 2021-02-10 |
+| nlp             | <a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a>                                                  | 2021-01-30 | 2021-01-30 |
+| vision          | <a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a>                                              | 2021-04-30 | 2021-01-30 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a>                       | 2021-01-18 | 2021-01-18 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a>                                          | 2021-01-15 | 2021-01-15 |
+| structured_data | <a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a>                               | 2021-01-15 | 2021-01-15 |
+| audio           | <a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a>                                                    | 2021-01-13 | 2021-01-13 |
+| generative      | <a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a>                                                   | 2019-04-29 | 2021-01-01 |
+| structured_data | <a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a>                       | 2020-12-30 | 2020-12-30 |
+| nlp             | <a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a>                                             | 2020-09-25 | 2020-12-23 |
+| vision          | <a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a>                                                 | 2020-11-30 | 2020-11-30 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a>                                                    | 2020-10-23 | 2020-10-24 |
+| vision          | <a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a>                                                   | 2020-09-23 | 2020-09-23 |
+| rl              | <a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a>                                                             | 2020-06-04 | 2020-09-21 |
+| nlp             | <a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a>                                             | 2020-09-18 | 2020-09-18 |
+| vision          | <a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a>                                                                   | 2020-09-01 | 2020-09-01 |
+| nlp             | <a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a>                                                        | 2020-08-15 | 2020-08-29 |
+| vision          | <a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a>                              | 2020-07-28 | 2020-08-27 |
+| vision          | <a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a>                                                   | 2020-07-28 | 2020-08-24 |
+| generative      | <a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a>                                                                                           | 2020-08-12 | 2020-08-12 |
+| generative      | <a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a>                                                                  | 2020-08-10 | 2020-08-10 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a>                                                    | 2020-07-29 | 2020-08-07 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a>                                | 2020-06-23 | 2020-07-20 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a>            | 2020-06-30 | 2020-07-16 |
+| vision          | <a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a>                                                                       | 2020-05-17 | 2020-07-14 |
+| vision          | <a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a>                                                                      | 2020-06-14 | 2020-06-26 |
+| rl              | <a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a>                                                          | 2020-05-23 | 2020-06-17 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a>                                                     | 2020-06-05 | 2020-06-09 |
+| structured_data | <a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a>                | 2020-06-09 | 2020-06-09 |
+| vision          | <a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a>                                           | 2020-06-02 | 2020-06-02 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a>                              | 2020-05-31 | 2020-05-31 |
+| vision          | <a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a>                                                                          | 2020-05-21 | 2020-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a>                                                 | 2020-05-29 | 2020-05-29 |
+| generative      | <a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a>                                     | 2020-05-29 | 2020-05-29 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a>                                                               | 2020-05-25 | 2020-05-26 |
+| structured_data | <a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a>                    | 2020-05-24 | 2020-05-24 |
+| generative      | <a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a>                                                                                           | 2020-05-17 | 2020-05-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a>                                                                | 2020-05-23 | 2020-05-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a>                                                  | 2019-11-06 | 2020-05-17 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a>                                                                      | 2020-05-16 | 2020-05-16 |
+| rl              | <a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a>                                                                           | 2020-05-13 | 2020-05-13 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a>                                          | 2020-05-10 | 2020-05-10 |
+| generative      | <a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a>                                                               | 2020-05-09 | 2020-05-09 |
+| nlp             | <a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a>                                                       | 2020-05-05 | 2020-05-05 |
+| nlp             | <a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a>                                                                 | 2020-05-03 | 2020-05-03 |
+| generative      | <a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a>                                                                                 | 2020-05-03 | 2020-05-03 |
+| generative      | <a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a>                                                                 | 2016-01-11 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a>                                                                                       | 2016-01-13 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a>                              | 2015-06-15 | 2020-04-30 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a>                                             | 2020-04-27 | 2020-04-28 |
+| nlp             | <a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a>                                                  | 2017-09-29 | 2020-04-26 |
+| vision          | <a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a>                                                                              | 2015-06-19 | 2020-04-21 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a>                                                 | 2016-01-06 | 2020-04-20 |
+| vision          | <a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a>                                | 2019-03-20 | 2020-04-20 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a>                                                                           | 2020-04-17 | 2020-04-17 |
+| structured_data | <a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a>                       | 2019-05-28 | 2020-04-17 |
+| nlp             | <a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a>                                          | 2015-08-17 | 2020-04-17 |
+| audio           | <a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a>                                                                | 2020-06-14 | 2020-03-07 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a>                                                            | 2019-05-10 | 2019-05-10 |
 
 
 
@@ -1947,844 +550,145 @@ IPython.display.HTML(rendering_html)
 ```
 
 
-
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Category</th>
-      <th>Title</th>
-      <th>Date created</th>
-      <th>Last modified</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a></td>
-      <td>2022-01-22</td>
-      <td>2022-01-22</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a></td>
-      <td>2022-01-12</td>
-      <td>2022-01-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a></td>
-      <td>2022-01-07</td>
-      <td>2022-01-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a></td>
-      <td>2021-12-20</td>
-      <td>2021-12-21</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a></td>
-      <td>2021-12-10</td>
-      <td>2021-12-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a></td>
-      <td>2021-11-04</td>
-      <td>2021-12-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a></td>
-      <td>2021-10-20</td>
-      <td>2021-10-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a></td>
-      <td>2021-10-19</td>
-      <td>2021-10-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a></td>
-      <td>2021-10-12</td>
-      <td>2021-10-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a></td>
-      <td>2021-10-08</td>
-      <td>2021-10-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a></td>
-      <td>2021-09-30</td>
-      <td>2021-09-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a></td>
-      <td>2021-09-24</td>
-      <td>2021-09-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a></td>
-      <td>2021-09-18</td>
-      <td>2021-09-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a></td>
-      <td>2021-09-13</td>
-      <td>2021-09-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a></td>
-      <td>2021-09-11</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a></td>
-      <td>2021-09-10</td>
-      <td>2021-09-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a></td>
-      <td>2021-09-08</td>
-      <td>2021-09-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a></td>
-      <td>2021-08-31</td>
-      <td>2021-09-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a></td>
-      <td>2021-08-30</td>
-      <td>2021-08-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a></td>
-      <td>2021-08-16</td>
-      <td>2021-08-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a></td>
-      <td>2021-08-16</td>
-      <td>2021-11-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a></td>
-      <td>2021-08-09</td>
-      <td>2021-08-09</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/involution>Involutional neural networks</a></td>
-      <td>2021-07-25</td>
-      <td>2021-07-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a></td>
-      <td>2021-06-19</td>
-      <td>2021-06-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a></td>
-      <td>2021-06-18</td>
-      <td>2021-06-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a></td>
-      <td>2021-06-02</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a></td>
-      <td>2021-05-29</td>
-      <td>2021-10-31</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a></td>
-      <td>2021-05-28</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a></td>
-      <td>2021-05-06</td>
-      <td>2021-05-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a></td>
-      <td>2021-05-02</td>
-      <td>2021-05-02</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a></td>
-      <td>2021-04-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a></td>
-      <td>2021-04-30</td>
-      <td>2021-05-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a></td>
-      <td>2021-04-24</td>
-      <td>2021-04-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a></td>
-      <td>2021-04-13</td>
-      <td>2021-04-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a></td>
-      <td>2021-03-25</td>
-      <td>2021-03-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a></td>
-      <td>2021-03-19</td>
-      <td>2021-03-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a></td>
-      <td>2021-03-13</td>
-      <td>2021-03-17</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a></td>
-      <td>2021-03-06</td>
-      <td>2021-03-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a></td>
-      <td>2021-03-01</td>
-      <td>2021-03-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a></td>
-      <td>2021-02-28</td>
-      <td>2021-02-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a></td>
-      <td>2021-01-18</td>
-      <td>2021-01-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a></td>
-      <td>2020-11-30</td>
-      <td>2020-11-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a></td>
-      <td>2020-10-23</td>
-      <td>2020-10-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a></td>
-      <td>2020-09-23</td>
-      <td>2020-09-23</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a></td>
-      <td>2020-09-01</td>
-      <td>2020-09-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-27</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a></td>
-      <td>2020-06-30</td>
-      <td>2020-07-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a></td>
-      <td>2020-06-14</td>
-      <td>2020-06-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a></td>
-      <td>2020-06-05</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a></td>
-      <td>2020-06-02</td>
-      <td>2020-06-02</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a></td>
-      <td>2020-05-25</td>
-      <td>2020-05-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a></td>
-      <td>2020-05-21</td>
-      <td>2020-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a></td>
-      <td>2020-05-17</td>
-      <td>2020-07-14</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a></td>
-      <td>2020-04-27</td>
-      <td>2020-04-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a></td>
-      <td>2020-04-26</td>
-      <td>2021-03-07</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a></td>
-      <td>2019-03-20</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a></td>
-      <td>2015-06-19</td>
-      <td>2020-04-21</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a></td>
-      <td>2021-12-28</td>
-      <td>2021-12-28</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a></td>
-      <td>2021-06-25</td>
-      <td>2021-08-05</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a></td>
-      <td>2020-07-21</td>
-      <td>2021-07-16</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a></td>
-      <td>2020-06-23</td>
-      <td>2020-07-20</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a></td>
-      <td>2020-05-31</td>
-      <td>2020-05-31</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a></td>
-      <td>2022-01-25</td>
-      <td>2022-01-25</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a></td>
-      <td>2022-01-18</td>
-      <td>2022-01-18</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a></td>
-      <td>2021-02-10</td>
-      <td>2021-02-10</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a></td>
-      <td>2020-12-31</td>
-      <td>2021-05-05</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a></td>
-      <td>2020-12-30</td>
-      <td>2020-12-30</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a></td>
-      <td>2020-06-09</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a></td>
-      <td>2020-05-24</td>
-      <td>2020-05-24</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a></td>
-      <td>2019-05-28</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a></td>
-      <td>2021-06-24</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a></td>
-      <td>2020-06-04</td>
-      <td>2020-09-21</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a></td>
-      <td>2020-05-23</td>
-      <td>2020-06-17</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a></td>
-      <td>2020-05-13</td>
-      <td>2020-05-13</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a></td>
-      <td>2022-01-13</td>
-      <td>2022-01-13</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a></td>
-      <td>2021-10-29</td>
-      <td>2021-10-29</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a></td>
-      <td>2021-10-05</td>
-      <td>2021-10-05</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a></td>
-      <td>2021-08-08</td>
-      <td>2021-08-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a></td>
-      <td>2021-06-23</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a></td>
-      <td>2021-05-26</td>
-      <td>2021-05-26</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a></td>
-      <td>2021-01-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a></td>
-      <td>2020-09-25</td>
-      <td>2020-12-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a></td>
-      <td>2020-09-18</td>
-      <td>2020-09-18</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a></td>
-      <td>2020-08-15</td>
-      <td>2020-08-29</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a></td>
-      <td>2020-05-23</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2020-05-10</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a></td>
-      <td>2020-05-05</td>
-      <td>2020-05-05</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a></td>
-      <td>2019-11-06</td>
-      <td>2020-05-17</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a></td>
-      <td>2017-09-29</td>
-      <td>2020-04-26</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a></td>
-      <td>2015-08-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a></td>
-      <td>2021-11-03</td>
-      <td>2021-11-03</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a></td>
-      <td>2021-10-07</td>
-      <td>2021-10-07</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a></td>
-      <td>2021-08-28</td>
-      <td>2021-08-28</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a></td>
-      <td>2021-08-01</td>
-      <td>2021-08-01</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a></td>
-      <td>2021-05-20</td>
-      <td>2021-06-06</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a></td>
-      <td>2021-02-27</td>
-      <td>2021-02-27</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a></td>
-      <td>2021-02-15</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a></td>
-      <td>2020-07-29</td>
-      <td>2020-08-07</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a></td>
-      <td>2020-05-16</td>
-      <td>2020-05-16</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a></td>
-      <td>2020-04-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a></td>
-      <td>2019-05-10</td>
-      <td>2019-05-10</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a></td>
-      <td>2016-01-06</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a></td>
-      <td>2021-09-13</td>
-      <td>2021-12-26</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a></td>
-      <td>2021-08-16</td>
-      <td>2021-12-27</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a></td>
-      <td>2021-05-15</td>
-      <td>2021-05-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a></td>
-      <td>2021-12-26</td>
-      <td>2022-01-03</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a></td>
-      <td>2021-11-08</td>
-      <td>2021-11-08</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a></td>
-      <td>2021-10-28</td>
-      <td>2021-10-28</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a></td>
-      <td>2021-07-21</td>
-      <td>2021-07-21</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a></td>
-      <td>2021-07-13</td>
-      <td>2021-07-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a></td>
-      <td>2021-07-01</td>
-      <td>2021-07-01</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a></td>
-      <td>2020-08-12</td>
-      <td>2020-08-12</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a></td>
-      <td>2020-08-10</td>
-      <td>2020-08-10</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a></td>
-      <td>2020-05-17</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a></td>
-      <td>2020-05-09</td>
-      <td>2020-05-09</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a></td>
-      <td>2019-04-29</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a></td>
-      <td>2016-01-13</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a></td>
-      <td>2016-01-11</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a></td>
-      <td>2015-06-15</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a></td>
-      <td>2021-09-26</td>
-      <td>2021-09-26</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a></td>
-      <td>2021-02-09</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a></td>
-      <td>2021-01-13</td>
-      <td>2021-01-13</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a></td>
-      <td>2020-06-14</td>
-      <td>2020-03-07</td>
-    </tr>
-  </tbody>
-</table>
-
-
+| Category        | Title                                                                                                                                                        | Date created        | Last modified       |
+|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:--------------------|
+| vision          | <a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a>                                                     | 2022-01-22 | 2022-01-22 |
+| vision          | <a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a>                                                                                  | 2022-01-12 | 2022-01-12 |
+| vision          | <a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a>                                                       | 2022-01-07 | 2022-01-10 |
+| vision          | <a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a>                                                   | 2021-12-20 | 2021-12-21 |
+| vision          | <a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a>                                                       | 2021-12-10 | 2021-12-15 |
+| vision          | <a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a>                                                                   | 2021-11-04 | 2021-12-20 |
+| vision          | <a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a>                         | 2021-10-20 | 2021-10-20 |
+| vision          | <a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a>                                          | 2021-10-19 | 2021-10-19 |
+| vision          | <a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a>                                                                   | 2021-10-12 | 2021-10-12 |
+| vision          | <a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a>                                                         | 2021-10-08 | 2021-10-10 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a>           | 2021-09-30 | 2021-09-30 |
+| vision          | <a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a>                                                                | 2021-09-24 | 2021-09-24 |
+| vision          | <a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a>                                                               | 2021-09-18 | 2021-09-19 |
+| vision          | <a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a>                                                           | 2021-09-13 | 2021-09-13 |
+| vision          | <a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a>                                                                 | 2021-09-11 | 2021-09-15 |
+| vision          | <a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a>                                                                     | 2021-09-10 | 2021-09-10 |
+| vision          | <a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a>                                                   | 2021-09-08 | 2021-09-08 |
+| vision          | <a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a>                                                | 2021-08-31 | 2021-09-01 |
+| vision          | <a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a>                                                                     | 2021-08-30 | 2021-08-30 |
+| vision          | <a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a>                                                                 | 2021-08-16 | 2021-08-16 |
+| vision          | <a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a>        | 2021-08-16 | 2021-11-25 |
+| vision          | <a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a>                                                                          | 2021-08-09 | 2021-08-09 |
+| vision          | <a href=https://keras.io/examples/vision/involution>Involutional neural networks</a>                                                                         | 2021-07-25 | 2021-07-25 |
+| vision          | <a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a>                                                                          | 2021-06-30 | 2021-06-30 |
+| vision          | <a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a>                                                   | 2021-06-19 | 2021-06-19 |
+| vision          | <a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a>                                 | 2021-06-18 | 2021-06-18 |
+| vision          | <a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a>                                                        | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a>                                                       | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a>                                                  | 2021-06-02 | 2021-06-05 |
+| vision          | <a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a>                                            | 2021-05-30 | 2021-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a>                                                                               | 2021-05-29 | 2021-10-31 |
+| vision          | <a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a>                                           | 2021-05-28 | 2021-06-05 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a>                 | 2021-05-06 | 2021-05-06 |
+| vision          | <a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a>                                                    | 2021-05-02 | 2021-05-02 |
+| vision          | <a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a>                                              | 2021-04-30 | 2021-01-30 |
+| vision          | <a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a>                                                         | 2021-04-30 | 2021-05-13 |
+| vision          | <a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a>            | 2021-04-24 | 2021-04-24 |
+| vision          | <a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a>                                                      | 2021-04-13 | 2021-04-19 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a>                         | 2021-03-25 | 2021-03-25 |
+| vision          | <a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a>                                                       | 2021-03-19 | 2021-03-20 |
+| vision          | <a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a>                                        | 2021-03-13 | 2021-03-17 |
+| vision          | <a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a>                                                               | 2021-03-06 | 2021-03-06 |
+| vision          | <a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a>                                                       | 2021-03-01 | 2021-03-01 |
+| vision          | <a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a>                                                             | 2021-02-28 | 2021-02-28 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a>                       | 2021-01-18 | 2021-01-18 |
+| vision          | <a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a>                                                 | 2020-11-30 | 2020-11-30 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a>                                                    | 2020-10-23 | 2020-10-24 |
+| vision          | <a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a>                                                   | 2020-09-23 | 2020-09-23 |
+| vision          | <a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a>                                                                   | 2020-09-01 | 2020-09-01 |
+| vision          | <a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a>                                                   | 2020-07-28 | 2020-08-24 |
+| vision          | <a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a>                              | 2020-07-28 | 2020-08-27 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a>            | 2020-06-30 | 2020-07-16 |
+| vision          | <a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a>                                                                      | 2020-06-14 | 2020-06-26 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a>                                                     | 2020-06-05 | 2020-06-09 |
+| vision          | <a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a>                                           | 2020-06-02 | 2020-06-02 |
+| vision          | <a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a>                                                 | 2020-05-29 | 2020-05-29 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a>                                                               | 2020-05-25 | 2020-05-26 |
+| vision          | <a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a>                                                                          | 2020-05-21 | 2020-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a>                                                                       | 2020-05-17 | 2020-07-14 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a>                                             | 2020-04-27 | 2020-04-28 |
+| vision          | <a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a>                                                                | 2020-04-26 | 2021-03-07 |
+| vision          | <a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a>                                | 2019-03-20 | 2020-04-20 |
+| vision          | <a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a>                                                                              | 2015-06-19 | 2020-04-21 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a>                     | 2021-12-28 | 2021-12-28 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a>                    | 2021-06-25 | 2021-08-05 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a>                               | 2020-07-21 | 2021-07-16 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a>                                | 2020-06-23 | 2020-07-20 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a>                              | 2020-05-31 | 2020-05-31 |
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a>                               | 2022-01-25 | 2022-01-25 |
+| structured_data | <a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a>                                            | 2022-01-18 | 2022-01-18 |
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a>     | 2021-02-10 | 2021-02-10 |
+| structured_data | <a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a>                               | 2021-01-15 | 2021-01-15 |
+| structured_data | <a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a>                  | 2020-12-31 | 2021-05-05 |
+| structured_data | <a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a>                       | 2020-12-30 | 2020-12-30 |
+| structured_data | <a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a>                | 2020-06-09 | 2020-06-09 |
+| structured_data | <a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a>                    | 2020-05-24 | 2020-05-24 |
+| structured_data | <a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a>                       | 2019-05-28 | 2020-04-17 |
+| rl              | <a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a>                                                                           | 2021-06-24 | 2021-06-24 |
+| rl              | <a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a>                                                             | 2020-06-04 | 2020-09-21 |
+| rl              | <a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a>                                                          | 2020-05-23 | 2020-06-17 |
+| rl              | <a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a>                                                                           | 2020-05-13 | 2020-05-13 |
+| nlp             | <a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a>                                               | 2022-01-13 | 2022-01-13 |
+| nlp             | <a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a>                                  | 2021-10-29 | 2021-10-29 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a>                                                                    | 2021-10-05 | 2021-10-05 |
+| nlp             | <a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a>                                                                        | 2021-08-08 | 2021-08-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a>                                                       | 2021-06-23 | 2021-06-24 |
+| nlp             | <a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a> | 2021-05-26 | 2021-05-26 |
+| nlp             | <a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a>                                                  | 2021-01-30 | 2021-01-30 |
+| nlp             | <a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a>                                             | 2020-09-25 | 2020-12-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a>                                             | 2020-09-18 | 2020-09-18 |
+| nlp             | <a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a>                                                        | 2020-08-15 | 2020-08-29 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a>                                                                | 2020-05-23 | 2020-05-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a>                            | 2020-05-10 | 2021-02-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a>                                          | 2020-05-10 | 2020-05-10 |
+| nlp             | <a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a>                                                       | 2020-05-05 | 2020-05-05 |
+| nlp             | <a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a>                                                                 | 2020-05-03 | 2020-05-03 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a>                                                  | 2019-11-06 | 2020-05-17 |
+| nlp             | <a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a>                                                  | 2017-09-29 | 2020-04-26 |
+| nlp             | <a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a>                                          | 2015-08-17 | 2020-04-17 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a>                          | 2021-11-03 | 2021-11-03 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a>               | 2021-10-07 | 2021-10-07 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a>                                          | 2021-08-28 | 2021-08-28 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a>                                             | 2021-08-01 | 2021-08-01 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a>                                  | 2021-05-20 | 2021-06-06 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a>                                                                    | 2021-02-27 | 2021-02-27 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a>                       | 2021-02-15 | 2021-02-15 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a>                                          | 2021-01-15 | 2021-01-15 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a>                                                    | 2020-07-29 | 2020-08-07 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a>                                                                      | 2020-05-16 | 2020-05-16 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a>                                                                           | 2020-04-17 | 2020-04-17 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a>                                                            | 2019-05-10 | 2019-05-10 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a>                                                 | 2016-01-06 | 2020-04-20 |
+| graph           | <a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a>                                    | 2021-09-13 | 2021-12-26 |
+| graph           | <a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a>                    | 2021-08-16 | 2021-12-27 |
+| graph           | <a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a>                                                     | 2021-05-30 | 2021-05-30 |
+| graph           | <a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a>                                                   | 2021-05-15 | 2021-05-15 |
+| generative      | <a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a>                                                              | 2021-12-26 | 2022-01-03 |
+| generative      | <a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a>                                                                      | 2021-11-08 | 2021-11-08 |
+| generative      | <a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a>                                        | 2021-10-28 | 2021-10-28 |
+| generative      | <a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a>                                                            | 2021-07-21 | 2021-07-21 |
+| generative      | <a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a>                                                                             | 2021-07-13 | 2021-07-15 |
+| generative      | <a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a>                                                                | 2021-07-01 | 2021-07-01 |
+| generative      | <a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a>                                 | 2021-06-30 | 2021-06-30 |
+| generative      | <a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a>                                                                                           | 2020-08-12 | 2020-08-12 |
+| generative      | <a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a>                                                                  | 2020-08-10 | 2020-08-10 |
+| generative      | <a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a>                                     | 2020-05-29 | 2020-05-29 |
+| generative      | <a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a>                                                                                           | 2020-05-17 | 2020-05-23 |
+| generative      | <a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a>                                                               | 2020-05-09 | 2020-05-09 |
+| generative      | <a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a>                                                                                 | 2020-05-03 | 2020-05-03 |
+| generative      | <a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a>                                                   | 2019-04-29 | 2021-01-01 |
+| generative      | <a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a>                                                                                       | 2016-01-13 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a>                                                                 | 2016-01-11 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a>                              | 2015-06-15 | 2020-04-30 |
+| audio           | <a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a>                                                                   | 2021-09-26 | 2021-09-26 |
+| audio           | <a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a>                           | 2021-02-09 | 2021-09-15 |
+| audio           | <a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a>                                                    | 2021-01-13 | 2021-01-13 |
+| audio           | <a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a>                                                                | 2020-06-14 | 2020-03-07 |
 
 
 ```python
@@ -2795,842 +699,142 @@ rendering_html = sorted_report_df.to_html(render_links=True, escape=False, index
 IPython.display.HTML(rendering_html)
 ```
 
-
-
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Category</th>
-      <th>Title</th>
-      <th>Date created</th>
-      <th>Last modified</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a></td>
-      <td>2022-01-22</td>
-      <td>2022-01-22</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a></td>
-      <td>2022-01-12</td>
-      <td>2022-01-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a></td>
-      <td>2022-01-07</td>
-      <td>2022-01-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a></td>
-      <td>2021-12-20</td>
-      <td>2021-12-21</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a></td>
-      <td>2021-11-04</td>
-      <td>2021-12-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a></td>
-      <td>2021-12-10</td>
-      <td>2021-12-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a></td>
-      <td>2021-08-16</td>
-      <td>2021-11-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a></td>
-      <td>2021-05-29</td>
-      <td>2021-10-31</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a></td>
-      <td>2021-10-20</td>
-      <td>2021-10-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a></td>
-      <td>2021-10-19</td>
-      <td>2021-10-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a></td>
-      <td>2021-10-12</td>
-      <td>2021-10-12</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a></td>
-      <td>2021-10-08</td>
-      <td>2021-10-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a></td>
-      <td>2021-09-30</td>
-      <td>2021-09-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a></td>
-      <td>2021-09-24</td>
-      <td>2021-09-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a></td>
-      <td>2021-09-18</td>
-      <td>2021-09-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a></td>
-      <td>2021-09-11</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a></td>
-      <td>2021-09-13</td>
-      <td>2021-09-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a></td>
-      <td>2021-09-10</td>
-      <td>2021-09-10</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a></td>
-      <td>2021-09-08</td>
-      <td>2021-09-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a></td>
-      <td>2021-08-31</td>
-      <td>2021-09-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a></td>
-      <td>2021-08-30</td>
-      <td>2021-08-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a></td>
-      <td>2021-08-16</td>
-      <td>2021-08-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a></td>
-      <td>2021-08-09</td>
-      <td>2021-08-09</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/involution>Involutional neural networks</a></td>
-      <td>2021-07-25</td>
-      <td>2021-07-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a></td>
-      <td>2021-06-19</td>
-      <td>2021-06-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a></td>
-      <td>2021-06-18</td>
-      <td>2021-06-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a></td>
-      <td>2021-06-08</td>
-      <td>2021-06-08</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a></td>
-      <td>2021-05-28</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a></td>
-      <td>2021-06-02</td>
-      <td>2021-06-05</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a></td>
-      <td>2021-04-30</td>
-      <td>2021-05-13</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a></td>
-      <td>2021-05-06</td>
-      <td>2021-05-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a></td>
-      <td>2021-05-02</td>
-      <td>2021-05-02</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a></td>
-      <td>2021-04-24</td>
-      <td>2021-04-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a></td>
-      <td>2021-04-13</td>
-      <td>2021-04-19</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a></td>
-      <td>2021-03-25</td>
-      <td>2021-03-25</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a></td>
-      <td>2021-03-19</td>
-      <td>2021-03-20</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a></td>
-      <td>2021-03-13</td>
-      <td>2021-03-17</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a></td>
-      <td>2020-04-26</td>
-      <td>2021-03-07</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a></td>
-      <td>2021-03-06</td>
-      <td>2021-03-06</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a></td>
-      <td>2021-03-01</td>
-      <td>2021-03-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a></td>
-      <td>2021-02-28</td>
-      <td>2021-02-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a></td>
-      <td>2021-04-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a></td>
-      <td>2021-01-18</td>
-      <td>2021-01-18</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a></td>
-      <td>2020-11-30</td>
-      <td>2020-11-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a></td>
-      <td>2020-10-23</td>
-      <td>2020-10-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a></td>
-      <td>2020-09-23</td>
-      <td>2020-09-23</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a></td>
-      <td>2020-09-01</td>
-      <td>2020-09-01</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-27</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a></td>
-      <td>2020-07-28</td>
-      <td>2020-08-24</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a></td>
-      <td>2020-06-30</td>
-      <td>2020-07-16</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a></td>
-      <td>2020-05-17</td>
-      <td>2020-07-14</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a></td>
-      <td>2020-06-14</td>
-      <td>2020-06-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a></td>
-      <td>2020-06-05</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a></td>
-      <td>2020-06-02</td>
-      <td>2020-06-02</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a></td>
-      <td>2020-05-21</td>
-      <td>2020-05-30</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a></td>
-      <td>2020-05-25</td>
-      <td>2020-05-26</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a></td>
-      <td>2020-04-27</td>
-      <td>2020-04-28</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a></td>
-      <td>2015-06-19</td>
-      <td>2020-04-21</td>
-    </tr>
-    <tr>
-      <td>vision</td>
-      <td><a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a></td>
-      <td>2019-03-20</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a></td>
-      <td>2021-12-28</td>
-      <td>2021-12-28</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a></td>
-      <td>2021-06-25</td>
-      <td>2021-08-05</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a></td>
-      <td>2020-07-21</td>
-      <td>2021-07-16</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a></td>
-      <td>2020-06-23</td>
-      <td>2020-07-20</td>
-    </tr>
-    <tr>
-      <td>timeseries</td>
-      <td><a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a></td>
-      <td>2020-05-31</td>
-      <td>2020-05-31</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a></td>
-      <td>2022-01-25</td>
-      <td>2022-01-25</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a></td>
-      <td>2022-01-18</td>
-      <td>2022-01-18</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a></td>
-      <td>2020-12-31</td>
-      <td>2021-05-05</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a></td>
-      <td>2021-02-10</td>
-      <td>2021-02-10</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a></td>
-      <td>2020-12-30</td>
-      <td>2020-12-30</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a></td>
-      <td>2020-06-09</td>
-      <td>2020-06-09</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a></td>
-      <td>2020-05-24</td>
-      <td>2020-05-24</td>
-    </tr>
-    <tr>
-      <td>structured_data</td>
-      <td><a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a></td>
-      <td>2019-05-28</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a></td>
-      <td>2021-06-24</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a></td>
-      <td>2020-06-04</td>
-      <td>2020-09-21</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a></td>
-      <td>2020-05-23</td>
-      <td>2020-06-17</td>
-    </tr>
-    <tr>
-      <td>rl</td>
-      <td><a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a></td>
-      <td>2020-05-13</td>
-      <td>2020-05-13</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a></td>
-      <td>2022-01-13</td>
-      <td>2022-01-13</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a></td>
-      <td>2021-10-29</td>
-      <td>2021-10-29</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a></td>
-      <td>2021-10-05</td>
-      <td>2021-10-05</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a></td>
-      <td>2021-08-08</td>
-      <td>2021-08-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a></td>
-      <td>2021-06-23</td>
-      <td>2021-06-24</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a></td>
-      <td>2021-05-26</td>
-      <td>2021-05-26</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a></td>
-      <td>2021-01-30</td>
-      <td>2021-01-30</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a></td>
-      <td>2020-09-25</td>
-      <td>2020-12-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a></td>
-      <td>2020-09-18</td>
-      <td>2020-09-18</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a></td>
-      <td>2020-08-15</td>
-      <td>2020-08-29</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a></td>
-      <td>2020-05-23</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a></td>
-      <td>2019-11-06</td>
-      <td>2020-05-17</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a></td>
-      <td>2020-05-10</td>
-      <td>2020-05-10</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a></td>
-      <td>2020-05-05</td>
-      <td>2020-05-05</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a></td>
-      <td>2017-09-29</td>
-      <td>2020-04-26</td>
-    </tr>
-    <tr>
-      <td>nlp</td>
-      <td><a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a></td>
-      <td>2015-08-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a></td>
-      <td>2021-11-03</td>
-      <td>2021-11-03</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a></td>
-      <td>2021-10-07</td>
-      <td>2021-10-07</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a></td>
-      <td>2021-08-28</td>
-      <td>2021-08-28</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a></td>
-      <td>2021-08-01</td>
-      <td>2021-08-01</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a></td>
-      <td>2021-05-20</td>
-      <td>2021-06-06</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a></td>
-      <td>2021-02-27</td>
-      <td>2021-02-27</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a></td>
-      <td>2021-02-15</td>
-      <td>2021-02-15</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a></td>
-      <td>2021-01-15</td>
-      <td>2021-01-15</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a></td>
-      <td>2020-07-29</td>
-      <td>2020-08-07</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a></td>
-      <td>2020-05-16</td>
-      <td>2020-05-16</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a></td>
-      <td>2016-01-06</td>
-      <td>2020-04-20</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a></td>
-      <td>2020-04-17</td>
-      <td>2020-04-17</td>
-    </tr>
-    <tr>
-      <td>keras_recipes</td>
-      <td><a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a></td>
-      <td>2019-05-10</td>
-      <td>2019-05-10</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a></td>
-      <td>2021-08-16</td>
-      <td>2021-12-27</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a></td>
-      <td>2021-09-13</td>
-      <td>2021-12-26</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a></td>
-      <td>2021-05-30</td>
-      <td>2021-05-30</td>
-    </tr>
-    <tr>
-      <td>graph</td>
-      <td><a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a></td>
-      <td>2021-05-15</td>
-      <td>2021-05-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a></td>
-      <td>2021-12-26</td>
-      <td>2022-01-03</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a></td>
-      <td>2021-11-08</td>
-      <td>2021-11-08</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a></td>
-      <td>2021-10-28</td>
-      <td>2021-10-28</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a></td>
-      <td>2021-07-21</td>
-      <td>2021-07-21</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a></td>
-      <td>2021-07-13</td>
-      <td>2021-07-15</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a></td>
-      <td>2021-07-01</td>
-      <td>2021-07-01</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a></td>
-      <td>2021-06-30</td>
-      <td>2021-06-30</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a></td>
-      <td>2019-04-29</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a></td>
-      <td>2020-08-12</td>
-      <td>2020-08-12</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a></td>
-      <td>2020-08-10</td>
-      <td>2020-08-10</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a></td>
-      <td>2020-05-29</td>
-      <td>2020-05-29</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a></td>
-      <td>2020-05-17</td>
-      <td>2020-05-23</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a></td>
-      <td>2020-05-09</td>
-      <td>2020-05-09</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a></td>
-      <td>2020-05-03</td>
-      <td>2020-05-03</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a></td>
-      <td>2016-01-13</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a></td>
-      <td>2016-01-11</td>
-      <td>2020-05-02</td>
-    </tr>
-    <tr>
-      <td>generative</td>
-      <td><a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a></td>
-      <td>2015-06-15</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a></td>
-      <td>2021-09-26</td>
-      <td>2021-09-26</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a></td>
-      <td>2021-02-09</td>
-      <td>2021-09-15</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a></td>
-      <td>2021-01-13</td>
-      <td>2021-01-13</td>
-    </tr>
-    <tr>
-      <td>audio</td>
-      <td><a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a></td>
-      <td>2020-06-14</td>
-      <td>2020-03-07</td>
-    </tr>
-  </tbody>
-</table>
-
-
+| Category        | Title                                                                                                                                                        | Date created        | Last modified       |
+|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:--------------------|
+| vision          | <a href=https://keras.io/examples/vision/patch_convnet>Augmenting convnets with aggregated attention</a>                                                     | 2022-01-22 | 2022-01-22 |
+| vision          | <a href=https://keras.io/examples/vision/vivit>Video Vision Transformer</a>                                                                                  | 2022-01-12 | 2022-01-12 |
+| vision          | <a href=https://keras.io/examples/vision/vit_small_ds>Train a Vision Transformer on small datasets</a>                                                       | 2022-01-07 | 2022-01-10 |
+| vision          | <a href=https://keras.io/examples/vision/masked_image_modeling>Masked image modeling with Autoencoders</a>                                                   | 2021-12-20 | 2021-12-21 |
+| vision          | <a href=https://keras.io/examples/vision/barlow_twins>Barlow Twins for Contrastive SSL</a>                                                                   | 2021-11-04 | 2021-12-20 |
+| vision          | <a href=https://keras.io/examples/vision/token_learner>Learning to tokenize in Vision Transformers</a>                                                       | 2021-12-10 | 2021-12-15 |
+| vision          | <a href=https://keras.io/examples/vision/attention_mil_classification>Classification using Attention-based Deep Multiple Instance Learning (MIL).</a>        | 2021-08-16 | 2021-11-25 |
+| vision          | <a href=https://keras.io/examples/vision/image_captioning>Image Captioning</a>                                                                               | 2021-05-29 | 2021-10-31 |
+| vision          | <a href=https://keras.io/examples/vision/mobilevit>MobileViT: A mobile-friendly Transformer-based model for image classification</a>                         | 2021-10-20 | 2021-10-20 |
+| vision          | <a href=https://keras.io/examples/vision/eanet>Image classification with EANet (External Attention Transformer)</a>                                          | 2021-10-19 | 2021-10-19 |
+| vision          | <a href=https://keras.io/examples/vision/convmixer>Image classification with ConvMixer</a>                                                                   | 2021-10-12 | 2021-10-12 |
+| vision          | <a href=https://keras.io/examples/vision/fixres>FixRes: Fixing train-test resolution discrepancy</a>                                                         | 2021-10-08 | 2021-10-10 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning_tf_similarity>Metric learning for image similarity search using TensorFlow Similarity</a>           | 2021-09-30 | 2021-09-30 |
+| vision          | <a href=https://keras.io/examples/vision/bit>Image Classification using BigTransfer (BiT)</a>                                                                | 2021-09-24 | 2021-09-24 |
+| vision          | <a href=https://keras.io/examples/vision/zero_dce>Zero-DCE for low-light image enhancement</a>                                                               | 2021-09-18 | 2021-09-19 |
+| vision          | <a href=https://keras.io/examples/vision/mirnet>Low-light image enhancement using MIRNet</a>                                                                 | 2021-09-11 | 2021-09-15 |
+| vision          | <a href=https://keras.io/examples/vision/nnclr>Self-supervised contrastive learning with NNCLR</a>                                                           | 2021-09-13 | 2021-09-13 |
+| vision          | <a href=https://keras.io/examples/vision/near_dup_search>Near-duplicate image search</a>                                                                     | 2021-09-10 | 2021-09-10 |
+| vision          | <a href=https://keras.io/examples/vision/swin_transformers>Image classification with Swin Transformers</a>                                                   | 2021-09-08 | 2021-09-08 |
+| vision          | <a href=https://keras.io/examples/vision/deeplabv3_plus>Multiclass semantic segmentation using DeepLabV3+</a>                                                | 2021-08-31 | 2021-09-01 |
+| vision          | <a href=https://keras.io/examples/vision/depth_estimation>Monocular depth estimation</a>                                                                     | 2021-08-30 | 2021-08-30 |
+| vision          | <a href=https://keras.io/examples/vision/handwriting_recognition>Handwriting recognition</a>                                                                 | 2021-08-16 | 2021-08-16 |
+| vision          | <a href=https://keras.io/examples/vision/nerf>3D volumetric rendering with NeRF</a>                                                                          | 2021-08-09 | 2021-08-09 |
+| vision          | <a href=https://keras.io/examples/vision/involution>Involutional neural networks</a>                                                                         | 2021-07-25 | 2021-07-25 |
+| vision          | <a href=https://keras.io/examples/vision/cct>Compact Convolutional Transformers</a>                                                                          | 2021-06-30 | 2021-06-30 |
+| vision          | <a href=https://keras.io/examples/vision/adamatch>Semi-supervision and domain adaptation with AdaMatch</a>                                                   | 2021-06-19 | 2021-06-19 |
+| vision          | <a href=https://keras.io/examples/vision/gradient_centralization>Gradient Centralization for Better Training Performance</a>                                 | 2021-06-18 | 2021-06-18 |
+| vision          | <a href=https://keras.io/examples/vision/cutmix>CutMix data augmentation for image classification</a>                                                        | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/video_transformers>Video Classification with Transformers</a>                                                       | 2021-06-08 | 2021-06-08 |
+| vision          | <a href=https://keras.io/examples/vision/video_classification>Video Classification with a CNN-RNN Architecture</a>                                           | 2021-05-28 | 2021-06-05 |
+| vision          | <a href=https://keras.io/examples/vision/conv_lstm>Next-Frame Video Prediction with Convolutional LSTMs</a>                                                  | 2021-06-02 | 2021-06-05 |
+| vision          | <a href=https://keras.io/examples/vision/mlp_image_classification>Image classification with modern MLP models</a>                                            | 2021-05-30 | 2021-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/learnable_resizer>Learning to Resize in Computer Vision</a>                                                         | 2021-04-30 | 2021-05-13 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_contrastive>Image similarity estimation using a Siamese Network with a contrastive loss</a>                 | 2021-05-06 | 2021-05-06 |
+| vision          | <a href=https://keras.io/examples/vision/keypoint_detection>Keypoint Detection with Transfer Learning</a>                                                    | 2021-05-02 | 2021-05-02 |
+| vision          | <a href=https://keras.io/examples/vision/semisupervised_simclr>Semi-supervised image classification using contrastive pretraining with SimCLR</a>            | 2021-04-24 | 2021-04-24 |
+| vision          | <a href=https://keras.io/examples/vision/consistency_training>Consistency training with supervision</a>                                                      | 2021-04-13 | 2021-04-19 |
+| vision          | <a href=https://keras.io/examples/vision/siamese_network>Image similarity estimation using a Siamese Network with a triplet loss</a>                         | 2021-03-25 | 2021-03-25 |
+| vision          | <a href=https://keras.io/examples/vision/simsiam>Self-supervised contrastive learning with SimSiam</a>                                                       | 2021-03-19 | 2021-03-20 |
+| vision          | <a href=https://keras.io/examples/vision/randaugment>RandAugment for Image Classification for Improved Robustness</a>                                        | 2021-03-13 | 2021-03-17 |
+| vision          | <a href=https://keras.io/examples/vision/grad_cam>Grad-CAM class activation visualization</a>                                                                | 2020-04-26 | 2021-03-07 |
+| vision          | <a href=https://keras.io/examples/vision/mixup>MixUp augmentation for image classification</a>                                                               | 2021-03-06 | 2021-03-06 |
+| vision          | <a href=https://keras.io/examples/vision/autoencoder>Convolutional autoencoder for image denoising</a>                                                       | 2021-03-01 | 2021-03-01 |
+| vision          | <a href=https://keras.io/examples/vision/semantic_image_clustering>Semantic Image Clustering</a>                                                             | 2021-02-28 | 2021-02-28 |
+| vision          | <a href=https://keras.io/examples/vision/perceiver_image_classification>Image classification with Perceiver</a>                                              | 2021-04-30 | 2021-01-30 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_with_vision_transformer>Image classification with Vision Transformer</a>                       | 2021-01-18 | 2021-01-18 |
+| vision          | <a href=https://keras.io/examples/vision/supervised-contrastive-learning>Supervised Contrastive Learning</a>                                                 | 2020-11-30 | 2020-11-30 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet_segmentation>Point cloud segmentation with PointNet</a>                                                    | 2020-10-23 | 2020-10-24 |
+| vision          | <a href=https://keras.io/examples/vision/3D_image_classification>3D image classification from CT scans</a>                                                   | 2020-09-23 | 2020-09-23 |
+| vision          | <a href=https://keras.io/examples/vision/knowledge_distillation>Knowledge Distillation</a>                                                                   | 2020-09-01 | 2020-09-01 |
+| vision          | <a href=https://keras.io/examples/vision/super_resolution_sub_pixel>Image Super-Resolution using an Efficient Sub-Pixel CNN</a>                              | 2020-07-28 | 2020-08-27 |
+| vision          | <a href=https://keras.io/examples/vision/xray_classification_with_tpus>Pneumonia Classification on TPU</a>                                                   | 2020-07-28 | 2020-08-24 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning>Image classification via fine-tuning with EfficientNet</a>            | 2020-06-30 | 2020-07-16 |
+| vision          | <a href=https://keras.io/examples/vision/retinanet>Object Detection with RetinaNet</a>                                                                       | 2020-05-17 | 2020-07-14 |
+| vision          | <a href=https://keras.io/examples/vision/captcha_ocr>OCR model for reading Captchas</a>                                                                      | 2020-06-14 | 2020-06-26 |
+| vision          | <a href=https://keras.io/examples/vision/metric_learning>Metric learning for image similarity search</a>                                                     | 2020-06-05 | 2020-06-09 |
+| vision          | <a href=https://keras.io/examples/vision/integrated_gradients>Model interpretability with Integrated Gradients</a>                                           | 2020-06-02 | 2020-06-02 |
+| vision          | <a href=https://keras.io/examples/vision/reptile>Few-Shot learning with Reptile</a>                                                                          | 2020-05-21 | 2020-05-30 |
+| vision          | <a href=https://keras.io/examples/vision/visualizing_what_convnets_learn>Visualizing what convnets learn</a>                                                 | 2020-05-29 | 2020-05-29 |
+| vision          | <a href=https://keras.io/examples/vision/pointnet>Point cloud classification with PointNet</a>                                                               | 2020-05-25 | 2020-05-26 |
+| vision          | <a href=https://keras.io/examples/vision/image_classification_from_scratch>Image classification from scratch</a>                                             | 2020-04-27 | 2020-04-28 |
+| vision          | <a href=https://keras.io/examples/vision/mnist_convnet>Simple MNIST convnet</a>                                                                              | 2015-06-19 | 2020-04-21 |
+| vision          | <a href=https://keras.io/examples/vision/oxford_pets_image_segmentation>Image segmentation with a U-Net-like architecture</a>                                | 2019-03-20 | 2020-04-20 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_traffic_forecasting>Traffic forecasting using graph neural networks and LSTM</a>                     | 2021-12-28 | 2021-12-28 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_transformer>Timeseries classification with a Transformer model</a>                    | 2021-06-25 | 2021-08-05 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_classification_from_scratch>Timeseries classification from scratch</a>                               | 2020-07-21 | 2021-07-16 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_weather_forecasting>Timeseries forecasting for weather prediction</a>                                | 2020-06-23 | 2020-07-20 |
+| timeseries      | <a href=https://keras.io/examples/timeseries/timeseries_anomaly_detection>Timeseries anomaly detection using an Autoencoder</a>                              | 2020-05-31 | 2020-05-31 |
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_tfdf>Classification with TensorFlow Decision Forests</a>                               | 2022-01-25 | 2022-01-25 |
+| structured_data | <a href=https://keras.io/examples/structured_data/tabtransformer>Structured data learning with TabTransformer</a>                                            | 2022-01-18 | 2022-01-18 |
+| structured_data | <a href=https://keras.io/examples/structured_data/wide_deep_cross_networks>Structured data learning with Wide, Deep, and Cross networks</a>                  | 2020-12-31 | 2021-05-05 |
+| structured_data | <a href=https://keras.io/examples/structured_data/classification_with_grn_and_vsn>Classification with Gated Residual and Variable Selection Networks</a>     | 2021-02-10 | 2021-02-10 |
+| structured_data | <a href=https://keras.io/examples/structured_data/deep_neural_decision_forests>Classification with Neural Decision Forests</a>                               | 2021-01-15 | 2021-01-15 |
+| structured_data | <a href=https://keras.io/examples/structured_data/movielens_recommendations_transformers>A Transformer-based recommendation system</a>                       | 2020-12-30 | 2020-12-30 |
+| structured_data | <a href=https://keras.io/examples/structured_data/structured_data_classification_from_scratch>Structured data classification from scratch</a>                | 2020-06-09 | 2020-06-09 |
+| structured_data | <a href=https://keras.io/examples/structured_data/collaborative_filtering_movielens>Collaborative Filtering for Movie Recommendations</a>                    | 2020-05-24 | 2020-05-24 |
+| structured_data | <a href=https://keras.io/examples/structured_data/imbalanced_classification>Imbalanced classification: credit card fraud detection</a>                       | 2019-05-28 | 2020-04-17 |
+| rl              | <a href=https://keras.io/examples/rl/ppo_cartpole>Proximal Policy Optimization</a>                                                                           | 2021-06-24 | 2021-06-24 |
+| rl              | <a href=https://keras.io/examples/rl/ddpg_pendulum>Deep Deterministic Policy Gradient (DDPG)</a>                                                             | 2020-06-04 | 2020-09-21 |
+| rl              | <a href=https://keras.io/examples/rl/deep_q_network_breakout>Deep Q-Learning for Atari Breakout</a>                                                          | 2020-05-23 | 2020-06-17 |
+| rl              | <a href=https://keras.io/examples/rl/actor_critic_cartpole>Actor Critic Method</a>                                                                           | 2020-05-13 | 2020-05-13 |
+| nlp             | <a href=https://keras.io/examples/nlp/question_answering>Question Answering with Hugging Face Transformers</a>                                               | 2022-01-13 | 2022-01-13 |
+| nlp             | <a href=https://keras.io/examples/nlp/active_learning_review_classification>Review Classification using Active Learning</a>                                  | 2021-10-29 | 2021-10-29 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_generation_fnet>Text Generation using FNet</a>                                                                    | 2021-10-05 | 2021-10-05 |
+| nlp             | <a href=https://keras.io/examples/nlp/multimodal_entailment>Multimodal entailment</a>                                                                        | 2021-08-08 | 2021-08-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/ner_transformers>Named Entity Recognition using Transformers</a>                                                       | 2021-06-23 | 2021-06-24 |
+| nlp             | <a href=https://keras.io/examples/nlp/neural_machine_translation_with_transformer>English-to-Spanish translation with a sequence-to-sequence Transformer</a> | 2021-05-26 | 2021-05-26 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_switch_transformer>Text classification with Switch Transformer</a>                            | 2020-05-10 | 2021-02-15 |
+| nlp             | <a href=https://keras.io/examples/nlp/nl_image_search>Natural language image search with a Dual Encoder</a>                                                  | 2021-01-30 | 2021-01-30 |
+| nlp             | <a href=https://keras.io/examples/nlp/multi_label_classification>Large-scale multi-label text classification</a>                                             | 2020-09-25 | 2020-12-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/masked_language_modeling>End-to-end Masked Language Modeling with BERT</a>                                             | 2020-09-18 | 2020-09-18 |
+| nlp             | <a href=https://keras.io/examples/nlp/semantic_similarity_with_bert>Semantic Similarity with BERT</a>                                                        | 2020-08-15 | 2020-08-29 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_extraction_with_bert>Text Extraction with BERT</a>                                                                | 2020-05-23 | 2020-05-23 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_from_scratch>Text classification from scratch</a>                                                  | 2019-11-06 | 2020-05-17 |
+| nlp             | <a href=https://keras.io/examples/nlp/text_classification_with_transformer>Text classification with Transformer</a>                                          | 2020-05-10 | 2020-05-10 |
+| nlp             | <a href=https://keras.io/examples/nlp/pretrained_word_embeddings>Using pre-trained word embeddings</a>                                                       | 2020-05-05 | 2020-05-05 |
+| nlp             | <a href=https://keras.io/examples/nlp/bidirectional_lstm_imdb>Bidirectional LSTM on IMDB</a>                                                                 | 2020-05-03 | 2020-05-03 |
+| nlp             | <a href=https://keras.io/examples/nlp/lstm_seq2seq>Character-level recurrent sequence-to-sequence model</a>                                                  | 2017-09-29 | 2020-04-26 |
+| nlp             | <a href=https://keras.io/examples/nlp/addition_rnn>Sequence to sequence learning for performing number addition</a>                                          | 2015-08-17 | 2020-04-17 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/subclassing_conv_layers>Customizing the convolution operation of a Conv2D layer</a>                          | 2021-11-03 | 2021-11-03 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sklearn_metric_callbacks>Evaluating and exporting scikit-learn metrics in a Keras callback</a>               | 2021-10-07 | 2021-10-07 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tensorflow_nu_models>Writing Keras Models With TensorFlow NumPy</a>                                          | 2021-08-28 | 2021-08-28 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/better_knowledge_distillation>Knowledge distillation recipes</a>                                             | 2021-08-01 | 2021-08-01 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/sample_size_estimate>Estimating required sample size for model training</a>                                  | 2021-05-20 | 2021-06-06 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/creating_tfrecords>Creating TFRecords</a>                                                                    | 2021-02-27 | 2021-02-27 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/memory_efficient_embeddings>Memory-efficient embeddings for recommendation systems</a>                       | 2021-02-15 | 2021-02-15 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/bayesian_neural_networks>Probabilistic Bayesian Neural Networks</a>                                          | 2021-01-15 | 2021-01-15 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/tfrecord>How to train a Keras model on TFRecord files</a>                                                    | 2020-07-29 | 2020-08-07 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/debugging_tips>Keras debugging tips</a>                                                                      | 2020-05-16 | 2020-05-16 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/antirectifier>Simple custom layer example: Antirectifier</a>                                                 | 2016-01-06 | 2020-04-20 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/quasi_svm>A Quasi-SVM in Keras</a>                                                                           | 2020-04-17 | 2020-04-17 |
+| keras_recipes   | <a href=https://keras.io/examples/keras_recipes/endpoint_layer_pattern>Endpoint layer pattern</a>                                                            | 2019-05-10 | 2019-05-10 |
+| graph           | <a href=https://keras.io/examples/graph/mpnn-molecular-graphs>Message-passing neural network (MPNN) for molecular property prediction</a>                    | 2021-08-16 | 2021-12-27 |
+| graph           | <a href=https://keras.io/examples/graph/gat_node_classification>Graph attention network (GAT) for node classification</a>                                    | 2021-09-13 | 2021-12-26 |
+| graph           | <a href=https://keras.io/examples/graph/gnn_citations>Node Classification with Graph Neural Networks</a>                                                     | 2021-05-30 | 2021-05-30 |
+| graph           | <a href=https://keras.io/examples/graph/node2vec_movielens>Graph representation learning with node2vec</a>                                                   | 2021-05-15 | 2021-05-15 |
+| generative      | <a href=https://keras.io/examples/generative/gaugan>GauGAN for conditional image generation</a>                                                              | 2021-12-26 | 2022-01-03 |
+| generative      | <a href=https://keras.io/examples/generative/adain>Neural Style Transfer with AdaIN</a>                                                                      | 2021-11-08 | 2021-11-08 |
+| generative      | <a href=https://keras.io/examples/generative/gan_ada>Data-efficient GANs with Adaptive Discriminator Augmentation</a>                                        | 2021-10-28 | 2021-10-28 |
+| generative      | <a href=https://keras.io/examples/generative/vq_vae>Vector-Quantized Variational Autoencoders</a>                                                            | 2021-07-21 | 2021-07-21 |
+| generative      | <a href=https://keras.io/examples/generative/conditional_gan>Conditional GAN</a>                                                                             | 2021-07-13 | 2021-07-15 |
+| generative      | <a href=https://keras.io/examples/generative/stylegan>Face image generation with StyleGAN</a>                                                                | 2021-07-01 | 2021-07-01 |
+| generative      | <a href=https://keras.io/examples/generative/wgan-graphs>WGAN-GP with R-GCN for the generation of small molecular graphs</a>                                 | 2021-06-30 | 2021-06-30 |
+| generative      | <a href=https://keras.io/examples/generative/dcgan_overriding_train_step>DCGAN to generate face images</a>                                                   | 2019-04-29 | 2021-01-01 |
+| generative      | <a href=https://keras.io/examples/generative/cyclegan>CycleGAN</a>                                                                                           | 2020-08-12 | 2020-08-12 |
+| generative      | <a href=https://keras.io/examples/generative/real_nvp>Density estimation using Real NVP</a>                                                                  | 2020-08-10 | 2020-08-10 |
+| generative      | <a href=https://keras.io/examples/generative/text_generation_with_miniature_gpt>Text generation with a miniature GPT</a>                                     | 2020-05-29 | 2020-05-29 |
+| generative      | <a href=https://keras.io/examples/generative/pixelcnn>PixelCNN</a>                                                                                           | 2020-05-17 | 2020-05-23 |
+| generative      | <a href=https://keras.io/examples/generative/wgan_gp>WGAN-GP overriding `Model.train_step`</a>                                                               | 2020-05-09 | 2020-05-09 |
+| generative      | <a href=https://keras.io/examples/generative/vae>Variational AutoEncoder</a>                                                                                 | 2020-05-03 | 2020-05-03 |
+| generative      | <a href=https://keras.io/examples/generative/deep_dream>Deep Dream</a>                                                                                       | 2016-01-13 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/neural_style_transfer>Neural style transfer</a>                                                                 | 2016-01-11 | 2020-05-02 |
+| generative      | <a href=https://keras.io/examples/generative/lstm_character_level_text_generation>Character-level text generation with LSTM</a>                              | 2015-06-15 | 2020-04-30 |
+| audio           | <a href=https://keras.io/examples/audio/ctc_asr>Automatic Speech Recognition using CTC</a>                                                                   | 2021-09-26 | 2021-09-26 |
+| audio           | <a href=https://keras.io/examples/audio/melgan_spectrogram_inversion>MelGAN-based spectrogram inversion using feature matching</a>                           | 2021-02-09 | 2021-09-15 |
+| audio           | <a href=https://keras.io/examples/audio/transformer_asr>Automatic Speech Recognition with Transformer</a>                                                    | 2021-01-13 | 2021-01-13 |
+| audio           | <a href=https://keras.io/examples/audio/speaker_recognition_using_cnn>Speaker Recognition</a>                                                                | 2020-06-14 | 2020-03-07 |
