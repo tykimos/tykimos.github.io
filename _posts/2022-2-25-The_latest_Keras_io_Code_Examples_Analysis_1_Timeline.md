@@ -5,7 +5,7 @@ author: Taeyoung Kim
 date:   2022-2-25 00:00:00
 categories: tech
 comments: true
-image: http://tykimos.github.io/warehouse/2022-2-25-The_latest_Keras_io_Code_Examples_Analysis_1_Timeline_10_0.png
+image: http://tykimos.github.io/warehouse/2022-2-25-The_latest_Keras_io_Code_Examples_Analysis_1_Timeline_title.png
 ---
 
 The Keras.io Code Example is frequently updated. To track the latest information, this code checks when the example was added or changed. 
