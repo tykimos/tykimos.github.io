@@ -5,7 +5,7 @@ author: Taeyoung Kim
 date:   2022-8-15 00:00:00
 categories: tech
 comments: true
-image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_service_using_huggingface_title01.png
+image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_service_using_huggingface_title1.png
 ---
 
 안녕하세요. 타이키모스입니다. 이번 시간에는 허깅페이스로 데이터 시각화 웹서비스를 간단하게 만들어보겠습니다.회원수나 판매량 등의 누적량 그래프를 파이썬 시각화 패키지로 그리고 있었는데요.
