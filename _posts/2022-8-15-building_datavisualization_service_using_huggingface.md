@@ -29,19 +29,19 @@ Space 이름을 설정한 후, 적절한 라이센스 정책을 선택합니다.
 
 처음에는 필요한 파이썬 패키지 불러오는 코드가 있습니다.
 
-  import streamlit as st
-  import pandas as pd
-  import numpy as np
-  from datetime import datetime, timedelta
-  from io import StringIO
+    import streamlit as st
+    import pandas as pd
+    import numpy as np
+    from datetime import datetime, timedelta
+    from io import StringIO
     
 에스티가 스트림릿 패키지의 약자인데요. 스트림릿에 타이틀을 설정하고, 파일 업로드 컨트롤을 추가합니다.
 
-  st.title('Cumulative Trend')
+    st.title('Cumulative Trend')
 
-  uploaded_file = st.file_uploader("Choose a csv file including 'date' column.")
+    uploaded_file = st.file_uploader("Choose a csv file including 'date' column.")
 
-  if uploaded_file is not None:
+    if uploaded_file is not None:
 
 다음은 업로드된 CSV파일에서 데이트 컬럼을 불러온 뒤 결측치를 제거합니다.
 
