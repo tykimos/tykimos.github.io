@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "허깅페이스로 데이터 시각화 웹서비스 간단히 만들기"
+title:  "허깅페이스와 스트림릿으로 데이터 시각화 웹서비스 간단히 만들기"
 author: Taeyoung Kim
 date:   2022-8-15 00:00:00
 categories: tech
@@ -8,7 +8,7 @@ comments: true
 image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_service_using_huggingface_title1.png
 ---
 
-안녕하세요. 타이키모스입니다. 이번 시간에는 허깅페이스로 데이터 시각화 웹서비스를 간단하게 만들어보겠습니다. 본 내용은 아래 동영상으로도 보실 수 있습니다.
+안녕하세요. 타이키모스입니다. 이번 시간에는 허깅페이스와 스트림릿으로 데이터 시각화 웹서비스를 간단하게 만들어보겠습니다. 본 내용은 아래 동영상으로도 보실 수 있습니다.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/sgiAcpjLO-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
