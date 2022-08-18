@@ -87,19 +87,19 @@ image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_s
       end_date = date_list[-1]
       day_count = (end_date - start_date).days + 1
       
-X는 일일 단위로 시작 날짜부터 마지막 날짜까지 설정합니다. Y에는 해당일에 데이터가 있다면 1을 추가하여 해당일에 대한 데이터 개수를 계산합니다.
+x는 일일 단위로 시작 날짜부터 마지막 날짜까지 설정합니다. y에는 해당일에 데이터가 있다면 1을 추가하여 해당일에 대한 데이터 개수를 계산합니다.
 
       x = np.arange(start_date, end_date + timedelta(days=1), timedelta(days=1)).astype(datetime)
       y = np.zeros(day_count)
 
-Y의 누적량을 계산하여 Y 언더바 카운트에 저장합니다.
+y의 누적량을 계산하여 y_count에 저장합니다.
 
       for d in date_list:
           y[(d - start_date).days] += 1
 
       y_count = np.cumsum(y)
 
-X와 Y 언더바 카운트를 각각 X축와 Y축으로 설정한 뒤, 스트림릿에서 제공하는 영역 차트를 이용하여 시각화 시킵니다.
+x와 y_count에를 각각 x축와 y축으로 설정한 뒤, 스트림릿에서 제공하는 영역 차트를 이용하여 시각화 시킵니다.
 
       df = pd.DataFrame({'date': x, 'count': y_count})
 
