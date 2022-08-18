@@ -15,7 +15,7 @@ image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_s
 * 둘째, 별도의 서버나 클라우드 비용이 필요하지 않을 것.
 * 셋째, 개발 및 유지보수가 쉬울 것.
 * 넷째, 깔끔할 것.
-
+                                                                                                                                                           <iframe width="100%" height="400" src="https://youtu.be/sgiAcpjLO-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                                                                                                                    
 여러가지 방법을 고민했으나 결론은 허깅페이스과 스트림릿 조합으로 만들게 되었습니다. 그럼 함께 만들어볼까요?
 
 먼저 허깅페이스에 접속하여 로그인을 합니다. 상단 메뉴에 보면 Spaces가 있는데요. Spaces는 머신러닝 데모용 서비스를 아주 쉽게 생성하고 실제 웹에서 서비스가 될 수 있도록 호스트하기 위한 공간입니다. 
