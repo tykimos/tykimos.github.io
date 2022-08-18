@@ -10,7 +10,7 @@ image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_s
 
 안녕하세요. 타이키모스입니다. 이번 시간에는 허깅페이스로 데이터 시각화 웹서비스를 간단하게 만들어보겠습니다. 본 내용은 아래 동영상으로도 보실 수 있습니다.
 
-<iframe width="100%" height="400" src="https://youtu.be/sgiAcpjLO-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                                 
+<iframe width="100%" height="400" src="https://youtu.be/sgiAcpjLO-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 회원수나 판매량 등의 누적량 그래프를 파이썬 시각화 패키지로 그리고 있었는데요.
 웹 서비스로 만들고싶어 아래 조건을 만족하는 방법을 찾아보고 있었습니다.
