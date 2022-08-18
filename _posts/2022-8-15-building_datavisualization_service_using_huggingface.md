@@ -8,14 +8,18 @@ comments: true
 image: http://tykimos.github.io/warehouse/2022-8-15-building_datavisualization_service_using_huggingface_title1.png
 ---
 
-안녕하세요. 타이키모스입니다. 이번 시간에는 허깅페이스로 데이터 시각화 웹서비스를 간단하게 만들어보겠습니다.회원수나 판매량 등의 누적량 그래프를 파이썬 시각화 패키지로 그리고 있었는데요.
+안녕하세요. 타이키모스입니다. 이번 시간에는 허깅페이스로 데이터 시각화 웹서비스를 간단하게 만들어보겠습니다. 본 내용은 아래 동영상으로도 보실 수 있습니다.
+
+<iframe width="100%" height="400" src="https://youtu.be/sgiAcpjLO-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                                 
+
+회원수나 판매량 등의 누적량 그래프를 파이썬 시각화 패키지로 그리고 있었는데요.
 웹 서비스로 만들고싶어 아래 조건을 만족하는 방법을 찾아보고 있었습니다.
 
 * 첫째, 웹서비스이지만 파이썬 코드로만 가능할 것.
 * 둘째, 별도의 서버나 클라우드 비용이 필요하지 않을 것.
 * 셋째, 개발 및 유지보수가 쉬울 것.
 * 넷째, 깔끔할 것.
-                                                                                                                                                           <iframe width="100%" height="400" src="https://youtu.be/sgiAcpjLO-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                                                                                                                    
+                                                                                   
 여러가지 방법을 고민했으나 결론은 허깅페이스과 스트림릿 조합으로 만들게 되었습니다. 그럼 함께 만들어볼까요?
 
 먼저 허깅페이스에 접속하여 로그인을 합니다. 상단 메뉴에 보면 Spaces가 있는데요. Spaces는 머신러닝 데모용 서비스를 아주 쉽게 생성하고 실제 웹에서 서비스가 될 수 있도록 호스트하기 위한 공간입니다. 
