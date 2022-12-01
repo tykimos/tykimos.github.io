@@ -5,12 +5,12 @@ author: Taeyoung Kim
 date:   2022-12-01 00:00:00
 categories: tech
 comments: true
-image: http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png
+image: https://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png
 ---
 
 안녕하세요. 타이키모스입니다. 미디어파이프를 파이썬에서 간단하게 테스트해보려면 코랩이나 파이썬 가상환경에서 설치해도 되지만, 모바일 기기나 데스크탑 용으로 어플리케이션을 개발하려면 설치 및 빌드까지 해야합니다. 미디어파이프 공식페이지에 아래처럼 macOS 설치법이 있으나, Apple Silicon칩 기반 M1 유저인 경우에는 제대로 설치가 안됩니다. 여러가지 방법이 있을 수 있겠으나 제가 설치에 성공한 버전으로 정리해봤습니다.
 
-![image]([http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png](http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png))
+![image](https://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png)
 
 ### Homebrew 설치
 
