@@ -104,7 +104,9 @@ $ python --version
 $ pip3 install --user six
 ```
 
-### mediapipe/framework/port/BUILD 파일에서 링크옵션을 추가합니다.
+### 링크 옵션 추가
+
+mediapipe/framework/port/BUILD 파일에 아래와 같이 링크옵션을 추가합니다.
 
 변경전
 ```
@@ -160,14 +162,18 @@ cc_library(
 dyld[99566]: symbol not found in flat namespace '_CFRelease'
 ```
 
-### "Hello World!"의 C++ 예제를 실행합니다.
+### "Hello World!" 실행
+
+"Hello World!"의 C++ 예제를 실행합니다.
  
 ```bash
 $ export GLOG_logtostderr=1
 $ bazel run --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/hello_world:hello_world
 ```
 
-### 아래와 같이 터미널에 출력되면 정상적으로 설치된 것입니다.
+### 출력 확인
+
+아래와 같이 터미널에 출력되면 정상적으로 설치된 것입니다.
 
 ```bash
 # Hello World!
