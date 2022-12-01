@@ -12,7 +12,7 @@ image: http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_mac
 
 ![image]([http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png](http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_macOS_with_Apple_Silicon_title1.png))
 
-1. Homebrew 설치
+### Homebrew 설치
 
 터미널에서 아래 명령으로 설치합니다.
 
@@ -20,7 +20,7 @@ image: http://tykimos.github.io/warehouse/2022-12-01-Mediapipe_installing_on_mac
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. Xcode 설치
+### Xcode 설치
 
 터미널에서 아래 명령으로 설치합니다.
 
@@ -43,7 +43,7 @@ $ sudo xcode-select --install
 
 승인 팝업 창이 뜨면 확인 버튼을 클릭하여 설치를 완료합니다.
 
-3. 미디어파이프 다운로드
+### 미디어파이프 다운로드
 
 깃 클론을 통해서 미디어파이프를 다운로드 합니다.
 
@@ -52,7 +52,7 @@ $ git clone https://github.com/google/mediapipe.git
 $ cd mediapipe
 ```
 
-4. 미디어파이프에 설정된 바젤(bazel) 버전 확인
+### 미디어파이프에 설정된 바젤(bazel) 버전 확인
 
 mediapipe 폴더 내에 ".bazelversion" 파일을 열어 바젤 버전을 확인합니다. 저의 경우에는 5.2.0으로 표기되어 있습니다.
 
@@ -60,9 +60,9 @@ mediapipe 폴더 내에 ".bazelversion" 파일을 열어 바젤 버전을 확인
 5.2.0
 ```
 
-5. 4번에서 확인한 바젤 버전으로 설치합니다. "5.2.0"으로 확인되었으니 이 버전으로 설치합니다.
+### 바젤 설치
 
-먼저 바젤 설치 파일을 다운로드 합니다.
+위에서 확인한 바젤 버전으로 설치합니다. "5.2.0"으로 확인되었으니 이 버전으로 설치합니다. 먼저 바젤 설치 파일을 다운로드 합니다.
 
 ```bash
 $ export BAZEL_VERSION=5.2.0
@@ -88,14 +88,14 @@ $ export PATH="$PATH:$HOME/bin"
 bazel --version
 ```
 
-6. OpenCV와 FFmpeg를 설치합니다.
+### OpenCV와 FFmpeg를 설치합니다.
 
 ```bash
 $ brew install opencv@3
 $ brew uninstall --ignore-dependencies glog
 ```
 
-7. 파이썬을 설치합니다. 
+### 파이썬을 설치합니다. 
 
 ```bash
 $ brew install python
@@ -104,7 +104,7 @@ $ python --version
 $ pip3 install --user six
 ```
 
-8. mediapipe/framework/port/BUILD 파일에서 링크옵션을 추가합니다.
+### mediapipe/framework/port/BUILD 파일에서 링크옵션을 추가합니다.
 
 변경전
 ```
@@ -160,14 +160,14 @@ cc_library(
 dyld[99566]: symbol not found in flat namespace '_CFRelease'
 ```
 
-9. "Hello World!"의 C++ 예제를 실행합니다.
+### "Hello World!"의 C++ 예제를 실행합니다.
  
 ```bash
 $ export GLOG_logtostderr=1
 $ bazel run --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/hello_world:hello_world
 ```
 
-10. 아래와 같이 터미널에 출력되면 정상적으로 설치된 것입니다.
+### 아래와 같이 터미널에 출력되면 정상적으로 설치된 것입니다.
 
 ```bash
 # Hello World!
