@@ -21,7 +21,7 @@ scikit-learn==0.17
 scipy==0.17.0
 Theano==0.8.2
 ipykernel==4.0.3
-ipython==4.0.0
+ipython==8.10.0
 ipython-genutils==0.1.0
 ipywidgets==4.0.2
 Jinja2==2.8
