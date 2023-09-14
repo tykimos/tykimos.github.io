@@ -1,0 +1,30 @@
+*.DS_Store
+*.pyc
+*.swp
+temp/*
+dist/*
+build/*
+keras/datasets/data/*
+keras/datasets/temp/*
+docs/site/*
+docs/theme/*
+tags
+Keras.egg-info
+
+# test-related
+.coverage
+.cache
+
+# developer environments
+.idea
+venv
+venv3
+.ipynb_checkpoints
+_writing/.ipynb_checkpoints/*
+_writing/warehouse
+_deepbrick/*
+_writing/abstract/*
+_posts/waiting/*
+_projects/temp/*
+_writing/graph/*
+_writing/book/*
