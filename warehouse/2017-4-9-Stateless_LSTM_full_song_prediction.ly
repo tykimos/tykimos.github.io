@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:05c6d1eac994250ec0bb16c0b34f95bc4999acd6b030e5734302b6575da64727
-size 411
+\paper { 
+  indent = 0\mm
+}
+
+\header{
+  title = "나비야"
+  composer = "Stateless LSTM full song prediction"
+}
+
+melody = \relative c'' {
+\clef treble
+\key c \major
+\autoBeamOff
+\time 2/4
+g8 e8 e4 f8 d8 d4 c8 e8 g8 g8 e8 e8 e4 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8 d8
+}
+
+\score {
+  \new Staff \melody
+  \layout { }
+  \midi { }
+}

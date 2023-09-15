@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fad82924bd2c71c4221096591b9dcd4c5aa2ec5ba284a2510058a49d83e85731
-size 399
+\paper { 
+  indent = 0\mm
+}
+
+\header{
+  title = "나비야"
+  composer = "MLP one-step prediction"
+}
+
+melody = \relative c'' {
+\clef treble
+\key c \major
+\autoBeamOff
+\time 2/4
+g8 e8 e4 f8 d8 d4 c8 e8 e8 f8 g8 g8 g4 g8 e8 e8 e8 f8 g4 d4 c8 e8 g8 g8 e8 e8 e4 d8 d8 d8 d8 d8 d8 f4 e8 e8 e8 e8 f8 f8 g4 g8 e8 e4 f8 d8 d4 c8 e8 g8 g8 e8 e8 e4
+}
+
+\score {
+  \new Staff \melody
+  \layout { }
+  \midi { }
+}
