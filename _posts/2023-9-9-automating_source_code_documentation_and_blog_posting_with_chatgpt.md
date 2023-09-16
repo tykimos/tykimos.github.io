@@ -5,10 +5,10 @@ author: Taeyoung Kim
 date: 2023-9-9 00:00:00
 categories: bic
 comments: true
-image: https://tykimos.github.io/warehouse/2023/2023-/2023-9-9-automating_source_code_documentation_and_blog_posting_with_chatgpt_title.png
+image: https://tykimos.github.io/warehouse/2023/2023-9-9-automating_source_code_documentation_and_blog_posting_with_chatgpt_title.png
 ---
 
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-9-automating_source_code_documentation_and_blog_posting_with_chatgpt_title.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-9-automating_source_code_documentation_and_blog_posting_with_chatgpt_title.png)
 
 ## 전체 흐름
 The ASCII visualization of the input source code:

@@ -5,10 +5,10 @@ author: Taeyoung Kim
 date: 2023-9-11 00:00:00
 categories: bic
 comments: true
-image: https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_title.jpeg
+image: https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_title.jpeg
 ---
 
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_title.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_title.jpeg)
 
 ## Artwork Description
 [Output]
@@ -44,10 +44,10 @@ This prompt is all about capturing the feeling and essence of movement. Look for
 
 
 
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_0_4.jpeg)
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_0_5.jpeg)
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_0_6.jpeg)
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_0_7.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_0_4.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_0_5.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_0_6.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_0_7.jpeg)
 
 
 [Input]
@@ -69,10 +69,10 @@ This prompts the artist or photographer to capture a scene or an image in the st
 
 
 
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_1_4.jpeg)
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_1_5.jpeg)
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_1_6.jpeg)
-![img](https://tykimos.github.io/warehouse/2023/2023-/2023-9-11-🚴🏿and_kandinsky_1_7.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_1_4.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_1_5.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_1_6.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-🚴🏿and_kandinsky_1_7.jpeg)
 
 
 
