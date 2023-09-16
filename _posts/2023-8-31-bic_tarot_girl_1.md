@@ -5,10 +5,10 @@ author: Taeyoung Kim
 date: 2023-8-31 00:00:00
 categories: bic
 comments: true
-image: http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_title.jpeg
+image: https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_title.jpeg
 ---
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_title.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_title.jpeg)
 
 ## Artwork Description
 
@@ -44,10 +44,10 @@ The evolving landscape of AI-powered image generation is awe-inspiring. One of t
 Prompt: *(4k Full body shot)*
 The expectation here is simple: a crisp, high-definition image that captures a figure in its entirety. While the term “4k” emphasizes quality, ensure that "full body" is accentuated to avoid mere face shots or bust portraits. Similar expressions that resonate with this intent include "High-resolution full figure image" and "4k complete body view". A quick tip? Always prioritize clarity over complexity.
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_0_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_0_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_0_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_0_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_0_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_0_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_0_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_0_3.jpeg)
 
 * Expected Image: A high-resolution image of a full figure.
 * Similar Expressions: "High-resolution full figure image", "4k complete body view".
@@ -59,10 +59,10 @@ The expectation here is simple: a crisp, high-definition image that captures a f
 Prompt: *(Semi-Realism fantasy depiction of a teenage girl who practices tarot with a beaming smile with a warm smile feminine posture)*
 With this, the anticipation is a lifelike, albeit fantasy-skewed portrayal of a tarot-practicing teenager. The art lies in balancing vivid imagination with tangible reality. While "Fantasy-style teenage girl with tarot and a big smile" works similarly, a simpler "Artistic representation of a smiling girl with tarot cards" might suffice if the AI is overwhelmed with details.
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_1_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_1_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_1_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_1_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_1_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_1_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_1_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_1_3.jpeg)
 
 * Expected Image: A lifelike but slightly exaggerated or fantastical portrayal of a young girl engaging with tarot cards, showing a bright, inviting smile and feminine stance.
 * Similar Expressions: "Fantasy-style teenage girl with tarot and a big smile", "Semi-realistic girl practicing tarot with a cheerful demeanor".
@@ -74,9 +74,9 @@ With this, the anticipation is a lifelike, albeit fantasy-skewed portrayal of a 
 Prompt: (bright and radiant skin with rosy cheeks, luminous sapphire eyes framed by long, fluttering lashes, perfectly sculpted high cheekbones, and lips with a gentle rose hue)
 This prompt is a treasure trove of intricate details. The magic is in the blending of radiant skin, sparkling eyes, and the gentle hue of the lips. Although you might be tempted to cram in more details, remember: simplicity often crafts the most memorable portraits.
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_2_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_2_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_2_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_2_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_2_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_2_2.jpeg)
 
 * Expected Image: A close-up showing glowing skin, blushed cheeks, sparkling blue eyes with long eyelashes, pronounced cheekbones, and soft pink lips.
 * Similar Expressions: "Face with glowing skin, blue eyes, and rosy features", "Portrait with sapphire eyes, radiant complexion, and rose-tinted lips".
@@ -88,10 +88,10 @@ This prompt is a treasure trove of intricate details. The magic is in the blendi
 Prompt: *(Blouse with subtle tarot motifs)*
 In fashion, less is often more. This prompt seeks a blouse with nuanced tarot designs. The word "subtle" is key; it ensures the designs don't overshadow the garment's inherent beauty. "Shirt with mystical tarot imprints" is an alternative that might capture a similar essence.
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_3_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_3_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_3_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_3_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_3_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_3_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_3_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_3_3.jpeg)
 
 Expected Image: A blouse decorated with discreet tarot card symbols or patterns.
 Similar Expressions: "Shirt with light tarot designs", "Blouse with faint tarot card patterns".
@@ -103,10 +103,10 @@ Considerations: Emphasize "subtle" to ensure the motifs don't overpower the desi
 Prompt: *(The sunlight streaming from the window bathes her face and subtly illuminates the curves of her upper body)*
 Light plays a crucial role in visual compositions. This prompt crafts an aura where gentle sunlight bestows an ethereal glow upon the subject. The emphasis on the window as the light source ensures a specific shading effect, bringing depth to the image.
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_4_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_4_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_4_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_4_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_4_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_4_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_4_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_4_3.jpeg)
 
 * Expected Image: An image where the girl's face and upper body are gently lit by sunlight coming through a window.
 * Similar Expressions: "Sunlight from a window softly highlighting her face and torso", "Gentle sun rays from a window casting light on her upper body".
@@ -118,10 +118,10 @@ Light plays a crucial role in visual compositions. This prompt crafts an aura wh
 Prompt: *(Tarot cards lay neatly on the desk; she picked one with purpose)*
 Action and intent meld in this visual story of a girl and her tarot cards. The scene is clear: a purposeful selection amidst an organized array. Such dynamic prompts can breathe life into otherwise static images.
 
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_5_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_5_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_5_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-8-31-bic_tarot_girl_1_5_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_5_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_5_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_5_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-31-bic_tarot_girl_1_5_3.jpeg)
 
 * Expected Image: A depiction of a girl selecting a tarot card from an organized array on a desk.
 * Similar Expressions: "Girl choosing a tarot card from a tidy spread", "Tarot cards on a table with a girl purposefully selecting one".

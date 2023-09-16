@@ -5,10 +5,10 @@ author: Taeyoung Kim
 date: 2023-9-9 00:00:00
 categories: bic
 comments: true
-image: http://tykimos.github.io/warehouse/2023-9-9-korean_scripting_from_youtube_with_chatgpt_and_whisper_title.png
+image: https://tykimos.github.io/warehouse/2023/2023-9-9-korean_scripting_from_youtube_with_chatgpt_and_whisper_title.png
 ---
 
-![img](http://tykimos.github.io/warehouse/2023-9-9-korean_scripting_from_youtube_with_chatgpt_and_whisper_title.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-9-korean_scripting_from_youtube_with_chatgpt_and_whisper_title.png)
 
 ## 전체 흐름
 ```

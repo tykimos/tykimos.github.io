@@ -5,7 +5,7 @@ author: 김태영
 date: 2023-8-4 00:00:00
 categories: ai
 comments: true
-image: http://tykimos.github.io/warehouse/2023-8-4-weapon_detection_with_grounding_dino_title.png
+image: https://tykimos.github.io/warehouse/2023/2023-8-4-weapon_detection_with_grounding_dino_title.png
 ---
 
 ### Grounding Dino를 이용한 흉기 검출
@@ -14,7 +14,7 @@ image: http://tykimos.github.io/warehouse/2023-8-4-weapon_detection_with_groundi
 
 흉기가 검출된 프레임만 모아서 움직이는 GIF로 만들어봤습니다. 
 
-![img](http://tykimos.github.io/warehouse/2023-8-4-weapon_detection_with_grounding_dino_1.gif)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-4-weapon_detection_with_grounding_dino_1.gif)
 
 전체 영상에서 검출 결과를 보시려면 아래 동영상을 참고하세요.
 

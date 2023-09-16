@@ -28,7 +28,7 @@ curl https://api.openai.com/v1/chat/completions \
   }'
 ```
 
-![img](http://tykimos.github.io/warehouse/2023-8-29-openai_api_usage_1.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-29-openai_api_usage_1.png)
 
 https://reqbin.com/curl 에 접속하여, 위 코드를 복사 후 실행시킵니다. 정상적으로 처리된다면, 그 결과 아래와 같이 응답을 받을 수 있습니다. 
 
@@ -53,5 +53,5 @@ https://reqbin.com/curl 에 접속하여, 위 코드를 복사 후 실행시킵�
     }
 }
 
-![img](http://tykimos.github.io/warehouse/2023-8-29-openai_api_usage_2.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-29-openai_api_usage_2.png)
 ```

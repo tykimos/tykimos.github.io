@@ -5,10 +5,10 @@ author: Taeyoung Kim
 date: 2023-9-11 00:00:00
 categories: bic
 comments: true
-image: http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_title.jpeg
+image: https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_title.jpeg
 ---
 
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_title.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_title.jpeg)
 
 ## Artwork Description
 The artwork presents a medium shot of a teenage girl immersed in the fantasy world of tarot, radiating joy and warmth. Crafted in a semi-realistic style, the image captures her in a moment of pure delight as she holds a card bearing the number 4, her expression beaming with a sense of accomplishment and discovery.
@@ -41,10 +41,10 @@ A 4k medium shot implies a high-resolution image that focuses on the subject fro
 
 
 
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_0_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_0_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_0_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_0_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_0_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_0_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_0_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_0_3.jpeg)
 
 
 ### The Magic of Number Four
@@ -61,9 +61,9 @@ A magical image is what's expected here: a semi-realistic representation of a te
 
 
 
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_1_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_1_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_1_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_1_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_1_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_1_2.jpeg)
 
 
 ### The Art of Portraying Beauty
@@ -80,10 +80,10 @@ This description paints an image of a strikingly beautiful woman with a radiant 
 
 
 
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_2_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_2_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_2_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_2_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_2_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_2_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_2_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_2_3.jpeg)
 
 
 ### Symbolic Fashion Choices
@@ -99,10 +99,10 @@ Here, the artist or photographer is required to depict a figure adorned in a blo
 
 
 
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_3_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_3_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_3_2.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_3_3.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_3_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_3_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_3_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_3_3.jpeg)
 
 
 ### The Balancing Act of Light and Shadow
@@ -119,9 +119,9 @@ This directive is a request for an image that expertly balances light and shadow
 
 
 
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_4_0.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_4_1.jpeg)
-![img](http://tykimos.github.io/warehouse/2023-9-11-tarot_girl_holding_card_number_4_4_2.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_4_0.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_4_1.jpeg)
+![img](https://tykimos.github.io/warehouse/2023/2023-9-11-tarot_girl_holding_card_number_4_4_2.jpeg)
 
 
 

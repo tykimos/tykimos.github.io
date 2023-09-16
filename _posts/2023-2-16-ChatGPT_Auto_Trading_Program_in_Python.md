@@ -5,7 +5,7 @@ author: 김태영
 date:   2023-2-16 00:00:00
 categories: tech
 comments: true
-image: https://tykimos.github.io/warehouse/2023-2-16-ChatGPT_Auto_Trading_Program_in_Python_title1.png
+image: https://tykimos.github.io/warehouse/2023/2023-2-16-ChatGPT_Auto_Trading_Program_in_Python_title1.png
 ---
 
 이번 글에서는 비트코인 자동매매 프로그램 개발에 대해 살펴보고, 챗GPT를 활용해 매매 전략을 짜보도록 하겠습니다. 먼저 비트코인 자동매매 프로그램과 챗GPT에 대해서 간단하게 알아보겠습니다.
@@ -311,7 +311,7 @@ bt.print_report()
 
 아래 화면은 백테스팅 결과를 출력한 것입니다. 매매 횟수, 현재/최고/최저 가격승률, 시작 자본, 평가 잔고 그리고 MDD와 HPR이 표시됩니다.
 
-https://tykimos.github.io/warehouse/2023-2-16-ChatGPT_Auto_Trading_Program_in_Python_1.png
+https://tykimos.github.io/warehouse/2023/2023-2-16-ChatGPT_Auto_Trading_Program_in_Python_1.png
 
 ### (4) 실전에 자동매매 시켜보기
 

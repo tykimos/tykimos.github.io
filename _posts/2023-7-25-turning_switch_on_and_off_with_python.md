@@ -5,7 +5,7 @@ author: 김태영
 date:   2023-7-24 00:00:00
 categories: ai
 comments: true
-image: http://tykimos.github.io/warehouse/2023-7-25-turning_switch_on_and_off_with_python_title.png
+image: https://tykimos.github.io/warehouse/2023/2023-7-25-turning_switch_on_and_off_with_python_title.png
 ---
 
 ### 스위치봇(SwitchBot) API를 이용해 디바이스 제어하기

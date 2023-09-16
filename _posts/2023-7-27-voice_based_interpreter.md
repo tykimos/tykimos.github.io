@@ -5,7 +5,7 @@ author: 김태영
 date:   2023-7-25 00:00:00
 categories: ai
 comments: true
-image: http://tykimos.github.io/warehouse/2023-07-27-voice_based_interpreter_title.png
+image: https://tykimos.github.io/warehouse/2023/2023-07-27-voice_based_interpreter_title.png
 ---
 
 ### 챗GPT와 Azure Cognitive Speech 서비스를 이용한 음성챗봇 시리즈 - 동시통역사

@@ -5,11 +5,11 @@ author: 김태영
 date:   2023-7-24 00:00:00
 categories: ai
 comments: true
-image: http://tykimos.github.io/warehouse/2023-7-24-Civitai_checkpoint_sheet_title.png
+image: https://tykimos.github.io/warehouse/2023/2023-7-24-Civitai_checkpoint_sheet_title.png
 ---
 CivitAi 플랫폼에서는 Stable Diffusion기반은 많은 체크포인트 모델이 공유되고 있습니다. 이러한 체크포인트를 테스트한 결과를 시트로 정리한 것이 아래 레딧에 공유되었습니다. 
 
-![img](http://tykimos.github.io/warehouse/2023-7-24-Civitai_checkpoint_sheet_title.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-7-24-Civitai_checkpoint_sheet_title.png)
 
 원본 레딧 : [r/StableDiffusion - Find the Best Checkpoint for Artists](https://www.reddit.com/r/StableDiffusion/comments/157cv8d/find_the_best_checkpoint_for_artists_link_in/)
 
@@ -26,25 +26,25 @@ CivitAi 플랫폼에서는 Stable Diffusion기반은 많은 체크포인트 모�
 
 구글 시트의 필터 기능으로 2D, 3D, Logo, UI 등을 선택할 수 있습니다. 
 
-![img](http://tykimos.github.io/warehouse/2023-7-24-Civitai_checkpoint_sheet_2.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-7-24-Civitai_checkpoint_sheet_2.png)
 
 ### 링크 제공
 
 해당 모델을 쉽게 찾을 수 있도록 Civitai의 체크포인트 링크를 Link라는 열에서 제공하고 있습니다. 
 
-![img](http://tykimos.github.io/warehouse/2023-7-24-Civitai_checkpoint_sheet_3.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-7-24-Civitai_checkpoint_sheet_3.png)
 
 ### 프롬프트 제공
 
 유사한 결과를 얻을 수 있도록 사용된 프롬프트가 제공됩니다.
 
-![img](http://tykimos.github.io/warehouse/2023-7-24-Civitai_checkpoint_sheet_4.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-7-24-Civitai_checkpoint_sheet_4.png)
 
 ### 컨트롤넷 정보 제공
 
 테스트에서 컨트롤넷을 사용하였다면, 사용된 컨트롤넷 정보를 제공하고 있습니다.
 
-![img](http://tykimos.github.io/warehouse/2023-7-24-Civitai_checkpoint_sheet_5.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-7-24-Civitai_checkpoint_sheet_5.png)
 
 ### 마무리
 

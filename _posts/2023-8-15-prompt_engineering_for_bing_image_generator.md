@@ -5,7 +5,7 @@ author: 김태영
 date: 2023-8-15 00:00:00
 categories: ai, bing image creator, microsoft
 comments: true
-image: http://tykimos.github.io/warehouse/2023-8-15-prompt_engineering_for_bing_image_generator_title_1.png
+image: https://tykimos.github.io/warehouse/2023/2023-8-15-prompt_engineering_for_bing_image_generator_title_1.png
 ---
 
 Bing Image Creator는 마이크로소프트에서 제공하는 이미지 생성 서비스로 OpenAI의 Dall-E 모델을 기반으로 구성되어 있습니다. 다른 이미지 생성 모델과 비교했을 때 특장점이 있다면,
@@ -20,7 +20,7 @@ Bing Image Creator는 마이크로소프트에서 제공하는 이미지 생성 
 - 채널을 '모두 알림'으로 설정하면 라이브 시작 30분 전 알림을 받을 수 있습니다.
 - 라이브 종료 후에는 위캔두 '프리미엄 멤버쉽' 영상으로 전환됩니다.
 
-![img](http://tykimos.github.io/warehouse/2023-8-15-prompt_engineering_for_bing_image_generator_title_1.png)
+![img](https://tykimos.github.io/warehouse/2023/2023-8-15-prompt_engineering_for_bing_image_generator_title_1.png)
 
 ### 세미나 주제:
 
