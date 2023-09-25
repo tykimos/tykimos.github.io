@@ -14,9 +14,24 @@ image: https://tykimos.github.io/warehouse/2023/2023-9-25-korean_chuseok_assi_ti
 
 [https://chuseok.azurewebsites.net](https://chuseok.azurewebsites.net/)
 
+위를 클릭하시면 아래와 같은 화면이 나옵니다. 
+
+![img](https://tykimos.github.io/warehouse/2023/2023-9-25-korean_chuseok_assi_0_0.png)
+
 이어서 다른 요청도 해볼 수 있습니다. 이번엔 예산을 5만원으로 줄여보겠습니다. 
 
 ![img](https://tykimos.github.io/warehouse/2023/2023-9-25-korean_chuseok_assi_0_1.png)
+
+## 질문 사례
+
+아래와 같은 질문을 할 수 있습니다. 
+
+* 10만원 예산으로 추천해줘.
+* 과일은 제외하고 차례상과 비용을 알려줘.
+* 좀 더 비용을 낮춰서 제안해.
+* 여기에서 꼭 필요한 음식은 뭐야?
+
+각자 상황에 맞게 질문을 하시면 됩니다. 
 
 ## Azure OpenAI Studio
 
