@@ -2,7 +2,7 @@
 layout: post
 title: "추석 차례상 도우미 - 예산에 맞게 척척"
 author: Taeyoung Kim
-date: 2023-9-9 00:00:00
+date: 2023-9-25 00:00:00
 categories: chatgpt, openai, azure
 comments: true
 image: https://tykimos.github.io/warehouse/2023/2023-9-25-korean_chuseok_assi_title.png
@@ -13,6 +13,10 @@ image: https://tykimos.github.io/warehouse/2023/2023-9-25-korean_chuseok_assi_ti
 추석 차례상 도우미를 챗봇으로 만들어봤습니다. 아래 링크를 통해서 서비스를 이용해볼 수 있습니다. 토큰 및 트래픽 제한이 있어서 사용하지 못할 수 있어서 관련 소스코드(프롬프트)도 하단에 기입해뒀습니다. 
 
 [https://chuseok.azurewebsites.net](https://chuseok.azurewebsites.net/)
+
+이어서 다른 요청도 해볼 수 있습니다. 이번엔 예산을 5만원으로 줄여보겠습니다. 
+
+![img](https://tykimos.github.io/warehouse/2023/2023-9-25-korean_chuseok_assi_0_1.png)
 
 ## Azure OpenAI Studio
 
