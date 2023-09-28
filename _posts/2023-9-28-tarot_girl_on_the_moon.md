@@ -10,6 +10,10 @@ image: http://tykimos.github.io/warehouse/2023/2023-9-28-tarot_girl_on_the_moon_
 
 ![img](http://tykimos.github.io/warehouse/2023/2023-9-28-tarot_girl_on_the_moon_title.jpeg)
 
+Another image :
+
+![img](http://tykimos.github.io/warehouse/2023/2023-9-28-tarot_girl_on_the_moon_title_2.jpeg)
+
 ## Artwork Description
 This celestial artwork, in 4K resolution, unfolds a captivating narrative of a teenage girl engrossed in a cosmic tarot reading, her tranquility and mystique resonating with the desolate yet beautiful lunar landscape that envelops her.
 
