@@ -23,7 +23,7 @@ Bing Image Creator(BIC)는 최근에 인기를 얻고 있는 이미지 생성 �
 1. "만들기"을 클릭한다. 
 1. 생성된 이미지를 확인한다.
 
-<iframe width="100%" height="400" src="https://youtu.be/y2F9wgeVhrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/y2F9wgeVhrQ?si=CrDonsFAvV2taaKl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # 단계별 가이드
 
