@@ -2,7 +2,7 @@
 layout: post
 title: "챗GPT에 DALL-E 3 이미지 생성모델이 탑재된다면?"
 author: 김태영
-date: 2023-9-29 00:00:00
+date: 2023-10-2 09:00:00
 categories: bic, chatgpt, dalle
 comments: true
 image: http://tykimos.github.io/warehouse/2023/2023-10-2-chatgpt_with_dalle3_title_1.jpg

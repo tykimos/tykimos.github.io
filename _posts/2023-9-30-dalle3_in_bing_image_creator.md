@@ -2,7 +2,7 @@
 layout: post
 title: "마이크로소프트의 Bing Image Creator에 탑재된 DALL-E 3"
 author: 김태영
-date: 2023-9-29 00:00:00
+date: 2023-9-29 09:00:00
 categories: bic
 comments: true
 image: http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_title_1.jpg

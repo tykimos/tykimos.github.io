@@ -2,7 +2,7 @@
 layout: post
 title: "Tarot girl resting in the cabin"
 author: Taeyoung Kim
-date: 2023-10-1 00:00:00
+date: 2023-10-1 09:00:00
 categories: bic
 comments: true
 image: http://tykimos.github.io/warehouse/2023/2023-10-1-tarot_girl_resting_in_the_cabin_title.jpeg
