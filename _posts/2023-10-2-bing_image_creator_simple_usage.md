@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bing Image Creator 심플 사용법"
+title: "무료로 30초만에 생성, Bing Image Creator 간단 사용법"
 author: 김태영
 date: 2023-10-2 09:00:00
 categories: bic
@@ -23,28 +23,40 @@ Bing Image Creator(BIC)는 최근에 인기를 얻고 있는 이미지 생성 �
 1. "만들기"을 클릭한다. 
 1. 생성된 이미지를 확인한다.
 
+<iframe width="100%" height="400" src="https://youtu.be/y2F9wgeVhrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # 단계별 가이드
 
 ## 접속하기
+
+![접속하기](http://tykimos.github.io/warehouse/2023/2023-10-2-bing_image_creator_simple_usage_0.jpg)
 
 * 웹 브라우저를 열고 주어진 URL인 https://www.bing.com/create 를 입력합니다.
 * 화면에 Bing Image Creator의 홈페이지가 표시됩니다.
 
 ## 로그인
 
+![로그인](http://tykimos.github.io/warehouse/2023/2023-10-2-bing_image_creator_simple_usage_1.jpg)
+
 * 사이트 오른쪽 상단에 위치한 '로그인' 버튼을 클릭합니다.
 * Microsoft 계정 정보를 사용하여 로그인을 합니다. 만약 계정이 없다면, 간단한 회원가입 과정을 통해 생성할 수 있습니다.
 
 ## 텍스트 입력
 
+![텍스트 입력](http://tykimos.github.io/warehouse/2023/2023-10-2-bing_image_creator_simple_usage_2.jpg)
+
 * 화면 중앙에 위치한 텍스트 입력 상자에 원하는 문구나 설명을 입력합니다. 예를 들어 "바다 위에서 날아다니는 날개 달린 기린"과 같은 텍스트를 입력하면, 해당 내용에 맞는 이미지가 생성됩니다.
+* '만들기' 버튼을 클릭한 후 잠시 기다립니다.
 
 ## 이미지 생성하기
 
-* '만들기' 버튼을 클릭한 후 잠시 기다립니다.
+![이미지 생성하기](http://tykimos.github.io/warehouse/2023/2023-10-2-bing_image_creator_simple_usage_3.jpg)
+
 * 알고리즘이 입력한 텍스트를 분석하고 해당 내용에 알맞는 이미지를 생성합니다.
 
 ## 결과 확인
+
+![결과 확인](http://tykimos.github.io/warehouse/2023/2023-10-2-bing_image_creator_simple_usage_4.jpg)
 
 * 화면에 생성된 이미지가 표시됩니다.
 * 만약 만족하지 못한다면, 텍스트를 수정하거나 다른 문구를 입력하여 다시 시도해 볼 수 있습니다.
