@@ -5,17 +5,17 @@ author: 김태영
 date: 2023-9-29 00:00:00
 categories: bic
 comments: true
-image: http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_title_1.png
+image: http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_title_1.jpg
 meta_description: "마이크로소프트의 Bing Image Creator가 OpenAI의 DALL-E 3 모델을 탑재하여 놀라운 이미지 생성 기능을 제공합니다. 이 업데이트에 대한 자세한 내용과 DALL-E 3의 기능을 알아보세요."
 ---
 
-![img](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_title_1.png)
+![img](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_title_1.jpg)
 
 ## 마이크로소프트 업데이트 소식
 
 2023년 9월 21일, 마이크로소프트 공식 블로그에서 윈도우, 코파일럿, 빙, 엣지, 서피스에 관련된 주요 업데이트 소식을 발표했습니다.
 
-![Microsoft 업데이트 소식](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_0.png)
+![Microsoft 업데이트 소식](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_0.jpg)
 
 요약하면 아래와 같습니다. 
 
@@ -30,7 +30,7 @@ meta_description: "마이크로소프트의 Bing Image Creator가 OpenAI의 DALL
 
 이 중에 제일 반가운 것은 자주 사용하던 Bing Image Creator에 DALL-E 3가 탑재되었다는 소식입니다.
 
-![DALL-E 3가 탑재된 Bing Image Creator](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_1.png)
+![DALL-E 3가 탑재된 Bing Image Creator](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_1.jpg)
 
 이를 번역해보면 DALL.E 3은 손가락과 눈과 같은 세부 사항에 대해 더 아름다운 창작물과 더 나은 렌더링을 제공함으로써 큰 진보를 이루었다고 하네요. 또한 우리가 요청하는 것을 더 잘 이해하고, 더 정확한 이미지를 제공한다고 합니다. DALL-E 3의 공식 릴리스는 10월에 ChatGPT Plus와 Enterprise 구독자들을 대상으로 예정되어 있지만, 일부 Bing Image Creator 사용자들은 이미 그 고급 기능들을 탐색하고 있다고 하네요.
 
@@ -46,7 +46,7 @@ OpenAI는 또한 안전과 윤리적 고려에 대한 약속을 강조했습니�
 
 DALL-E 3에 대해서는 아래 OpenAI 홈페이지에 소개되어 있습니다. 
 
-![DALL-E 3와 ChatGPT의 통합](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_2.png)
+![DALL-E 3와 ChatGPT의 통합](http://tykimos.github.io/warehouse/2023/2023-9-30-dalle3_in_bing_image_creator_2.jpg)
 
 DALL-E 3는 이전 시스템보다 훨씬 더 높은 수준의 뉘앙스와 디테일을 이해하며, 이를 통해 사용자의 아이디어를 매우 정확한 이미지로 쉽게 변환할 수 있습니다. 현재 연구 프리뷰 단계에 있으며, 10월에 ChatGPT Plus 및 Enterprise 고객을 대상으로 API 및 이후에 OpenAI Labs를 통해 이용할 수 있게 될 예정입니다. 또한, DALL-E 3는 ChatGPT를 기반으로 구축되어, ChatGPT를 브레인스토밍 파트너 및 프롬프트 리파이너로 사용할 수 있습니다​.
 
