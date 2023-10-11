@@ -131,3 +131,7 @@ else:
     score_validation check passed! (+10 points)
     Total score: 100 / 100
 
+## 코랩 파일 링크
+
+해당 코랩 파일은 [링크](https://colab.research.google.com/drive/1WypSucaXUkcfqy2yp9L_8xuokM5ueT6r)에서 보실 수 있습니다.
+
