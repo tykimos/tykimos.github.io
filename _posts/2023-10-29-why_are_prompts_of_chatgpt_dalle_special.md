@@ -13,11 +13,11 @@ image: https://tykimos.github.io/warehouse/2023/2023-10-29-why_are_prompts_of_ch
 본 글에서는 챗GPT가 만드는 DALL·E 프롬프트의 특별함과 그 과정에서 사용되는 기술과 접근 방법에 대해 다뤄보겠습니다. 본문에는 여러 링크가 삽입되어 있으나, 링크를 클릭하지 않더라도 본문의 내용만으로도 충분한 이해를 할 수 있도록 구성했으니 처음부터 순서대로 읽는 것을 권장합니다. 
 
 1. 챗GPT가 만드는 DALL·E 프롬프트는 왜 특별한가? - 현재 페이지
-2. 챗GPT는 DALL·E에 어떤 명령을 내리는가?
-3. 챗GPT가 시드를 알려줄 수 있는 이유는?
-4. DALL·E 이미지 재현과 튜닝을 위해 챗GPT로 시드 관리하기
-5. 챗GPT가 GPT-4와 DALL·E랑 주고받는 비밀 메시지 훔처보기
-6. DALL·E 연동을 위한 챗GPT의 시스템 프롬프트 전문
+2. [챗GPT는 DALL·E에 어떤 명령을 내리는가?](https://tykimos.github.io/2023/10/29/what_commands_does_chatgpt_give_to_dalle/)
+3. [챗GPT가 시드를 알려줄 수 있는 이유는?](https://tykimos.github.io/2023/10/29/why_can_chatgpt_provide_the_seed/)
+4. [DALL·E 이미지 재현과 튜닝을 위해 챗GPT로 시드 관리하기](https://tykimos.github.io/2023/10/29/managing_seeds_with_chatgpt_for_dalle_image_reproduction_and_tuning/)
+5. [챗GPT가 GPT-4와 DALL·E랑 주고받는 비밀 메시지들](https://tykimos.github.io/2023/10/29/secret_messages_exchanged_between_chatgpt_gpt-4_and_dalle/)
+6. [DALL·E 연동을 위한 챗GPT의 시스템 프롬프트 전문](https://tykimos.github.io/2023/10/29/system_prompts_specifically_for_dalle-integrated_chatgpt)
 
 ![img](https://tykimos.github.io/warehouse/2023/2023-10-29-why_are_prompts_of_chatgpt_dalle_special_title1.jpg)
 
@@ -99,4 +99,4 @@ DALL·E와 같은 이미지 생성 AI 모델을 효과적으로 사용하기 위
 
 챗GPT를 통해 DALL·E를 위한 이미지 생성 프롬프트를 생성했다면, DALL·E에게 어떤 명령을 내릴까요? 좀 더 깊게 알아보겠습니다.
 
-"챗GPT는 DALL·E에 어떤 명령을 내리는가?"
+* [챗GPT는 DALL·E에 어떤 명령을 내리는가?](https://tykimos.github.io/2023/10/29/what_commands_does_chatgpt_give_to_dalle/)
