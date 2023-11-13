@@ -8,7 +8,11 @@ comments: true
 image: https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_title_1.jpg
 ---
 
-안녕하세요. 이번에는 GPT 빌더를 이용하여 사업계획서 작성GPT를 만들어보겠습니다. 보통 사업계획서를 작성할 경우 목적에 따라 적절한 양식으로부터 시작합니다. 최근 재미있는 행사가 있어서, 이 행사에 대한 사업계획서를 예시로 만들어보겠습니다.
+안녕하세요. 이번에는 GPT 빌더를 이용하여 사업계획서 작성GPT를 만들어보겠습니다. 
+
+![img](https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_title_1.jpg)
+
+보통 사업계획서를 작성할 경우 목적에 따라 적절한 양식으로부터 시작합니다. 최근 재미있는 행사가 있어서, 이 행사에 대한 사업계획서를 예시로 만들어보겠습니다.
 
 [OpenAI 협업 기업 발굴을 위한 국내 예선 행사 참가 기업(팀) 모집](https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=166868&page=1&schStr=regist&pbancEndYn=N)
 
