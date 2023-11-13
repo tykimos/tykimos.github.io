@@ -2,7 +2,7 @@
 layout: post
 title:  "GPT 빌더를 이용한 사업계획서 작성GPT 만들기"
 author: Taeyoung Kim
-date:   2023-10-29 03:00:00
+date:   2023-11-13 03:00:00
 categories: tech, AI, ChatGPT, DALLE
 comments: true
 image: https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_title_1.jpg
