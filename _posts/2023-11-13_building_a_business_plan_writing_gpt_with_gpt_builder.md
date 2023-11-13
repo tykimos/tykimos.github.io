@@ -13,21 +13,21 @@ image: https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_p
 
 이 행사는 OpenAI와의 협업 기업을 발굴하는 행사로써 첨부된 파일을 열어보면 아래와 같은 양식이 보입니다.
 
-![img](2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_2.jpg)
+![img](https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_2.jpg)
 
 사업계획서 작성GPT의 주요특징은 다음과 같습니다.
 * 보통 Knowledge에는 GPT에게 알려줄 지식을 입력하는데, 저는 사업계획서 양식을 입력했습니다.
 * 사업계획서 양식에 맞게 각 항목에 대해서 인터뷰를 진행합니다.
 * 인터뷰를 충분히 한 뒤 제안 내용이 완성되면, 제안서 파일을 작성합니다.
 
-![img](2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_4.jpg)
+![img](https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_4.jpg)
 
 ## 사업계획서 작성GPT 빌더 설정
 ---
 
 사업계획서 작성GPT를 만들기 위한 빌더는 아래와 같이 설정합니다. 
 
-![img](2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_0.jpg)
+![img](https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_0.jpg)
 
 **Name**
 * 사업계획서 작성GPT
@@ -63,11 +63,11 @@ image: https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_p
 **기타**
 기타 나머지 설정은 아래 이미지처럼 설정합니다.
 
-![img](2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_3.jpg)
+![img](https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_3.jpg)
 
 마지막으로 GPT 로고 이미지도 DALL-E를 이용해서 생성합니다.
 
-![img](2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_1.jpg)
+![img](https://tykimos.github.io/warehouse/2023/2023-11-13_building_a_business_plan_writing_gpt_with_gpt_builder_1.jpg)
 
 사용해볼 수 있는 링크는 아래와 같습니다.
 * [직접 사용해보기](https://chat.openai.com/g/g-WGHmBDPlh-saeobgyehoegseo-jagseonggpt)
