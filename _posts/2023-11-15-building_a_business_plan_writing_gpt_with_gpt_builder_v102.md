@@ -60,7 +60,6 @@ image: https://tykimos.github.io/warehouse/2023/2023-11-15-business_plan_writing
 
 ## 사업계획서 작성GPT 빌더 설정
 ---
-
 양식업로드 사업계획서 작성GPT를 만들기 위한 빌더는 아래와 같이 설정합니다. Instructions부분만 살펴보겠습니다.
 
 **Instructions**
