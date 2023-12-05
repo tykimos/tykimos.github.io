@@ -17,6 +17,12 @@ meta_description: "2023년 제2회 BICG 크리스마스 트리 아크릴 오너�
 
 이번 대회의 주제는 크리스마스 트리를 밝힐 아름다운 아크릴 오너먼트를 디자인하는 것입니다. 여러분의 창의력을 발휘해, 겨울 축제의 따뜻함과 즐거움을 담은 작품을 만들어주세요.
 
+![img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_title_1.jpg)
+
+위 이미지의 프롬프는 아래와 같습니다. 
+
+An image of a beautifully printed ornament on a transparent acrylic panel, capturing the festive essence of the 2nd BICG Christmas Tree Acrylic Ornament Challenge & Contest. The ornament is intricately designed with vibrant colors and creative patterns, showcasing artistic flair and holiday spirit. The acrylic panel is crystal clear, emphasizing the detailed design of the ornament. The background is slightly blurred to highlight the ornament, with subtle hints of holiday decorations like twinkling lights and soft snowflakes, creating a warm and inviting Christmas atmosphere.
+
 ## 참여 방법 및 규칙
 
 - [BICG 페이스북 그룹](https://www.facebook.com/groups/1366046607340589)에 게시물을 업로드합니다.
@@ -36,11 +42,11 @@ meta_description: "2023년 제2회 BICG 크리스마스 트리 아크릴 오너�
 ## 상품 제작 방식
 
 - 작품: 각 작품은 대충 5x5cm 크기의 원형 또는 자유 형태로 제작되어야 하며, 컷팅할 경계가 있어야 합니다. 없을경우 임의로 컷팅됩니다.
-[img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_1.jpg)
+![img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_1.jpg)
 - 아크릴판 : 장식품에 사용될 예정이기 때문에 두껍고 휘지 않는 아크릴 판을 사용합니다.
-[img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_2.jpg)
+![img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_2.jpg)
 - 프린팅 : 큰 아크릴 판에 선정된 작품 여러개를 붙여서 프린팅을 합니다. 이때 배면 출력을 수행합니다.
-[img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_3.jpg)
+![img](http://tykimos.github.io/warehouse/2023/2023-12-5-bing_image_creator_gallery_challenge_contest_2nd_3.jpg)
 - 컷팅 : 큰 아크릴에 프린팅된 작품 경계에 따라 레이저로 컷팅합니다.
 - 발송 : 컷팅된 오너먼트를 발송합니다.
 
