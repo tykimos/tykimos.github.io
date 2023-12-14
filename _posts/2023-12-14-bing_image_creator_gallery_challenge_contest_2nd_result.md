@@ -31,7 +31,7 @@ meta_description: "2023년 제2회 BICG 크리스마스 트리 아크릴 오너�
 
 UV 프린팅 과정은 사진으로 못 남겼지만, 프린팅 기기를 보여여드립니다~
 
-![img](http://tykimos.github.io/warehouse/2023/2023-12-14-bing_image_creator_gallery_challenge_contest_2nd_result_5.jpg)
+![img](http://tykimos.github.io/warehouse/2023/2023-12-14-bing_image_creator_gallery_challenge_contest_2nd_result_5.jpeg)
 
 ## 수상작 (작가님 및 작품설명은 추후 업데이트)
 
