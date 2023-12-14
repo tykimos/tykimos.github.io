@@ -27,11 +27,11 @@ meta_description: "2023년 제2회 BICG 크리스마스 트리 아크릴 오너�
 
 초반에는 UV 프린팅 후 레이저 커팅 프로세스이었으나 짧은 타임라인과 효율적인 작업을 위해 전문가 의견을 받아 레이져 커팅 후 UV 프린팅으로 프로세스를 바꿨습니다.
 
-![img](http://tykimos.github.io/warehouse/2023/2023-12-14-bing_image_creator_gallery_challenge_contest_2nd_result_3.jpg)
+![img](http://tykimos.github.io/warehouse/2023/2023-12-14-bing_image_creator_gallery_challenge_contest_2nd_result_4.jpg)
 
 UV 프린팅 과정은 사진으로 못 남겼지만, 프린팅 기기를 보여여드립니다~
 
-![img](http://tykimos.github.io/warehouse/2023/2023-12-14-bing_image_creator_gallery_challenge_contest_2nd_result_3.jpg)
+![img](http://tykimos.github.io/warehouse/2023/2023-12-14-bing_image_creator_gallery_challenge_contest_2nd_result_5.jpg)
 
 ## 수상작 (작가님 및 작품설명은 추후 업데이트)
 
