@@ -15,7 +15,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-1-16-building_a_simple_vecto
 * 세미나 일시 : 2024년 1월 18일 오후 9시 ~ 9시반
 * 장소 : 유튜브 라이브 (아래 링크에 지정된 시간에 접속)
 * 내용 : RAG 개념 설명 및 쌩 파이썬 소스코드 설명
-* 참가신청하기 : https://aifactory.space/task/2718/discussion/817 접속 후 우측상단 [참가하기] 버튼 클릭
+* 참가신청하기 : [https://aifactory.space/task/2718/discussion/817](https://aifactory.space/task/2718/discussion/817) 접속 후 우측상단 [참가하기] 버튼 클릭
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/631aGBftKjo?si=ZyCFQA2l9NLbxHWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
