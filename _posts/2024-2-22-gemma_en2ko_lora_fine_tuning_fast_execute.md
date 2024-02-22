@@ -1,29 +1,31 @@
 ---
 layout: post
-title: "Gemma 한국어 LoRA 파인튜닝 빠른실행"
+title: "Gemma 영한번역 LoRA 파인튜닝 빠른실행"
 author: 김태영
-date: 2024-2-22 01:00:00
+date: 2024-2-22 03:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_1.png
 ---
  
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png)
 
-이번에는 Gemma를 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 한국어 LoRA 파인튜닝을 해보도록 하겠습니다.
+이번에는 Gemma를 "databricks-dolly-15k.jsonl"과 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 영한번역 LoRA 파인튜닝을 해보도록 하겠습니다.
 
 ### 함께보기
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
-* 3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행 (본 페이지)
-* 4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행 (추후 공개)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](본 페이지)
+* 4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행 (본 페이지)
+
+### databricks-dolly-15k 데이터셋
+
+databricks-dolly-15k는 2023년 3월과 4월에 Databricks의 5,000명 이상의 직원이 작성한 15,000개의 고품질 인간 생성 프롬프트/응답 쌍을 포함하는 데이터셋입니다. 이 데이터셋은 큰 언어 모델의 지시 튜닝을 위해 특별히 설계되었으며, 훈련 레코드는 자연스럽고 표현력이 풍부하여 브레인스토밍 및 콘텐츠 생성부터 정보 추출 및 요약에 이르기까지 다양한 행동을 대표하도록 설계되었습니다
 
 ### databricks-dolly-15k-ko 데이터셋
 
 databricks-dolly-15k-ko 데이터셋은 허깅페이스에서 다운로드 받을 수 있으며, NLP & AI - Korea University에서 databricks-dolly-15k를 DeepL API를 이용해서 한국어 번역을 수행한 파일입니다.
-
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_1.png)
 
 * [링크](https://huggingface.co/datasets/nlpai-lab/databricks-dolly-15k-ko)
 

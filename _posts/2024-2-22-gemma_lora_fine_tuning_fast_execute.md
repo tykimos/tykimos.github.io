@@ -54,6 +54,6 @@ LoRA (Low-Rank Adaptation)는 대규모 언어 모델(Large Language Models, LLM
 
 ### 링크
 
-아래에 대해서 상세한 정보를 보실 수 있습니다.
+LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
