@@ -29,22 +29,22 @@ databricks-dolly-15k-ko 데이터셋은 허깅페이스에서 다운로드 받�
 
 * [링크](https://huggingface.co/datasets/nlpai-lab/databricks-dolly-15k-ko)
 
+#### 학습시간
+
+LoRA 랭크 4로 1 에포크 시에 23.4분이 소요되었습니다. 사양은 구글코랩 T4입니다.
+
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_1.png)
+
 #### 수행결과 1
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_2.png)
 
 ```
 Instruction:
-유럽 여행에서 무엇을 해야 할까요?
+To quickly acquire skills, it is advisable to learn through rapid execution, in-depth analysis, and practical application in that order.
 
 Response:
-여행하는 동안 멋진 관람객 경험을 하려면 다음을 고려해야 합니다.
-- 멋진 호텔
-- 멋진 레스토랑
-- 멋진 관광지
-
-여행을 하다가 멋진 관람객 경험을 하려면 다음을 고려해야 합니다.
-- 멋진 숙소에서 멋진 레스토랑으로 즐거운 경험을 하려면 멋진 숙소를 선택해야 합니다.
+기술을 빨리 습득하기 위해서는 빠른 실행, 깊은 분석, 실제 적용 순으로 학습을 권한다.
 ```
 
 #### 수행결과 2
@@ -53,10 +53,22 @@ Response:
 
 ```
 Instruction:
-광합성 과정을 5살 아이도 이해할 수 있게 설명해주세요.
+What should I do on a trip to Europe?
 
 Response:
-광합성 과정은 식물과 녹조류에서 일차 생산을 위해 필요한 과정입니다. 이 과정은 광합성과 탄산화를 통해 이루어집니다. 식물은 광합성으로 이루어진 빛과 수분이 풍부한 습기가 있는 환경을 선호하고 탄산가스를 필요로 합니다. 그래서 이 과정을 위해서는 빛, 수분 그리고 탄산가스가 필요합니다. 식물의 광합성은 빛이 필요한 과정이기 때문에, 식용 가능한 식물이 빛을 필요로 합니다. 그러나 식용 가능한 식물은 광합성 과정을 통해서 탄소를 흡수하고, 이 탄소를 식물의 탄수화물로 변화시킵니다. 그래서 식물의 탄수화물이 식용 가능한 식물의 식물로 변화하는 것은 광합성과 탄산화가 필요한 것
+유럽 여행에서 무엇을 할 수 있나요?
+```
+
+#### 수행결과 3
+
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_4.png)
+
+```
+Instruction:
+Explain the process of photosynthesis in a way that a child could understand.
+
+Response:
+어린이가 이해할 수 있는 방식으로 광합성 과정을 설명합니다.
 ```
 
 ### 링크
