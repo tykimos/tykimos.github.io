@@ -5,10 +5,10 @@ author: 김태영
 date: 2024-2-22 03:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_2.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_3.png
 ---
  
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_2.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_3.png)
 
 이번에는 Gemma를 "databricks-dolly-15k.jsonl"과 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 영한번역 LoRA 파인튜닝을 해보도록 하겠습니다.
 
