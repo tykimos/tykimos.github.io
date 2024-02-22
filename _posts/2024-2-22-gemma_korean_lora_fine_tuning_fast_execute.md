@@ -8,7 +8,9 @@ comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png
 ---
  
-구글 Gemma가 공개되고 파인튜닝 예제 또한 제공되어 이를 간단하게 테스트 해봤습니다. 아래는 테스트 결과입니다. 
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png)
+
+이번에는 Gemma를 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 한국어 LoRA 파인튜닝을 해보도록 하겠습니다.
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_1.png)
 
