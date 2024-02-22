@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Gemma LoRA 파인튜닝 빠른실행"
+title: "Gemma 한국어 LoRA 파인튜닝 빠른실행"
 author: 김태영
-date: 2024-2-22 00:00:00
+date: 2024-2-22 01:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-dry_run_fine_tune_gemma_models_title_3.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png
 ---
 
 구글 Gemma가 공개되고 파인튜닝 예제 또한 제공되어 이를 간단하게 테스트 해봤습니다. 아래는 테스트 결과입니다. 
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-dry_run_fine_tune_gemma_models_1.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_1.png)
 
 "What should I do on a trip to Seoul?"이라고 물었을 때, "If you want to go to the most famous tourist destinations in Seoul, you should start with the Seoul Tower, which has the largest tower in Seoul. If you are looking for a good restaurant, you should go to Gwangjang Market, where you can taste Korean food."라고 답변을 해주세요.
 
@@ -27,7 +27,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-22-dry_run_fine_tune_gemma
 
 ### 파인튜닝
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-dry_run_fine_tune_gemma_models_2.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_2.png)
 
 모델로부터 더 나은 응답을 얻기 위해, Databricks Dolly 15k 데이터셋을 사용하여 모델을 Low Rank Adaptation (LoRA)으로 파인 튜닝합니다. LoRA 랭크는 LLM의 원래 가중치에 추가되는 학습 가능한 행렬의 차원성을 결정합니다. 이것은 파인 튜닝 조정의 표현력과 정밀도를 제어할 수 있습니다. 
 
