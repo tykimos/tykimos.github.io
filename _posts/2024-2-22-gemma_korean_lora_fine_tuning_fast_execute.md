@@ -5,10 +5,10 @@ author: 김태영
 date: 2024-2-22 01:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_2.png
 ---
  
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_1.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_tuning_fast_execute_title_2.png)
 
 이번에는 Gemma를 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 한국어 LoRA 파인튜닝을 해보도록 하겠습니다.
 
@@ -16,8 +16,9 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
-* 3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행 (본 페이지)
-* 4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행 (추후 공개)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
 
 ### databricks-dolly-15k-ko 데이터셋
 

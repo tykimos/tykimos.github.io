@@ -5,19 +5,20 @@ author: 김태영
 date: 2024-2-22 04:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_title_1.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_title_2.png
 ---
  
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_title_1.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_title_2.png)
 
-이번에는 Gemma를 "databricks-dolly-15k.jsonl"과 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 영한번역 LoRA 파인튜닝을 해보도록 하겠습니다.
+이번에는 Gemma를 "databricks-dolly-15k.jsonl"과 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 한영번역 LoRA 파인튜닝을 해보도록 하겠습니다.
 
 ### 함께보기
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
-* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](본 페이지)
-* 4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행 (본 페이지)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
 
 ### databricks-dolly-15k 데이터셋
 
@@ -33,42 +34,42 @@ databricks-dolly-15k-ko 데이터셋은 허깅페이스에서 다운로드 받�
 
 LoRA 랭크 4로 1 에포크 시에 23.4분이 소요되었습니다. 사양은 구글코랩 T4입니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_1.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_4.png)
 
 #### 수행결과 1
+
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_1.png)
+
+```
+Instruction:
+유럽 여행에서는 무엇을 해야하나요?
+
+Response:
+What should I do in Europe?
+```
+
+#### 수행결과 2
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_2.png)
 
 ```
 Instruction:
-To quickly acquire skills, it is advisable to learn through rapid execution, in-depth analysis, and practical application in that order.
+어린이가 이해할 수 있는 방식으로 광합성 과정을 설명합니다.
 
 Response:
-기술을 빨리 습득하기 위해서는 빠른 실행, 깊은 분석, 실제 적용 순으로 학습을 권한다.
+Explain the photosynthesis process in a way that is understandable to children
 ```
 
-#### 수행결과 2
+#### 수행결과 3
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_3.png)
 
 ```
 Instruction:
-What should I do on a trip to Europe?
+어떻게 하면 효율적으로 LLM 모델을 파인튜닝 할 수 있을까요?
 
 Response:
-유럽 여행에서 무엇을 할 수 있나요?
-```
-
-#### 수행결과 3
-
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_4.png)
-
-```
-Instruction:
-Explain the process of photosynthesis in a way that a child could understand.
-
-Response:
-어린이가 이해할 수 있는 방식으로 광합성 과정을 설명합니다.
+How would you approach finetuning LLM models in an efficient way?
 ```
 
 ### 링크

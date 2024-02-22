@@ -5,16 +5,24 @@ author: 김태영
 date: 2024-2-22 00:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_title_3.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_title_4.png
 ---
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_title_3.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_title_4.png)
 
 구글 Gemma가 공개되고 파인튜닝 예제 또한 제공되어 이를 간단하게 테스트 해봤습니다. 아래는 테스트 결과입니다. 
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_fast_execute_1.png)
 
 "What should I do on a trip to Seoul?"이라고 물었을 때, "If you want to go to the most famous tourist destinations in Seoul, you should start with the Seoul Tower, which has the largest tower in Seoul. If you are looking for a good restaurant, you should go to Gwangjang Market, where you can taste Korean food."라고 답변을 해주세요.
+
+### 함께보기
+
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
 
 ### 프리프로세서 및 토크나이저
 
