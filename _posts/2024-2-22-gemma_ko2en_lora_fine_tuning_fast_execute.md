@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Gemma 영한번역 LoRA 파인튜닝 빠른실행"
+title: "Gemma 한영번역 LoRA 파인튜닝 빠른실행"
 author: 김태영
-date: 2024-2-22 03:00:00
+date: 2024-2-22 04:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_1.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_title_1.png
 ---
  
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_title_1.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_title_1.png)
 
 이번에는 Gemma를 "databricks-dolly-15k.jsonl"과 "databricks-dolly-15k-ko.jsonl" 데이터셋을 이용해서 영한번역 LoRA 파인튜닝을 해보도록 하겠습니다.
 
@@ -33,11 +33,11 @@ databricks-dolly-15k-ko 데이터셋은 허깅페이스에서 다운로드 받�
 
 LoRA 랭크 4로 1 에포크 시에 23.4분이 소요되었습니다. 사양은 구글코랩 T4입니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_1.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_1.png)
 
 #### 수행결과 1
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_2.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_2.png)
 
 ```
 Instruction:
@@ -49,7 +49,7 @@ Response:
 
 #### 수행결과 2
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_3.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_3.png)
 
 ```
 Instruction:
@@ -61,7 +61,7 @@ Response:
 
 #### 수행결과 3
 
-![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_tuning_fast_execute_4.png)
+![img](http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_ko2en_lora_fine_tuning_fast_execute_4.png)
 
 ```
 Instruction:
@@ -76,7 +76,6 @@ Response:
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
-
 
 ### 추가문의
 

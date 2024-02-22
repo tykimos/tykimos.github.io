@@ -62,3 +62,8 @@ Response:
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
+
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
