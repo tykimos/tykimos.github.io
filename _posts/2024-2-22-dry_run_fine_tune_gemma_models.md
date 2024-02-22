@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Gemma(구글 공개 LLM) LoRA 파인튜닝 드라이런"
-author: Taeyoung Kim
+title: "Gemma LoRA 파인튜닝 빠른실행 #2FE"
+author: 김태영
 date: 2024-2-22 00:00:00
 categories: llm
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-2-22-dry_run_fine_tune_gemma_models_title_1.png
+image: http://tykimos.github.io/warehouse/2024/2024-2-22-dry_run_fine_tune_gemma_models_title_2.png
 ---
 
 구글 Gemma가 공개되고 파인튜닝 예제 또한 제공되어 이를 간단하게 테스트 해봤습니다. 아래는 테스트 결과입니다. 
