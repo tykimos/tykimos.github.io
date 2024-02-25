@@ -19,6 +19,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-23-gemma_ko2sql_lora_fine_
 * [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
 * [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
 * [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 
 # Chinook 데이터베이스
 
@@ -38,7 +39,11 @@ chinook DB를 기반으로 한국어 to SQL 쌍으로 ChatGPT를 통해 만들�
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-23-gemma_ko2sql_lora_fine_tuning_fast_execute_3.png)
 
-#### 수행결과 1
+아래 링크에서 다운로드 받을 수 있습니다.
+
+[다운로드](http://tykimos.github.io/warehouse/2024/chinook-ko2sql-1k.jsonl)
+
+#### 수행결과
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-2-23-gemma_ko2sql_lora_fine_tuning_fast_execute_4.png)
 
@@ -54,13 +59,20 @@ Gemma> [('MPEG audio file', 3034)]
 USER > quit
 ```
 
-### 링크
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
+### 더보기
 
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
 
-### 추가문의
-
-* 작성자 : 김태영
-* 이메일 : tykim@aifactory.page
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)

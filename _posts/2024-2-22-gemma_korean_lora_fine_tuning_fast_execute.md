@@ -19,6 +19,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_
 * [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
 * [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
 * [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 
 ### databricks-dolly-15k-ko 데이터셋
 
@@ -58,13 +59,20 @@ Response:
 광합성 과정은 식물과 녹조류에서 일차 생산을 위해 필요한 과정입니다. 이 과정은 광합성과 탄산화를 통해 이루어집니다. 식물은 광합성으로 이루어진 빛과 수분이 풍부한 습기가 있는 환경을 선호하고 탄산가스를 필요로 합니다. 그래서 이 과정을 위해서는 빛, 수분 그리고 탄산가스가 필요합니다. 식물의 광합성은 빛이 필요한 과정이기 때문에, 식용 가능한 식물이 빛을 필요로 합니다. 그러나 식용 가능한 식물은 광합성 과정을 통해서 탄소를 흡수하고, 이 탄소를 식물의 탄수화물로 변화시킵니다. 그래서 식물의 탄수화물이 식용 가능한 식물의 식물로 변화하는 것은 광합성과 탄산화가 필요한 것
 ```
 
-### 링크
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
+### 더보기
 
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
 
-### 추가문의
-
-* 작성자 : 김태영
-* 이메일 : tykim@aifactory.page
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)

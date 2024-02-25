@@ -23,6 +23,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_lora_fine_tuning_
 * [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
 * [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
 * [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 
 ### 프리프로세서 및 토크나이저
 
@@ -60,13 +61,20 @@ Databricks Dolly 15k는 2023년 3월과 4월에 Databricks의 5,000명 이상의
 
 LoRA (Low-Rank Adaptation)는 대규모 언어 모델(Large Language Models, LLM)을 효율적으로 미세 조정하기 위한 기술입니다. 이 방법은 모델의 원본 가중치에 저차원의 학습 가능한 행렬을 추가함으로써 작동합니다. LoRA는 추가적인 추론 시간 없이 제공되며, 이는 생산 환경에서 사용할 때 W' = W + BA를 명시적으로 계산하여 결과를 저장함으로써, 평소처럼 추론을 수행할 수 있음을 보장합니다. 이 기법은 태스크 전환을 더 쉽고 빠르게 할 수 있게 해주며, 다양한 태스크에 대해 맞춤화된 모델을 쉽게 생성하고 교체할 수 있도록 합니다. LoRA는 기존의 효율적인 미세 조정 기술을 상당한 차이로 일반적으로 능가하며, 전체 미세 조정과 비교할 때 비슷하거나 더 나은 성능을 제공하는 것으로 나타났습니다.
 
-### 링크
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page 
+
+### 더보기
 
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
 
-### 추가문의
-
-* 작성자 : 김태영
-* 이메일 : tykim@aifactory.page 
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
