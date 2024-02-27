@@ -22,6 +22,9 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-27-getting_started_with_ge
 
 Below is an introductory guide for developers on how to get started with the Gemma Tokenizer using the keras-nlp library. It covers installation, configuration, and basic usage examples across multiple languages to demonstrate the versatility of the Gemma Tokenizer.
 
+View on AIFactory >>
+[https://aifactory.space/page/keraskorea/forum/discussion/854](https://aifactory.space/page/keraskorea/forum/discussion/854)
+
 View on Kaggle >>
 [![img](http://tykimos.github.io/warehouse/2024/2024-2-27-getting_started_with_gemma_tokenizer_including_multilingual_testing_1.jpg)](https://www.kaggle.com/code/tykimos/getting-started-with-gemma-tokenizer)
 
