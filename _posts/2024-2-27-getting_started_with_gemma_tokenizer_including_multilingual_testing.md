@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Started with Gemma Tokenizer including Multilingual Testing"
 author: 김태영
-date: 2024-2-23 00:00:00
+date: 2024-2-27 00:00:00
 categories: llm
 comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-2-27-getting_started_with_gemma_tokenizer_including_multilingual_testing_title_1.png
