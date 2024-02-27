@@ -206,4 +206,4 @@ for language, sentence in test_sentences.items():
     print("\n")
 ```
 
-![img](2024-2-27-getting_started_with_gemma_tokenizer_including_multilingual_testing_2.jpg)
+![img](2024-2-27-getting_started_with_gemma_tokenizer_including_multilingual_testing_2.jpg) 
