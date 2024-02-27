@@ -22,6 +22,8 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-27-getting_started_with_ge
 
 Below is an introductory guide for developers on how to get started with the Gemma Tokenizer using the keras-nlp library. It covers installation, configuration, and basic usage examples across multiple languages to demonstrate the versatility of the Gemma Tokenizer.
 
+[View on Kaggle](https://www.kaggle.com/code/tykimos/getting-started-with-gemma-tokenizer)
+
 ## Installation
 
 First, ensure that you have the latest versions of the necessary libraries. This includes installing keras-nlp for NLP utilities and updating keras to its latest version to ensure compatibility.
@@ -119,6 +121,8 @@ We define a helper function to apply colors to tokens sequentially and print the
 ```
 # Import itertools for later use in color cycling
 import itertools
+
+# Import JAX's version of NumPy and alias it as jnp
 
 # Define a function to convert tokens to strings
 def tokens2string(tokens):
