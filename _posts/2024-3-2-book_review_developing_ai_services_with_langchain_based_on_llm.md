@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 도서리뷰 | 랭체인으로 LLM 기반의 AI 서비스 개발하기 (랭체인코리아 이벤트)
+title: 협찬도서리뷰 | 랭체인으로 LLM 기반의 AI 서비스 개발하기 (랭체인코리아 이벤트)
 author: 김태영
 date: 2024-3-2 00:00:00
 categories: llm, langchain
