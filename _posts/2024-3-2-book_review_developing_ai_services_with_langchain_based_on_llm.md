@@ -5,45 +5,49 @@ author: 김태영
 date: 2024-3-2 00:00:00
 categories: llm, langchain
 comments: true
-image: http://tykimos.github.io/warehouse/2024/
-2024-3-2-book_review_developing_ai_services_with_langchain_based_on_llm_title_1.jpg
+image: http://tykimos.github.io/warehouse/2024/2024-3-2-book_review_developing_ai_services_with_langchain_based_on_llm_title_1.jpg
 ---
  
-![img](http://tykimos.github.io/warehouse/2024/
-2024-3-2-book_review_developing_ai_services_with_langchain_based_on_llm_title_1.jpg)
+![img](http://tykimos.github.io/warehouse/2024/2024-3-2-book_review_developing_ai_services_with_langchain_based_on_llm_title_1.jpg)
 
-1. 리뷰하기 앞서 
+### 리뷰하기 앞서 
 
 최근 인공지능(AI) 분야에서 대규모 언어 모델(LLM)이 중요한 화두로 떠오르며, LLM을 기반으로 한 서비스에 대한 요구가 급격히 증대되고 있습니다. 기업과 개발자들은 이러한 기술을 활용하여 사용자 경험을 향상시키고, 새로운 형태의 인터랙션과 서비스를 창출하려는 노력을 기울이고 있습니다. 이 과정에서 LLM 기술을 이해하고, 실제로 서비스에 적용할 수 있는 능력이 필수적으로 요구됩니다.
 
 이런 배경에서 "랭체인으로 LLM 기반의 AI 서비스 개발하기"이라는 책은 시의적절하게 등장했습니다. 이 책은 LLM 기술의 기본 개념부터 시작하여, 실제 서비스 개발에 이르기까지의 과정을 안내합니다. 특히 랭체인이라는 도구를 중심으로, 개발자들이 실질적으로 LLM 기반 서비스를 구축할 수 있도록 실용적인 예제도 포함되고 있습니다. LLM 기술에 대한 이해와 함께, 이를 활용한 서비스 개발에 관심이 있는 개발자들에게 도움이 될 것 같습니다.
 
-2. 저자 소개
+### 저자 소개
 
 현재 마이크로소프트에서 Data & AI Specialist로 활동 중인 서지영님은, 기업들이 AI 기술을 활용하여 혁신을 이루어낼 수 있도록 지원하는 역할을 수행하고 있습니다. 아래 Azure OpenAI & Copilot 구축 전략과 활용 사례에 대한 발표를 보시면 저자의 지식과 경험을 엿볼 수 있습니다.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/mxlmuk7H1do?si=KfepJi2tmDohBHOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-3. 챕터별 요약
+### 챕터별 요약
 
 "LLM 기반의 AI 서비스 개발 마스터하기 - 랭체인 사용법"은 LLM을 활용한 서비스 개발에 필요한 전반적인 지식과 실습을 제공하는 책입니다. 이 책은 총 6개의 장으로 구성되어 있으며, 각 장은 LLM 기술의 이해부터 실제 서비스 개발에 이르기까지의 과정을 단계별로 안내합니다.
 
-1장 LLM 훑어보기
+#### 1장 LLM 훑어보기
+
 이 장에서는 LLM의 최신 동향과 기술적 배경을 소개합니다. 최근의 OpenAI GPT와 구글의 Gemini와 같은 주요 프로젝트의 소식을 담고 있으며, AI 및 LLM 생성 과정의 기본적인 이해를 돕습니다. 독자들은 이 장을 통해 LLM 기술의 발전 상황과 그 중요성을 파악할 수 있습니다.
 
-2장 LLM 활용하기
+#### 2장 LLM 활용하기
+
 LLM을 효과적으로 활용하기 위한 다양한 기법들이 소개됩니다. 파인튜닝, RAG, 프롬프트 엔지니어링 등의 방법을 통해, 독자들은 LLM을 자신의 프로젝트에 어떻게 적용할 수 있는지 구체적인 방법을 배울 수 있습니다.
 
-3장 RAG 훑어보기
+#### 3장 RAG 훑어보기
+
 검색, 임베딩, RAG 기법의 기초에 대해 다룹니다. 이 장은 RAG 기법의 이해를 돕고, LLM을 활용한 개발에 있어서 중요한 기초 지식을 제공합니다.
 
-4장 랭체인 익숙해지기
+#### 4장 랭체인 익숙해지기
+
 랭체인의 구조와 주요 컴포넌트에 대한 설명이 포함되어 있습니다. 랭체인을 활용한 개발에 필요한 기본적인 이해를 돕기 위해, LCEL을 제외한 주요 구성 요소들을 소개합니다.
 
-5장 랭체인으로 RAG 구현하기
+#### 5장 랭체인으로 RAG 구현하기
+
 실용적인 예제를 통해 랭체인을 활용한 RAG 구현 방법을 배울 수 있는 장입니다. 챗봇, 번역, 메일 작성, 분석 등 8가지의 기초 예제를 통해, 독자들은 랭체인을 활용한 서비스 개발의 기본기를 익힐 수 있습니다.
 
-6장 LLM을 이용한 서비스 알아보기
+#### 6장 LLM을 이용한 서비스 알아보기
+
 더 나아가 현업에서 실제로 사용 가능한 서비스 구성에 대한 힌트를 제공합니다. 이 장은 실제 코드는 제공하지 않지만, LLM을 활용한 서비스 개발에 있어서 중요한 가이드라인과 아이디어를 독자들에게 제공합니다.
 
 이 책은 LLM 기술과 랭체인을 활용한 서비스 개발에 관심 있는 모든 이들에게 귀중한 자료가 될 것입니다. 각 장을 통해 제공되는 지식과 실습 예제는 독자들이 LLM 기반의 서비스 개발을 이해하고, 자신의 프로젝트에 적용할 수 있는 실질적인 능력을 키울 수 있도록 도와줄 것입니다.
