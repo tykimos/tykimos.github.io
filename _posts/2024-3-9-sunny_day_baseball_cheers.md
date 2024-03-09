@@ -18,6 +18,8 @@ Revise the image to show Tyri with her chin pulled down further, looking over he
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-3-9-sunny_day_baseball_cheers_1.jpg)
 
+![img](http://tykimos.github.io/warehouse/2024/2024-3-9-sunny_day_baseball_cheers_2.jpg)
+
 ## SNS
 
 * Tyri's Instagram : [https://www.instagram.com/tyri_tarot](https://www.instagram.com/tyri_tarot)
