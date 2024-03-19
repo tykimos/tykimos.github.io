@@ -5,7 +5,7 @@ author: Taeyoung Kim
 date: 2024-3-19 13:12:42
 categories: dalle
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-3-19-open_sora_:_first-person_view_of_a_racing_car_title.jpeg
+image: http://tykimos.github.io/warehouse/2024/2024-3-19-open_sora_:_first-person_view_of_a_racing_car_title.gif
 ---
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-3-19-open_sora_:_first-person_view_of_a_racing_car_title.gif)
