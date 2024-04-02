@@ -28,7 +28,7 @@ gemma-2b-it-gpu-int4.bin 파일의 용량은 1.35GB입니다.
 
 MacBook Air Apple M1 16GB 환경에서 크롬 브라우저에 탑재해서 테스트한 결과 입니다. 아래는 한국어 > 영문 번역 테스트한 1배속 결과입니다.
 
-<iframe width="100%" height="400" src="https://youtube.com/shorts/nxB5lYxT0lY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe width="100%" height="400" src="https://youtube.com/embed/nxB5lYxT0lY?si=wslSWtUWw7RBuos0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 ### QR 코드 생성 테스트
 
