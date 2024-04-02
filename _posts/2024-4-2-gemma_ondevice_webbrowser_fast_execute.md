@@ -2,7 +2,7 @@
 layout: post
 title: "Gemma 온디바이스 탑재 - 웹브라우저편"
 author: 김태영
-date: 2024-2-22 03:00:00
+date: 2024-4-2 03:00:00
 categories: llm
 comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-4-2-gemma_ondevice_webbrowser_fast_execute_title_1.jpg
