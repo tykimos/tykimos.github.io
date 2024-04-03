@@ -11,44 +11,49 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatg
 본 내용은 (어시+랭체인)에 의해 자동으로 작성된 글입니다.
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_title.jpeg)
-# DALL·E API와 ChatGPT가 만난다면? 
+# DALL·E API와 ChatGPT가 만나다: 새로운 이미지 편집 기능 탑재 소식
 
-안녕하세요, 여러분! 오늘은 기술 블로그에서 흥미로운 주제로 돌아왔습니다. AI 기술이 빠르게 발전하면서 사람들의 생활에 많은 변화를 가져오고 있습니다. 특히 인공 지능이 예술 분야에 적용되면서 더욱 다양하고 창조적인 작업이 가능해졌는데요. 이번에는 OpenAI에서 제공하는 DALL·E API와 ChatGPT가 만났을 때 어떤 흥미로운 일이 벌어질 수 있는지 살펴보려고 합니다.
+기술 세계에서 가장 흥미진진한 것 중 하나는 두 가지 강력한 기술이 결합하여 더욱 획기적인 기능을 제공하는 것입니다. 이번에는 인공지능 기반의 이미지 생성 API인 DALL·E와 대화형 자연어 처리 모델인 ChatGPT가 결합하여 사용자가 원하는 대로 이미지를 편집할 수 있는 새로운 기능이 탑재되었습니다.
 
-## DALL·E API와 ChatGPT의 만남
+## 이미지 편집 기능이란?
 
-DALL·E API와 ChatGPT의 만남이 가져온 가장 큰 변화 중 하나는 바로 '이미지 편집 기능'입니다. 이제 사용자들은 생성된 이미지를 직접 편집할 수 있게 되었는데요. 이를 통해 더욱 다양하고 창조적인 작업이 가능해진 것입니다.
-
-```python
-# 이미지 편집 기능 사용 예제
-image = DALLE_API.create_image()
-image.click()
-edit_icon = image.get_edit_icon()
-edit_icon.click()
-area_to_edit = image.select_area()
-prompt = input("What changes would you like to make?")
-new_image = DALLE_API.edit_image(area_to_edit, prompt)
-new_image.show()
-```
-
-이미지를 클릭한 후 편집 아이콘을 클릭하면, 수정하고자 하는 영역을 선택할 수 있습니다. 그 다음 선택된 영역에 대해 변경하고 싶은 내용을 프롬프트로 입력하면, DALL·E API는 이를 반영하여 새로운 이미지를 만들어 줍니다.
-
-## 이미지 편집의 가능성
-
-이러한 이미지 편집 기능은 다양한 분야에서 활용될 수 있습니다. 예를 들어, 디자이너나 아티스트들은 이 기능을 이용해 새로운 아이디어를 시각적으로 표현하거나 기존의 작업을 효과적으로 수정할 수 있습니다. 또한, 교육 분야에서는 학생들이 창의적인 사고를 키우는 데 도움이 될 수 있습니다.
+이미지 편집 기능은 생성된 이미지를 사용자의 요구에 따라 수정하는 기능입니다. 이를 통해 사용자는 이미지의 특정 영역을 선택하고, 그 영역을 변경하여 새로운 이미지를 만들 수 있습니다. 이 기능은 원래 이미지에 추가, 삭제, 변경 등 다양한 편집 작업을 수행할 수 있습니다.
 
 ```python
-# 교육용 이미지 편집 예제
-original_image = DALLE_API.create_image(prompt="A red apple on a table")
-original_image.show()
-edited_image = DALLE_API.edit_image(original_image, "Change the apple to green")
+# DALL·E API와 ChatGPT를 이용한 이미지 편집
+# 예제 코드
+
+# 1. 이미지 생성
+image = DALLE.create_image(prompt="apple")
+
+# 2. 이미지 편집
+edited_image = image.edit(prompt="change the color to red")
+
+# 3. 이미지 확인
 edited_image.show()
 ```
 
-이와 같이 DALL·E API와 ChatGPT의 결합은 무궁무진한 가능성을 열어줍니다. 이를 통해 우리는 AI 기술이 얼마나 효과적으로 예술과 창조성에 접목될 수 있는지를 확인할 수 있습니다.
+## DALL·E API의 이미지 편집 기능 활용
+
+이제 DALL·E API에서 제공하는 이미지 편집 기능이 ChatGPT에 탑재되어 사용자는 생성된 이미지를 클릭 한 후 편집 아이콘을 클릭하여 원하는 영역을 선택하고, 그 다음 프롬프트로 변경하고 싶은 내용을 입력하여 새로운 이미지를 만들 수 있습니다.
+
+```python
+# DALL·E API와 ChatGPT를 이용한 이미지 편집
+# 예제 코드
+
+# 1. 이미지 생성
+image = DALLE.create_image(prompt="apple")
+
+# 2. 이미지 선택 및 편집 아이콘 클릭
+selected_area = image.select_area()
+
+# 3. 프롬프트 입력 및 이미지 편집
+edited_image = selected_area.edit(prompt="change the color to red")
+
+# 4. 이미지 확인
+edited_image.show()
+```
 
 ## 마치며
 
-오늘은 DALL·E API와 ChatGPT의 결합을 통해 나타난 이미지 편집 기능에 대해 알아보았습니다. 이 기능을 통해 더욱 다양하고 창조적인 작업이 가능해질 것으로 기대됩니다. 앞으로도 AI 기술이 어떤 흥미로운 일을 벌일 수 있는지 계속해서 주목해 보겠습니다.
-
-다음에 또 만나요!
+이렇게 DALL·E API와 ChatGPT가 결합하여 새롭게 탑재된 이미지 편집 기능은 사용자가 원하는 대로 이미지를 수정하고 새롭게 생성하는데 매우 유용한 기능입니다. 이 기능을 활용하면 사용자는 자신만의 독특한 이미지를 쉽게 만들어낼 수 있을 것입니다. 앞으로 이 두 기술이 어떤 신기한 기능을 만들어낼지 기대해봅니다.
