@@ -41,7 +41,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-4-todayassi___blog_writing
 - Tykimos Blog (File responses) : 파일업로드 폴더 (구글폼에 의해서 생성)
 - Blog Writing Assi : 어시를 구동시키기 위한 코랩
 
-## 코랩과 상태 흐름
+### 코랩과 상태 흐름
 
 구글폼을 입력했을 때 자동으로 포스팅이 되기 위해서는 별도의 서버가 동작하면서 모니터링을 하면 되는데요. 이 경우 별도의 서버가 필요합니다. 서버 운영에는 비용 및 관리 부담이 있기 때문에 서버없이 일시적으로 실행시키면 그동안 등록된 요청을 처리하도록 코랩을 만들었습니다.
 
@@ -66,7 +66,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-4-todayassi___blog_writing
 
 리포트 파일은 임시적으로 사용되며, 다음 처리에 필요한 정보를 제공합니다.
 
-## 시트 모니터링
+### 시트 모니터링
 
 모든 요청에 대한 처리를 완료할 때까지 구글 시트 정보를 가지고 오며, 처리 진행 단계에 따라 구글 시트를 업로드 합니다. 이에 필요한 기능 함수는 아래와 같습니다.
 
@@ -90,26 +90,28 @@ def update_sheet_status(row_index, column_name, value):
     worksheet.update_cell(row_index + 2, column_index, value)
 ```
 
-## Blog Content Generation Chain
+## 블로그 내용 작성 체인
 
-GPT4가 생성한 블로그 내용은 깃헙 페이지에 자동으로 업로드됩니다. 깃헙 페이지는 개발자들에게 많이 사용되는 무료 웹 호스팅 서비스로, 이를 통해 블로그를 손쉽게 공개할 수 있습니다. 
+사용자가 입력한 기초 내용을 바탕으로 랭체인을 사용하여 상세한 기술 내용을 작성합니다. 체인 구성은 아래와 같습니다 .
+
+- 프롬프트 : 기초 내용을 바탕으로 상세한 내용을 작성하라는 시스템 프롬프트
+- chat_model : OpenAI에서 제공하는 GPT-4 
+- 체인(LCEL 문법) : prompt_template | chat_model | StrOutputParser()
+
+핵심 소스코드는 아래와 같습니다. 사용자가 입력한 기초내용은 {draft_content}에 담겨져 있습니다.
 
 ```python
+
+from langchain_openai import ChatOpenAI
+
+chat_model = ChatOpenAI(model="gpt-4")
+
 system_prompt = """Given the initial draft content provided by the user, generate a comprehensive and engaging blog post body that expands upon the draft with additional insights, explanations, and related content.
 Make sure to structure the post in a way that is informative and engaging to the reader.
 Incorporate the provided draft content seamlessly into the narrative, enhancing it with creative elements and factual information where appropriate.
 The goal is to create a cohesive and compelling narrative that captures the reader's interest and provides valuable information on the topic.
 All content must be written in Korean.
 Please write the blog content in markdown format, tailored for a technical blog, including code snippets, bullet points, and headers to ensure clarity and enhance readability. Do not invent or create arbitrary source code or information; only expand upon and provide detailed and friendly explanations based on the information provided by the user.
-
-[예시] == 시작 ==
-
-입력: 구글폼을 통해서 제목과 기초 내용을 간단히 입력하면, 기초 내용을 바탕으로 GPT4가 상세 블로그를 작성 한 후, 깃헙 페이지에 자동으로 업로드를 수행합니다. 
-출력:
-
-
-[예시] == 시작 ==
-
 """
 
 prompt_template = ChatPromptTemplate.from_messages(
@@ -124,6 +126,44 @@ chain = (prompt_template
 gen_content = chain.invoke({"draft_content" : draft_content})
 ```
 
-## 마무리
+### 범용 자동화 처리 코드
 
-이상으로 GPT4와 함께하는 자동 블로그 포스팅 시스템에 대한 소개를 마치겠습니다. 이 시스템을 통해 블로그 작성의 부담을 덜고, 더욱 풍부하고 다양한 내용을 공유할 수 있게 되었으면 좋겠습니다. 감사합니다.
+구글폼와 구글 시트와 어시를 통한 처리흐름은 다른 자동화 처리에서도 사용할 수 있는 범용적인 코드입니다. 아래 코드에서 PROCESS_FLOW만 다른 함수로 정의하면 동일하게 자동화 처리 수행이 가능하도록 설계되었습니다.
+
+```python
+PROCESS_FLOW = ["blog_content_generation", "github_upload"]
+STATUS_FLOW = ["fetching", "running", "done"]
+
+def proc_blog_content_generation():
+    # 처리 로직
+    pass
+
+def proc_github_upload():
+    # 처리 로직
+    pass
+
+tools = {
+    "blog_content_generation" : proc_blog_content_generation,
+    "github_upload" : proc_github_upload
+}
+
+for pf in PROCESS_FLOW:
+
+    print(pf + "...")
+
+    # pandas로 구글 시트 데이터 불러오기
+    df = pd.DataFrame(worksheet.get_all_records())
+
+    proc_invoke(pf, df)
+
+    print("\nDone.")
+
+```
+
+### 마무리
+
+어시 체인은 랭체인과 더불어 사용자 처리 함수와 연동하여 자동화 기능을 수행하도록 설계되었습니다. 그 중 하나의 예시로 블로그 작성 어시를 만들어보왔습니다. 콘텐츠 생성, 마케팅 분석, CRM, ERP 관리에도 확대할 예정입니다.
+
+### 함께보기
+
+- [랭체인 코리아](https://www.facebook.com/groups/langchainkr) : 랭체인에 대해서 좀 더 알고 싶으시다면 랭체인 코리아에서 함께 공부하고 나눠요.
