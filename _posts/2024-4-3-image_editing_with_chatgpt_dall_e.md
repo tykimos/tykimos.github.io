@@ -18,7 +18,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatg
 
 DALL·E 2 API에서는 텍스트 to 이미지와 이미지 to 이미지 그리고 이미지 편집 기능을 제공하고 있었는데요. DALL·E 3는 텍스트 to 이미지를 제외한 API를 제공하고 있지 않아서 API 릴리즈 되기를 많이 기다렸습니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_1.jpeg)
+![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_1.jpg)
 
 - 출처 : https://platform.openai.com/docs/guides/images/usage?context=node
 
@@ -35,19 +35,19 @@ DALL·E 2 API에서는 텍스트 to 이미지와 이미지 to 이미지 그리�
 1. ChatGPT 서비스에 연동된 DALL·E를 통해 원하는 이미지를 생성합니다.
 2. 생성된 이미지를 클릭한 후, 우측 상단의 편집 아이콘을 클릭합니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_2.jpeg)
+![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_2.jpg)
 
 3. 편집하고자 하는 영역을 선택합니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_3.jpeg)
+![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_3.jpg)
 
 4. 선택된 영역에 대해 변경하고 싶은 내용을 프롬프트로 입력합니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_4.jpeg)
+![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_4.jpg)
 
 5. 이를 ChatGPT에 전달하면, DALL·E API가 입력을 받아 새로운 이미지를 생성합니다.
 
-![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_5.jpeg)
+![img](http://tykimos.github.io/warehouse/2024/2024-4-3-image_editing_with_chatgpt_dall_e_5.jpg)
 
 이제 사용자는 단순히 이미지를 생성하는 것 뿐만 아니라, 그 이미지를 자신의 의도에 맞게 편집하는 것도 가능해졌습니다.다만 이미지 생성 품질로 본다면 이미지 편집 모델은 DALL·E 3가 아니라 DALL·E 2인 것 같다는 예상은 조심스레 해봅니다.  
 
