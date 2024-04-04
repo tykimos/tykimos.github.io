@@ -96,7 +96,7 @@ def update_sheet_status(row_index, column_name, value):
 
 - 프롬프트 : 기초 내용을 바탕으로 상세한 내용을 작성하라는 시스템 프롬프트
 - chat_model : OpenAI에서 제공하는 GPT-4 
-- 체인(LCEL 문법) : prompt_template | chat_model | StrOutputParser()
+- 체인(LCEL 문법) : prompt_template -> chat_model -> StrOutputParser()
 
 핵심 소스코드는 아래와 같습니다. 사용자가 입력한 기초내용은 {draft_content}에 담겨져 있습니다.
 
