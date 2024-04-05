@@ -13,43 +13,67 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-5-easy_image_editing_with_
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-5-easy_image_editing_with_chatgpt_dall_e_on_mobile_title.gif)
 <iframe width="100%" height="400" src="https://youtube.com/embed/mIHHw-T2-l8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-``` Blog
+# 접근성 향상을 위한 AI 기반 이미지 편집: ChatGPT+DALL·E의 혁신
+안녕하세요. 오늘은 여러분이 알아두면 도움이 될, 디지털 이미지 편집의 새로운 패러다임에 대해 이야기해보려고 합니다. 그것은 바로 인공지능 기반 이미지 편집입니다. 특히, OpenAI의 ChatGPT와 DALL·E가 협력하여, 아마추어와 전문가 모두에게 새로운 이미지 편집 경험을 제공하고 있습니다.
 
-# 창의력 해방: 모바일에서 쉬운 이미지 편집을 위한 ChatGPT+DALL·E
-
-디지털 창의성의 끊임없이 발전하는 풍경 속에서, 인공지능을 이미지 편집에 통합함으로써 아마추어와 전문가 모두에게 새로운 지평을 열었습니다. ChatGPT와 DALL·E의 협력은 모바일 기기에서 이미지 편집을 더 접근하기 쉽고 사용자 친화적으로 만드는 혁신적인 도구를 선보입니다.
-
-![img](https://www.example.com/blog/image-editing-tool.jpg)
+![img](https://d3i71xaburhd42.cloudfront.net/6f0f7f91f99c1e6a7d3f5c1dd8777f6c0c8e4fb6/3-Figure1-1.png)
 
 ## 편집 기능 소개
 
-이미지 편집의 과정은 원하지 않는 추가 손이 그려진 AI 생성 이미지를 간단히 클릭하는 것에서 시작됩니다. 직관적인 인터페이스를 통해 사용자는 손쉽게 '편집' 버튼을 클릭하고 제거하고 싶은 영역을 선택할 수 있습니다. 이것을 "마스킹"이라고 합니다.
-
-![img](https://www.example.com/blog/image-editing-process.jpg)
+이미지 편집 도구의 핵심 기능 중 하나는 바로 '편집' 기능입니다. 이는 사용자가 이미지의 특정 부분을 선택하고, 그 부분을 수정하거나 제거하는 데 사용됩니다. 그런데 이 과정이 복잡하고 어려우면 어떨까요? 이를 해결하기 위해, ChatGPT와 DALL·E는 사용자가 이미지의 원하는 부분을 쉽게 선택하고, 수정할 수 있도록 도와줍니다.
 
 ## 마스크 지정하기
 
-마스킹을 통해 사용자는 이미지의 어떤 부분을 편집할지 명시할 수 있습니다. 이 정밀함은 변경 사항이 사용자의 비전과 일치하도록 보장합니다.
+'마스킹'은 이미지 편집에서 매우 중요한 역할을 합니다. 마스킹을 통해 사용자는 이미지의 어떤 부분을 편집할지를 정확하게 지정할 수 있습니다. 마스킹 후에는 선택한 영역만이 편집 대상이 되므로, 원치 않는 부분의 편집을 피할 수 있습니다.
 
-![img](https://www.example.com/blog/image-masking.jpg)
+```python
+# 마스킹 예제 코드
+import cv2
+import numpy as np
+
+# 이미지 불러오기
+img = cv2.imread('example.jpg')
+
+# 마스크 생성
+mask = np.zeros_like(img)
+
+# 편집하고 싶은 영역 지정
+mask[100:200, 200:300] = 255
+
+# 마스크 적용
+result = cv2.bitwise_and(img, mask)
+cv2.imshow('Masked Image', result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
 
 ## 프롬프트 입력하기
 
-제거할 영역을 선택한 후, 사용자는 수정하고자 하는 내용을 설명하는 텍스트를 입력하라는 요청을 받습니다. 여기서 ChatGPT의 언어 이해력과 DALL·E의 이미지 생성 능력의 시너지가 빛을 발하면서 제공된 프롬프트와 함께 이미지를 분석합니다.
+마스킹을 통해 편집 대상을 지정한 후에는, 어떻게 편집할지를 결정해야 합니다. 이때 사용하는 것이 바로 '프롬프트'입니다. 프롬프트는 사용자가 이미지를 어떻게 수정하고 싶은지를 텍스트로 입력하는 것을 말합니다. 
 
-![img](https://www.example.com/blog/prompt-input.jpg)
+예를 들어, "피크볼 취미를 시작한 타이리가 밝은 햇빛 아래, 활기찬 그린 코트에서 경기를 즐기는 모습을 그려주세요."라는 프롬프트를 입력하면, 인공지능은 이를 바탕으로 이미지를 생성하게 됩니다. 이때 ChatGPT가 텍스트를 이해하고, DALL·E가 이를 이미지로 변환하는 역할을 합니다.
+
+```python
+# 프롬프트 입력 예제 코드
+from openai import OpenAI
+
+# OpenAI 객체 생성
+openai = OpenAI(api_key="your-api-key")
+
+# 프롬프트 입력
+prompt = "피크볼 취미를 시작한 타이리가 밝은 햇빛 아래, 활기찬 그린 코트에서 경기를 즐기는 모습을 그려주세요."
+
+# 이미지 생성 요청
+response = openai.Completion.create(engine="davinci", prompt=prompt, max_tokens=100)
+
+# 결과 확인
+print(response.choices[0].text.strip())
+```
 
 ## 결과 확인하기
 
-분석 후, 요청된 변경 사항을 보여주는 새로운 이미지가 생성됩니다. 이 과정은 수정할 수 있는 이미지에 대해 놀라운 정확성과 창의성을 자랑하는 DALL·E API를 사용합니다. 새로운 이미지가 만들어진 후, 사용자는 수정 사항을 확대하여 검사할 수 있습니다. 결과는 종종 인상적으로 깨끗하며, 원하지 않는 요소들이 매끄럽게 제거되어, 이 기능이 향후 프로젝트에서 자주 사용될 잠재력을 강조합니다.
+프롬프트를 통해 이미지를 생성한 후에는, 결과를 확인하게 됩니다. 이때 생성된 이미지는 사용자의 요청을 정확하게 반영하고, 원하지 않는 요소들이 모두 제거된 상태입니다. 이런 결과는 ChatGPT와 DALL·E의 협력 덕분이며, 이를 통해 사용자는 복잡한 소프트웨어 없이도 자신의 창의력을 표현할 수 있게 됩니다.
 
-![img](https://www.example.com/blog/result-check.jpg)
+## 마무리
 
-## 결론
-
-모바일 플랫폼에서 ChatGPT와 DALL·E의 통합은 복잡한 소프트웨어를 필요로 하지 않고도 사용자가 창의력을 탐색할 수 있도록 하면서, 고급 이미지 편집 도구를 더 접근하기 쉽게 만드는 중요한 진전을 나타냅니다. 기술이 발전함에 따라, 우리는 이 도구가 쉽고 정밀하게 상상력이 풍부한 비전을 현실로 만들고자 하는 디지털 창작자들에게 없어서는 안 될 자산이 될 것으로 기대합니다.
-
-![img](https://www.example.com/blog/conclusion.jpg)
-
-```
-
+따라서, ChatGPT와 DALL·E의 통합은 인공지능 기반의 이미지 편집을 가능하게 하는 중요한 발전입니다. 이를 통해, 모바일 기기에서도 쉽게 고급 이미지 편집을 수행할 수 있게 되었으며, 이는 디지털 창작자들에게 큰 도움이 될 것입니다. 앞으로도 이런 기술의 발전이 기대됩니다.
