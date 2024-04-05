@@ -5,17 +5,21 @@ author: Taeyoung Kim
 date: 2024-4-5 23:59:52
 categories: llm, ios
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone!_gemma_2b_title.gif
+image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone_gemma_2b_title.gif
 ---
 
-본 내용은 (어시+랭체인)에 의해 자동으로 작성된 글입니다.
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
+* [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
+* [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone!_gemma_2b/)
 
-![img](http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone!_gemma_2b_title.gif)
+'Gemma 2B 로컬 대규모 언어 모델(LLM)'을 아이폰에 직접 탑재해봤습니다. 프라이버시를 보호하면서도 AI의 강력한 기능을 활용할 수 있게 하는 방법입니다. 먼저 테스트 결과를 살펴보겠습니다.
+
 <iframe width="100%" height="400" src="https://youtube.com/embed/LcEr3RLuXkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-
-### 서문
-
-안녕하세요, 여러분! 오늘 저는 매우 흥미로운 주제를 다루려고 합니다. 바로 모바일 컴퓨팅의 새로운 지평을 열어줄 혁신적인 기술, 'Gemma 2B 로컬 대규모 언어 모델(LLM)'에 관한 이야기입니다. 이 기술은 우리의 아이폰에 직접 탑재되어, 데이터 프라이버시를 보호하면서도 AI의 강력한 기능을 활용할 수 있게 해줍니다. 그럼 함께 알아볼까요?
 
 ### 현대 기술 수요의 변화
 
@@ -25,68 +29,29 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_m
 
 Gemma 2B는 사용자의 아이폰에 직접 탑재되는 로컬 LLM로, 클라우드 기반 서비스에 의존하지 않고도 고급 자연어 처리(NLP) 기능을 제공합니다. 이는 데이터 프라이버시와 보안에 대한 우려를 크게 줄이면서도, 실시간으로 개인화된 피드백과 정보를 사용자에게 제공할 수 있게 합니다.
 
-### Gemma 2B LLM 소개
+### LLM을 모바일에 탑재한다면?
 
-#### Gemma 2B LLM의 개념
+아래는 Xcode에서 Gemma 2B와 채팅 앱을 폰으로 전송하고 있는 과정입니다.
 
-Gemma 2B는 사용자의 아이폰에 직접 탑재되는 로컬 LLM입니다. 즉, 이는 별도의 인터넷 연결 없이도 기기 자체에서 직접 자연어 처리를 수행할 수 있게 해주는 기술입니다.
+![img](http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone_gemma_2b_1.jpg)
 
-#### 아이폰에 Gemma 2B를 탑재하는 이유
+이렇게 모바일 기기에 LLM이 탑재된다면 아래와 같은 이점이 있습니다.
 
-Gemma 2B를 아이폰에 탑재하는 것은 매우 혁신적인 발상입니다. 이를 통해 사용자는 자신의 개인 데이터를 안전하게 보호하면서도, AI의 강력한 기능을 활용하여 더 나은 사용자 경험을 누릴 수 있게 되었습니다.
+* 데이터 보안 강화: 사용자의 개인 데이터는 오직 기기 내에서만 처리되어, 데이터 유출 위험이 최소화됩니다.
+* 오프라인 기능성: 인터넷 연결이 불가능한 상황에서도 LLM의 기능을 이용할 수 있습니다.
+* 개인화된 사용자 경험: 사용자의 선호와 행동을 학습하여, 점점 더 맞춤화된 결과와 추천을 제공합니다.
 
-### 주요 특징과 혜택
+### 마무리
 
-Gemma 2B LLM은 다음과 같은 주요 특징과 혜택을 가지고 있습니다.
+지도 + GPS가 네비게이션이 되었듯이 모바일 + LLM은 모바일 컴퓨팅의 미래를 형성하는 중요한 기술로 자리매김 될 것 같습니다. 어떤 어플리케이션을 만들어볼 지 함께 생각해봐요.👋
 
-#### 개인 정보 보호 및 보안 강화
+### 더보기
 
-Gemma 2B는 사용자의 개인 데이터를 기기 내에서만 처리하므로, 데이터 유출의 위험을 크게 줄일 수 있습니다. 이는 사용자의 개인 정보 보호와 보안을 강화하게 됩니다.
-
-#### 오프라인에서도 뛰어난 기능성
-
-Gemma 2B는 인터넷 연결 없이도 작동할 수 있습니다. 이는 사용자가 오프라인 상황에서도 Gemma 2B의 뛰어난 기능을 활용할 수 있음을 의미합니다.
-
-#### 맞춤형 사용자 경험의 제공
-
-Gemma 2B는 사용자의 선호도와 행동 패턴을 학습하여, 점점 더 개인화된 결과와 추천을 제공합니다. 이는 사용자에게 더 맞춤형의 사용자 경험을 제공하게 됩니다.
-
-### Gemma 2B의 작동 원리
-
-Gemma 2B는 아이폰의 처리 능력을 활용하여 로컬 LLM을 실행합니다. 이는 사용자의 데이터를 기기 내에서만 처리하며, 이 데이터는 인터넷을 통해 전송되지 않습니다.
-
-#### 로컬 LLM의 기술적 구현
-
-Gemma 2B는 아이폰의 처리 능력을 최대화하여 로컬 LLM을 구현합니다. 이를 통해 사용자는 인터넷 연결 없이도 AI의 강력한 기능을 활용할 수 있게 됩니다.
-
-#### 사용자 데이터의 안전한 처리
-
-Gemma 2B는 사용자의 개인 데이터를 기기 내에서만 처리하므로, 데이터 유출의 위험을 크게 줄일 수 있습니다. 이는 사용자의 개인 정보를 보호하며, 보안을 강화합니다.
-
-### 사용 사례와 애플리케이션
-
-Gemma 2B는 다양한 사용 사례와 애플리케이션에서 활용될 수 있습니다.
-
-#### 일상생활에서의 Gemma 2B 활용
-
-Gemma 2B는 일상생활에서 다양한 용도로 활용될 수 있습니다. 예를 들어, 언어 번역, 메시지 작성, 정보 검색 등에서 Gemma 2B의 뛰어난 자연어 처리 기능을 활용할 수 있습니다.
-
-#### 비즈니스와 교육에서의 적용 예
-
-또한, Gemma 2B는 비즈니스와 교육 분야에서도 활용될 수 있습니다. 예를 들어, 사업 보고서 작성, 온라인 학습, 비즈니스 커뮤니케이션 등에서 Gemma 2B의 AI 기능을 활용할 수 있습니다.
-
-### 미래 전망
-
-Gemma 2B의 도입은 아이폰 사용자들에게 더욱 지능적이고 개인화된 모바일 경험을 제공하는 큰 발걸음입니다. 더 나아가, 이 기술은 모바일 기기의 능력과 사용자의 기대치를 새롭게 정의하며, 다른 플랫폼과 기기에도 그 영향을 미칠 것으로 기대됩니다.
-
-#### 기술적 발전과 사용자 경험의 진화
-
-Gemma 2B는 기술적 발전과 사용자 경험의 진화를 촉진합니다. 이는 사용자의 기대치를 충족시키는 동시에, 기술의 가능성을 더욱 확장합니다.
-
-#### 다른 플랫폼과 기기로의 확장 가능성
-
-Gemma 2B는 아이폰뿐만 아니라 다른 플랫폼과 기기에도 적용될 가능성이 있습니다. 이는 Gemma 2B의 뛰어난 기능을 더 많은 사용자들이 이용할 수 있게 만들 것입니다.
-
-### 결론
-
-Gemma 2B는 모바일 컴퓨팅의 미래를 형성하는 중요한 기술로 자리매김하며, 사용자의 삶을 더욱 편리하고, 안전하며, 개인화된 방식으로 변화시킬 준비가 되어 있습니다. 이 혁신적인 기술이 가져올 변화를 기대해보며, Gemma 2B가 세상에 어떤 새로운 가능성을 열어갈지 지켜보는 것은 매우 흥미로운 일이 될 것입니다. 그럼 다음에 또 만나요! 👋
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
+* [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
+* [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone!_gemma_2b/)
