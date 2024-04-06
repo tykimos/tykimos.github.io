@@ -19,7 +19,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_m
 
 'Gemma 2B 로컬 대규모 언어 모델(LLM)'을 아이폰에 직접 탑재해봤습니다. 프라이버시를 보호하면서도 AI의 강력한 기능을 활용할 수 있게 하는 방법입니다. 먼저 테스트 결과를 살펴보겠습니다.
 
-<iframe width="100%" height="400" src="https://youtube.com/embed/LcEr3RLuXkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe width="100%" height="400" src="https://youtube.com/embed/zGkWrelAFRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 ### 현대 기술 수요의 변화
 
