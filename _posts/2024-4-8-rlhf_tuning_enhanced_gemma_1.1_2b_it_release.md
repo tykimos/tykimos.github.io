@@ -25,7 +25,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gem
 
 이 문서는 https://huggingface.co/google/gemma-1.1-2b-it 기반으로 제작되었습니다.
 
-## 필요한 패키지 설치
+### 필요한 패키지 설치
 
 아래 3개의 패키지를 설치합니다. 만약에 경고 메시지에 런타임 재시작해야한다는 메시지가 나온다면 [메뉴] > [런타임] > [세션 다시 시작]을 클릭하여 런타임을 재시작합니다.
 
@@ -151,13 +151,13 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gem
     Successfully installed pypng-0.20220715.0 qrcode-7.4.2
 
 
-## 허깅페이스 접근 토큰 발행
+### 허깅페이스 접근 토큰 발행
 
 Hugging Face 인증을 위한 환경 변수를 설정합니다. 'HF_TOKEN'은 Hugging Face 토큰을 저장하고 있는 것으로 가정한 사용자 특정 환경 변수입니다.
 
 ![colab user data key setting](http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gemma_1.1_2b_it_release_3.png)
 
-## 허깅페이스 접근 토큰 설정
+### 허깅페이스 접근 토큰 설정
 
 허깅페이스 접근 토큰을 발행하였다면 'HF_TOKEN'이름으로 환경 변수로 등록합니다. 코랩에서 좀 더 쉽게 사용할 수 있도록 코랩의 "보안 비밀" 기능을 사용하여 키 값을 가지고 옵니다. 이렇게 하면 소스코드 공유 시에 키를 공유하지 않아도 되며, 다른 코랩 소스코드 사용할 때도 재사용이 용이합니다.
 
@@ -170,7 +170,7 @@ from google.colab import userdata
 os.environ["HF_TOKEN"] = userdata.get('HF_TOKEN')
 ```
 
-## 모델 준비하기
+### 모델 준비하기
 
 "google/gemma-1.1-2b-it"에 대한 토크나이저와 모델을 준비합니다. 아래와 같이 필요한 파일을 다운로드 받습니다. 가장 큰 파일이 4.95G 정도 되네요.
 
