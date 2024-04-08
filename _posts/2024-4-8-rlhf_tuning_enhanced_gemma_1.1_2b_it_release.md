@@ -9,7 +9,6 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gem
 ---
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gemma_1.1_2b_it_release_title.jpg)
-# RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개
 
 이 문서는 https://huggingface.co/google/gemma-1.1-2b-it 기반으로 제작되었습니다.
 
@@ -143,13 +142,13 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gem
 
 Hugging Face 인증을 위한 환경 변수를 설정합니다. 'HF_TOKEN'은 Hugging Face 토큰을 저장하고 있는 것으로 가정한 사용자 특정 환경 변수입니다.
 
-<<이미지 삽입>>
+![colab user data key setting](http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gemma_1.1_2b_it_release_3.png)
 
 ## 허깅페이스 접근 토큰 설정
 
 허깅페이스 접근 토큰을 발행하였다면 'HF_TOKEN'이름으로 환경 변수로 등록합니다. 코랩에서 좀 더 쉽게 사용할 수 있도록 코랩의 "보안 비밀" 기능을 사용하여 키 값을 가지고 옵니다. 이렇게 하면 소스코드 공유 시에 키를 공유하지 않아도 되며, 다른 코랩 소스코드 사용할 때도 재사용이 용이합니다.
 
-
+![colab user data key setting](http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gemma_1.1_2b_it_release_2.png)
 
 ```python
 import os
@@ -162,7 +161,7 @@ os.environ["HF_TOKEN"] = userdata.get('HF_TOKEN')
 
 "google/gemma-1.1-2b-it"에 대한 토크나이저와 모델을 준비합니다. 아래와 같이 필요한 파일을 다운로드 받습니다. 가장 큰 파일이 4.95G 정도 되네요.
 
-<<이미지 삽입>>
+![downloading from huggingface](http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gemma_1.1_2b_it_release_1.png)
 
 
 ```python
@@ -183,48 +182,16 @@ model = AutoModelForCausalLM.from_pretrained(
 
 
     tokenizer_config.json:   0%|          | 0.00/40.6k [00:00<?, ?B/s]
-
-
-
     tokenizer.model:   0%|          | 0.00/4.24M [00:00<?, ?B/s]
-
-
-
     tokenizer.json:   0%|          | 0.00/17.5M [00:00<?, ?B/s]
-
-
-
     special_tokens_map.json:   0%|          | 0.00/636 [00:00<?, ?B/s]
-
-
-
     config.json:   0%|          | 0.00/618 [00:00<?, ?B/s]
-
-
-
     model.safetensors.index.json:   0%|          | 0.00/13.5k [00:00<?, ?B/s]
-
-
-
     Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
-
-
-
     model-00001-of-00002.safetensors:   0%|          | 0.00/4.95G [00:00<?, ?B/s]
-
-
-
     model-00002-of-00002.safetensors:   0%|          | 0.00/67.1M [00:00<?, ?B/s]
-
-
-
     Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
-
-
-
     generation_config.json:   0%|          | 0.00/132 [00:00<?, ?B/s]
-
-
 
 ```python
 # 모델이 머신 러닝에 관한 시를 작성하도록 입력 텍스트를 정의합니다.
@@ -245,16 +212,13 @@ print(tokenizer.decode(outputs[0]))
 
 
     <bos>Write me a poem about Machine Learning.
-    
     In circuits of logic, a mind unseen,
-    
 
 
 위 코드 실행 결과가 아래 처럼 출력되다가 중단되어 나옵니다.
 
 ```
 <bos>Write me a poem about Machine Learning.
-
 In circuits of logic, a mind unseen,
 ```
 
@@ -263,8 +227,6 @@ In circuits of logic, a mind unseen,
 - max_length란 (입력 텍스트의 길이 + 출력 텍스트의 길이)의 합의 최대 토큰 수를 정의합니다. 즉 입력과 출력을 모두 더해서 max_length을 넘기지 않도록 생성됩니다.
 
 모델의 결과가 충분히 작성될 수 있도록 max_length를 512로 설정하여 다시 호출해봅니다.
-
-
 
 
 ```python
