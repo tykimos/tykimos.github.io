@@ -12,6 +12,11 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-23-gemma_ko2sql_lora_fine_
 
 이번에는 Gemma를 이용해서 한국어를 SQL로 변환하여 DB를 쿼리하는 챗봇을 만들어보겠습니다.
 
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
 ### 함께보기
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
@@ -22,6 +27,8 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-23-gemma_ko2sql_lora_fine_
 * [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 * [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
 
 ### Chinook 데이터베이스
 
@@ -65,16 +72,18 @@ Gemma> [('MPEG audio file', 3034)]
 USER > quit
 ```
 
-### 추가문의
-
-* 작성자 : 김태영
-* 이메일 : tykim@aifactory.page
-
 ### 더보기
 
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
+
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
+### 함께보기
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
@@ -84,3 +93,5 @@ LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 * [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 * [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)

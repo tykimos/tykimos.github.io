@@ -10,6 +10,19 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gem
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-8-rlhf_tuning_enhanced_gemma_1.1_2b_it_release_title.jpg)
 
+### 함께보기
+
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
+* [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
+* [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
+
 이 문서는 https://huggingface.co/google/gemma-1.1-2b-it 기반으로 제작되었습니다.
 
 ## 필요한 패키지 설치
@@ -437,3 +450,20 @@ for word, count in sorted_words:
 
 이번에 릴리즈된 gemma 1.1 2b it 모델을 테스트 해봤습니다. 온디바이스나 간단한 태스크 처리에 2B 모델의 활약이 기대되는 만큼 앞으로 여러가지 테스트를 해보면서 활용 사례를 늘려가보겠습니다.
 
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
+### 함께보기
+
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
+* [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
+* [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)

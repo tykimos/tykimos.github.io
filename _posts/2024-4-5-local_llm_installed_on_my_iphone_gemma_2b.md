@@ -8,6 +8,8 @@ comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone_gemma_2b_title_1.jpg
 ---
 
+### 함께보기
+
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
 * [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
@@ -16,6 +18,8 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_m
 * [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 * [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
 
 'Gemma 2B 로컬 대규모 언어 모델(LLM)'을 아이폰에 직접 탑재해봤습니다. 프라이버시를 보호하면서도 AI의 강력한 기능을 활용할 수 있게 하는 방법입니다. 먼저 테스트 결과를 살펴보겠습니다.
 
@@ -45,7 +49,12 @@ Gemma 2B는 온디바이스에 탑재가능한 경량 LLM로, 클라우드 기�
 
 지도 + GPS가 네비게이션이 되었듯이 모바일 + LLM은 모바일 컴퓨팅의 미래를 형성하는 중요한 기술로 자리매김 될 것 같습니다. 어떤 어플리케이션을 만들어볼 지 함께 생각해봐요.👋
 
-### 더보기
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
+### 함께보기
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
@@ -55,3 +64,5 @@ Gemma 2B는 온디바이스에 탑재가능한 경량 LLM로, 클라우드 기�
 * [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 * [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)

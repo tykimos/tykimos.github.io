@@ -22,6 +22,8 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_en2ko_lora_fine_t
 * [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 * [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
 
 ### databricks-dolly-15k 데이터셋
 
@@ -75,16 +77,18 @@ Response:
 어린이가 이해할 수 있는 방식으로 광합성 과정을 설명합니다.
 ```
 
-### 추가문의
-
-* 작성자 : 김태영
-* 이메일 : tykim@aifactory.page
-
 ### 더보기
 
 LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 
 * [https://ai.google.dev/gemma/docs/lora_tuning](https://ai.google.dev/gemma/docs/lora_tuning)
+
+### 추가문의
+
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
+
+### 함께보기
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
 * [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
@@ -94,3 +98,5 @@ LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 * [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
 * [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
