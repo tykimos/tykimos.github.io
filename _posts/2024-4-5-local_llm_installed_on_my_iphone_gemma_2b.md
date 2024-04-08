@@ -5,7 +5,7 @@ author: Taeyoung Kim
 date: 2024-4-5 23:59:52
 categories: llm, ios
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone_gemma_2b_title.gif
+image: http://tykimos.github.io/warehouse/2024/2024-4-5-local_llm_installed_on_my_iphone_gemma_2b_title_1.jpg
 ---
 
 * 1편 - Gemma 시작하기 빠른실행 (추후 공개)
