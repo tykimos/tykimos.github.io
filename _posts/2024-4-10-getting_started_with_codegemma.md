@@ -251,11 +251,11 @@ print(prompt)
 
 즉 아래처럼 프롬프트를 구성합니다.
 
-- |fim_prefix|
+- fim_prefix
 - 이전 코드
-- |fim_suffix|
+- fim_suffix
 - 이후 코드
-- |fim_middle|
+- fim_middle
 
 Run the prompt. It is recommended to stream response tokens. Stop streaming upon encountering any of the user-defined or end of turn/senetence tokens to get the resulting code completion.
 
