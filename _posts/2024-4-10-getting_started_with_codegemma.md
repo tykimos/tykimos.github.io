@@ -9,6 +9,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-10-getting_started_with_co
 ---
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-10-getting_started_with_codegemma_title.jpg)
+
 CodeGemma는 Gemini 모델을 기반으로 제작되어, 경량화되었으며 기기 내에서도 작동 가능한 모델입니다. 주로 코드 관련 5000억 개 이상의 토큰으로 훈련되었으며, Gemma 모델 계열과 동일한 아키텍처를 사용합니다. 이에 따라, CodeGemma 모델은 코드 완성 및 생성 작업 모두에서 최신 기술의 성능을 달성하면서도, 다양한 규모에서 강력한 이해력과 추론 능력을 유지한다고 합니다.
 
 CodeGemma는 다음과 같은 3가지 버전으로 제공됩니다:
@@ -23,7 +24,19 @@ CodeGemma는 다음과 같은 3가지 버전으로 제공됩니다:
 
 - https://ai.google.dev/gemma/docs/codegemma/keras_quickstart
 
+### 함께보기
 
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
+* [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
+* [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
+* [11편 - 소스코드 생성 전용 - CodeGemma 시작하기](https://tykimos.github.io/2024/04/10/getting_started_with_codegemma/)
 
 
 ```
@@ -238,12 +251,11 @@ print(prompt)
 
 즉 아래처럼 프롬프트를 구성합니다.
 
-- <|fim_prefix|>
+- |fim_prefix|
 - 이전 코드
-- <|fim_suffix|>
+- |fim_suffix|
 - 이후 코드
-- <|fim_middle|>
-
+- |fim_middle|
 
 Run the prompt. It is recommended to stream response tokens. Stop streaming upon encountering any of the user-defined or end of turn/senetence tokens to get the resulting code completion.
 
@@ -365,9 +377,21 @@ CodeGemma를 이용하여 주변 컨텍스트를 기반으로 코드를 채우�
 - [AI Assisted Programming with CodeGemma and KerasNLP notebook](https://ai.google.dev/gemma/docs/codegemma/code_assist_keras)
 - [CodeGemma model card](https://ai.google.dev/gemma/docs/codegemma/model_card)
 
+### 추가문의
 
+* 작성자 : 김태영
+* 이메일 : tykim@aifactory.page
 
-```
+### 함께보기
 
-```
-
+* 1편 - Gemma 시작하기 빠른실행 (추후 공개)
+* [2편 - Gemma LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_lora_fine_tuning_fast_execute/)
+* [3편 - Gemma 한국어 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_korean_lora_fine_tuning_fast_execute/)
+* [4편 - Gemma 영한번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_en2ko_lora_fine_tuning_fast_execute/)
+* [5편 - Gemma 한영번역 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/22/gemma_ko2en_lora_fine_tuning_fast_execute/)
+* [6편 - Gemma 한국어 SQL챗봇 LoRA 파인튜닝 빠른실행](https://tykimos.github.io/2024/02/23/gemma_ko2sql_lora_fine_tuning_fast_execute/)
+* [7편 - Gemma 온디바이스 탑재 - 웹브라우저편 빠른실행](https://tykimos.github.io/2024/04/02/gemma_ondevice_webbrowser_fast_execute/)
+* [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
+* 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
+* [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
+* [11편 - 소스코드 생성 전용 - CodeGemma 시작하기](https://tykimos.github.io/2024/04/10/getting_started_with_codegemma/)

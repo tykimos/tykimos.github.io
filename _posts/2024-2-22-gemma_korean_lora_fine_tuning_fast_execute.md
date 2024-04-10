@@ -24,6 +24,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-2-22-gemma_korean_lora_fine_
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
 * 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
 * [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
+* [11편 - 소스코드 생성 전용 - CodeGemma 시작하기](https://tykimos.github.io/2024/04/10/getting_started_with_codegemma/)
 
 ### databricks-dolly-15k-ko 데이터셋
 
@@ -86,3 +87,4 @@ LoRA 파인튜닝 공식 예제는 다음과 같습니다.
 * [8편 - Gemma 온디바이스 탑재 - 아이폰(iOS)편 빠른실행](https://tykimos.github.io/2024/04/05/local_llm_installed_on_my_iphone_gemma_2b/)
 * 9편 - Gemma 온디바이스 탑재 - 안드로이드편 빠른실행 (작업중)
 * [10편 - RLHF 튜닝으로 향상된 Gemma 1.1 2B IT 공개](https://tykimos.github.io/2024/04/08/rlhf_tuning_enhanced_gemma_1.1_2b_it_release/)
+* [11편 - 소스코드 생성 전용 - CodeGemma 시작하기](https://tykimos.github.io/2024/04/10/getting_started_with_codegemma/)
