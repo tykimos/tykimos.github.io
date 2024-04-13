@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "구글폼, 깃허브 액션 그리고 랭체인으로 버추얼 인플루언서 블로그 작성 간소화"
+title: "구글폼, 깃허브 액션 그리고 랭체인으로 AI 인플루언서 블로그 작성 간소화"
 author: Taeyoung Kim
 date: 2024-4-13 15:07:05
 categories: llm langchain googleform googlesheet
