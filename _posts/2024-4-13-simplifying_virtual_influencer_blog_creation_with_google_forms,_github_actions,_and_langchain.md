@@ -51,7 +51,7 @@ blog-writing 액션 실행이 완료되면, 마크다운 파일이 깃허브에 
 
 이렇게 생성된 블로그는 아래와 같습니다. 
 
-- 구경하기 : ![https://tyritarot.github.io/](https://tyritarot.github.io/)
+- 구경하기 : [https://tyritarot.github.io/](https://tyritarot.github.io/)
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-13-simplifying_virtual_influencer_blog_creation_with_google_forms,_github_actions,_and_langchain_7.png)
 
