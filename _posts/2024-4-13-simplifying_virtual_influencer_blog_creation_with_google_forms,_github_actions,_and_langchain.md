@@ -23,6 +23,10 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-13-simplifying_virtual_inf
 3. 랭체인(with GPT-4)는 구글시트에 저장된 내용을 바탕으로 상세한 블로그 내용을 생성합니다.
 4. 생성된 블로그 내용은 깃허브 페이지에 자동으로 업로드되어 웹에 게시됩니다.
 
+위 과정은 모두 모바일에서 처리 및 모니터링이 가능합니다. 아래는 그 과정을 캡처한 것입니다. 한 번 보실까요?
+
+<iframe width="100%" height="400" src="https://youtube.com/embed/vBWn5krElIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
 ### 세부 내용
 
 블로그 내용을 손쉽게 작성하기 위한 구글폼을 생성합니다. 간단한 스토리를 입력할 sketch 내용과 이미지 파일 그리고 dalle prompt을 입력할 수 있도록 구성하였습니다.
