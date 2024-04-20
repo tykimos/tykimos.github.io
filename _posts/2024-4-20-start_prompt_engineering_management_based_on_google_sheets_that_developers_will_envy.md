@@ -11,7 +11,6 @@ image: http://tykimos.github.io/warehouse/2024/2024-4-20-start_prompt_engineerin
 본 내용은 (어시+랭체인)에 의해 자동으로 작성된 글입니다.
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-4-20-start_prompt_engineering_management_based_on_google_sheets_that_developers_will_envy_title.jpg)
-# 구글 시트를 활용한 프롬프트 엔지니어링
 
 요즘 인기를 끌고 있는 LLM 서비스는 GPT-3, GPT-4 등 다양한 모델을 기반으로 한 챗봇입니다. 프롬프트 엔지니어링은 이러한 모델들이 사용자의 명령을 이해하고 적절한 응답을 내놓도록 하는 핵심적인 과정입니다. 프롬프트 엔지니어링을 잘 활용하는 사용자들은 자신만의 독특한 게임을 만들거나, 독창적인 콘텐츠를 생성하는 데 크게 기여합니다.
 
