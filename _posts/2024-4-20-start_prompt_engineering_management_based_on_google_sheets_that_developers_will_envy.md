@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "개발자 부럽지 않은 구글시트 기반 프롬프트 엔지니어링 관리 시작하기"
+title: "개발자 부럽지 않은 챗GPT 프롬프트 엔지니어링 구글시트 기반으로 관리 시작하기"
 author: Taeyoung Kim
 date: 2024-4-20 19:04:31
 categories: llm
