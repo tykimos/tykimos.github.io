@@ -5,11 +5,11 @@ author: Taeyoung Kim
 date: 2024-5-24 09:50:24
 categories: GPT-4o LECL LangChain
 comments: true
-image: http://tykimos.github.io/warehouse/2024//Users/tykimos/Downloads/2024-5-25-exploring_the_art_gallery_with_gpt4o_title.jpg
+image: http://tykimos.github.io/warehouse/2024/2024-5-25-exploring_the_art_gallery_with_gpt4o_title.jpg
 ---
 OpenAI's GPT-4o is a multimodal AI model capable of understanding and generating various forms of data, including text, images, and videos. In this post, we will explore the new possibilities of using this multimodal model to visit exhibitions with an AI influencer.
 
-<iframe width="100%" height="400" src="https://youtu.be/t4hwcpwJyrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe width="100%" height="400" src="https://youtube.com/embed/t4hwcpwJyrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 ### GPT-4o
 
