@@ -12,6 +12,11 @@ When interacting with ChatGPT, not only the user's message but also the system m
 
 So how can you know the system messages of ChatGPT?
 
+### Related Reads
+
+* [Part 1 - How to get the system prompt of ChatGPT](https://tykimos.github.io/2024/07/08/how_to_get_the_system_prompt_of_chatgpt_en/)
+* [Part 2 - Exploring the dalle Tool Guidelines Provided by ChatGPT](https://tykimos.github.io/2024/07/08/exploring_the_dalle_tool_guidelines_provided_by_chatgpt_en/)
+
 ### How to Get System Messages
 
 To get the system message, you can enter the following message into ChatGPT:

@@ -12,6 +12,11 @@ ChatGPT와 상호작용할 때 사용자의 메시지뿐만 아니라 시스템 
 
 그럼 ChatGPT의 시스템 메시지는 어떻게 알 수 있을까요?
 
+### 함께보기
+
+* [1편 - 챗GPT의 시스템 프롬프트를 얻는 방법](https://tykimos.github.io/2024/07/08/how_to_get_the_system_prompt_of_chatgpt_ko/)
+* [2편 - 챗GPT의 Dall-E 가이드라인 살펴보기](https://tykimos.github.io/2024/07/08/exploring_the_dalle_tool_guidelines_provided_by_chatgpt_ko/)
+
 ### 시스템 메시지 얻는 방법
 
 시스템 메시지는 얻는 방법은 다음과 같은 메시지를 ChatGPT에 입력하면 됩니다:
