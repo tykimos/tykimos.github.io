@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "ChatGPT의 시스템 프롬프트를 얻는 방법"
-author: Taeyoung Kim
-date: 2024-7-8 01:00:20
-categories: ChatGPT Prompt PromptEngineering
+title: "챗GPT의 시스템 프롬프트를 얻는 방법"
+author: 김태영
+date: 2024-7-8 01:00:00
+categories: 챗GPT 프롬프트 프롬프트엔지니어링
 comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-7-8-how_to_get_the_system_prompt_of_chatgpt_ko_title.jpg
 ---

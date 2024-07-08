@@ -2,7 +2,7 @@
 layout: post
 title: "How to get the system prompt of ChatGPT"
 author: Taeyoung Kim
-date: 2024-7-8 01:00:20
+date: 2024-7-8 01:30:00
 categories: ChatGPT Prompt PromptEngineering
 comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-7-8-how_to_get_the_system_prompt_of_chatgpt_en_title.jpg
