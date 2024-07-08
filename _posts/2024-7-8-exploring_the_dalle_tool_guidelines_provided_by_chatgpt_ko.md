@@ -5,7 +5,7 @@ author: Taeyoung Kim
 date: 2024-7-8 02:30:00
 categories: ChatGPT Prompt PromptEngineering
 comments: true
-image: http://tykimos.github.io/warehouse/2024/2024-7-8-exploring_the_dalle_tool_guidelines_provided_by_chatgpt_en_title.jpg
+image: http://tykimos.github.io/warehouse/2024/2024-7-8-exploring_the_dalle_tool_guidelines_provided_by_chatgpt_ko_title.jpg
 ---
 
 ChatGPT의 이미지 생성 기능은 Dall-E 서비스를 통해 이루어집니다. 사용자의 요청에 따라, ChatGPT는 이미지 생성을 위한 프롬프트를 작성하고 이를 Dall-E 서비스에 전달하여 이미지를 생성합니다. 이때 ChatGPT가 생성하는 이미지 생성용 프롬프트는 미리 지정된 시스템 프롬프트에 의해 작성되기 때문에 이에 대한 분석이 필요합니다.
