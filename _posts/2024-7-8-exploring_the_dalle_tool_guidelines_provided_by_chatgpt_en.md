@@ -85,13 +85,13 @@ The system prompt includes a snippet of code that explains the specification for
 - Function Name: text2im
 - Functionality: Generates images based on text prompts.
 - Parameters:
--- size: Defines the size of the image to be created. If not specified by the user, default settings are used.
----  1024x1024: The default option for standard-size image creation.
----  1792x1024: An option for wider images.
----  1024x1792: Used for images where height is significant, such as full-body portraits.
--- n: Specifies the number of images to generate. By default, only one image is produced, but this parameter allows for adjustments.
--- prompt: A detailed description included in the text prompt for generating the image. This description must comply with Dall-E's policies and integrate any user suggestions from previous image requests.
--- referenced_image_ids: Includes the unique ID of any previously referenced images. This is used in the image generation process to reference earlier images.
+    - size: Defines the size of the image to be created. If not specified by the user, default settings are used.
+        - 1024x1024: The default option for standard-size image creation.
+        - 1792x1024: An option for wider images.
+        - 1024x1792: Used for images where height is significant, such as full-body portraits.
+    - n: Specifies the number of images to generate. By default, only one image is produced, but this parameter allows for adjustments.
+    - prompt: A detailed description included in the text prompt for generating the image. This description must comply with Dall-E's policies and integrate any user suggestions from previous image requests.
+    - referenced_image_ids: Includes the unique ID of any previously referenced images. This is used in the image generation process to reference earlier images.
 
 When users make image generation requests through ChatGPT, it invokes this API to command Dall-E to create the image.
 
