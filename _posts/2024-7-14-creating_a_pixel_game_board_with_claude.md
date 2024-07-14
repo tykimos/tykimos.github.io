@@ -3,7 +3,7 @@ layout: post
 title: "클로드를 이용한 픽셀 게임판 만들기"
 author: 김태영
 date: 2024-7-14 01:00:00
-categories: 챗GPT 프롬프트 프롬프트엔지니어링
+categories: 클로드 claude 게임 캐릭터
 comments: true
 image: http://tykimos.github.io/warehouse/2024/2024-7-14-creating_a_pixel_game_board_with_claude_title.jpg
 ---
@@ -12,7 +12,7 @@ image: http://tykimos.github.io/warehouse/2024/2024-7-14-creating_a_pixel_game_b
 
 ### 함께보기
 
-* [1편 - 클로드 claude 게임 캐릭터](https://tykimos.github.io/2024/07/13/creating_pixel_game_animal_characters_with_claude/)
+* [1편 - 클로드를 이용하여 픽셀게임 동물 캐릭터 만들기](https://tykimos.github.io/2024/07/13/creating_pixel_game_animal_characters_with_claude/)
 * [2편 - 클로드를 이용한 픽셀 게임판 만들기](https://tykimos.github.io/2024/07/14/2024-7-14-creating_a_pixel_game_board_with_claude/)
 
 ### 프롬프트 및 결과
