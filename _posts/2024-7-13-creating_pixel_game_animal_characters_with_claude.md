@@ -19,6 +19,8 @@ image: http://tykimos.github.io/warehouse/2024/2024-7-13-creating_pixel_game_ani
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/5S4YwnGy7lM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+![img](http://tykimos.github.io/warehouse/2024/2024-7-13-creating_pixel_game_animal_characters_with_claude_14.jpeg)
+
 ### 프롬프트 및 결과
 
 ![img](http://tykimos.github.io/warehouse/2024/2024-7-13-creating_pixel_game_animal_characters_with_claude_1.jpeg)
