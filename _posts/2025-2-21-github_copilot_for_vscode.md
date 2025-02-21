@@ -47,7 +47,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vsco
 4. **원하는 AI 모델 선택**  
    채팅 또는 인라인 채팅, Copilot Edits 기능 사용 시 원하는 AI 모델을 직접 선택할 수 있습니다.
 
-## 오늘의어시랑 함께 따라해보는 챌린지
+## 오늘의어시와 함께 따라해보는 챌린지
 
 다음 포스트부터 아래 챌린지가 뭔지 살펴보면서 하나 하나 따라해봐요.
 
