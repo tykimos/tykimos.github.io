@@ -5,7 +5,7 @@ author: 김태영
 date: 2025-02-21 10:00:00
 categories: [GitHub Copilot, VS Code, Dev Tools]
 comments: true
-image: http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode.png
+image: http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_title.png
 ---
 
 이번 포스트에서는 VS Code 사용자라면 누구나 간편하게 활성화할 수 있는 GitHub Copilot 무료 구독 플랜에 대해 소개합니다. 무료 플랜은 체험판이 아니라, 신용카드 정보 없이 GitHub 계정만 있으면 이용할 수 있으므로 부담 없이 최신 AI 코딩 도구의 기능을 체험할 수 있습니다.
@@ -51,12 +51,12 @@ image: http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vsco
 
 다음 포스트부터 아래 챌린지가 뭔지 살펴보면서 하나 하나 따라해봐요.
 
-![img](2025-2-21-github_copilot_for_vscode_1.png)
+![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_1.png)
 
-![img](2025-2-21-github_copilot_for_vscode_2.png)
+![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_2.png)
 
-![img](2025-2-21-github_copilot_for_vscode_3.png)
+![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_3.png)
 
-![img](2025-2-21-github_copilot_for_vscode_4.png)
+![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_4.png)
 
-![img](2025-2-21-github_copilot_for_vscode_5.png)
+![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_5.png)
