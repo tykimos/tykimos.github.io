@@ -20,7 +20,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage
 
 초대코드가 없으신가요? 걱정마세요! [접근 권한 신청하기] 버튼을 통해 대기자 명단에 등록할 수 있습니다. 물론 기다림의 긴 시간이 필요합니다.
 
-![접근 권한 신청 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_0.jpg)
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_1.jpg)
 
 ## 개발자 커뮤니티와의 실시간 소통
 
@@ -30,14 +30,13 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage
 
 💡 **꿀팁**: 디스코드 채널에는 가끔 한정 수량의 초대코드가 공유됩니다. 알림 설정을 켜두고 빠르게 대응하면 운 좋게 코드를 얻을 수 있을지도 모릅니다!
 
-![디스코드 채널 모습](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_1.jpg)
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_2.jpg)
 
 ## 인터페이스 심층 분석
 
 로그인에 성공하면 직관적이고 미니멀한 채팅 인터페이스가 여러분을 맞이합니다.
 
-![매너스 메인 인터페이스](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_2.jpg)
-
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_3.jpg)
 ### 사용자 맞춤 설정
 
 우측 하단 설정 버튼을 클릭하면 설정창이 띄워집니다.
