@@ -1,62 +1,37 @@
 ---
 layout: post
-title: "GitHub Copilot 무료 코딩 에이전트"
+title: "매너스 도구들 - 브라우저"
 author: 김태영
-date: 2025-02-21 10:00:00
-categories: [GitHub Copilot, VS Code, Dev Tools]
+date: 2025-03-08 05:00:00
+categories: [Manus, AI, Agent, Assistant, AssiWorks]
 comments: true
-image: http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_title.png
+image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_browser_title.jpg
 ---
 
-이번 포스트에서는 VS Code 사용자라면 누구나 간편하게 활성화할 수 있는 GitHub Copilot 무료 구독 플랜에 대해 소개합니다. 무료 플랜은 체험판이 아니라, 신용카드 정보 없이 GitHub 계정만 있으면 이용할 수 있으므로 부담 없이 최신 AI 코딩 도구의 기능을 체험할 수 있습니다.
+(작성예정)
 
-## GitHub Copilot 무료 플랜 주요 기능
+## 함께 읽기
 
-- **매달 2000 코드 자동 완성**  
-  하루 약 80회의 코드 제안을 이용할 수 있으며, 필요에 따라 Pro 플랜으로 무제한 사용도 가능합니다.
-  
-- **월 50회의 채팅 요청**  
-  요구사항에 따라 GPT-4o 및 Claude 3.5 Sonnet 모델을 선택하여 활용할 수 있습니다.
-  
-- **Copilot Edits**  
-  여러 파일을 동시에 편집할 수 있는 기능으로, 프롬프트에 따라 여러 파일에 변경 사항을 제안하며 새 파일도 생성합니다.
-  
-- **사용자 지정 지침(Custom Instructions)**  
-  .github/copilot-instructions.md 파일을 프로젝트에 추가하면, 개발 스타일에 맞춘 코드 생성을 유도할 수 있습니다.
-  
-- **프로젝트 전체 이해**  
-  @workspace 문법을 통해 프로젝트 전반을 이해하는 도메인 전문가 기능을 제공합니다.
-  
-- **다양한 편의 기능**  
-  - 쉬운 코드 네이밍 추천  
-  - 음성 입력 지원  
-  - 터미널 명령어 오류 분석 및 해결 제안  
-  - 커밋 메시지 자동 생성
+1. [지금 중국은 매너스 열풍! 범용 AI 에이전트](https://tykimos.github.io/2025/03/08/manus_the_general_ai_agent)
+2. [매너스 UI 사용법 및 리플레이 살펴보기](https://tykimos.github.io/2025/03/08/exploring_manus_ui_usage_and_replay)
+3. [매너스 기술 및 아키텍처 심층 분석](https://tykimos.github.io/2025/03/08/in_depth_analysis_of_manus_technology_and_architecture)
+4. [매너스 도구들 - 웹검색](https://tykimos.github.io/2025/03/08/manus_tools_websearch)
+5. [매너스 도구들 - 브라우저](https://tykimos.github.io/2025/03/08/manus_tools_browser)
+6. [매너스 도구들 - 문서편집기](https://tykimos.github.io/2025/03/08/manus_tools_text_editor)
+7. [매너스 도구들 - 터미널](https://tykimos.github.io/2025/03/08/manus_tools_terminal)
+8. [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation)
+9. [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)
 
-## VS Code에서 GitHub Copilot 활성화하기
+## (광고) 한국의 노코드 에이전틱AI 플랫폼
 
-1. **GitHub 계정으로 로그인**  
-   VS Code 내 확장 프로그램을 통해 GitHub에 로그인합니다. 로그인 후, 별도의 신용카드 정보 없이 무료 플랜을 바로 활성화할 수 있습니다.
+AIFactory에서도 에이전틱AI 플랫폼을 서비스 및 고도화하고 있습니다. 어시웍스(AssiWorks)는 “도구(Tools)”, “워크플로우(Flows)”, “에이전트(Agents)”, “팀(Teams)”이라는 네 가지 주요 개념을 중심으로, 노코드(No-Code) 환경에서 AI 기반 업무 자동화와 협업형 에이전트 구성을 손쉽게 구현할 수 있도록 지원하는 종합 플랫폼입니다. 
 
-2. **GitHub Copilot 확장 설치**  
-   Visual Studio Code 마켓플레이스에서 GitHub Copilot 확장을 검색하여 설치합니다.
+자세히 보기 >> [어시웍스](https://aifactory.space/guide/8/14)
 
-3. **무료 플랜 시작하기**  
-   활성화한 후, 사이드바의 GitHub Copilot 메뉴 또는 명령 팔레트로 ‘Copilot 무료 플랜 활성화하기’ 명령을 실행합니다.
-   
-4. **원하는 AI 모델 선택**  
-   채팅 또는 인라인 채팅, Copilot Edits 기능 사용 시 원하는 AI 모델을 직접 선택할 수 있습니다.
+![어시웍스](http://tykimos.github.io/warehouse/2025/2025-3-8-assiworks.png)
 
-## 오늘의어시와 함께 따라해보는 챌린지
+## 퍼가는 법
+ 
+이 글은 자유롭게 퍼가셔도 좋아요! 다만 출처는 아래 링크로 꼭 남겨주세요 😊
 
-다음 포스트부터 아래 챌린지가 뭔지 살펴보면서 하나 하나 따라해봐요.
-
-![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_1.png)
-
-![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_2.png)
-
-![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_3.png)
-
-![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_4.png)
-
-![img](http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_5.png)
+[https://tykimos.github.io/2025/03/08/manus_tools_browser](https://tykimos.github.io/2025/03/08/manus_tools_browser)

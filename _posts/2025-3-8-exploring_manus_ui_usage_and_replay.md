@@ -2,7 +2,7 @@
 layout: post
 title: "매너스 UI 사용법 및 리플레이 살펴보기"
 author: 김태영
-date: 2025-03-08 11:00:00
+date: 2025-03-08 02:00:00
 categories: [Manus, AI, Agent, Assistant, AssiWorks]
 comments: true
 image: http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_title.jpg
@@ -119,6 +119,14 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage
 7. [매너스 도구들 - 터미널](https://tykimos.github.io/2025/03/08/manus_tools_terminal)
 8. [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation)
 9. [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)
+
+## (광고) 한국의 노코드 에이전틱AI 플랫폼
+
+AIFactory에서도 에이전틱AI 플랫폼을 서비스 및 고도화하고 있습니다. 어시웍스(AssiWorks)는 “도구(Tools)”, “워크플로우(Flows)”, “에이전트(Agents)”, “팀(Teams)”이라는 네 가지 주요 개념을 중심으로, 노코드(No-Code) 환경에서 AI 기반 업무 자동화와 협업형 에이전트 구성을 손쉽게 구현할 수 있도록 지원하는 종합 플랫폼입니다. 
+
+자세히 보기 >> [어시웍스](https://aifactory.space/guide/8/14)
+
+![어시웍스](http://tykimos.github.io/warehouse/2025/2025-3-8-assiworks.png)
 
 ## 퍼가는 법
  

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "GitHub Copilot 무료 코딩 에이전트"
+title: "매너스 기술 및 아키텍처 심층 분석"
 author: 김태영
-date: 2025-02-21 10:00:00
-categories: [GitHub Copilot, VS Code, Dev Tools]
+date: 2025-03-08 03:00:00
+categories: [Manus, AI, Agent, Assistant, AssiWorks]
 comments: true
-image: http://tykimos.github.io/warehouse/2025/2025-2-21-github_copilot_for_vscode_title.png
+image: http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_title.jpg
 ---
 
 이번 포스트에서는 VS Code 사용자라면 누구나 간편하게 활성화할 수 있는 GitHub Copilot 무료 구독 플랜에 대해 소개합니다. 무료 플랜은 체험판이 아니라, 신용카드 정보 없이 GitHub 계정만 있으면 이용할 수 있으므로 부담 없이 최신 AI 코딩 도구의 기능을 체험할 수 있습니다.
