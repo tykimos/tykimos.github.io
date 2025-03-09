@@ -10,7 +10,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_age
 
 지금 중국에서는 Manus(매너스 혹은 마너스) 라는 범용 AI 에이전트가 큰 화제인데요. 매너스가 무엇인지, 왜 화제인지, 사용사례, 커뮤니티 소식등을 살펴보겠습니다. 
 
-<iframe width="100%" height="400" src="https://youtube.com/embed/zGkWrelAFRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe width="100%" height="400" src="https://youtube.com/embed/..." title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 ## 매너스(Manus)란?
 
