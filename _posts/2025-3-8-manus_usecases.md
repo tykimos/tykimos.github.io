@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "매너스 사례집"
+title: "매너스 사례들"
 author: 김태영
 date: 2025-03-08 09:00:00
 categories: [Manus, AI, Agent, Assistant, AssiWorks]
 comments: true
-image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_usecases_title.png
+image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_usecases_title.jpg
 ---
 
 (작성예정)
@@ -20,7 +20,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_usecases_title.png
 6. [매너스 도구들 - 문서편집기](https://tykimos.github.io/2025/03/08/manus_tools_text_editor)
 7. [매너스 도구들 - 터미널](https://tykimos.github.io/2025/03/08/manus_tools_terminal)
 8. [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation)
-9. [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)
+9. [매너스 사례들](https://tykimos.github.io/2025/03/08/manus_usecases)
 
 ## (광고) 한국의 노코드 에이전틱AI 플랫폼
 

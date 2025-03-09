@@ -27,7 +27,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_age
 
 ## 매너스로 뭘 할 수 있을까요? 🚀
 
-정말 다양한 분야에서 활용할 수 있어요! 매너스 공식사이트(manus.im)에 가보면 정말 많은 예시들이 있는데요, 몇 가지만 살펴볼까요? ([매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)에서 더 많은 사례를 확인하세요!)
+정말 다양한 분야에서 활용할 수 있어요! 매너스 공식사이트(manus.im)에 가보면 정말 많은 예시들이 있는데요, 몇 가지만 살펴볼까요? ([매너스 사례들](https://tykimos.github.io/2025/03/08/manus_usecases)에서 더 많은 사례를 확인하세요!)
 
 - **채용 후보자 선별**: 지원자들의 이력서를 쫙~ 분석해서 적합한 사람을 찾아줍니다.
 - **부동산 투자 분석**: 부동산 시장 데이터를 분석해서 "여기 투자하면 어떨까요?" 하는 보고서를 작성해줘요.
@@ -80,7 +80,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_age
 6. [매너스 도구들 - 문서편집기](https://tykimos.github.io/2025/03/08/manus_tools_text_editor)
 7. [매너스 도구들 - 터미널](https://tykimos.github.io/2025/03/08/manus_tools_terminal)
 8. [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation)
-9. [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)
+9. [매너스 사례들](https://tykimos.github.io/2025/03/08/manus_usecases)
 
 ## (광고) 한국의 노코드 에이전틱AI 플랫폼
 

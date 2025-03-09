@@ -117,7 +117,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage
 6. [매너스 도구들 - 문서편집기](https://tykimos.github.io/2025/03/08/manus_tools_text_editor)
 7. [매너스 도구들 - 터미널](https://tykimos.github.io/2025/03/08/manus_tools_terminal)
 8. [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation)
-9. [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)
+9. [매너스 사례들](https://tykimos.github.io/2025/03/08/manus_usecases)
 
 ## (광고) 한국의 노코드 에이전틱AI 플랫폼
 
