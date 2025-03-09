@@ -64,7 +64,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_age
 
 ## 마무리하며 💌
 
-매너스는 정말 사용자의 목표를 이해하고 실제 행동으로 옮기는 완전 자율 AI 에이전트로, 여러 AI 모델이 협력해서 놀라운 성능을 보여주고 있어요. 앞으로 매너스가 더 많은 사람들에게 공개되면 정말 다양한 분야에서 혁신적인 활용 사례가 나올 것 같아 너무 기대됩니다! 여러분은 어떤 용도로 매너스를 사용해보고 싶으신가요? 댓글로 알려주세요! 😊
+매너스는 정말 사용자의 목표를 이해하고 실제 행동으로 옮기는 완전 자율 AI 에이전트로, 여러 AI 모델이 협력해서 놀라운 성능을 보여주고 있어요. 앞으로 매너스가 더 많은 사람들에게 공개되면 정말 다양한 분야에서 혁신적인 활용 사례가 나올 것 같아 너무 기대됩니다! 여러분은 어떤 용도로 매너스를 사용해보고 싶으신가요? 댓글로 알려주세요! 😊 자 그럼 이제 [매너스 UI 사용법 및 리플레이 살펴보기](https://tykimos.github.io/2025/03/08/exploring_manus_ui_usage_and_replay) 포스팅을 읽어볼까요?
 
 ## 참고자료
 
@@ -86,4 +86,4 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_age
 
 이 글은 자유롭게 퍼가셔도 좋아요! 다만 출처는 아래 링크로 꼭 남겨주세요 😊
 
-[https://tykimos.github.io/2025/03/07/manus_the_general_ai_agent/](https://tykimos.github.io/2025/03/07/manus_the_general_ai_agent/)
+[https://tykimos.github.io/2025/03/08/manus_the_general_ai_agent/](https://tykimos.github.io/2025/03/08/manus_the_general_ai_agent/)

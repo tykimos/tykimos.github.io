@@ -5,69 +5,108 @@ author: 김태영
 date: 2025-03-08 11:00:00
 categories: [Manus, AI, Agent, Assistant, AssiWorks]
 comments: true
-image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_agent_title.jpg
+image: http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_title.jpg
 ---
 
-지금 중국에서는 Manus(매너스 혹은 마너스) 라는 범용 AI 에이전트가 큰 화제인데요. 매너스가 무엇인지, 왜 화제인지, 사용사례, 커뮤니티 소식등을 살펴보겠습니다. 
+오늘은 기대를 모으고 범용 AI 에이전트 '매너스(Manus)'의 사용자 인터페이스와 신기한 리플레이 기능에 대해 살펴보려 합니다.
 
 <iframe width="100%" height="400" src="https://youtube.com/embed/..." title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-## 매너스(Manus)란?
+## 초대코드 시스템
 
-매너스(Manus)라는 이름은 유명한 개념인 "Mens et Manus (라틴어: 정신과 손)"에서 따왔습니다. 이는 "지식은 반드시 실천되어야 한다"는 신념을 의미합니다. 매너스의 목표는 단순한 정보 제공이 아니라, 사용자의 역량을 확장하고, 영향력을 증대시키며, 당신의 아이디어를 현실로 만들어 주는 손이 되는 것입니다. 웹서비스를 통해 챗봇 형식으로 손쉽게 사용할 수 있으며, 다른 사람이 공유한 결과를 리플레이 기능을 통해서 그 과정을 살펴볼 수 있습니다. (참고 : [매너스 UI 사용법 및 리플레이 살펴보기](https://tykimos.github.io/2025/03/08/exploring_manus_ui_usage_and_replay))
+현재 매너스는 폭발적인 인기로 인해 서버 부하 관리를 위해 초대 코드 시스템을 운영 중입니다. 이는 성장 단계의 AI 서비스가 안정성을 유지하면서 확장하는 전형적인 전략이죠.
 
-매너스의 에이전트는 기존의 챗봇이나 AI 어시스턴트와 달리 사용자의 목표를 이해하여 실제 행동과 결과를 만들어내는 완전 자율 AI 에이전트입니다. 매너스는 여러 AI 에이전트가 협력하여 복잡한 의사결정을 수행하는 구조를 가지고 있습니다. (참고 : [매너스 기술 및 아키텍처 심층 분석](https://tykimos.github.io/2025/03/08/in_depth_analysis_of_manus_technology_and_architecture))각 모델은 부분적인 판단을 내리고, 이를 상호 검증하여 신뢰성과 정확성을 높입니다. 
+![초대코드 입력 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_0.jpg)
 
-- **계획(planning)**: 사용자의 목표를 이해하고 이를 달성하기 위한 세부 계획을 수립합니다. 할 일 목록을 내부적으로 관리하면서 하나하나 수행합니다.
-- **추론(reasoning)**: 계획을 달성하기 위한 최적의 방법을 추론하고, 필요한 작업을 결정합니다.
-- **실행(action)**: 계획된 작업을 실제로 수행하고 결과를 제공합니다. 이 때 매너스는 여러 도구들을 활용하여 작업을 수행합니다. 또한 공식 데이터 소스에 접근하여 신뢰할 수 있는 데이터를 가져옵니다.
+초대코드가 없으신가요? 걱정마세요! [접근 권한 신청하기] 버튼을 통해 대기자 명단에 등록할 수 있습니다. 물론 기다림의 긴 시간이 필요합니다.
 
-또한 매너스는 자기 피드백 및 반성(self-reflectiveness) 능력을 갖추고 있어, 작업 수행 중 문제가 발생하면 스스로 경로를 수정할 수 있습니다. 
+![접근 권한 신청 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_0.jpg)
 
-## 주요 사용 사례
+## 개발자 커뮤니티와의 실시간 소통
 
-업무, 생활, 교육 등 다양한 분야에서 실제 작업을 수행할 수 있습니다. 매너스 공식사이트(manus.im)에 다양한 예시가 있습니다. (참고 : [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases))
+매너스 팀은 사용자 및 개발자 커뮤니티와의 원활한 소통을 위해 디스코드 채널을 활용하고 있습니다.
 
-- **채용 후보자 선별**: 지원자의 이력서를 분석하여 적합한 후보자를 자동으로 선별합니다.
-- **부동산 투자 분석**: 부동산 시장 데이터를 분석하여 투자 가능성을 평가하고 보고서를 작성합니다.
-- **IT 업무 자동화**: 복잡한 IT 작업을 수행하고, 웹 서비스 배포와 같은 기술적 업무를 처리합니다.
-- **맞춤형 여행 일정 수립**: 사용자의 취향과 요구사항에 맞는 여행 일정을 자동으로 계획합니다.
+[https://discord.com/invite/gjuXBWaU](https://discord.com/invite/gjuXBWaU)
 
-![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_agent_1.jpg)
+💡 **꿀팁**: 디스코드 채널에는 가끔 한정 수량의 초대코드가 공유됩니다. 알림 설정을 켜두고 빠르게 대응하면 운 좋게 코드를 얻을 수 있을지도 모릅니다!
 
-이러한 작업들은 클라우드 상에서 비동기적으로 실행되기 때문에 사용자가 PC나 앱을 종료해도 매너스는 백그라운드에서 작업을 계속 진행하고 완료 시 결과를 제공합니다.
+![디스코드 채널 모습](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_1.jpg)
 
-## 성능 평가 및 경쟁력
+## 인터페이스 심층 분석
 
-매너스는 GAIA(General AI Assistants) 벤치마크 테스트에서 기존 최고 성능을 경신하며 뛰어난 성능을 입증했습니다. 구체적인 결과는 다음과 같습니다.
+로그인에 성공하면 직관적이고 미니멀한 채팅 인터페이스가 여러분을 맞이합니다.
 
-- Level 1: Manus 86.5% (OpenAI 74.3%)
-- Level 2: Manus 70.1% (OpenAI 69.1%)
-- Level 3: Manus 57.7% (OpenAI 47.6%)
+![매너스 메인 인터페이스](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_2.jpg)
 
-![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_agent_2.jpg)
+### 사용자 맞춤 설정
 
-이러한 결과는 매너스가 복잡한 작업을 처리하는 데 있어 기존 AI 모델 대비 우수한 성능을 보인다는 것을 의미합니다. 전문가들은 매너스를 OpenAI가 준비 중인 자율 에이전트의 강력한 경쟁 상대로 평가하고 있습니다. (참고: [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation))
+우측 하단 설정 버튼을 클릭하면 설정창이 띄워집니다.
 
-## 커뮤니티 반응과 매너스의 인기
+![설정 메뉴 접근](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_4.jpg)
 
-매너스는 공개 직후 중국 웨이보(Weibo) 등 소셜 미디어에서 큰 화제를 모으며 실시간 트렌드에 올랐습니다. 특히 베타 초대 코드에 대한 수요가 폭발적으로 증가하여 일부 중고 거래 시장에서 초대 코드가 거래될 정도로 인기를 끌었습니다. 개발자 커뮤니티에서도 매너스의 접근 방식과 잠재력에 대한 긍정적인 평가가 주를 이루고 있습니다.
+설정 메뉴에서는 언어, 테마, 프로필 편집 등의 옵션이 제공됩니다.
 
-## 오픈소스 계획과 향후 전망
+![설정 메뉴 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_5.jpg)
 
-현재 매너스는 초대 사용자들을 대상으로 한 베타 테스트 단계이며, 일반 사용자들이 직접 사용할 수 있는 상태는 아닙니만, 개발팀은 향후 일부 AI 모델과 추론 컴포넌트를 오픈소스로 공개할 계획을 밝혔습니다. 이를 통해 연구자들과의 협업을 유도하고, 단계적으로 개방 범위를 확대할 예정입니다.
+우리 개발자들이 사랑하는 다크 테마도 물론 지원됩니다! 눈의 피로를 줄이면서 장시간 작업할 때 특히 유용하죠.
 
-오픈소스 진영에서도 [OpenManus](https://github.com/mannaandpoem/OpenManus)가 공개되었는데요. Manus의 초대코드를 구하기 힘들기 때문에 개발자들이 매너스를 본 따서 만든 오픈소스 프로젝트도 있으니 살펴보시기 바랍니다. 
+![다크 테마 적용 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_6.jpg)
 
-![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_agent_0.jpg)
+다국어 지원으로 글로벌 사용자들도 편리하게 사용할 수 있습니다.
 
-## 마무리
+![언어 설정 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_7.jpg)
 
-매너스는 사용자의 목표를 이해하고 실제 행동과 결과를 만들어내는 완전 자율 AI 에이전트로, 여러 AI 모델의 협력적 구조를 통해 뛰어난 성능과 신뢰성을 제공합니다. 앞으로 매너스의 공개 범위가 확대되면 더 많은 사용자와 개발자들이 참여하여 다양한 분야에서 혁신적인 활용 사례가 등장할 것으로 기대됩니다.
+프로필 설정을 통해 나만의 아이덴티티를 표현할 수도 있습니다.
 
-## 참고자료
+![프로필 편집 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_8.jpg)
 
-- [매너스 공식 사이트](https://manus.im)
+프로필이 변경된 모습입니다.
+
+![변경된 프로필 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_9.jpg)
+
+### 지식 데이터베이스 구축
+
+매너스의 주요 기능 중 하나는 바로 지식 관리 시스템입니다. [지식] 설정을 통해 에이전트가 참고할 개인 데이터를 관리할 수 있습니다.
+
+![지식 메뉴 접근](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_10.jpg)
+
+이 기능은 ChatGPT의 메모리와 유사합니다.
+
+![지식 관리 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_11.jpg)
+
+[지식추가] 버튼을 클릭하면 에이전트에게 학습시킬 새로운 지식을 추가할 수 있습니다. 이는 RAG(Retrieval-Augmented Generation) 기술의 실용적 구현으로 볼 수 있어요.
+
+![지식 추가 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_12.jpg)
+
+개인 정보를 추가한 후의 모습입니다. 이렇게 추가된 정보는 벡터 데이터베이스에 저장되어 관련 질문이 있을 때 컨텍스트로 활용됩니다.
+
+![추가된 지식 목록](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_13.jpg)
+
+### 고급 모델 선택 옵션
+
+매너스는 사용 목적에 따라 다른 모델을 선택할 수 있는 유연성을 제공합니다. [표준]과 [고강도] 두 가지 모드가 있으며, 고강도 모드는 더 복잡한 작업에 적합하지만 처리 시간이 길고 사용 제한이 있습니다.
+
+![모델 선택 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_14.jpg)
+
+이런 모델 선택 옵션은 컴퓨팅 리소스의 효율적 사용과 사용자 경험 사이의 균형을 맞추기 위한 설계입니다. 일상적인 질문은 표준 모드로, 복잡한 코딩이나 심층 분석이 필요할 때는 고강도 모드를 선택하는 전략적 접근이 필요하죠.
+
+## 리플레이 기능
+
+매너스의 멋진 기능 중 하나는 바로 '리플레이' 시스템입니다. 초대코드가 없어도 다른 사용자들이 공유한 세션을 관찰할 수 있어, 간접적으로 매너스의 능력을 경험하고 배울 수 있습니다.
+
+![리플레이 목록 화면](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_16.jpg)
+
+리플레이의 진정한 가치는 단순히 결과를 보는 것이 아니라, AI 에이전트가 문제를 해결해 나가는 전체 사고 과정을 단계별로 관찰할 수 있다는 점입니다. 이는 AI의 블랙박스를 열어보는 듯한 경험을 제공합니다.
+
+![리플레이 과정 시연](http://tykimos.github.io/warehouse/2025/2025-3-8-exploring_manus_ui_usage_and_replay_15.gif)
+
+이 기능은 단순한 구경거리를 넘어 실제 개발자들에게 새로운 문제 해결 접근법과 프롬프트 엔지니어링 기법을 배울 수 있는 교육적 가치가 있습니다. 다양한 사례를 통해 매너스의 활용 가능성을 탐색해보세요!
+
+## 마무리: 더 깊은 이해를 위한 여정
+
+이제 매너스의 UI와 리플레이 기능에 대해 기본적인 이해를 갖추셨을 겁니다. 하지만 진정한 잠재력을 이해하기 위해서는 그 기술적 아키텍처와 동작 원리를 살펴볼 필요가 있습니다.
+
+다음 글 [매너스 기술 및 아키텍처 심층 분석](https://tykimos.github.io/2025/03/08/in_depth_analysis_of_manus_technology_and_architecture)에서는 매너스의 작동 메커니즘에 대해 더 깊이 파헤쳐 보겠습니다. 개발자로서 이 부분에 더 흥미를 느끼실 거예요!
 
 ## 함께 읽기
 
@@ -80,3 +119,9 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_the_general_ai_age
 7. [매너스 도구들 - 터미널](https://tykimos.github.io/2025/03/08/manus_tools_terminal)
 8. [매너스 1등한 범용 AI 평가 GAIA 소개](https://tykimos.github.io/2025/03/08/gaia_manus_evaluation)
 9. [매너스 사례집](https://tykimos.github.io/2025/03/08/manus_usecases)
+
+## 퍼가는 법
+ 
+이 글은 자유롭게 퍼가셔도 좋아요! 다만 출처는 아래 링크로 꼭 남겨주세요 😊
+
+[https://tykimos.github.io/2025/03/08/exploring_manus_ui_usage_and_replay/](https://tykimos.github.io/2025/03/08/exploring_manus_ui_usage_and_replay/)
