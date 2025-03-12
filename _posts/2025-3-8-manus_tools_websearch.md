@@ -8,7 +8,15 @@ comments: true
 image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_title.jpg
 ---
 
-(작성예정)
+웹검색 도구는 에이전트가 검색이 필요하다고 판단했을 때, 웹 검색을 수행하는 도구입니다. 이 도구는 사용자의 검색 요청을 받아 웹 검색 엔진을 통해 정보를 검색하고, 검색 결과를 사용자에게 제공합니다. 
+
+아래는 그 과정을 도식화 한 것입니다. 검색 결과를 받은 뒤에 해당 링크를 좀 더 깊게 확인하기 위해서는 브라우저 도구를 사용합니다. 브라우저 도구에 대해서는 [매너스 도구들 - 브라우저](https://tykimos.github.io/2025/03/08/manus_tools_browser)에서 살펴보도록 하겠습니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_1.jpg)
+
+매너스에서는 아래 화면과 같이 보입니다. 웹검색 도구와 브라우저 도구 모두 "검색"이라고 표시되나 아이콘은 다르니 혼돈하시지 않으시길 바랍니다. 형광색 박스가 웹검색 도구이고, 파란색 박스가 브라우저 도구입니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_2.jpg)
 
 ## 함께 읽기
 
