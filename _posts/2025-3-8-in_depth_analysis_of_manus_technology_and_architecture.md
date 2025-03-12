@@ -31,7 +31,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_man
 
 기초적인 동작 흐름을 아래 다이어그램으로 표시해봤습니다. 
 
-![매너스 시스템 동작 흐름](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_0.png)
+![매너스 시스템 동작 흐름](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_0.jpg)
 
 1. **사용자 요청 분석 (chat)** : 사용자가 메시지를 입력합니다.
 2. **실행 환경 설정 (sandbox)** : 매너스 오케스트레이터가 실행 환경을 준비합니다.
@@ -59,14 +59,13 @@ plan은 AI가 사용자의 요청을 수행하기 위해 필요한 **단계별 �
 
 이처럼 plan을 활용하면 **작업을 체계적으로 나누고, 효율적으로 수행할 수 있습니다.** 아래는 실제 사용사례에서 todo.md 파일을 캡처한 것입니다. 마크다운 형식으로 되어 있으며, 진행 완료가 된 것은 X표시로 되어 있는 것을 확인할 수 있습니다. 이후 과정에서는 이 todo.md 파일을 참고하여 각 단계별로 작업을 수행합니다.
 
-![매너스 계획 생성](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_1.png)
+![매너스 계획 생성](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_1.jpg)
 
 ### **sandbox: AI의 실행 환경**  
 
 sandbox는 AI가 데이터를 처리하거나 프로그램을 실행하는 독립적인 환경입니다. 매너스는 특정 작업을 수행할 때, 실제 코드 실행이 필요한 경우가 많습니다. 이때 안전하고 격리된 환경에서 작업을 수행하기 위해 sandbox를 활용합니다. sandbox를 사용하면 AI가 실제 컴퓨터 환경을 구성하고, 파일을 생성하거나 코드를 실행할 수 있습니다. 아래는 실제 사용사례에서 sandbox 위에서 터미널이 실행되는 모습을 캡처한 것입니다. 
 
-![매너스 실행 환경](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_2.png)
-
+![매너스 실행 환경](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_2.jpg)
 
 ### **tool: AI가 활용하는 도구**  
 
@@ -105,7 +104,7 @@ data_api는 매너스가 **외부 데이터에 접근하고 활용하기 위한 
 
 이 API들은 매너스가 **빠르게 정보를 검색하고, 데이터를 분석하며, 실시간으로 활용할 수 있도록 지원합니다.** 아래는 주식관련된 정보를 내부 data_api를 통해서 가지고 오는 모습을 캡처한 것입니다. 
 
-![매너스 데이터 API](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_3.png)
+![매너스 데이터 API](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_3.jpg)
 
 ### **knowledge: AI의 지식 저장소**
 
