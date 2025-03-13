@@ -20,7 +20,7 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_ti
 
 ## 쿼리들 목록
 
-지금까지 나온 활용사례를 대상으로 쿼리들을 모아보았습니다.
+지금까지 나온 활용사례를 대상으로 쿼리들을 모아보았습니다. UseCase도 함께 표시해봤습니다. 사례별로 어떤 쿼리가 나오는지 확인해보세요.
 
 |Query|Usecase|검색어|사용 사례|
 |-|-|-|-|
