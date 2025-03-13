@@ -12,6 +12,8 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_man
 
 <iframe width="100%" height="400" src="https://youtube.com/embed/..." title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-in_depth_analysis_of_manus_technology_and_architecture_11.jpg)
+
 이러한 구조 덕분에 매너스는 단순한 질문 응답을 넘어 **검색, 데이터 분석, 문서 작성, 프로그래밍 실행** 등 다양한 기능을 수행할 수 있으며, 이를 지원하는 **도구(tool)**도 제공합니다.  
 
 ## 매너스의 핵심 개념  

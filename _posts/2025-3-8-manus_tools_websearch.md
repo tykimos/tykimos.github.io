@@ -10,6 +10,10 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_ti
 
 웹검색 도구는 매너스가 사용자의 요구를 분석한 후, 인터넷 검색이 필요하다고 판단했을 때 자동으로 호출되는 핵심 기능입니다. 이 도구는 실제 검색 엔진(예: 구글, 빙, 네이버 등)과 유사한 방식으로 작동하며, 사용자가 입력한 검색 쿼리를 기반으로 웹 검색을 수행하고, 그 결과 목록을 에이전트 내부로 가져옵니다. 이후 필요한 경우 브라우저 도구를 통해 해당 링크를 좀 더 구체적으로 탐색할 수 있습니다.
 
+<iframe width="100%" height="400" src="https://youtube.com/embed/..." title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_3.jpg)
+
 아래는 그 과정을 도식화 한 것입니다. 검색 결과를 받은 뒤에 해당 링크를 좀 더 깊게 확인하기 위해서는 브라우저 도구를 사용합니다. 브라우저 도구에 대해서는 [매너스 도구들 - 브라우저](https://tykimos.github.io/2025/03/08/manus_tools_browser)에서 살펴보도록 하겠습니다.
 
 ![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_websearch_1.jpg)
