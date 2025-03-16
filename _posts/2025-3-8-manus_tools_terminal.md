@@ -121,6 +121,16 @@ mkdir -p를 통해 폴더를 생성하여 향후 문서파일을 저장할 구�
 
 ![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_7.jpg)
 
+### 다이어그램 생성 (Python 기반)
+
+터미널을 통해서 다이어그램을 생성할 수 있습니다. 다이어그램은 파이썬의 matplotlib 라이브러리를 통해 생성합니다. 아래 화면은 다이어그램을 그리기 위해 파이썬 스크립트를 생성하는 모습입니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_8.jpg)
+
+아래 그림을 통해 생성한 다이어그램입니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_9.jpg)
+
 ---
 
 ## 마무리

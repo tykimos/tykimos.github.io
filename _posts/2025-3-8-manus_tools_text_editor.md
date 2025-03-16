@@ -123,6 +123,62 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_
 
 ![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_7.jpg)
 
+
+### Markdown Extended (mdx) 문서 작성
+
+MDX는 Markdown Extended의 약자로, 일반 Markdown(`.md`)에 JSX(JavaScript XML) 문법을 추가로 지원하는 확장 포맷입니다. 매너스는 이러한 MDX 문서 작성과 편집도 원활하게 지원합니다.
+
+**MDX의 주요 특징:**
+- Markdown 기본 문법과 JSX 구문을 함께 사용 가능
+- React 컴포넌트를 문서 내에 직접 삽입 가능
+- 동적 콘텐츠를 포함한 기술 문서 작성에 최적화
+
+**활용 사례:**
+- Next.js, Gatsby 등 React 기반 프레임워크의 문서화
+- 대화형 기술 문서 작성
+- 컴포넌트 라이브러리 예제 구현 (Storybook)
+- 프레젠테이션 슬라이드 제작 (MDX Deck)
+
+다음은 매너스가 작성한 MDX 문서 예시입니다. 차트인 경우 마우스를 올리면 해당 영역의 값을 확인할 수 있습니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_8.jpg)
+
+### PDF 읽기
+
+사용자가 PDF 파일을 업로드했을 경우, 터미널에서 pdftotext 명령어를 통해 PDF 파일을 텍스트로 변환합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_9.jpg)
+
+### 환경 설정
+
+매너스는 분석을 위한 환경을 설정할 때 디스크 용량을 고려하여 최적의 라이브러리를 사용합니다. 
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_10.jpg)
+
+### 음성 인식 및 타입스탬프 추출
+
+매너스는 음성 인식 및 타입스탬프 추출할 때 터미널을 사용합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_11.jpg)
+
+### 다양한 데이터 시각화 생성
+
+매너스는 matplotlib 라이브러리를 통해 다양한 데이터 시각화 이미지를 생성합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_12.jpg)
+
+### 아이콘 생성
+
+매너스는 웹사이트를 분석해서 다양한 아이콘셋을 생성합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_13.jpg)
+
+### 웹사이트 배포
+
+매너스는 웹사이트를 생성하여 배포까지 진행합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_text_editor_14.jpg)
+
 ---
 
 ## 효과적인 활용 전략
