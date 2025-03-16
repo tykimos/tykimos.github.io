@@ -87,112 +87,61 @@ image: http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_tit
 
 매너스가 터미널을 어떻게 활용하여 작업을 자동화하는지 예시를 통해 확인해보겠습니다.
 
-### 예시 1. 디렉터리 생성
+### 디렉터리 생성
 
-- **파일명:** gEB0v1elxoKSESkfREyXZ7.json  
 - **Message Action:** Executing command  
 - **Terminal Action:** execute  
 - **명령어:** `mkdir -p openai_org_chart`
 
-```json
-"description": "Executed command `mkdir -p openai_org_chart`",
-"message": {
-  "action": "Executing command",
-  "param": "mkdir -p openai_org_chart"
-}
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_4.jpg)
 
-mkdir -p를 통해 폴더를 생성하여 향후 문서파일을 저장할 구조를 만듭니다.
-프로젝트 초기화나 환경 셋업 스크립트에서 자주 등장합니다.
+mkdir -p를 통해 폴더를 생성하여 향후 문서파일을 저장할 구조를 만듭니다. 프로젝트 초기화나 환경 셋업 스크립트에서 자주 등장합니다.
 
-### 예시 2. 패키지 설치
-파일명: AN3pVVcq4qHnWbC55XhAYB.json
-Message Action: Executing command
-Terminal Action: execute
-명령어: pip3 install pandas openpyxl matplotlib
-json
-복사
-"description": "Executed command `pip3 install pandas openpyxl matplotlib`"
-파이썬 라이브러리 설치 명령으로, 데이터 처리와 시각화를 위한 기본 라이브러리 사용 준비를 마칩니다.
-매너스는 이 과정을 자동으로 진행해, 분석 환경을 빠르게 구축할 수 있습니다.
+### 패키지 설치
 
-### 예시 3. Python 스크립트 단발 실행
-파일명: AN3pVVcq4qHnWbC55XhAYB.json
-Message Action: Executing command
-Terminal Action: execute
-명령어:
-bash
-복사
-python3 -c "import pandas as pd; print(pd.read_excel('/home/ubuntu/upload/interview_survey_final.xlsx').head())"
-json
-복사
-"param": "python3 -c \"import pandas as pd; print(pd.read_excel('/home/ubuntu/upload/interview_survey_final.xlsx').head())\""
-터미널에서 파이썬 단발성 스크립트(-c 옵션)를 통해 엑셀 파일의 상위 5행을 출력합니다.
-빠른 데이터 확인 및 디버깅에 매우 유용합니다.
+- **Message Action:** Executing command  
+- **Terminal Action:** execute  
+- **명령어:** `pip3 install pandas openpyxl matplotlib`
 
-### 예시 4. 스크립트 파일 실행 + 대기
-파일명: AN3pVVcq4qHnWbC55XhAYB.json
-명령어: python3 /home/ubuntu/analyze_survey.py
-설명: "Executing command python3 /home/ubuntu/analyze_survey.py and waited 30 seconds"
-json
-복사
-"detail": {
-  "terminal": {
-    "action": "execute",
-    "finished": false,
-    "shellId": "shell1",
-    "command": "python3 /home/ubuntu/analyze_survey.py"
-  }
-}
-장시간 걸리는 스크립트(분석, 모델 학습)를 실행 후 대기 상태에 들어갑니다.
-일정 시간(30초)이 지났는데도 결과가 없으면 진행 상황을 재점검하거나 중단할 수 있습니다.
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_5.jpg)
 
-### 예시 5. Python 스크립트 재실행
-파일명: AN3pVVcq4qHnWbC55XhAYB.json
-Message Action: Executing command
-Terminal Action: execute
-명령어:
-bash
-복사
-python3 -c "import pandas as pd; df = pd.read_excel('/home/ubuntu/upload/interview_survey_final.xlsx'); print(df)"
-이전 단계에서 설치한 pandas 및 openpyxl 라이브러리를 활용해 엑셀 내용을 전체 출력합니다.
-이처럼 매너스는 프로젝트 환경을 자동 구성한 뒤, 데이터 처리→결과 확인 과정을 쉼 없이 이어갈 수 있습니다.
+파이썬 라이브러리 설치 명령으로, 데이터 처리와 시각화를 위한 기본 라이브러리 사용 준비를 마칩니다. 매너스는 이 과정을 자동으로 진행해, 분석 환경을 빠르게 구축할 수 있습니다.
 
----
+### Python 스크립트 단발 실행
 
-## 터미널 도구 활용 전략
+- **Message Action:** Executing command  
+- **Terminal Action:** execute  
+- **명령어:** `python3 -c "import pandas as pd; print(pd.read_excel('/home/ubuntu/upload/interview_survey_final.xlsx').head())"`
 
-프로젝트 초기화
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_6.jpg)
 
-디렉터리 생성(mkdir -p), git clone 등을 통해 코드 저장소를 초기화
-pip3 install 명령어로 필요한 라이브러리를 자동 설치
-데이터 분석 자동화
+터미널에서 파이썬 단발성 스크립트(-c 옵션)를 통해 엑셀 파일의 상위 5행을 출력합니다. 빠른 데이터 확인 및 디버깅에 매우 유용합니다.
 
-Python 스크립트를 실행하여 CSV/Excel 데이터를 전처리, 통계 분석, 시각화
-일회성 스크립트(python3 -c "...")를 통해 결과를 빠르게 확인
-장시간 작업 관리
+위 예시에서는 사용자가 파일을 첨부하는 것부터 시작하는 데요. 이 과정을 참고로 살펴보도록 하겠습니다. 사용자가 파일을 첨부하면 샌드박스를 초기화한다음 파일을 업로드 합니다. 그 다음 터미널이 해당 파일을 읽기 위한 패키지를 샌드박스에 설치합니다. 그 후 파일을 읽은 다음 그 내용을 오케스트레이터에게 전달합니다. 
 
-대기(wait) 및 프로세스 종료(kill_process) 기능을 통해 장기 분석이나 모델 트레이닝을 모니터링
-중간 점검이 필요할 때 결과를 부분 출력하거나, 일정 시간이 지나면 자동 중단
-CI/CD 파이프라인 연계
-
-터미널을 이용해 테스트 실행, 도커 이미지 빌드, 서버 배포 등 DevOps 작업을 자동화
-AI가 빌드 실패 원인을 분석하고, 수정할 부분을 찾아주는 방식과도 연계 가능
-오류 처리
-
-Handling terminal error 로그를 통해 오류 발생 시점과 내용을 추적
-필요한 경우 재시도, 대체 명령 실행, 또는 사용자 알림
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_7.jpg)
 
 ---
 
 ## 마무리
 
-매너스의 터미널(Terminal) 도구는 시스템 명령어 실행을 자동화해 개발, 배포, 데이터 분석 등 다양한 업무의 생산성을 높여줍니다. 특히 다음과 같은 장점이 돋보입니다:
+매너스의 터미널(Terminal) 도구는 시스템 명령어 실행을 자동화해 개발, 배포, 데이터 분석 등 다양한 업무의 생산성을 높여줍니다.
 
-다양한 환경에 즉시 적용 가능: 리눅스 기반 서버, 도커 컨테이너, 클라우드 인스턴스 등에서 동일하게 작동
-유연한 명령 체인 구성: 라이브러리 설치 → 스크립트 실행 → 결과 파일 처리 등 순차적 자동화
-장시간 작업 대응: 명령어 대기와 프로세스 강제 종료를 통해 안정적으로 작업을 제어
-CI/CD 및 DevOps 파이프라인과 연동: 테스트, 빌드, 배포 과정을 AI가 자동화
-앞으로도 매너스는 터미널 도구를 더욱 고도화해, 서버 및 클라우드 환경 전반에 걸쳐 원격 조작 및 관리를 지원하도록 발전해 나갈 것으로 기대합니다. 🚀
+- 프로젝트 초기화
+-- 디렉터리 생성(mkdir -p), git clone 등을 통해 코드 저장소를 초기화
+-- pip3 install 명령어로 필요한 라이브러리를 자동 설치
+
+- 데이터 분석 자동화
+-- Python 스크립트를 실행하여 CSV/Excel 데이터를 전처리, 통계 분석, 시각화
+-- 일회성 스크립트(python3 -c "...")를 통해 결과를 빠르게 확인
+
+- 장시간 작업 관리
+-- 대기(wait) 및 프로세스 종료(kill_process) 기능을 통해 장기 분석이나 모델 트레이닝을 모니터링
+-- 중간 점검이 필요할 때 결과를 부분 출력하거나, 일정 시간이 지나면 자동 중단
+
+- 오류 처리
+-- Handling terminal error 로그를 통해 오류 발생 시점과 내용을 추적
+-- 필요한 경우 재시도, 대체 명령 실행, 또는 사용자 알림
 
 ## 함께 읽기
 
