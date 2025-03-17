@@ -131,6 +131,42 @@ mkdir -p를 통해 폴더를 생성하여 향후 문서파일을 저장할 구�
 
 ![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_9.jpg)
 
+### 마누스 샌드박스 용량 체크
+
+프로젝트를 구성하거나 패키지를 설치할 가용한 용량을 사전에 체크합니다. 현재 샌드박스는 13G의 용량으로 제공되고 있습니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_10.jpg)
+
+### 음성 인식 및 텍스트 추출
+
+음성 인식 및 텍스트 추출을 위해 터미널을 호출합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_11.jpg)
+
+### 히트맵 시각화
+
+데이터를 분석하여 다양한 시각화 처리를 수행합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_12.jpg)
+
+### 아이콘 셋 생성
+
+웹사이트를 분석해서 다양한 아이콘셋을 생성합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_13.jpg)
+
+### 웹사이트 배포
+
+웹사이트를 생성하여 배포까지 진행합니다.
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_14.jpg)
+
+![img](http://tykimos.github.io/warehouse/2025/2025-3-8-manus_tools_terminal_15.jpg)
+
+위 예시에서 실제로 배포된 웹사이트는 아래 링크에서 확인할 수 있습니다.
+* [Quantum Computing Learning Hub](https://evvqfqoz.manus.space/)
+* [Rubber Mats Price Comparison Dashboard](https://zvgzsafz.manus.space/)
+
 ---
 
 ## 마무리
