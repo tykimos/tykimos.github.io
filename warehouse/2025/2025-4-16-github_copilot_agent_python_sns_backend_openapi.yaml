@@ -1,0 +1,524 @@
+openapi: 3.0.3
+info:
+  title: "Simple SNS API"
+  description: "SNS 앱 개발을 위한 CRUD API (초보자용 예시)"
+  version: "1.0.0"
+
+servers:
+  - url: http://localhost:8000
+    description: 로컬 개발 서버
+
+tags:
+  - name: "Posts"
+    description: "포스트(Post) 관련 API"
+  - name: "Comments"
+    description: "댓글(Comment) 관련 API"
+  - name: "Likes"
+    description: "좋아요(Like) 관련 API"
+
+paths:
+  /api/posts:
+    get:
+      tags: ["Posts"]
+      summary: 모든 포스트 목록 조회
+      operationId: getPosts
+      responses:
+        "200":
+          description: 포스트 목록 조회 성공
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Post"
+    post:
+      tags: ["Posts"]
+      summary: 새 포스트 작성
+      operationId: createPost
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreatePostRequest"
+      responses:
+        "201":
+          description: 포스트 작성 성공
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+        "400":
+          description: 잘못된 요청
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/posts/{postId}:
+    get:
+      tags: ["Posts"]
+      summary: 특정 포스트 조회
+      operationId: getPost
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 조회하려는 포스트의 ID
+      responses:
+        "200":
+          description: 포스트 조회 성공
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    patch:
+      tags: ["Posts"]
+      summary: 특정 포스트 수정
+      operationId: updatePost
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 수정하려는 포스트의 ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdatePostRequest"
+      responses:
+        "200":
+          description: 포스트 수정 성공
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+        "400":
+          description: 잘못된 요청
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    delete:
+      tags: ["Posts"]
+      summary: 특정 포스트 삭제
+      operationId: deletePost
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 삭제하려는 포스트의 ID
+      responses:
+        "204":
+          description: 포스트 삭제 성공
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/posts/{postId}/comments:
+    get:
+      tags: ["Comments"]
+      summary: 특정 포스트의 댓글 목록 조회
+      operationId: getComments
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 댓글을 조회할 대상 포스트 ID
+      responses:
+        "200":
+          description: 댓글 목록 조회 성공
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Comment"
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    post:
+      tags: ["Comments"]
+      summary: 특정 포스트에 댓글 작성
+      operationId: createComment
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 댓글을 작성할 대상 포스트 ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateCommentRequest"
+      responses:
+        "201":
+          description: 댓글 작성 성공
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Comment"
+        "400":
+          description: 잘못된 요청
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/posts/{postId}/comments/{commentId}:
+    get:
+      tags: ["Comments"]
+      summary: 특정 댓글 조회
+      operationId: getComment
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 댓글이 달린 포스트의 ID
+        - name: commentId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 조회하려는 댓글의 ID
+      responses:
+        "200":
+          description: 댓글 조회 성공
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Comment"
+        "404":
+          description: 댓글 또는 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    patch:
+      tags: ["Comments"]
+      summary: 특정 댓글 수정
+      operationId: updateComment
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 댓글이 달린 포스트의 ID
+        - name: commentId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 수정하려는 댓글의 ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateCommentRequest"
+      responses:
+        "200":
+          description: 댓글 수정 성공
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Comment"
+        "400":
+          description: 잘못된 요청
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: 댓글 또는 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    delete:
+      tags: ["Comments"]
+      summary: 특정 댓글 삭제
+      operationId: deleteComment
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 댓글이 달린 포스트의 ID
+        - name: commentId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 삭제하려는 댓글의 ID
+      responses:
+        "204":
+          description: 댓글 삭제 성공
+        "404":
+          description: 댓글 또는 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/posts/{postId}/likes:
+    post:
+      tags: ["Likes"]
+      summary: 특정 포스트에 좋아요
+      operationId: likePost
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 좋아요를 누를 포스트의 ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LikeRequest"
+      responses:
+        "201":
+          description: 좋아요 성공
+        "400":
+          description: 잘못된 요청
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    delete:
+      tags: ["Likes"]
+      summary: 특정 포스트의 좋아요 취소
+      operationId: unlikePost
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: 좋아요를 취소할 포스트의 ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UnlikeRequest"
+      responses:
+        "204":
+          description: 좋아요 취소 성공
+        "400":
+          description: 잘못된 요청
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: 포스트를 찾을 수 없음
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+components:
+  schemas:
+    # -------------------
+    # 포스트 관련
+    # -------------------
+    Post:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        userName:
+          type: string
+          example: "alice"
+        content:
+          type: string
+          example: "Hello, this is my first post!"
+        createdAt:
+          type: string
+          format: date-time
+          example: "2025-01-01T12:34:56Z"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2025-01-01T12:40:00Z"
+        likeCount:
+          type: integer
+          example: 3
+        commentCount:
+          type: integer
+          example: 10
+      required:
+        - id
+        - userName
+        - content
+        - createdAt
+        - updatedAt
+        - likeCount
+        - commentCount
+
+    CreatePostRequest:
+      type: object
+      required:
+        - userName
+        - content
+      properties:
+        userName:
+          type: string
+          example: "alice"
+        content:
+          type: string
+          example: "Hello, this is my first post!"
+
+    UpdatePostRequest:
+      type: object
+      properties:
+        content:
+          type: string
+          example: "Updated content of the post"
+      required:
+        - content
+
+    # -------------------
+    # 댓글 관련
+    # -------------------
+    Comment:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 100
+        postId:
+          type: integer
+          example: 1
+        userName:
+          type: string
+          example: "bob"
+        content:
+          type: string
+          example: "Nice post!"
+        createdAt:
+          type: string
+          format: date-time
+          example: "2025-01-01T13:00:00Z"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2025-01-01T13:10:00Z"
+      required:
+        - id
+        - postId
+        - userName
+        - content
+        - createdAt
+        - updatedAt
+
+    CreateCommentRequest:
+      type: object
+      required:
+        - userName
+        - content
+      properties:
+        userName:
+          type: string
+          example: "bob"
+        content:
+          type: string
+          example: "Nice post!"
+
+    UpdateCommentRequest:
+      type: object
+      properties:
+        content:
+          type: string
+          example: "Updated comment."
+      required:
+        - content
+
+    # -------------------
+    # 좋아요 관련
+    # -------------------
+    LikeRequest:
+      type: object
+      required:
+        - userName
+      properties:
+        userName:
+          type: string
+          example: "charlie"
+
+    UnlikeRequest:
+      type: object
+      required:
+        - userName
+      properties:
+        userName:
+          type: string
+          example: "charlie"
+
+    # -------------------
+    # 에러 응답 예시
+    # -------------------
+    ErrorResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "Bad Request or Not Found"
+      required:
+        - message
