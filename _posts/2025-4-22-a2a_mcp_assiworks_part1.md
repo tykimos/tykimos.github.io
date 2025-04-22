@@ -7,6 +7,7 @@ categories: [A2A, MCP, Earthworks]
 comments: true
 image: https://cdn.aifactory.space/images/20250422213239_Tfhx.png
 ---
+안녕하세요. 김태영입니다. 이번에는 일반인들도 A2A와 MCP 개념을 익힐 수 있도록 간단하게 영상으로 만들어봤습니다. 영상은 개념 설명에 집중했고, 본 글은 영상 개념을 바탕으로 추가 정보를 수집하여 기술했습니다.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ll6PhsEOF1E?si=ZCVrDLZVk7MsLTqF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
