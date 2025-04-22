@@ -8,6 +8,8 @@ comments: true
 image: https://cdn.aifactory.space/images/20250422213239_Tfhx.png
 ---
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ll6PhsEOF1E?si=ZCVrDLZVk7MsLTqF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
 # LLM의 등장과 활용 방식의 변화
 
 몇 년 전만 해도 인공지능과 대화한다는 것은 SF 영화 같은 이야기였습니다. 하지만 GPT-3와 GPT-4 같은 **대규모 언어 모델(LLM)**의 등장으로 이내 현실이 되었죠. LLM은 방대한 데이터로 학습되어 사람이 묻는 거의 모든 질문에 그럴듯한 대답을 내놓을 수 있게 되었습니다. 초창기에는 주로 질문에 답하거나, 글을 요약·생성하는 챗봇이나 AI 비서 형태로 활용됐습니다. 예를 들어 ChatGPT는 사람과 대화를 주고받으며 지식을 전달하는 역할을 했고, 개발자들은 코드 작성 보조 도구(Copilot)로 활용하며 편리함을 느꼈습니다. 
