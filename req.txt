@@ -65,5 +65,5 @@ singledispatch==3.4.0.3
 six==1.10.0
 terminado==0.6
 Theano==0.8.2
-tornado==4.4
+tornado==6.3.3
 traitlets==4.2.2
